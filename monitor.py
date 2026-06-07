@@ -41,7 +41,7 @@ def get_items():
     headers = {"User-Agent": "Mozilla/5.0"}
     r = requests.get(WISHLIST_URL, headers=headers)
     with open("amazon_page.html", "w", encoding="utf-8") as f:
-    f.write(r.text)
+        f.write(r.text)
     soup = BeautifulSoup(r.text, "lxml")
 
     items = []
