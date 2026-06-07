@@ -40,28 +40,12 @@ def save_prices(data):
 def get_items():
     headers = {"User-Agent": "Mozilla/5.0"}
     r = requests.get(WISHLIST_URL, headers=headers)
-    with open("amazon_page.html", "w", encoding="utf-8") as f:
-        f.write(r.text)
+
+    print("STATUS:", r.status_code)
+    print(r.text[:2000])
+
     soup = BeautifulSoup(r.text, "lxml")
-
-    items = []
-
-    for row in soup.select("li.g-item-sortable"):
-        title = row.select_one(".a-link-normal")
-        price = row.select_one(".a-price .a-offscreen")
-
-        if not title or not price:
-            continue
-
-        name = title.text.strip()
-        try:
-            current_price = float(price.text.replace("€", "").replace(",", ".").strip())
-        except:
-            continue
-
-        items.append((name, current_price))
-
-    return items
+    ...
 
 
 def main():
