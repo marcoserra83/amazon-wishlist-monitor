@@ -28,6 +28,7 @@ def send_email(body):
 def load_old_prices():
     if not os.path.exists(DATA_FILE):
         return {}
+
     with open(DATA_FILE, "r") as f:
         return json.load(f)
 
@@ -35,6 +36,51 @@ def load_old_prices():
 def save_prices(data):
     with open(DATA_FILE, "w") as f:
         json.dump(data, f)
+
+
+def get_items():
+    headers = {
+        "User-Agent": "Mozilla/5.0"
+    }
+
+    r = requests.get(WISHLIST_URL, headers=headers)
+    soup = BeautifulSoup(r.text, "lxml")
+
+    items = []
+
+    for row in soup.select("li.g-item-sortable"):
+        price = row.select_one(".a-price .a-offscreen")
+        title = row.select_one("a.a-link-normal")
+
+        if not price:
+            continue
+
+        name = ""
+
+        if title:
+            name = title.get("title", "").strip()
+
+        if not name:
+            name = "PRODOTTO_SENZA_NOME"
+
+        try:
+            current_price = float(
+                price.get_text(strip=True)
+                .replace("€", "")
+                .replace(",", ".")
+            )
+        except:
+            continue
+
+        items.append((name, current_price))
+
+    print("ITEM TROVATI:", items)
+
+    return items
+
+
+def main():
+    old        json.dump(data, f)
 
 
 def get_items():
