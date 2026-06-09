@@ -54,24 +54,27 @@ def get_items():
     items = []
 
     for row in soup.select("li.g-item-sortable"):
-        title = row.select_one(".a-link-normal")
-        price = row.select_one(".a-price .a-offscreen")
+    price = row.select_one(".a-price .a-offscreen")
 
-        if not title or not price:
-            continue
+    if not price:
+        continue
 
-        name = title.get_text(strip=True)
+    print("ROW HTML:")
+    print(str(row)[:1500])
+    print("-----")
 
-        try:
-            current_price = float(
-                price.get_text(strip=True)
-                .replace("€", "")
-                .replace(",", ".")
-            )
-        except:
-            continue
+    name = "PRODOTTO_NON_TROVATO"
 
-        items.append((name, current_price))
+    try:
+        current_price = float(
+            price.get_text(strip=True)
+            .replace("€", "")
+            .replace(",", ".")
+        )
+    except:
+        continue
+
+    items.append((name, current_price))
 
     print("ITEM TROVATI:", items)
 
