@@ -5,6 +5,7 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
+import re
 
 WISHLIST_URL = "https://www.amazon.it/hz/wishlist/ls/3UN1OP09AA54H?ref_=wl_share"
 
@@ -152,7 +153,15 @@ def get_items():
     soup = BeautifulSoup(html, "lxml")
     items = []
 
-    print("[DEBUG] Parsing degli item...")
+    print("\n[DEBUG] ===== SCANNING DI TUTTI I PREZZI TROVATI =====")
+    # Stampa TUTTI gli elementi con prezzi trovati
+    all_prices = soup.find_all(string=re.compile(r'€\s*\d+[.,]\d{2}'))
+    print(f"[DEBUG] Trovati {len(all_prices)} elementi con formato €X.XX")
+    for idx, price_elem in enumerate(all_prices[:20]):  # Primi 20
+        print(f"[DEBUG] Prezzo #{idx}: '{price_elem.strip()}' - Contesto: {price_elem.parent.name}")
+    print("[DEBUG] ===== FINE SCANNING PREZZI =====\n")
+
+    print("[DEBUG] Parsing degli item della wishlist...")
     for idx, row in enumerate(soup.select("li.g-item-sortable")):
         title_elem = row.select_one("a.a-link-normal")
         
@@ -166,6 +175,11 @@ def get_items():
 
         print(f"\n[DEBUG] ===== Item #{idx}: {name} =====")
 
+        # Stampa tutti i prezzi trovati in questo item
+        print(f"[DEBUG] Tutti i testi con € in questo item:")
+        for price_idx, elem in enumerate(row.find_all(string=re.compile(r'€'))):
+            print(f"[DEBUG]   [{price_idx}] '{elem.strip()}' (tag: {elem.parent.name}, classe: {elem.parent.get('class', [])})")
+
         # Prova a trovare il prezzo - molteplici selettori
         price_elem = None
         price_text = None
@@ -174,35 +188,31 @@ def get_items():
         price_elem = row.select_one(".a-price .a-offscreen")
         if price_elem:
             price_text = price_elem.get_text(strip=True)
-            print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 1)")
+            print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 1: .a-price .a-offscreen)")
+            print(f"[DEBUG]   Elemento parent HTML: {price_elem.parent}")
         
         # Strategia 2: .a-price-whole
         if not price_elem:
             price_elem = row.select_one(".a-price-whole")
             if price_elem:
                 price_text = price_elem.get_text(strip=True)
-                print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 2)")
+                print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 2: .a-price-whole)")
         
-        # Strategia 3: cerca qualsiasi elemento con € (prezzo)
+        # Strategia 3: cerca il primo elemento con € più vicino al titolo
         if not price_elem:
-            for elem in row.find_all(string=lambda text: text and '€' in text):
-                if elem:
+            price_container = row.select_one(".a-price")
+            if price_container:
+                for elem in price_container.find_all(string=re.compile(r'€')):
                     price_text = elem.strip()
-                    print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 3 - testo con €)")
+                    print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 3: primo € in .a-price)")
                     break
         
         if not price_text:
             print(f"[DEBUG] Item #{idx}: Nessun prezzo trovato, skip")
-            print(f"[DEBUG] HTML dell'item:\n{row.prettify()[:500]}")
             continue
 
         try:
             print(f"[DEBUG] Item #{idx}: Prezzo grezzo trovato: '{price_text}'")
-            
-            # Stampa il contenitore del prezzo per debug
-            price_container = row.select_one(".a-price")
-            if price_container:
-                print(f"[DEBUG] Item #{idx}: Prezzo container trovato")
             
             # Estrai il valore numerico
             current_price = float(
