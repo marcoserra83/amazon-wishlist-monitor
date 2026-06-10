@@ -46,14 +46,14 @@ def save_prices(data):
     print("[DEBUG] Prezzi salvati con successo")
 
 
-def save_debug_output(html, screenshot_path=None):
+def save_debug_output(html, screenshot_path=None, prefix="page"):
     """Salva l'HTML e lo screenshot per debug"""
     os.makedirs(DEBUG_DIR, exist_ok=True)
     
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
     # Salva HTML
-    html_path = os.path.join(DEBUG_DIR, f"page_{timestamp}.html")
+    html_path = os.path.join(DEBUG_DIR, f"{prefix}_{timestamp}.html")
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"[DEBUG] HTML salvato: {html_path}")
@@ -61,9 +61,87 @@ def save_debug_output(html, screenshot_path=None):
     # Salva screenshot se fornito
     if screenshot_path:
         import shutil
-        dest_path = os.path.join(DEBUG_DIR, f"screenshot_{timestamp}.png")
+        dest_path = os.path.join(DEBUG_DIR, f"screenshot_{prefix}_{timestamp}.png")
         shutil.copy(screenshot_path, dest_path)
         print(f"[DEBUG] Screenshot salvato: {dest_path}")
+
+
+def get_product_price(page, product_url, product_name):
+    """Estrae il prezzo dalla pagina prodotto"""
+    print(f"[DEBUG]   Navigazione a pagina prodotto: {product_url}")
+    
+    try:
+        page.goto(product_url, wait_until="networkidle", timeout=20000)
+    except Exception as e:
+        print(f"[DEBUG]   Errore nella navigazione: {e}")
+        return None
+    
+    # Attendi caricamento prezzo
+    try:
+        page.wait_for_selector(".a-price-whole", timeout=10000)
+    except:
+        print(f"[DEBUG]   Selettore prezzo non trovato")
+        return None
+    
+    page.wait_for_timeout(1000)
+    
+    html = page.content()
+    soup = BeautifulSoup(html, "lxml")
+    
+    # Salva debug
+    screenshot_path = f"/tmp/product_{product_name.replace(' ', '_')}.png"
+    try:
+        page.screenshot(path=screenshot_path)
+    except:
+        screenshot_path = None
+    save_debug_output(html, screenshot_path, prefix=f"product_{product_name[:20]}")
+    
+    # Estrattore prezzo - prova molteplici strategie
+    price_text = None
+    
+    # Strategia 1: prezzo principale nella sezione con id "a-price-whole"
+    price_elem = soup.select_one(".a-price-whole")
+    if price_elem:
+        price_text = price_elem.get_text(strip=True)
+        print(f"[DEBUG]   Prezzo trovato (strategia 1): {price_text}")
+    
+    # Strategia 2: cerca l'elemento con id "corePriceDisplay"
+    if not price_text:
+        price_elem = soup.select_one("#corePriceDisplay_desktop_feature_div .a-offscreen")
+        if price_elem:
+            price_text = price_elem.get_text(strip=True)
+            print(f"[DEBUG]   Prezzo trovato (strategia 2): {price_text}")
+    
+    # Strategia 3: primo .a-offscreen con €
+    if not price_text:
+        for elem in soup.find_all(string=re.compile(r'€\s*\d+[.,]\d{2}')):
+            price_text = elem.strip()
+            print(f"[DEBUG]   Prezzo trovato (strategia 3): {price_text}")
+            break
+    
+    if not price_text:
+        print(f"[DEBUG]   Nessun prezzo trovato sulla pagina prodotto")
+        return None
+    
+    try:
+        current_price = float(
+            price_text
+            .replace("€", "")
+            .replace(",", ".")
+            .replace(" ", "")
+            .strip()
+        )
+        
+        if current_price <= 0:
+            print(f"[DEBUG]   Prezzo non valido: {current_price}")
+            return None
+        
+        print(f"[DEBUG]   Prezzo finale estratto = €{current_price:.2f} ✓")
+        return current_price
+        
+    except Exception as e:
+        print(f"[DEBUG]   Errore nel parsing prezzo: {e}")
+        return None
 
 
 def get_items():
@@ -93,51 +171,28 @@ def get_items():
             });
         """)
         
-        print("[DEBUG] Navigazione alla pagina con timeout 30s...")
+        print("[DEBUG] Navigazione alla pagina wishlist...")
         try:
             page.goto(WISHLIST_URL, wait_until="networkidle", timeout=30000)
         except Exception as e:
             print(f"[DEBUG] Errore durante navigazione: {e}")
-            html = page.content()
-            screenshot_path = "/tmp/wishlist_screenshot_error.png"
-            try:
-                page.screenshot(path=screenshot_path)
-            except:
-                pass
-            save_debug_output(html, screenshot_path)
             browser.close()
             raise
         
-        print("[DEBUG] Attesa caricamento prezzi...")
+        print("[DEBUG] Attesa caricamento wishlist...")
         try:
-            # Prova con il selettore principale
-            page.wait_for_selector(".a-price .a-offscreen", timeout=20000)
-            print("[DEBUG] Prezzi trovati con selettore .a-price .a-offscreen")
+            page.wait_for_selector("li.g-item-sortable", timeout=20000)
         except:
-            print("[DEBUG] Selettore principale non trovato, provo selettori alternativi...")
-            try:
-                # Fallback: prova altri selettori
-                page.wait_for_selector(".a-price-whole", timeout=10000)
-                print("[DEBUG] Prezzi trovati con selettore alternativo .a-price-whole")
-            except:
-                print("[DEBUG] Nessun selettore di prezzo trovato!")
-                html = page.content()
-                screenshot_path = "/tmp/wishlist_screenshot_notfound.png"
-                try:
-                    page.screenshot(path=screenshot_path)
-                except:
-                    pass
-                save_debug_output(html, screenshot_path)
-                browser.close()
-                raise Exception("Impossibile trovare i prezzi sulla pagina")
+            print("[DEBUG] Nessun item trovato sulla wishlist!")
+            browser.close()
+            raise Exception("Impossibile trovare item sulla wishlist")
         
-        # Attendi un po' extra per essere sicuri che tutto sia caricato
-        page.wait_for_timeout(3000)
+        page.wait_for_timeout(2000)
         
-        print("[DEBUG] Estrazione contenuto HTML...")
+        print("[DEBUG] Estrazione contenuto HTML wishlist...")
         html = page.content()
         
-        # Salva screenshot
+        # Salva screenshot wishlist
         screenshot_path = "/tmp/wishlist_screenshot.png"
         try:
             page.screenshot(path=screenshot_path)
@@ -145,100 +200,51 @@ def get_items():
             print(f"[DEBUG] Errore nel salvataggio screenshot: {e}")
             screenshot_path = None
         
-        browser.close()
-    
-    # Salva debug output
-    save_debug_output(html, screenshot_path)
-    
-    soup = BeautifulSoup(html, "lxml")
-    items = []
-
-    print("\n[DEBUG] ===== SCANNING DI TUTTI I PREZZI TROVATI =====")
-    # Stampa TUTTI gli elementi con prezzi trovati
-    all_prices = soup.find_all(string=re.compile(r'€\s*\d+[.,]\d{2}'))
-    print(f"[DEBUG] Trovati {len(all_prices)} elementi con formato €X.XX")
-    for idx, price_elem in enumerate(all_prices[:20]):  # Primi 20
-        print(f"[DEBUG] Prezzo #{idx}: '{price_elem.strip()}' - Contesto: {price_elem.parent.name}")
-    print("[DEBUG] ===== FINE SCANNING PREZZI =====\n")
-
-    print("[DEBUG] Parsing degli item della wishlist...")
-    for idx, row in enumerate(soup.select("li.g-item-sortable")):
-        title_elem = row.select_one("a.a-link-normal")
+        save_debug_output(html, screenshot_path, prefix="wishlist")
         
-        if not title_elem:
-            print(f"[DEBUG] Item #{idx}: Nessun titolo trovato, skip")
-            continue
+        soup = BeautifulSoup(html, "lxml")
+        items = []
 
-        name = title_elem.get("title", "").strip()
-        if not name:
-            name = "PRODOTTO_SENZA_NOME"
-
-        print(f"\n[DEBUG] ===== Item #{idx}: {name} =====")
-
-        # Stampa tutti i prezzi trovati in questo item
-        print(f"[DEBUG] Tutti i testi con € in questo item:")
-        for price_idx, elem in enumerate(row.find_all(string=re.compile(r'€'))):
-            print(f"[DEBUG]   [{price_idx}] '{elem.strip()}' (tag: {elem.parent.name}, classe: {elem.parent.get('class', [])})")
-
-        # Prova a trovare il prezzo - molteplici selettori
-        price_elem = None
-        price_text = None
-        
-        # Strategia 1: .a-price .a-offscreen
-        price_elem = row.select_one(".a-price .a-offscreen")
-        if price_elem:
-            price_text = price_elem.get_text(strip=True)
-            print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 1: .a-price .a-offscreen)")
-            print(f"[DEBUG]   Elemento parent HTML: {price_elem.parent}")
-        
-        # Strategia 2: .a-price-whole
-        if not price_elem:
-            price_elem = row.select_one(".a-price-whole")
-            if price_elem:
-                price_text = price_elem.get_text(strip=True)
-                print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 2: .a-price-whole)")
-        
-        # Strategia 3: cerca il primo elemento con € più vicino al titolo
-        if not price_elem:
-            price_container = row.select_one(".a-price")
-            if price_container:
-                for elem in price_container.find_all(string=re.compile(r'€')):
-                    price_text = elem.strip()
-                    print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 3: primo € in .a-price)")
-                    break
-        
-        if not price_text:
-            print(f"[DEBUG] Item #{idx}: Nessun prezzo trovato, skip")
-            continue
-
-        try:
-            print(f"[DEBUG] Item #{idx}: Prezzo grezzo trovato: '{price_text}'")
+        print("[DEBUG] Parsing degli item della wishlist...")
+        for idx, row in enumerate(soup.select("li.g-item-sortable")):
+            title_elem = row.select_one("a.a-link-normal")
             
-            # Estrai il valore numerico
-            current_price = float(
-                price_text
-                .replace("€", "")
-                .replace(",", ".")
-                .replace(" ", "")
-                .strip()
-            )
+            if not title_elem:
+                print(f"[DEBUG] Item #{idx}: Nessun titolo trovato, skip")
+                continue
+
+            name = title_elem.get("title", "").strip()
+            product_url = title_elem.get("href", "")
             
-            if current_price <= 0:
-                print(f"[DEBUG] Item #{idx}: Prezzo non valido ({current_price}), skip")
+            if not name:
+                name = "PRODOTTO_SENZA_NOME"
+            
+            if not product_url:
+                print(f"[DEBUG] Item #{idx}: {name} - Nessun URL trovato, skip")
                 continue
             
-            print(f"[DEBUG] Item #{idx}: Prezzo finale estratto = €{current_price:.2f} ✓")
-            items.append((name, current_price))
+            # Assicurati che l'URL sia completo
+            if not product_url.startswith("http"):
+                product_url = "https://www.amazon.it" + product_url
+
+            print(f"\n[DEBUG] ===== Item #{idx}: {name} =====")
             
-        except Exception as e:
-            print(f"[DEBUG] Item #{idx}: Errore nel parsing del prezzo '{price_text}' - {e}")
-            continue
+            # Estrai il prezzo dalla pagina prodotto
+            current_price = get_product_price(page, product_url, name)
+            
+            if current_price is None:
+                print(f"[DEBUG] Item #{idx}: Impossibile estrarre prezzo, skip")
+                continue
+            
+            items.append((name, current_price))
 
-    print(f"\n[DEBUG] TOTALE ITEM TROVATI: {len(items)}")
-    for name, price in items:
-        print(f"[DEBUG]   - {name}: €{price:.2f}")
+        browser.close()
 
-    return items
+        print(f"\n[DEBUG] TOTALE ITEM TROVATI: {len(items)}")
+        for name, price in items:
+            print(f"[DEBUG]   - {name}: €{price:.2f}")
+
+        return items
 
 
 def main():
