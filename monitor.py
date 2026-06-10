@@ -4,6 +4,7 @@ import json
 import os
 import smtplib
 from email.mime.text import MIMEText
+from datetime import datetime
 
 WISHLIST_URL = "https://www.amazon.it/hz/wishlist/ls/3UN1OP09AA54H?ref_=wl_share"
 
@@ -12,6 +13,7 @@ GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
 THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 10))
 
 DATA_FILE = "prices.json"
+DEBUG_DIR = "debug_output"
 
 
 def send_email(body):
@@ -43,6 +45,26 @@ def save_prices(data):
     print("[DEBUG] Prezzi salvati con successo")
 
 
+def save_debug_output(html, screenshot_path=None):
+    """Salva l'HTML e lo screenshot per debug"""
+    os.makedirs(DEBUG_DIR, exist_ok=True)
+    
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    # Salva HTML
+    html_path = os.path.join(DEBUG_DIR, f"page_{timestamp}.html")
+    with open(html_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"[DEBUG] HTML salvato: {html_path}")
+    
+    # Salva screenshot se fornito
+    if screenshot_path:
+        import shutil
+        dest_path = os.path.join(DEBUG_DIR, f"screenshot_{timestamp}.png")
+        shutil.copy(screenshot_path, dest_path)
+        print(f"[DEBUG] Screenshot salvato: {dest_path}")
+
+
 def get_items():
     print(f"[DEBUG] Apertura wishlist con Playwright: {WISHLIST_URL}")
     
@@ -63,7 +85,15 @@ def get_items():
         
         print("[DEBUG] Estrazione contenuto HTML...")
         html = page.content()
+        
+        # Salva screenshot
+        screenshot_path = "/tmp/wishlist_screenshot.png"
+        page.screenshot(path=screenshot_path)
+        
         browser.close()
+    
+    # Salva debug output
+    save_debug_output(html, screenshot_path)
     
     soup = BeautifulSoup(html, "lxml")
     items = []
@@ -80,10 +110,9 @@ def get_items():
         if not name:
             name = "PRODOTTO_SENZA_NOME"
 
-        print(f"[DEBUG] Item #{idx}: {name}")
+        print(f"\n[DEBUG] ===== Item #{idx}: {name} =====")
 
         # Prova a trovare il prezzo ufficiale di Amazon
-        # Cerca il prezzo nel contenitore principale, preferibilmente il prezzo di Amazon
         price_elem = None
         
         # Prima strategia: cerca il prezzo principale
@@ -91,11 +120,17 @@ def get_items():
         
         if not price_elem:
             print(f"[DEBUG] Item #{idx}: Nessun prezzo trovato, skip")
+            print(f"[DEBUG] HTML dell'item:\n{row}")
             continue
 
         try:
             price_text = price_elem.get_text(strip=True)
-            print(f"[DEBUG] Item #{idx}: Prezzo grezzo: '{price_text}'")
+            print(f"[DEBUG] Item #{idx}: Prezzo grezzo trovato: '{price_text}'")
+            
+            # Stampa il contenitore del prezzo per debug
+            price_container = row.select_one(".a-price")
+            if price_container:
+                print(f"[DEBUG] Item #{idx}: Prezzo container HTML:\n{price_container}")
             
             # Estrai il valore numerico
             current_price = float(
@@ -110,11 +145,12 @@ def get_items():
                 print(f"[DEBUG] Item #{idx}: Prezzo non valido ({current_price}), skip")
                 continue
             
-            print(f"[DEBUG] Item #{idx}: {name} = €{current_price:.2f} ✓")
+            print(f"[DEBUG] Item #{idx}: Prezzo finale estratto = €{current_price:.2f} ✓")
             items.append((name, current_price))
             
         except Exception as e:
             print(f"[DEBUG] Item #{idx}: Errore nel parsing del prezzo '{price_text}' - {e}")
+            print(f"[DEBUG] Item #{idx}: HTML completo dell'item:\n{row}")
             continue
 
     print(f"\n[DEBUG] TOTALE ITEM TROVATI: {len(items)}")
