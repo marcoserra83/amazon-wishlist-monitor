@@ -6,6 +6,7 @@ import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
 import re
+import time
 
 WISHLIST_URL = "https://www.amazon.it/hz/wishlist/ls/3UN1OP09AA54H?ref_=wl_share"
 
@@ -15,6 +16,12 @@ THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 10))
 
 DATA_FILE = "prices.json"
 DEBUG_DIR = "debug_output"
+
+# Parametri di timeout e retry
+TIMEOUT_PAGE_LOAD = 60000  # 60 secondi per caricare la pagina
+TIMEOUT_SELECTOR = 30000   # 30 secondi per trovare il selettore
+RETRY_COUNT = 2            # Numero di tentativi
+DELAY_BETWEEN_PRODUCTS = 2 # Secondi di pausa tra i prodotti
 
 
 def send_email(body):
@@ -67,81 +74,118 @@ def save_debug_output(html, screenshot_path=None, prefix="page"):
 
 
 def get_product_price(page, product_url, product_name):
-    """Estrae il prezzo dalla pagina prodotto"""
+    """Estrae il prezzo dalla pagina prodotto con retry"""
     print(f"[DEBUG]   Navigazione a pagina prodotto: {product_url}")
     
-    try:
-        page.goto(product_url, wait_until="networkidle", timeout=20000)
-    except Exception as e:
-        print(f"[DEBUG]   Errore nella navigazione: {e}")
-        return None
-    
-    # Attendi caricamento prezzo
-    try:
-        page.wait_for_selector(".a-price-whole", timeout=10000)
-    except:
-        print(f"[DEBUG]   Selettore prezzo non trovato")
-        return None
-    
-    page.wait_for_timeout(1000)
-    
-    html = page.content()
-    soup = BeautifulSoup(html, "lxml")
-    
-    # Salva debug
-    screenshot_path = f"/tmp/product_{product_name.replace(' ', '_')}.png"
-    try:
-        page.screenshot(path=screenshot_path)
-    except:
-        screenshot_path = None
-    save_debug_output(html, screenshot_path, prefix=f"product_{product_name[:20]}")
-    
-    # Estrattore prezzo - prova molteplici strategie
-    price_text = None
-    
-    # Strategia 1: prezzo principale nella sezione con id "a-price-whole"
-    price_elem = soup.select_one(".a-price-whole")
-    if price_elem:
-        price_text = price_elem.get_text(strip=True)
-        print(f"[DEBUG]   Prezzo trovato (strategia 1): {price_text}")
-    
-    # Strategia 2: cerca l'elemento con id "corePriceDisplay"
-    if not price_text:
-        price_elem = soup.select_one("#corePriceDisplay_desktop_feature_div .a-offscreen")
+    for attempt in range(1, RETRY_COUNT + 1):
+        print(f"[DEBUG]   Tentativo {attempt}/{RETRY_COUNT}")
+        
+        try:
+            page.goto(product_url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE_LOAD)
+            print(f"[DEBUG]   Pagina caricata, attesa contenuto...")
+            
+        except Exception as e:
+            print(f"[DEBUG]   Errore navigazione (tentativo {attempt}): {e}")
+            if attempt == RETRY_COUNT:
+                return None
+            time.sleep(2)
+            continue
+        
+        # Attendi caricamento prezzo con timeout generoso
+        try:
+            page.wait_for_function(
+                """() => {
+                    const elements = document.querySelectorAll('.a-price-whole, .a-price span[data-a-color="price"]');
+                    return elements.length > 0;
+                }""",
+                timeout=TIMEOUT_SELECTOR
+            )
+            print(f"[DEBUG]   Prezzo trovato nel DOM")
+        except:
+            print(f"[DEBUG]   Timeout attesa prezzo (tentativo {attempt})")
+            if attempt == RETRY_COUNT:
+                return None
+            time.sleep(2)
+            continue
+        
+        page.wait_for_timeout(500)
+        
+        html = page.content()
+        soup = BeautifulSoup(html, "lxml")
+        
+        # Salva debug
+        screenshot_path = f"/tmp/product_{product_name.replace(' ', '_')[:30]}.png"
+        try:
+            page.screenshot(path=screenshot_path)
+        except:
+            screenshot_path = None
+        save_debug_output(html, screenshot_path, prefix=f"product_{product_name[:20]}")
+        
+        # Estrattore prezzo - prova molteplici strategie
+        price_text = None
+        
+        # Strategia 1: prezzo principale nella sezione con id "a-price-whole"
+        price_elem = soup.select_one(".a-price-whole")
         if price_elem:
             price_text = price_elem.get_text(strip=True)
-            print(f"[DEBUG]   Prezzo trovato (strategia 2): {price_text}")
-    
-    # Strategia 3: primo .a-offscreen con €
-    if not price_text:
-        for elem in soup.find_all(string=re.compile(r'€\s*\d+[.,]\d{2}')):
-            price_text = elem.strip()
-            print(f"[DEBUG]   Prezzo trovato (strategia 3): {price_text}")
-            break
-    
-    if not price_text:
-        print(f"[DEBUG]   Nessun prezzo trovato sulla pagina prodotto")
-        return None
-    
-    try:
-        current_price = float(
-            price_text
-            .replace("€", "")
-            .replace(",", ".")
-            .replace(" ", "")
-            .strip()
-        )
+            print(f"[DEBUG]   Prezzo trovato (strategia 1: .a-price-whole): {price_text}")
         
-        if current_price <= 0:
-            print(f"[DEBUG]   Prezzo non valido: {current_price}")
-            return None
+        # Strategia 2: cerca l'elemento con id "corePriceDisplay"
+        if not price_text:
+            price_elem = soup.select_one("#corePriceDisplay_desktop_feature_div .a-offscreen")
+            if price_elem:
+                price_text = price_elem.get_text(strip=True)
+                print(f"[DEBUG]   Prezzo trovato (strategia 2: corePriceDisplay): {price_text}")
         
-        print(f"[DEBUG]   Prezzo finale estratto = €{current_price:.2f} ✓")
-        return current_price
+        # Strategia 3: data-a-color="price"
+        if not price_text:
+            price_elem = soup.select_one('span[data-a-color="price"]')
+            if price_elem:
+                price_text = price_elem.get_text(strip=True)
+                print(f"[DEBUG]   Prezzo trovato (strategia 3: data-a-color=price): {price_text}")
         
-    except Exception as e:
-        print(f"[DEBUG]   Errore nel parsing prezzo: {e}")
-        return None
+        # Strategia 4: primo elemento con € (fallback)
+        if not price_text:
+            for elem in soup.find_all(string=re.compile(r'€\s*\d+[.,]\d{2}')):
+                if elem and len(elem.strip()) < 20:  # Evita testi lunghi
+                    price_text = elem.strip()
+                    print(f"[DEBUG]   Prezzo trovato (strategia 4: fallback €): {price_text}")
+                    break
+        
+        if not price_text:
+            print(f"[DEBUG]   Nessun prezzo trovato (tentativo {attempt})")
+            if attempt == RETRY_COUNT:
+                return None
+            time.sleep(2)
+            continue
+        
+        try:
+            current_price = float(
+                price_text
+                .replace("€", "")
+                .replace(",", ".")
+                .replace(" ", "")
+                .strip()
+            )
+            
+            if current_price <= 0:
+                print(f"[DEBUG]   Prezzo non valido: {current_price} (tentativo {attempt})")
+                if attempt == RETRY_COUNT:
+                    return None
+                time.sleep(2)
+                continue
+            
+            print(f"[DEBUG]   Prezzo finale estratto = €{current_price:.2f} ✓")
+            return current_price
+            
+        except Exception as e:
+            print(f"[DEBUG]   Errore parsing prezzo: {e} (tentativo {attempt})")
+            if attempt == RETRY_COUNT:
+                return None
+            time.sleep(2)
+            continue
+    
+    return None
 
 
 def get_items():
@@ -153,6 +197,7 @@ def get_items():
             headless=True,
             args=[
                 '--disable-blink-features=AutomationControlled',
+                '--disable-dev-shm-usage',  # Riduce problemi di memoria
             ]
         )
         
@@ -164,6 +209,10 @@ def get_items():
         
         page = context.new_page()
         
+        # Imposta timeout di default più alto
+        page.set_default_timeout(TIMEOUT_PAGE_LOAD)
+        page.set_default_navigation_timeout(TIMEOUT_PAGE_LOAD)
+        
         # Disabilita JavaScript detection
         page.add_init_script("""
             Object.defineProperty(navigator, 'webdriver', {
@@ -173,21 +222,21 @@ def get_items():
         
         print("[DEBUG] Navigazione alla pagina wishlist...")
         try:
-            page.goto(WISHLIST_URL, wait_until="networkidle", timeout=30000)
+            page.goto(WISHLIST_URL, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE_LOAD)
         except Exception as e:
-            print(f"[DEBUG] Errore durante navigazione: {e}")
+            print(f"[DEBUG] Errore durante navigazione wishlist: {e}")
             browser.close()
             raise
         
         print("[DEBUG] Attesa caricamento wishlist...")
         try:
-            page.wait_for_selector("li.g-item-sortable", timeout=20000)
+            page.wait_for_selector("li.g-item-sortable", timeout=TIMEOUT_SELECTOR)
         except:
             print("[DEBUG] Nessun item trovato sulla wishlist!")
             browser.close()
             raise Exception("Impossibile trovare item sulla wishlist")
         
-        page.wait_for_timeout(2000)
+        page.wait_for_timeout(1000)
         
         print("[DEBUG] Estrazione contenuto HTML wishlist...")
         html = page.content()
@@ -206,7 +255,10 @@ def get_items():
         items = []
 
         print("[DEBUG] Parsing degli item della wishlist...")
-        for idx, row in enumerate(soup.select("li.g-item-sortable")):
+        product_rows = soup.select("li.g-item-sortable")
+        print(f"[DEBUG] Trovati {len(product_rows)} item sulla wishlist")
+        
+        for idx, row in enumerate(product_rows):
             title_elem = row.select_one("a.a-link-normal")
             
             if not title_elem:
@@ -237,6 +289,11 @@ def get_items():
                 continue
             
             items.append((name, current_price))
+            
+            # Pausa prima del prossimo prodotto per non sovraccaricare
+            if idx < len(product_rows) - 1:
+                print(f"[DEBUG] Pausa di {DELAY_BETWEEN_PRODUCTS}s prima del prossimo prodotto...")
+                time.sleep(DELAY_BETWEEN_PRODUCTS)
 
         browser.close()
 
