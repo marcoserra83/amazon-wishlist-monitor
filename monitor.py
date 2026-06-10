@@ -13,95 +13,99 @@ THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 10))
 
 DATA_FILE = "prices.json"
 
-def send_email(body):
-msg = MIMEText(body)
-msg["Subject"] = "📉 Amazon Wishlist Price Drop"
-msg["From"] = GMAIL_USER
-msg["To"] = GMAIL_USER
 
-with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-    server.login(GMAIL_USER, GMAIL_PASS)
-    server.send_message(msg)
+def send_email(body):
+    msg = MIMEText(body)
+    msg["Subject"] = "📉 Amazon Wishlist Price Drop"
+    msg["From"] = GMAIL_USER
+    msg["To"] = GMAIL_USER
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login(GMAIL_USER, GMAIL_PASS)
+        server.send_message(msg)
+
 
 def load_old_prices():
-if not os.path.exists(DATA_FILE):
-return {}
+    if not os.path.exists(DATA_FILE):
+        return {}
 
-with open(DATA_FILE, "r") as f:
-    return json.load(f)
+    with open(DATA_FILE, "r") as f:
+        return json.load(f)
+
 
 def save_prices(data):
-with open(DATA_FILE, "w") as f:
-json.dump(data, f)
+    with open(DATA_FILE, "w") as f:
+        json.dump(data, f)
+
 
 def get_items():
-headers = {
-"User-Agent": "Mozilla/5.0"
-}
+    headers = {"User-Agent": "Mozilla/5.0"}
 
-r = requests.get(WISHLIST_URL, headers=headers)
-soup = BeautifulSoup(r.text, "lxml")
+    r = requests.get(WISHLIST_URL, headers=headers)
+    soup = BeautifulSoup(r.text, "lxml")
 
-items = []
+    items = []
 
-for row in soup.select("li.g-item-sortable"):
-    price = row.select_one(".a-price .a-offscreen")
-    title = row.select_one("a.a-link-normal")
+    for row in soup.select("li.g-item-sortable"):
+        price = row.select_one(".a-price .a-offscreen")
+        title = row.select_one("a.a-link-normal")
 
-    if not price:
-        continue
+        if not price:
+            continue
 
-    name = ""
+        name = ""
 
-    if title:
-        name = title.get("title", "").strip()
+        if title:
+            name = title.get("title", "").strip()
 
-    if not name:
-        name = "PRODOTTO_SENZA_NOME"
+        if not name:
+            name = "PRODOTTO_SENZA_NOME"
 
-    try:
-        current_price = float(
-            price.get_text(strip=True)
-            .replace("€", "")
-            .replace(",", ".")
-        )
-    except:
-        continue
+        try:
+            current_price = float(
+                price.get_text(strip=True)
+                .replace("€", "")
+                .replace(",", ".")
+            )
+        except Exception:
+            continue
 
-    items.append((name, current_price))
+        items.append((name, current_price))
 
-print("ITEM TROVATI:", items)
+    print("ITEM TROVATI:", items)
 
-return items
+    return items
+
 
 def main():
-old = load_old_prices()
-new = {}
-alerts = []
+    old = load_old_prices()
+    new = {}
+    alerts = []
 
-items = get_items()
+    items = get_items()
 
-for name, price in items:
-    new[name] = price
+    for name, price in items:
+        new[name] = price
 
-    if name in old:
-        old_price = old[name]
+        if name in old:
+            old_price = old[name]
 
-        if old_price > 0:
-            drop = ((old_price - price) / old_price) * 100
+            if old_price > 0:
+                drop = ((old_price - price) / old_price) * 100
 
-            if drop >= THRESHOLD:
-                alerts.append(
-                    f"{name}\n"
-                    f"Vecchio: €{old_price:.2f}\n"
-                    f"Nuovo: €{price:.2f}\n"
-                    f"↓ {drop:.1f}%"
-                )
+                if drop >= THRESHOLD:
+                    alerts.append(
+                        f"{name}\n"
+                        f"Vecchio: €{old_price:.2f}\n"
+                        f"Nuovo: €{price:.2f}\n"
+                        f"↓ {drop:.1f}%"
+                    )
 
-save_prices(new)
+    save_prices(new)
 
-if alerts:
-    send_email("\n\n".join(alerts))
+    if alerts:
+        send_email("\n\n".join(alerts))
 
-if name == "main":
-main()
+
+if __name__ == "__main__":
+    main()
