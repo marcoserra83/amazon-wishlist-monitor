@@ -121,35 +121,62 @@ def get_product_price(page, product_url, product_name):
             screenshot_path = None
         save_debug_output(html, screenshot_path, prefix=f"product_{product_name[:20]}")
         
+        # DEBUG: Stampa la struttura completa dei prezzi trovati
+        print(f"\n[DEBUG] ===== ANALISI STRUTTURA PREZZO PER: {product_name} =====")
+        
+        # Cerca TUTTI gli elementi con "a-price"
+        price_containers = soup.find_all("span", class_="a-price")
+        print(f"[DEBUG] Trovati {len(price_containers)} contenitori .a-price")
+        
+        for i, container in enumerate(price_containers[:3]):  # Primi 3
+            print(f"\n[DEBUG] Contenitore #{i}:")
+            print(f"[DEBUG] HTML: {container.prettify()[:500]}")  # Primi 500 caratteri
+            
+            # Estrai il testo direttamente
+            full_text = container.get_text(strip=True)
+            print(f"[DEBUG] Testo completo: '{full_text}'")
+        
+        print("[DEBUG] ===== FINE ANALISI STRUTTURA =====\n")
+        
         # Estrattore prezzo - prova molteplici strategie
         price_text = None
         
-        # Strategia 1: prezzo principale nella sezione con id "a-price-whole"
-        price_elem = soup.select_one(".a-price-whole")
-        if price_elem:
-            price_text = price_elem.get_text(strip=True)
-            print(f"[DEBUG]   Prezzo trovato (strategia 1: .a-price-whole): {price_text}")
+        # Strategia 1: estrai TUTTO il testo dal contenitore .a-price
+        price_container = soup.select_one(".a-price")
+        if price_container:
+            full_price_text = price_container.get_text(strip=True)
+            print(f"[DEBUG]   Strategia 1: Testo completo da .a-price: '{full_price_text}'")
+            
+            # Estrai il numero con decimali usando regex
+            price_match = re.search(r'(\d+[.,]\d{2})\s*€', full_price_text)
+            if price_match:
+                price_text = price_match.group(1)
+                print(f"[DEBUG]   Strategia 1: Prezzo estratto con regex: {price_text}")
         
-        # Strategia 2: cerca l'elemento con id "corePriceDisplay"
+        # Strategia 2: .a-offscreen (prezzo nascosto ma leggibile)
         if not price_text:
-            price_elem = soup.select_one("#corePriceDisplay_desktop_feature_div .a-offscreen")
+            price_elem = soup.select_one(".a-price .a-offscreen")
             if price_elem:
                 price_text = price_elem.get_text(strip=True)
-                print(f"[DEBUG]   Prezzo trovato (strategia 2: corePriceDisplay): {price_text}")
+                print(f"[DEBUG]   Strategia 2: Prezzo da .a-offscreen: {price_text}")
         
-        # Strategia 3: data-a-color="price"
+        # Strategia 3: Estrai dalla parte visibile (.a-price-whole + .a-price-fraction)
         if not price_text:
-            price_elem = soup.select_one('span[data-a-color="price"]')
-            if price_elem:
-                price_text = price_elem.get_text(strip=True)
-                print(f"[DEBUG]   Prezzo trovato (strategia 3: data-a-color=price): {price_text}")
+            whole = soup.select_one(".a-price-whole")
+            fraction = soup.select_one(".a-price-fraction")
+            if whole and fraction:
+                whole_text = whole.get_text(strip=True).replace(".", "").replace(",", "")
+                fraction_text = fraction.get_text(strip=True)
+                # Ricostruisci: "23" + "50" -> "23,50"
+                price_text = f"{whole_text},{fraction_text}"
+                print(f"[DEBUG]   Strategia 3: Prezzo ricostruito: {price_text}")
         
-        # Strategia 4: primo elemento con € (fallback)
+        # Strategia 4: Primo elemento con € (fallback)
         if not price_text:
-            for elem in soup.find_all(string=re.compile(r'€\s*\d+[.,]\d{2}')):
-                if elem and len(elem.strip()) < 20:  # Evita testi lunghi
+            for elem in soup.find_all(string=re.compile(r'€')):
+                if elem and len(elem.strip()) < 20:
                     price_text = elem.strip()
-                    print(f"[DEBUG]   Prezzo trovato (strategia 4: fallback €): {price_text}")
+                    print(f"[DEBUG]   Strategia 4: Fallback €: {price_text}")
                     break
         
         if not price_text:
