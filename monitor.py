@@ -1,4 +1,4 @@
-import requests
+from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import json
 import os
@@ -44,14 +44,31 @@ def save_prices(data):
 
 
 def get_items():
-    headers = {"User-Agent": "Mozilla/5.0"}
-
-    print(f"[DEBUG] Scaricamento wishlist da: {WISHLIST_URL}")
-    r = requests.get(WISHLIST_URL, headers=headers)
-    soup = BeautifulSoup(r.text, "lxml")
-
+    print(f"[DEBUG] Apertura wishlist con Playwright: {WISHLIST_URL}")
+    
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page()
+        page.set_viewport_size({"width": 1920, "height": 1080})
+        
+        print("[DEBUG] Navigazione alla pagina...")
+        page.goto(WISHLIST_URL, wait_until="networkidle")
+        
+        print("[DEBUG] Attesa caricamento prezzi...")
+        # Attendi che almeno un prezzo sia visibile
+        page.wait_for_selector(".a-price .a-offscreen", timeout=10000)
+        
+        # Attendi un po' extra per essere sicuri che tutto sia caricato
+        page.wait_for_timeout(2000)
+        
+        print("[DEBUG] Estrazione contenuto HTML...")
+        html = page.content()
+        browser.close()
+    
+    soup = BeautifulSoup(html, "lxml")
     items = []
 
+    print("[DEBUG] Parsing degli item...")
     for idx, row in enumerate(soup.select("li.g-item-sortable")):
         price = row.select_one(".a-price .a-offscreen")
         title = row.select_one("a.a-link-normal")
@@ -69,14 +86,18 @@ def get_items():
             name = "PRODOTTO_SENZA_NOME"
 
         try:
+            price_text = price.get_text(strip=True)
+            print(f"[DEBUG] Item #{idx}: {name} - Prezzo grezzo: '{price_text}'")
+            
             current_price = float(
-                price.get_text(strip=True)
+                price_text
                 .replace("€", "")
                 .replace(",", ".")
+                .strip()
             )
             print(f"[DEBUG] Item #{idx}: {name} = €{current_price:.2f}")
         except Exception as e:
-            print(f"[DEBUG] Item #{idx}: Errore nel parsing del prezzo - {e}")
+            print(f"[DEBUG] Item #{idx}: Errore nel parsing del prezzo '{price_text}' - {e}")
             continue
 
         items.append((name, current_price))
