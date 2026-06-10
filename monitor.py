@@ -69,26 +69,80 @@ def get_items():
     print(f"[DEBUG] Apertura wishlist con Playwright: {WISHLIST_URL}")
     
     with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page()
-        page.set_viewport_size({"width": 1920, "height": 1080})
+        # Crea un browser context con User-Agent da chrome vero
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                '--disable-blink-features=AutomationControlled',
+            ]
+        )
         
-        print("[DEBUG] Navigazione alla pagina...")
-        page.goto(WISHLIST_URL, wait_until="networkidle")
+        context = browser.new_context(
+            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            viewport={"width": 1920, "height": 1080},
+            locale='it-IT',
+        )
+        
+        page = context.new_page()
+        
+        # Disabilita JavaScript detection
+        page.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => false,
+            });
+        """)
+        
+        print("[DEBUG] Navigazione alla pagina con timeout 30s...")
+        try:
+            page.goto(WISHLIST_URL, wait_until="networkidle", timeout=30000)
+        except Exception as e:
+            print(f"[DEBUG] Errore durante navigazione: {e}")
+            html = page.content()
+            screenshot_path = "/tmp/wishlist_screenshot_error.png"
+            try:
+                page.screenshot(path=screenshot_path)
+            except:
+                pass
+            save_debug_output(html, screenshot_path)
+            browser.close()
+            raise
         
         print("[DEBUG] Attesa caricamento prezzi...")
-        # Attendi che almeno un prezzo sia visibile
-        page.wait_for_selector(".a-price .a-offscreen", timeout=10000)
+        try:
+            # Prova con il selettore principale
+            page.wait_for_selector(".a-price .a-offscreen", timeout=20000)
+            print("[DEBUG] Prezzi trovati con selettore .a-price .a-offscreen")
+        except:
+            print("[DEBUG] Selettore principale non trovato, provo selettori alternativi...")
+            try:
+                # Fallback: prova altri selettori
+                page.wait_for_selector(".a-price-whole", timeout=10000)
+                print("[DEBUG] Prezzi trovati con selettore alternativo .a-price-whole")
+            except:
+                print("[DEBUG] Nessun selettore di prezzo trovato!")
+                html = page.content()
+                screenshot_path = "/tmp/wishlist_screenshot_notfound.png"
+                try:
+                    page.screenshot(path=screenshot_path)
+                except:
+                    pass
+                save_debug_output(html, screenshot_path)
+                browser.close()
+                raise Exception("Impossibile trovare i prezzi sulla pagina")
         
         # Attendi un po' extra per essere sicuri che tutto sia caricato
-        page.wait_for_timeout(2000)
+        page.wait_for_timeout(3000)
         
         print("[DEBUG] Estrazione contenuto HTML...")
         html = page.content()
         
         # Salva screenshot
         screenshot_path = "/tmp/wishlist_screenshot.png"
-        page.screenshot(path=screenshot_path)
+        try:
+            page.screenshot(path=screenshot_path)
+        except Exception as e:
+            print(f"[DEBUG] Errore nel salvataggio screenshot: {e}")
+            screenshot_path = None
         
         browser.close()
     
@@ -112,25 +166,43 @@ def get_items():
 
         print(f"\n[DEBUG] ===== Item #{idx}: {name} =====")
 
-        # Prova a trovare il prezzo ufficiale di Amazon
+        # Prova a trovare il prezzo - molteplici selettori
         price_elem = None
+        price_text = None
         
-        # Prima strategia: cerca il prezzo principale
+        # Strategia 1: .a-price .a-offscreen
         price_elem = row.select_one(".a-price .a-offscreen")
+        if price_elem:
+            price_text = price_elem.get_text(strip=True)
+            print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 1)")
         
+        # Strategia 2: .a-price-whole
         if not price_elem:
+            price_elem = row.select_one(".a-price-whole")
+            if price_elem:
+                price_text = price_elem.get_text(strip=True)
+                print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 2)")
+        
+        # Strategia 3: cerca qualsiasi elemento con € (prezzo)
+        if not price_elem:
+            for elem in row.find_all(string=lambda text: text and '€' in text):
+                if elem:
+                    price_text = elem.strip()
+                    print(f"[DEBUG] Item #{idx}: Prezzo trovato (selettore 3 - testo con €)")
+                    break
+        
+        if not price_text:
             print(f"[DEBUG] Item #{idx}: Nessun prezzo trovato, skip")
-            print(f"[DEBUG] HTML dell'item:\n{row}")
+            print(f"[DEBUG] HTML dell'item:\n{row.prettify()[:500]}")
             continue
 
         try:
-            price_text = price_elem.get_text(strip=True)
             print(f"[DEBUG] Item #{idx}: Prezzo grezzo trovato: '{price_text}'")
             
             # Stampa il contenitore del prezzo per debug
             price_container = row.select_one(".a-price")
             if price_container:
-                print(f"[DEBUG] Item #{idx}: Prezzo container HTML:\n{price_container}")
+                print(f"[DEBUG] Item #{idx}: Prezzo container trovato")
             
             # Estrai il valore numerico
             current_price = float(
@@ -150,7 +222,6 @@ def get_items():
             
         except Exception as e:
             print(f"[DEBUG] Item #{idx}: Errore nel parsing del prezzo '{price_text}' - {e}")
-            print(f"[DEBUG] Item #{idx}: HTML completo dell'item:\n{row}")
             continue
 
     print(f"\n[DEBUG] TOTALE ITEM TROVATI: {len(items)}")
@@ -168,7 +239,12 @@ def main():
     new = {}
     alerts = []
 
-    items = get_items()
+    try:
+        items = get_items()
+    except Exception as e:
+        print(f"[ERROR] Impossibile scaricare i prezzi: {e}")
+        print("[DEBUG] ===== FINE MONITOR (ERRORE) =====")
+        return
 
     for name, price in items:
         new[name] = price
