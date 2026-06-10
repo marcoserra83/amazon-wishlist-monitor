@@ -70,40 +70,56 @@ def get_items():
 
     print("[DEBUG] Parsing degli item...")
     for idx, row in enumerate(soup.select("li.g-item-sortable")):
-        price = row.select_one(".a-price .a-offscreen")
-        title = row.select_one("a.a-link-normal")
-
-        if not price:
-            print(f"[DEBUG] Item #{idx}: Nessun prezzo trovato, skip")
+        title_elem = row.select_one("a.a-link-normal")
+        
+        if not title_elem:
+            print(f"[DEBUG] Item #{idx}: Nessun titolo trovato, skip")
             continue
 
-        name = ""
-
-        if title:
-            name = title.get("title", "").strip()
-
+        name = title_elem.get("title", "").strip()
         if not name:
             name = "PRODOTTO_SENZA_NOME"
 
+        print(f"[DEBUG] Item #{idx}: {name}")
+
+        # Prova a trovare il prezzo ufficiale di Amazon
+        # Cerca il prezzo nel contenitore principale, preferibilmente il prezzo di Amazon
+        price_elem = None
+        
+        # Prima strategia: cerca il prezzo principale
+        price_elem = row.select_one(".a-price .a-offscreen")
+        
+        if not price_elem:
+            print(f"[DEBUG] Item #{idx}: Nessun prezzo trovato, skip")
+            continue
+
         try:
-            price_text = price.get_text(strip=True)
-            print(f"[DEBUG] Item #{idx}: {name} - Prezzo grezzo: '{price_text}'")
+            price_text = price_elem.get_text(strip=True)
+            print(f"[DEBUG] Item #{idx}: Prezzo grezzo: '{price_text}'")
             
+            # Estrai il valore numerico
             current_price = float(
                 price_text
                 .replace("€", "")
                 .replace(",", ".")
+                .replace(" ", "")
                 .strip()
             )
-            print(f"[DEBUG] Item #{idx}: {name} = €{current_price:.2f}")
+            
+            if current_price <= 0:
+                print(f"[DEBUG] Item #{idx}: Prezzo non valido ({current_price}), skip")
+                continue
+            
+            print(f"[DEBUG] Item #{idx}: {name} = €{current_price:.2f} ✓")
+            items.append((name, current_price))
+            
         except Exception as e:
             print(f"[DEBUG] Item #{idx}: Errore nel parsing del prezzo '{price_text}' - {e}")
             continue
 
-        items.append((name, current_price))
-
-    print(f"[DEBUG] TOTALE ITEM TROVATI: {len(items)}")
-    print(f"[DEBUG] ITEM TROVATI: {items}")
+    print(f"\n[DEBUG] TOTALE ITEM TROVATI: {len(items)}")
+    for name, price in items:
+        print(f"[DEBUG]   - {name}: €{price:.2f}")
 
     return items
 
@@ -142,6 +158,8 @@ def main():
                     alerts.append(alert_msg)
                 else:
                     print(f"[DEBUG]   ❌ Sconto insufficiente (< {THRESHOLD}%)")
+            else:
+                print(f"[DEBUG]   ❌ Prezzo precedente non valido")
         else:
             print(f"[DEBUG]   Nuovo prodotto, nessun confronto")
 
