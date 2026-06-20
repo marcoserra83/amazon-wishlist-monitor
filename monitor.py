@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 import smtplib
-from email.mime_text import MIMEText
+from email.mime.text import MIMEText
 from datetime import datetime
 import re
 import time
