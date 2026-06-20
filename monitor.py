@@ -66,17 +66,15 @@ def send_email(body: str):
 
 
 # ---------------------------------------------------------
-# PRICE PARSER (VERBOSO)
+# PRICE PARSER
 # ---------------------------------------------------------
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
 
-    # 1️⃣ Rimuovo caroselli e prodotti simili che contengono prezzi fuorvianti
     log("Pulizia caroselli e prodotti simili")
     for bad in soup.select("#sims-consolidated-2, #sims-consolidated-3, #sp_detail, .a-carousel"):
         bad.decompose()
 
-    # 2️⃣ Cerco il blocco del prezzo principale
     log("Parsing prezzo: tentativo 1 → blocco prezzo principale")
     price_block = soup.select_one(
         "#corePrice_feature_div, "
@@ -94,7 +92,6 @@ def parse_price_from_html(html: str) -> float | None:
             except:
                 log("Errore parsing blocco principale")
 
-    # 3️⃣ Fallback controllato: cerca solo prezzi validi, non in tutta la pagina
     log("Parsing prezzo: tentativo 2 → fallback controllato")
     fallback = soup.select_one("span.a-price > span.a-offscreen")
     if fallback:
@@ -105,7 +102,6 @@ def parse_price_from_html(html: str) -> float | None:
         except:
             log("Errore parsing fallback controllato")
 
-    # 4️⃣ Ricostruzione whole + fraction
     log("Parsing prezzo: tentativo 3 → whole + fraction")
     whole = soup.select_one("span.a-price-whole")
     frac = soup.select_one("span.a-price-fraction")
@@ -119,6 +115,7 @@ def parse_price_from_html(html: str) -> float | None:
 
     log("❌ Nessun prezzo trovato (regex disattivato per evitare prezzi fantasma)")
     return None
+
 
 # ---------------------------------------------------------
 # STEALTH MODE
@@ -136,10 +133,11 @@ Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
 
 
 # ---------------------------------------------------------
-# SCRAPING PREZZO
+# SCRAPING PREZZO (OTTIMIZZATO)
 # ---------------------------------------------------------
 def get_product_price(page: Page, url: str, name: str) -> float | None:
     log(f"Avvio scraping prezzo per: {name}")
+
     for attempt in range(1, RETRY_COUNT + 1):
         log(f"[{name}] Tentativo {attempt}/{RETRY_COUNT}")
 
@@ -153,10 +151,13 @@ def get_product_price(page: Page, url: str, name: str) -> float | None:
                 return None
 
             try:
-                page.wait_for_selector(".a-price, .a-offscreen", timeout=TIMEOUT_SELECTOR)
+                page.wait_for_selector(
+                    ".a-price, .a-offscreen, #corePrice_feature_div, #twister-plus-price-data-price",
+                    timeout=TIMEOUT_SELECTOR
+                )
             except:
-                log(f"[{name}] Nessun prezzo nel DOM, retry…")
-                continue
+                log(f"[{name}] Nessun elemento prezzo nel DOM → prodotto senza prezzo → stop immediato")
+                return None
 
             html = page.content()
             price = parse_price_from_html(html)
@@ -164,6 +165,18 @@ def get_product_price(page: Page, url: str, name: str) -> float | None:
             if price and price > 0:
                 log(f"[{name}] Prezzo estratto correttamente: €{price:.2f}")
                 return price
+
+            soup = BeautifulSoup(html, "lxml")
+            has_any_price_element = bool(
+                soup.select_one("#corePrice_feature_div")
+                or soup.select_one(".a-price")
+                or soup.select_one(".a-offscreen")
+                or soup.select_one("#twister-plus-price-data-price")
+            )
+
+            if not has_any_price_element:
+                log(f"[{name}] Nessun elemento prezzo nel DOM → prodotto senza prezzo → stop immediato")
+                return None
 
             log(f"[{name}] Prezzo non valido, retry…")
 
