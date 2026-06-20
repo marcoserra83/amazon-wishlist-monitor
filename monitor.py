@@ -1,14 +1,13 @@
-from playwright.sync_api import sync_playwright, Page
-from bs4 import BeautifulSoup
-import json
 import os
-import smtplib
-from email.mime.text import MIMEText
-from datetime import datetime
+import json
 import time
-import traceback
 import re
-from concurrent.futures import ThreadPoolExecutor
+import smtplib
+import traceback
+from datetime import datetime
+from email.mime.text import MIMEText
+from bs4 import BeautifulSoup
+from multiprocessing import Pool, cpu_count
 
 # ---------------------------------------------------------
 # CONFIG
@@ -26,7 +25,6 @@ DEBUG_DIR = "debug_output"
 TIMEOUT_PAGE = 20000
 TIMEOUT_SELECTOR = 2000
 RETRY_COUNT = 2
-DELAY_BETWEEN_PRODUCTS = 0.3
 WORKERS = 8
 
 
@@ -44,12 +42,9 @@ def log(msg: str):
 
 def save_debug_file(name: str, content: str):
     os.makedirs(DEBUG_DIR, exist_ok=True)
-
     safe_name = re.sub(r'[<>:"/\\|?*]', "_", name)
-
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     path = os.path.join(DEBUG_DIR, f"{safe_name}_{ts}.html")
-
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
 
@@ -85,7 +80,6 @@ def parse_price_from_html(html: str) -> float | None:
         "#apex_desktop, "
         "#corePriceDisplay_desktop_feature_div"
     )
-
     if price_block:
         offscreen = price_block.select_one("span.a-price > span.a-offscreen")
         if offscreen:
@@ -113,84 +107,21 @@ def parse_price_from_html(html: str) -> float | None:
 
 
 # ---------------------------------------------------------
-# STEALTH MODE
+# WORKER PROCESS (Playwright inside)
 # ---------------------------------------------------------
-STEALTH_JS = """
-Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-window.chrome = { runtime: {} };
-Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3] });
-Object.defineProperty(navigator, 'languages', { get: () => ['it-IT', 'it'] });
-Object.defineProperty(navigator, 'platform', { get: () => 'Win32' });
-Object.defineProperty(navigator, 'hardwareConcurrency', { get: () => 8 });
-Object.defineProperty(navigator, 'deviceMemory', { get: () => 8 });
-Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
-"""
+def worker_process(chunk):
+    """
+    Ogni processo:
+    - avvia Playwright
+    - apre browser
+    - estrae prezzi del chunk
+    - chiude browser
+    - ritorna risultati
+    """
 
+    from playwright.sync_api import sync_playwright
 
-# ---------------------------------------------------------
-# SCRAPING PREZZO
-# ---------------------------------------------------------
-def get_product_price(page: Page, url: str, name: str) -> float | None:
-    for attempt in range(1, RETRY_COUNT + 1):
-        try:
-            page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
-            html = page.content()
-
-            if "captcha" in html.lower():
-                save_debug_file(f"captcha_{name}", html)
-                return None
-
-            try:
-                page.wait_for_selector(
-                    ".a-price, .a-offscreen, #corePrice_feature_div, #twister-plus-price-data-price",
-                    timeout=TIMEOUT_SELECTOR
-                )
-            except:
-                return None
-
-            html = page.content()
-            price = parse_price_from_html(html)
-
-            if price and price > 0:
-                return price
-
-            soup = BeautifulSoup(html, "lxml")
-            if not (
-                soup.select_one("#corePrice_feature_div")
-                or soup.select_one(".a-price")
-                or soup.select_one(".a-offscreen")
-                or soup.select_one("#twister-plus-price-data-price")
-            ):
-                return None
-
-        except:
-            pass
-
-    return None
-
-
-# ---------------------------------------------------------
-# WORKER PARALLELO
-# ---------------------------------------------------------
-def worker_process(context, chunk, worker_id):
-    page = context.new_page()
     results = []
-
-    for name, url in chunk:
-        log(f"[Worker {worker_id}] → {name}")
-        price = get_product_price(page, url, name)
-        if price:
-            results.append((name, price))
-
-    page.close()
-    return results
-
-
-# ---------------------------------------------------------
-# SCRAPING WISHLIST
-# ---------------------------------------------------------
-def get_items():
-    log("Apertura Playwright…")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -205,16 +136,62 @@ def get_items():
             viewport={"width": 1920, "height": 1080}
         )
 
-        context.add_init_script(STEALTH_JS)
-
-        context.route("**/*", lambda route: route.abort()
-                      if route.request.resource_type in ["image", "font"]
-                      else route.continue_())
-
         page = context.new_page()
         page.set_default_timeout(TIMEOUT_PAGE)
 
-        log("Caricamento wishlist…")
+        for name, url in chunk:
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
+                html = page.content()
+
+                if "captcha" in html.lower():
+                    save_debug_file(f"captcha_{name}", html)
+                    continue
+
+                try:
+                    page.wait_for_selector(
+                        ".a-price, .a-offscreen, #corePrice_feature_div, #twister-plus-price-data-price",
+                        timeout=TIMEOUT_SELECTOR
+                    )
+                except:
+                    continue
+
+                html = page.content()
+                price = parse_price_from_html(html)
+
+                if price and price > 0:
+                    results.append((name, price))
+
+            except Exception as e:
+                save_debug_file(f"error_{name}", str(e))
+
+        browser.close()
+
+    return results
+
+
+# ---------------------------------------------------------
+# SCRAPING WISHLIST (processo principale)
+# ---------------------------------------------------------
+def get_items():
+    log("Apertura Playwright per wishlist…")
+
+    from playwright.sync_api import sync_playwright
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"]
+        )
+
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+            locale="it-IT",
+            timezone_id="Europe/Rome",
+            viewport={"width": 1920, "height": 1080}
+        )
+
+        page = context.new_page()
         page.goto(WISHLIST_URL, wait_until="domcontentloaded")
         page.wait_for_timeout(1500)
 
@@ -229,7 +206,6 @@ def get_items():
 
             html = page.content()
             soup = BeautifulSoup(html, "lxml")
-
             rows = soup.select("div.g-item-sortable, [data-itemid]")
             current_count = len(rows)
 
@@ -264,25 +240,21 @@ def get_items():
 
             items.append((name, url))
 
-        # --- PARALLELIZZAZIONE ---
-        def chunk_list(lst, n):
-            return [lst[i::n] for i in range(n)]
-
-        chunks = chunk_list(items, WORKERS)
-        log(f"Avvio parallelizzazione con {WORKERS} worker…")
-
-        results = []
-        with ThreadPoolExecutor(max_workers=WORKERS) as executor:
-            futures = [
-                executor.submit(worker_process, context, chunk, i+1)
-                for i, chunk in enumerate(chunks)
-            ]
-
-            for f in futures:
-                results.extend(f.result())
-
         browser.close()
-        return results
+
+    # --- PARALLELIZZAZIONE ---
+    def chunk_list(lst, n):
+        return [lst[i::n] for i in range(n)]
+
+    chunks = chunk_list(items, WORKERS)
+    log(f"Avvio parallelizzazione con {WORKERS} processi…")
+
+    with Pool(WORKERS) as pool:
+        results = pool.map(worker_process, chunks)
+
+    # Flatten
+    flat = [item for sublist in results for item in sublist]
+    return flat
 
 
 # ---------------------------------------------------------
@@ -316,7 +288,6 @@ def main():
         if name in old:
             old_price = old[name]
             drop = ((old_price - price) / old_price) * 100 if old_price > 0 else 0
-            log(f"→ Sconto rilevato: {drop:.1f}%")
 
             if drop >= THRESHOLD:
                 alerts.append(
@@ -331,7 +302,6 @@ def main():
         log("Prezzi aggiornati salvati.")
 
     if alerts:
-        log(f"Invio di {len(alerts)} alert…")
         send_email("\n\n".join(alerts))
     else:
         log("Nessun alert generato.")
