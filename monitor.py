@@ -12,8 +12,7 @@ import re
 # ---------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------
-WISHLIST_URL = "https://www.amazon.it/hz/wishlist/ls/3UN1OP09AA54H?ref_=wl_share"
-
+WISHLIST_URL = os.environ.get("WISHLIST_URL")  # ora preso dai secrets
 GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
 THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 10))
@@ -250,11 +249,15 @@ def main():
     log("===== INIZIO MONITOR =====")
     log(f"THRESHOLD: {THRESHOLD}%")
 
+    # Caricamento storico
     old = {}
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r") as f:
-            old = json.load(f)
-            log(f"Caricati {len(old)} prezzi precedenti.")
+            try:
+                old = json.load(f)
+                log(f"Caricati {len(old)} prodotti dallo storico.")
+            except:
+                old = {}
 
     try:
         items = get_items()
@@ -266,27 +269,53 @@ def main():
 
     new = {}
     alerts = []
+    today = datetime.now().strftime("%Y-%m-%d")
 
     for name, price in items:
-        new[name] = price
         log(f"Prezzo attuale {name}: €{price:.2f}")
 
-        if name in old:
-            old_price = old[name]
-            drop = ((old_price - price) / old_price) * 100 if old_price > 0 else 0
+        # Se nuovo prodotto → inizializza
+        if name not in old:
+            new[name] = {
+                "current": price,
+                "history": [
+                    {"date": today, "price": price}
+                ]
+            }
+            continue
 
+        # Estraggo dati precedenti
+        old_current = old[name].get("current")
+        history = old[name].get("history", [])
+
+        # Base
+        new[name] = {
+            "current": price,
+            "history": history
+        }
+
+        # Aggiungi allo storico SOLO se cambia
+        if old_current != price:
+            new[name]["history"].append({"date": today, "price": price})
+            log(f"  Prezzo cambiato per {name}: {old_current} → {price}")
+
+        # Alert
+        if old_current and old_current > 0:
+            drop = ((old_current - price) / old_current) * 100
             if drop >= THRESHOLD:
                 alerts.append(
                     f"{name}\n"
-                    f"Vecchio: €{old_price:.2f}\n"
+                    f"Vecchio: €{old_current:.2f}\n"
                     f"Nuovo: €{price:.2f}\n"
                     f"↓ {drop:.1f}%"
                 )
 
+    # Salvataggio
     with open(DATA_FILE, "w") as f:
         json.dump(new, f, indent=2)
         log("Prezzi aggiornati salvati.")
 
+    # Email alert
     if alerts:
         send_email("\n\n".join(alerts))
     else:
