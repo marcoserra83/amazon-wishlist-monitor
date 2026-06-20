@@ -172,27 +172,3 @@ WebGLRenderingContext.prototype.getParameter = function(parameter) {
             updated_prices[title] = {
                 "price": price,
                 "link": link
-            }
-
-            if title in previous_prices:
-                old_price = previous_prices[title]["price"]
-                if old_price and price and price < old_price:
-                    discount = round((old_price - price) / old_price * 100, 2)
-                    if discount >= ALERT_THRESHOLD:
-                        send_email_alert(title, old_price, price, discount)
-
-        browser.close()
-        save_prices(updated_prices)
-
-# ---------------------------------------------------------
-# MAIN
-# ---------------------------------------------------------
-if __name__ == "__main__":
-    print("=== Amazon Wishlist Price Monitor ===")
-    print("Avvio scraper...")
-
-    try:
-        run_scraper()
-        print("Scraping completato.")
-    except Exception as e:
-        print(f"Errore durante l'esecuzione: {e}")
