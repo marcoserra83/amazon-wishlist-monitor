@@ -117,18 +117,7 @@ def parse_price_from_html(html: str) -> float | None:
         except:
             log("Errore parsing whole+fraction")
 
-    # 5️⃣ Regex finale
-    log("Parsing prezzo: tentativo 4 → regex fallback")
-    match = re.search(r'(\d+[.,]\d{2})\s*€', html)
-    if match:
-        try:
-            val = float(match.group(1).replace(",", "."))
-            log(f"Prezzo trovato (regex fallback): {val}")
-            return val
-        except:
-            log("Errore parsing regex fallback")
-
-    log("❌ Nessun prezzo trovato")
+    log("❌ Nessun prezzo trovato (regex disattivato per evitare prezzi fantasma)")
     return None
 
 # ---------------------------------------------------------
