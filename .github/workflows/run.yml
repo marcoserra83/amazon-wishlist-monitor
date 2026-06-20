@@ -2,7 +2,7 @@ name: Amazon Wishlist Monitor
 
 on:
   schedule:
-    - cron: '0 * * * *'   # ogni ora
+    - cron: '*/10 * * * *'   # ogni 10 min
   workflow_dispatch:
 
 jobs:
