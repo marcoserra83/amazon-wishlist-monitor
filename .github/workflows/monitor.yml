@@ -2,7 +2,7 @@ name: Amazon Wishlist Monitor
 
 on:
   schedule:
-    - cron: '* * * * *'   # ogni 1 minuto
+    - cron: "* * * * *"
   workflow_dispatch:
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
