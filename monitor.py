@@ -29,9 +29,30 @@ DELAY_BETWEEN_PRODUCTS = 1.2
 
 
 # ---------------------------------------------------------
+# LOGGING
+# ---------------------------------------------------------
+def log(msg: str):
+    os.makedirs(LOG_DIR, exist_ok=True)
+    path = os.path.join(LOG_DIR, datetime.now().strftime("%Y-%m-%d") + ".log")
+    line = "[" + datetime.now().strftime("%H:%M:%S") + "] " + msg
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(line + "\n")
+    print(line)
+
+
+def save_debug_file(name: str, content: str):
+    os.makedirs(DEBUG_DIR, exist_ok=True)
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    path = os.path.join(DEBUG_DIR, f"{name}_{ts}.html")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+
+# ---------------------------------------------------------
 # EMAIL
 # ---------------------------------------------------------
 def send_email(body: str):
+    log("Invio email di alert…")
     msg = MIMEText(body)
     msg["Subject"] = "📉 Amazon Wishlist Price Drop"
     msg["From"] = GMAIL_USER
@@ -41,42 +62,26 @@ def send_email(body: str):
         server.login(GMAIL_USER, GMAIL_PASS)
         server.send_message(msg)
 
-
-# ---------------------------------------------------------
-# LOGGING
-# ---------------------------------------------------------
-def log(msg: str):
-    os.makedirs(LOG_DIR, exist_ok=True)
-    path = os.path.join(LOG_DIR, datetime.now().strftime("%Y-%m-%d") + ".log")
-    with open(path, "a", encoding="utf-8") as f:
-        f.write("[" + datetime.now().strftime("%H:%M:%S") + "] " + msg + "\n")
-    print(msg)
-
-
-def save_debug_file(name: str, content: str):
-    os.makedirs(DEBUG_DIR, exist_ok=True)
-    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    path = os.path.join(DEBUG_DIR, name + "_" + ts + ".html")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(content)
+    log("Email inviata.")
 
 
 # ---------------------------------------------------------
-# PRICE PARSER
+# PRICE PARSER (VERBOSO)
 # ---------------------------------------------------------
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
 
-    # 1) Core price
+    log("Parsing prezzo: tentativo 1 → corePriceDisplay")
     core = soup.select_one("#corePriceDisplay_desktop_feature_div .a-offscreen")
     if core:
-        txt = core.get_text(strip=True).replace("€", "").replace(",", ".")
         try:
-            return float(txt)
+            val = float(core.get_text(strip=True).replace("€", "").replace(",", "."))
+            log(f"Prezzo trovato (core): {val}")
+            return val
         except:
-            pass
+            log("Errore parsing corePriceDisplay")
 
-    # 2) JSON interno Amazon
+    log("Parsing prezzo: tentativo 2 → JSON interno")
     for script in soup.find_all("script"):
         if not script.string:
             continue
@@ -87,38 +92,44 @@ def parse_price_from_html(html: str) -> float | None:
         match = re.search(r'"price"\s*:\s*"(\d+[.,]\d+)"', text)
         if match:
             try:
-                return float(match.group(1).replace(",", "."))
+                val = float(match.group(1).replace(",", "."))
+                log(f"Prezzo trovato (JSON interno): {val}")
+                return val
             except:
-                pass
+                log("Errore parsing JSON interno")
 
-    # 3) .a-offscreen generico
+    log("Parsing prezzo: tentativo 3 → .a-offscreen generico")
     off = soup.select_one(".a-price .a-offscreen")
     if off:
-        txt = off.get_text(strip=True).replace("€", "").replace(",", ".")
         try:
-            return float(txt)
+            val = float(off.get_text(strip=True).replace("€", "").replace(",", "."))
+            log(f"Prezzo trovato (offscreen generico): {val}")
+            return val
         except:
-            pass
+            log("Errore parsing offscreen generico")
 
-    # 4) whole + fraction
+    log("Parsing prezzo: tentativo 4 → whole + fraction")
     whole = soup.select_one(".a-price-whole")
     frac = soup.select_one(".a-price-fraction")
     if whole and frac:
-        w = whole.get_text(strip=True).replace(".", "")
-        f = frac.get_text(strip=True)
         try:
-            return float(w + "." + f)
+            val = float(whole.get_text(strip=True).replace(".", "") + "." + frac.get_text(strip=True))
+            log(f"Prezzo trovato (whole+fraction): {val}")
+            return val
         except:
-            pass
+            log("Errore parsing whole+fraction")
 
-    # 5) fallback regex
+    log("Parsing prezzo: tentativo 5 → regex fallback")
     match = re.search(r'(\d+[.,]\d{2})\s*€', html)
     if match:
         try:
-            return float(match.group(1).replace(",", "."))
+            val = float(match.group(1).replace(",", "."))
+            log(f"Prezzo trovato (regex fallback): {val}")
+            return val
         except:
-            pass
+            log("Errore parsing regex fallback")
 
+    log("❌ Nessun prezzo trovato")
     return None
 
 
@@ -127,46 +138,13 @@ def parse_price_from_html(html: str) -> float | None:
 # ---------------------------------------------------------
 STEALTH_JS = """
 Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-
 window.chrome = { runtime: {} };
-
-Object.defineProperty(navigator, 'plugins', {
-    get: () => [1, 2, 3],
-});
-
-Object.defineProperty(navigator, 'languages', {
-    get: () => ['it-IT', 'it'],
-});
-
-Object.defineProperty(navigator, 'platform', {
-    get: () => 'Win32',
-});
-
-Object.defineProperty(navigator, 'hardwareConcurrency', {
-    get: () => 8,
-});
-
-Object.defineProperty(navigator, 'deviceMemory', {
-    get: () => 8,
-});
-
-Object.defineProperty(navigator, 'maxTouchPoints', {
-    get: () => 0,
-});
-
-const originalQuery = window.navigator.permissions.query;
-window.navigator.permissions.query = (parameters) => (
-    parameters.name === 'notifications'
-        ? Promise.resolve({ state: Notification.permission })
-        : originalQuery(parameters)
-);
-
-const getParameter = WebGLRenderingContext.prototype.getParameter;
-WebGLRenderingContext.prototype.getParameter = function(parameter) {
-    if (parameter === 37445) return 'Intel Inc.';
-    if (parameter === 37446) return 'Intel Iris OpenGL Engine';
-    return getParameter(parameter);
-};
+Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3] });
+Object.defineProperty(navigator, 'languages', { get: () => ['it-IT', 'it'] });
+Object.defineProperty(navigator, 'platform', { get: () => 'Win32' });
+Object.defineProperty(navigator, 'hardwareConcurrency', { get: () => 8 });
+Object.defineProperty(navigator, 'deviceMemory', { get: () => 8 });
+Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
 """
 
 
@@ -174,40 +152,41 @@ WebGLRenderingContext.prototype.getParameter = function(parameter) {
 # SCRAPING PREZZO
 # ---------------------------------------------------------
 def get_product_price(page: Page, url: str, name: str) -> float | None:
+    log(f"Avvio scraping prezzo per: {name}")
     for attempt in range(1, RETRY_COUNT + 1):
-        try:
-            log(f"[{name}] Tentativo {attempt}/{RETRY_COUNT}")
-            page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
+        log(f"[{name}] Tentativo {attempt}/{RETRY_COUNT}")
 
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
             html = page.content()
 
             if "captcha" in html.lower():
                 log(f"[{name}] CAPTCHA rilevato")
-                save_debug_file("captcha_" + name, html)
+                save_debug_file(f"captcha_{name}", html)
                 return None
 
             try:
                 page.wait_for_selector(".a-price, .a-offscreen", timeout=TIMEOUT_SELECTOR)
             except:
-                log(f"[{name}] Nessun prezzo nel DOM")
+                log(f"[{name}] Nessun prezzo nel DOM, retry…")
                 continue
 
             html = page.content()
             price = parse_price_from_html(html)
 
             if price and price > 0:
-                log(f"[{name}] Prezzo estratto: €{price:.2f}")
+                log(f"[{name}] Prezzo estratto correttamente: €{price:.2f}")
                 return price
 
             log(f"[{name}] Prezzo non valido, retry…")
 
         except Exception as e:
-            log(f"[{name}] Errore: {e}")
+            log(f"[{name}] Errore durante scraping: {e}")
             log(traceback.format_exc())
 
         time.sleep(1)
 
-    log(f"[{name}] Fallimento estrazione prezzo")
+    log(f"[{name}] ❌ Fallimento estrazione prezzo")
     return None
 
 
@@ -224,11 +203,7 @@ def get_items():
         )
 
         context = browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/123.0.0.0 Safari/537.36"
-            ),
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
             locale="it-IT",
             timezone_id="Europe/Rome",
             viewport={"width": 1920, "height": 1080}
@@ -250,6 +225,8 @@ def get_items():
         last_count = 0
         stable_rounds = 0
 
+        log("Inizio scroll infinito…")
+
         while True:
             page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
             page.wait_for_timeout(1200)
@@ -260,15 +237,17 @@ def get_items():
             rows = soup.select("div.g-item-sortable, [data-itemid]")
             current_count = len(rows)
 
-            log(f"Wishlist: {current_count} item visibili")
+            log(f"→ Elementi visibili: {current_count}")
 
             if current_count == last_count:
                 stable_rounds += 1
+                log(f"→ Nessun nuovo elemento (round {stable_rounds}/3)")
             else:
                 stable_rounds = 0
                 last_count = current_count
 
             if stable_rounds >= 3:
+                log("Scroll completato.")
                 break
 
         save_debug_file("final_wishlist", html)
@@ -283,17 +262,15 @@ def get_items():
         for idx, row in enumerate(rows):
             title_el = row.select_one("a.a-link-normal, a.a-text-normal")
             if not title_el:
+                log("Elemento senza titolo, ignorato.")
                 continue
 
             name = title_el.get("title", "").strip() or title_el.get_text(strip=True)
-            if not name:
-                name = "PRODOTTO_SENZA_NOME"
-
             url = title_el.get("href", "")
             if not url.startswith("http"):
                 url = "https://www.amazon.it" + url
 
-            log("→ " + name)
+            log(f"→ Analisi prodotto: {name}")
 
             price = get_product_price(page, url, name)
             if price:
@@ -311,17 +288,19 @@ def get_items():
 # ---------------------------------------------------------
 def main():
     log("===== INIZIO MONITOR =====")
-    log("THRESHOLD: " + str(THRESHOLD))
+    log(f"THRESHOLD: {THRESHOLD}%")
 
     old = {}
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r") as f:
             old = json.load(f)
+            log(f"Caricati {len(old)} prezzi precedenti.")
 
     try:
         items = get_items()
     except Exception as e:
-        log("ERRORE CRITICO: " + str(e))
+        log("ERRORE CRITICO durante get_items()")
+        log(str(e))
         send_email("❌ Errore monitor Amazon:\n" + str(e))
         return
 
@@ -330,30 +309,30 @@ def main():
 
     for name, price in items:
         new[name] = price
-        log(f"Elaborazione {name}: €{price:.2f}")
+        log(f"Elaborazione {name}: prezzo attuale €{price:.2f}")
 
         if name in old:
             old_price = old[name]
-            if old_price > 0:
-                drop = ((old_price - price) / old_price) * 100
-                log(f"Sconto: {drop:.1f}%")
+            drop = ((old_price - price) / old_price) * 100 if old_price > 0 else 0
+            log(f"→ Sconto rilevato: {drop:.1f}%")
 
-                if drop >= THRESHOLD:
-                    alerts.append(
-                        f"{name}\n"
-                        f"Vecchio: €{old_price:.2f}\n"
-                        f"Nuovo: €{price:.2f}\n"
-                        f"↓ {drop:.1f}%"
-                    )
+            if drop >= THRESHOLD:
+                alerts.append(
+                    f"{name}\n"
+                    f"Vecchio: €{old_price:.2f}\n"
+                    f"Nuovo: €{price:.2f}\n"
+                    f"↓ {drop:.1f}%"
+                )
 
     with open(DATA_FILE, "w") as f:
         json.dump(new, f, indent=2)
+        log("Prezzi aggiornati salvati.")
 
     if alerts:
+        log(f"Invio di {len(alerts)} alert…")
         send_email("\n\n".join(alerts))
-        log(f"Inviati {len(alerts)} alert")
     else:
-        log("Nessun alert")
+        log("Nessun alert generato.")
 
     log("===== FINE MONITOR =====")
 
