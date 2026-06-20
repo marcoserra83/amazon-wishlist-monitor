@@ -73,4 +73,12 @@ def parse_price_from_html(html: str) -> float | None:
     # 1) JSON interno Amazon (più stabile)
     for script in soup.find_all("script"):
         if script.string and "price" in script.string.lower():
-            match = re.search(r'"
+            match = re.search(r'"price"\s*:\s*"(\d+[.,]\d+)"', script.string)
+            if match:
+                return float(match.group(1).replace(",", "."))
+
+    # 2) .a-offscreen (molto affidabile)
+    elem = soup.select_one(".a-price .a-offscreen")
+    if elem:
+        txt = elem.get_text(strip=True)
+        return float(txt.replace("€", "").replace(",", ".").
