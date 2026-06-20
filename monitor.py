@@ -50,18 +50,12 @@ def log(msg: str):
     print(msg)
 
 
-def save_debug(html: str, prefix: str, screenshot_path: str | None = None):
+def save_debug_file(name: str, content: str):
     os.makedirs(DEBUG_DIR, exist_ok=True)
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-    html_path = os.path.join(DEBUG_DIR, prefix + "_" + ts + ".html")
-    with open(html_path, "w", encoding="utf-8") as f:
-        f.write(html)
-
-    if screenshot_path:
-        import shutil
-        dest = os.path.join(DEBUG_DIR, prefix + "_" + ts + ".png")
-        shutil.copy(screenshot_path, dest)
+    path = os.path.join(DEBUG_DIR, name + "_" + ts + ".html")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
 
 
 # ---------------------------------------------------------
@@ -70,7 +64,7 @@ def save_debug(html: str, prefix: str, screenshot_path: str | None = None):
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
 
-    # 1) Prezzo principale Amazon (il più affidabile)
+    # 1) Prezzo principale Amazon
     core = soup.select_one("#corePriceDisplay_desktop_feature_div .a-offscreen")
     if core:
         txt = core.get_text(strip=True)
@@ -132,9 +126,10 @@ def get_product_price(page: Page, url: str, name: str) -> float | None:
             page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
 
             html = page.content()
+
             if "captcha" in html.lower():
                 log("[" + name + "] CAPTCHA rilevato")
-                save_debug(html, "captcha_" + name)
+                save_debug_file("captcha_" + name, html)
                 return None
 
             try:
@@ -158,3 +153,155 @@ def get_product_price(page: Page, url: str, name: str) -> float | None:
 
         time.sleep(1)
 
+    log("[" + name + "] Fallimento estrazione prezzo")
+    return None
+
+
+# ---------------------------------------------------------
+#  SCRAPING WISHLIST (scroll infinito + DEBUG FORZATO)
+# ---------------------------------------------------------
+def get_items():
+    log("Apertura Playwright…")
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled", "--disable-dev-shm-usage"]
+        )
+
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            viewport={"width": 1920, "height": 1080},
+            locale="it-IT",
+            bypass_csp=True
+        )
+
+        context.route("**/*", lambda route: route.abort()
+                      if route.request.resource_type in ["image", "font", "stylesheet"]
+                      else route.continue_())
+
+        page = context.new_page()
+        page.set_default_timeout(TIMEOUT_PAGE)
+
+        page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => false});")
+
+        log("Caricamento wishlist…")
+        page.goto(WISHLIST_URL, wait_until="domcontentloaded")
+        page.wait_for_timeout(2000)
+
+        last_count = 0
+        stable_rounds = 0
+
+        while True:
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
+            page.wait_for_timeout(1500)
+
+            html = page.content()
+
+            # DEBUG: salva ogni scroll
+            save_debug_file("scroll_" + str(last_count), html)
+
+            soup = BeautifulSoup(html, "lxml")
+            rows = soup.select("li.g-item-sortable")
+            current_count = len(rows)
+
+            log("Wishlist: " + str(current_count) + " item visibili")
+
+            if current_count == last_count:
+                stable_rounds += 1
+            else:
+                stable_rounds = 0
+                last_count = current_count
+
+            if stable_rounds >= 3:
+                break
+
+        # DEBUG: salva HTML finale
+        save_debug_file("final_wishlist", html)
+
+        if last_count == 0:
+            raise Exception("Nessun item trovato nella wishlist")
+
+        log("Trovati " + str(last_count) + " prodotti totali")
+
+        items = []
+
+        for idx, row in enumerate(rows):
+            title = row.select_one("a.a-link-normal")
+            if not title:
+                continue
+
+            name = title.get("title", "").strip()
+            if not name:
+                name = "PRODOTTO_SENZA_NOME"
+
+            url = title.get("href", "")
+            if not url.startswith("http"):
+                url = "https://www.amazon.it" + url
+
+            log("→ " + name)
+
+            price = get_product_price(page, url, name)
+            if price:
+                items.append((name, price))
+
+            if idx < len(rows) - 1:
+                time.sleep(DELAY_BETWEEN_PRODUCTS)
+
+        browser.close()
+        return items
+
+
+# ---------------------------------------------------------
+#  MAIN
+# ---------------------------------------------------------
+def main():
+    log("===== INIZIO MONITOR =====")
+    log("THRESHOLD: " + str(THRESHOLD))
+
+    old = {}
+    if os.path.exists(DATA_FILE):
+        with open(DATA_FILE, "r") as f:
+            old = json.load(f)
+
+    try:
+        items = get_items()
+    except Exception as e:
+        log("ERRORE CRITICO: " + str(e))
+        send_email("❌ Errore monitor Amazon:\n" + str(e))
+        return
+
+    new = {}
+    alerts = []
+
+    for name, price in items:
+        new[name] = price
+        log("Elaborazione " + name + ": €" + format(price, ".2f"))
+
+        if name in old:
+            old_price = old[name]
+            if old_price > 0:
+                drop = ((old_price - price) / old_price) * 100
+                log("Sconto: " + format(drop, ".1f") + "%")
+
+                if drop >= THRESHOLD:
+                    alert_msg = (
+                        name + "\n"
+                        + "Vecchio: €" + format(old_price, ".2f") + "\n"
+                        + "Nuovo: €" + format(price, ".2f") + "\n"
+                        + "↓ " + format(drop, ".1f") + "%"
+                    )
+                    alerts.append(alert_msg)
+
+    with open(DATA_FILE, "w") as f:
+        json.dump(new, f, indent=2)
+
+    if alerts:
+        send_email("\n\n".join(alerts))
+        log("Inviati " + str(len(alerts)) + " alert")
+    else:
+        log("Nessun alert")
+
+    log("===== FINE MONITOR =====")
+if __name__ == "__main__":
+    main()
