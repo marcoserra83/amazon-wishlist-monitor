@@ -71,46 +71,44 @@ def send_email(body: str):
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
 
-    log("Parsing prezzo: tentativo 1 → corePriceDisplay")
-    core = soup.select_one("#corePriceDisplay_desktop_feature_div .a-offscreen")
-    if core:
-        try:
-            val = float(core.get_text(strip=True).replace("€", "").replace(",", "."))
-            log(f"Prezzo trovato (core): {val}")
-            return val
-        except:
-            log("Errore parsing corePriceDisplay")
+    # 1️⃣ Rimuovo caroselli e prodotti simili che contengono prezzi fuorvianti
+    log("Pulizia caroselli e prodotti simili")
+    for bad in soup.select("#sims-consolidated-2, #sims-consolidated-3, #sp_detail, .a-carousel"):
+        bad.decompose()
 
-    log("Parsing prezzo: tentativo 2 → JSON interno")
-    for script in soup.find_all("script"):
-        if not script.string:
-            continue
-        text = script.string
-        if "price" not in text.lower():
-            continue
+    # 2️⃣ Cerco il blocco del prezzo principale
+    log("Parsing prezzo: tentativo 1 → blocco prezzo principale")
+    price_block = soup.select_one(
+        "#corePrice_feature_div, "
+        "#apex_desktop, "
+        "#corePriceDisplay_desktop_feature_div"
+    )
 
-        match = re.search(r'"price"\s*:\s*"(\d+[.,]\d+)"', text)
-        if match:
+    if price_block:
+        offscreen = price_block.select_one("span.a-price > span.a-offscreen")
+        if offscreen:
             try:
-                val = float(match.group(1).replace(",", "."))
-                log(f"Prezzo trovato (JSON interno): {val}")
+                val = float(offscreen.get_text(strip=True).replace("€", "").replace(",", "."))
+                log(f"Prezzo trovato (blocco principale): {val}")
                 return val
             except:
-                log("Errore parsing JSON interno")
+                log("Errore parsing blocco principale")
 
-    log("Parsing prezzo: tentativo 3 → .a-offscreen generico")
-    off = soup.select_one(".a-price .a-offscreen")
-    if off:
+    # 3️⃣ Fallback controllato: cerca solo prezzi validi, non in tutta la pagina
+    log("Parsing prezzo: tentativo 2 → fallback controllato")
+    fallback = soup.select_one("span.a-price > span.a-offscreen")
+    if fallback:
         try:
-            val = float(off.get_text(strip=True).replace("€", "").replace(",", "."))
-            log(f"Prezzo trovato (offscreen generico): {val}")
+            val = float(fallback.get_text(strip=True).replace("€", "").replace(",", "."))
+            log(f"Prezzo trovato (fallback controllato): {val}")
             return val
         except:
-            log("Errore parsing offscreen generico")
+            log("Errore parsing fallback controllato")
 
-    log("Parsing prezzo: tentativo 4 → whole + fraction")
-    whole = soup.select_one(".a-price-whole")
-    frac = soup.select_one(".a-price-fraction")
+    # 4️⃣ Ricostruzione whole + fraction
+    log("Parsing prezzo: tentativo 3 → whole + fraction")
+    whole = soup.select_one("span.a-price-whole")
+    frac = soup.select_one("span.a-price-fraction")
     if whole and frac:
         try:
             val = float(whole.get_text(strip=True).replace(".", "") + "." + frac.get_text(strip=True))
@@ -119,7 +117,8 @@ def parse_price_from_html(html: str) -> float | None:
         except:
             log("Errore parsing whole+fraction")
 
-    log("Parsing prezzo: tentativo 5 → regex fallback")
+    # 5️⃣ Regex finale
+    log("Parsing prezzo: tentativo 4 → regex fallback")
     match = re.search(r'(\d+[.,]\d{2})\s*€', html)
     if match:
         try:
@@ -131,7 +130,6 @@ def parse_price_from_html(html: str) -> float | None:
 
     log("❌ Nessun prezzo trovato")
     return None
-
 
 # ---------------------------------------------------------
 # STEALTH MODE
