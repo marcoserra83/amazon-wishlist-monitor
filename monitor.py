@@ -11,7 +11,9 @@ from playwright.sync_api import sync_playwright
 ALERT_THRESHOLD = float(os.getenv("ALERT_THRESHOLD", "0"))
 GMAIL_USER = os.getenv("GMAIL_USER")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
-WISHLIST_URL = os.getenv("WISHLIST_URL")
+
+# 👉 WISHLIST FISSA, SCRITTA NEL CODICE
+WISHLIST_URL = "https://www.amazon.it/hz/wishlist/ls/3UN1OP09AA54H?ref_=wl_share"
 
 # ---------------------------------------------------------
 # EMAIL
@@ -67,108 +69,4 @@ def extract_product_info(item):
 
         link_el = item.query_selector("a.a-link-normal")
         link = link_el.get_attribute("href") if link_el else None
-        if link and link.startswith("/"):
-            link = "https://www.amazon.it" + link
-
-        return {
-            "title": title,
-            "price": price,
-            "link": link
-        }
-    except Exception as e:
-        print(f"Errore estrazione prodotto: {e}")
-        return None
-
-# ---------------------------------------------------------
-# SCRAPER
-# ---------------------------------------------------------
-def run_scraper():
-    previous_prices = load_previous_prices()
-    updated_prices = {}
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-
-        context = browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/123.0.0.0 Safari/537.36"
-            ),
-            locale="it-IT",
-            timezone_id="Europe/Rome"
-        )
-
-        # ---------------------------------------------------------
-        # STEALTH MODE (completo)
-        # ---------------------------------------------------------
-        context.add_init_script("""
-Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-
-window.chrome = {
-    runtime: {},
-    loadTimes: function() {},
-    csi: function() {},
-};
-
-Object.defineProperty(navigator, 'plugins', {
-    get: () => [1, 2, 3],
-});
-
-Object.defineProperty(navigator, 'languages', {
-    get: () => ['it-IT', 'it'],
-});
-
-Object.defineProperty(navigator, 'platform', {
-    get: () => 'Win32',
-});
-
-Object.defineProperty(navigator, 'hardwareConcurrency', {
-    get: () => 8,
-});
-
-Object.defineProperty(navigator, 'deviceMemory', {
-    get: () => 8,
-});
-
-Object.defineProperty(navigator, 'maxTouchPoints', {
-    get: () => 0,
-});
-
-const originalQuery = window.navigator.permissions.query;
-window.navigator.permissions.query = (parameters) => (
-    parameters.name === 'notifications'
-        ? Promise.resolve({ state: Notification.permission })
-        : originalQuery(parameters)
-);
-
-const getParameter = WebGLRenderingContext.prototype.getParameter;
-WebGLRenderingContext.prototype.getParameter = function(parameter) {
-    if (parameter === 37445) return 'Intel Inc.';
-    if (parameter === 37446) return 'Intel Iris OpenGL Engine';
-    return getParameter(parameter);
-};
-        """)
-
-        page = context.new_page()
-
-        print(f"Caricamento wishlist: {WISHLIST_URL}")
-        page.goto(WISHLIST_URL, timeout=60000)
-
-        page.wait_for_timeout(5000)
-
-        items = page.query_selector_all("div.g-item-sortable")
-        print(f"Trovati {len(items)} elementi nella wishlist")
-
-        for item in items:
-            info = extract_product_info(item)
-            if not info:
-                continue
-
-            title = info["title"]
-            price = info["price"]
-            link = info["link"]
-
-            updated_prices[title] = {
-                "price": price,
-                "link": link
+        if link and link.startswith
