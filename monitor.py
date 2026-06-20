@@ -7,6 +7,8 @@ from email.mime.text import MIMEText
 from datetime import datetime
 import time
 import traceback
+import re
+from concurrent.futures import ThreadPoolExecutor
 
 # ---------------------------------------------------------
 # CONFIG
@@ -21,10 +23,11 @@ DATA_FILE = "prices.json"
 LOG_DIR = "logs"
 DEBUG_DIR = "debug_output"
 
-TIMEOUT_PAGE = 60000
-TIMEOUT_SELECTOR = 6000
-RETRY_COUNT = 3
-DELAY_BETWEEN_PRODUCTS = 1.2
+TIMEOUT_PAGE = 20000
+TIMEOUT_SELECTOR = 2000
+RETRY_COUNT = 2
+DELAY_BETWEEN_PRODUCTS = 0.3
+WORKERS = 8
 
 
 # ---------------------------------------------------------
@@ -41,8 +44,12 @@ def log(msg: str):
 
 def save_debug_file(name: str, content: str):
     os.makedirs(DEBUG_DIR, exist_ok=True)
+
+    safe_name = re.sub(r'[<>:"/\\|?*]', "_", name)
+
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    path = os.path.join(DEBUG_DIR, f"{name}_{ts}.html")
+    path = os.path.join(DEBUG_DIR, f"{safe_name}_{ts}.html")
+
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
 
@@ -70,11 +77,9 @@ def send_email(body: str):
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
 
-    log("Pulizia caroselli e prodotti simili")
     for bad in soup.select("#sims-consolidated-2, #sims-consolidated-3, #sp_detail, .a-carousel"):
         bad.decompose()
 
-    log("Parsing prezzo: tentativo 1 → blocco prezzo principale")
     price_block = soup.select_one(
         "#corePrice_feature_div, "
         "#apex_desktop, "
@@ -85,34 +90,25 @@ def parse_price_from_html(html: str) -> float | None:
         offscreen = price_block.select_one("span.a-price > span.a-offscreen")
         if offscreen:
             try:
-                val = float(offscreen.get_text(strip=True).replace("€", "").replace(",", "."))
-                log(f"Prezzo trovato (blocco principale): {val}")
-                return val
+                return float(offscreen.get_text(strip=True).replace("€", "").replace(",", "."))
             except:
-                log("Errore parsing blocco principale")
+                pass
 
-    log("Parsing prezzo: tentativo 2 → fallback controllato")
     fallback = soup.select_one("span.a-price > span.a-offscreen")
     if fallback:
         try:
-            val = float(fallback.get_text(strip=True).replace("€", "").replace(",", "."))
-            log(f"Prezzo trovato (fallback controllato): {val}")
-            return val
+            return float(fallback.get_text(strip=True).replace("€", "").replace(",", "."))
         except:
-            log("Errore parsing fallback controllato")
+            pass
 
-    log("Parsing prezzo: tentativo 3 → whole + fraction")
     whole = soup.select_one("span.a-price-whole")
     frac = soup.select_one("span.a-price-fraction")
     if whole and frac:
         try:
-            val = float(whole.get_text(strip=True).replace(".", "") + "." + frac.get_text(strip=True))
-            log(f"Prezzo trovato (whole+fraction): {val}")
-            return val
+            return float(whole.get_text(strip=True).replace(".", "") + "." + frac.get_text(strip=True))
         except:
-            log("Errore parsing whole+fraction")
+            pass
 
-    log("❌ Nessun prezzo trovato (regex disattivato per evitare prezzi fantasma)")
     return None
 
 
@@ -132,20 +128,15 @@ Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
 
 
 # ---------------------------------------------------------
-# SCRAPING PREZZO (OTTIMIZZATO)
+# SCRAPING PREZZO
 # ---------------------------------------------------------
 def get_product_price(page: Page, url: str, name: str) -> float | None:
-    log(f"Avvio scraping prezzo per: {name}")
-
     for attempt in range(1, RETRY_COUNT + 1):
-        log(f"[{name}] Tentativo {attempt}/{RETRY_COUNT}")
-
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
             html = page.content()
 
             if "captcha" in html.lower():
-                log(f"[{name}] CAPTCHA rilevato")
                 save_debug_file(f"captcha_{name}", html)
                 return None
 
@@ -155,38 +146,44 @@ def get_product_price(page: Page, url: str, name: str) -> float | None:
                     timeout=TIMEOUT_SELECTOR
                 )
             except:
-                log(f"[{name}] Nessun elemento prezzo nel DOM → prodotto senza prezzo → stop immediato")
                 return None
 
             html = page.content()
             price = parse_price_from_html(html)
 
             if price and price > 0:
-                log(f"[{name}] Prezzo estratto correttamente: €{price:.2f}")
                 return price
 
             soup = BeautifulSoup(html, "lxml")
-            has_any_price_element = bool(
+            if not (
                 soup.select_one("#corePrice_feature_div")
                 or soup.select_one(".a-price")
                 or soup.select_one(".a-offscreen")
                 or soup.select_one("#twister-plus-price-data-price")
-            )
-
-            if not has_any_price_element:
-                log(f"[{name}] Nessun elemento prezzo nel DOM → prodotto senza prezzo → stop immediato")
+            ):
                 return None
 
-            log(f"[{name}] Prezzo non valido, retry…")
+        except:
+            pass
 
-        except Exception as e:
-            log(f"[{name}] Errore durante scraping: {e}")
-            log(traceback.format_exc())
-
-        time.sleep(1)
-
-    log(f"[{name}] ❌ Fallimento estrazione prezzo")
     return None
+
+
+# ---------------------------------------------------------
+# WORKER PARALLELO
+# ---------------------------------------------------------
+def worker_process(context, chunk, worker_id):
+    page = context.new_page()
+    results = []
+
+    for name, url in chunk:
+        log(f"[Worker {worker_id}] → {name}")
+        price = get_product_price(page, url, name)
+        if price:
+            results.append((name, price))
+
+    page.close()
+    return results
 
 
 # ---------------------------------------------------------
@@ -210,7 +207,6 @@ def get_items():
 
         context.add_init_script(STEALTH_JS)
 
-        # 🔥 FIX: NON bloccare gli stylesheet
         context.route("**/*", lambda route: route.abort()
                       if route.request.resource_type in ["image", "font"]
                       else route.continue_())
@@ -229,7 +225,7 @@ def get_items():
 
         while True:
             page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
-            page.wait_for_timeout(1200)
+            page.wait_for_timeout(700)
 
             html = page.content()
             soup = BeautifulSoup(html, "lxml")
@@ -241,13 +237,11 @@ def get_items():
 
             if current_count == last_count:
                 stable_rounds += 1
-                log(f"→ Nessun nuovo elemento (round {stable_rounds}/3)")
             else:
                 stable_rounds = 0
                 last_count = current_count
 
-            if stable_rounds >= 3:
-                log("Scroll completato.")
+            if stable_rounds >= 2:
                 break
 
         save_debug_file("final_wishlist", html)
@@ -258,11 +252,9 @@ def get_items():
         log(f"Trovati {last_count} prodotti totali")
 
         items = []
-
-        for idx, row in enumerate(rows):
+        for row in rows:
             title_el = row.select_one("a.a-link-normal, a.a-text-normal")
             if not title_el:
-                log("Elemento senza titolo, ignorato.")
                 continue
 
             name = title_el.get("title", "").strip() or title_el.get_text(strip=True)
@@ -270,17 +262,27 @@ def get_items():
             if not url.startswith("http"):
                 url = "https://www.amazon.it" + url
 
-            log(f"→ Analisi prodotto: {name}")
+            items.append((name, url))
 
-            price = get_product_price(page, url, name)
-            if price:
-                items.append((name, price))
+        # --- PARALLELIZZAZIONE ---
+        def chunk_list(lst, n):
+            return [lst[i::n] for i in range(n)]
 
-            if idx < len(rows) - 1:
-                time.sleep(DELAY_BETWEEN_PRODUCTS)
+        chunks = chunk_list(items, WORKERS)
+        log(f"Avvio parallelizzazione con {WORKERS} worker…")
+
+        results = []
+        with ThreadPoolExecutor(max_workers=WORKERS) as executor:
+            futures = [
+                executor.submit(worker_process, context, chunk, i+1)
+                for i, chunk in enumerate(chunks)
+            ]
+
+            for f in futures:
+                results.extend(f.result())
 
         browser.close()
-        return items
+        return results
 
 
 # ---------------------------------------------------------
