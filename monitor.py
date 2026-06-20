@@ -5,7 +5,6 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
-import re
 import time
 import traceback
 
@@ -211,8 +210,9 @@ def get_items():
 
         context.add_init_script(STEALTH_JS)
 
+        # 🔥 FIX: NON bloccare gli stylesheet
         context.route("**/*", lambda route: route.abort()
-                      if route.request.resource_type in ["image", "font", "stylesheet"]
+                      if route.request.resource_type in ["image", "font"]
                       else route.continue_())
 
         page = context.new_page()
