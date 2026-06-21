@@ -1,4 +1,13 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 26.9
+      }
+    ]
+  },
   "viva hate hq ltd download": {
     "current": 26.99,
     "history": [
@@ -35,12 +44,21 @@
       }
     ]
   },
-  "cosa faremo da grandi": {
-    "current": 30.99,
+  "mainstream": {
+    "current": 33.21,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 30.99
+        "price": 33.21
+      }
+    ]
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 29.99
       }
     ]
   },
@@ -68,15 +86,6 @@
       {
         "date": "2026-06-21",
         "price": 48.88
-      }
-    ]
-  },
-  "songs of a lost world": {
-    "current": 31.9,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 31.9
       }
     ]
   },
@@ -134,21 +143,12 @@
       }
     ]
   },
-  "follow the leader": {
-    "current": 23.99,
+  "remain in light": {
+    "current": 25.9,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 23.99
-      }
-    ]
-  },
-  "up": {
-    "current": 44.99,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 44.99
+        "price": 25.9
       }
     ]
   },
@@ -161,12 +161,21 @@
       }
     ]
   },
-  "bleach ed": {
-    "current": 25.99,
+  "blood sugar sex magik": {
+    "current": 38.61,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 25.99
+        "price": 38.61
+      }
+    ]
+  },
+  "like clockwork": {
+    "current": 30.69,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 30.69
       }
     ]
   },
@@ -206,12 +215,30 @@
       }
     ]
   },
-  "yield": {
+  "mute records construction time again": {
     "current": 23.99,
     "history": [
       {
         "date": "2026-06-21",
         "price": 23.99
+      }
+    ]
+  },
+  "playing the angel": {
+    "current": 25.99,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 25.99
+      }
+    ]
+  },
+  "reggatta de blanc": {
+    "current": 36.72,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 36.72
       }
     ]
   },
@@ -251,21 +278,12 @@
       }
     ]
   },
-  "good bye lenin": {
-    "current": 30.86,
+  "ixnay on the hombre": {
+    "current": 32.23,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 30.86
-      }
-    ]
-  },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 35.0
+        "price": 32.23
       }
     ]
   },
@@ -278,6 +296,24 @@
       }
     ]
   },
+  "light grenades": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 33.21
+      }
+    ]
+  },
+  "morning view": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 33.21
+      }
+    ]
+  },
   "marauder": {
     "current": 28.42,
     "history": [
@@ -287,12 +323,12 @@
       }
     ]
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.97,
+  "star": {
+    "current": 246.63,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 48.97
+        "price": 246.63
       }
     ]
   },
@@ -305,6 +341,15 @@
       }
     ]
   },
+  "sleeping with ghosts": {
+    "current": 24.5,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 24.5
+      }
+    ]
+  },
   "metallica": {
     "current": 35.95,
     "history": [
@@ -314,30 +359,12 @@
       }
     ]
   },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 25.9
-      }
-    ]
-  },
   "led zeppelin iii": {
     "current": 26.95,
     "history": [
       {
         "date": "2026-06-21",
         "price": 26.95
-      }
-    ]
-  },
-  "festival session 2 bonus tracks": {
-    "current": 48.26,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 48.26
       }
     ]
   },
@@ -368,6 +395,15 @@
       }
     ]
   },
+  "s m2 box": {
+    "current": 83.89,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 83.89
+      }
+    ]
+  },
   "and justice for all": {
     "current": 49.19,
     "history": [
@@ -386,21 +422,30 @@
       }
     ]
   },
-  "appetite for destruction": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 29.9
-      }
-    ]
-  },
   "back in": {
     "current": 23.85,
     "history": [
       {
         "date": "2026-06-21",
         "price": 23.85
+      }
+    ]
+  },
+  "ultinate": {
+    "current": 37.42,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 37.42
+      }
+    ]
+  },
+  "guest star bill evans alone together": {
+    "current": 25.56,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 25.56
       }
     ]
   },
@@ -413,12 +458,21 @@
       }
     ]
   },
-  "the beatles": {
-    "current": 52.95,
+  "1": {
+    "current": 51.8,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 52.95
+        "price": 51.8
+      }
+    ]
+  },
+  "abbey road": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 29.9
       }
     ]
   },
@@ -458,12 +512,12 @@
       }
     ]
   },
-  "substance": {
-    "current": 36.8,
+  "heroes": {
+    "current": 31.99,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 36.8
+        "price": 31.99
       }
     ]
   }
