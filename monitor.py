@@ -41,10 +41,6 @@ def log(msg: str):
         f.write(line + "\n")
     print(line)
 
-log(f"USO QUESTO FILE: {__file__}")
-log(f"FILE PYTHON FISICO: {__file__}")
-log(f"CWD: {os.getcwd()}")
-
 # ---------------------------------------------------------
 # EMAIL
 # ---------------------------------------------------------
