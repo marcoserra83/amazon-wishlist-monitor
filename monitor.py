@@ -15,7 +15,7 @@ import re
 WISHLIST_URL = os.environ.get("WISHLIST_URL")  # ora preso dai secrets
 GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
-THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 10))
+THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 1))
 
 DATA_FILE = "prices.json"
 LOG_DIR = "logs"
