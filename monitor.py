@@ -359,6 +359,8 @@ def main():
                 )
 
     # Salvataggio
+    os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
+
     log(f"SALVO QUI: {DATA_FILE}")
     with open(DATA_FILE, "w") as f:
         json.dump(new, f, indent=2)
