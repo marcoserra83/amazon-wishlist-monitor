@@ -10,7 +10,7 @@ import traceback
 import re
 
 # ---------------------------------------------------------
-# CONFIG
+# CONFIGURATION
 # ---------------------------------------------------------
 WISHLIST_URL = os.environ.get("WISHLIST_URL")  # ora preso dai secrets
 GMAIL_USER = os.environ["GMAIL_USER"]
