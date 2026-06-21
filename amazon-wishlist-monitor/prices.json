@@ -1,13 +1,4 @@
 {
-  "innerspeaker": {
-    "current": 26.9,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 26.9
-      }
-    ]
-  },
   "viva hate hq ltd download": {
     "current": 26.99,
     "history": [
@@ -35,6 +26,51 @@
       }
     ]
   },
+  "fear of the dawn": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 29.99
+      }
+    ]
+  },
+  "entering heaven alive": {
+    "current": 36.77,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 36.77
+      }
+    ]
+  },
+  "cosa faremo da grandi": {
+    "current": 30.99,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 30.99
+      }
+    ]
+  },
+  "mainstream": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 33.21
+      }
+    ]
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 29.99
+      }
+    ]
+  },
   "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
@@ -53,12 +89,12 @@
       }
     ]
   },
-  "amputechture": {
-    "current": 48.88,
+  "songs of a lost world": {
+    "current": 31.9,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 48.88
+        "price": 31.9
       }
     ]
   },
@@ -71,6 +107,15 @@
       }
     ]
   },
+  "hot fuzz": {
+    "current": 32.8,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 32.8
+      }
+    ]
+  },
   "disco x 180 gr": {
     "current": 27.01,
     "history": [
@@ -80,21 +125,21 @@
       }
     ]
   },
-  "fear of music": {
-    "current": 34.89,
+  "tracy chapman talkin about a revolution": {
+    "current": 49.82,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 34.89
+        "price": 49.82
       }
     ]
   },
-  "remain in light": {
-    "current": 25.9,
+  "naked": {
+    "current": 35.9,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 25.9
+        "price": 35.9
       }
     ]
   },
@@ -107,21 +152,21 @@
       }
     ]
   },
-  "up": {
-    "current": 44.99,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 44.99
-      }
-    ]
-  },
   "new adventures in hi fi": {
     "current": 45.9,
     "history": [
       {
         "date": "2026-06-21",
         "price": 45.9
+      }
+    ]
+  },
+  "blood sugar sex magik": {
+    "current": 38.61,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 38.61
       }
     ]
   },
@@ -152,30 +197,21 @@
       }
     ]
   },
+  "greatest hits": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 27.99
+      }
+    ]
+  },
   "octahedron": {
     "current": 54.61,
     "history": [
       {
         "date": "2026-06-21",
         "price": 54.61
-      }
-    ]
-  },
-  "dynamite": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 33.99
-      }
-    ]
-  },
-  "a funk odyssey": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 33.99
       }
     ]
   },
@@ -251,24 +287,6 @@
       }
     ]
   },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 25.9
-      }
-    ]
-  },
-  "the queen is dead": {
-    "current": 24.9,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 24.9
-      }
-    ]
-  },
   "ixnay on the hombre": {
     "current": 32.23,
     "history": [
@@ -287,39 +305,12 @@
       }
     ]
   },
-  "a crow left of the murder": {
-    "current": 40.0,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 40.0
-      }
-    ]
-  },
-  "light grenades": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 33.21
-      }
-    ]
-  },
   "marauder": {
     "current": 28.42,
     "history": [
       {
         "date": "2026-06-21",
         "price": 28.42
-      }
-    ]
-  },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.99,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 48.99
       }
     ]
   },
@@ -350,30 +341,12 @@
       }
     ]
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 24.5
-      }
-    ]
-  },
   "metallica": {
     "current": 35.95,
     "history": [
       {
         "date": "2026-06-21",
         "price": 35.95
-      }
-    ]
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 25.9
       }
     ]
   },
@@ -396,15 +369,6 @@
       {
         "date": "2026-06-21",
         "price": 50.83
-      }
-    ]
-  },
-  "reload": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 49.19
       }
     ]
   },
@@ -444,6 +408,15 @@
       }
     ]
   },
+  "master of puppets": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 35.9
+      }
+    ]
+  },
   "mezzanine": {
     "current": 39.46,
     "history": [
@@ -462,21 +435,21 @@
       }
     ]
   },
+  "back in": {
+    "current": 23.85,
+    "history": [
+      {
+        "date": "2026-06-21",
+        "price": 23.85
+      }
+    ]
+  },
   "ultinate": {
     "current": 37.42,
     "history": [
       {
         "date": "2026-06-21",
         "price": 37.42
-      }
-    ]
-  },
-  "guest star bill evans alone together": {
-    "current": 25.56,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 25.56
       }
     ]
   },
@@ -516,30 +489,12 @@
       }
     ]
   },
-  "abbey road": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 29.9
-      }
-    ]
-  },
   "let love in": {
     "current": 28.99,
     "history": [
       {
         "date": "2026-06-21",
         "price": 28.99
-      }
-    ]
-  },
-  "interpol": {
-    "current": 35.76,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 35.76
       }
     ]
   },
@@ -552,15 +507,6 @@
       }
     ]
   },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 40.05
-      }
-    ]
-  },
   "morrison hotel": {
     "current": 34.73,
     "history": [
@@ -570,12 +516,12 @@
       }
     ]
   },
-  "heroes": {
-    "current": 31.99,
+  "substance": {
+    "current": 36.8,
     "history": [
       {
         "date": "2026-06-21",
-        "price": 31.99
+        "price": 36.8
       }
     ]
   },
