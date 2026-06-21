@@ -41,8 +41,8 @@ jobs:
           name: debug-output
           path: debug_output/
           if-no-files-found: ignore
-          
-        - name: Commit updated prices.json
+
+      - name: Commit updated prices.json
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
