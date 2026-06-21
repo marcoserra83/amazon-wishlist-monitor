@@ -60,11 +60,7 @@ def send_email(body: str):
 # ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower().strip()
-    name = re.sub(r"[\(
-
-\[\{].*?[\)\]
-
-\}]", "", name)  # rimuove parentesi e contenuto
+    name = re.sub(r"[\(\[\{].*?[\)\]\}]", "", name)  # rimuove parentesi e contenuto
     name = re.sub(r"[^a-z0-9]+", " ", name)          # rimuove simboli
     name = re.sub(r"\s+", " ", name).strip()         # normalizza spazi
     return name
