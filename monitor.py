@@ -352,6 +352,7 @@ def main():
                 )
 
     # Salvataggio
+    log(f"SALVO QUI: {DATA_FILE}")
     with open(DATA_FILE, "w") as f:
         json.dump(new, f, indent=2)
         log("Prezzi aggiornati salvati.")
