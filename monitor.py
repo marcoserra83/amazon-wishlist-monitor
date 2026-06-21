@@ -17,7 +17,8 @@ GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
 THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 1))
 
-DATA_FILE = "prices.json"
+DATA_FILE = os.path.join(os.path.dirname(__file__), "prices.json")
+
 LOG_DIR = "logs"
 
 TIMEOUT_PAGE = 20000
