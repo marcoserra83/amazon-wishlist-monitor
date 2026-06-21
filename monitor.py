@@ -59,13 +59,33 @@ def send_email(body: str):
 # NORMALIZZA NOME
 # ---------------------------------------------------------
 def normalize(name: str) -> str:
-    name = name.lower().strip()
-    name = re.sub(r"[\(\[\{].*?[\)\]\}]", "", name)  # rimuove parentesi e contenuto
-    name = re.sub(r"[^a-z0-9]+", " ", name)          # rimuove simboli
-    name = re.sub(r"\s+", " ", name).strip()         # normalizza spazi
+    # minuscolo
+    name = name.lower()
+
+    # rimuove contenuto tra parentesi tonde, quadre, graffe
+    name = re.sub(r"\(.*?\)", "", name)
+    name = re.sub(r"\[.*?\]", "", name)
+    name = re.sub(r"\{.*?\}", "", name)
+
+    # rimuove parole inutili che Amazon aggiunge spesso
+    blacklist = [
+        "vinile", "lp", "remaster", "remastered", "edition", "edizione",
+        "anniversary", "deluxe", "expanded", "version", "2lp", "3lp",
+        "limited", "limitata", "col", "color", "colored", "transparent",
+        "black", "white", "yellow", "blue", "red", "180gr", "180g",
+        "20th", "25th", "30th", "40th"
+    ]
+    for word in blacklist:
+        name = name.replace(word, "")
+
+    # rimuove tutto ciò che non è lettera o numero
+    name = re.sub(r"[^a-z0-9]+", " ", name)
+
+    # normalizza spazi
+    name = name.strip()
+    name = re.sub(r"\s+", " ", name)
+
     return name
-
-
 
 # ---------------------------------------------------------
 # PRICE PARSER
