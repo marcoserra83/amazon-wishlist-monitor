@@ -286,20 +286,27 @@ def main():
 
         # Estraggo dati precedenti
         old_current = old[name].get("current")
-        history = old[name].get("history", [])
-
-        # Base
+        old_history = old[name].get("history", [])
+        
+        # Copia profonda dello storico per evitare riferimenti condivisi
+        history = list(old_history)
+        
+        # Aggiorna sempre il prezzo corrente
         new[name] = {
             "current": price,
             "history": history
         }
-
-        # Aggiungi allo storico SOLO se cambia
+        
+        # Se il prezzo è cambiato → aggiungi allo storico
         if old_current != price:
-            new[name]["history"].append({"date": today, "price": price})
+            new[name]["history"].append({
+                "date": today,
+                "price": price
+            })
             log(f"  Prezzo cambiato per {name}: {old_current} → {price}")
 
-        # Alert
+
+    # Alert
         if old_current and old_current > 0:
             drop = ((old_current - price) / old_current) * 100
             if drop >= THRESHOLD:
