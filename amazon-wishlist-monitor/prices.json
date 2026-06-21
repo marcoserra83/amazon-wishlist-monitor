@@ -522,11 +522,15 @@
     ]
   },
   "festival session 2 bonus tracks": {
-    "current": 48.26,
+    "current": 50.83,
     "history": [
       {
         "date": "2026-06-21",
         "price": 48.26
+      },
+      {
+        "date": "2026-06-21",
+        "price": 50.83
       }
     ]
   },
