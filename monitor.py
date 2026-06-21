@@ -59,7 +59,6 @@ def send_email(body: str):
 # NORMALIZZA NOME
 # ---------------------------------------------------------
 def normalize(name: str) -> str:
-    # minuscolo
     name = name.lower()
 
     # rimuove contenuto tra parentesi tonde, quadre, graffe
