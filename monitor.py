@@ -306,7 +306,7 @@ def main():
             log(f"  Prezzo cambiato per {name}: {old_current} → {price}")
 
 
-    # Alert
+        # Alert
         if old_current and old_current > 0:
             drop = ((old_current - price) / old_current) * 100
             if drop >= THRESHOLD:
