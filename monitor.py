@@ -9,6 +9,8 @@ import time
 import traceback
 import re
 
+
+log(f"USO QUESTO FILE: {__file__}")
 # ---------------------------------------------------------
 # CONFIGURATION
 # ---------------------------------------------------------
