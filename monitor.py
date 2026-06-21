@@ -17,7 +17,7 @@ GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
 THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 1))
 
-DATA_FILE = os.path.abspath("prices.json")
+DATA_FILE = os.path.abspath(os.path.join(os.getcwd(), "prices.json"))
 
 LOG_DIR = "logs"
 
