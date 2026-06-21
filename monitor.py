@@ -54,6 +54,23 @@ def send_email(body: str):
     log("Email inviata.")
 
 
+
+# ---------------------------------------------------------
+# NORMALIZZA NOME
+# ---------------------------------------------------------
+def normalize(name: str) -> str:
+    name = name.lower().strip()
+    name = re.sub(r"[\(
+
+\[\{].*?[\)\]
+
+\}]", "", name)  # rimuove parentesi e contenuto
+    name = re.sub(r"[^a-z0-9]+", " ", name)          # rimuove simboli
+    name = re.sub(r"\s+", " ", name).strip()         # normalizza spazi
+    return name
+
+
+
 # ---------------------------------------------------------
 # PRICE PARSER
 # ---------------------------------------------------------
@@ -271,7 +288,8 @@ def main():
     alerts = []
     today = datetime.now().strftime("%Y-%m-%d")
 
-    for name, price in items:
+    for raw_name, price in items:
+        name = normalize(raw_name)
         log(f"Prezzo attuale {name}: €{price:.2f}")
 
         # Se nuovo prodotto → inizializza
