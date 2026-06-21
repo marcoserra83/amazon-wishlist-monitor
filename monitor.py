@@ -19,8 +19,9 @@ GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
 THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 1))
 
-REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "amazon-wishlist-monitor"))
-DATA_FILE = os.path.join(REPO_ROOT, "prices.json")
+REPO_DIR = os.path.join(os.getcwd(), "amazon-wishlist-monitor")
+DATA_FILE = os.path.join(REPO_DIR, "prices.json")
+
 
 LOG_DIR = "logs"
 
