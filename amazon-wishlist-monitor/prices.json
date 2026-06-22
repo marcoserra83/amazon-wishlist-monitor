@@ -540,11 +540,15 @@
     ]
   },
   "s m": {
-    "current": 49.8,
+    "current": 49.52,
     "history": [
       {
         "date": "2026-06-22",
         "price": 49.8
+      },
+      {
+        "date": "2026-06-22",
+        "price": 49.52
       }
     ]
   },
@@ -608,33 +612,6 @@
       {
         "date": "2026-06-22",
         "price": 29.9
-      }
-    ]
-  },
-  "back in": {
-    "current": 23.85,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 23.85
-      }
-    ]
-  },
-  "ultinate": {
-    "current": 37.42,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 37.42
-      }
-    ]
-  },
-  "guest star bill evans alone together": {
-    "current": 25.56,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 25.56
       }
     ]
   },
@@ -710,39 +687,12 @@
       }
     ]
   },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 40.05
-      }
-    ]
-  },
   "morrison hotel": {
     "current": 34.73,
     "history": [
       {
         "date": "2026-06-22",
         "price": 34.73
-      }
-    ]
-  },
-  "substance": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 36.8
-      }
-    ]
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 31.99
       }
     ]
   },
