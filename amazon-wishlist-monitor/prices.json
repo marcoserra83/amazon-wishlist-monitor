@@ -1,4 +1,13 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 26.9
+      }
+    ]
+  },
   "viva hate hq ltd download": {
     "current": 26.99,
     "history": [
@@ -8,39 +17,30 @@
       }
     ]
   },
-  "vauxhall i definitive": {
-    "current": 33.8,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 33.8
-      }
-    ]
-  },
-  "boarding house reach": {
-    "current": 35.97,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 35.97
-      }
-    ]
-  },
-  "fear of the dawn": {
-    "current": 37.72,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 37.72
-      }
-    ]
-  },
   "entering heaven alive": {
     "current": 36.8,
     "history": [
       {
         "date": "2026-06-22",
         "price": 36.8
+      }
+    ]
+  },
+  "cosa faremo da grandi": {
+    "current": 30.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 30.99
+      }
+    ]
+  },
+  "mainstream": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 33.21
       }
     ]
   },
@@ -62,6 +62,24 @@
       }
     ]
   },
+  "resta vile maschio dove vai": {
+    "current": 38.0,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 38.0
+      }
+    ]
+  },
+  "amputechture": {
+    "current": 48.88,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 48.88
+      }
+    ]
+  },
   "songs of a lost world": {
     "current": 31.9,
     "history": [
@@ -71,21 +89,30 @@
       }
     ]
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 49.82,
+  "hot fuzz": {
+    "current": 32.8,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 49.82
+        "price": 32.8
       }
     ]
   },
-  "fear of music": {
-    "current": 34.89,
+  "disco x 180 gr": {
+    "current": 27.01,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 34.89
+        "price": 27.01
+      }
+    ]
+  },
+  "naked": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 35.9
       }
     ]
   },
@@ -107,6 +134,15 @@
       }
     ]
   },
+  "up": {
+    "current": 44.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 44.99
+      }
+    ]
+  },
   "new adventures in hi fi": {
     "current": 45.9,
     "history": [
@@ -116,21 +152,30 @@
       }
     ]
   },
-  "bleach ed": {
-    "current": 25.99,
+  "blood sugar sex magik": {
+    "current": 38.61,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 25.99
+        "price": 38.61
       }
     ]
   },
-  "greatest hits": {
-    "current": 27.99,
+  "riot on a empty street": {
+    "current": 50.58,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 27.99
+        "price": 50.58
+      }
+    ]
+  },
+  "like clockwork": {
+    "current": 30.69,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 30.69
       }
     ]
   },
@@ -143,15 +188,6 @@
       }
     ]
   },
-  "dynamite": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 33.99
-      }
-    ]
-  },
   "synkronized": {
     "current": 23.99,
     "history": [
@@ -161,12 +197,12 @@
       }
     ]
   },
-  "mute records construction time again": {
-    "current": 23.99,
+  "emergency on planet earth": {
+    "current": 40.99,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 23.99
+        "price": 40.99
       }
     ]
   },
@@ -188,30 +224,39 @@
       }
     ]
   },
-  "ixnay on the hombre": {
-    "current": 32.23,
+  "top": {
+    "current": 29.9,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 32.23
+        "price": 29.9
       }
     ]
   },
-  "good bye lenin": {
-    "current": 30.86,
+  "hatful of hollow": {
+    "current": 25.9,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 30.86
+        "price": 25.9
       }
     ]
   },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
+  "the queen is dead": {
+    "current": 24.9,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 35.0
+        "price": 24.9
+      }
+    ]
+  },
+  "money for nothing": {
+    "current": 38.43,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 38.43
       }
     ]
   },
@@ -224,15 +269,6 @@
       }
     ]
   },
-  "marauder": {
-    "current": 28.42,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 28.42
-      }
-    ]
-  },
   "vol 3 the subliminal verses violet": {
     "current": 48.99,
     "history": [
@@ -242,12 +278,12 @@
       }
     ]
   },
-  "out of time": {
-    "current": 25.36,
+  "sleeping with ghosts": {
+    "current": 24.5,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 25.36
+        "price": 24.5
       }
     ]
   },
@@ -287,6 +323,15 @@
       }
     ]
   },
+  "kill em all": {
+    "current": 36.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 36.99
+      }
+    ]
+  },
   "s m2 box": {
     "current": 95.9,
     "history": [
@@ -305,6 +350,15 @@
       }
     ]
   },
+  "mezzanine": {
+    "current": 42.65,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 42.65
+      }
+    ]
+  },
   "back in": {
     "current": 23.85,
     "history": [
@@ -314,12 +368,12 @@
       }
     ]
   },
-  "ultinate": {
-    "current": 37.42,
+  "anime salve": {
+    "current": 38.36,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 37.42
+        "price": 38.36
       }
     ]
   },
@@ -332,12 +386,12 @@
       }
     ]
   },
-  "abbey road": {
-    "current": 29.9,
+  "1": {
+    "current": 51.8,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 29.9
+        "price": 51.8
       }
     ]
   },
@@ -359,6 +413,15 @@
       }
     ]
   },
+  "soft parade": {
+    "current": 40.05,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 40.05
+      }
+    ]
+  },
   "morrison hotel": {
     "current": 34.73,
     "history": [
@@ -374,6 +437,15 @@
       {
         "date": "2026-06-22",
         "price": 36.8
+      }
+    ]
+  },
+  "heroes": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 31.99
       }
     ]
   },
