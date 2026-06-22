@@ -17,34 +17,16 @@
       }
     ]
   },
-  "vauxhall i definitive": {
-    "current": 33.8,
+  "boarding house reach": {
+    "current": 35.97,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 33.8
+        "price": 35.97
       }
     ]
   },
-  "cosa faremo da grandi": {
-    "current": 30.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 30.99
-      }
-    ]
-  },
-  "mainstream": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 33.21
-      }
-    ]
-  },
-  "relax": {
+  "fear of the dawn": {
     "current": 29.99,
     "history": [
       {
@@ -53,7 +35,16 @@
       }
     ]
   },
-  "evergreen e altre canzoni": {
+  "entering heaven alive": {
+    "current": 36.77,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 36.77
+      }
+    ]
+  },
+  "mainstream": {
     "current": 33.21,
     "history": [
       {
@@ -80,6 +71,15 @@
       }
     ]
   },
+  "songs of a lost world": {
+    "current": 31.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 31.9
+      }
+    ]
+  },
   "un du": {
     "current": 53.91,
     "history": [
@@ -95,6 +95,15 @@
       {
         "date": "2026-06-22",
         "price": 32.8
+      }
+    ]
+  },
+  "disco x 180 gr": {
+    "current": 27.01,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 27.01
       }
     ]
   },
@@ -134,12 +143,30 @@
       }
     ]
   },
+  "up": {
+    "current": 44.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 44.99
+      }
+    ]
+  },
   "new adventures in hi fi": {
     "current": 45.9,
     "history": [
       {
         "date": "2026-06-22",
         "price": 45.9
+      }
+    ]
+  },
+  "blood sugar sex magik": {
+    "current": 38.61,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 38.61
       }
     ]
   },
@@ -170,12 +197,12 @@
       }
     ]
   },
-  "octahedron": {
-    "current": 54.61,
+  "greatest hits": {
+    "current": 27.99,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 54.61
+        "price": 27.99
       }
     ]
   },
@@ -194,6 +221,15 @@
       {
         "date": "2026-06-22",
         "price": 33.99
+      }
+    ]
+  },
+  "synkronized": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 23.99
       }
     ]
   },
@@ -242,30 +278,21 @@
       }
     ]
   },
-  "tici canzoni urgenti": {
-    "current": 32.9,
+  "la matematica dei rami": {
+    "current": 33.31,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 32.9
+        "price": 33.31
       }
     ]
   },
-  "top": {
-    "current": 29.9,
+  "the queen is dead": {
+    "current": 24.9,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 29.9
-      }
-    ]
-  },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 25.9
+        "price": 24.9
       }
     ]
   },
@@ -278,15 +305,6 @@
       }
     ]
   },
-  "money for nothing": {
-    "current": 38.43,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 38.43
-      }
-    ]
-  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
@@ -296,12 +314,12 @@
       }
     ]
   },
-  "morning view": {
-    "current": 33.21,
+  "a crow left of the murder": {
+    "current": 40.0,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 33.21
+        "price": 40.0
       }
     ]
   },
@@ -323,21 +341,21 @@
       }
     ]
   },
-  "star": {
-    "current": 246.63,
+  "noctourniquet": {
+    "current": 37.37,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 246.63
+        "price": 37.37
       }
     ]
   },
-  "out of time": {
-    "current": 25.36,
+  "sleeping with ghosts": {
+    "current": 24.5,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 25.36
+        "price": 24.5
       }
     ]
   },
@@ -359,12 +377,12 @@
       }
     ]
   },
-  "s m": {
-    "current": 49.8,
+  "reload": {
+    "current": 49.19,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 49.8
+        "price": 49.19
       }
     ]
   },
@@ -377,21 +395,39 @@
       }
     ]
   },
-  "and justice for all": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 49.19
-      }
-    ]
-  },
   "master of puppets": {
     "current": 35.9,
     "history": [
       {
         "date": "2026-06-22",
         "price": 35.9
+      }
+    ]
+  },
+  "mezzanine": {
+    "current": 39.46,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 39.46
+      }
+    ]
+  },
+  "appetite for destruction": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 29.9
+      }
+    ]
+  },
+  "back in": {
+    "current": 23.85,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 23.85
       }
     ]
   },
@@ -413,12 +449,39 @@
       }
     ]
   },
+  "anime salve": {
+    "current": 38.36,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 38.36
+      }
+    ]
+  },
   "fabrizio de andre": {
     "current": 31.9,
     "history": [
       {
         "date": "2026-06-22",
         "price": 31.9
+      }
+    ]
+  },
+  "1": {
+    "current": 51.8,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 51.8
+      }
+    ]
+  },
+  "abbey road": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 29.9
       }
     ]
   },
@@ -431,15 +494,6 @@
       }
     ]
   },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 40.05
-      }
-    ]
-  },
   "morrison hotel": {
     "current": 34.73,
     "history": [
@@ -449,30 +503,12 @@
       }
     ]
   },
-  "substance": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 36.8
-      }
-    ]
-  },
   "heroes": {
     "current": 31.99,
     "history": [
       {
         "date": "2026-06-22",
         "price": 31.99
-      }
-    ]
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 28.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 28.9
       }
     ]
   }
