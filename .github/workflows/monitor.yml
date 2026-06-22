@@ -55,7 +55,9 @@ jobs:
           git config user.email "github-actions@github.com"
 
           # Aggiungi prima le modifiche locali
-          git add amazon-wishlist-monitor/prices.json
+          git add prices.json
+
+          #git add amazon-wishlist-monitor/prices.json
           git commit -m "Update prices.json" || echo "No changes to commit"
 
           # Poi sincronizza con il remoto
