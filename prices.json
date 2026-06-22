@@ -1,4 +1,22 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-06-22 22:14:24",
+        "price": 26.9
+      }
+    ]
+  },
+  "viva hate hq ltd download": {
+    "current": 26.99,
+    "history": [
+      {
+        "date": "2026-06-22 22:14:24",
+        "price": 26.99
+      }
+    ]
+  },
   "fear of the dawn": {
     "current": 37.72,
     "history": [
@@ -26,39 +44,21 @@
       }
     ]
   },
-  "mainstream": {
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-22 22:14:24",
+        "price": 29.99
+      }
+    ]
+  },
+  "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
       {
-        "date": "2026-06-22 21:14:42",
+        "date": "2026-06-22 22:14:24",
         "price": 33.21
-      }
-    ]
-  },
-  "resta vile maschio dove vai": {
-    "current": 38.0,
-    "history": [
-      {
-        "date": "2026-06-22 21:57:11",
-        "price": 38.0
-      }
-    ]
-  },
-  "amputechture": {
-    "current": 48.88,
-    "history": [
-      {
-        "date": "2026-06-22 21:57:11",
-        "price": 48.88
-      }
-    ]
-  },
-  "songs of a lost world": {
-    "current": 31.9,
-    "history": [
-      {
-        "date": "2026-06-22 21:24:43",
-        "price": 31.9
       }
     ]
   },
@@ -80,16 +80,12 @@
       }
     ]
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 62.25,
+  "disco x 180 gr": {
+    "current": 27.01,
     "history": [
       {
-        "date": "2026-06-22 20:27:14",
-        "price": 49.82
-      },
-      {
-        "date": "2026-06-22 22:04:59",
-        "price": 62.25
+        "date": "2026-06-22 22:14:24",
+        "price": 27.01
       }
     ]
   },
@@ -165,19 +161,6 @@
       }
     ]
   },
-  "bleach ed": {
-    "current": 23.51,
-    "history": [
-      {
-        "date": "2026-06-22 21:14:42",
-        "price": 25.99
-      },
-      {
-        "date": "2026-06-22 22:04:59",
-        "price": 23.51
-      }
-    ]
-  },
   "greatest hits": {
     "current": 27.99,
     "history": [
@@ -187,21 +170,30 @@
       }
     ]
   },
+  "octahedron": {
+    "current": 54.61,
+    "history": [
+      {
+        "date": "2026-06-22 22:14:24",
+        "price": 54.61
+      }
+    ]
+  },
+  "dynamite": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-06-22 22:14:24",
+        "price": 33.99
+      }
+    ]
+  },
   "a funk odyssey": {
     "current": 33.99,
     "history": [
       {
         "date": "2026-06-22 21:04:16",
         "price": 33.99
-      }
-    ]
-  },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-22 20:27:14",
-        "price": 23.99
       }
     ]
   },
@@ -277,12 +269,21 @@
       }
     ]
   },
-  "the queen is dead": {
-    "current": 24.9,
+  "hatful of hollow": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-06-22 20:27:14",
-        "price": 24.9
+        "date": "2026-06-22 22:14:24",
+        "price": 25.9
+      }
+    ]
+  },
+  "ixnay on the hombre": {
+    "current": 32.23,
+    "history": [
+      {
+        "date": "2026-06-22 22:14:24",
+        "price": 32.23
       }
     ]
   },
@@ -313,12 +314,12 @@
       }
     ]
   },
-  "a crow left of the murder": {
-    "current": 40.0,
+  "light grenades": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-06-22 21:57:11",
-        "price": 40.0
+        "date": "2026-06-22 22:14:24",
+        "price": 33.21
       }
     ]
   },
@@ -358,12 +359,21 @@
       }
     ]
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
+  "out of time": {
+    "current": 25.36,
     "history": [
       {
-        "date": "2026-06-22 21:14:42",
-        "price": 24.5
+        "date": "2026-06-22 22:14:24",
+        "price": 25.36
+      }
+    ]
+  },
+  "noctourniquet": {
+    "current": 37.37,
+    "history": [
+      {
+        "date": "2026-06-22 22:14:24",
+        "price": 37.37
       }
     ]
   },
@@ -373,6 +383,24 @@
       {
         "date": "2026-06-22 21:24:43",
         "price": 35.95
+      }
+    ]
+  },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-22 22:14:24",
+        "price": 25.9
+      }
+    ]
+  },
+  "led zeppelin iii": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-06-22 22:14:24",
+        "price": 26.95
       }
     ]
   },
@@ -421,15 +449,6 @@
       }
     ]
   },
-  "master of puppets": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-06-22 21:57:11",
-        "price": 35.9
-      }
-    ]
-  },
   "mezzanine": {
     "current": 42.65,
     "history": [
@@ -466,12 +485,12 @@
       }
     ]
   },
-  "guest star bill evans alone together": {
-    "current": 25.56,
+  "anime salve": {
+    "current": 38.36,
     "history": [
       {
-        "date": "2026-06-22 21:57:11",
-        "price": 25.56
+        "date": "2026-06-22 22:14:24",
+        "price": 38.36
       }
     ]
   },
@@ -484,21 +503,12 @@
       }
     ]
   },
-  "abbey road": {
-    "current": 29.9,
+  "1": {
+    "current": 51.8,
     "history": [
       {
-        "date": "2026-06-22 21:14:42",
-        "price": 29.9
-      }
-    ]
-  },
-  "let love in": {
-    "current": 28.99,
-    "history": [
-      {
-        "date": "2026-06-22 21:04:16",
-        "price": 28.99
+        "date": "2026-06-22 22:14:24",
+        "price": 51.8
       }
     ]
   },
@@ -544,6 +554,15 @@
       {
         "date": "2026-06-22 21:04:16",
         "price": 31.99
+      }
+    ]
+  },
+  "the rise and fall of ziggy stardust": {
+    "current": 28.9,
+    "history": [
+      {
+        "date": "2026-06-22 22:14:24",
+        "price": 28.9
       }
     ]
   }
