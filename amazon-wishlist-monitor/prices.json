@@ -1,4 +1,13 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 26.9
+      }
+    ]
+  },
   "viva hate hq ltd download": {
     "current": 26.99,
     "history": [
@@ -35,16 +44,16 @@
       }
     ]
   },
-  "cosa faremo da grandi": {
-    "current": 30.99,
+  "relax": {
+    "current": 29.99,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 30.99
+        "price": 29.99
       }
     ]
   },
-  "mainstream": {
+  "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
       {
@@ -53,21 +62,30 @@
       }
     ]
   },
-  "hot fuzz": {
-    "current": 32.8,
+  "resta vile maschio dove vai": {
+    "current": 38.0,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 32.8
+        "price": 38.0
       }
     ]
   },
-  "disco x 180 gr": {
-    "current": 27.01,
+  "amputechture": {
+    "current": 48.88,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 27.01
+        "price": 48.88
+      }
+    ]
+  },
+  "un du": {
+    "current": 53.91,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 53.91
       }
     ]
   },
@@ -86,24 +104,6 @@
       {
         "date": "2026-06-22",
         "price": 34.89
-      }
-    ]
-  },
-  "naked": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 35.9
-      }
-    ]
-  },
-  "follow the leader": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 23.99
       }
     ]
   },
@@ -143,6 +143,33 @@
       }
     ]
   },
+  "like clockwork": {
+    "current": 30.69,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 30.69
+      }
+    ]
+  },
+  "bleach ed": {
+    "current": 25.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 25.99
+      }
+    ]
+  },
+  "greatest hits": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 27.99
+      }
+    ]
+  },
   "octahedron": {
     "current": 54.61,
     "history": [
@@ -152,12 +179,12 @@
       }
     ]
   },
-  "dynamite": {
-    "current": 33.99,
+  "emergency on planet earth": {
+    "current": 40.99,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 33.99
+        "price": 40.99
       }
     ]
   },
@@ -170,12 +197,12 @@
       }
     ]
   },
-  "mute records construction time again": {
-    "current": 23.99,
+  "reggatta de blanc": {
+    "current": 36.72,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 23.99
+        "price": 36.72
       }
     ]
   },
@@ -197,21 +224,12 @@
       }
     ]
   },
-  "the queen is dead": {
-    "current": 24.9,
+  "hatful of hollow": {
+    "current": 25.9,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 24.9
-      }
-    ]
-  },
-  "money for nothing": {
-    "current": 38.43,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 38.43
+        "price": 25.9
       }
     ]
   },
@@ -221,24 +239,6 @@
       {
         "date": "2026-06-22",
         "price": 30.86
-      }
-    ]
-  },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 35.0
-      }
-    ]
-  },
-  "a crow left of the murder": {
-    "current": 40.0,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 40.0
       }
     ]
   },
@@ -296,30 +296,12 @@
       }
     ]
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 24.5
-      }
-    ]
-  },
   "metallica": {
     "current": 35.95,
     "history": [
       {
         "date": "2026-06-22",
         "price": 35.95
-      }
-    ]
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 25.9
       }
     ]
   },
@@ -332,30 +314,21 @@
       }
     ]
   },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 50.83
-      }
-    ]
-  },
-  "reload": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 49.19
-      }
-    ]
-  },
   "s m": {
     "current": 49.8,
     "history": [
       {
         "date": "2026-06-22",
         "price": 49.8
+      }
+    ]
+  },
+  "kill em all": {
+    "current": 36.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 36.99
       }
     ]
   },
@@ -368,24 +341,6 @@
       }
     ]
   },
-  "and justice for all": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 49.19
-      }
-    ]
-  },
-  "master of puppets": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 35.9
-      }
-    ]
-  },
   "mezzanine": {
     "current": 39.46,
     "history": [
@@ -395,12 +350,12 @@
       }
     ]
   },
-  "appetite for destruction": {
-    "current": 29.9,
+  "back in": {
+    "current": 23.85,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 29.9
+        "price": 23.85
       }
     ]
   },
@@ -413,15 +368,6 @@
       }
     ]
   },
-  "guest star bill evans alone together": {
-    "current": 25.56,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 25.56
-      }
-    ]
-  },
   "anime salve": {
     "current": 38.36,
     "history": [
@@ -431,30 +377,12 @@
       }
     ]
   },
-  "fabrizio de andre": {
-    "current": 31.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 31.9
-      }
-    ]
-  },
   "the beatles": {
     "current": 52.95,
     "history": [
       {
         "date": "2026-06-22",
         "price": 52.95
-      }
-    ]
-  },
-  "1": {
-    "current": 51.8,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 51.8
       }
     ]
   },
@@ -503,21 +431,12 @@
       }
     ]
   },
-  "substance": {
-    "current": 36.8,
+  "morrison hotel": {
+    "current": 34.73,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 36.8
-      }
-    ]
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 31.99
+        "price": 34.73
       }
     ]
   },
