@@ -17,6 +17,15 @@
       }
     ]
   },
+  "vauxhall i definitive": {
+    "current": 33.8,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 33.8
+      }
+    ]
+  },
   "boarding house reach": {
     "current": 35.97,
     "history": [
@@ -41,6 +50,24 @@
       {
         "date": "2026-06-22",
         "price": 36.77
+      }
+    ]
+  },
+  "cosa faremo da grandi": {
+    "current": 30.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 30.99
+      }
+    ]
+  },
+  "mainstream": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 33.21
       }
     ]
   },
@@ -80,6 +107,15 @@
       }
     ]
   },
+  "songs of a lost world": {
+    "current": 31.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 31.9
+      }
+    ]
+  },
   "un du": {
     "current": 53.91,
     "history": [
@@ -116,6 +152,15 @@
       }
     ]
   },
+  "fear of music": {
+    "current": 34.89,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 34.89
+      }
+    ]
+  },
   "naked": {
     "current": 35.9,
     "history": [
@@ -134,12 +179,12 @@
       }
     ]
   },
-  "follow the leader": {
-    "current": 23.99,
+  "new adventures in hi fi": {
+    "current": 45.9,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 23.99
+        "price": 45.9
       }
     ]
   },
@@ -161,12 +206,21 @@
       }
     ]
   },
-  "dynamite": {
-    "current": 33.99,
+  "greatest hits": {
+    "current": 27.99,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 33.99
+        "price": 27.99
+      }
+    ]
+  },
+  "octahedron": {
+    "current": 54.61,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 54.61
       }
     ]
   },
@@ -197,12 +251,39 @@
       }
     ]
   },
-  "la matematica dei rami": {
-    "current": 33.31,
+  "yield": {
+    "current": 23.99,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 33.31
+        "price": 23.99
+      }
+    ]
+  },
+  "mute records construction time again": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 23.99
+      }
+    ]
+  },
+  "playing the angel": {
+    "current": 25.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 25.99
+      }
+    ]
+  },
+  "reggatta de blanc": {
+    "current": 36.72,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 36.72
       }
     ]
   },
@@ -215,30 +296,12 @@
       }
     ]
   },
-  "top": {
-    "current": 29.9,
+  "the queen is dead": {
+    "current": 24.9,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 29.9
-      }
-    ]
-  },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 25.9
-      }
-    ]
-  },
-  "ixnay on the hombre": {
-    "current": 32.23,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 32.23
+        "price": 24.9
       }
     ]
   },
@@ -251,39 +314,39 @@
       }
     ]
   },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
+  "good bye lenin": {
+    "current": 30.86,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 35.0
+        "price": 30.86
       }
     ]
   },
-  "light grenades": {
-    "current": 33.21,
+  "a crow left of the murder": {
+    "current": 40.0,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 33.21
+        "price": 40.0
       }
     ]
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.99,
+  "marauder": {
+    "current": 28.42,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 48.99
+        "price": 28.42
       }
     ]
   },
-  "star": {
-    "current": 246.63,
+  "out of time": {
+    "current": 25.36,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 246.63
+        "price": 25.36
       }
     ]
   },
@@ -305,15 +368,6 @@
       }
     ]
   },
-  "metallica": {
-    "current": 35.95,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 35.95
-      }
-    ]
-  },
   "led zeppelin iii": {
     "current": 26.95,
     "history": [
@@ -329,15 +383,6 @@
       {
         "date": "2026-06-22",
         "price": 50.83
-      }
-    ]
-  },
-  "reload": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 49.19
       }
     ]
   },
@@ -359,15 +404,6 @@
       }
     ]
   },
-  "s m2 box": {
-    "current": 83.89,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 83.89
-      }
-    ]
-  },
   "and justice for all": {
     "current": 49.19,
     "history": [
@@ -377,12 +413,21 @@
       }
     ]
   },
-  "master of puppets": {
-    "current": 35.9,
+  "appetite for destruction": {
+    "current": 29.9,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 35.9
+        "price": 29.9
+      }
+    ]
+  },
+  "guest star bill evans alone together": {
+    "current": 25.56,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 25.56
       }
     ]
   },
@@ -404,12 +449,30 @@
       }
     ]
   },
-  "1": {
-    "current": 51.8,
+  "the beatles": {
+    "current": 52.95,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 51.8
+        "price": 52.95
+      }
+    ]
+  },
+  "abbey road": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 29.9
+      }
+    ]
+  },
+  "let love in": {
+    "current": 28.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 28.99
       }
     ]
   },
@@ -431,12 +494,12 @@
       }
     ]
   },
-  "heroes": {
-    "current": 31.99,
+  "substance": {
+    "current": 36.8,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 31.99
+        "price": 36.8
       }
     ]
   },
