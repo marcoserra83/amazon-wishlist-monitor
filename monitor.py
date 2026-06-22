@@ -19,15 +19,8 @@ GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
 THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 1))
 
-
 DATA_FILE = "prices.json"
-
-#REPO_DIR = os.path.join(os.getcwd(), "amazon-wishlist-monitor")
-#DATA_FILE = os.path.join(REPO_DIR, "prices.json")
-
-
 LOG_DIR = "logs"
-
 TIMEOUT_PAGE = 20000
 TIMEOUT_SELECTOR = 2500
 RETRY_COUNT = 2
@@ -303,7 +296,6 @@ def main():
     except Exception as e:
         log("ERRORE CRITICO durante get_items()")
         log(str(e))
-#        send_email("❌ Errore monitor Amazon:\n" + str(e))
         return
 
     new = {}
@@ -358,7 +350,6 @@ def main():
                 )
 
     # Salvataggio
-    #os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
 
     log(f"SALVO QUI: {DATA_FILE}")
     with open(DATA_FILE, "w") as f:
