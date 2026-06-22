@@ -300,7 +300,7 @@ def main():
     except Exception as e:
         log("ERRORE CRITICO durante get_items()")
         log(str(e))
-        send_email("❌ Errore monitor Amazon:\n" + str(e))
+#        send_email("❌ Errore monitor Amazon:\n" + str(e))
         return
 
     new = {}
