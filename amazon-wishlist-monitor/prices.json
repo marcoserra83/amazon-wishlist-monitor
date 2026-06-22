@@ -594,11 +594,15 @@
     ]
   },
   "mezzanine": {
-    "current": 42.65,
+    "current": 39.46,
     "history": [
       {
         "date": "2026-06-22",
         "price": 42.65
+      },
+      {
+        "date": "2026-06-22",
+        "price": 39.46
       }
     ]
   },
