@@ -1,19 +1,19 @@
 {
-  "vauxhall i definitive": {
-    "current": 33.8,
+  "innerspeaker": {
+    "current": 26.9,
     "history": [
       {
-        "date": "2026-06-22 22:34:33",
-        "price": 33.8
+        "date": "2026-06-22 23:04:22",
+        "price": 26.9
       }
     ]
   },
-  "boarding house reach": {
-    "current": 35.97,
+  "viva hate hq ltd download": {
+    "current": 26.99,
     "history": [
       {
-        "date": "2026-06-22 22:34:33",
-        "price": 35.97
+        "date": "2026-06-22 23:04:22",
+        "price": 26.99
       }
     ]
   },
@@ -35,21 +35,12 @@
       }
     ]
   },
-  "mainstream": {
-    "current": 33.21,
+  "cosa faremo da grandi": {
+    "current": 30.99,
     "history": [
       {
-        "date": "2026-06-22 22:44:09",
-        "price": 33.21
-      }
-    ]
-  },
-  "relax": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-06-22 22:44:09",
-        "price": 29.99
+        "date": "2026-06-22 23:04:22",
+        "price": 30.99
       }
     ]
   },
@@ -71,12 +62,12 @@
       }
     ]
   },
-  "amputechture": {
-    "current": 48.88,
+  "songs of a lost world": {
+    "current": 31.9,
     "history": [
       {
-        "date": "2026-06-22 22:44:09",
-        "price": 48.88
+        "date": "2026-06-22 23:04:22",
+        "price": 31.9
       }
     ]
   },
@@ -113,6 +104,15 @@
       {
         "date": "2026-06-22 22:34:33",
         "price": 34.89
+      }
+    ]
+  },
+  "naked": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 35.9
       }
     ]
   },
@@ -188,12 +188,12 @@
       }
     ]
   },
-  "octahedron": {
-    "current": 54.61,
+  "greatest hits": {
+    "current": 27.99,
     "history": [
       {
-        "date": "2026-06-22 22:14:24",
-        "price": 54.61
+        "date": "2026-06-22 23:04:22",
+        "price": 27.99
       }
     ]
   },
@@ -206,12 +206,12 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
+  "a funk odyssey": {
+    "current": 33.99,
     "history": [
       {
-        "date": "2026-06-22 22:44:09",
-        "price": 23.99
+        "date": "2026-06-22 23:04:22",
+        "price": 33.99
       }
     ]
   },
@@ -224,6 +224,15 @@
       }
     ]
   },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 23.99
+      }
+    ]
+  },
   "mute records construction time again": {
     "current": 23.99,
     "history": [
@@ -233,21 +242,21 @@
       }
     ]
   },
+  "playing the angel": {
+    "current": 25.99,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 25.99
+      }
+    ]
+  },
   "reggatta de blanc": {
     "current": 36.72,
     "history": [
       {
         "date": "2026-06-22 21:04:16",
         "price": 36.72
-      }
-    ]
-  },
-  "la matematica dei rami": {
-    "current": 33.31,
-    "history": [
-      {
-        "date": "2026-06-22 21:14:42",
-        "price": 33.31
       }
     ]
   },
@@ -269,12 +278,48 @@
       }
     ]
   },
+  "hatful of hollow": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 25.9
+      }
+    ]
+  },
+  "the queen is dead": {
+    "current": 24.9,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 24.9
+      }
+    ]
+  },
   "ixnay on the hombre": {
     "current": 32.23,
     "history": [
       {
         "date": "2026-06-22 22:14:24",
         "price": 32.23
+      }
+    ]
+  },
+  "money for nothing": {
+    "current": 38.43,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 38.43
+      }
+    ]
+  },
+  "good bye lenin": {
+    "current": 30.86,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 30.86
       }
     ]
   },
@@ -287,20 +332,20 @@
       }
     ]
   },
-  "a crow left of the murder": {
-    "current": 40.0,
-    "history": [
-      {
-        "date": "2026-06-22 22:44:09",
-        "price": 40.0
-      }
-    ]
-  },
   "light grenades": {
     "current": 33.21,
     "history": [
       {
         "date": "2026-06-22 22:54:06",
+        "price": 33.21
+      }
+    ]
+  },
+  "morning view": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
         "price": 33.21
       }
     ]
@@ -314,12 +359,12 @@
       }
     ]
   },
-  "star": {
-    "current": 246.63,
+  "vol 3 the subliminal verses violet": {
+    "current": 48.98,
     "history": [
       {
-        "date": "2026-06-22 22:44:09",
-        "price": 246.63
+        "date": "2026-06-22 23:04:22",
+        "price": 48.98
       }
     ]
   },
@@ -329,15 +374,6 @@
       {
         "date": "2026-06-22 22:14:24",
         "price": 25.36
-      }
-    ]
-  },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-06-22 22:54:06",
-        "price": 24.5
       }
     ]
   },
@@ -359,6 +395,15 @@
       }
     ]
   },
+  "led zeppelin iii": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 26.95
+      }
+    ]
+  },
   "festival session 2 bonus tracks": {
     "current": 50.83,
     "history": [
@@ -368,30 +413,12 @@
       }
     ]
   },
-  "reload": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-22 21:24:43",
-        "price": 49.19
-      }
-    ]
-  },
   "s m": {
     "current": 49.52,
     "history": [
       {
         "date": "2026-06-22 21:04:16",
         "price": 49.52
-      }
-    ]
-  },
-  "kill em all": {
-    "current": 36.99,
-    "history": [
-      {
-        "date": "2026-06-22 22:54:06",
-        "price": 36.99
       }
     ]
   },
@@ -413,6 +440,15 @@
       }
     ]
   },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 49.19
+      }
+    ]
+  },
   "master of puppets": {
     "current": 35.9,
     "history": [
@@ -428,6 +464,15 @@
       {
         "date": "2026-06-22 21:14:42",
         "price": 29.9
+      }
+    ]
+  },
+  "back in": {
+    "current": 23.85,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 23.85
       }
     ]
   },
@@ -449,12 +494,12 @@
       }
     ]
   },
-  "fabrizio de andre": {
-    "current": 31.9,
+  "the beatles": {
+    "current": 52.95,
     "history": [
       {
-        "date": "2026-06-22 22:54:06",
-        "price": 31.9
+        "date": "2026-06-22 23:04:22",
+        "price": 52.95
       }
     ]
   },
@@ -467,24 +512,6 @@
       }
     ]
   },
-  "abbey road": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-06-22 22:34:33",
-        "price": 29.9
-      }
-    ]
-  },
-  "let love in": {
-    "current": 28.99,
-    "history": [
-      {
-        "date": "2026-06-22 22:44:09",
-        "price": 28.99
-      }
-    ]
-  },
   "interpol": {
     "current": 35.76,
     "history": [
@@ -494,12 +521,21 @@
       }
     ]
   },
-  "camera a sud": {
-    "current": 33.21,
+  "soft parade": {
+    "current": 40.05,
     "history": [
       {
-        "date": "2026-06-22 22:54:06",
-        "price": 33.21
+        "date": "2026-06-22 23:04:22",
+        "price": 40.05
+      }
+    ]
+  },
+  "morrison hotel": {
+    "current": 34.73,
+    "history": [
+      {
+        "date": "2026-06-22 23:04:22",
+        "price": 34.73
       }
     ]
   },
@@ -512,12 +548,12 @@
       }
     ]
   },
-  "heroes": {
-    "current": 31.99,
+  "the rise and fall of ziggy stardust": {
+    "current": 28.9,
     "history": [
       {
-        "date": "2026-06-22 21:04:16",
-        "price": 31.99
+        "date": "2026-06-22 23:04:22",
+        "price": 28.9
       }
     ]
   }
