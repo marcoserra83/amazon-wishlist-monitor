@@ -35,6 +35,15 @@
       }
     ]
   },
+  "fear of the dawn": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 29.99
+      }
+    ]
+  },
   "entering heaven alive": {
     "current": 36.77,
     "history": [
@@ -71,15 +80,6 @@
       }
     ]
   },
-  "amputechture": {
-    "current": 48.88,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 48.88
-      }
-    ]
-  },
   "songs of a lost world": {
     "current": 31.9,
     "history": [
@@ -89,12 +89,30 @@
       }
     ]
   },
+  "un du": {
+    "current": 53.91,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 53.91
+      }
+    ]
+  },
   "hot fuzz": {
     "current": 32.8,
     "history": [
       {
         "date": "2026-06-21",
         "price": 32.8
+      }
+    ]
+  },
+  "disco x 180 gr": {
+    "current": 27.01,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 27.01
       }
     ]
   },
@@ -116,21 +134,30 @@
       }
     ]
   },
-  "follow the leader": {
-    "current": 23.99,
+  "naked": {
+    "current": 35.9,
     "history": [
       {
-        "date": "2026-06-21",
-        "price": 23.99
+        "date": "2026-06-22",
+        "price": 35.9
       }
     ]
   },
-  "up": {
-    "current": 44.99,
+  "new adventures in hi fi": {
+    "current": 45.9,
     "history": [
       {
-        "date": "2026-06-21",
-        "price": 44.99
+        "date": "2026-06-22",
+        "price": 45.9
+      }
+    ]
+  },
+  "like clockwork": {
+    "current": 30.69,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 30.69
       }
     ]
   },
@@ -140,24 +167,6 @@
       {
         "date": "2026-06-21",
         "price": 25.99
-      }
-    ]
-  },
-  "octahedron": {
-    "current": 54.61,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 54.61
-      }
-    ]
-  },
-  "dynamite": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 33.99
       }
     ]
   },
@@ -188,6 +197,24 @@
       }
     ]
   },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 23.99
+      }
+    ]
+  },
+  "mute records construction time again": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 23.99
+      }
+    ]
+  },
   "playing the angel": {
     "current": 25.99,
     "history": [
@@ -206,30 +233,30 @@
       }
     ]
   },
-  "top": {
-    "current": 29.9,
+  "la matematica dei rami": {
+    "current": 33.31,
     "history": [
       {
-        "date": "2026-06-21",
-        "price": 29.9
+        "date": "2026-06-22",
+        "price": 33.31
       }
     ]
   },
-  "ixnay on the hombre": {
-    "current": 32.23,
+  "tici canzoni urgenti": {
+    "current": 32.9,
     "history": [
       {
-        "date": "2026-06-21",
-        "price": 32.23
+        "date": "2026-06-22",
+        "price": 32.9
       }
     ]
   },
-  "good bye lenin": {
-    "current": 30.86,
+  "the queen is dead": {
+    "current": 24.9,
     "history": [
       {
-        "date": "2026-06-21",
-        "price": 30.86
+        "date": "2026-06-22",
+        "price": 24.9
       }
     ]
   },
@@ -242,12 +269,39 @@
       }
     ]
   },
+  "a crow left of the murder": {
+    "current": 40.0,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 40.0
+      }
+    ]
+  },
   "light grenades": {
     "current": 33.21,
     "history": [
       {
         "date": "2026-06-21",
         "price": 33.21
+      }
+    ]
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 28.42
+      }
+    ]
+  },
+  "vol 3 the subliminal verses violet": {
+    "current": 48.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 48.99
       }
     ]
   },
@@ -287,21 +341,39 @@
       }
     ]
   },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
+  "metallica": {
+    "current": 35.95,
     "history": [
       {
-        "date": "2026-06-21",
-        "price": 50.83
+        "date": "2026-06-22",
+        "price": 35.95
       }
     ]
   },
-  "reload": {
-    "current": 49.19,
+  "led zeppelin iv": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-06-21",
-        "price": 49.19
+        "date": "2026-06-22",
+        "price": 25.9
+      }
+    ]
+  },
+  "led zeppelin iii": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 26.95
+      }
+    ]
+  },
+  "s m": {
+    "current": 49.8,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 49.8
       }
     ]
   },
@@ -314,30 +386,21 @@
       }
     ]
   },
-  "s m2 box": {
-    "current": 83.89,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 83.89
-      }
-    ]
-  },
-  "and justice for all": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 49.19
-      }
-    ]
-  },
   "master of puppets": {
     "current": 35.9,
     "history": [
       {
         "date": "2026-06-21",
         "price": 35.9
+      }
+    ]
+  },
+  "mezzanine": {
+    "current": 39.46,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 39.46
       }
     ]
   },
@@ -356,15 +419,6 @@
       {
         "date": "2026-06-21",
         "price": 25.56
-      }
-    ]
-  },
-  "anime salve": {
-    "current": 38.36,
-    "history": [
-      {
-        "date": "2026-06-21",
-        "price": 38.36
       }
     ]
   },
@@ -413,12 +467,21 @@
       }
     ]
   },
-  "substance": {
-    "current": 36.8,
+  "soft parade": {
+    "current": 40.05,
     "history": [
       {
-        "date": "2026-06-21",
-        "price": 36.8
+        "date": "2026-06-22",
+        "price": 40.05
+      }
+    ]
+  },
+  "morrison hotel": {
+    "current": 34.73,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 34.73
       }
     ]
   },
