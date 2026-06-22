@@ -1,10 +1,46 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 26.9
+      }
+    ]
+  },
   "vauxhall i definitive": {
     "current": 33.8,
     "history": [
       {
         "date": "2026-06-22",
         "price": 33.8
+      }
+    ]
+  },
+  "boarding house reach": {
+    "current": 35.97,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 35.97
+      }
+    ]
+  },
+  "fear of the dawn": {
+    "current": 37.72,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 37.72
+      }
+    ]
+  },
+  "cosa faremo da grandi": {
+    "current": 30.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 30.99
       }
     ]
   },
@@ -80,6 +116,15 @@
       }
     ]
   },
+  "fear of music": {
+    "current": 34.89,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 34.89
+      }
+    ]
+  },
   "naked": {
     "current": 35.9,
     "history": [
@@ -89,21 +134,12 @@
       }
     ]
   },
-  "up": {
-    "current": 44.99,
+  "follow the leader": {
+    "current": 23.99,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 44.99
-      }
-    ]
-  },
-  "new adventures in hi fi": {
-    "current": 45.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 45.9
+        "price": 23.99
       }
     ]
   },
@@ -134,16 +170,7 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 23.99
-      }
-    ]
-  },
-  "playing the angel": {
+  "bleach ed": {
     "current": 25.99,
     "history": [
       {
@@ -152,12 +179,39 @@
       }
     ]
   },
-  "reggatta de blanc": {
-    "current": 36.72,
+  "octahedron": {
+    "current": 54.61,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 36.72
+        "price": 54.61
+      }
+    ]
+  },
+  "dynamite": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 33.99
+      }
+    ]
+  },
+  "emergency on planet earth": {
+    "current": 40.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 40.99
+      }
+    ]
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 23.99
       }
     ]
   },
@@ -170,6 +224,24 @@
       }
     ]
   },
+  "top": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 29.9
+      }
+    ]
+  },
+  "the queen is dead": {
+    "current": 24.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 24.9
+      }
+    ]
+  },
   "ixnay on the hombre": {
     "current": 32.23,
     "history": [
@@ -179,39 +251,39 @@
       }
     ]
   },
-  "good bye lenin": {
-    "current": 30.86,
+  "money for nothing": {
+    "current": 38.43,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 30.86
+        "price": 38.43
       }
     ]
   },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
+  "light grenades": {
+    "current": 33.21,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 35.0
+        "price": 33.21
       }
     ]
   },
-  "star": {
-    "current": 246.63,
+  "marauder": {
+    "current": 28.42,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 246.63
+        "price": 28.42
       }
     ]
   },
-  "out of time": {
-    "current": 25.36,
+  "noctourniquet": {
+    "current": 37.37,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 25.36
+        "price": 37.37
       }
     ]
   },
@@ -233,30 +305,21 @@
       }
     ]
   },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 25.9
-      }
-    ]
-  },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 50.83
-      }
-    ]
-  },
   "kill em all": {
     "current": 36.99,
     "history": [
       {
         "date": "2026-06-22",
         "price": 36.99
+      }
+    ]
+  },
+  "s m2 box": {
+    "current": 95.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 95.9
       }
     ]
   },
@@ -269,30 +332,39 @@
       }
     ]
   },
-  "back in": {
-    "current": 23.85,
+  "mezzanine": {
+    "current": 42.65,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 23.85
+        "price": 42.65
       }
     ]
   },
-  "anime salve": {
-    "current": 38.36,
+  "appetite for destruction": {
+    "current": 29.9,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 38.36
+        "price": 29.9
       }
     ]
   },
-  "fabrizio de andre": {
-    "current": 31.9,
+  "guest star bill evans alone together": {
+    "current": 25.56,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 31.9
+        "price": 25.56
+      }
+    ]
+  },
+  "abbey road": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 29.9
       }
     ]
   },
@@ -314,6 +386,15 @@
       }
     ]
   },
+  "camera a sud": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 33.21
+      }
+    ]
+  },
   "morrison hotel": {
     "current": 34.73,
     "history": [
@@ -323,12 +404,12 @@
       }
     ]
   },
-  "heroes": {
-    "current": 31.99,
+  "the rise and fall of ziggy stardust": {
+    "current": 28.9,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 31.99
+        "price": 28.9
       }
     ]
   }
