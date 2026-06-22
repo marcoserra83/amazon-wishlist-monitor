@@ -1,13 +1,4 @@
 {
-  "innerspeaker": {
-    "current": 26.9,
-    "history": [
-      {
-        "date": "2026-06-22 20:37:27",
-        "price": 26.9
-      }
-    ]
-  },
   "viva hate hq ltd download": {
     "current": 26.99,
     "history": [
@@ -32,15 +23,6 @@
       {
         "date": "2026-06-22 20:27:14",
         "price": 35.97
-      }
-    ]
-  },
-  "fear of the dawn": {
-    "current": 37.72,
-    "history": [
-      {
-        "date": "2026-06-22 20:27:14",
-        "price": 37.72
       }
     ]
   },
@@ -71,12 +53,30 @@
       }
     ]
   },
-  "amputechture": {
-    "current": 48.88,
+  "relax": {
+    "current": 29.99,
     "history": [
       {
-        "date": "2026-06-22 20:27:14",
-        "price": 48.88
+        "date": "2026-06-22 21:24:43",
+        "price": 29.99
+      }
+    ]
+  },
+  "evergreen e altre canzoni": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 33.21
+      }
+    ]
+  },
+  "songs of a lost world": {
+    "current": 31.9,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 31.9
       }
     ]
   },
@@ -116,21 +116,21 @@
       }
     ]
   },
+  "fear of music": {
+    "current": 34.89,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 34.89
+      }
+    ]
+  },
   "remain in light": {
     "current": 25.9,
     "history": [
       {
         "date": "2026-06-22 20:27:14",
         "price": 25.9
-      }
-    ]
-  },
-  "follow the leader": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-22 20:27:14",
-        "price": 23.99
       }
     ]
   },
@@ -176,15 +176,6 @@
       {
         "date": "2026-06-22 21:14:42",
         "price": 25.99
-      }
-    ]
-  },
-  "greatest hits": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-06-22 20:27:14",
-        "price": 27.99
       }
     ]
   },
@@ -251,15 +242,6 @@
       }
     ]
   },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-06-22 21:14:42",
-        "price": 25.99
-      }
-    ]
-  },
   "reggatta de blanc": {
     "current": 36.72,
     "history": [
@@ -278,21 +260,12 @@
       }
     ]
   },
-  "top": {
-    "current": 29.9,
+  "tici canzoni urgenti": {
+    "current": 32.9,
     "history": [
       {
-        "date": "2026-06-22 20:27:14",
-        "price": 29.9
-      }
-    ]
-  },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-22 21:14:42",
-        "price": 25.9
+        "date": "2026-06-22 21:24:43",
+        "price": 32.9
       }
     ]
   },
@@ -305,12 +278,30 @@
       }
     ]
   },
+  "ixnay on the hombre": {
+    "current": 32.23,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 32.23
+      }
+    ]
+  },
   "money for nothing": {
     "current": 38.43,
     "history": [
       {
         "date": "2026-06-22 20:27:14",
         "price": 38.43
+      }
+    ]
+  },
+  "good bye lenin": {
+    "current": 30.86,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 30.86
       }
     ]
   },
@@ -323,21 +314,30 @@
       }
     ]
   },
-  "a crow left of the murder": {
-    "current": 40.0,
-    "history": [
-      {
-        "date": "2026-06-22 21:14:42",
-        "price": 40.0
-      }
-    ]
-  },
   "light grenades": {
     "current": 33.21,
     "history": [
       {
         "date": "2026-06-22 21:04:16",
         "price": 33.21
+      }
+    ]
+  },
+  "morning view": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 33.21
+      }
+    ]
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 28.42
       }
     ]
   },
@@ -359,12 +359,12 @@
       }
     ]
   },
-  "noctourniquet": {
-    "current": 37.37,
+  "out of time": {
+    "current": 25.36,
     "history": [
       {
-        "date": "2026-06-22 21:14:42",
-        "price": 37.37
+        "date": "2026-06-22 21:24:43",
+        "price": 25.36
       }
     ]
   },
@@ -377,12 +377,48 @@
       }
     ]
   },
+  "metallica": {
+    "current": 35.95,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 35.95
+      }
+    ]
+  },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 25.9
+      }
+    ]
+  },
+  "reload": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 49.19
+      }
+    ]
+  },
   "s m": {
     "current": 49.52,
     "history": [
       {
         "date": "2026-06-22 21:04:16",
         "price": 49.52
+      }
+    ]
+  },
+  "kill em all": {
+    "current": 36.99,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 36.99
       }
     ]
   },
@@ -413,15 +449,6 @@
       }
     ]
   },
-  "master of puppets": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-06-22 21:14:42",
-        "price": 35.9
-      }
-    ]
-  },
   "mezzanine": {
     "current": 42.65,
     "history": [
@@ -449,12 +476,12 @@
       }
     ]
   },
-  "guest star bill evans alone together": {
-    "current": 25.56,
+  "ultinate": {
+    "current": 37.42,
     "history": [
       {
-        "date": "2026-06-22 21:14:42",
-        "price": 25.56
+        "date": "2026-06-22 21:24:43",
+        "price": 37.42
       }
     ]
   },
@@ -482,6 +509,15 @@
       {
         "date": "2026-06-22 20:27:14",
         "price": 52.95
+      }
+    ]
+  },
+  "1": {
+    "current": 51.8,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 51.8
       }
     ]
   },
@@ -539,12 +575,30 @@
       }
     ]
   },
+  "substance": {
+    "current": 36.8,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 36.8
+      }
+    ]
+  },
   "heroes": {
     "current": 31.99,
     "history": [
       {
         "date": "2026-06-22 21:04:16",
         "price": 31.99
+      }
+    ]
+  },
+  "the rise and fall of ziggy stardust": {
+    "current": 28.9,
+    "history": [
+      {
+        "date": "2026-06-22 21:24:43",
+        "price": 28.9
       }
     ]
   }
