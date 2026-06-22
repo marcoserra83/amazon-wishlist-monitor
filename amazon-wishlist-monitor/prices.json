@@ -35,16 +35,25 @@
       }
     ]
   },
-  "entering heaven alive": {
-    "current": 36.77,
+  "mainstream": {
+    "current": 33.21,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 36.77
+        "price": 33.21
       }
     ]
   },
-  "mainstream": {
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 29.99
+      }
+    ]
+  },
+  "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
       {
@@ -80,48 +89,12 @@
       }
     ]
   },
-  "un du": {
-    "current": 53.91,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 53.91
-      }
-    ]
-  },
-  "hot fuzz": {
-    "current": 32.8,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 32.8
-      }
-    ]
-  },
-  "disco x 180 gr": {
-    "current": 27.01,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 27.01
-      }
-    ]
-  },
   "tracy chapman talkin about a revolution": {
     "current": 49.82,
     "history": [
       {
         "date": "2026-06-22",
         "price": 49.82
-      }
-    ]
-  },
-  "fear of music": {
-    "current": 34.89,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 34.89
       }
     ]
   },
@@ -143,15 +116,6 @@
       }
     ]
   },
-  "up": {
-    "current": 44.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 44.99
-      }
-    ]
-  },
   "new adventures in hi fi": {
     "current": 45.9,
     "history": [
@@ -161,75 +125,12 @@
       }
     ]
   },
-  "blood sugar sex magik": {
-    "current": 38.61,
+  "octahedron": {
+    "current": 54.61,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 38.61
-      }
-    ]
-  },
-  "riot on a empty street": {
-    "current": 50.58,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 50.58
-      }
-    ]
-  },
-  "like clockwork": {
-    "current": 30.69,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 30.69
-      }
-    ]
-  },
-  "bleach ed": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 25.99
-      }
-    ]
-  },
-  "greatest hits": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 27.99
-      }
-    ]
-  },
-  "dynamite": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 33.99
-      }
-    ]
-  },
-  "a funk odyssey": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 33.99
-      }
-    ]
-  },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 23.99
+        "price": 54.61
       }
     ]
   },
@@ -251,24 +152,6 @@
       }
     ]
   },
-  "mute records construction time again": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 23.99
-      }
-    ]
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 25.99
-      }
-    ]
-  },
   "reggatta de blanc": {
     "current": 36.72,
     "history": [
@@ -284,6 +167,33 @@
       {
         "date": "2026-06-22",
         "price": 33.31
+      }
+    ]
+  },
+  "tici canzoni urgenti": {
+    "current": 32.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 32.9
+      }
+    ]
+  },
+  "top": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 29.9
+      }
+    ]
+  },
+  "hatful of hollow": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 25.9
       }
     ]
   },
@@ -305,6 +215,15 @@
       }
     ]
   },
+  "money for nothing": {
+    "current": 38.43,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 38.43
+      }
+    ]
+  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
@@ -314,12 +233,12 @@
       }
     ]
   },
-  "a crow left of the murder": {
-    "current": 40.0,
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 35.0,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 40.0
+        "price": 35.0
       }
     ]
   },
@@ -341,6 +260,24 @@
       }
     ]
   },
+  "star": {
+    "current": 246.63,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 246.63
+      }
+    ]
+  },
+  "out of time": {
+    "current": 25.36,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 25.36
+      }
+    ]
+  },
   "noctourniquet": {
     "current": 37.37,
     "history": [
@@ -350,12 +287,12 @@
       }
     ]
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
+  "metallica": {
+    "current": 35.95,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 24.5
+        "price": 35.95
       }
     ]
   },
@@ -386,33 +323,6 @@
       }
     ]
   },
-  "kill em all": {
-    "current": 36.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 36.99
-      }
-    ]
-  },
-  "master of puppets": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 35.9
-      }
-    ]
-  },
-  "mezzanine": {
-    "current": 39.46,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 39.46
-      }
-    ]
-  },
   "appetite for destruction": {
     "current": 29.9,
     "history": [
@@ -431,15 +341,6 @@
       }
     ]
   },
-  "ultinate": {
-    "current": 37.42,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 37.42
-      }
-    ]
-  },
   "guest star bill evans alone together": {
     "current": 25.56,
     "history": [
@@ -449,48 +350,21 @@
       }
     ]
   },
-  "anime salve": {
-    "current": 38.36,
+  "the beatles": {
+    "current": 52.95,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 38.36
+        "price": 52.95
       }
     ]
   },
-  "fabrizio de andre": {
-    "current": 31.9,
+  "camera a sud": {
+    "current": 33.21,
     "history": [
       {
         "date": "2026-06-22",
-        "price": 31.9
-      }
-    ]
-  },
-  "1": {
-    "current": 51.8,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 51.8
-      }
-    ]
-  },
-  "abbey road": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 29.9
-      }
-    ]
-  },
-  "let love in": {
-    "current": 28.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 28.99
+        "price": 33.21
       }
     ]
   },
@@ -500,6 +374,15 @@
       {
         "date": "2026-06-22",
         "price": 34.73
+      }
+    ]
+  },
+  "substance": {
+    "current": 36.8,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 36.8
       }
     ]
   },
