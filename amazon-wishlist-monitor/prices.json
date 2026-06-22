@@ -35,6 +35,15 @@
       }
     ]
   },
+  "fear of the dawn": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 29.99
+      }
+    ]
+  },
   "entering heaven alive": {
     "current": 36.77,
     "history": [
@@ -44,12 +53,57 @@
       }
     ]
   },
+  "cosa faremo da grandi": {
+    "current": 30.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 30.99
+      }
+    ]
+  },
   "mainstream": {
     "current": 33.21,
     "history": [
       {
         "date": "2026-06-22",
         "price": 33.21
+      }
+    ]
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 29.99
+      }
+    ]
+  },
+  "evergreen e altre canzoni": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 33.21
+      }
+    ]
+  },
+  "resta vile maschio dove vai": {
+    "current": 38.0,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 38.0
+      }
+    ]
+  },
+  "amputechture": {
+    "current": 48.88,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 48.88
       }
     ]
   },
@@ -143,6 +197,15 @@
       }
     ]
   },
+  "new adventures in hi fi": {
+    "current": 45.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 45.9
+      }
+    ]
+  },
   "blood sugar sex magik": {
     "current": 38.61,
     "history": [
@@ -179,6 +242,24 @@
       }
     ]
   },
+  "greatest hits": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 27.99
+      }
+    ]
+  },
+  "octahedron": {
+    "current": 54.61,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 54.61
+      }
+    ]
+  },
   "dynamite": {
     "current": 33.99,
     "history": [
@@ -194,6 +275,15 @@
       {
         "date": "2026-06-22",
         "price": 33.99
+      }
+    ]
+  },
+  "synkronized": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 23.99
       }
     ]
   },
@@ -224,12 +314,30 @@
       }
     ]
   },
+  "playing the angel": {
+    "current": 25.99,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 25.99
+      }
+    ]
+  },
   "reggatta de blanc": {
     "current": 36.72,
     "history": [
       {
         "date": "2026-06-22",
         "price": 36.72
+      }
+    ]
+  },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 33.31
       }
     ]
   },
@@ -257,6 +365,24 @@
       {
         "date": "2026-06-22",
         "price": 25.9
+      }
+    ]
+  },
+  "the queen is dead": {
+    "current": 24.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 24.9
+      }
+    ]
+  },
+  "ixnay on the hombre": {
+    "current": 32.23,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 32.23
       }
     ]
   },
@@ -332,6 +458,24 @@
       }
     ]
   },
+  "star": {
+    "current": 246.63,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 246.63
+      }
+    ]
+  },
+  "out of time": {
+    "current": 25.36,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 25.36
+      }
+    ]
+  },
   "noctourniquet": {
     "current": 37.37,
     "history": [
@@ -359,6 +503,15 @@
       }
     ]
   },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 25.9
+      }
+    ]
+  },
   "led zeppelin iii": {
     "current": 26.95,
     "history": [
@@ -374,15 +527,6 @@
       {
         "date": "2026-06-22",
         "price": 50.83
-      }
-    ]
-  },
-  "reload": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 49.19
       }
     ]
   },
@@ -404,6 +548,15 @@
       }
     ]
   },
+  "s m2 box": {
+    "current": 83.89,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 83.89
+      }
+    ]
+  },
   "and justice for all": {
     "current": 49.19,
     "history": [
@@ -413,21 +566,30 @@
       }
     ]
   },
-  "mezzanine": {
-    "current": 39.46,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 39.46
-      }
-    ]
-  },
   "appetite for destruction": {
     "current": 29.9,
     "history": [
       {
         "date": "2026-06-22",
         "price": 29.9
+      }
+    ]
+  },
+  "back in": {
+    "current": 23.85,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 23.85
+      }
+    ]
+  },
+  "ultinate": {
+    "current": 37.42,
+    "history": [
+      {
+        "date": "2026-06-22",
+        "price": 37.42
       }
     ]
   },
@@ -476,15 +638,6 @@
       }
     ]
   },
-  "let love in": {
-    "current": 28.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 28.99
-      }
-    ]
-  },
   "interpol": {
     "current": 35.76,
     "history": [
@@ -509,15 +662,6 @@
       {
         "date": "2026-06-22",
         "price": 40.05
-      }
-    ]
-  },
-  "morrison hotel": {
-    "current": 34.73,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 34.73
       }
     ]
   },
