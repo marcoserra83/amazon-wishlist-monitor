@@ -308,7 +308,7 @@ def main():
 
     new = {}
     alerts = []
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     for raw_name, price in items:
         name = normalize(raw_name)
