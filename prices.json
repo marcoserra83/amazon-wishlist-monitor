@@ -1,7 +1,11 @@
 {
   "innerspeaker": {
-    "current": 30.9,
+    "current": 26.9,
     "history": [
+      {
+        "date": "2026-06-22",
+        "price": 26.9
+      },
       {
         "date": "2026-06-22",
         "price": 26.9
@@ -9,8 +13,12 @@
     ]
   },
   "viva hate hq ltd download": {
-    "current": 30.99,
+    "current": 26.99,
     "history": [
+      {
+        "date": "2026-06-22",
+        "price": 26.99
+      },
       {
         "date": "2026-06-22",
         "price": 26.99
@@ -431,24 +439,6 @@
       }
     ]
   },
-  "morning view": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 33.21
-      }
-    ]
-  },
-  "marauder": {
-    "current": 28.42,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 28.42
-      }
-    ]
-  },
   "vol 3 the subliminal verses violet": {
     "current": 48.98,
     "history": [
@@ -464,15 +454,6 @@
       {
         "date": "2026-06-22",
         "price": 246.63
-      }
-    ]
-  },
-  "out of time": {
-    "current": 25.36,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 25.36
       }
     ]
   },
@@ -548,15 +529,6 @@
       }
     ]
   },
-  "kill em all": {
-    "current": 36.99,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 36.99
-      }
-    ]
-  },
   "s m2 box": {
     "current": 95.9,
     "history": [
@@ -590,15 +562,6 @@
       {
         "date": "2026-06-22",
         "price": 35.9
-      }
-    ]
-  },
-  "mezzanine": {
-    "current": 39.46,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 39.46
       }
     ]
   },
@@ -725,15 +688,6 @@
       {
         "date": "2026-06-22",
         "price": 34.73
-      }
-    ]
-  },
-  "substance": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-22",
-        "price": 36.8
       }
     ]
   },
