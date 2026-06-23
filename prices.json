@@ -521,6 +521,15 @@
       }
     ]
   },
+  "festival session 2 bonus tracks": {
+    "current": 50.83,
+    "history": [
+      {
+        "date": "2026-06-23 06:37:38",
+        "price": 50.83
+      }
+    ]
+  },
   "reload": {
     "current": 49.19,
     "history": [
@@ -557,12 +566,48 @@
       }
     ]
   },
+  "load": {
+    "current": 45.02,
+    "history": [
+      {
+        "date": "2026-06-23 06:37:38",
+        "price": 45.02
+      }
+    ]
+  },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-23 06:37:38",
+        "price": 49.19
+      }
+    ]
+  },
+  "master of puppets": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-06-23 06:37:38",
+        "price": 35.9
+      }
+    ]
+  },
   "mezzanine": {
     "current": 42.65,
     "history": [
       {
         "date": "2026-06-23 06:26:25",
         "price": 42.65
+      }
+    ]
+  },
+  "appetite for destruction": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-23 06:37:38",
+        "price": 29.9
       }
     ]
   },
@@ -665,15 +710,6 @@
       }
     ]
   },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-23 06:13:34",
-        "price": 40.05
-      }
-    ]
-  },
   "morrison hotel": {
     "current": 34.73,
     "history": [
@@ -683,21 +719,21 @@
       }
     ]
   },
+  "substance": {
+    "current": 36.8,
+    "history": [
+      {
+        "date": "2026-06-23 06:37:38",
+        "price": 36.8
+      }
+    ]
+  },
   "heroes": {
     "current": 31.99,
     "history": [
       {
         "date": "2026-06-23 06:26:25",
         "price": 31.99
-      }
-    ]
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 28.9,
-    "history": [
-      {
-        "date": "2026-06-23 06:04:14",
-        "price": 28.9
       }
     ]
   }
