@@ -53,7 +53,11 @@ def send_email(body: str):
 # ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower()
-    name = re.sub(r"\(.*?\)|\[.*?\]|\{.*?\}", "", name)
+    name = re.sub(r"\(.*?\)|
+
+\[.*?\]
+
+|\{.*?\}", "", name)
 
     blacklist = [
         "vinile", "lp", "remaster", "remastered", "edition", "edizione",
@@ -121,44 +125,6 @@ Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
 """
 
 # ---------------------------------------------------------
-# SCRAPING PREZZO
-# ---------------------------------------------------------
-def get_product_price(page: Page, url: str, name: str) -> float | None:
-    for attempt in range(1, RETRY_COUNT + 1):
-        log(f"  Tentativo {attempt} per {name}")
-
-        try:
-            page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
-            html = page.content()
-
-            if "captcha" in html.lower():
-                log(f"  CAPTCHA rilevato per {name}")
-                return None
-
-            try:
-                page.wait_for_selector(
-                    ".a-price, .a-offscreen, #corePrice_feature_div, #twister-plus-price-data-price",
-                    timeout=TIMEOUT_SELECTOR
-                )
-            except:
-                log(f"  Nessun selettore prezzo trovato per {name}")
-                continue
-
-            html = page.content()
-            price = parse_price_from_html(html)
-
-            if price and price > 0:
-                log(f"  Prezzo trovato: €{price:.2f}")
-                return price
-
-            log(f"  Parsing fallito per {name}")
-
-        except Exception as e:
-            log(f"  Errore durante parsing {name}: {e}")
-
-    return None
-
-# ---------------------------------------------------------
 # SCRAPING WISHLIST
 # ---------------------------------------------------------
 def get_items():
@@ -176,8 +142,16 @@ def get_items():
             timezone_id="Europe/Rome",
             viewport={"width": 1920, "height": 1080}
         )
-        
-        # Carica cookie Amazon dal secret
+
+        # Stealth SEMPRE attivo
+        context.add_init_script(STEALTH_JS)
+
+        # Blocca solo font (NON immagini)
+        context.route("**/*", lambda route: route.abort()
+                      if route.request.resource_type in ["font"]
+                      else route.continue_())
+
+        # Carica cookie Amazon
         cookies_json = os.environ.get("AMAZON_COOKIES")
         if cookies_json:
             try:
@@ -186,13 +160,6 @@ def get_items():
                 log("Cookie Amazon caricati nel browser.")
             except Exception as e:
                 log(f"Errore caricamento cookie Amazon: {e}")
-        
-                context.add_init_script(STEALTH_JS)
-                # Blocca solo font, NON le immagini (necessarie per Amazon loggato)
-                context.route("**/*", lambda route: route.abort()
-                              if route.request.resource_type in ["font"]
-                              else route.continue_())
-
 
         page = context.new_page()
         page.set_default_timeout(TIMEOUT_PAGE)
@@ -285,7 +252,6 @@ def main():
         name = normalize(raw_name)
         log(f"Prezzo attuale {name}: €{price:.2f}")
 
-        # Nuovo prodotto
         if name not in old:
             new[name] = {
                 "current": price,
