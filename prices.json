@@ -485,6 +485,15 @@
       }
     ]
   },
+  "sleeping with ghosts": {
+    "current": 24.5,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 24.5
+      }
+    ]
+  },
   "metallica": {
     "current": 35.95,
     "history": [
@@ -530,12 +539,39 @@
       }
     ]
   },
+  "s m": {
+    "current": 49.52,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 49.52
+      }
+    ]
+  },
   "kill em all": {
     "current": 34.12,
     "history": [
       {
         "date": "2026-06-23 14:33:54",
         "price": 34.12
+      }
+    ]
+  },
+  "load": {
+    "current": 45.02,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 45.02
+      }
+    ]
+  },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 49.19
       }
     ]
   },
@@ -584,6 +620,24 @@
       }
     ]
   },
+  "guest star bill evans alone together": {
+    "current": 25.56,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 25.56
+      }
+    ]
+  },
+  "kiss me kiss me kiss me": {
+    "current": 39.89,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 39.89
+      }
+    ]
+  },
   "anime salve": {
     "current": 28.97,
     "history": [
@@ -611,6 +665,24 @@
       }
     ]
   },
+  "1": {
+    "current": 46.51,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 46.51
+      }
+    ]
+  },
+  "abbey road": {
+    "current": 25.42,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 25.42
+      }
+    ]
+  },
   "let love in": {
     "current": 28.99,
     "history": [
@@ -629,12 +701,30 @@
       }
     ]
   },
-  "soft parade": {
-    "current": 40.05,
+  "camera a sud": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-06-23 15:25:31",
-        "price": 40.05
+        "date": "2026-06-23 16:56:38",
+        "price": 33.21
+      }
+    ]
+  },
+  "morrison hotel": {
+    "current": 34.25,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 34.25
+      }
+    ]
+  },
+  "substance": {
+    "current": 36.8,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 36.8
       }
     ]
   },
@@ -644,6 +734,15 @@
       {
         "date": "2026-06-23 15:57:29",
         "price": 31.99
+      }
+    ]
+  },
+  "the rise and fall of ziggy stardust": {
+    "current": 28.9,
+    "history": [
+      {
+        "date": "2026-06-23 16:56:38",
+        "price": 28.9
       }
     ]
   }
