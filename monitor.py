@@ -176,11 +176,23 @@ def get_items():
             timezone_id="Europe/Rome",
             viewport={"width": 1920, "height": 1080}
         )
+        
+        # Carica cookie Amazon dal secret
+        cookies_json = os.environ.get("AMAZON_COOKIES")
+        if cookies_json:
+            try:
+                cookies = json.loads(cookies_json)
+                context.add_cookies(cookies)
+                log("Cookie Amazon caricati nel browser.")
+            except Exception as e:
+                log(f"Errore caricamento cookie Amazon: {e}")
+        
+                context.add_init_script(STEALTH_JS)
+                # Blocca solo font, NON le immagini (necessarie per Amazon loggato)
+                context.route("**/*", lambda route: route.abort()
+                              if route.request.resource_type in ["font"]
+                              else route.continue_())
 
-        context.add_init_script(STEALTH_JS)
-        context.route("**/*", lambda route: route.abort()
-                      if route.request.resource_type in ["image", "font"]
-                      else route.continue_())
 
         page = context.new_page()
         page.set_default_timeout(TIMEOUT_PAGE)
