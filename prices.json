@@ -71,6 +71,15 @@
       }
     ]
   },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-23 00:56:52",
+        "price": 29.99
+      }
+    ]
+  },
   "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
