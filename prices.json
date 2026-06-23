@@ -1,6 +1,6 @@
 {
   "innerspeaker": {
-    "current": 30.9,
+    "current": 26.9,
     "history": [
       {
         "date": "2026-06-23 17:53:58",
@@ -307,7 +307,7 @@
     ]
   },
   "blood sugar sex magik": {
-    "current": 31.3,
+    "current": 42.9,
     "history": [
       {
         "date": "2026-06-23 15:45:07",
@@ -320,6 +320,10 @@
       {
         "date": "2026-06-23 17:53:58",
         "price": 31.3
+      },
+      {
+        "date": "2026-06-23 21:17:35",
+        "price": 42.9
       }
     ]
   },
