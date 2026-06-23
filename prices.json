@@ -71,15 +71,6 @@
       }
     ]
   },
-  "relax": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-06-23 11:04:44",
-        "price": 29.99
-      }
-    ]
-  },
   "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
@@ -153,11 +144,15 @@
     ]
   },
   "fear of music": {
-    "current": 37.9,
+    "current": 34.89,
     "history": [
       {
         "date": "2026-06-23 10:14:04",
         "price": 37.9
+      },
+      {
+        "date": "2026-06-23 11:45:16",
+        "price": 34.89
       }
     ]
   },
@@ -167,24 +162,6 @@
       {
         "date": "2026-06-23 10:43:39",
         "price": 35.9
-      }
-    ]
-  },
-  "remain in light": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 25.9
-      }
-    ]
-  },
-  "follow the leader": {
-    "current": 20.27,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 20.27
       }
     ]
   },
@@ -233,15 +210,6 @@
       }
     ]
   },
-  "bleach ed": {
-    "current": 23.51,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 23.51
-      }
-    ]
-  },
   "greatest hits": {
     "current": 25.92,
     "history": [
@@ -269,39 +237,12 @@
       }
     ]
   },
-  "a funk odyssey": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 33.99
-      }
-    ]
-  },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-23 11:04:44",
-        "price": 23.99
-      }
-    ]
-  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
       {
         "date": "2026-06-23 11:17:09",
         "price": 40.99
-      }
-    ]
-  },
-  "yield": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 23.99
       }
     ]
   },
@@ -329,15 +270,6 @@
       {
         "date": "2026-06-23 10:04:23",
         "price": 36.7
-      }
-    ]
-  },
-  "la matematica dei rami": {
-    "current": 33.31,
-    "history": [
-      {
-        "date": "2026-06-23 10:23:45",
-        "price": 33.31
       }
     ]
   },
@@ -374,15 +306,6 @@
       {
         "date": "2026-06-23 10:34:17",
         "price": 24.9
-      }
-    ]
-  },
-  "ixnay on the hombre": {
-    "current": 32.23,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 32.23
       }
     ]
   },
@@ -431,15 +354,6 @@
       }
     ]
   },
-  "morning view": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 33.21
-      }
-    ]
-  },
   "marauder": {
     "current": 28.42,
     "history": [
@@ -467,15 +381,6 @@
       }
     ]
   },
-  "out of time": {
-    "current": 21.56,
-    "history": [
-      {
-        "date": "2026-06-23 10:23:45",
-        "price": 21.56
-      }
-    ]
-  },
   "noctourniquet": {
     "current": 37.37,
     "history": [
@@ -491,24 +396,6 @@
       {
         "date": "2026-06-23 10:43:39",
         "price": 24.5
-      }
-    ]
-  },
-  "metallica": {
-    "current": 35.95,
-    "history": [
-      {
-        "date": "2026-06-23 10:23:45",
-        "price": 35.95
-      }
-    ]
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-23 11:04:44",
-        "price": 25.9
       }
     ]
   },
@@ -584,30 +471,12 @@
       }
     ]
   },
-  "master of puppets": {
-    "current": 30.51,
-    "history": [
-      {
-        "date": "2026-06-23 11:04:44",
-        "price": 30.51
-      }
-    ]
-  },
   "mezzanine": {
     "current": 37.24,
     "history": [
       {
         "date": "2026-06-23 11:04:44",
         "price": 37.24
-      }
-    ]
-  },
-  "appetite for destruction": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 25.42
       }
     ]
   },
@@ -701,15 +570,6 @@
       }
     ]
   },
-  "camera a sud": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 33.21
-      }
-    ]
-  },
   "soft parade": {
     "current": 40.05,
     "history": [
@@ -743,15 +603,6 @@
       {
         "date": "2026-06-23 11:04:44",
         "price": 31.99
-      }
-    ]
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 28.9,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 28.9
       }
     ]
   }
