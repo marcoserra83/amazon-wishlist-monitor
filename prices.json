@@ -1,4 +1,13 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 26.9
+      }
+    ]
+  },
   "viva hate hq ltd download": {
     "current": 26.99,
     "history": [
@@ -44,6 +53,24 @@
       }
     ]
   },
+  "cosa faremo da grandi": {
+    "current": 25.48,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 25.48
+      }
+    ]
+  },
+  "mainstream": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 33.21
+      }
+    ]
+  },
   "relax": {
     "current": 29.99,
     "history": [
@@ -71,12 +98,66 @@
       }
     ]
   },
+  "amputechture": {
+    "current": 48.88,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 48.88
+      }
+    ]
+  },
+  "songs of a lost world": {
+    "current": 27.11,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 27.11
+      }
+    ]
+  },
   "un du": {
     "current": 53.91,
     "history": [
       {
         "date": "2026-06-23 11:17:09",
         "price": 53.91
+      }
+    ]
+  },
+  "hot fuzz": {
+    "current": 27.88,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 27.88
+      }
+    ]
+  },
+  "disco x 180 gr": {
+    "current": 27.01,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 27.01
+      }
+    ]
+  },
+  "tracy chapman talkin about a revolution": {
+    "current": 62.25,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 62.25
+      }
+    ]
+  },
+  "fear of music": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 37.9
       }
     ]
   },
@@ -126,11 +207,24 @@
     ]
   },
   "blood sugar sex magik": {
-    "current": 38.61,
+    "current": 42.9,
     "history": [
       {
         "date": "2026-06-23 12:35:01",
         "price": 38.61
+      },
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 42.9
+      }
+    ]
+  },
+  "riot on a empty street": {
+    "current": 50.33,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 50.33
       }
     ]
   },
@@ -206,6 +300,33 @@
       }
     ]
   },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 23.99
+      }
+    ]
+  },
+  "mute records construction time again": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 23.99
+      }
+    ]
+  },
+  "playing the angel": {
+    "current": 25.99,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 25.99
+      }
+    ]
+  },
   "reggatta de blanc": {
     "current": 36.7,
     "history": [
@@ -221,6 +342,15 @@
       {
         "date": "2026-06-23 12:35:01",
         "price": 33.31
+      }
+    ]
+  },
+  "tici canzoni urgenti": {
+    "current": 32.9,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 32.9
       }
     ]
   },
@@ -248,6 +378,15 @@
       {
         "date": "2026-06-23 12:23:33",
         "price": 24.9
+      }
+    ]
+  },
+  "ixnay on the hombre": {
+    "current": 32.23,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 32.23
       }
     ]
   },
@@ -284,6 +423,15 @@
       {
         "date": "2026-06-23 12:35:01",
         "price": 40.0
+      }
+    ]
+  },
+  "light grenades": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 33.21
       }
     ]
   },
@@ -332,12 +480,39 @@
       }
     ]
   },
+  "noctourniquet": {
+    "current": 37.37,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 37.37
+      }
+    ]
+  },
+  "sleeping with ghosts": {
+    "current": 24.5,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 24.5
+      }
+    ]
+  },
   "metallica": {
     "current": 35.95,
     "history": [
       {
         "date": "2026-06-23 12:23:33",
         "price": 35.95
+      }
+    ]
+  },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 25.9
       }
     ]
   },
@@ -356,6 +531,24 @@
       {
         "date": "2026-06-23 12:35:01",
         "price": 46.63
+      }
+    ]
+  },
+  "reload": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 49.19
+      }
+    ]
+  },
+  "s m": {
+    "current": 49.52,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 49.52
       }
     ]
   },
@@ -404,6 +597,15 @@
       }
     ]
   },
+  "mezzanine": {
+    "current": 37.24,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 37.24
+      }
+    ]
+  },
   "appetite for destruction": {
     "current": 25.42,
     "history": [
@@ -437,6 +639,24 @@
       {
         "date": "2026-06-23 12:35:01",
         "price": 25.56
+      }
+    ]
+  },
+  "anime salve": {
+    "current": 28.97,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 28.97
+      }
+    ]
+  },
+  "fabrizio de andre": {
+    "current": 28.97,
+    "history": [
+      {
+        "date": "2026-06-23 12:47:26",
+        "price": 28.97
       }
     ]
   },
