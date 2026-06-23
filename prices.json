@@ -287,15 +287,6 @@
       }
     ]
   },
-  "emergency on planet earth": {
-    "current": 40.99,
-    "history": [
-      {
-        "date": "2026-06-22 23:47:10",
-        "price": 40.99
-      }
-    ]
-  },
   "yield": {
     "current": 23.99,
     "history": [
@@ -377,15 +368,6 @@
       }
     ]
   },
-  "ixnay on the hombre": {
-    "current": 32.23,
-    "history": [
-      {
-        "date": "2026-06-22 22:14:24",
-        "price": 32.23
-      }
-    ]
-  },
   "money for nothing": {
     "current": 38.43,
     "history": [
@@ -413,24 +395,6 @@
       }
     ]
   },
-  "a crow left of the murder": {
-    "current": 40.0,
-    "history": [
-      {
-        "date": "2026-06-22 23:47:10",
-        "price": 40.0
-      }
-    ]
-  },
-  "light grenades": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-22 22:54:06",
-        "price": 33.21
-      }
-    ]
-  },
   "morning view": {
     "current": 33.21,
     "history": [
@@ -455,15 +419,6 @@
       {
         "date": "2026-06-22 23:04:22",
         "price": 48.98
-      }
-    ]
-  },
-  "star": {
-    "current": 246.63,
-    "history": [
-      {
-        "date": "2026-06-22 23:47:10",
-        "price": 246.63
       }
     ]
   },
@@ -521,15 +476,6 @@
       }
     ]
   },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
-    "history": [
-      {
-        "date": "2026-06-22 22:34:33",
-        "price": 50.83
-      }
-    ]
-  },
   "reload": {
     "current": 49.19,
     "history": [
@@ -548,39 +494,12 @@
       }
     ]
   },
-  "kill em all": {
-    "current": 36.99,
-    "history": [
-      {
-        "date": "2026-06-22 23:47:10",
-        "price": 36.99
-      }
-    ]
-  },
-  "s m2 box": {
-    "current": 95.9,
-    "history": [
-      {
-        "date": "2026-06-22 23:47:10",
-        "price": 95.9
-      }
-    ]
-  },
   "load": {
     "current": 45.02,
     "history": [
       {
         "date": "2026-06-22 23:24:03",
         "price": 45.02
-      }
-    ]
-  },
-  "and justice for all": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-22 23:47:10",
-        "price": 49.19
       }
     ]
   },
@@ -617,15 +536,6 @@
       {
         "date": "2026-06-22 23:04:22",
         "price": 23.85
-      }
-    ]
-  },
-  "ultinate": {
-    "current": 37.42,
-    "history": [
-      {
-        "date": "2026-06-22 23:24:03",
-        "price": 37.42
       }
     ]
   },
@@ -674,15 +584,6 @@
       }
     ]
   },
-  "abbey road": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-06-22 23:47:10",
-        "price": 29.9
-      }
-    ]
-  },
   "let love in": {
     "current": 28.99,
     "history": [
@@ -692,30 +593,12 @@
       }
     ]
   },
-  "interpol": {
-    "current": 35.76,
-    "history": [
-      {
-        "date": "2026-06-22 23:24:03",
-        "price": 35.76
-      }
-    ]
-  },
   "camera a sud": {
     "current": 33.21,
     "history": [
       {
         "date": "2026-06-22 23:24:03",
         "price": 33.21
-      }
-    ]
-  },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-22 23:04:22",
-        "price": 40.05
       }
     ]
   },
@@ -743,15 +626,6 @@
       {
         "date": "2026-06-22 23:15:50",
         "price": 31.99
-      }
-    ]
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 28.9,
-    "history": [
-      {
-        "date": "2026-06-22 23:04:22",
-        "price": 28.9
       }
     ]
   }
