@@ -316,26 +316,26 @@ def main():
             }
             continue
 
-        # Estraggo dati precedenti
-        old_current = old[name].get("current")
+
+    
         old_history = old[name].get("history", [])
-        
-        # Copia profonda dello storico per evitare riferimenti condivisi
         history = list(old_history)
         
-        # Aggiorna sempre il prezzo corrente
+        # Ultimo prezzo registrato nella history
+        last_price = history[-1]["price"] if history else None
+        
         new[name] = {
             "current": price,
             "history": history
         }
         
-        # Se il prezzo è cambiato → aggiungi allo storico
-        if old_current != price:
+        # Registra una nuova entry SOLO se il prezzo è diverso dall’ultima entry
+        if last_price != price:
             new[name]["history"].append({
                 "date": today,
                 "price": price
             })
-            log(f"  Prezzo cambiato per {name}: {old_current} → {price}")
+            log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
 
 
         # Alert
