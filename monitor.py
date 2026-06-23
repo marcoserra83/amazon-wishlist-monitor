@@ -316,38 +316,40 @@ def main():
             }
             continue
 
-
     
-        old_history = old[name].get("history", [])
-        history = list(old_history)
-        
-        # Ultimo prezzo registrato nella history
-        last_price = history[-1]["price"] if history else None
-        
-        new[name] = {
-            "current": price,
-            "history": history
-        }
-        
-        # Registra una nuova entry SOLO se il prezzo è diverso dall’ultima entry
-        if last_price != price:
-            new[name]["history"].append({
-                "date": today,
-                "price": price
-            })
-            log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
+    old_history = old[name].get("history", [])
+    history = list(old_history)
+    
+    # Ultimo prezzo registrato nella history
+    last_price = history[-1]["price"] if history else None
+    
+    # Prezzo precedente salvato nel file
+    old_current = old[name].get("current")
+    
+    new[name] = {
+        "current": price,
+        "history": history
+    }
+    
+    # Registra una nuova entry SOLO se il prezzo è diverso dall’ultima entry
+    if last_price != price:
+        new[name]["history"].append({
+            "date": today,
+            "price": price
+        })
+        log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
+    
+    # Alert (basato sul prezzo precedente salvato)
+    if old_current and old_current > 0:
+        drop = ((old_current - price) / old_current) * 100
+        if drop >= THRESHOLD:
+            alerts.append(
+                f"{name}\n"
+                f"Vecchio: €{old_current:.2f}\n"
+                f"Nuovo: €{price:.2f}\n"
+                f"↓ {drop:.1f}%"
+            )
 
-
-        # Alert
-        if old_current and old_current > 0:
-            drop = ((old_current - price) / old_current) * 100
-            if drop >= THRESHOLD:
-                alerts.append(
-                    f"{name}\n"
-                    f"Vecchio: €{old_current:.2f}\n"
-                    f"Nuovo: €{price:.2f}\n"
-                    f"↓ {drop:.1f}%"
-                )
 
     # Salvataggio
 
