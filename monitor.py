@@ -53,7 +53,11 @@ def send_email(body: str):
 # ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower()
-    name = re.sub(r"\(.*?\)|\[.*?\]|\{.*?\}", "", name)
+    name = re.sub(r"\(.*?\)|
+
+\[.*?\]
+
+|\{.*?\}", "", name)
 
     blacklist = [
         "vinile", "lp", "remaster", "remastered", "edition", "edizione",
@@ -119,6 +123,44 @@ Object.defineProperty(navigator, 'hardwareConcurrency', { get: () => 8 });
 Object.defineProperty(navigator, 'deviceMemory', { get: () => 8 });
 Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
 """
+
+# ---------------------------------------------------------
+# SCRAPING PREZZO
+# ---------------------------------------------------------
+def get_product_price(page: Page, url: str, name: str) -> float | None:
+    for attempt in range(1, RETRY_COUNT + 1):
+        log(f"  Tentativo {attempt} per {name}")
+
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
+            html = page.content()
+
+            if "captcha" in html.lower():
+                log(f"  CAPTCHA rilevato per {name}")
+                return None
+
+            try:
+                page.wait_for_selector(
+                    ".a-price, .a-offscreen, #corePrice_feature_div, #twister-plus-price-data-price",
+                    timeout=TIMEOUT_SELECTOR
+                )
+            except:
+                log(f"  Nessun selettore prezzo trovato per {name}")
+                continue
+
+            html = page.content()
+            price = parse_price_from_html(html)
+
+            if price and price > 0:
+                log(f"  Prezzo trovato: €{price:.2f}")
+                return price
+
+            log(f"  Parsing fallito per {name}")
+
+        except Exception as e:
+            log(f"  Errore durante parsing {name}: {e}")
+
+    return None
 
 # ---------------------------------------------------------
 # SCRAPING WISHLIST
