@@ -300,7 +300,7 @@ def main():
         log(f"Prezzo attuale {name}: €{price:.2f}")
 
         asin = extract_asin(url)
-        camel = f"https://camelcamelcamel.com/product/{asin}" if asin else "ASIN non trovato"
+        camel = f"https://it.camelcamelcamel.com/product/{asin}" if asin else "ASIN non trovato"
 
         if name not in old:
             new[name] = {
