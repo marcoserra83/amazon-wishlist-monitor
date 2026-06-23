@@ -45,11 +45,15 @@
     ]
   },
   "entering heaven alive": {
-    "current": 36.8,
+    "current": 31.29,
     "history": [
       {
         "date": "2026-06-23 05:53:51",
         "price": 36.8
+      },
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 31.29
       }
     ]
   },
@@ -417,6 +421,15 @@
       }
     ]
   },
+  "a crow left of the murder": {
+    "current": 40.0,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 40.0
+      }
+    ]
+  },
   "light grenades": {
     "current": 33.21,
     "history": [
@@ -441,6 +454,15 @@
       {
         "date": "2026-06-23 07:37:33",
         "price": 28.42
+      }
+    ]
+  },
+  "vol 3 the subliminal verses violet": {
+    "current": 48.97,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 48.97
       }
     ]
   },
@@ -489,6 +511,15 @@
       }
     ]
   },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 25.9
+      }
+    ]
+  },
   "led zeppelin iii": {
     "current": 26.95,
     "history": [
@@ -525,12 +556,57 @@
       }
     ]
   },
+  "kill em all": {
+    "current": 34.12,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 34.12
+      }
+    ]
+  },
+  "s m2 box": {
+    "current": 95.9,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 95.9
+      }
+    ]
+  },
+  "load": {
+    "current": 45.02,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 45.02
+      }
+    ]
+  },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 49.19
+      }
+    ]
+  },
   "master of puppets": {
     "current": 30.51,
     "history": [
       {
         "date": "2026-06-23 07:37:33",
         "price": 30.51
+      }
+    ]
+  },
+  "mezzanine": {
+    "current": 37.24,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 37.24
       }
     ]
   },
@@ -549,6 +625,24 @@
       {
         "date": "2026-06-23 07:37:33",
         "price": 23.85
+      }
+    ]
+  },
+  "ultinate": {
+    "current": 37.42,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 37.42
+      }
+    ]
+  },
+  "guest star bill evans alone together": {
+    "current": 25.56,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 25.56
       }
     ]
   },
@@ -612,6 +706,15 @@
       {
         "date": "2026-06-23 07:37:33",
         "price": 35.76
+      }
+    ]
+  },
+  "camera a sud": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-23 08:17:34",
+        "price": 33.21
       }
     ]
   },
