@@ -197,15 +197,6 @@
       }
     ]
   },
-  "new adventures in hi fi": {
-    "current": 45.9,
-    "history": [
-      {
-        "date": "2026-06-23 13:24:02",
-        "price": 45.9
-      }
-    ]
-  },
   "blood sugar sex magik": {
     "current": 31.3,
     "history": [
@@ -278,20 +269,11 @@
       }
     ]
   },
-  "emergency on planet earth": {
-    "current": 40.99,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 40.99
-      }
-    ]
-  },
-  "yield": {
+  "synkronized": {
     "current": 23.99,
     "history": [
       {
-        "date": "2026-06-23 13:34:26",
+        "date": "2026-06-23 14:05:34",
         "price": 23.99
       }
     ]
@@ -323,15 +305,6 @@
       }
     ]
   },
-  "la matematica dei rami": {
-    "current": 33.31,
-    "history": [
-      {
-        "date": "2026-06-23 13:24:02",
-        "price": 33.31
-      }
-    ]
-  },
   "top": {
     "current": 29.9,
     "history": [
@@ -356,24 +329,6 @@
       {
         "date": "2026-06-23 13:24:02",
         "price": 24.9
-      }
-    ]
-  },
-  "money for nothing": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-23 13:24:02",
-        "price": 32.67
-      }
-    ]
-  },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-06-23 13:24:02",
-        "price": 30.86
       }
     ]
   },
@@ -413,21 +368,21 @@
       }
     ]
   },
+  "vol 3 the subliminal verses violet": {
+    "current": 48.97,
+    "history": [
+      {
+        "date": "2026-06-23 14:05:34",
+        "price": 48.97
+      }
+    ]
+  },
   "star": {
     "current": 246.63,
     "history": [
       {
         "date": "2026-06-23 13:47:38",
         "price": 246.63
-      }
-    ]
-  },
-  "out of time": {
-    "current": 21.56,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 21.56
       }
     ]
   },
@@ -458,15 +413,6 @@
       }
     ]
   },
-  "led zeppelin iii": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-06-23 10:43:39",
-        "price": 26.95
-      }
-    ]
-  },
   "festival session 2 bonus tracks": {
     "current": 50.83,
     "history": [
@@ -477,15 +423,6 @@
       {
         "date": "2026-06-23 13:47:38",
         "price": 50.83
-      }
-    ]
-  },
-  "reload": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 49.19
       }
     ]
   },
@@ -516,6 +453,15 @@
       }
     ]
   },
+  "load": {
+    "current": 45.02,
+    "history": [
+      {
+        "date": "2026-06-23 14:05:34",
+        "price": 45.02
+      }
+    ]
+  },
   "and justice for all": {
     "current": 49.19,
     "history": [
@@ -531,6 +477,15 @@
       {
         "date": "2026-06-23 13:34:26",
         "price": 30.51
+      }
+    ]
+  },
+  "appetite for destruction": {
+    "current": 25.42,
+    "history": [
+      {
+        "date": "2026-06-23 14:05:34",
+        "price": 25.42
       }
     ]
   },
@@ -567,33 +522,6 @@
       {
         "date": "2026-06-23 13:47:38",
         "price": 39.89
-      }
-    ]
-  },
-  "anime salve": {
-    "current": 28.97,
-    "history": [
-      {
-        "date": "2026-06-23 13:24:02",
-        "price": 28.97
-      }
-    ]
-  },
-  "fabrizio de andre": {
-    "current": 28.97,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 28.97
-      }
-    ]
-  },
-  "the beatles": {
-    "current": 52.95,
-    "history": [
-      {
-        "date": "2026-06-23 13:04:31",
-        "price": 52.95
       }
     ]
   },
@@ -657,6 +585,15 @@
       {
         "date": "2026-06-23 13:24:02",
         "price": 34.73
+      }
+    ]
+  },
+  "substance": {
+    "current": 36.8,
+    "history": [
+      {
+        "date": "2026-06-23 14:05:34",
+        "price": 36.8
       }
     ]
   },
