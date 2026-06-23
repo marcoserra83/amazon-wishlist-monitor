@@ -53,11 +53,7 @@ def send_email(body: str):
 # ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower()
-    name = re.sub(r"\(.*?\)|
-
-\[.*?\]
-
-|\{.*?\}", "", name)
+    name = re.sub(r"\(.*?\)|\[.*?\]|\{.*?\}", "", name)
 
     blacklist = [
         "vinile", "lp", "remaster", "remastered", "edition", "edizione",
