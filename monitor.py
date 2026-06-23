@@ -292,7 +292,8 @@ def main():
 
     new = {}
     alerts = []
-    today = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    from zoneinfo import ZoneInfo
+    today = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d %H:%M:%S")
 
     for raw_name, price, url in items:
         name = normalize(raw_name)
