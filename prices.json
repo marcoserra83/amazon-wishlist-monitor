@@ -1,19 +1,37 @@
 {
-  "innerspeaker": {
-    "current": 26.9,
+  "vauxhall i definitive": {
+    "current": 33.8,
     "history": [
       {
-        "date": "2026-06-23 04:54:14",
-        "price": 26.9
+        "date": "2026-06-23 05:13:38",
+        "price": 33.8
       }
     ]
   },
-  "viva hate hq ltd download": {
-    "current": 26.99,
+  "mainstream": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-06-23 05:03:45",
-        "price": 26.99
+        "date": "2026-06-23 05:13:38",
+        "price": 33.21
+      }
+    ]
+  },
+  "evergreen e altre canzoni": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-23 05:13:38",
+        "price": 33.21
+      }
+    ]
+  },
+  "amputechture": {
+    "current": 48.88,
+    "history": [
+      {
+        "date": "2026-06-23 05:13:38",
+        "price": 48.88
       }
     ]
   },
@@ -26,6 +44,15 @@
       }
     ]
   },
+  "un du": {
+    "current": 53.91,
+    "history": [
+      {
+        "date": "2026-06-23 05:13:38",
+        "price": 53.91
+      }
+    ]
+  },
   "hot fuzz": {
     "current": 32.8,
     "history": [
@@ -35,12 +62,12 @@
       }
     ]
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 62.25,
+  "disco x 180 gr": {
+    "current": 27.01,
     "history": [
       {
-        "date": "2026-06-23 05:03:45",
-        "price": 62.25
+        "date": "2026-06-23 05:13:38",
+        "price": 27.01
       }
     ]
   },
@@ -53,12 +80,12 @@
       }
     ]
   },
-  "up": {
-    "current": 44.99,
+  "follow the leader": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-06-23 04:43:17",
-        "price": 44.99
+        "date": "2026-06-23 05:13:38",
+        "price": 23.99
       }
     ]
   },
@@ -98,30 +125,12 @@
       }
     ]
   },
-  "greatest hits": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-06-23 04:13:20",
-        "price": 27.99
-      }
-    ]
-  },
   "dynamite": {
     "current": 32.67,
     "history": [
       {
         "date": "2026-06-23 04:54:14",
         "price": 32.67
-      }
-    ]
-  },
-  "a funk odyssey": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-06-23 05:03:45",
-        "price": 33.99
       }
     ]
   },
@@ -134,20 +143,11 @@
       }
     ]
   },
-  "emergency on planet earth": {
-    "current": 40.99,
-    "history": [
-      {
-        "date": "2026-06-23 03:53:27",
-        "price": 40.99
-      }
-    ]
-  },
-  "yield": {
+  "mute records construction time again": {
     "current": 23.99,
     "history": [
       {
-        "date": "2026-06-23 04:33:58",
+        "date": "2026-06-23 05:13:38",
         "price": 23.99
       }
     ]
@@ -170,15 +170,6 @@
       }
     ]
   },
-  "the queen is dead": {
-    "current": 24.9,
-    "history": [
-      {
-        "date": "2026-06-23 05:03:45",
-        "price": 24.9
-      }
-    ]
-  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
@@ -188,21 +179,12 @@
       }
     ]
   },
-  "light grenades": {
-    "current": 33.21,
+  "a crow left of the murder": {
+    "current": 40.0,
     "history": [
       {
-        "date": "2026-06-23 04:54:14",
-        "price": 33.21
-      }
-    ]
-  },
-  "morning view": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-23 04:23:44",
-        "price": 33.21
+        "date": "2026-06-23 05:13:38",
+        "price": 40.0
       }
     ]
   },
@@ -212,24 +194,6 @@
       {
         "date": "2026-06-23 04:33:58",
         "price": 28.42
-      }
-    ]
-  },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.97,
-    "history": [
-      {
-        "date": "2026-06-23 04:33:58",
-        "price": 48.97
-      }
-    ]
-  },
-  "star": {
-    "current": 246.63,
-    "history": [
-      {
-        "date": "2026-06-23 04:23:44",
-        "price": 246.63
       }
     ]
   },
@@ -251,42 +215,6 @@
       }
     ]
   },
-  "metallica": {
-    "current": 35.95,
-    "history": [
-      {
-        "date": "2026-06-23 04:54:14",
-        "price": 35.95
-      }
-    ]
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-23 04:54:14",
-        "price": 25.9
-      }
-    ]
-  },
-  "led zeppelin iii": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-06-23 04:54:14",
-        "price": 26.95
-      }
-    ]
-  },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
-    "history": [
-      {
-        "date": "2026-06-23 05:03:45",
-        "price": 50.83
-      }
-    ]
-  },
   "reload": {
     "current": 49.19,
     "history": [
@@ -296,30 +224,12 @@
       }
     ]
   },
-  "s m": {
-    "current": 49.52,
+  "load": {
+    "current": 45.02,
     "history": [
       {
-        "date": "2026-06-23 05:03:45",
-        "price": 49.52
-      }
-    ]
-  },
-  "kill em all": {
-    "current": 36.99,
-    "history": [
-      {
-        "date": "2026-06-23 03:53:27",
-        "price": 36.99
-      }
-    ]
-  },
-  "master of puppets": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-06-23 04:54:14",
-        "price": 35.9
+        "date": "2026-06-23 05:13:38",
+        "price": 45.02
       }
     ]
   },
@@ -332,12 +242,12 @@
       }
     ]
   },
-  "back in": {
-    "current": 23.85,
+  "guest star bill evans alone together": {
+    "current": 25.56,
     "history": [
       {
-        "date": "2026-06-23 05:03:45",
-        "price": 23.85
+        "date": "2026-06-23 05:13:38",
+        "price": 25.56
       }
     ]
   },
@@ -368,12 +278,30 @@
       }
     ]
   },
-  "interpol": {
-    "current": 35.76,
+  "let love in": {
+    "current": 28.99,
     "history": [
       {
-        "date": "2026-06-23 05:03:45",
-        "price": 35.76
+        "date": "2026-06-23 05:13:38",
+        "price": 28.99
+      }
+    ]
+  },
+  "soft parade": {
+    "current": 40.05,
+    "history": [
+      {
+        "date": "2026-06-23 05:13:38",
+        "price": 40.05
+      }
+    ]
+  },
+  "morrison hotel": {
+    "current": 34.73,
+    "history": [
+      {
+        "date": "2026-06-23 05:13:38",
+        "price": 34.73
       }
     ]
   },
