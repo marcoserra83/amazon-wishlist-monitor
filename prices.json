@@ -45,7 +45,7 @@
     ]
   },
   "entering heaven alive": {
-    "current": 31.29,
+    "current": 36.8,
     "history": [
       {
         "date": "2026-06-23 05:53:51",
@@ -54,6 +54,10 @@
       {
         "date": "2026-06-23 08:17:34",
         "price": 31.29
+      },
+      {
+        "date": "2026-06-23 08:25:59",
+        "price": 36.8
       }
     ]
   },
@@ -331,15 +335,6 @@
       }
     ]
   },
-  "reggatta de blanc": {
-    "current": 36.7,
-    "history": [
-      {
-        "date": "2026-06-23 07:37:33",
-        "price": 36.7
-      }
-    ]
-  },
   "la matematica dei rami": {
     "current": 33.31,
     "history": [
@@ -412,15 +407,6 @@
       }
     ]
   },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
-    "history": [
-      {
-        "date": "2026-06-23 07:37:33",
-        "price": 35.0
-      }
-    ]
-  },
   "a crow left of the murder": {
     "current": 40.0,
     "history": [
@@ -484,15 +470,6 @@
       }
     ]
   },
-  "noctourniquet": {
-    "current": 37.37,
-    "history": [
-      {
-        "date": "2026-06-23 07:37:33",
-        "price": 37.37
-      }
-    ]
-  },
   "sleeping with ghosts": {
     "current": 24.5,
     "history": [
@@ -508,24 +485,6 @@
       {
         "date": "2026-06-23 07:37:33",
         "price": 35.95
-      }
-    ]
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-23 08:17:34",
-        "price": 25.9
-      }
-    ]
-  },
-  "led zeppelin iii": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-06-23 07:37:33",
-        "price": 26.95
       }
     ]
   },
@@ -592,15 +551,6 @@
       }
     ]
   },
-  "master of puppets": {
-    "current": 30.51,
-    "history": [
-      {
-        "date": "2026-06-23 07:37:33",
-        "price": 30.51
-      }
-    ]
-  },
   "mezzanine": {
     "current": 37.24,
     "history": [
@@ -646,39 +596,12 @@
       }
     ]
   },
-  "anime salve": {
-    "current": 28.97,
-    "history": [
-      {
-        "date": "2026-06-23 07:37:33",
-        "price": 28.97
-      }
-    ]
-  },
   "fabrizio de andre": {
     "current": 28.97,
     "history": [
       {
         "date": "2026-06-23 07:37:33",
         "price": 28.97
-      }
-    ]
-  },
-  "the beatles": {
-    "current": 52.95,
-    "history": [
-      {
-        "date": "2026-06-23 07:37:33",
-        "price": 52.95
-      }
-    ]
-  },
-  "1": {
-    "current": 46.51,
-    "history": [
-      {
-        "date": "2026-06-23 07:37:33",
-        "price": 46.51
       }
     ]
   },
@@ -697,15 +620,6 @@
       {
         "date": "2026-06-23 07:37:33",
         "price": 28.99
-      }
-    ]
-  },
-  "interpol": {
-    "current": 35.76,
-    "history": [
-      {
-        "date": "2026-06-23 07:37:33",
-        "price": 35.76
       }
     ]
   },
