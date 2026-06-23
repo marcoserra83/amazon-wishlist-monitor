@@ -5,16 +5,12 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
-import time
-import traceback
 import re
-
-
 
 # ---------------------------------------------------------
 # CONFIGURATION
 # ---------------------------------------------------------
-WISHLIST_URL = os.environ.get("WISHLIST_URL")  # ora preso dai secrets
+WISHLIST_URL = os.environ.get("WISHLIST_URL")
 GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
 THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 1))
@@ -24,7 +20,6 @@ LOG_DIR = "logs"
 TIMEOUT_PAGE = 20000
 TIMEOUT_SELECTOR = 2500
 RETRY_COUNT = 2
-
 
 # ---------------------------------------------------------
 # LOGGING
@@ -53,20 +48,17 @@ def send_email(body: str):
 
     log("Email inviata.")
 
-
-
 # ---------------------------------------------------------
 # NORMALIZZA NOME
 # ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower()
+    name = re.sub(r"\(.*?\)|
 
-    # rimuove contenuto tra parentesi tonde, quadre, graffe
-    name = re.sub(r"\(.*?\)", "", name)
-    name = re.sub(r"\[.*?\]", "", name)
-    name = re.sub(r"\{.*?\}", "", name)
+\[.*?\]
 
-    # rimuove parole inutili che Amazon aggiunge spesso
+|\{.*?\}", "", name)
+
     blacklist = [
         "vinile", "lp", "remaster", "remastered", "edition", "edizione",
         "anniversary", "deluxe", "expanded", "version", "2lp", "3lp",
@@ -77,13 +69,8 @@ def normalize(name: str) -> str:
     for word in blacklist:
         name = name.replace(word, "")
 
-    # rimuove tutto ciò che non è lettera o numero
     name = re.sub(r"[^a-z0-9]+", " ", name)
-
-    # normalizza spazi
-    name = name.strip()
-    name = re.sub(r"\s+", " ", name)
-
+    name = re.sub(r"\s+", " ", name).strip()
     return name
 
 # ---------------------------------------------------------
@@ -92,15 +79,11 @@ def normalize(name: str) -> str:
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
 
-    # Rimuove caroselli e suggerimenti
     for bad in soup.select("#sims-consolidated-2, #sims-consolidated-3, #sp_detail, .a-carousel"):
         bad.decompose()
 
-    # Blocchi principali
     price_block = soup.select_one(
-        "#corePrice_feature_div, "
-        "#apex_desktop, "
-        "#corePriceDisplay_desktop_feature_div"
+        "#corePrice_feature_div, #apex_desktop, #corePriceDisplay_desktop_feature_div"
     )
     if price_block:
         offscreen = price_block.select_one("span.a-price > span.a-offscreen")
@@ -110,7 +93,6 @@ def parse_price_from_html(html: str) -> float | None:
             except:
                 pass
 
-    # Fallback generico
     fallback = soup.select_one("span.a-price > span.a-offscreen")
     if fallback:
         try:
@@ -118,7 +100,6 @@ def parse_price_from_html(html: str) -> float | None:
         except:
             pass
 
-    # Fallback frazionato
     whole = soup.select_one("span.a-price-whole")
     frac = soup.select_one("span.a-price-fraction")
     if whole and frac:
@@ -128,7 +109,6 @@ def parse_price_from_html(html: str) -> float | None:
             pass
 
     return None
-
 
 # ---------------------------------------------------------
 # STEALTH MODE
@@ -143,7 +123,6 @@ Object.defineProperty(navigator, 'hardwareConcurrency', { get: () => 8 });
 Object.defineProperty(navigator, 'deviceMemory', { get: () => 8 });
 Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
 """
-
 
 # ---------------------------------------------------------
 # SCRAPING PREZZO
@@ -183,7 +162,6 @@ def get_product_price(page: Page, url: str, name: str) -> float | None:
 
     return None
 
-
 # ---------------------------------------------------------
 # SCRAPING WISHLIST
 # ---------------------------------------------------------
@@ -204,8 +182,6 @@ def get_items():
         )
 
         context.add_init_script(STEALTH_JS)
-
-        # Blocca solo immagini e font (CSS OK)
         context.route("**/*", lambda route: route.abort()
                       if route.request.resource_type in ["image", "font"]
                       else route.continue_())
@@ -217,7 +193,6 @@ def get_items():
         page.goto(WISHLIST_URL, wait_until="domcontentloaded")
         page.wait_for_timeout(1500)
 
-        # Scroll ottimizzato
         last_count = 0
         stable_rounds = 0
 
@@ -248,7 +223,6 @@ def get_items():
 
         log(f"Trovati {last_count} prodotti totali")
 
-        # Estrazione prodotti
         items = []
         for row in rows:
             title_el = row.select_one("a.a-link-normal, a.a-text-normal")
@@ -262,7 +236,6 @@ def get_items():
 
             items.append((name, url))
 
-        # Estrazione prezzi
         results = []
         for name, url in items:
             log(f"Elaborazione {name}")
@@ -273,7 +246,6 @@ def get_items():
         browser.close()
         return results
 
-
 # ---------------------------------------------------------
 # MAIN
 # ---------------------------------------------------------
@@ -281,7 +253,6 @@ def main():
     log("===== INIZIO MONITOR =====")
     log(f"THRESHOLD: {THRESHOLD}%")
 
-    # Caricamento storico
     old = {}
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r") as f:
@@ -302,81 +273,59 @@ def main():
     alerts = []
     today = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
- 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     for raw_name, price in items:
-    name = normalize(raw_name)
-    log(f"Prezzo attuale {name}: €{price:.2f}")
+        name = normalize(raw_name)
+        log(f"Prezzo attuale {name}: €{price:.2f}")
 
-    # Se nuovo prodotto → inizializza
-    if name not in old:
+        # Nuovo prodotto
+        if name not in old:
+            new[name] = {
+                "current": price,
+                "history": [
+                    {"date": today, "price": price}
+                ]
+            }
+            continue
+
+        old_history = old[name].get("history", [])
+        history = list(old_history)
+
+        last_price = history[-1]["price"] if history else None
+        old_current = old[name].get("current")
+
         new[name] = {
             "current": price,
-            "history": [
-                {"date": today, "price": price}
-            ]
+            "history": history
         }
-        continue
 
-    # --- QUI INIZIA IL BLOCCO CHE NEL TUO FILE ERA FUORI POSTO ---
-    old_history = old[name].get("history", [])
-    history = list(old_history)
+        if last_price != price:
+            new[name]["history"].append({
+                "date": today,
+                "price": price
+            })
+            log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
 
-    # Ultimo prezzo registrato nella history
-    last_price = history[-1]["price"] if history else None
-
-    # Prezzo precedente salvato nel file
-    old_current = old[name].get("current")
-
-    new[name] = {
-        "current": price,
-        "history": history
-    }
-
-    # Registra una nuova entry SOLO se il prezzo è diverso dall’ultima entry
-    if last_price != price:
-        new[name]["history"].append({
-            "date": today,
-            "price": price
-        })
-        log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
-
-    # Alert (basato sul prezzo precedente salvato)
-    if old_current and old_current > 0:
-        drop = ((old_current - price) / old_current) * 100
-        if drop >= THRESHOLD:
-            alerts.append(
-                f"{name}\n"
-                f"Vecchio: €{old_current:.2f}\n"
-                f"Nuovo: €{price:.2f}\n"
-                f"↓ {drop:.1f}%"
-            )
-
-
-    # Salvataggio
+        if old_current and old_current > 0:
+            drop = ((old_current - price) / old_current) * 100
+            if drop >= THRESHOLD:
+                alerts.append(
+                    f"{name}\n"
+                    f"Vecchio: €{old_current:.2f}\n"
+                    f"Nuovo: €{price:.2f}\n"
+                    f"↓ {drop:.1f}%"
+                )
 
     log(f"SALVO QUI: {DATA_FILE}")
     with open(DATA_FILE, "w") as f:
         json.dump(new, f, indent=2)
         log("Prezzi aggiornati salvati.")
 
-    # Email alert
     if alerts:
         send_email("\n\n".join(alerts))
     else:
         log("Nessun alert generato.")
 
     log("===== FINE MONITOR =====")
-
 
 if __name__ == "__main__":
     main()
