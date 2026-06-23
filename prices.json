@@ -17,15 +17,6 @@
       }
     ]
   },
-  "vauxhall i definitive": {
-    "current": 33.8,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 33.8
-      }
-    ]
-  },
   "boarding house reach": {
     "current": 35.97,
     "history": [
@@ -71,30 +62,12 @@
       }
     ]
   },
-  "evergreen e altre canzoni": {
-    "current": 33.21,
+  "relax": {
+    "current": 29.99,
     "history": [
       {
-        "date": "2026-06-23 11:04:44",
-        "price": 33.21
-      }
-    ]
-  },
-  "resta vile maschio dove vai": {
-    "current": 38.0,
-    "history": [
-      {
-        "date": "2026-06-23 11:04:44",
-        "price": 38.0
-      }
-    ]
-  },
-  "amputechture": {
-    "current": 48.88,
-    "history": [
-      {
-        "date": "2026-06-23 10:34:17",
-        "price": 48.88
+        "date": "2026-06-23 11:54:24",
+        "price": 29.99
       }
     ]
   },
@@ -143,25 +116,21 @@
       }
     ]
   },
-  "fear of music": {
-    "current": 34.89,
+  "remain in light": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-06-23 10:14:04",
-        "price": 37.9
-      },
-      {
-        "date": "2026-06-23 11:45:16",
-        "price": 34.89
+        "date": "2026-06-23 11:54:24",
+        "price": 25.9
       }
     ]
   },
-  "naked": {
-    "current": 35.9,
+  "follow the leader": {
+    "current": 20.27,
     "history": [
       {
-        "date": "2026-06-23 10:43:39",
-        "price": 35.9
+        "date": "2026-06-23 11:54:24",
+        "price": 20.27
       }
     ]
   },
@@ -183,24 +152,6 @@
       }
     ]
   },
-  "blood sugar sex magik": {
-    "current": 38.61,
-    "history": [
-      {
-        "date": "2026-06-23 10:43:39",
-        "price": 38.61
-      }
-    ]
-  },
-  "riot on a empty street": {
-    "current": 50.33,
-    "history": [
-      {
-        "date": "2026-06-23 11:04:44",
-        "price": 50.33
-      }
-    ]
-  },
   "like clockwork": {
     "current": 34.1,
     "history": [
@@ -210,12 +161,12 @@
       }
     ]
   },
-  "greatest hits": {
-    "current": 25.92,
+  "bleach ed": {
+    "current": 23.51,
     "history": [
       {
-        "date": "2026-06-23 11:17:09",
-        "price": 25.92
+        "date": "2026-06-23 11:54:24",
+        "price": 23.51
       }
     ]
   },
@@ -237,12 +188,39 @@
       }
     ]
   },
+  "a funk odyssey": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-06-23 11:54:24",
+        "price": 33.99
+      }
+    ]
+  },
+  "synkronized": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-23 11:54:24",
+        "price": 23.99
+      }
+    ]
+  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
       {
         "date": "2026-06-23 11:17:09",
         "price": 40.99
+      }
+    ]
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-23 11:54:24",
+        "price": 23.99
       }
     ]
   },
@@ -273,6 +251,15 @@
       }
     ]
   },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-06-23 11:54:24",
+        "price": 33.31
+      }
+    ]
+  },
   "tici canzoni urgenti": {
     "current": 32.9,
     "history": [
@@ -297,15 +284,6 @@
       {
         "date": "2026-06-23 11:17:09",
         "price": 25.9
-      }
-    ]
-  },
-  "the queen is dead": {
-    "current": 24.9,
-    "history": [
-      {
-        "date": "2026-06-23 10:34:17",
-        "price": 24.9
       }
     ]
   },
@@ -354,15 +332,6 @@
       }
     ]
   },
-  "marauder": {
-    "current": 28.42,
-    "history": [
-      {
-        "date": "2026-06-23 11:04:44",
-        "price": 28.42
-      }
-    ]
-  },
   "vol 3 the subliminal verses violet": {
     "current": 48.97,
     "history": [
@@ -381,6 +350,15 @@
       }
     ]
   },
+  "out of time": {
+    "current": 21.56,
+    "history": [
+      {
+        "date": "2026-06-23 11:54:24",
+        "price": 21.56
+      }
+    ]
+  },
   "noctourniquet": {
     "current": 37.37,
     "history": [
@@ -390,12 +368,21 @@
       }
     ]
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
+  "metallica": {
+    "current": 35.95,
     "history": [
       {
-        "date": "2026-06-23 10:43:39",
-        "price": 24.5
+        "date": "2026-06-23 11:54:24",
+        "price": 35.95
+      }
+    ]
+  },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-23 11:54:24",
+        "price": 25.9
       }
     ]
   },
@@ -408,30 +395,12 @@
       }
     ]
   },
-  "festival session 2 bonus tracks": {
-    "current": 46.63,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 46.63
-      }
-    ]
-  },
   "reload": {
     "current": 49.19,
     "history": [
       {
         "date": "2026-06-23 11:04:44",
         "price": 49.19
-      }
-    ]
-  },
-  "s m": {
-    "current": 49.52,
-    "history": [
-      {
-        "date": "2026-06-23 11:04:44",
-        "price": 49.52
       }
     ]
   },
@@ -453,21 +422,12 @@
       }
     ]
   },
-  "load": {
-    "current": 45.02,
+  "master of puppets": {
+    "current": 30.51,
     "history": [
       {
-        "date": "2026-06-23 10:34:17",
-        "price": 45.02
-      }
-    ]
-  },
-  "and justice for all": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-23 11:04:44",
-        "price": 49.19
+        "date": "2026-06-23 11:54:24",
+        "price": 30.51
       }
     ]
   },
@@ -498,15 +458,6 @@
       }
     ]
   },
-  "guest star bill evans alone together": {
-    "current": 25.56,
-    "history": [
-      {
-        "date": "2026-06-23 10:04:23",
-        "price": 25.56
-      }
-    ]
-  },
   "anime salve": {
     "current": 28.97,
     "history": [
@@ -522,15 +473,6 @@
       {
         "date": "2026-06-23 11:04:44",
         "price": 28.97
-      }
-    ]
-  },
-  "the beatles": {
-    "current": 52.95,
-    "history": [
-      {
-        "date": "2026-06-23 10:43:39",
-        "price": 52.95
       }
     ]
   },
@@ -570,6 +512,15 @@
       }
     ]
   },
+  "camera a sud": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-23 11:54:24",
+        "price": 33.21
+      }
+    ]
+  },
   "soft parade": {
     "current": 40.05,
     "history": [
@@ -585,15 +536,6 @@
       {
         "date": "2026-06-23 11:04:44",
         "price": 34.73
-      }
-    ]
-  },
-  "substance": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 36.8
       }
     ]
   },
