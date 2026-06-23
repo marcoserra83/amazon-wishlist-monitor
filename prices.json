@@ -17,39 +17,12 @@
       }
     ]
   },
-  "vauxhall i definitive": {
-    "current": 33.8,
-    "history": [
-      {
-        "date": "2026-06-23 13:34:26",
-        "price": 33.8
-      }
-    ]
-  },
   "boarding house reach": {
     "current": 35.97,
     "history": [
       {
         "date": "2026-06-23 13:47:38",
         "price": 35.97
-      }
-    ]
-  },
-  "fear of the dawn": {
-    "current": 37.72,
-    "history": [
-      {
-        "date": "2026-06-23 12:23:33",
-        "price": 37.72
-      }
-    ]
-  },
-  "entering heaven alive": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-23 13:24:02",
-        "price": 36.8
       }
     ]
   },
@@ -80,12 +53,39 @@
       }
     ]
   },
+  "amputechture": {
+    "current": 48.88,
+    "history": [
+      {
+        "date": "2026-06-23 14:44:09",
+        "price": 48.88
+      }
+    ]
+  },
   "songs of a lost world": {
     "current": 27.11,
     "history": [
       {
         "date": "2026-06-23 12:47:26",
         "price": 27.11
+      }
+    ]
+  },
+  "un du": {
+    "current": 53.91,
+    "history": [
+      {
+        "date": "2026-06-23 14:44:09",
+        "price": 53.91
+      }
+    ]
+  },
+  "hot fuzz": {
+    "current": 27.88,
+    "history": [
+      {
+        "date": "2026-06-23 14:44:09",
+        "price": 27.88
       }
     ]
   },
@@ -107,6 +107,15 @@
       }
     ]
   },
+  "fear of music": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-06-23 14:44:09",
+        "price": 37.9
+      }
+    ]
+  },
   "naked": {
     "current": 35.9,
     "history": [
@@ -122,15 +131,6 @@
       {
         "date": "2026-06-23 14:33:54",
         "price": 25.9
-      }
-    ]
-  },
-  "follow the leader": {
-    "current": 20.27,
-    "history": [
-      {
-        "date": "2026-06-23 13:34:26",
-        "price": 20.27
       }
     ]
   },
@@ -170,15 +170,6 @@
       }
     ]
   },
-  "like clockwork": {
-    "current": 34.1,
-    "history": [
-      {
-        "date": "2026-06-23 14:33:54",
-        "price": 34.1
-      }
-    ]
-  },
   "bleach ed": {
     "current": 23.51,
     "history": [
@@ -215,6 +206,24 @@
       }
     ]
   },
+  "synkronized": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-23 14:44:09",
+        "price": 23.99
+      }
+    ]
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-23 14:44:09",
+        "price": 23.99
+      }
+    ]
+  },
   "playing the angel": {
     "current": 25.99,
     "history": [
@@ -224,12 +233,12 @@
       }
     ]
   },
-  "la matematica dei rami": {
-    "current": 33.31,
+  "reggatta de blanc": {
+    "current": 36.7,
     "history": [
       {
-        "date": "2026-06-23 14:33:54",
-        "price": 33.31
+        "date": "2026-06-23 14:44:09",
+        "price": 36.7
       }
     ]
   },
@@ -239,6 +248,33 @@
       {
         "date": "2026-06-23 14:24:06",
         "price": 32.9
+      }
+    ]
+  },
+  "top": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-23 14:44:09",
+        "price": 29.9
+      }
+    ]
+  },
+  "hatful of hollow": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-23 14:44:09",
+        "price": 25.9
+      }
+    ]
+  },
+  "ixnay on the hombre": {
+    "current": 32.23,
+    "history": [
+      {
+        "date": "2026-06-23 14:44:09",
+        "price": 32.23
       }
     ]
   },
@@ -260,20 +296,20 @@
       }
     ]
   },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
+  "a crow left of the murder": {
+    "current": 40.0,
     "history": [
       {
-        "date": "2026-06-23 14:33:54",
-        "price": 35.0
+        "date": "2026-06-23 14:44:09",
+        "price": 40.0
       }
     ]
   },
-  "light grenades": {
+  "morning view": {
     "current": 33.21,
     "history": [
       {
-        "date": "2026-06-23 13:24:02",
+        "date": "2026-06-23 14:44:09",
         "price": 33.21
       }
     ]
@@ -296,12 +332,12 @@
       }
     ]
   },
-  "out of time": {
-    "current": 21.56,
+  "star": {
+    "current": 246.63,
     "history": [
       {
-        "date": "2026-06-23 14:33:54",
-        "price": 21.56
+        "date": "2026-06-23 14:44:09",
+        "price": 246.63
       }
     ]
   },
@@ -332,25 +368,21 @@
       }
     ]
   },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
+  "led zeppelin iv": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-06-23 13:34:26",
-        "price": 46.63
-      },
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 50.83
+        "date": "2026-06-23 14:44:09",
+        "price": 25.9
       }
     ]
   },
-  "s m": {
-    "current": 49.52,
+  "led zeppelin iii": {
+    "current": 26.95,
     "history": [
       {
-        "date": "2026-06-23 14:33:54",
-        "price": 49.52
+        "date": "2026-06-23 14:44:09",
+        "price": 26.95
       }
     ]
   },
@@ -363,15 +395,6 @@
       }
     ]
   },
-  "s m2 box": {
-    "current": 95.9,
-    "history": [
-      {
-        "date": "2026-06-23 12:23:33",
-        "price": 95.9
-      }
-    ]
-  },
   "and justice for all": {
     "current": 49.19,
     "history": [
@@ -381,21 +404,12 @@
       }
     ]
   },
-  "master of puppets": {
-    "current": 30.51,
+  "appetite for destruction": {
+    "current": 25.42,
     "history": [
       {
-        "date": "2026-06-23 13:34:26",
-        "price": 30.51
-      }
-    ]
-  },
-  "mezzanine": {
-    "current": 37.24,
-    "history": [
-      {
-        "date": "2026-06-23 14:33:54",
-        "price": 37.24
+        "date": "2026-06-23 14:44:09",
+        "price": 25.42
       }
     ]
   },
@@ -417,24 +431,6 @@
       }
     ]
   },
-  "fabrizio de andre": {
-    "current": 28.97,
-    "history": [
-      {
-        "date": "2026-06-23 14:24:06",
-        "price": 28.97
-      }
-    ]
-  },
-  "1": {
-    "current": 46.51,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 46.51
-      }
-    ]
-  },
   "interpol": {
     "current": 35.76,
     "history": [
@@ -453,12 +449,12 @@
       }
     ]
   },
-  "substance": {
-    "current": 36.8,
+  "soft parade": {
+    "current": 40.05,
     "history": [
       {
-        "date": "2026-06-23 14:33:54",
-        "price": 36.8
+        "date": "2026-06-23 14:44:09",
+        "price": 40.05
       }
     ]
   },
