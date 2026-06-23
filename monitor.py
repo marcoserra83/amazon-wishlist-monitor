@@ -302,35 +302,46 @@ def main():
     alerts = []
     today = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    for raw_name, price in items:
-        name = normalize(raw_name)
-        log(f"Prezzo attuale {name}: €{price:.2f}")
-
-        # Se nuovo prodotto → inizializza
-        if name not in old:
-            new[name] = {
-                "current": price,
-                "history": [
-                    {"date": today, "price": price}
-                ]
-            }
-            continue
-
+ 
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    for raw_name, price in items:
+    name = normalize(raw_name)
+    log(f"Prezzo attuale {name}: €{price:.2f}")
+
+    # Se nuovo prodotto → inizializza
+    if name not in old:
+        new[name] = {
+            "current": price,
+            "history": [
+                {"date": today, "price": price}
+            ]
+        }
+        continue
+
+    # --- QUI INIZIA IL BLOCCO CHE NEL TUO FILE ERA FUORI POSTO ---
     old_history = old[name].get("history", [])
     history = list(old_history)
-    
+
     # Ultimo prezzo registrato nella history
     last_price = history[-1]["price"] if history else None
-    
+
     # Prezzo precedente salvato nel file
     old_current = old[name].get("current")
-    
+
     new[name] = {
         "current": price,
         "history": history
     }
-    
+
     # Registra una nuova entry SOLO se il prezzo è diverso dall’ultima entry
     if last_price != price:
         new[name]["history"].append({
@@ -338,7 +349,7 @@ def main():
             "price": price
         })
         log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
-    
+
     # Alert (basato sul prezzo precedente salvato)
     if old_current and old_current > 0:
         drop = ((old_current - price) / old_current) * 100
