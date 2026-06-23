@@ -54,11 +54,15 @@
     ]
   },
   "cosa faremo da grandi": {
-    "current": 30.99,
+    "current": 25.48,
     "history": [
       {
         "date": "2026-06-23 05:53:51",
         "price": 30.99
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 25.48
       }
     ]
   },
@@ -108,11 +112,15 @@
     ]
   },
   "songs of a lost world": {
-    "current": 31.9,
+    "current": 27.11,
     "history": [
       {
         "date": "2026-06-23 06:26:25",
         "price": 31.9
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 27.11
       }
     ]
   },
@@ -126,11 +134,15 @@
     ]
   },
   "hot fuzz": {
-    "current": 32.8,
+    "current": 27.88,
     "history": [
       {
         "date": "2026-06-23 05:44:12",
         "price": 32.8
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 27.88
       }
     ]
   },
@@ -180,11 +192,15 @@
     ]
   },
   "follow the leader": {
-    "current": 23.99,
+    "current": 20.27,
     "history": [
       {
         "date": "2026-06-23 06:13:34",
         "price": 23.99
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 20.27
       }
     ]
   },
@@ -243,11 +259,15 @@
     ]
   },
   "greatest hits": {
-    "current": 27.99,
+    "current": 25.92,
     "history": [
       {
         "date": "2026-06-23 06:04:14",
         "price": 27.99
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 25.92
       }
     ]
   },
@@ -391,11 +411,15 @@
     ]
   },
   "money for nothing": {
-    "current": 38.43,
+    "current": 32.67,
     "history": [
       {
         "date": "2026-06-23 06:26:25",
         "price": 38.43
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 32.67
       }
     ]
   },
@@ -472,11 +496,15 @@
     ]
   },
   "out of time": {
-    "current": 25.36,
+    "current": 21.56,
     "history": [
       {
         "date": "2026-06-23 06:26:25",
         "price": 25.36
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 21.56
       }
     ]
   },
@@ -553,11 +581,15 @@
     ]
   },
   "kill em all": {
-    "current": 36.99,
+    "current": 34.12,
     "history": [
       {
         "date": "2026-06-23 06:26:25",
         "price": 36.99
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 34.12
       }
     ]
   },
@@ -589,29 +621,41 @@
     ]
   },
   "master of puppets": {
-    "current": 35.9,
+    "current": 30.51,
     "history": [
       {
         "date": "2026-06-23 06:37:38",
         "price": 35.9
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 30.51
       }
     ]
   },
   "mezzanine": {
-    "current": 42.65,
+    "current": 37.24,
     "history": [
       {
         "date": "2026-06-23 06:26:25",
         "price": 42.65
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 37.24
       }
     ]
   },
   "appetite for destruction": {
-    "current": 29.9,
+    "current": 25.42,
     "history": [
       {
         "date": "2026-06-23 06:37:38",
         "price": 29.9
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 25.42
       }
     ]
   },
@@ -643,20 +687,28 @@
     ]
   },
   "anime salve": {
-    "current": 38.36,
+    "current": 28.97,
     "history": [
       {
         "date": "2026-06-23 06:13:34",
         "price": 38.36
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 28.97
       }
     ]
   },
   "fabrizio de andre": {
-    "current": 31.9,
+    "current": 28.97,
     "history": [
       {
         "date": "2026-06-23 06:13:34",
         "price": 31.9
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 28.97
       }
     ]
   },
@@ -670,20 +722,28 @@
     ]
   },
   "1": {
-    "current": 51.8,
+    "current": 46.51,
     "history": [
       {
         "date": "2026-06-23 06:13:34",
         "price": 51.8
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 46.51
       }
     ]
   },
   "abbey road": {
-    "current": 29.9,
+    "current": 25.42,
     "history": [
       {
         "date": "2026-06-23 06:13:34",
         "price": 29.9
+      },
+      {
+        "date": "2026-06-23 07:07:40",
+        "price": 25.42
       }
     ]
   },
