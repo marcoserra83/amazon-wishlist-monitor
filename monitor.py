@@ -337,9 +337,10 @@ def main():
                     f"Vecchio: €{old_current:.2f}<br>"
                     f"Nuovo: €{price:.2f}<br>"
                     f"↓ {drop:.1f}%<br>"
-                    f"CamelCamelCamel: <a href='{camel}'>{camel}</a><br>"
-                    f"Amazon: <a href='{url}'>{url}</a><br><br>"
+                    f"<a href='{camel}'>camelcamelcamel</a><br>"
+                    f"<a href='{url}'>amazon</a><br><br>"
                 )
+
 
     with open(DATA_FILE, "w") as f:
         json.dump(new, f, indent=2)
