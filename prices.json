@@ -17,15 +17,6 @@
       }
     ]
   },
-  "vauxhall i definitive": {
-    "current": 33.8,
-    "history": [
-      {
-        "date": "2026-06-23 05:13:38",
-        "price": 33.8
-      }
-    ]
-  },
   "fear of the dawn": {
     "current": 37.72,
     "history": [
@@ -44,39 +35,30 @@
       }
     ]
   },
-  "cosa faremo da grandi": {
-    "current": 30.99,
+  "relax": {
+    "current": 29.99,
     "history": [
       {
-        "date": "2026-06-23 05:23:15",
-        "price": 30.99
+        "date": "2026-06-23 05:34:17",
+        "price": 29.99
       }
     ]
   },
-  "evergreen e altre canzoni": {
-    "current": 33.21,
+  "amputechture": {
+    "current": 48.88,
     "history": [
       {
-        "date": "2026-06-23 05:13:38",
-        "price": 33.21
+        "date": "2026-06-23 05:34:17",
+        "price": 48.88
       }
     ]
   },
-  "songs of a lost world": {
-    "current": 31.9,
+  "un du": {
+    "current": 53.91,
     "history": [
       {
-        "date": "2026-06-23 04:54:14",
-        "price": 31.9
-      }
-    ]
-  },
-  "hot fuzz": {
-    "current": 32.8,
-    "history": [
-      {
-        "date": "2026-06-23 04:03:18",
-        "price": 32.8
+        "date": "2026-06-23 05:34:17",
+        "price": 53.91
       }
     ]
   },
@@ -89,21 +71,57 @@
       }
     ]
   },
-  "naked": {
-    "current": 35.9,
+  "tracy chapman talkin about a revolution": {
+    "current": 62.25,
     "history": [
       {
-        "date": "2026-06-23 05:23:15",
-        "price": 35.9
+        "date": "2026-06-23 05:34:17",
+        "price": 62.25
       }
     ]
   },
-  "new adventures in hi fi": {
-    "current": 45.9,
+  "fear of music": {
+    "current": 37.9,
     "history": [
       {
-        "date": "2026-06-23 05:03:45",
-        "price": 45.9
+        "date": "2026-06-23 05:34:17",
+        "price": 37.9
+      }
+    ]
+  },
+  "up": {
+    "current": 44.99,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 44.99
+      }
+    ]
+  },
+  "bleach ed": {
+    "current": 23.51,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 23.51
+      }
+    ]
+  },
+  "octahedron": {
+    "current": 54.61,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 54.61
+      }
+    ]
+  },
+  "dynamite": {
+    "current": 32.67,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 32.67
       }
     ]
   },
@@ -134,15 +152,6 @@
       }
     ]
   },
-  "yield": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-23 05:23:15",
-        "price": 23.99
-      }
-    ]
-  },
   "mute records construction time again": {
     "current": 23.99,
     "history": [
@@ -152,12 +161,21 @@
       }
     ]
   },
-  "playing the angel": {
-    "current": 25.99,
+  "reggatta de blanc": {
+    "current": 36.72,
     "history": [
       {
-        "date": "2026-06-23 05:23:15",
-        "price": 25.99
+        "date": "2026-06-23 05:34:17",
+        "price": 36.72
+      }
+    ]
+  },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 33.31
       }
     ]
   },
@@ -188,12 +206,30 @@
       }
     ]
   },
+  "ixnay on the hombre": {
+    "current": 32.23,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 32.23
+      }
+    ]
+  },
   "money for nothing": {
     "current": 38.43,
     "history": [
       {
         "date": "2026-06-23 05:23:15",
         "price": 38.43
+      }
+    ]
+  },
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 35.0,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 35.0
       }
     ]
   },
@@ -206,21 +242,30 @@
       }
     ]
   },
+  "light grenades": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 33.21
+      }
+    ]
+  },
+  "morning view": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 33.21
+      }
+    ]
+  },
   "star": {
     "current": 246.63,
     "history": [
       {
         "date": "2026-06-23 05:23:15",
         "price": 246.63
-      }
-    ]
-  },
-  "out of time": {
-    "current": 25.36,
-    "history": [
-      {
-        "date": "2026-06-23 04:54:14",
-        "price": 25.36
       }
     ]
   },
@@ -233,39 +278,66 @@
       }
     ]
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
+  "metallica": {
+    "current": 35.95,
     "history": [
       {
-        "date": "2026-06-23 05:03:45",
-        "price": 24.5
+        "date": "2026-06-23 05:34:17",
+        "price": 35.95
       }
     ]
   },
-  "led zeppelin iv": {
-    "current": 25.9,
+  "led zeppelin iii": {
+    "current": 26.95,
     "history": [
       {
-        "date": "2026-06-23 05:23:15",
-        "price": 25.9
+        "date": "2026-06-23 05:34:17",
+        "price": 26.95
       }
     ]
   },
-  "kill em all": {
-    "current": 36.99,
+  "festival session 2 bonus tracks": {
+    "current": 50.83,
     "history": [
       {
-        "date": "2026-06-23 05:23:15",
-        "price": 36.99
+        "date": "2026-06-23 05:34:17",
+        "price": 50.83
       }
     ]
   },
-  "load": {
-    "current": 45.02,
+  "reload": {
+    "current": 49.19,
     "history": [
       {
-        "date": "2026-06-23 05:13:38",
-        "price": 45.02
+        "date": "2026-06-23 05:34:17",
+        "price": 49.19
+      }
+    ]
+  },
+  "s m2 box": {
+    "current": 95.9,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 95.9
+      }
+    ]
+  },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 49.19
+      }
+    ]
+  },
+  "master of puppets": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 35.9
       }
     ]
   },
@@ -278,21 +350,21 @@
       }
     ]
   },
+  "appetite for destruction": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 29.9
+      }
+    ]
+  },
   "back in": {
     "current": 23.85,
     "history": [
       {
         "date": "2026-06-23 05:23:15",
         "price": 23.85
-      }
-    ]
-  },
-  "ultinate": {
-    "current": 37.42,
-    "history": [
-      {
-        "date": "2026-06-23 05:23:15",
-        "price": 37.42
       }
     ]
   },
@@ -305,21 +377,48 @@
       }
     ]
   },
-  "1": {
-    "current": 51.8,
+  "fabrizio de andre": {
+    "current": 31.9,
     "history": [
       {
-        "date": "2026-06-23 05:03:45",
-        "price": 51.8
+        "date": "2026-06-23 05:34:17",
+        "price": 31.9
       }
     ]
   },
-  "interpol": {
-    "current": 35.76,
+  "the beatles": {
+    "current": 52.95,
     "history": [
       {
-        "date": "2026-06-23 05:23:15",
-        "price": 35.76
+        "date": "2026-06-23 05:34:17",
+        "price": 52.95
+      }
+    ]
+  },
+  "abbey road": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 29.9
+      }
+    ]
+  },
+  "let love in": {
+    "current": 28.99,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 28.99
+      }
+    ]
+  },
+  "camera a sud": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-23 05:34:17",
+        "price": 33.21
       }
     ]
   },
@@ -332,21 +431,21 @@
       }
     ]
   },
-  "heroes": {
-    "current": 31.99,
+  "morrison hotel": {
+    "current": 34.73,
     "history": [
       {
-        "date": "2026-06-23 04:54:14",
-        "price": 31.99
+        "date": "2026-06-23 05:34:17",
+        "price": 34.73
       }
     ]
   },
-  "the rise and fall of ziggy stardust": {
-    "current": 28.9,
+  "substance": {
+    "current": 36.8,
     "history": [
       {
-        "date": "2026-06-23 05:23:15",
-        "price": 28.9
+        "date": "2026-06-23 05:34:17",
+        "price": 36.8
       }
     ]
   }
