@@ -37,7 +37,7 @@ def log(msg: str):
 # ---------------------------------------------------------
 def send_email(body: str):
     log("Invio email di alert…")
-    msg = MIMEText(body)
+    msg = MIMEText(body, "html")
     msg["Subject"] = "📉 Amazon Wishlist Price Drop"
     msg["From"] = GMAIL_USER
     msg["To"] = GMAIL_USER
@@ -333,12 +333,12 @@ def main():
             drop = ((old_current - price) / old_current) * 100
             if drop >= THRESHOLD:
                 alerts.append(
-                    f"{name}\n"
-                    f"Vecchio: €{old_current:.2f}\n"
-                    f"Nuovo: €{price:.2f}\n"
-                    f"↓ {drop:.1f}%\n"
-                    f"CamelCamelCamel: {camel}\n"
-                    f"Amazon: {url}"
+                    f"<b>{name}</b><br>"
+                    f"Vecchio: €{old_current:.2f}<br>"
+                    f"Nuovo: €{price:.2f}<br>"
+                    f"↓ {drop:.1f}%<br>"
+                    f"CamelCamelCamel: <a href='{camel}'>{camel}</a><br>"
+                    f"Amazon: <a href='{url}'>{url}</a><br><br>"
                 )
 
     with open(DATA_FILE, "w") as f:
