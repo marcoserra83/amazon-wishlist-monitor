@@ -298,11 +298,15 @@
     ]
   },
   "blood sugar sex magik": {
-    "current": 42.9,
+    "current": 31.3,
     "history": [
       {
         "date": "2026-06-23 21:37:53",
         "price": 42.9
+      },
+      {
+        "date": "2026-06-23 23:57:24",
+        "price": 31.3
       }
     ]
   },
