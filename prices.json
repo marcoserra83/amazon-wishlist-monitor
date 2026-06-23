@@ -1,13 +1,4 @@
 {
-  "innerspeaker": {
-    "current": 26.9,
-    "history": [
-      {
-        "date": "2026-06-23 04:03:18",
-        "price": 26.9
-      }
-    ]
-  },
   "vauxhall i definitive": {
     "current": 33.8,
     "history": [
@@ -17,30 +8,30 @@
       }
     ]
   },
-  "boarding house reach": {
-    "current": 35.97,
+  "fear of the dawn": {
+    "current": 37.72,
     "history": [
       {
-        "date": "2026-06-23 03:53:27",
-        "price": 35.97
+        "date": "2026-06-23 04:13:20",
+        "price": 37.72
       }
     ]
   },
-  "resta vile maschio dove vai": {
-    "current": 38.0,
+  "evergreen e altre canzoni": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-06-23 04:03:18",
-        "price": 38.0
+        "date": "2026-06-23 04:13:20",
+        "price": 33.21
       }
     ]
   },
-  "songs of a lost world": {
-    "current": 31.9,
+  "amputechture": {
+    "current": 48.88,
     "history": [
       {
-        "date": "2026-06-23 04:03:18",
-        "price": 31.9
+        "date": "2026-06-23 04:13:20",
+        "price": 48.88
       }
     ]
   },
@@ -53,30 +44,30 @@
       }
     ]
   },
-  "disco x 180 gr": {
-    "current": 27.01,
+  "naked": {
+    "current": 35.9,
     "history": [
       {
-        "date": "2026-06-23 04:03:18",
-        "price": 27.01
+        "date": "2026-06-23 04:13:20",
+        "price": 35.9
       }
     ]
   },
-  "fear of music": {
-    "current": 37.9,
+  "remain in light": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-06-23 03:43:33",
-        "price": 37.9
+        "date": "2026-06-23 04:13:20",
+        "price": 25.9
       }
     ]
   },
-  "new adventures in hi fi": {
-    "current": 45.9,
+  "up": {
+    "current": 44.99,
     "history": [
       {
-        "date": "2026-06-23 03:53:27",
-        "price": 45.9
+        "date": "2026-06-23 04:13:20",
+        "price": 44.99
       }
     ]
   },
@@ -89,12 +80,48 @@
       }
     ]
   },
+  "bleach ed": {
+    "current": 23.51,
+    "history": [
+      {
+        "date": "2026-06-23 04:13:20",
+        "price": 23.51
+      }
+    ]
+  },
+  "greatest hits": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-06-23 04:13:20",
+        "price": 27.99
+      }
+    ]
+  },
+  "synkronized": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-23 04:13:20",
+        "price": 23.99
+      }
+    ]
+  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
       {
         "date": "2026-06-23 03:53:27",
         "price": 40.99
+      }
+    ]
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-23 04:13:20",
+        "price": 23.99
       }
     ]
   },
@@ -107,12 +134,12 @@
       }
     ]
   },
-  "playing the angel": {
-    "current": 25.99,
+  "la matematica dei rami": {
+    "current": 33.31,
     "history": [
       {
-        "date": "2026-06-23 04:03:18",
-        "price": 25.99
+        "date": "2026-06-23 04:13:20",
+        "price": 33.31
       }
     ]
   },
@@ -134,12 +161,21 @@
       }
     ]
   },
-  "money for nothing": {
-    "current": 38.43,
+  "ixnay on the hombre": {
+    "current": 32.23,
     "history": [
       {
-        "date": "2026-06-23 03:53:27",
-        "price": 38.43
+        "date": "2026-06-23 04:13:20",
+        "price": 32.23
+      }
+    ]
+  },
+  "good bye lenin": {
+    "current": 30.86,
+    "history": [
+      {
+        "date": "2026-06-23 04:13:20",
+        "price": 30.86
       }
     ]
   },
@@ -152,12 +188,12 @@
       }
     ]
   },
-  "light grenades": {
-    "current": 33.21,
+  "a crow left of the murder": {
+    "current": 40.0,
     "history": [
       {
-        "date": "2026-06-23 04:03:18",
-        "price": 33.21
+        "date": "2026-06-23 04:13:20",
+        "price": 40.0
       }
     ]
   },
@@ -170,57 +206,12 @@
       }
     ]
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.97,
+  "festival session 2 bonus tracks": {
+    "current": 50.83,
     "history": [
       {
-        "date": "2026-06-23 04:03:18",
-        "price": 48.97
-      }
-    ]
-  },
-  "star": {
-    "current": 246.63,
-    "history": [
-      {
-        "date": "2026-06-23 04:03:18",
-        "price": 246.63
-      }
-    ]
-  },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-06-23 04:03:18",
-        "price": 24.5
-      }
-    ]
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-23 03:53:27",
-        "price": 25.9
-      }
-    ]
-  },
-  "led zeppelin iii": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-06-23 03:53:27",
-        "price": 26.95
-      }
-    ]
-  },
-  "reload": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-23 04:03:18",
-        "price": 49.19
+        "date": "2026-06-23 04:13:20",
+        "price": 50.83
       }
     ]
   },
@@ -251,30 +242,30 @@
       }
     ]
   },
-  "and justice for all": {
-    "current": 49.19,
+  "master of puppets": {
+    "current": 35.9,
     "history": [
       {
-        "date": "2026-06-23 04:03:18",
-        "price": 49.19
+        "date": "2026-06-23 04:13:20",
+        "price": 35.9
       }
     ]
   },
-  "back in": {
-    "current": 23.85,
+  "mezzanine": {
+    "current": 42.65,
     "history": [
       {
-        "date": "2026-06-23 04:03:18",
-        "price": 23.85
+        "date": "2026-06-23 04:13:20",
+        "price": 42.65
       }
     ]
   },
-  "guest star bill evans alone together": {
-    "current": 25.56,
+  "ultinate": {
+    "current": 37.42,
     "history": [
       {
-        "date": "2026-06-23 04:03:18",
-        "price": 25.56
+        "date": "2026-06-23 04:13:20",
+        "price": 37.42
       }
     ]
   },
@@ -296,12 +287,12 @@
       }
     ]
   },
-  "the beatles": {
-    "current": 52.95,
+  "1": {
+    "current": 51.8,
     "history": [
       {
-        "date": "2026-06-23 04:03:18",
-        "price": 52.95
+        "date": "2026-06-23 04:13:20",
+        "price": 51.8
       }
     ]
   },
@@ -311,15 +302,6 @@
       {
         "date": "2026-06-23 04:03:18",
         "price": 35.76
-      }
-    ]
-  },
-  "morrison hotel": {
-    "current": 34.73,
-    "history": [
-      {
-        "date": "2026-06-23 04:03:18",
-        "price": 34.73
       }
     ]
   }
