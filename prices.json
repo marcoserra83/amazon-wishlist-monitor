@@ -1,4 +1,13 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-06-23 13:55:50",
+        "price": 26.9
+      }
+    ]
+  },
   "viva hate hq ltd download": {
     "current": 26.99,
     "history": [
@@ -269,15 +278,6 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-23 13:34:26",
-        "price": 23.99
-      }
-    ]
-  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
@@ -332,15 +332,6 @@
       }
     ]
   },
-  "tici canzoni urgenti": {
-    "current": 32.9,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 32.9
-      }
-    ]
-  },
   "top": {
     "current": 29.9,
     "history": [
@@ -365,15 +356,6 @@
       {
         "date": "2026-06-23 13:24:02",
         "price": 24.9
-      }
-    ]
-  },
-  "ixnay on the hombre": {
-    "current": 32.23,
-    "history": [
-      {
-        "date": "2026-06-23 13:34:26",
-        "price": 32.23
       }
     ]
   },
@@ -404,15 +386,6 @@
       }
     ]
   },
-  "a crow left of the murder": {
-    "current": 40.0,
-    "history": [
-      {
-        "date": "2026-06-23 13:24:02",
-        "price": 40.0
-      }
-    ]
-  },
   "light grenades": {
     "current": 33.21,
     "history": [
@@ -437,15 +410,6 @@
       {
         "date": "2026-06-23 13:34:26",
         "price": 28.42
-      }
-    ]
-  },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.97,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 48.97
       }
     ]
   },
@@ -491,15 +455,6 @@
       {
         "date": "2026-06-23 13:34:26",
         "price": 35.95
-      }
-    ]
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-23 13:24:02",
-        "price": 25.9
       }
     ]
   },
@@ -561,15 +516,6 @@
       }
     ]
   },
-  "load": {
-    "current": 45.02,
-    "history": [
-      {
-        "date": "2026-06-23 12:04:32",
-        "price": 45.02
-      }
-    ]
-  },
   "and justice for all": {
     "current": 49.19,
     "history": [
@@ -585,24 +531,6 @@
       {
         "date": "2026-06-23 13:34:26",
         "price": 30.51
-      }
-    ]
-  },
-  "mezzanine": {
-    "current": 37.24,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 37.24
-      }
-    ]
-  },
-  "appetite for destruction": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 25.42
       }
     ]
   },
@@ -729,24 +657,6 @@
       {
         "date": "2026-06-23 13:24:02",
         "price": 34.73
-      }
-    ]
-  },
-  "substance": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 36.8
-      }
-    ]
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-06-23 13:04:31",
-        "price": 31.99
       }
     ]
   },
