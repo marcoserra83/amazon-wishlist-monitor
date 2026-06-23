@@ -1,4 +1,13 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 26.9
+      }
+    ]
+  },
   "viva hate hq ltd download": {
     "current": 26.99,
     "history": [
@@ -44,6 +53,15 @@
       }
     ]
   },
+  "cosa faremo da grandi": {
+    "current": 25.48,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 25.48
+      }
+    ]
+  },
   "mainstream": {
     "current": 33.21,
     "history": [
@@ -71,12 +89,30 @@
       }
     ]
   },
+  "resta vile maschio dove vai": {
+    "current": 38.0,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 38.0
+      }
+    ]
+  },
   "amputechture": {
     "current": 48.88,
     "history": [
       {
         "date": "2026-06-23 15:57:29",
         "price": 48.88
+      }
+    ]
+  },
+  "songs of a lost world": {
+    "current": 27.11,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 27.11
       }
     ]
   },
@@ -260,6 +296,15 @@
       }
     ]
   },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 23.99
+      }
+    ]
+  },
   "mute records construction time again": {
     "current": 23.99,
     "history": [
@@ -287,6 +332,15 @@
       }
     ]
   },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 33.31
+      }
+    ]
+  },
   "tici canzoni urgenti": {
     "current": 32.9,
     "history": [
@@ -302,6 +356,15 @@
       {
         "date": "2026-06-23 15:57:29",
         "price": 29.9
+      }
+    ]
+  },
+  "hatful of hollow": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 25.9
       }
     ]
   },
@@ -341,6 +404,24 @@
       }
     ]
   },
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 35.0,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 35.0
+      }
+    ]
+  },
+  "a crow left of the murder": {
+    "current": 40.0,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 40.0
+      }
+    ]
+  },
   "light grenades": {
     "current": 39.84,
     "history": [
@@ -374,6 +455,15 @@
       {
         "date": "2026-06-23 15:07:38",
         "price": 48.97
+      }
+    ]
+  },
+  "star": {
+    "current": 246.63,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 246.63
       }
     ]
   },
@@ -449,24 +539,6 @@
       }
     ]
   },
-  "load": {
-    "current": 45.02,
-    "history": [
-      {
-        "date": "2026-06-23 14:54:47",
-        "price": 45.02
-      }
-    ]
-  },
-  "and justice for all": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-23 15:45:07",
-        "price": 49.19
-      }
-    ]
-  },
   "master of puppets": {
     "current": 30.51,
     "history": [
@@ -494,30 +566,21 @@
       }
     ]
   },
+  "back in": {
+    "current": 23.85,
+    "history": [
+      {
+        "date": "2026-06-23 16:36:26",
+        "price": 23.85
+      }
+    ]
+  },
   "ultinate": {
     "current": 37.42,
     "history": [
       {
         "date": "2026-06-23 15:45:07",
         "price": 37.42
-      }
-    ]
-  },
-  "guest star bill evans alone together": {
-    "current": 25.56,
-    "history": [
-      {
-        "date": "2026-06-23 15:57:29",
-        "price": 25.56
-      }
-    ]
-  },
-  "kiss me kiss me kiss me": {
-    "current": 39.89,
-    "history": [
-      {
-        "date": "2026-06-23 15:07:38",
-        "price": 39.89
       }
     ]
   },
@@ -548,15 +611,6 @@
       }
     ]
   },
-  "abbey road": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-23 15:57:29",
-        "price": 25.42
-      }
-    ]
-  },
   "let love in": {
     "current": 28.99,
     "history": [
@@ -566,12 +620,12 @@
       }
     ]
   },
-  "camera a sud": {
-    "current": 33.21,
+  "interpol": {
+    "current": 35.76,
     "history": [
       {
-        "date": "2026-06-23 15:45:07",
-        "price": 33.21
+        "date": "2026-06-23 16:36:26",
+        "price": 35.76
       }
     ]
   },
@@ -584,43 +638,12 @@
       }
     ]
   },
-  "morrison hotel": {
-    "current": 34.25,
-    "history": [
-      {
-        "date": "2026-06-23 14:54:47",
-        "price": 34.73
-      },
-      {
-        "date": "2026-06-23 15:34:45",
-        "price": 34.25
-      }
-    ]
-  },
-  "substance": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-23 14:54:47",
-        "price": 36.8
-      }
-    ]
-  },
   "heroes": {
     "current": 31.99,
     "history": [
       {
         "date": "2026-06-23 15:57:29",
         "price": 31.99
-      }
-    ]
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 28.9,
-    "history": [
-      {
-        "date": "2026-06-23 15:25:31",
-        "price": 28.9
       }
     ]
   }
