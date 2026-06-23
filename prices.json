@@ -53,21 +53,21 @@
       }
     ]
   },
-  "cosa faremo da grandi": {
-    "current": 25.48,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 25.48
-      }
-    ]
-  },
   "mainstream": {
     "current": 33.21,
     "history": [
       {
         "date": "2026-06-23 13:24:02",
         "price": 33.21
+      }
+    ]
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-23 14:33:54",
+        "price": 29.99
       }
     ]
   },
@@ -80,39 +80,12 @@
       }
     ]
   },
-  "resta vile maschio dove vai": {
-    "current": 38.0,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 38.0
-      }
-    ]
-  },
-  "amputechture": {
-    "current": 48.88,
-    "history": [
-      {
-        "date": "2026-06-23 13:24:02",
-        "price": 48.88
-      }
-    ]
-  },
   "songs of a lost world": {
     "current": 27.11,
     "history": [
       {
         "date": "2026-06-23 12:47:26",
         "price": 27.11
-      }
-    ]
-  },
-  "hot fuzz": {
-    "current": 27.88,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 27.88
       }
     ]
   },
@@ -125,12 +98,30 @@
       }
     ]
   },
+  "tracy chapman talkin about a revolution": {
+    "current": 62.25,
+    "history": [
+      {
+        "date": "2026-06-23 14:33:54",
+        "price": 62.25
+      }
+    ]
+  },
   "naked": {
     "current": 35.9,
     "history": [
       {
         "date": "2026-06-23 13:24:02",
         "price": 35.9
+      }
+    ]
+  },
+  "remain in light": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-23 14:33:54",
+        "price": 25.9
       }
     ]
   },
@@ -179,6 +170,15 @@
       }
     ]
   },
+  "like clockwork": {
+    "current": 34.1,
+    "history": [
+      {
+        "date": "2026-06-23 14:33:54",
+        "price": 34.1
+      }
+    ]
+  },
   "bleach ed": {
     "current": 23.51,
     "history": [
@@ -188,12 +188,12 @@
       }
     ]
   },
-  "greatest hits": {
-    "current": 25.92,
+  "octahedron": {
+    "current": 54.61,
     "history": [
       {
-        "date": "2026-06-23 13:24:02",
-        "price": 25.92
+        "date": "2026-06-23 14:33:54",
+        "price": 54.61
       }
     ]
   },
@@ -215,21 +215,21 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
+  "playing the angel": {
+    "current": 25.99,
     "history": [
       {
-        "date": "2026-06-23 14:05:34",
-        "price": 23.99
+        "date": "2026-06-23 14:33:54",
+        "price": 25.99
       }
     ]
   },
-  "yield": {
-    "current": 23.99,
+  "la matematica dei rami": {
+    "current": 33.31,
     "history": [
       {
-        "date": "2026-06-23 14:24:06",
-        "price": 23.99
+        "date": "2026-06-23 14:33:54",
+        "price": 33.31
       }
     ]
   },
@@ -239,33 +239,6 @@
       {
         "date": "2026-06-23 14:24:06",
         "price": 32.9
-      }
-    ]
-  },
-  "top": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-06-23 13:24:02",
-        "price": 29.9
-      }
-    ]
-  },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 25.9
-      }
-    ]
-  },
-  "ixnay on the hombre": {
-    "current": 32.23,
-    "history": [
-      {
-        "date": "2026-06-23 14:24:06",
-        "price": 32.23
       }
     ]
   },
@@ -287,12 +260,12 @@
       }
     ]
   },
-  "a crow left of the murder": {
-    "current": 40.0,
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 35.0,
     "history": [
       {
-        "date": "2026-06-23 14:24:06",
-        "price": 40.0
+        "date": "2026-06-23 14:33:54",
+        "price": 35.0
       }
     ]
   },
@@ -305,12 +278,30 @@
       }
     ]
   },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-06-23 14:33:54",
+        "price": 28.42
+      }
+    ]
+  },
   "vol 3 the subliminal verses violet": {
     "current": 48.97,
     "history": [
       {
         "date": "2026-06-23 14:05:34",
         "price": 48.97
+      }
+    ]
+  },
+  "out of time": {
+    "current": 21.56,
+    "history": [
+      {
+        "date": "2026-06-23 14:33:54",
+        "price": 21.56
       }
     ]
   },
@@ -332,12 +323,12 @@
       }
     ]
   },
-  "led zeppelin iii": {
-    "current": 26.95,
+  "metallica": {
+    "current": 35.95,
     "history": [
       {
-        "date": "2026-06-23 14:24:06",
-        "price": 26.95
+        "date": "2026-06-23 14:33:54",
+        "price": 35.95
       }
     ]
   },
@@ -354,12 +345,21 @@
       }
     ]
   },
-  "reload": {
-    "current": 49.19,
+  "s m": {
+    "current": 49.52,
     "history": [
       {
-        "date": "2026-06-23 14:24:06",
-        "price": 49.19
+        "date": "2026-06-23 14:33:54",
+        "price": 49.52
+      }
+    ]
+  },
+  "kill em all": {
+    "current": 34.12,
+    "history": [
+      {
+        "date": "2026-06-23 14:33:54",
+        "price": 34.12
       }
     ]
   },
@@ -390,39 +390,21 @@
       }
     ]
   },
+  "mezzanine": {
+    "current": 37.24,
+    "history": [
+      {
+        "date": "2026-06-23 14:33:54",
+        "price": 37.24
+      }
+    ]
+  },
   "back in": {
     "current": 23.85,
     "history": [
       {
         "date": "2026-06-23 13:47:38",
         "price": 23.85
-      }
-    ]
-  },
-  "ultinate": {
-    "current": 37.42,
-    "history": [
-      {
-        "date": "2026-06-23 13:04:31",
-        "price": 37.42
-      }
-    ]
-  },
-  "guest star bill evans alone together": {
-    "current": 25.56,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 25.56
-      }
-    ]
-  },
-  "kiss me kiss me kiss me": {
-    "current": 39.89,
-    "history": [
-      {
-        "date": "2026-06-23 13:47:38",
-        "price": 39.89
       }
     ]
   },
@@ -453,30 +435,30 @@
       }
     ]
   },
-  "let love in": {
-    "current": 28.99,
+  "interpol": {
+    "current": 35.76,
     "history": [
       {
-        "date": "2026-06-23 13:04:31",
-        "price": 28.99
+        "date": "2026-06-23 14:33:54",
+        "price": 35.76
       }
     ]
   },
-  "soft parade": {
-    "current": 40.05,
+  "camera a sud": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-06-23 13:04:31",
-        "price": 40.05
+        "date": "2026-06-23 14:33:54",
+        "price": 33.21
       }
     ]
   },
-  "morrison hotel": {
-    "current": 34.73,
+  "substance": {
+    "current": 36.8,
     "history": [
       {
-        "date": "2026-06-23 13:24:02",
-        "price": 34.73
+        "date": "2026-06-23 14:33:54",
+        "price": 36.8
       }
     ]
   },
