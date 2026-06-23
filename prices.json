@@ -579,30 +579,12 @@
       }
     ]
   },
-  "and justice for all": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 49.19
-      }
-    ]
-  },
   "master of puppets": {
     "current": 30.51,
     "history": [
       {
         "date": "2026-06-23 12:13:41",
         "price": 30.51
-      }
-    ]
-  },
-  "mezzanine": {
-    "current": 37.24,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 37.24
       }
     ]
   },
@@ -621,15 +603,6 @@
       {
         "date": "2026-06-23 12:23:33",
         "price": 23.85
-      }
-    ]
-  },
-  "ultinate": {
-    "current": 37.42,
-    "history": [
-      {
-        "date": "2026-06-23 12:23:33",
-        "price": 37.42
       }
     ]
   },
@@ -660,39 +633,12 @@
       }
     ]
   },
-  "the beatles": {
-    "current": 52.95,
-    "history": [
-      {
-        "date": "2026-06-23 12:04:32",
-        "price": 52.95
-      }
-    ]
-  },
   "1": {
     "current": 46.51,
     "history": [
       {
         "date": "2026-06-23 12:13:41",
         "price": 46.51
-      }
-    ]
-  },
-  "abbey road": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-23 11:04:44",
-        "price": 25.42
-      }
-    ]
-  },
-  "let love in": {
-    "current": 28.99,
-    "history": [
-      {
-        "date": "2026-06-23 12:13:41",
-        "price": 28.99
       }
     ]
   },
@@ -714,15 +660,6 @@
       }
     ]
   },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 40.05
-      }
-    ]
-  },
   "morrison hotel": {
     "current": 34.73,
     "history": [
@@ -738,24 +675,6 @@
       {
         "date": "2026-06-23 12:35:01",
         "price": 36.8
-      }
-    ]
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 31.99
-      }
-    ]
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 28.9,
-    "history": [
-      {
-        "date": "2026-06-23 12:04:32",
-        "price": 28.9
       }
     ]
   }
