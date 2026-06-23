@@ -17,24 +17,6 @@
       }
     ]
   },
-  "vauxhall i definitive": {
-    "current": 33.8,
-    "history": [
-      {
-        "date": "2026-06-23 12:23:33",
-        "price": 33.8
-      }
-    ]
-  },
-  "boarding house reach": {
-    "current": 35.97,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 35.97
-      }
-    ]
-  },
   "fear of the dawn": {
     "current": 37.72,
     "history": [
@@ -44,30 +26,12 @@
       }
     ]
   },
-  "entering heaven alive": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 36.8
-      }
-    ]
-  },
   "cosa faremo da grandi": {
     "current": 25.48,
     "history": [
       {
         "date": "2026-06-23 12:47:26",
         "price": 25.48
-      }
-    ]
-  },
-  "mainstream": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 33.21
       }
     ]
   },
@@ -98,15 +62,6 @@
       }
     ]
   },
-  "amputechture": {
-    "current": 48.88,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 48.88
-      }
-    ]
-  },
   "songs of a lost world": {
     "current": 27.11,
     "history": [
@@ -125,15 +80,6 @@
       }
     ]
   },
-  "hot fuzz": {
-    "current": 27.88,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 27.88
-      }
-    ]
-  },
   "disco x 180 gr": {
     "current": 27.01,
     "history": [
@@ -149,24 +95,6 @@
       {
         "date": "2026-06-23 12:47:26",
         "price": 62.25
-      }
-    ]
-  },
-  "fear of music": {
-    "current": 37.9,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 37.9
-      }
-    ]
-  },
-  "naked": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 35.9
       }
     ]
   },
@@ -197,15 +125,6 @@
       }
     ]
   },
-  "new adventures in hi fi": {
-    "current": 45.9,
-    "history": [
-      {
-        "date": "2026-06-23 12:23:33",
-        "price": 45.9
-      }
-    ]
-  },
   "blood sugar sex magik": {
     "current": 42.9,
     "history": [
@@ -216,42 +135,6 @@
       {
         "date": "2026-06-23 12:47:26",
         "price": 42.9
-      }
-    ]
-  },
-  "riot on a empty street": {
-    "current": 50.33,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 50.33
-      }
-    ]
-  },
-  "like clockwork": {
-    "current": 34.1,
-    "history": [
-      {
-        "date": "2026-06-23 10:43:39",
-        "price": 34.1
-      }
-    ]
-  },
-  "bleach ed": {
-    "current": 23.51,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 23.51
-      }
-    ]
-  },
-  "greatest hits": {
-    "current": 25.92,
-    "history": [
-      {
-        "date": "2026-06-23 12:04:32",
-        "price": 25.92
       }
     ]
   },
@@ -273,24 +156,6 @@
       }
     ]
   },
-  "a funk odyssey": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 33.99
-      }
-    ]
-  },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-23 11:54:24",
-        "price": 23.99
-      }
-    ]
-  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
@@ -309,57 +174,12 @@
       }
     ]
   },
-  "mute records construction time again": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 23.99
-      }
-    ]
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 25.99
-      }
-    ]
-  },
   "reggatta de blanc": {
     "current": 36.7,
     "history": [
       {
         "date": "2026-06-23 10:04:23",
         "price": 36.7
-      }
-    ]
-  },
-  "la matematica dei rami": {
-    "current": 33.31,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 33.31
-      }
-    ]
-  },
-  "tici canzoni urgenti": {
-    "current": 32.9,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 32.9
-      }
-    ]
-  },
-  "top": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-06-23 12:13:41",
-        "price": 29.9
       }
     ]
   },
@@ -372,66 +192,12 @@
       }
     ]
   },
-  "the queen is dead": {
-    "current": 24.9,
-    "history": [
-      {
-        "date": "2026-06-23 12:23:33",
-        "price": 24.9
-      }
-    ]
-  },
-  "ixnay on the hombre": {
-    "current": 32.23,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 32.23
-      }
-    ]
-  },
-  "money for nothing": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 32.67
-      }
-    ]
-  },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-06-23 11:17:09",
-        "price": 30.86
-      }
-    ]
-  },
   "the beautiful people toronto broadcast 1998 more double vinyl": {
     "current": 35.0,
     "history": [
       {
         "date": "2026-06-23 12:35:01",
         "price": 35.0
-      }
-    ]
-  },
-  "a crow left of the murder": {
-    "current": 40.0,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 40.0
-      }
-    ]
-  },
-  "light grenades": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 33.21
       }
     ]
   },
@@ -459,15 +225,6 @@
       {
         "date": "2026-06-23 12:23:33",
         "price": 48.97
-      }
-    ]
-  },
-  "star": {
-    "current": 246.63,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 246.63
       }
     ]
   },
@@ -507,39 +264,12 @@
       }
     ]
   },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 25.9
-      }
-    ]
-  },
   "led zeppelin iii": {
     "current": 26.95,
     "history": [
       {
         "date": "2026-06-23 10:43:39",
         "price": 26.95
-      }
-    ]
-  },
-  "festival session 2 bonus tracks": {
-    "current": 46.63,
-    "history": [
-      {
-        "date": "2026-06-23 12:35:01",
-        "price": 46.63
-      }
-    ]
-  },
-  "reload": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 49.19
       }
     ]
   },
@@ -579,6 +309,15 @@
       }
     ]
   },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-23 13:04:31",
+        "price": 49.19
+      }
+    ]
+  },
   "master of puppets": {
     "current": 30.51,
     "history": [
@@ -606,21 +345,21 @@
       }
     ]
   },
+  "ultinate": {
+    "current": 37.42,
+    "history": [
+      {
+        "date": "2026-06-23 13:04:31",
+        "price": 37.42
+      }
+    ]
+  },
   "guest star bill evans alone together": {
     "current": 25.56,
     "history": [
       {
         "date": "2026-06-23 12:35:01",
         "price": 25.56
-      }
-    ]
-  },
-  "anime salve": {
-    "current": 28.97,
-    "history": [
-      {
-        "date": "2026-06-23 12:47:26",
-        "price": 28.97
       }
     ]
   },
@@ -633,6 +372,15 @@
       }
     ]
   },
+  "the beatles": {
+    "current": 52.95,
+    "history": [
+      {
+        "date": "2026-06-23 13:04:31",
+        "price": 52.95
+      }
+    ]
+  },
   "1": {
     "current": 46.51,
     "history": [
@@ -642,12 +390,12 @@
       }
     ]
   },
-  "interpol": {
-    "current": 35.76,
+  "let love in": {
+    "current": 28.99,
     "history": [
       {
-        "date": "2026-06-23 12:35:01",
-        "price": 35.76
+        "date": "2026-06-23 13:04:31",
+        "price": 28.99
       }
     ]
   },
@@ -660,12 +408,12 @@
       }
     ]
   },
-  "morrison hotel": {
-    "current": 34.73,
+  "soft parade": {
+    "current": 40.05,
     "history": [
       {
-        "date": "2026-06-23 12:35:01",
-        "price": 34.73
+        "date": "2026-06-23 13:04:31",
+        "price": 40.05
       }
     ]
   },
@@ -675,6 +423,24 @@
       {
         "date": "2026-06-23 12:35:01",
         "price": 36.8
+      }
+    ]
+  },
+  "heroes": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-06-23 13:04:31",
+        "price": 31.99
+      }
+    ]
+  },
+  "the rise and fall of ziggy stardust": {
+    "current": 28.9,
+    "history": [
+      {
+        "date": "2026-06-23 13:04:31",
+        "price": 28.9
       }
     ]
   }
