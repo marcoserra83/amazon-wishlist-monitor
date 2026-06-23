@@ -70,6 +70,18 @@ def normalize(name: str) -> str:
     return name
 
 # ---------------------------------------------------------
+# EXTRACT ASIN
+# ---------------------------------------------------------
+def extract_asin(url: str) -> str | None:
+    m = re.search(r"/dp/([A-Z0-9]{10})", url)
+    if m:
+        return m.group(1)
+    m = re.search(r"/product/([A-Z0-9]{10})", url)
+    if m:
+        return m.group(1)
+    return None
+
+# ---------------------------------------------------------
 # PRICE PARSER
 # ---------------------------------------------------------
 def parse_price_from_html(html: str) -> float | None:
@@ -250,7 +262,7 @@ def get_items():
             log(f"Elaborazione {name}")
             price = get_product_price(page, url, name)
             if price:
-                results.append((name, price))
+                results.append((name, price, url))
 
         browser.close()
         return results
@@ -282,9 +294,12 @@ def main():
     alerts = []
     today = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    for raw_name, price in items:
+    for raw_name, price, url in items:
         name = normalize(raw_name)
         log(f"Prezzo attuale {name}: €{price:.2f}")
+
+        asin = extract_asin(url)
+        camel = f"https://camelcamelcamel.com/product/{asin}" if asin else "ASIN non trovato"
 
         if name not in old:
             new[name] = {
@@ -320,10 +335,11 @@ def main():
                     f"{name}\n"
                     f"Vecchio: €{old_current:.2f}\n"
                     f"Nuovo: €{price:.2f}\n"
-                    f"↓ {drop:.1f}%"
+                    f"↓ {drop:.1f}%\n"
+                    f"CamelCamelCamel: {camel}\n"
+                    f"Amazon: {url}"
                 )
 
-    log(f"SALVO QUI: {DATA_FILE}")
     with open(DATA_FILE, "w") as f:
         json.dump(new, f, indent=2)
         log("Prezzi aggiornati salvati.")
