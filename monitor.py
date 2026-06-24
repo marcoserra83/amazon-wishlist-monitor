@@ -19,6 +19,20 @@ TIMEOUT_PAGE = 20000
 TIMEOUT_SELECTOR = 2500
 RETRY_COUNT = 2
 
+# ---------------------------------------------------------
+# DEBUG HTML
+# ---------------------------------------------------------
+def save_debug_html(name: str, html: str):
+    os.makedirs("debug_html", exist_ok=True)
+    safe = re.sub(r"[^a-zA-Z0-9_-]", "_", name)
+    path = f"debug_html/{safe}.html"
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"[DEBUG] HTML salvato: {path}")
+
+# ---------------------------------------------------------
+# LOGGING
+# ---------------------------------------------------------
 def log(msg: str):
     os.makedirs(LOG_DIR, exist_ok=True)
     path = os.path.join(LOG_DIR, datetime.now().strftime("%Y-%m-%d") + ".log")
@@ -27,6 +41,9 @@ def log(msg: str):
         f.write(line + "\n")
     print(line)
 
+# ---------------------------------------------------------
+# EMAIL (HTML)
+# ---------------------------------------------------------
 def send_email(body: str):
     log("Invio email di alert…")
     msg = MIMEText(body, "html")
@@ -40,6 +57,9 @@ def send_email(body: str):
 
     log("Email inviata.")
 
+# ---------------------------------------------------------
+# NORMALIZZA NOME
+# ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower()
     name = re.sub(r"\(.*?\)|\[.*?\]|\{.*?\}", "", name)
@@ -47,7 +67,7 @@ def normalize(name: str) -> str:
     blacklist = [
         "vinile", "lp", "remaster", "remastered", "edition", "edizione",
         "anniversary", "deluxe", "expanded", "version", "2lp", "3lp",
-        "limited", "limitata",        "col", "color", "colored", "transparent",
+        "limited", "limitata", "col", "color", "colored", "transparent",
         "black", "white", "yellow", "blue", "red", "180gr", "180g",
         "20th", "25th", "30th", "40th"
     ]
@@ -58,6 +78,9 @@ def normalize(name: str) -> str:
     name = re.sub(r"\s+", " ", name).strip()
     return name
 
+# ---------------------------------------------------------
+# EXTRACT ASIN
+# ---------------------------------------------------------
 def extract_asin(url: str) -> str | None:
     m = re.search(r"/dp/([A-Z0-9]{10})", url)
     if m:
@@ -67,6 +90,9 @@ def extract_asin(url: str) -> str | None:
         return m.group(1)
     return None
 
+# ---------------------------------------------------------
+# SHIPPING + SELLER INFO
+# ---------------------------------------------------------
 def extract_shipping_and_seller(html: str):
     soup = BeautifulSoup(html, "lxml")
 
@@ -124,6 +150,9 @@ def extract_shipping_and_seller(html: str):
 
     return seller, shipped_by, shipping_cost
 
+# ---------------------------------------------------------
+# PRICE PARSER
+# ---------------------------------------------------------
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
 
@@ -158,6 +187,9 @@ def parse_price_from_html(html: str) -> float | None:
 
     return None
 
+# ---------------------------------------------------------
+# STEALTH MODE
+# ---------------------------------------------------------
 STEALTH_JS = """
 Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
 window.chrome = { runtime: {} };
@@ -169,6 +201,9 @@ Object.defineProperty(navigator, 'deviceMemory', { get: () => 8 });
 Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
 """
 
+# ---------------------------------------------------------
+# SCRAPING PREZZO
+# ---------------------------------------------------------
 def get_product_price(page: Page, url: str, name: str):
     for attempt in range(1, RETRY_COUNT + 1):
         log(f"  Tentativo {attempt} per {name}")
@@ -194,6 +229,10 @@ def get_product_price(page: Page, url: str, name: str):
             price = parse_price_from_html(html)
             seller, shipped_by, shipping_cost = extract_shipping_and_seller(html)
 
+            # 🔥 DEBUG HTML SE MANCANO I DATI
+            if not seller or not shipped_by or not shipping_cost:
+                save_debug_html(name, html)
+
             if price and price > 0:
                 log(f"  Prezzo trovato: €{price:.2f}")
                 return price, seller, shipped_by, shipping_cost
@@ -205,6 +244,9 @@ def get_product_price(page: Page, url: str, name: str):
 
     return None, None, None, None
 
+# ---------------------------------------------------------
+# SCRAPING WISHLIST
+# ---------------------------------------------------------
 def get_items():
     log("Apertura Playwright…")
 
@@ -296,6 +338,9 @@ def get_items():
         browser.close()
         return results
 
+# ---------------------------------------------------------
+# MAIN
+# ---------------------------------------------------------
 def main():
     log("===== INIZIO MONITOR =====")
     log(f"THRESHOLD: {THRESHOLD}%")
