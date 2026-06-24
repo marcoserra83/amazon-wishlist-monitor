@@ -8,21 +8,30 @@
       }
     ]
   },
+  "vauxhall i definitive": {
+    "current": 33.8,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 33.8
+      }
+    ]
+  },
+  "boarding house reach": {
+    "current": 35.97,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 35.97
+      }
+    ]
+  },
   "fear of the dawn": {
     "current": 37.72,
     "history": [
       {
         "date": "2026-06-24 09:14:45",
         "price": 37.72
-      }
-    ]
-  },
-  "entering heaven alive": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-24 10:44:13",
-        "price": 36.8
       }
     ]
   },
@@ -44,30 +53,12 @@
       }
     ]
   },
-  "resta vile maschio dove vai": {
-    "current": 38.0,
+  "evergreen e altre canzoni": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-06-24 09:14:45",
-        "price": 38.0
-      }
-    ]
-  },
-  "amputechture": {
-    "current": 48.88,
-    "history": [
-      {
-        "date": "2026-06-24 08:33:31",
-        "price": 48.88
-      }
-    ]
-  },
-  "songs of a lost world": {
-    "current": 27.11,
-    "history": [
-      {
-        "date": "2026-06-24 08:47:06",
-        "price": 27.11
+        "date": "2026-06-24 11:04:23",
+        "price": 33.21
       }
     ]
   },
@@ -98,12 +89,30 @@
       }
     ]
   },
-  "fear of music": {
-    "current": 34.89,
+  "naked": {
+    "current": 35.9,
     "history": [
       {
-        "date": "2026-06-24 10:44:13",
-        "price": 34.89
+        "date": "2026-06-24 11:04:23",
+        "price": 35.9
+      }
+    ]
+  },
+  "remain in light": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 25.9
+      }
+    ]
+  },
+  "follow the leader": {
+    "current": 20.27,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 20.27
       }
     ]
   },
@@ -134,15 +143,6 @@
       }
     ]
   },
-  "like clockwork": {
-    "current": 34.1,
-    "history": [
-      {
-        "date": "2026-06-24 10:44:13",
-        "price": 34.1
-      }
-    ]
-  },
   "bleach ed": {
     "current": 23.51,
     "history": [
@@ -152,30 +152,12 @@
       }
     ]
   },
-  "greatest hits": {
-    "current": 25.92,
-    "history": [
-      {
-        "date": "2026-06-24 10:53:56",
-        "price": 25.92
-      }
-    ]
-  },
   "octahedron": {
     "current": 54.61,
     "history": [
       {
         "date": "2026-06-24 09:14:45",
         "price": 54.61
-      }
-    ]
-  },
-  "dynamite": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-24 10:53:56",
-        "price": 32.67
       }
     ]
   },
@@ -197,12 +179,12 @@
       }
     ]
   },
-  "yield": {
-    "current": 23.99,
+  "emergency on planet earth": {
+    "current": 40.99,
     "history": [
       {
-        "date": "2026-06-24 10:53:56",
-        "price": 23.99
+        "date": "2026-06-24 11:04:23",
+        "price": 40.99
       }
     ]
   },
@@ -224,6 +206,15 @@
       }
     ]
   },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 33.31
+      }
+    ]
+  },
   "tici canzoni urgenti": {
     "current": 32.9,
     "history": [
@@ -242,30 +233,21 @@
       }
     ]
   },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-24 10:53:56",
-        "price": 25.9
-      }
-    ]
-  },
-  "the queen is dead": {
-    "current": 24.9,
-    "history": [
-      {
-        "date": "2026-06-24 10:44:13",
-        "price": 24.9
-      }
-    ]
-  },
   "ixnay on the hombre": {
     "current": 32.23,
     "history": [
       {
         "date": "2026-06-24 10:44:13",
         "price": 32.23
+      }
+    ]
+  },
+  "money for nothing": {
+    "current": 32.67,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 32.67
       }
     ]
   },
@@ -296,12 +278,21 @@
       }
     ]
   },
-  "morning view": {
-    "current": 33.21,
+  "light grenades": {
+    "current": 39.84,
     "history": [
       {
-        "date": "2026-06-24 10:33:53",
-        "price": 33.21
+        "date": "2026-06-24 11:04:23",
+        "price": 39.84
+      }
+    ]
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 28.42
       }
     ]
   },
@@ -323,6 +314,15 @@
       }
     ]
   },
+  "out of time": {
+    "current": 21.56,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 21.56
+      }
+    ]
+  },
   "noctourniquet": {
     "current": 37.37,
     "history": [
@@ -341,24 +341,6 @@
       }
     ]
   },
-  "metallica": {
-    "current": 35.95,
-    "history": [
-      {
-        "date": "2026-06-24 10:53:56",
-        "price": 35.95
-      }
-    ]
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-24 10:44:13",
-        "price": 25.9
-      }
-    ]
-  },
   "led zeppelin iii": {
     "current": 26.95,
     "history": [
@@ -368,12 +350,30 @@
       }
     ]
   },
+  "festival session 2 bonus tracks": {
+    "current": 50.83,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 50.83
+      }
+    ]
+  },
   "reload": {
     "current": 49.19,
     "history": [
       {
         "date": "2026-06-24 10:44:13",
         "price": 49.19
+      }
+    ]
+  },
+  "kill em all": {
+    "current": 34.12,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 34.12
       }
     ]
   },
@@ -395,12 +395,21 @@
       }
     ]
   },
-  "appetite for destruction": {
-    "current": 25.42,
+  "master of puppets": {
+    "current": 30.51,
     "history": [
       {
-        "date": "2026-06-24 10:33:53",
-        "price": 25.42
+        "date": "2026-06-24 11:04:23",
+        "price": 30.51
+      }
+    ]
+  },
+  "mezzanine": {
+    "current": 37.24,
+    "history": [
+      {
+        "date": "2026-06-24 11:04:23",
+        "price": 37.24
       }
     ]
   },
@@ -440,57 +449,21 @@
       }
     ]
   },
-  "the beatles": {
-    "current": 52.95,
+  "fabrizio de andre": {
+    "current": 28.97,
     "history": [
       {
-        "date": "2026-06-24 10:33:53",
-        "price": 52.95
+        "date": "2026-06-24 11:04:23",
+        "price": 28.97
       }
     ]
   },
-  "abbey road": {
-    "current": 25.42,
+  "interpol": {
+    "current": 35.76,
     "history": [
       {
-        "date": "2026-06-24 10:53:56",
-        "price": 25.42
-      }
-    ]
-  },
-  "let love in": {
-    "current": 28.99,
-    "history": [
-      {
-        "date": "2026-06-24 09:37:59",
-        "price": 28.99
-      }
-    ]
-  },
-  "camera a sud": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-24 10:44:13",
-        "price": 33.21
-      }
-    ]
-  },
-  "morrison hotel": {
-    "current": 34.25,
-    "history": [
-      {
-        "date": "2026-06-24 10:53:56",
-        "price": 34.25
-      }
-    ]
-  },
-  "substance": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-24 10:53:56",
-        "price": 36.8
+        "date": "2026-06-24 11:04:23",
+        "price": 35.76
       }
     ]
   },
