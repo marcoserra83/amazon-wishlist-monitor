@@ -83,33 +83,64 @@ def extract_asin(url: str) -> str | None:
     return None
 
 # ---------------------------------------------------------
-# SHIPPING + SELLER INFO
+# SHIPPING + SELLER INFO (VERSIONE COMPLETA)
 # ---------------------------------------------------------
 def extract_shipping_and_seller(html: str):
     soup = BeautifulSoup(html, "lxml")
 
+    # -------------------------
     # Venditore
+    # -------------------------
     seller = None
+
+    # Standard
     el = soup.select_one("#merchant-info")
     if el:
         seller = el.get_text(strip=True)
 
+    # Seller profile
     if not seller:
         el = soup.select_one("#sellerProfileTriggerId")
         if el:
             seller = el.get_text(strip=True)
 
+    # Media / Vinili / BuyBox alternativo
+    if not seller:
+        el = soup.select_one("div#buybox-see-all-buying-choices a")
+        if el:
+            seller = el.get_text(strip=True)
+
+    # -------------------------
     # Spedito da
+    # -------------------------
     shipped_by = None
+
+    # Standard
     el = soup.select_one("#tabular-buybox .tabular-buybox-text")
     if el:
         shipped_by = el.get_text(strip=True)
 
+    # Media / Vinili
+    if not shipped_by:
+        el = soup.select_one("div#deliveryMessageMirId span")
+        if el:
+            shipped_by = el.get_text(strip=True)
+
+    # -------------------------
     # Costi di spedizione
+    # -------------------------
     shipping_cost = None
+
+    # Standard
     el = soup.select_one("#mir-layout-DELIVERY_BLOCK span.a-color-secondary")
     if el:
         shipping_cost = el.get_text(strip=True)
+
+    # Media / Vinili
+    if not shipping_cost:
+        el = soup.select_one("span#ourprice_shippingmessage")
+        if el:
+            shipping_cost = el.get_text(strip=True)
 
     return seller, shipped_by, shipping_cost
 
