@@ -56,15 +56,6 @@
       }
     ]
   },
-  "cosa faremo da grandi": {
-    "current": 25.48,
-    "history": [
-      {
-        "date": "2026-06-23 20:47:22",
-        "price": 25.48
-      }
-    ]
-  },
   "mainstream": {
     "current": 33.21,
     "history": [
@@ -139,15 +130,6 @@
       {
         "date": "2026-06-23 17:53:58",
         "price": 48.88
-      }
-    ]
-  },
-  "songs of a lost world": {
-    "current": 27.11,
-    "history": [
-      {
-        "date": "2026-06-23 20:47:22",
-        "price": 27.11
       }
     ]
   },
@@ -229,15 +211,6 @@
       }
     ]
   },
-  "remain in light": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 25.9
-      }
-    ]
-  },
   "follow the leader": {
     "current": 20.27,
     "history": [
@@ -283,15 +256,6 @@
       }
     ]
   },
-  "like clockwork": {
-    "current": 34.1,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 34.1
-      }
-    ]
-  },
   "bleach ed": {
     "current": 23.51,
     "history": [
@@ -319,15 +283,6 @@
       }
     ]
   },
-  "dynamite": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 32.67
-      }
-    ]
-  },
   "a funk odyssey": {
     "current": 33.99,
     "history": [
@@ -337,48 +292,12 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 23.99
-      }
-    ]
-  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
       {
         "date": "2026-06-24 02:47:41",
         "price": 40.99
-      }
-    ]
-  },
-  "yield": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 23.99
-      }
-    ]
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 25.99
-      }
-    ]
-  },
-  "reggatta de blanc": {
-    "current": 36.7,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 36.7
       }
     ]
   },
@@ -415,15 +334,6 @@
       {
         "date": "2026-06-24 02:47:41",
         "price": 25.9
-      }
-    ]
-  },
-  "the queen is dead": {
-    "current": 24.9,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 24.9
       }
     ]
   },
@@ -499,15 +409,6 @@
       }
     ]
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.97,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 48.97
-      }
-    ]
-  },
   "star": {
     "current": 246.63,
     "history": [
@@ -535,12 +436,21 @@
       }
     ]
   },
-  "metallica": {
-    "current": 35.95,
+  "sleeping with ghosts": {
+    "current": 24.5,
     "history": [
       {
-        "date": "2026-06-24 02:47:41",
-        "price": 35.95
+        "date": "2026-06-24 05:44:42",
+        "price": 24.5
+      }
+    ]
+  },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-24 05:44:42",
+        "price": 25.9
       }
     ]
   },
@@ -571,21 +481,21 @@
       }
     ]
   },
+  "s m": {
+    "current": 49.52,
+    "history": [
+      {
+        "date": "2026-06-24 05:44:42",
+        "price": 49.52
+      }
+    ]
+  },
   "kill em all": {
     "current": 34.12,
     "history": [
       {
         "date": "2026-06-24 02:47:41",
         "price": 34.12
-      }
-    ]
-  },
-  "s m2 box": {
-    "current": 95.9,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 95.9
       }
     ]
   },
@@ -604,6 +514,33 @@
       {
         "date": "2026-06-24 02:47:41",
         "price": 49.19
+      }
+    ]
+  },
+  "master of puppets": {
+    "current": 30.51,
+    "history": [
+      {
+        "date": "2026-06-24 05:44:42",
+        "price": 30.51
+      }
+    ]
+  },
+  "mezzanine": {
+    "current": 37.24,
+    "history": [
+      {
+        "date": "2026-06-24 05:44:42",
+        "price": 37.24
+      }
+    ]
+  },
+  "appetite for destruction": {
+    "current": 25.42,
+    "history": [
+      {
+        "date": "2026-06-24 05:44:42",
+        "price": 25.42
       }
     ]
   },
@@ -679,30 +616,21 @@
       }
     ]
   },
+  "let love in": {
+    "current": 28.99,
+    "history": [
+      {
+        "date": "2026-06-24 05:44:42",
+        "price": 28.99
+      }
+    ]
+  },
   "interpol": {
     "current": 35.76,
     "history": [
       {
         "date": "2026-06-24 02:47:41",
         "price": 35.76
-      }
-    ]
-  },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 40.05
-      }
-    ]
-  },
-  "morrison hotel": {
-    "current": 34.25,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 34.25
       }
     ]
   },
