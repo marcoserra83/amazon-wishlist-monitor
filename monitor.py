@@ -19,9 +19,6 @@ TIMEOUT_PAGE = 20000
 TIMEOUT_SELECTOR = 2500
 RETRY_COUNT = 2
 
-# ---------------------------------------------------------
-# DEBUG HTML
-# ---------------------------------------------------------
 def save_debug_html(name: str, html: str):
     os.makedirs("debug_html", exist_ok=True)
     safe = re.sub(r"[^a-zA-Z0-9_-]", "_", name)
@@ -30,9 +27,6 @@ def save_debug_html(name: str, html: str):
         f.write(html)
     print(f"[DEBUG] HTML salvato: {path}")
 
-# ---------------------------------------------------------
-# LOGGING
-# ---------------------------------------------------------
 def log(msg: str):
     os.makedirs(LOG_DIR, exist_ok=True)
     path = os.path.join(LOG_DIR, datetime.now().strftime("%Y-%m-%d") + ".log")
@@ -41,9 +35,6 @@ def log(msg: str):
         f.write(line + "\n")
     print(line)
 
-# ---------------------------------------------------------
-# EMAIL (HTML)
-# ---------------------------------------------------------
 def send_email(body: str):
     log("Invio email di alert…")
     msg = MIMEText(body, "html")
@@ -57,30 +48,22 @@ def send_email(body: str):
 
     log("Email inviata.")
 
-# ---------------------------------------------------------
-# NORMALIZZA NOME
-# ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower()
     name = re.sub(r"\(.*?\)|\[.*?\]|\{.*?\}", "", name)
-
     blacklist = [
-        "vinile", "lp", "remaster", "remastered", "edition", "edizione",
-        "anniversary", "deluxe", "expanded", "version", "2lp", "3lp",
-        "limited", "limitata", "col", "color", "colored", "transparent",
-        "black", "white", "yellow", "blue", "red", "180gr", "180g",
-        "20th", "25th", "30th", "40th"
+        "vinile","lp","remaster","remastered","edition","edizione",
+        "anniversary","deluxe","expanded","version","2lp","3lp",
+        "limited","limitata","col","color","colored","transparent",
+        "black","white","yellow","blue","red","180gr","180g",
+        "20th","25th","30th","40th"
     ]
     for word in blacklist:
         name = name.replace(word, "")
-
     name = re.sub(r"[^a-z0-9]+", " ", name)
     name = re.sub(r"\s+", " ", name).strip()
     return name
 
-# ---------------------------------------------------------
-# EXTRACT ASIN
-# ---------------------------------------------------------
 def extract_asin(url: str) -> str | None:
     m = re.search(r"/dp/([A-Z0-9]{10})", url)
     if m:
@@ -90,9 +73,6 @@ def extract_asin(url: str) -> str | None:
         return m.group(1)
     return None
 
-# ---------------------------------------------------------
-# SHIPPING + SELLER INFO
-# ---------------------------------------------------------
 def extract_shipping_and_seller(html: str):
     soup = BeautifulSoup(html, "lxml")
 
@@ -100,9 +80,15 @@ def extract_shipping_and_seller(html: str):
     shipped_by = None
     shipping_cost = None
 
-    el = soup.select_one("#merchant-info")
-    if el:
-        seller = el.get_text(strip=True)
+    odf = soup.select_one("#merchantInfoFeature_feature_div .offer-display-feature-text-message")
+    if odf:
+        seller = odf.get_text(strip=True)
+        shipped_by = seller
+
+    if not seller:
+        el = soup.select_one("#merchant-info")
+        if el:
+            seller = el.get_text(strip=True)
 
     if not seller:
         el = soup.select_one("#sellerProfileTriggerId")
@@ -114,51 +100,25 @@ def extract_shipping_and_seller(html: str):
         if el:
             seller = el.get_text(strip=True)
 
-    if not seller:
-        el = soup.select_one("#merchant-info_feature_div")
+    if "Prime" in html or "GRATUITI" in html:
+        shipping_cost = "Gratis"
+
+    if not shipping_cost:
+        el = soup.select_one("#mir-layout-DELIVERY_BLOCK span.a-color-secondary")
         if el:
-            seller = el.get_text(" ", strip=True)
-
-    el = soup.select_one("#tabular-buybox .tabular-buybox-text")
-    if el:
-        shipped_by = el.get_text(strip=True)
-
-    if not shipped_by:
-        el = soup.select_one("div#deliveryMessageMirId span")
-        if el:
-            shipped_by = el.get_text(strip=True)
-
-    if not shipped_by:
-        el = soup.select_one("#merchant-info_feature_div")
-        if el:
-            text = el.get_text(" ", strip=True)
-            if "Spedito da" in text:
-                shipped_by = text.split("Spedito da")[-1].strip().split()[0]
-
-    el = soup.select_one("#mir-layout-DELIVERY_BLOCK span.a-color-secondary")
-    if el:
-        shipping_cost = el.get_text(strip=True)
+            shipping_cost = el.get_text(strip=True)
 
     if not shipping_cost:
         el = soup.select_one("span#ourprice_shippingmessage")
         if el:
             shipping_cost = el.get_text(strip=True)
 
-    if not shipping_cost:
-        if "Prime" in html or "GRATUITI" in html:
-            shipping_cost = "Gratis"
-
     return seller, shipped_by, shipping_cost
 
-# ---------------------------------------------------------
-# PRICE PARSER
-# ---------------------------------------------------------
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
-
     for bad in soup.select("#sims-consolidated-2, #sims-consolidated-3, #sp_detail, .a-carousel"):
         bad.decompose()
-
     price_block = soup.select_one(
         "#corePrice_feature_div, #apex_desktop, #corePriceDisplay_desktop_feature_div"
     )
@@ -166,55 +126,45 @@ def parse_price_from_html(html: str) -> float | None:
         offscreen = price_block.select_one("span.a-price > span.a-offscreen")
         if offscreen:
             try:
-                return float(offscreen.get_text(strip=True).replace("€", "").replace(",", "."))
+                return float(offscreen.get_text(strip=True).replace("€","").replace(",","."))
             except:
                 pass
-
     fallback = soup.select_one("span.a-price > span.a-offscreen")
     if fallback:
         try:
-            return float(fallback.get_text(strip=True).replace("€", "").replace(",", "."))
+            return float(fallback.get_text(strip=True).replace("€","").replace(",","."))
         except:
             pass
-
     whole = soup.select_one("span.a-price-whole")
     frac = soup.select_one("span.a-price-fraction")
     if whole and frac:
         try:
-            return float(whole.get_text(strip=True).replace(".", "") + "." + frac.get_text(strip=True))
+            return float(whole.get_text(strip=True).replace(".","") + "." + frac.get_text(strip=True))
         except:
             pass
-
     return None
 
-# ---------------------------------------------------------
-# STEALTH MODE
-# ---------------------------------------------------------
 STEALTH_JS = """
-Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-window.chrome = { runtime: {} };
-Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3] });
-Object.defineProperty(navigator, 'languages', { get: () => ['it-IT', 'it'] });
-Object.defineProperty(navigator, 'platform', { get: () => 'Win32' });
-Object.defineProperty(navigator, 'hardwareConcurrency', { get: () => 8 });
-Object.defineProperty(navigator, 'deviceMemory', { get: () => 8 });
-Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
+Object.defineProperty(navigator,'webdriver',{get:()=>undefined});
+window.chrome={runtime:{}};
+Object.defineProperty(navigator,'plugins',{get:()=>[1,2,3]});
+Object.defineProperty(navigator,'languages',{get:()=>['it-IT','it']});
+Object.defineProperty(navigator,'platform',{get:()=> 'Win32'});
+Object.defineProperty(navigator,'hardwareConcurrency',{get:()=>8});
+Object.defineProperty(navigator,'deviceMemory',{get:()=>8});
+Object.defineProperty(navigator,'maxTouchPoints',{get:()=>0});
 """
 
-# ---------------------------------------------------------
-# SCRAPING PREZZO
-# ---------------------------------------------------------
 def get_product_price(page: Page, url: str, name: str):
-    for attempt in range(1, RETRY_COUNT + 1):
+    for attempt in range(1, RETRY_COUNT+1):
         log(f"  Tentativo {attempt} per {name}")
-
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
             html = page.content()
 
             if "captcha" in html.lower():
                 log(f"  CAPTCHA rilevato per {name}")
-                return None, None, None, None
+                return None,None,None,None
 
             try:
                 page.wait_for_selector(
@@ -229,7 +179,6 @@ def get_product_price(page: Page, url: str, name: str):
             price = parse_price_from_html(html)
             seller, shipped_by, shipping_cost = extract_shipping_and_seller(html)
 
-            # 🔥 DEBUG HTML SE MANCANO I DATI
             if not seller or not shipped_by or not shipping_cost:
                 save_debug_html(name, html)
 
@@ -242,11 +191,8 @@ def get_product_price(page: Page, url: str, name: str):
         except Exception as e:
             log(f"  Errore durante parsing {name}: {e}")
 
-    return None, None, None, None
+    return None,None,None,None
 
-# ---------------------------------------------------------
-# SCRAPING WISHLIST
-# ---------------------------------------------------------
 def get_items():
     log("Apertura Playwright…")
 
@@ -260,7 +206,7 @@ def get_items():
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
             locale="it-IT",
             timezone_id="Europe/Rome",
-            viewport={"width": 1920, "height": 1080}
+            viewport={"width":1920,"height":1080}
         )
 
         context.add_init_script(STEALTH_JS)
@@ -320,34 +266,29 @@ def get_items():
             title_el = row.select_one("a.a-link-normal, a.a-text-normal")
             if not title_el:
                 continue
-
-            name = title_el.get("title", "").strip() or title_el.get_text(strip=True)
-            url = title_el.get("href", "")
+            name = title_el.get("title","").strip() or title_el.get_text(strip=True)
+            url = title_el.get("href","")
             if not url.startswith("http"):
                 url = "https://www.amazon.it" + url
-
-            items.append((name, url))
+            items.append((name,url))
 
         results = []
-        for name, url in items:
+        for name,url in items:
             log(f"Elaborazione {name}")
-            price, seller, shipped_by, shipping_cost = get_product_price(page, url, name)
+            price, seller, shipped_by, shipping_cost = get_product_price(page,url,name)
             if price:
-                results.append((name, price, url, seller, shipped_by, shipping_cost))
+                results.append((name,price,url,seller,shipped_by,shipping_cost))
 
         browser.close()
         return results
 
-# ---------------------------------------------------------
-# MAIN
-# ---------------------------------------------------------
 def main():
     log("===== INIZIO MONITOR =====")
     log(f"THRESHOLD: {THRESHOLD}%")
 
     old = {}
     if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, "r") as f:
+        with open(DATA_FILE,"r") as f:
             try:
                 old = json.load(f)
                 log(f"Caricati {len(old)} prodotti dallo storico.")
@@ -365,7 +306,7 @@ def main():
     alerts = []
     today = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d %H:%M:%S")
 
-    for raw_name, price, url, seller, shipped_by, shipping_cost in items:
+    for raw_name,price,url,seller,shipped_by,shipping_cost in items:
         name = normalize(raw_name)
         log(f"Prezzo attuale {name}: €{price:.2f}")
 
@@ -374,29 +315,21 @@ def main():
 
         if name not in old:
             new[name] = {
-                "current": price,
-                "history": [
-                    {"date": today, "price": price}
-                ]
+                "current":price,
+                "history":[{"date":today,"price":price}]
             }
             continue
 
-        old_history = old[name].get("history", [])
+        old_history = old[name].get("history",[])
         history = list(old_history)
 
         last_price = history[-1]["price"] if history else None
         old_current = old[name].get("current")
 
-        new[name] = {
-            "current": price,
-            "history": history
-        }
+        new[name] = {"current":price,"history":history}
 
         if last_price != price:
-            new[name]["history"].append({
-                "date": today,
-                "price": price
-            })
+            new[name]["history"].append({"date":today,"price":price})
             log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
 
         if old_current and old_current > 0:
@@ -414,8 +347,8 @@ def main():
                     f"<a href='{url}'>amazon</a><br><br>"
                 )
 
-    with open(DATA_FILE, "w") as f:
-        json.dump(new, f, indent=2)
+    with open(DATA_FILE,"w") as f:
+        json.dump(new,f,indent=2)
         log("Prezzi aggiornati salvati.")
 
     if alerts:
