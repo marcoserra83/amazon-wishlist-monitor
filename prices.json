@@ -143,12 +143,30 @@
       }
     ]
   },
+  "fear of music": {
+    "current": 34.89,
+    "history": [
+      {
+        "date": "2026-06-24 08:55:58",
+        "price": 34.89
+      }
+    ]
+  },
   "naked": {
     "current": 35.9,
     "history": [
       {
         "date": "2026-06-24 07:54:10",
         "price": 35.9
+      }
+    ]
+  },
+  "remain in light": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-24 08:55:58",
+        "price": 25.9
       }
     ]
   },
@@ -224,6 +242,15 @@
       }
     ]
   },
+  "octahedron": {
+    "current": 54.61,
+    "history": [
+      {
+        "date": "2026-06-24 08:55:58",
+        "price": 54.61
+      }
+    ]
+  },
   "dynamite": {
     "current": 32.67,
     "history": [
@@ -264,6 +291,15 @@
       }
     ]
   },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-24 08:55:58",
+        "price": 23.99
+      }
+    ]
+  },
   "playing the angel": {
     "current": 25.99,
     "history": [
@@ -300,24 +336,6 @@
       }
     ]
   },
-  "top": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-06-24 08:04:06",
-        "price": 29.9
-      }
-    ]
-  },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-24 08:33:31",
-        "price": 25.9
-      }
-    ]
-  },
   "the queen is dead": {
     "current": 24.9,
     "history": [
@@ -336,12 +354,12 @@
       }
     ]
   },
-  "good bye lenin": {
-    "current": 30.86,
+  "money for nothing": {
+    "current": 32.67,
     "history": [
       {
-        "date": "2026-06-24 08:47:06",
-        "price": 30.86
+        "date": "2026-06-24 08:55:58",
+        "price": 32.67
       }
     ]
   },
@@ -351,15 +369,6 @@
       {
         "date": "2026-06-24 08:47:06",
         "price": 35.0
-      }
-    ]
-  },
-  "a crow left of the murder": {
-    "current": 47.79,
-    "history": [
-      {
-        "date": "2026-06-24 08:47:06",
-        "price": 47.79
       }
     ]
   },
@@ -444,15 +453,6 @@
       }
     ]
   },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-24 08:14:20",
-        "price": 25.9
-      }
-    ]
-  },
   "led zeppelin iii": {
     "current": 26.95,
     "history": [
@@ -468,24 +468,6 @@
       {
         "date": "2026-06-24 08:24:06",
         "price": 50.83
-      }
-    ]
-  },
-  "reload": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-24 08:33:31",
-        "price": 49.19
-      }
-    ]
-  },
-  "s m": {
-    "current": 49.52,
-    "history": [
-      {
-        "date": "2026-06-24 08:47:06",
-        "price": 49.52
       }
     ]
   },
@@ -513,15 +495,6 @@
       {
         "date": "2026-06-24 08:33:31",
         "price": 45.02
-      }
-    ]
-  },
-  "and justice for all": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-24 08:24:06",
-        "price": 49.19
       }
     ]
   },
@@ -561,15 +534,6 @@
       }
     ]
   },
-  "ultinate": {
-    "current": 37.42,
-    "history": [
-      {
-        "date": "2026-06-24 08:47:06",
-        "price": 37.42
-      }
-    ]
-  },
   "guest star bill evans alone together": {
     "current": 25.56,
     "history": [
@@ -580,11 +544,15 @@
     ]
   },
   "kiss me kiss me kiss me": {
-    "current": 39.89,
+    "current": 37.65,
     "history": [
       {
         "date": "2026-06-24 08:14:20",
         "price": 39.89
+      },
+      {
+        "date": "2026-06-24 08:55:58",
+        "price": 37.65
       }
     ]
   },
@@ -593,15 +561,6 @@
     "history": [
       {
         "date": "2026-06-24 08:24:06",
-        "price": 28.97
-      }
-    ]
-  },
-  "fabrizio de andre": {
-    "current": 28.97,
-    "history": [
-      {
-        "date": "2026-06-24 08:47:06",
         "price": 28.97
       }
     ]
@@ -624,24 +583,6 @@
       }
     ]
   },
-  "abbey road": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-24 08:47:06",
-        "price": 25.42
-      }
-    ]
-  },
-  "let love in": {
-    "current": 28.99,
-    "history": [
-      {
-        "date": "2026-06-24 08:47:06",
-        "price": 28.99
-      }
-    ]
-  },
   "interpol": {
     "current": 35.76,
     "history": [
@@ -660,15 +601,6 @@
       }
     ]
   },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-24 08:47:06",
-        "price": 40.05
-      }
-    ]
-  },
   "morrison hotel": {
     "current": 34.25,
     "history": [
@@ -684,15 +616,6 @@
       {
         "date": "2026-06-24 08:47:06",
         "price": 36.8
-      }
-    ]
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-06-24 08:47:06",
-        "price": 31.99
       }
     ]
   },
