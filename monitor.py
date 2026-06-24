@@ -5,6 +5,7 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import re
 
 # ---------------------------------------------------------
@@ -33,7 +34,7 @@ def log(msg: str):
     print(line)
 
 # ---------------------------------------------------------
-# EMAIL
+# EMAIL (HTML)
 # ---------------------------------------------------------
 def send_email(body: str):
     log("Invio email di alert…")
@@ -53,7 +54,11 @@ def send_email(body: str):
 # ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower()
-    name = re.sub(r"\(.*?\)|\[.*?\]|\{.*?\}", "", name)
+    name = re.sub(r"\(.*?\)|
+
+\[.*?\]
+
+|\{.*?\}", "", name)
 
     blacklist = [
         "vinile", "lp", "remaster", "remastered", "edition", "edizione",
@@ -80,6 +85,37 @@ def extract_asin(url: str) -> str | None:
     if m:
         return m.group(1)
     return None
+
+# ---------------------------------------------------------
+# SHIPPING + SELLER INFO
+# ---------------------------------------------------------
+def extract_shipping_and_seller(html: str):
+    soup = BeautifulSoup(html, "lxml")
+
+    # Venditore
+    seller = None
+    el = soup.select_one("#merchant-info")
+    if el:
+        seller = el.get_text(strip=True)
+
+    if not seller:
+        el = soup.select_one("#sellerProfileTriggerId")
+        if el:
+            seller = el.get_text(strip=True)
+
+    # Spedito da
+    shipped_by = None
+    el = soup.select_one("#tabular-buybox .tabular-buybox-text")
+    if el:
+        shipped_by = el.get_text(strip=True)
+
+    # Costi di spedizione
+    shipping_cost = None
+    el = soup.select_one("#mir-layout-DELIVERY_BLOCK span.a-color-secondary")
+    if el:
+        shipping_cost = el.get_text(strip=True)
+
+    return seller, shipped_by, shipping_cost
 
 # ---------------------------------------------------------
 # PRICE PARSER
@@ -135,7 +171,7 @@ Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
 # ---------------------------------------------------------
 # SCRAPING PREZZO
 # ---------------------------------------------------------
-def get_product_price(page: Page, url: str, name: str) -> float | None:
+def get_product_price(page: Page, url: str, name: str):
     for attempt in range(1, RETRY_COUNT + 1):
         log(f"  Tentativo {attempt} per {name}")
 
@@ -145,7 +181,7 @@ def get_product_price(page: Page, url: str, name: str) -> float | None:
 
             if "captcha" in html.lower():
                 log(f"  CAPTCHA rilevato per {name}")
-                return None
+                return None, None, None, None
 
             try:
                 page.wait_for_selector(
@@ -158,17 +194,18 @@ def get_product_price(page: Page, url: str, name: str) -> float | None:
 
             html = page.content()
             price = parse_price_from_html(html)
+            seller, shipped_by, shipping_cost = extract_shipping_and_seller(html)
 
             if price and price > 0:
                 log(f"  Prezzo trovato: €{price:.2f}")
-                return price
+                return price, seller, shipped_by, shipping_cost
 
             log(f"  Parsing fallito per {name}")
 
         except Exception as e:
             log(f"  Errore durante parsing {name}: {e}")
 
-    return None
+    return None, None, None, None
 
 # ---------------------------------------------------------
 # SCRAPING WISHLIST
@@ -189,15 +226,12 @@ def get_items():
             viewport={"width": 1920, "height": 1080}
         )
 
-        # Stealth SEMPRE attivo
         context.add_init_script(STEALTH_JS)
 
-        # Blocca solo font (NON immagini)
         context.route("**/*", lambda route: route.abort()
                       if route.request.resource_type in ["font"]
                       else route.continue_())
 
-        # Carica cookie Amazon
         cookies_json = os.environ.get("AMAZON_COOKIES")
         if cookies_json:
             try:
@@ -260,9 +294,9 @@ def get_items():
         results = []
         for name, url in items:
             log(f"Elaborazione {name}")
-            price = get_product_price(page, url, name)
+            price, seller, shipped_by, shipping_cost = get_product_price(page, url, name)
             if price:
-                results.append((name, price, url))
+                results.append((name, price, url, seller, shipped_by, shipping_cost))
 
         browser.close()
         return results
@@ -292,15 +326,14 @@ def main():
 
     new = {}
     alerts = []
-    from zoneinfo import ZoneInfo
     today = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d %H:%M:%S")
 
-    for raw_name, price, url in items:
+    for raw_name, price, url, seller, shipped_by, shipping_cost in items:
         name = normalize(raw_name)
         log(f"Prezzo attuale {name}: €{price:.2f}")
 
         asin = extract_asin(url)
-        camel = f"https://it.camelcamelcamel.com/product/{asin}" if asin else "ASIN non trovato"
+        camel = f"https://it.camelcamelcamel.com/product/{asin}" if asin else "#"
 
         if name not in old:
             new[name] = {
@@ -336,18 +369,20 @@ def main():
                     f"<b>{name}</b><br>"
                     f"Vecchio: €{old_current:.2f}<br>"
                     f"Nuovo: €{price:.2f}<br>"
-                    f"↓ {drop:.1f}%<br>"
+                    f"↓ {drop:.1f}%<br><br>"
+                    f"Venduto da: {seller or 'N/D'}<br>"
+                    f"Spedito da: {shipped_by or 'N/D'}<br>"
+                    f"Spedizione: {shipping_cost or 'N/D'}<br><br>"
                     f"<a href='{camel}'>camelcamelcamel</a><br>"
                     f"<a href='{url}'>amazon</a><br><br>"
                 )
-
 
     with open(DATA_FILE, "w") as f:
         json.dump(new, f, indent=2)
         log("Prezzi aggiornati salvati.")
 
     if alerts:
-        send_email("\n\n".join(alerts))
+        send_email("<br>".join(alerts))
     else:
         log("Nessun alert generato.")
 
