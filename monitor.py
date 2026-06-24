@@ -8,9 +8,6 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 import re
 
-# ---------------------------------------------------------
-# CONFIGURATION
-# ---------------------------------------------------------
 WISHLIST_URL = os.environ.get("WISHLIST_URL")
 GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
@@ -22,9 +19,6 @@ TIMEOUT_PAGE = 20000
 TIMEOUT_SELECTOR = 2500
 RETRY_COUNT = 2
 
-# ---------------------------------------------------------
-# LOGGING
-# ---------------------------------------------------------
 def log(msg: str):
     os.makedirs(LOG_DIR, exist_ok=True)
     path = os.path.join(LOG_DIR, datetime.now().strftime("%Y-%m-%d") + ".log")
@@ -33,9 +27,6 @@ def log(msg: str):
         f.write(line + "\n")
     print(line)
 
-# ---------------------------------------------------------
-# EMAIL (HTML)
-# ---------------------------------------------------------
 def send_email(body: str):
     log("Invio email di alert…")
     msg = MIMEText(body, "html")
@@ -49,9 +40,6 @@ def send_email(body: str):
 
     log("Email inviata.")
 
-# ---------------------------------------------------------
-# NORMALIZZA NOME
-# ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower()
     name = re.sub(r"\(.*?\)|\[.*?\]|\{.*?\}", "", name)
@@ -59,7 +47,7 @@ def normalize(name: str) -> str:
     blacklist = [
         "vinile", "lp", "remaster", "remastered", "edition", "edizione",
         "anniversary", "deluxe", "expanded", "version", "2lp", "3lp",
-        "limited", "limitata", "col", "color", "colored", "transparent",
+        "limited", "limitata",        "col", "color", "colored", "transparent",
         "black", "white", "yellow", "blue", "red", "180gr", "180g",
         "20th", "25th", "30th", "40th"
     ]
@@ -70,9 +58,6 @@ def normalize(name: str) -> str:
     name = re.sub(r"\s+", " ", name).strip()
     return name
 
-# ---------------------------------------------------------
-# EXTRACT ASIN
-# ---------------------------------------------------------
 def extract_asin(url: str) -> str | None:
     m = re.search(r"/dp/([A-Z0-9]{10})", url)
     if m:
@@ -82,71 +67,63 @@ def extract_asin(url: str) -> str | None:
         return m.group(1)
     return None
 
-# ---------------------------------------------------------
-# SHIPPING + SELLER INFO (VERSIONE COMPLETA)
-# ---------------------------------------------------------
 def extract_shipping_and_seller(html: str):
     soup = BeautifulSoup(html, "lxml")
 
-    # -------------------------
-    # Venditore
-    # -------------------------
     seller = None
+    shipped_by = None
+    shipping_cost = None
 
-    # Standard
     el = soup.select_one("#merchant-info")
     if el:
         seller = el.get_text(strip=True)
 
-    # Seller profile
     if not seller:
         el = soup.select_one("#sellerProfileTriggerId")
         if el:
             seller = el.get_text(strip=True)
 
-    # Media / Vinili / BuyBox alternativo
     if not seller:
         el = soup.select_one("div#buybox-see-all-buying-choices a")
         if el:
             seller = el.get_text(strip=True)
 
-    # -------------------------
-    # Spedito da
-    # -------------------------
-    shipped_by = None
+    if not seller:
+        el = soup.select_one("#merchant-info_feature_div")
+        if el:
+            seller = el.get_text(" ", strip=True)
 
-    # Standard
     el = soup.select_one("#tabular-buybox .tabular-buybox-text")
     if el:
         shipped_by = el.get_text(strip=True)
 
-    # Media / Vinili
     if not shipped_by:
         el = soup.select_one("div#deliveryMessageMirId span")
         if el:
             shipped_by = el.get_text(strip=True)
 
-    # -------------------------
-    # Costi di spedizione
-    # -------------------------
-    shipping_cost = None
+    if not shipped_by:
+        el = soup.select_one("#merchant-info_feature_div")
+        if el:
+            text = el.get_text(" ", strip=True)
+            if "Spedito da" in text:
+                shipped_by = text.split("Spedito da")[-1].strip().split()[0]
 
-    # Standard
     el = soup.select_one("#mir-layout-DELIVERY_BLOCK span.a-color-secondary")
     if el:
         shipping_cost = el.get_text(strip=True)
 
-    # Media / Vinili
     if not shipping_cost:
         el = soup.select_one("span#ourprice_shippingmessage")
         if el:
             shipping_cost = el.get_text(strip=True)
 
+    if not shipping_cost:
+        if "Prime" in html or "GRATUITI" in html:
+            shipping_cost = "Gratis"
+
     return seller, shipped_by, shipping_cost
 
-# ---------------------------------------------------------
-# PRICE PARSER
-# ---------------------------------------------------------
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
 
@@ -181,9 +158,6 @@ def parse_price_from_html(html: str) -> float | None:
 
     return None
 
-# ---------------------------------------------------------
-# STEALTH MODE
-# ---------------------------------------------------------
 STEALTH_JS = """
 Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
 window.chrome = { runtime: {} };
@@ -195,9 +169,6 @@ Object.defineProperty(navigator, 'deviceMemory', { get: () => 8 });
 Object.defineProperty(navigator, 'maxTouchPoints', { get: () => 0 });
 """
 
-# ---------------------------------------------------------
-# SCRAPING PREZZO
-# ---------------------------------------------------------
 def get_product_price(page: Page, url: str, name: str):
     for attempt in range(1, RETRY_COUNT + 1):
         log(f"  Tentativo {attempt} per {name}")
@@ -234,9 +205,6 @@ def get_product_price(page: Page, url: str, name: str):
 
     return None, None, None, None
 
-# ---------------------------------------------------------
-# SCRAPING WISHLIST
-# ---------------------------------------------------------
 def get_items():
     log("Apertura Playwright…")
 
@@ -328,9 +296,6 @@ def get_items():
         browser.close()
         return results
 
-# ---------------------------------------------------------
-# MAIN
-# ---------------------------------------------------------
 def main():
     log("===== INIZIO MONITOR =====")
     log(f"THRESHOLD: {THRESHOLD}%")
