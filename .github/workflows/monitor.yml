@@ -30,14 +30,23 @@ jobs:
           WISHLIST_URL: ${{ secrets.WISHLIST_URL }}
         run: |
           mkdir -p debug_output
+          mkdir -p debug_html
           python monitor.py
 
-      - name: Upload debug artifacts
+      - name: Upload debug_output artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: debug-output
           path: debug_output/
+          if-no-files-found: ignore
+
+      - name: Upload debug_html artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-html
+          path: debug_html/
           if-no-files-found: ignore
 
       - name: Keep repo alive
@@ -54,16 +63,8 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          # Aggiungi prima le modifiche locali
           git add prices.json
-
-          #git add amazon-wishlist-monitor/prices.json
           git commit -m "Update prices.json" || echo "No changes to commit"
 
-          # Poi sincronizza con il remoto
           git pull --rebase
-
-          # Infine push
           git push
-
-
