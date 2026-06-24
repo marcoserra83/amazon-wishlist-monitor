@@ -1,22 +1,4 @@
 {
-  "innerspeaker": {
-    "current": 26.9,
-    "history": [
-      {
-        "date": "2026-06-24 10:44:13",
-        "price": 26.9
-      }
-    ]
-  },
-  "vauxhall i definitive": {
-    "current": 33.8,
-    "history": [
-      {
-        "date": "2026-06-24 11:04:23",
-        "price": 33.8
-      }
-    ]
-  },
   "boarding house reach": {
     "current": 35.97,
     "history": [
@@ -26,12 +8,12 @@
       }
     ]
   },
-  "fear of the dawn": {
-    "current": 37.72,
+  "entering heaven alive": {
+    "current": 36.8,
     "history": [
       {
-        "date": "2026-06-24 09:14:45",
-        "price": 37.72
+        "date": "2026-06-24 11:13:05",
+        "price": 36.8
       }
     ]
   },
@@ -53,12 +35,12 @@
       }
     ]
   },
-  "evergreen e altre canzoni": {
-    "current": 33.21,
+  "amputechture": {
+    "current": 48.88,
     "history": [
       {
-        "date": "2026-06-24 11:04:23",
-        "price": 33.21
+        "date": "2026-06-24 11:13:05",
+        "price": 48.88
       }
     ]
   },
@@ -80,21 +62,12 @@
       }
     ]
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 62.25,
+  "fear of music": {
+    "current": 34.89,
     "history": [
       {
-        "date": "2026-06-24 08:24:06",
-        "price": 62.25
-      }
-    ]
-  },
-  "naked": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-06-24 11:04:23",
-        "price": 35.9
+        "date": "2026-06-24 11:13:05",
+        "price": 34.89
       }
     ]
   },
@@ -107,48 +80,12 @@
       }
     ]
   },
-  "follow the leader": {
-    "current": 20.27,
+  "greatest hits": {
+    "current": 25.92,
     "history": [
       {
-        "date": "2026-06-24 11:04:23",
-        "price": 20.27
-      }
-    ]
-  },
-  "up": {
-    "current": 44.99,
-    "history": [
-      {
-        "date": "2026-06-24 10:33:53",
-        "price": 44.99
-      }
-    ]
-  },
-  "new adventures in hi fi": {
-    "current": 45.9,
-    "history": [
-      {
-        "date": "2026-06-24 10:33:53",
-        "price": 45.9
-      }
-    ]
-  },
-  "riot on a empty street": {
-    "current": 50.33,
-    "history": [
-      {
-        "date": "2026-06-24 10:44:13",
-        "price": 50.33
-      }
-    ]
-  },
-  "bleach ed": {
-    "current": 23.51,
-    "history": [
-      {
-        "date": "2026-06-24 10:44:13",
-        "price": 23.51
+        "date": "2026-06-24 11:13:05",
+        "price": 25.92
       }
     ]
   },
@@ -170,48 +107,12 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-24 10:53:56",
-        "price": 23.99
-      }
-    ]
-  },
-  "emergency on planet earth": {
-    "current": 40.99,
-    "history": [
-      {
-        "date": "2026-06-24 11:04:23",
-        "price": 40.99
-      }
-    ]
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-06-24 10:44:13",
-        "price": 25.99
-      }
-    ]
-  },
   "reggatta de blanc": {
     "current": 36.7,
     "history": [
       {
         "date": "2026-06-24 10:53:56",
         "price": 36.7
-      }
-    ]
-  },
-  "la matematica dei rami": {
-    "current": 33.31,
-    "history": [
-      {
-        "date": "2026-06-24 11:04:23",
-        "price": 33.31
       }
     ]
   },
@@ -233,48 +134,12 @@
       }
     ]
   },
-  "ixnay on the hombre": {
-    "current": 32.23,
-    "history": [
-      {
-        "date": "2026-06-24 10:44:13",
-        "price": 32.23
-      }
-    ]
-  },
-  "money for nothing": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-24 11:04:23",
-        "price": 32.67
-      }
-    ]
-  },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-06-24 10:33:53",
-        "price": 30.86
-      }
-    ]
-  },
   "the beautiful people toronto broadcast 1998 more double vinyl": {
     "current": 35.0,
     "history": [
       {
         "date": "2026-06-24 10:44:13",
         "price": 35.0
-      }
-    ]
-  },
-  "a crow left of the murder": {
-    "current": 47.79,
-    "history": [
-      {
-        "date": "2026-06-24 09:04:01",
-        "price": 47.79
       }
     ]
   },
@@ -296,24 +161,6 @@
       }
     ]
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.97,
-    "history": [
-      {
-        "date": "2026-06-24 10:33:53",
-        "price": 48.97
-      }
-    ]
-  },
-  "star": {
-    "current": 246.63,
-    "history": [
-      {
-        "date": "2026-06-24 10:53:56",
-        "price": 246.63
-      }
-    ]
-  },
   "out of time": {
     "current": 21.56,
     "history": [
@@ -329,24 +176,6 @@
       {
         "date": "2026-06-24 09:14:45",
         "price": 37.37
-      }
-    ]
-  },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-06-24 09:14:45",
-        "price": 24.5
-      }
-    ]
-  },
-  "led zeppelin iii": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-06-24 10:53:56",
-        "price": 26.95
       }
     ]
   },
@@ -368,21 +197,12 @@
       }
     ]
   },
-  "kill em all": {
-    "current": 34.12,
+  "s m2 box": {
+    "current": 83.89,
     "history": [
       {
-        "date": "2026-06-24 11:04:23",
-        "price": 34.12
-      }
-    ]
-  },
-  "load": {
-    "current": 45.02,
-    "history": [
-      {
-        "date": "2026-06-24 10:33:53",
-        "price": 45.02
+        "date": "2026-06-24 11:13:05",
+        "price": 83.89
       }
     ]
   },
@@ -404,15 +224,6 @@
       }
     ]
   },
-  "mezzanine": {
-    "current": 37.24,
-    "history": [
-      {
-        "date": "2026-06-24 11:04:23",
-        "price": 37.24
-      }
-    ]
-  },
   "back in": {
     "current": 23.85,
     "history": [
@@ -431,12 +242,12 @@
       }
     ]
   },
-  "kiss me kiss me kiss me": {
-    "current": 37.65,
+  "guest star bill evans alone together": {
+    "current": 25.56,
     "history": [
       {
-        "date": "2026-06-24 10:53:56",
-        "price": 37.65
+        "date": "2026-06-24 11:13:05",
+        "price": 25.56
       }
     ]
   },
@@ -449,21 +260,39 @@
       }
     ]
   },
-  "fabrizio de andre": {
-    "current": 28.97,
+  "1": {
+    "current": 46.51,
     "history": [
       {
-        "date": "2026-06-24 11:04:23",
-        "price": 28.97
+        "date": "2026-06-24 11:13:05",
+        "price": 46.51
       }
     ]
   },
-  "interpol": {
-    "current": 35.76,
+  "camera a sud": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-06-24 11:04:23",
-        "price": 35.76
+        "date": "2026-06-24 11:13:05",
+        "price": 33.21
+      }
+    ]
+  },
+  "soft parade": {
+    "current": 40.05,
+    "history": [
+      {
+        "date": "2026-06-24 11:13:05",
+        "price": 40.05
+      }
+    ]
+  },
+  "substance": {
+    "current": 36.8,
+    "history": [
+      {
+        "date": "2026-06-24 11:13:05",
+        "price": 36.8
       }
     ]
   },
