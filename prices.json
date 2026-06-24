@@ -299,6 +299,15 @@
       }
     ]
   },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 23.99
+      }
+    ]
+  },
   "playing the angel": {
     "current": 25.99,
     "history": [
@@ -317,12 +326,30 @@
       }
     ]
   },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 33.31
+      }
+    ]
+  },
   "tici canzoni urgenti": {
     "current": 32.9,
     "history": [
       {
         "date": "2026-06-24 14:06:38",
         "price": 32.9
+      }
+    ]
+  },
+  "top": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 29.9
       }
     ]
   },
@@ -361,6 +388,15 @@
       }
     ]
   },
+  "money for nothing": {
+    "current": 32.67,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 32.67
+      }
+    ]
+  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
@@ -370,12 +406,39 @@
       }
     ]
   },
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 35.0,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 35.0
+      }
+    ]
+  },
+  "a crow left of the murder": {
+    "current": 47.79,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 47.79
+      }
+    ]
+  },
   "light grenades": {
     "current": 39.84,
     "history": [
       {
         "date": "2026-06-24 14:06:38",
         "price": 39.84
+      }
+    ]
+  },
+  "morning view": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 33.21
       }
     ]
   },
@@ -397,6 +460,24 @@
       }
     ]
   },
+  "star": {
+    "current": 246.63,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 246.63
+      }
+    ]
+  },
+  "out of time": {
+    "current": 21.56,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 21.56
+      }
+    ]
+  },
   "noctourniquet": {
     "current": 39.66,
     "history": [
@@ -415,6 +496,15 @@
       {
         "date": "2026-06-24 15:38:14",
         "price": 39.66
+      }
+    ]
+  },
+  "sleeping with ghosts": {
+    "current": 24.5,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 24.5
       }
     ]
   },
@@ -451,6 +541,15 @@
       {
         "date": "2026-06-24 12:34:19",
         "price": 50.83
+      }
+    ]
+  },
+  "reload": {
+    "current": 54.64,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 54.64
       }
     ]
   },
@@ -494,6 +593,60 @@
       }
     ]
   },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 49.19
+      }
+    ]
+  },
+  "master of puppets": {
+    "current": 30.51,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 30.51
+      }
+    ]
+  },
+  "mezzanine": {
+    "current": 37.24,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 37.24
+      }
+    ]
+  },
+  "appetite for destruction": {
+    "current": 25.42,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 25.42
+      }
+    ]
+  },
+  "back in": {
+    "current": 23.85,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 23.85
+      }
+    ]
+  },
+  "ultinate": {
+    "current": 37.44,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 37.44
+      }
+    ]
+  },
   "guest star bill evans alone together": {
     "current": 25.56,
     "history": [
@@ -503,11 +656,29 @@
       }
     ]
   },
+  "kiss me kiss me kiss me": {
+    "current": 37.65,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 37.65
+      }
+    ]
+  },
   "anime salve": {
     "current": 28.97,
     "history": [
       {
         "date": "2026-06-24 12:34:19",
+        "price": 28.97
+      }
+    ]
+  },
+  "fabrizio de andre": {
+    "current": 28.97,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
         "price": 28.97
       }
     ]
@@ -539,12 +710,66 @@
       }
     ]
   },
+  "let love in": {
+    "current": 28.99,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 28.99
+      }
+    ]
+  },
+  "interpol": {
+    "current": 36.21,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 36.21
+      }
+    ]
+  },
+  "camera a sud": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 33.21
+      }
+    ]
+  },
   "soft parade": {
     "current": 40.05,
     "history": [
       {
         "date": "2026-06-24 12:34:19",
         "price": 40.05
+      }
+    ]
+  },
+  "morrison hotel": {
+    "current": 34.25,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 34.25
+      }
+    ]
+  },
+  "substance": {
+    "current": 36.8,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 36.8
+      }
+    ]
+  },
+  "heroes": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-06-24 22:48:04",
+        "price": 31.99
       }
     ]
   },
