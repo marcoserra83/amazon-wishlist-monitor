@@ -8,21 +8,30 @@
       }
     ]
   },
+  "vauxhall i definitive": {
+    "current": 33.8,
+    "history": [
+      {
+        "date": "2026-06-24 07:24:06",
+        "price": 33.8
+      }
+    ]
+  },
+  "boarding house reach": {
+    "current": 35.97,
+    "history": [
+      {
+        "date": "2026-06-24 07:24:06",
+        "price": 35.97
+      }
+    ]
+  },
   "fear of the dawn": {
     "current": 37.72,
     "history": [
       {
         "date": "2026-06-24 07:04:13",
         "price": 37.72
-      }
-    ]
-  },
-  "entering heaven alive": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-24 07:14:12",
-        "price": 36.8
       }
     ]
   },
@@ -50,15 +59,6 @@
       {
         "date": "2026-06-24 07:14:12",
         "price": 33.21
-      }
-    ]
-  },
-  "amputechture": {
-    "current": 48.88,
-    "history": [
-      {
-        "date": "2026-06-24 07:14:12",
-        "price": 48.88
       }
     ]
   },
@@ -98,12 +98,30 @@
       }
     ]
   },
+  "tracy chapman talkin about a revolution": {
+    "current": 62.25,
+    "history": [
+      {
+        "date": "2026-06-24 07:24:06",
+        "price": 62.25
+      }
+    ]
+  },
   "naked": {
     "current": 35.9,
     "history": [
       {
         "date": "2026-06-24 07:14:12",
         "price": 35.9
+      }
+    ]
+  },
+  "new adventures in hi fi": {
+    "current": 45.9,
+    "history": [
+      {
+        "date": "2026-06-24 07:24:06",
+        "price": 45.9
       }
     ]
   },
@@ -116,12 +134,21 @@
       }
     ]
   },
-  "octahedron": {
-    "current": 54.61,
+  "bleach ed": {
+    "current": 23.51,
     "history": [
       {
-        "date": "2026-06-24 07:14:12",
-        "price": 54.61
+        "date": "2026-06-24 07:24:06",
+        "price": 23.51
+      }
+    ]
+  },
+  "greatest hits": {
+    "current": 25.92,
+    "history": [
+      {
+        "date": "2026-06-24 07:24:06",
+        "price": 25.92
       }
     ]
   },
@@ -140,6 +167,15 @@
       {
         "date": "2026-06-24 06:43:29",
         "price": 33.99
+      }
+    ]
+  },
+  "synkronized": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-24 07:24:06",
+        "price": 23.99
       }
     ]
   },
@@ -188,12 +224,12 @@
       }
     ]
   },
-  "the queen is dead": {
-    "current": 24.9,
+  "ixnay on the hombre": {
+    "current": 32.23,
     "history": [
       {
-        "date": "2026-06-24 07:14:12",
-        "price": 24.9
+        "date": "2026-06-24 07:24:06",
+        "price": 32.23
       }
     ]
   },
@@ -215,12 +251,21 @@
       }
     ]
   },
-  "light grenades": {
-    "current": 39.84,
+  "morning view": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-06-24 07:14:12",
-        "price": 39.84
+        "date": "2026-06-24 07:24:06",
+        "price": 33.21
+      }
+    ]
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-06-24 07:24:06",
+        "price": 28.42
       }
     ]
   },
@@ -242,15 +287,6 @@
       }
     ]
   },
-  "noctourniquet": {
-    "current": 37.37,
-    "history": [
-      {
-        "date": "2026-06-24 06:34:32",
-        "price": 37.37
-      }
-    ]
-  },
   "sleeping with ghosts": {
     "current": 24.5,
     "history": [
@@ -260,12 +296,12 @@
       }
     ]
   },
-  "metallica": {
-    "current": 35.95,
+  "led zeppelin iv": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-06-24 07:14:12",
-        "price": 35.95
+        "date": "2026-06-24 07:24:06",
+        "price": 25.9
       }
     ]
   },
@@ -278,12 +314,12 @@
       }
     ]
   },
-  "s m": {
-    "current": 49.52,
+  "reload": {
+    "current": 49.19,
     "history": [
       {
-        "date": "2026-06-24 07:04:13",
-        "price": 49.52
+        "date": "2026-06-24 07:24:06",
+        "price": 49.19
       }
     ]
   },
@@ -296,12 +332,12 @@
       }
     ]
   },
-  "load": {
-    "current": 45.02,
+  "s m2 box": {
+    "current": 95.9,
     "history": [
       {
-        "date": "2026-06-24 07:14:12",
-        "price": 45.02
+        "date": "2026-06-24 07:24:06",
+        "price": 95.9
       }
     ]
   },
@@ -323,48 +359,21 @@
       }
     ]
   },
+  "mezzanine": {
+    "current": 37.24,
+    "history": [
+      {
+        "date": "2026-06-24 07:24:06",
+        "price": 37.24
+      }
+    ]
+  },
   "appetite for destruction": {
     "current": 25.42,
     "history": [
       {
         "date": "2026-06-24 07:14:12",
         "price": 25.42
-      }
-    ]
-  },
-  "ultinate": {
-    "current": 37.42,
-    "history": [
-      {
-        "date": "2026-06-24 07:14:12",
-        "price": 37.42
-      }
-    ]
-  },
-  "guest star bill evans alone together": {
-    "current": 25.56,
-    "history": [
-      {
-        "date": "2026-06-24 07:14:12",
-        "price": 25.56
-      }
-    ]
-  },
-  "kiss me kiss me kiss me": {
-    "current": 39.89,
-    "history": [
-      {
-        "date": "2026-06-24 07:14:12",
-        "price": 39.89
-      }
-    ]
-  },
-  "anime salve": {
-    "current": 28.97,
-    "history": [
-      {
-        "date": "2026-06-24 06:14:10",
-        "price": 28.97
       }
     ]
   },
@@ -395,12 +404,21 @@
       }
     ]
   },
-  "let love in": {
-    "current": 28.99,
+  "abbey road": {
+    "current": 25.42,
     "history": [
       {
-        "date": "2026-06-24 06:34:32",
-        "price": 28.99
+        "date": "2026-06-24 07:24:06",
+        "price": 25.42
+      }
+    ]
+  },
+  "interpol": {
+    "current": 35.76,
+    "history": [
+      {
+        "date": "2026-06-24 07:24:06",
+        "price": 35.76
       }
     ]
   },
@@ -413,21 +431,21 @@
       }
     ]
   },
+  "soft parade": {
+    "current": 40.05,
+    "history": [
+      {
+        "date": "2026-06-24 07:24:06",
+        "price": 40.05
+      }
+    ]
+  },
   "morrison hotel": {
     "current": 34.25,
     "history": [
       {
         "date": "2026-06-24 07:04:13",
         "price": 34.25
-      }
-    ]
-  },
-  "substance": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-24 07:04:13",
-        "price": 36.8
       }
     ]
   },
