@@ -1,4 +1,13 @@
 {
+  "vauxhall i definitive": {
+    "current": 33.8,
+    "history": [
+      {
+        "date": "2026-06-24 06:14:10",
+        "price": 33.8
+      }
+    ]
+  },
   "boarding house reach": {
     "current": 35.97,
     "history": [
@@ -14,6 +23,15 @@
       {
         "date": "2026-06-23 15:25:31",
         "price": 36.8
+      }
+    ]
+  },
+  "cosa faremo da grandi": {
+    "current": 25.48,
+    "history": [
+      {
+        "date": "2026-06-24 06:14:10",
+        "price": 25.48
       }
     ]
   },
@@ -34,20 +52,21 @@
       }
     ]
   },
-  "evergreen e altre canzoni": {
-    "current": 33.21,
+  "relax": {
+    "current": 29.99,
     "history": [
       {
-        "date": "2026-06-23 15:07:38",
-        "price": 33.21
-      },
+        "date": "2026-06-24 06:14:10",
+        "price": 29.99
+      }
+    ]
+  },
+  "resta vile maschio dove vai": {
+    "current": 38.0,
+    "history": [
       {
-        "date": "2026-06-23 17:18:02",
-        "price": 27.22
-      },
-      {
-        "date": "2026-06-23 17:53:58",
-        "price": 33.21
+        "date": "2026-06-24 06:14:10",
+        "price": 38.0
       }
     ]
   },
@@ -57,19 +76,6 @@
       {
         "date": "2026-06-24 06:04:09",
         "price": 27.11
-      }
-    ]
-  },
-  "un du": {
-    "current": 56.04,
-    "history": [
-      {
-        "date": "2026-06-23 20:47:22",
-        "price": 53.91
-      },
-      {
-        "date": "2026-06-24 00:17:21",
-        "price": 56.04
       }
     ]
   },
@@ -87,36 +93,6 @@
       {
         "date": "2026-06-23 17:53:58",
         "price": 27.88
-      }
-    ]
-  },
-  "disco x 180 gr": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-06-23 15:45:07",
-        "price": 27.01
-      },
-      {
-        "date": "2026-06-23 17:18:02",
-        "price": 22.14
-      },
-      {
-        "date": "2026-06-23 17:53:58",
-        "price": 27.01
-      },
-      {
-        "date": "2026-06-24 01:27:00",
-        "price": 29.9
-      }
-    ]
-  },
-  "tracy chapman talkin about a revolution": {
-    "current": 62.25,
-    "history": [
-      {
-        "date": "2026-06-24 06:04:09",
-        "price": 62.25
       }
     ]
   },
@@ -147,6 +123,15 @@
       }
     ]
   },
+  "up": {
+    "current": 44.99,
+    "history": [
+      {
+        "date": "2026-06-24 06:14:10",
+        "price": 44.99
+      }
+    ]
+  },
   "new adventures in hi fi": {
     "current": 45.9,
     "history": [
@@ -165,21 +150,21 @@
       }
     ]
   },
-  "like clockwork": {
-    "current": 34.1,
-    "history": [
-      {
-        "date": "2026-06-24 05:54:09",
-        "price": 34.1
-      }
-    ]
-  },
   "bleach ed": {
     "current": 23.51,
     "history": [
       {
         "date": "2026-06-24 02:47:41",
         "price": 23.51
+      }
+    ]
+  },
+  "dynamite": {
+    "current": 32.67,
+    "history": [
+      {
+        "date": "2026-06-24 06:14:10",
+        "price": 32.67
       }
     ]
   },
@@ -192,21 +177,21 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-24 05:54:09",
-        "price": 23.99
-      }
-    ]
-  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
       {
         "date": "2026-06-24 06:04:09",
         "price": 40.99
+      }
+    ]
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-24 06:14:10",
+        "price": 23.99
       }
     ]
   },
@@ -228,12 +213,21 @@
       }
     ]
   },
-  "hatful of hollow": {
-    "current": 25.9,
+  "tici canzoni urgenti": {
+    "current": 32.9,
     "history": [
       {
-        "date": "2026-06-24 02:47:41",
-        "price": 25.9
+        "date": "2026-06-24 06:14:10",
+        "price": 32.9
+      }
+    ]
+  },
+  "top": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-24 06:14:10",
+        "price": 29.9
       }
     ]
   },
@@ -246,39 +240,12 @@
       }
     ]
   },
-  "money for nothing": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 32.67
-      }
-    ]
-  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
       {
         "date": "2026-06-24 02:47:41",
         "price": 30.86
-      }
-    ]
-  },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 35.0
-      }
-    ]
-  },
-  "a crow left of the murder": {
-    "current": 47.79,
-    "history": [
-      {
-        "date": "2026-06-24 06:04:09",
-        "price": 47.79
       }
     ]
   },
@@ -291,39 +258,12 @@
       }
     ]
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.97,
+  "marauder": {
+    "current": 28.42,
     "history": [
       {
-        "date": "2026-06-24 06:04:09",
-        "price": 48.97
-      }
-    ]
-  },
-  "star": {
-    "current": 246.63,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 246.63
-      }
-    ]
-  },
-  "out of time": {
-    "current": 21.56,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 21.56
-      }
-    ]
-  },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-06-24 05:44:42",
-        "price": 24.5
+        "date": "2026-06-24 06:14:10",
+        "price": 28.42
       }
     ]
   },
@@ -336,6 +276,15 @@
       }
     ]
   },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-24 06:14:10",
+        "price": 25.9
+      }
+    ]
+  },
   "led zeppelin iii": {
     "current": 26.95,
     "history": [
@@ -345,30 +294,12 @@
       }
     ]
   },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
-    "history": [
-      {
-        "date": "2026-06-24 06:04:09",
-        "price": 50.83
-      }
-    ]
-  },
   "reload": {
     "current": 49.19,
     "history": [
       {
         "date": "2026-06-24 02:47:41",
         "price": 49.19
-      }
-    ]
-  },
-  "s m": {
-    "current": 49.52,
-    "history": [
-      {
-        "date": "2026-06-24 05:44:42",
-        "price": 49.52
       }
     ]
   },
@@ -408,39 +339,30 @@
       }
     ]
   },
-  "master of puppets": {
-    "current": 30.51,
+  "appetite for destruction": {
+    "current": 25.42,
     "history": [
       {
-        "date": "2026-06-24 05:44:42",
-        "price": 30.51
+        "date": "2026-06-24 06:14:10",
+        "price": 25.42
       }
     ]
   },
-  "mezzanine": {
-    "current": 37.24,
+  "back in": {
+    "current": 23.85,
     "history": [
       {
-        "date": "2026-06-24 06:04:09",
-        "price": 37.24
+        "date": "2026-06-24 06:14:10",
+        "price": 23.85
       }
     ]
   },
-  "ultinate": {
-    "current": 37.42,
+  "anime salve": {
+    "current": 28.97,
     "history": [
       {
-        "date": "2026-06-24 02:47:41",
-        "price": 37.42
-      }
-    ]
-  },
-  "guest star bill evans alone together": {
-    "current": 25.56,
-    "history": [
-      {
-        "date": "2026-06-24 06:04:09",
-        "price": 25.56
+        "date": "2026-06-24 06:14:10",
+        "price": 28.97
       }
     ]
   },
@@ -453,12 +375,21 @@
       }
     ]
   },
-  "the beatles": {
-    "current": 52.95,
+  "1": {
+    "current": 46.51,
     "history": [
       {
-        "date": "2026-06-24 06:04:09",
-        "price": 52.95
+        "date": "2026-06-24 06:14:10",
+        "price": 46.51
+      }
+    ]
+  },
+  "let love in": {
+    "current": 28.99,
+    "history": [
+      {
+        "date": "2026-06-24 06:14:10",
+        "price": 28.99
       }
     ]
   },
@@ -471,30 +402,12 @@
       }
     ]
   },
-  "camera a sud": {
-    "current": 33.21,
+  "morrison hotel": {
+    "current": 34.25,
     "history": [
       {
-        "date": "2026-06-24 06:04:09",
-        "price": 33.21
-      }
-    ]
-  },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-24 05:54:09",
-        "price": 40.05
-      }
-    ]
-  },
-  "substance": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 36.8
+        "date": "2026-06-24 06:14:10",
+        "price": 34.25
       }
     ]
   },
