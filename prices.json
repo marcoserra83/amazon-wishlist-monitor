@@ -197,70 +197,12 @@
       }
     ]
   },
-  "blood sugar sex magik": {
-    "current": 37.99,
-    "history": [
-      {
-        "date": "2026-06-24 12:24:24",
-        "price": 31.3
-      },
-      {
-        "date": "2026-06-24 13:17:30",
-        "price": 37.99
-      }
-    ]
-  },
-  "riot on a empty street": {
-    "current": 50.33,
-    "history": [
-      {
-        "date": "2026-06-24 12:47:41",
-        "price": 50.33
-      }
-    ]
-  },
-  "like clockwork": {
-    "current": 34.1,
-    "history": [
-      {
-        "date": "2026-06-24 12:34:19",
-        "price": 34.1
-      }
-    ]
-  },
   "bleach ed": {
     "current": 23.51,
     "history": [
       {
         "date": "2026-06-24 12:47:41",
         "price": 23.51
-      }
-    ]
-  },
-  "greatest hits": {
-    "current": 25.92,
-    "history": [
-      {
-        "date": "2026-06-24 12:47:41",
-        "price": 25.92
-      }
-    ]
-  },
-  "octahedron": {
-    "current": 54.61,
-    "history": [
-      {
-        "date": "2026-06-24 12:47:41",
-        "price": 54.61
-      }
-    ]
-  },
-  "dynamite": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-24 12:34:19",
-        "price": 32.67
       }
     ]
   },
@@ -273,24 +215,6 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-24 12:34:19",
-        "price": 23.99
-      }
-    ]
-  },
-  "emergency on planet earth": {
-    "current": 40.99,
-    "history": [
-      {
-        "date": "2026-06-24 12:34:19",
-        "price": 40.99
-      }
-    ]
-  },
   "yield": {
     "current": 23.99,
     "history": [
@@ -300,30 +224,12 @@
       }
     ]
   },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-06-24 12:47:41",
-        "price": 25.99
-      }
-    ]
-  },
   "reggatta de blanc": {
     "current": 36.7,
     "history": [
       {
         "date": "2026-06-24 10:53:56",
         "price": 36.7
-      }
-    ]
-  },
-  "la matematica dei rami": {
-    "current": 33.31,
-    "history": [
-      {
-        "date": "2026-06-24 11:27:26",
-        "price": 33.31
       }
     ]
   },
@@ -372,33 +278,6 @@
       }
     ]
   },
-  "money for nothing": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-24 11:27:26",
-        "price": 32.67
-      }
-    ]
-  },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-06-24 12:34:19",
-        "price": 30.86
-      }
-    ]
-  },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
-    "history": [
-      {
-        "date": "2026-06-24 12:47:41",
-        "price": 35.0
-      }
-    ]
-  },
   "a crow left of the murder": {
     "current": 47.79,
     "history": [
@@ -423,15 +302,6 @@
       {
         "date": "2026-06-24 12:47:41",
         "price": 33.21
-      }
-    ]
-  },
-  "marauder": {
-    "current": 28.42,
-    "history": [
-      {
-        "date": "2026-06-24 11:04:23",
-        "price": 28.42
       }
     ]
   },
@@ -472,15 +342,6 @@
       {
         "date": "2026-06-24 13:17:30",
         "price": 52.89
-      }
-    ]
-  },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-06-24 12:24:24",
-        "price": 24.5
       }
     ]
   },
@@ -548,7 +409,7 @@
     ]
   },
   "s m2 box": {
-    "current": 91.78,
+    "current": 83.89,
     "history": [
       {
         "date": "2026-06-24 12:24:24",
@@ -557,6 +418,10 @@
       {
         "date": "2026-06-24 13:17:30",
         "price": 91.78
+      },
+      {
+        "date": "2026-06-24 13:24:57",
+        "price": 83.89
       }
     ]
   },
@@ -578,39 +443,12 @@
       }
     ]
   },
-  "master of puppets": {
-    "current": 30.51,
-    "history": [
-      {
-        "date": "2026-06-24 12:47:41",
-        "price": 30.51
-      }
-    ]
-  },
   "mezzanine": {
     "current": 37.24,
     "history": [
       {
         "date": "2026-06-24 11:27:26",
         "price": 37.24
-      }
-    ]
-  },
-  "appetite for destruction": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-24 12:24:24",
-        "price": 25.42
-      }
-    ]
-  },
-  "back in": {
-    "current": 23.85,
-    "history": [
-      {
-        "date": "2026-06-24 12:47:41",
-        "price": 23.85
       }
     ]
   },
@@ -629,15 +467,6 @@
       {
         "date": "2026-06-24 12:47:41",
         "price": 25.56
-      }
-    ]
-  },
-  "kiss me kiss me kiss me": {
-    "current": 37.65,
-    "history": [
-      {
-        "date": "2026-06-24 12:47:41",
-        "price": 37.65
       }
     ]
   },
@@ -674,15 +503,6 @@
       {
         "date": "2026-06-24 12:34:19",
         "price": 46.51
-      }
-    ]
-  },
-  "abbey road": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-24 12:24:24",
-        "price": 25.42
       }
     ]
   },
@@ -737,15 +557,6 @@
       {
         "date": "2026-06-24 12:34:19",
         "price": 36.8
-      }
-    ]
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-06-24 12:47:41",
-        "price": 31.99
       }
     ]
   },
