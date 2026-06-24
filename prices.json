@@ -62,6 +62,24 @@
       }
     ]
   },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-24 14:27:30",
+        "price": 29.99
+      }
+    ]
+  },
+  "evergreen e altre canzoni": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-24 14:27:30",
+        "price": 33.21
+      }
+    ]
+  },
   "resta vile maschio dove vai": {
     "current": 38.0,
     "history": [
@@ -77,6 +95,15 @@
       {
         "date": "2026-06-24 12:47:41",
         "price": 48.88
+      }
+    ]
+  },
+  "songs of a lost world": {
+    "current": 27.11,
+    "history": [
+      {
+        "date": "2026-06-24 14:27:30",
+        "price": 27.11
       }
     ]
   },
@@ -125,6 +152,15 @@
       }
     ]
   },
+  "naked": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-06-24 14:27:30",
+        "price": 35.9
+      }
+    ]
+  },
   "remain in light": {
     "current": 25.9,
     "history": [
@@ -158,6 +194,24 @@
       {
         "date": "2026-06-24 12:47:41",
         "price": 45.9
+      }
+    ]
+  },
+  "blood sugar sex magik": {
+    "current": 31.3,
+    "history": [
+      {
+        "date": "2026-06-24 14:27:30",
+        "price": 31.3
+      }
+    ]
+  },
+  "riot on a empty street": {
+    "current": 50.33,
+    "history": [
+      {
+        "date": "2026-06-24 14:27:30",
+        "price": 50.33
       }
     ]
   },
@@ -197,6 +251,15 @@
       }
     ]
   },
+  "dynamite": {
+    "current": 32.67,
+    "history": [
+      {
+        "date": "2026-06-24 14:27:30",
+        "price": 32.67
+      }
+    ]
+  },
   "a funk odyssey": {
     "current": 32.29,
     "history": [
@@ -221,6 +284,15 @@
       {
         "date": "2026-06-24 13:34:08",
         "price": 40.99
+      }
+    ]
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-24 14:27:30",
+        "price": 23.99
       }
     ]
   },
@@ -266,6 +338,15 @@
       {
         "date": "2026-06-24 12:47:41",
         "price": 29.9
+      }
+    ]
+  },
+  "hatful of hollow": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-24 14:27:30",
+        "price": 25.9
       }
     ]
   },
