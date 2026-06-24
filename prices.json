@@ -535,30 +535,12 @@
       }
     ]
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 24.5
-      }
-    ]
-  },
   "metallica": {
     "current": 35.95,
     "history": [
       {
         "date": "2026-06-24 02:47:41",
         "price": 35.95
-      }
-    ]
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 25.9
       }
     ]
   },
@@ -586,15 +568,6 @@
       {
         "date": "2026-06-24 02:47:41",
         "price": 49.19
-      }
-    ]
-  },
-  "s m": {
-    "current": 49.52,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 49.52
       }
     ]
   },
@@ -631,33 +604,6 @@
       {
         "date": "2026-06-24 02:47:41",
         "price": 49.19
-      }
-    ]
-  },
-  "master of puppets": {
-    "current": 30.51,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 30.51
-      }
-    ]
-  },
-  "mezzanine": {
-    "current": 37.24,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 37.24
-      }
-    ]
-  },
-  "appetite for destruction": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 25.42
       }
     ]
   },
@@ -733,39 +679,12 @@
       }
     ]
   },
-  "abbey road": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 25.42
-      }
-    ]
-  },
-  "let love in": {
-    "current": 28.99,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 28.99
-      }
-    ]
-  },
   "interpol": {
     "current": 35.76,
     "history": [
       {
         "date": "2026-06-24 02:47:41",
         "price": 35.76
-      }
-    ]
-  },
-  "camera a sud": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-24 02:47:41",
-        "price": 33.21
       }
     ]
   },
