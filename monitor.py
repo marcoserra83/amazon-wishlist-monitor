@@ -19,6 +19,9 @@ TIMEOUT_PAGE = 20000
 TIMEOUT_SELECTOR = 2500
 RETRY_COUNT = 2
 
+# ---------------------------------------------------------
+# DEBUG HTML
+# ---------------------------------------------------------
 def save_debug_html(name: str, html: str):
     os.makedirs("debug_html", exist_ok=True)
     safe = re.sub(r"[^a-zA-Z0-9_-]", "_", name)
@@ -27,6 +30,9 @@ def save_debug_html(name: str, html: str):
         f.write(html)
     print(f"[DEBUG] HTML salvato: {path}")
 
+# ---------------------------------------------------------
+# LOGGING
+# ---------------------------------------------------------
 def log(msg: str):
     os.makedirs(LOG_DIR, exist_ok=True)
     path = os.path.join(LOG_DIR, datetime.now().strftime("%Y-%m-%d") + ".log")
@@ -35,6 +41,9 @@ def log(msg: str):
         f.write(line + "\n")
     print(line)
 
+# ---------------------------------------------------------
+# EMAIL
+# ---------------------------------------------------------
 def send_email(body: str):
     log("Invio email di alert…")
     msg = MIMEText(body, "html")
@@ -48,9 +57,13 @@ def send_email(body: str):
 
     log("Email inviata.")
 
+# ---------------------------------------------------------
+# NORMALIZZA NOME
+# ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower()
     name = re.sub(r"\(.*?\)|\[.*?\]|\{.*?\}", "", name)
+
     blacklist = [
         "vinile","lp","remaster","remastered","edition","edizione",
         "anniversary","deluxe","expanded","version","2lp","3lp",
@@ -60,10 +73,14 @@ def normalize(name: str) -> str:
     ]
     for word in blacklist:
         name = name.replace(word, "")
+
     name = re.sub(r"[^a-z0-9]+", " ", name)
     name = re.sub(r"\s+", " ", name).strip()
     return name
 
+# ---------------------------------------------------------
+# EXTRACT ASIN
+# ---------------------------------------------------------
 def extract_asin(url: str) -> str | None:
     m = re.search(r"/dp/([A-Z0-9]{10})", url)
     if m:
@@ -73,6 +90,9 @@ def extract_asin(url: str) -> str | None:
         return m.group(1)
     return None
 
+# ---------------------------------------------------------
+# SHIPPING + SELLER (NUOVO LAYOUT ODF)
+# ---------------------------------------------------------
 def extract_shipping_and_seller(html: str):
     soup = BeautifulSoup(html, "lxml")
 
@@ -80,11 +100,18 @@ def extract_shipping_and_seller(html: str):
     shipped_by = None
     shipping_cost = None
 
-    odf = soup.select_one("#merchantInfoFeature_feature_div .offer-display-feature-text-message")
-    if odf:
-        seller = odf.get_text(strip=True)
+    # --- NUOVO LAYOUT AMAZON ODF ---
+    odf_seller = soup.select_one("#merchantInfoFeature_feature_div .offer-display-feature-text-message")
+    if odf_seller:
+        seller = odf_seller.get_text(strip=True)
         shipped_by = seller
 
+    # --- SPEDIZIONE ODF ---
+    odf_shipping = soup.select_one("#fulfillerInfoFeature_feature_div .offer-display-feature-text-message")
+    if odf_shipping:
+        shipping_cost = odf_shipping.get_text(strip=True)
+
+    # --- FALLBACK VECCHI LAYOUT ---
     if not seller:
         el = soup.select_one("#merchant-info")
         if el:
@@ -100,9 +127,6 @@ def extract_shipping_and_seller(html: str):
         if el:
             seller = el.get_text(strip=True)
 
-    if "Prime" in html or "GRATUITI" in html:
-        shipping_cost = "Gratis"
-
     if not shipping_cost:
         el = soup.select_one("#mir-layout-DELIVERY_BLOCK span.a-color-secondary")
         if el:
@@ -115,10 +139,15 @@ def extract_shipping_and_seller(html: str):
 
     return seller, shipped_by, shipping_cost
 
+# ---------------------------------------------------------
+# PRICE PARSER
+# ---------------------------------------------------------
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
+
     for bad in soup.select("#sims-consolidated-2, #sims-consolidated-3, #sp_detail, .a-carousel"):
         bad.decompose()
+
     price_block = soup.select_one(
         "#corePrice_feature_div, #apex_desktop, #corePriceDisplay_desktop_feature_div"
     )
@@ -129,12 +158,14 @@ def parse_price_from_html(html: str) -> float | None:
                 return float(offscreen.get_text(strip=True).replace("€","").replace(",","."))
             except:
                 pass
+
     fallback = soup.select_one("span.a-price > span.a-offscreen")
     if fallback:
         try:
             return float(fallback.get_text(strip=True).replace("€","").replace(",","."))
         except:
             pass
+
     whole = soup.select_one("span.a-price-whole")
     frac = soup.select_one("span.a-price-fraction")
     if whole and frac:
@@ -142,8 +173,12 @@ def parse_price_from_html(html: str) -> float | None:
             return float(whole.get_text(strip=True).replace(".","") + "." + frac.get_text(strip=True))
         except:
             pass
+
     return None
 
+# ---------------------------------------------------------
+# STEALTH MODE
+# ---------------------------------------------------------
 STEALTH_JS = """
 Object.defineProperty(navigator,'webdriver',{get:()=>undefined});
 window.chrome={runtime:{}};
@@ -155,9 +190,13 @@ Object.defineProperty(navigator,'deviceMemory',{get:()=>8});
 Object.defineProperty(navigator,'maxTouchPoints',{get:()=>0});
 """
 
+# ---------------------------------------------------------
+# SCRAPING PREZZO
+# ---------------------------------------------------------
 def get_product_price(page: Page, url: str, name: str):
     for attempt in range(1, RETRY_COUNT+1):
         log(f"  Tentativo {attempt} per {name}")
+
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
             html = page.content()
@@ -193,6 +232,9 @@ def get_product_price(page: Page, url: str, name: str):
 
     return None,None,None,None
 
+# ---------------------------------------------------------
+# SCRAPING WISHLIST
+# ---------------------------------------------------------
 def get_items():
     log("Apertura Playwright…")
 
@@ -282,6 +324,9 @@ def get_items():
         browser.close()
         return results
 
+# ---------------------------------------------------------
+# MAIN
+# ---------------------------------------------------------
 def main():
     log("===== INIZIO MONITOR =====")
     log(f"THRESHOLD: {THRESHOLD}%")
