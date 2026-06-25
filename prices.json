@@ -1,10 +1,28 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 26.9
+      }
+    ]
+  },
   "vauxhall i definitive": {
     "current": 33.8,
     "history": [
       {
         "date": "2026-06-25 04:54:07",
         "price": 33.8
+      }
+    ]
+  },
+  "boarding house reach": {
+    "current": 35.97,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 35.97
       }
     ]
   },
@@ -35,6 +53,15 @@
       }
     ]
   },
+  "mainstream": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 33.21
+      }
+    ]
+  },
   "relax": {
     "current": 29.99,
     "history": [
@@ -44,12 +71,30 @@
       }
     ]
   },
+  "evergreen e altre canzoni": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 33.21
+      }
+    ]
+  },
   "resta vile maschio dove vai": {
     "current": 38.0,
     "history": [
       {
         "date": "2026-06-25 05:04:57",
         "price": 38.0
+      }
+    ]
+  },
+  "amputechture": {
+    "current": 48.88,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 48.88
       }
     ]
   },
@@ -80,6 +125,15 @@
       }
     ]
   },
+  "disco x 180 gr": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 29.9
+      }
+    ]
+  },
   "tracy chapman talkin about a revolution": {
     "current": 62.25,
     "history": [
@@ -95,6 +149,15 @@
       {
         "date": "2026-06-25 04:37:42",
         "price": 34.89
+      }
+    ]
+  },
+  "naked": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 35.9
       }
     ]
   },
@@ -131,6 +194,24 @@
       {
         "date": "2026-06-25 03:57:41",
         "price": 45.9
+      }
+    ]
+  },
+  "blood sugar sex magik": {
+    "current": 31.3,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 31.3
+      }
+    ]
+  },
+  "riot on a empty street": {
+    "current": 50.33,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 50.33
       }
     ]
   },
@@ -259,15 +340,6 @@
       }
     ]
   },
-  "ixnay on the hombre": {
-    "current": 32.23,
-    "history": [
-      {
-        "date": "2026-06-25 05:04:57",
-        "price": 32.23
-      }
-    ]
-  },
   "money for nothing": {
     "current": 32.67,
     "history": [
@@ -340,15 +412,6 @@
       }
     ]
   },
-  "star": {
-    "current": 246.63,
-    "history": [
-      {
-        "date": "2026-06-25 04:54:07",
-        "price": 246.63
-      }
-    ]
-  },
   "out of time": {
     "current": 21.56,
     "history": [
@@ -385,84 +448,21 @@
       }
     ]
   },
-  "led zeppelin iii": {
-    "current": 26.95,
+  "kill em all": {
+    "current": 34.12,
     "history": [
       {
-        "date": "2026-06-25 04:26:40",
-        "price": 26.95
+        "date": "2026-06-25 05:16:04",
+        "price": 34.12
       }
     ]
   },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
+  "appetite for destruction": {
+    "current": 25.42,
     "history": [
       {
-        "date": "2026-06-25 04:14:10",
-        "price": 50.83
-      }
-    ]
-  },
-  "reload": {
-    "current": 54.64,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 54.64
-      }
-    ]
-  },
-  "s m": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 49.19
-      }
-    ]
-  },
-  "load": {
-    "current": 45.02,
-    "history": [
-      {
-        "date": "2026-06-25 04:54:07",
-        "price": 45.02
-      }
-    ]
-  },
-  "and justice for all": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-25 05:04:57",
-        "price": 49.19
-      }
-    ]
-  },
-  "master of puppets": {
-    "current": 30.51,
-    "history": [
-      {
-        "date": "2026-06-25 04:54:07",
-        "price": 30.51
-      }
-    ]
-  },
-  "mezzanine": {
-    "current": 37.24,
-    "history": [
-      {
-        "date": "2026-06-25 04:14:10",
-        "price": 37.24
-      }
-    ]
-  },
-  "back in": {
-    "current": 23.85,
-    "history": [
-      {
-        "date": "2026-06-25 04:54:07",
-        "price": 23.85
+        "date": "2026-06-25 05:16:04",
+        "price": 25.42
       }
     ]
   },
@@ -475,11 +475,38 @@
       }
     ]
   },
+  "guest star bill evans alone together": {
+    "current": 25.56,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 25.56
+      }
+    ]
+  },
+  "kiss me kiss me kiss me": {
+    "current": 37.65,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
+        "price": 37.65
+      }
+    ]
+  },
   "anime salve": {
     "current": 28.97,
     "history": [
       {
         "date": "2026-06-25 04:26:40",
+        "price": 28.97
+      }
+    ]
+  },
+  "fabrizio de andre": {
+    "current": 28.97,
+    "history": [
+      {
+        "date": "2026-06-25 05:16:04",
         "price": 28.97
       }
     ]
@@ -502,12 +529,12 @@
       }
     ]
   },
-  "abbey road": {
-    "current": 25.42,
+  "let love in": {
+    "current": 28.99,
     "history": [
       {
-        "date": "2026-06-25 03:34:46",
-        "price": 25.42
+        "date": "2026-06-25 05:16:04",
+        "price": 28.99
       }
     ]
   },
@@ -520,12 +547,12 @@
       }
     ]
   },
-  "soft parade": {
-    "current": 40.05,
+  "camera a sud": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-06-25 03:57:41",
-        "price": 40.05
+        "date": "2026-06-25 05:16:04",
+        "price": 33.21
       }
     ]
   },
