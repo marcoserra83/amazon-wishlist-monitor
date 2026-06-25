@@ -93,6 +93,7 @@ def extract_asin(url: str) -> str | None:
 # ---------------------------------------------------------
 # SHIPPING + SELLER (NUOVO LAYOUT ODF)
 # ---------------------------------------------------------
+
 def extract_shipping_and_seller(html: str):
     soup = BeautifulSoup(html, "lxml")
 
@@ -100,47 +101,31 @@ def extract_shipping_and_seller(html: str):
     shipped_by = None
     shipping_cost = None
 
-    # --- NUOVO LAYOUT AMAZON ODF (venditore/speditore) ---
+    # --- VENDITORE / SPEDITORE (ODF) ---
     odf_seller = soup.select_one("#merchantInfoFeature_feature_div .offer-display-feature-text-message")
     if odf_seller:
         seller = odf_seller.get_text(strip=True)
         shipped_by = seller
 
-    # --- SPEDIZIONE ODF (caso 1) ---
-    odf_shipping = soup.select_one("#fulfillerInfoFeature_feature_div .offer-display-feature-text-message")
-    if odf_shipping:
-        shipping_cost = odf_shipping.get_text(strip=True)
+    # --- SPEDIZIONE: NUOVO LAYOUT 2026 (fonte ufficiale) ---
+    el = soup.select_one("[data-csa-c-delivery-price]")
+    if el:
+        raw = el.get("data-csa-c-delivery-price", "").strip()
+        raw = raw.replace("a ", "").replace("&nbsp;", " ").strip()
+        if raw:
+            shipping_cost = raw
 
-    # --- SPEDIZIONE ODF (caso 2: deliveryMessageMirId) ---
+    # --- FALLBACK VECCHI LAYOUT (solo se manca il nuovo attributo) ---
     if not shipping_cost:
         el = soup.select_one("#deliveryMessageMirId span")
         if el:
             shipping_cost = el.get_text(strip=True)
 
-    # --- FALLBACK AMAZON 2025–2026 ---
     if not shipping_cost:
         el = soup.select_one("#mir-layout-DELIVERY_BLOCK span.a-color-secondary")
         if el:
             shipping_cost = el.get_text(strip=True)
 
-    # --- NUOVO LAYOUT MARKETPLACE 2026 ---
-    # (Amazon usa la stessa classe del venditore, quindi filtriamo)
-    if not shipping_cost:
-        for el in soup.select(".offer-display-feature-text-message"):
-            txt = el.get_text(strip=True)
-            if any(x in txt for x in ["€", "spediz", "+"]):
-                shipping_cost = txt
-                break
-
-    # --- ALTRO FALLBACK MARKETPLACE ---
-    if not shipping_cost:
-        for el in soup.select("span.a-color-base, span.a-color-secondary"):
-            txt = el.get_text(strip=True)
-            if "€" in txt and len(txt) <= 20:
-                shipping_cost = txt
-                break
-
-    # --- FALLBACK VECCHI LAYOUT ---
     if not seller:
         el = soup.select_one("#merchant-info")
         if el:
@@ -156,12 +141,8 @@ def extract_shipping_and_seller(html: str):
         if el:
             seller = el.get_text(strip=True)
 
-    if not shipping_cost:
-        el = soup.select_one("span#ourprice_shippingmessage")
-        if el:
-            shipping_cost = el.get_text(strip=True)
-
     return seller, shipped_by, shipping_cost
+
 
 # ---------------------------------------------------------
 # PRICE PARSER
