@@ -35,21 +35,21 @@
       }
     ]
   },
-  "entering heaven alive": {
-    "current": 37.2,
-    "history": [
-      {
-        "date": "2026-06-25 07:44:25",
-        "price": 37.2
-      }
-    ]
-  },
   "cosa faremo da grandi": {
     "current": 25.48,
     "history": [
       {
         "date": "2026-06-25 07:15:23",
         "price": 25.48
+      }
+    ]
+  },
+  "mainstream": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-25 07:54:33",
+        "price": 33.21
       }
     ]
   },
@@ -62,12 +62,12 @@
       }
     ]
   },
-  "evergreen e altre canzoni": {
-    "current": 33.21,
+  "resta vile maschio dove vai": {
+    "current": 38.0,
     "history": [
       {
-        "date": "2026-06-25 07:44:25",
-        "price": 33.21
+        "date": "2026-06-25 07:54:33",
+        "price": 38.0
       }
     ]
   },
@@ -98,30 +98,12 @@
       }
     ]
   },
-  "hot fuzz": {
-    "current": 27.88,
-    "history": [
-      {
-        "date": "2026-06-25 07:15:23",
-        "price": 27.88
-      }
-    ]
-  },
   "disco x 180 gr": {
     "current": 29.9,
     "history": [
       {
         "date": "2026-06-25 07:28:17",
         "price": 29.9
-      }
-    ]
-  },
-  "tracy chapman talkin about a revolution": {
-    "current": 62.25,
-    "history": [
-      {
-        "date": "2026-06-25 07:44:25",
-        "price": 62.25
       }
     ]
   },
@@ -143,6 +125,15 @@
       }
     ]
   },
+  "remain in light": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-25 07:54:33",
+        "price": 25.9
+      }
+    ]
+  },
   "follow the leader": {
     "current": 20.27,
     "history": [
@@ -152,12 +143,12 @@
       }
     ]
   },
-  "up": {
-    "current": 44.99,
+  "new adventures in hi fi": {
+    "current": 45.9,
     "history": [
       {
-        "date": "2026-06-25 07:15:23",
-        "price": 44.99
+        "date": "2026-06-25 07:54:33",
+        "price": 45.9
       }
     ]
   },
@@ -167,15 +158,6 @@
       {
         "date": "2026-06-25 05:44:20",
         "price": 31.3
-      }
-    ]
-  },
-  "riot on a empty street": {
-    "current": 50.33,
-    "history": [
-      {
-        "date": "2026-06-25 07:04:39",
-        "price": 50.33
       }
     ]
   },
@@ -224,30 +206,39 @@
       }
     ]
   },
+  "emergency on planet earth": {
+    "current": 40.99,
+    "history": [
+      {
+        "date": "2026-06-25 07:54:33",
+        "price": 40.99
+      }
+    ]
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-25 07:54:33",
+        "price": 23.99
+      }
+    ]
+  },
+  "playing the angel": {
+    "current": 25.99,
+    "history": [
+      {
+        "date": "2026-06-25 07:54:33",
+        "price": 25.99
+      }
+    ]
+  },
   "reggatta de blanc": {
     "current": 36.7,
     "history": [
       {
         "date": "2026-06-25 07:04:39",
         "price": 36.7
-      }
-    ]
-  },
-  "la matematica dei rami": {
-    "current": 33.31,
-    "history": [
-      {
-        "date": "2026-06-25 06:54:09",
-        "price": 33.31
-      }
-    ]
-  },
-  "tici canzoni urgenti": {
-    "current": 32.9,
-    "history": [
-      {
-        "date": "2026-06-25 06:54:09",
-        "price": 32.9
       }
     ]
   },
@@ -278,15 +269,6 @@
       }
     ]
   },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-06-25 07:15:23",
-        "price": 30.86
-      }
-    ]
-  },
   "the beautiful people toronto broadcast 1998 more double vinyl": {
     "current": 35.0,
     "history": [
@@ -296,21 +278,21 @@
       }
     ]
   },
-  "a crow left of the murder": {
-    "current": 47.79,
+  "morning view": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-06-25 07:04:39",
-        "price": 47.79
+        "date": "2026-06-25 07:54:33",
+        "price": 33.21
       }
     ]
   },
-  "light grenades": {
-    "current": 39.84,
+  "marauder": {
+    "current": 28.42,
     "history": [
       {
-        "date": "2026-06-25 07:44:25",
-        "price": 39.84
+        "date": "2026-06-25 07:54:33",
+        "price": 28.42
       }
     ]
   },
@@ -329,6 +311,15 @@
       {
         "date": "2026-06-25 07:15:23",
         "price": 246.63
+      }
+    ]
+  },
+  "out of time": {
+    "current": 21.56,
+    "history": [
+      {
+        "date": "2026-06-25 07:54:33",
+        "price": 21.56
       }
     ]
   },
@@ -359,6 +350,15 @@
       }
     ]
   },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-25 07:54:33",
+        "price": 25.9
+      }
+    ]
+  },
   "festival session 2 bonus tracks": {
     "current": 50.83,
     "history": [
@@ -377,30 +377,12 @@
       }
     ]
   },
-  "s m": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-25 07:28:17",
-        "price": 49.19
-      }
-    ]
-  },
   "kill em all": {
     "current": 34.12,
     "history": [
       {
         "date": "2026-06-25 07:15:23",
         "price": 34.12
-      }
-    ]
-  },
-  "s m2 box": {
-    "current": 95.9,
-    "history": [
-      {
-        "date": "2026-06-25 07:28:17",
-        "price": 95.9
       }
     ]
   },
@@ -449,12 +431,12 @@
       }
     ]
   },
-  "ultinate": {
-    "current": 37.44,
+  "guest star bill evans alone together": {
+    "current": 25.56,
     "history": [
       {
-        "date": "2026-06-25 06:54:09",
-        "price": 37.44
+        "date": "2026-06-25 07:54:33",
+        "price": 25.56
       }
     ]
   },
@@ -476,30 +458,12 @@
       }
     ]
   },
-  "the beatles": {
-    "current": 52.95,
+  "fabrizio de andre": {
+    "current": 28.97,
     "history": [
       {
-        "date": "2026-06-25 07:04:39",
-        "price": 52.95
-      }
-    ]
-  },
-  "1": {
-    "current": 46.51,
-    "history": [
-      {
-        "date": "2026-06-25 07:44:25",
-        "price": 46.51
-      }
-    ]
-  },
-  "abbey road": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-25 06:54:09",
-        "price": 25.42
+        "date": "2026-06-25 07:54:33",
+        "price": 28.97
       }
     ]
   },
@@ -527,6 +491,15 @@
       {
         "date": "2026-06-25 07:44:25",
         "price": 34.25
+      }
+    ]
+  },
+  "substance": {
+    "current": 36.8,
+    "history": [
+      {
+        "date": "2026-06-25 07:54:33",
+        "price": 36.8
       }
     ]
   },
