@@ -1,10 +1,28 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 26.9
+      }
+    ]
+  },
   "vauxhall i definitive": {
     "current": 33.8,
     "history": [
       {
         "date": "2026-06-25 07:15:23",
         "price": 33.8
+      }
+    ]
+  },
+  "boarding house reach": {
+    "current": 35.97,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 35.97
       }
     ]
   },
@@ -53,6 +71,24 @@
       }
     ]
   },
+  "evergreen e altre canzoni": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 33.21
+      }
+    ]
+  },
+  "resta vile maschio dove vai": {
+    "current": 38.0,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 38.0
+      }
+    ]
+  },
   "amputechture": {
     "current": 48.88,
     "history": [
@@ -62,12 +98,39 @@
       }
     ]
   },
+  "songs of a lost world": {
+    "current": 27.11,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 27.11
+      }
+    ]
+  },
+  "un du": {
+    "current": 53.97,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 53.97
+      }
+    ]
+  },
   "hot fuzz": {
     "current": 27.88,
     "history": [
       {
         "date": "2026-06-25 07:15:23",
         "price": 27.88
+      }
+    ]
+  },
+  "disco x 180 gr": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 29.9
       }
     ]
   },
@@ -125,6 +188,15 @@
       }
     ]
   },
+  "new adventures in hi fi": {
+    "current": 45.9,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 45.9
+      }
+    ]
+  },
   "blood sugar sex magik": {
     "current": 31.3,
     "history": [
@@ -176,6 +248,15 @@
       {
         "date": "2026-06-25 07:15:23",
         "price": 54.61
+      }
+    ]
+  },
+  "dynamite": {
+    "current": 32.67,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 32.67
       }
     ]
   },
@@ -386,6 +467,15 @@
       }
     ]
   },
+  "sleeping with ghosts": {
+    "current": 24.5,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 24.5
+      }
+    ]
+  },
   "metallica": {
     "current": 35.95,
     "history": [
@@ -401,6 +491,15 @@
       {
         "date": "2026-06-25 07:15:23",
         "price": 25.9
+      }
+    ]
+  },
+  "led zeppelin iii": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 26.95
       }
     ]
   },
@@ -422,12 +521,66 @@
       }
     ]
   },
+  "s m": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 49.19
+      }
+    ]
+  },
   "kill em all": {
     "current": 34.12,
     "history": [
       {
         "date": "2026-06-25 07:15:23",
         "price": 34.12
+      }
+    ]
+  },
+  "s m2 box": {
+    "current": 95.9,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 95.9
+      }
+    ]
+  },
+  "load": {
+    "current": 45.02,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 45.02
+      }
+    ]
+  },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 49.19
+      }
+    ]
+  },
+  "master of puppets": {
+    "current": 30.51,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 30.51
+      }
+    ]
+  },
+  "mezzanine": {
+    "current": 37.24,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 37.24
       }
     ]
   },
@@ -530,6 +683,15 @@
       }
     ]
   },
+  "interpol": {
+    "current": 36.21,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 36.21
+      }
+    ]
+  },
   "camera a sud": {
     "current": 33.21,
     "history": [
@@ -563,6 +725,15 @@
       {
         "date": "2026-06-25 07:15:23",
         "price": 36.8
+      }
+    ]
+  },
+  "heroes": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-06-25 07:28:17",
+        "price": 31.99
       }
     ]
   },
