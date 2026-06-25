@@ -7,7 +7,12 @@ from email.mime.text import MIMEText
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import re
+import sys
+import time
 
+# ---------------------------------------------------------
+# CONFIG
+# ---------------------------------------------------------
 WISHLIST_URL = os.environ.get("WISHLIST_URL")
 GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
@@ -18,6 +23,29 @@ LOG_DIR = "logs"
 TIMEOUT_PAGE = 20000
 TIMEOUT_SELECTOR = 2500
 RETRY_COUNT = 2
+
+LOCK_FILE = "monitor.lock"
+LOCK_TIMEOUT = 60 * 30  # 30 minuti
+
+# ---------------------------------------------------------
+# LOCK SYSTEM
+# ---------------------------------------------------------
+def acquire_lock():
+    if os.path.exists(LOCK_FILE):
+        age = time.time() - os.path.getmtime(LOCK_FILE)
+        if age > LOCK_TIMEOUT:
+            print(f"[LOCK] Lock vecchio ({age:.0f}s). Lo rimuovo.")
+            os.remove(LOCK_FILE)
+        else:
+            print("[LOCK] Un'altra esecuzione è già in corso. Esco.")
+            sys.exit(0)
+
+    with open(LOCK_FILE, "w") as f:
+        f.write(str(os.getpid()))
+
+def release_lock():
+    if os.path.exists(LOCK_FILE):
+        os.remove(LOCK_FILE)
 
 # ---------------------------------------------------------
 # DEBUG HTML
@@ -91,9 +119,8 @@ def extract_asin(url: str) -> str | None:
     return None
 
 # ---------------------------------------------------------
-# SHIPPING + SELLER (NUOVO LAYOUT ODF)
+# SHIPPING + SELLER (VERSIONE DEFINITIVA 2026)
 # ---------------------------------------------------------
-
 def extract_shipping_and_seller(html: str):
     soup = BeautifulSoup(html, "lxml")
 
@@ -115,7 +142,7 @@ def extract_shipping_and_seller(html: str):
         if raw:
             shipping_cost = raw
 
-    # --- FALLBACK VECCHI LAYOUT (solo se manca il nuovo attributo) ---
+    # --- FALLBACK VECCHI LAYOUT ---
     if not shipping_cost:
         el = soup.select_one("#deliveryMessageMirId span")
         if el:
@@ -126,6 +153,7 @@ def extract_shipping_and_seller(html: str):
         if el:
             shipping_cost = el.get_text(strip=True)
 
+    # --- FALLBACK VENDITORE ---
     if not seller:
         el = soup.select_one("#merchant-info")
         if el:
@@ -142,7 +170,6 @@ def extract_shipping_and_seller(html: str):
             seller = el.get_text(strip=True)
 
     return seller, shipped_by, shipping_cost
-
 
 # ---------------------------------------------------------
 # PRICE PARSER
@@ -333,80 +360,85 @@ def get_items():
 # MAIN
 # ---------------------------------------------------------
 def main():
-    log("===== INIZIO MONITOR =====")
-    log(f"THRESHOLD: {THRESHOLD}%")
-
-    old = {}
-    if os.path.exists(DATA_FILE):
-        with open(DATA_FILE,"r") as f:
-            try:
-                old = json.load(f)
-                log(f"Caricati {len(old)} prodotti dallo storico.")
-            except:
-                old = {}
-
+    acquire_lock()
     try:
-        items = get_items()
-    except Exception as e:
-        log("ERRORE CRITICO durante get_items()")
-        log(str(e))
-        return
+        log("===== INIZIO MONITOR =====")
+        log(f"THRESHOLD: {THRESHOLD}%")
 
-    new = {}
-    alerts = []
-    today = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d %H:%M:%S")
+        old = {}
+        if os.path.exists(DATA_FILE):
+            with open(DATA_FILE,"r") as f:
+                try:
+                    old = json.load(f)
+                    log(f"Caricati {len(old)} prodotti dallo storico.")
+                except:
+                    old = {}
 
-    for raw_name,price,url,seller,shipped_by,shipping_cost in items:
-        name = normalize(raw_name)
-        log(f"Prezzo attuale {name}: €{price:.2f}")
+        try:
+            items = get_items()
+        except Exception as e:
+            log("ERRORE CRITICO durante get_items()")
+            log(str(e))
+            return
 
-        asin = extract_asin(url)
-        camel = f"https://it.camelcamelcamel.com/product/{asin}" if asin else "#"
+        new = {}
+        alerts = []
+        today = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d %H:%M:%S")
 
-        if name not in old:
-            new[name] = {
-                "current":price,
-                "history":[{"date":today,"price":price}]
-            }
-            continue
+        for raw_name,price,url,seller,shipped_by,shipping_cost in items:
+            name = normalize(raw_name)
+            log(f"Prezzo attuale {name}: €{price:.2f}")
 
-        old_history = old[name].get("history",[])
-        history = list(old_history)
+            asin = extract_asin(url)
+            camel = f"https://it.camelcamelcamel.com/product/{asin}" if asin else "#"
 
-        last_price = history[-1]["price"] if history else None
-        old_current = old[name].get("current")
+            if name not in old:
+                new[name] = {
+                    "current":price,
+                    "history":[{"date":today,"price":price}]
+                }
+                continue
 
-        new[name] = {"current":price,"history":history}
+            old_history = old[name].get("history",[])
+            history = list(old_history)
 
-        if last_price != price:
-            new[name]["history"].append({"date":today,"price":price})
-            log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
+            last_price = history[-1]["price"] if history else None
+            old_current = old[name].get("current")
 
-        if old_current and old_current > 0:
-            drop = ((old_current - price) / old_current) * 100
-            if drop >= THRESHOLD:
-                alerts.append(
-                    f"<b>{name}</b><br>"
-                    f"Vecchio: €{old_current:.2f}<br>"
-                    f"Nuovo: €{price:.2f}<br>"
-                    f"↓ {drop:.1f}%<br><br>"
-                    f"Venduto da: {seller or 'N/D'}<br>"
-                    f"Spedito da: {shipped_by or 'N/D'}<br>"
-                    f"Spedizione: {shipping_cost or 'N/D'}<br><br>"
-                    f"<a href='{camel}'>camelcamelcamel</a><br>"
-                    f"<a href='{url}'>amazon</a><br><br>"
-                )
+            new[name] = {"current":price,"history":history}
 
-    with open(DATA_FILE,"w") as f:
-        json.dump(new,f,indent=2)
-        log("Prezzi aggiornati salvati.")
+            if last_price != price:
+                new[name]["history"].append({"date":today,"price":price})
+                log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
 
-    if alerts:
-        send_email("<br>".join(alerts))
-    else:
-        log("Nessun alert generato.")
+            if old_current and old_current > 0:
+                drop = ((old_current - price) / old_current) * 100
+                if drop >= THRESHOLD:
+                    alerts.append(
+                        f"<b>{name}</b><br>"
+                        f"Vecchio: €{old_current:.2f}<br>"
+                        f"Nuovo: €{price:.2f}<br>"
+                        f"↓ {drop:.1f}%<br><br>"
+                        f"Venduto da: {seller or 'N/D'}<br>"
+                        f"Spedito da: {shipped_by or 'N/D'}<br>"
+                        f"Spedizione: {shipping_cost or 'N/D'}<br><br>"
+                        f"<a href='{camel}'>camelcamelcamel</a><br>"
+                        f"<a href='{url}'>amazon</a><br><br>"
+                    )
 
-    log("===== FINE MONITOR =====")
+        with open(DATA_FILE,"w") as f:
+            json.dump(new,f,indent=2)
+            log("Prezzi aggiornati salvati.")
+
+        if alerts:
+            send_email("<br>".join(alerts))
+        else:
+            log("Nessun alert generato.")
+
+        log("===== FINE MONITOR =====")
+
+    finally:
+        release_lock()
 
 if __name__ == "__main__":
     main()
