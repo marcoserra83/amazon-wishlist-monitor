@@ -3,6 +3,10 @@ name: Amazon Wishlist Monitor
 on:
   workflow_dispatch:
 
+concurrency:
+  group: amazon-wishlist-monitor
+  cancel-in-progress: false
+
 jobs:
   run-monitor:
     runs-on: ubuntu-latest
@@ -28,6 +32,7 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           ALERT_THRESHOLD: ${{ secrets.ALERT_THRESHOLD }}
           WISHLIST_URL: ${{ secrets.WISHLIST_URL }}
+          DEBUG_HTML: ${{ secrets.DEBUG_HTML }}
         run: |
           mkdir -p debug_output
           mkdir -p debug_html
