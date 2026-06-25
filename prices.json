@@ -52,11 +52,15 @@
     ]
   },
   "entering heaven alive": {
-    "current": 37.2,
+    "current": 37.21,
     "history": [
       {
         "date": "2026-06-25 09:34:38",
         "price": 37.2
+      },
+      {
+        "date": "2026-06-25 15:38:13",
+        "price": 37.21
       }
     ]
   },
