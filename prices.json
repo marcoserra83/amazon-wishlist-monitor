@@ -53,23 +53,6 @@
       }
     ]
   },
-  "relax": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-06-24 14:27:30",
-        "price": 29.99
-      },
-      {
-        "date": "2026-06-24 23:58:42",
-        "price": 24.58
-      },
-      {
-        "date": "2026-06-25 00:08:33",
-        "price": 29.99
-      }
-    ]
-  },
   "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
@@ -105,6 +88,15 @@
       }
     ]
   },
+  "un du": {
+    "current": 56.04,
+    "history": [
+      {
+        "date": "2026-06-25 02:54:19",
+        "price": 56.04
+      }
+    ]
+  },
   "hot fuzz": {
     "current": 27.88,
     "history": [
@@ -114,12 +106,12 @@
       }
     ]
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 62.25,
+  "disco x 180 gr": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-06-25 02:18:02",
-        "price": 62.25
+        "date": "2026-06-25 02:54:19",
+        "price": 29.9
       }
     ]
   },
@@ -132,20 +124,12 @@
       }
     ]
   },
-  "remain in light": {
-    "current": 25.9,
+  "naked": {
+    "current": 35.9,
     "history": [
       {
-        "date": "2026-06-24 14:06:38",
-        "price": 25.9
-      },
-      {
-        "date": "2026-06-24 23:58:42",
-        "price": 21.23
-      },
-      {
-        "date": "2026-06-25 00:08:33",
-        "price": 25.9
+        "date": "2026-06-25 02:54:19",
+        "price": 35.9
       }
     ]
   },
@@ -167,37 +151,12 @@
       }
     ]
   },
-  "blood sugar sex magik": {
-    "current": 31.3,
+  "like clockwork": {
+    "current": 34.1,
     "history": [
       {
-        "date": "2026-06-24 14:27:30",
-        "price": 31.3
-      },
-      {
-        "date": "2026-06-24 23:58:42",
-        "price": 35.16
-      },
-      {
-        "date": "2026-06-25 00:08:33",
-        "price": 31.3
-      }
-    ]
-  },
-  "riot on a empty street": {
-    "current": 50.33,
-    "history": [
-      {
-        "date": "2026-06-24 14:27:30",
-        "price": 50.33
-      },
-      {
-        "date": "2026-06-24 23:58:42",
-        "price": 42.33
-      },
-      {
-        "date": "2026-06-25 00:08:33",
-        "price": 50.33
+        "date": "2026-06-25 02:54:19",
+        "price": 34.1
       }
     ]
   },
@@ -219,15 +178,6 @@
       }
     ]
   },
-  "dynamite": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-25 02:18:02",
-        "price": 32.67
-      }
-    ]
-  },
   "a funk odyssey": {
     "current": 32.29,
     "history": [
@@ -242,6 +192,15 @@
       {
         "date": "2026-06-25 00:08:33",
         "price": 32.29
+      }
+    ]
+  },
+  "synkronized": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-25 02:54:19",
+        "price": 23.99
       }
     ]
   },
@@ -296,6 +255,15 @@
       }
     ]
   },
+  "reggatta de blanc": {
+    "current": 36.7,
+    "history": [
+      {
+        "date": "2026-06-25 02:54:19",
+        "price": 36.7
+      }
+    ]
+  },
   "la matematica dei rami": {
     "current": 33.31,
     "history": [
@@ -340,49 +308,6 @@
       }
     ]
   },
-  "ixnay on the hombre": {
-    "current": 32.23,
-    "history": [
-      {
-        "date": "2026-06-24 12:24:24",
-        "price": 32.23
-      },
-      {
-        "date": "2026-06-24 18:17:49",
-        "price": 40.12
-      },
-      {
-        "date": "2026-06-24 18:27:09",
-        "price": 32.23
-      },
-      {
-        "date": "2026-06-24 23:58:42",
-        "price": 40.12
-      },
-      {
-        "date": "2026-06-25 00:08:33",
-        "price": 32.23
-      }
-    ]
-  },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-06-25 02:18:02",
-        "price": 30.86
-      }
-    ]
-  },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
-    "history": [
-      {
-        "date": "2026-06-25 02:18:02",
-        "price": 35.0
-      }
-    ]
-  },
   "light grenades": {
     "current": 39.84,
     "history": [
@@ -397,6 +322,24 @@
       {
         "date": "2026-06-25 00:08:33",
         "price": 39.84
+      }
+    ]
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-06-25 02:54:19",
+        "price": 28.42
+      }
+    ]
+  },
+  "vol 3 the subliminal verses violet": {
+    "current": 48.97,
+    "history": [
+      {
+        "date": "2026-06-25 02:54:19",
+        "price": 48.97
       }
     ]
   },
@@ -427,38 +370,21 @@
       }
     ]
   },
-  "metallica": {
-    "current": 35.95,
+  "sleeping with ghosts": {
+    "current": 24.5,
     "history": [
       {
-        "date": "2026-06-24 14:06:38",
-        "price": 35.95
-      },
-      {
-        "date": "2026-06-24 23:58:42",
-        "price": 37.89
-      },
-      {
-        "date": "2026-06-25 00:08:33",
-        "price": 35.95
+        "date": "2026-06-25 02:54:19",
+        "price": 24.5
       }
     ]
   },
-  "led zeppelin iv": {
-    "current": 25.9,
+  "led zeppelin iii": {
+    "current": 26.95,
     "history": [
       {
-        "date": "2026-06-25 02:18:02",
-        "price": 25.9
-      }
-    ]
-  },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
-    "history": [
-      {
-        "date": "2026-06-25 02:44:41",
-        "price": 50.83
+        "date": "2026-06-25 02:54:19",
+        "price": 26.95
       }
     ]
   },
@@ -476,15 +402,6 @@
       {
         "date": "2026-06-25 00:08:33",
         "price": 54.64
-      }
-    ]
-  },
-  "s m": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-25 02:44:41",
-        "price": 49.19
       }
     ]
   },
@@ -514,21 +431,21 @@
       }
     ]
   },
+  "master of puppets": {
+    "current": 30.51,
+    "history": [
+      {
+        "date": "2026-06-25 02:54:19",
+        "price": 30.51
+      }
+    ]
+  },
   "mezzanine": {
     "current": 37.24,
     "history": [
       {
         "date": "2026-06-25 02:44:41",
         "price": 37.24
-      }
-    ]
-  },
-  "appetite for destruction": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-25 02:44:41",
-        "price": 25.42
       }
     ]
   },
@@ -558,12 +475,21 @@
       }
     ]
   },
-  "guest star bill evans alone together": {
-    "current": 25.56,
+  "kiss me kiss me kiss me": {
+    "current": 37.65,
     "history": [
       {
-        "date": "2026-06-25 02:18:02",
-        "price": 25.56
+        "date": "2026-06-25 02:54:19",
+        "price": 37.65
+      }
+    ]
+  },
+  "anime salve": {
+    "current": 28.97,
+    "history": [
+      {
+        "date": "2026-06-25 02:54:19",
+        "price": 28.97
       }
     ]
   },
@@ -573,6 +499,24 @@
       {
         "date": "2026-06-25 02:18:02",
         "price": 28.97
+      }
+    ]
+  },
+  "the beatles": {
+    "current": 52.95,
+    "history": [
+      {
+        "date": "2026-06-25 02:54:19",
+        "price": 52.95
+      }
+    ]
+  },
+  "1": {
+    "current": 46.51,
+    "history": [
+      {
+        "date": "2026-06-25 02:54:19",
+        "price": 46.51
       }
     ]
   },
@@ -602,15 +546,6 @@
       }
     ]
   },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-25 02:18:02",
-        "price": 40.05
-      }
-    ]
-  },
   "morrison hotel": {
     "current": 34.25,
     "history": [
@@ -634,6 +569,15 @@
       {
         "date": "2026-06-25 02:44:41",
         "price": 36.8
+      }
+    ]
+  },
+  "heroes": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-06-25 02:54:19",
+        "price": 31.99
       }
     ]
   },
