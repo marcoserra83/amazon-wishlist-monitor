@@ -1,6 +1,6 @@
 {
   "innerspeaker": {
-    "current": 30.9,
+    "current": 26.9,
     "history": [
       {
         "date": "2026-06-25 09:44:10",
@@ -338,7 +338,7 @@
     ]
   },
   "blood sugar sex magik": {
-    "current": 50.99,
+    "current": 37.99,
     "history": [
       {
         "date": "2026-06-25 09:57:15",
@@ -828,7 +828,7 @@
     ]
   },
   "sleeping with ghosts": {
-    "current": 24.5,
+    "current": 22.05,
     "history": [
       {
         "date": "2026-06-25 08:17:44",
@@ -841,6 +841,10 @@
       {
         "date": "2026-06-25 12:27:51",
         "price": 24.5
+      },
+      {
+        "date": "2026-06-25 19:17:51",
+        "price": 22.05
       }
     ]
   },
