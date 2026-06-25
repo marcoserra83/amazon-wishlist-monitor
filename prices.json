@@ -89,6 +89,15 @@
       }
     ]
   },
+  "amputechture": {
+    "current": 48.88,
+    "history": [
+      {
+        "date": "2026-06-25 04:06:07",
+        "price": 48.88
+      }
+    ]
+  },
   "songs of a lost world": {
     "current": 27.11,
     "history": [
@@ -438,33 +447,6 @@
       }
     ]
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.97,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 48.97
-      }
-    ]
-  },
-  "star": {
-    "current": 246.63,
-    "history": [
-      {
-        "date": "2026-06-25 03:43:31",
-        "price": 246.63
-      }
-    ]
-  },
-  "out of time": {
-    "current": 21.56,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 21.56
-      }
-    ]
-  },
   "noctourniquet": {
     "current": 39.66,
     "history": [
@@ -483,39 +465,12 @@
       }
     ]
   },
-  "metallica": {
-    "current": 35.95,
-    "history": [
-      {
-        "date": "2026-06-25 03:43:31",
-        "price": 35.95
-      }
-    ]
-  },
   "led zeppelin iv": {
     "current": 25.9,
     "history": [
       {
         "date": "2026-06-25 03:57:41",
         "price": 25.9
-      }
-    ]
-  },
-  "led zeppelin iii": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-06-25 02:54:19",
-        "price": 26.95
-      }
-    ]
-  },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 50.83
       }
     ]
   },
@@ -537,30 +492,12 @@
       }
     ]
   },
-  "kill em all": {
-    "current": 34.12,
-    "history": [
-      {
-        "date": "2026-06-25 03:04:29",
-        "price": 34.12
-      }
-    ]
-  },
   "s m2 box": {
     "current": 95.9,
     "history": [
       {
         "date": "2026-06-25 03:57:41",
         "price": 95.9
-      }
-    ]
-  },
-  "load": {
-    "current": 45.02,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 45.02
       }
     ]
   },
@@ -582,24 +519,6 @@
       }
     ]
   },
-  "mezzanine": {
-    "current": 37.24,
-    "history": [
-      {
-        "date": "2026-06-25 03:43:31",
-        "price": 37.24
-      }
-    ]
-  },
-  "appetite for destruction": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-25 03:34:46",
-        "price": 25.42
-      }
-    ]
-  },
   "back in": {
     "current": 23.85,
     "history": [
@@ -609,30 +528,12 @@
       }
     ]
   },
-  "ultinate": {
-    "current": 37.44,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 37.44
-      }
-    ]
-  },
   "guest star bill evans alone together": {
     "current": 25.56,
     "history": [
       {
         "date": "2026-06-25 03:23:51",
         "price": 25.56
-      }
-    ]
-  },
-  "kiss me kiss me kiss me": {
-    "current": 37.65,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 37.65
       }
     ]
   },
@@ -654,48 +555,12 @@
       }
     ]
   },
-  "the beatles": {
-    "current": 52.95,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 52.95
-      }
-    ]
-  },
-  "1": {
-    "current": 46.51,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 46.51
-      }
-    ]
-  },
   "abbey road": {
     "current": 25.42,
     "history": [
       {
         "date": "2026-06-25 03:34:46",
         "price": 25.42
-      }
-    ]
-  },
-  "let love in": {
-    "current": 28.99,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 28.99
-      }
-    ]
-  },
-  "interpol": {
-    "current": 36.21,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 36.21
       }
     ]
   },
@@ -732,24 +597,6 @@
       {
         "date": "2026-06-25 03:57:41",
         "price": 36.8
-      }
-    ]
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-06-25 03:34:46",
-        "price": 31.99
-      }
-    ]
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 26.01,
-    "history": [
-      {
-        "date": "2026-06-25 03:34:46",
-        "price": 26.01
       }
     ]
   }
