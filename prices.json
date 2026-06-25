@@ -1,13 +1,4 @@
 {
-  "vauxhall i definitive": {
-    "current": 33.8,
-    "history": [
-      {
-        "date": "2026-06-25 04:54:07",
-        "price": 33.8
-      }
-    ]
-  },
   "boarding house reach": {
     "current": 35.97,
     "history": [
@@ -35,25 +26,7 @@
       }
     ]
   },
-  "cosa faremo da grandi": {
-    "current": 25.48,
-    "history": [
-      {
-        "date": "2026-06-25 04:26:40",
-        "price": 25.48
-      }
-    ]
-  },
   "mainstream": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-25 05:16:04",
-        "price": 33.21
-      }
-    ]
-  },
-  "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
       {
@@ -71,6 +44,15 @@
       }
     ]
   },
+  "amputechture": {
+    "current": 48.88,
+    "history": [
+      {
+        "date": "2026-06-25 05:34:01",
+        "price": 48.88
+      }
+    ]
+  },
   "songs of a lost world": {
     "current": 27.11,
     "history": [
@@ -80,12 +62,12 @@
       }
     ]
   },
-  "hot fuzz": {
-    "current": 27.88,
+  "un du": {
+    "current": 56.04,
     "history": [
       {
-        "date": "2026-06-25 04:54:07",
-        "price": 27.88
+        "date": "2026-06-25 05:34:01",
+        "price": 56.04
       }
     ]
   },
@@ -95,24 +77,6 @@
       {
         "date": "2026-06-25 05:16:04",
         "price": 29.9
-      }
-    ]
-  },
-  "tracy chapman talkin about a revolution": {
-    "current": 62.25,
-    "history": [
-      {
-        "date": "2026-06-25 05:04:57",
-        "price": 62.25
-      }
-    ]
-  },
-  "fear of music": {
-    "current": 34.89,
-    "history": [
-      {
-        "date": "2026-06-25 04:37:42",
-        "price": 34.89
       }
     ]
   },
@@ -134,66 +98,12 @@
       }
     ]
   },
-  "follow the leader": {
-    "current": 20.27,
+  "riot on a empty street": {
+    "current": 50.33,
     "history": [
       {
-        "date": "2026-06-25 04:54:07",
-        "price": 20.27
-      }
-    ]
-  },
-  "up": {
-    "current": 44.99,
-    "history": [
-      {
-        "date": "2026-06-25 04:54:07",
-        "price": 44.99
-      }
-    ]
-  },
-  "blood sugar sex magik": {
-    "current": 31.3,
-    "history": [
-      {
-        "date": "2026-06-25 05:16:04",
-        "price": 31.3
-      }
-    ]
-  },
-  "like clockwork": {
-    "current": 34.1,
-    "history": [
-      {
-        "date": "2026-06-25 04:54:07",
-        "price": 34.1
-      }
-    ]
-  },
-  "bleach ed": {
-    "current": 23.51,
-    "history": [
-      {
-        "date": "2026-06-25 04:37:42",
-        "price": 23.51
-      }
-    ]
-  },
-  "greatest hits": {
-    "current": 25.92,
-    "history": [
-      {
-        "date": "2026-06-25 04:37:42",
-        "price": 25.92
-      }
-    ]
-  },
-  "octahedron": {
-    "current": 54.61,
-    "history": [
-      {
-        "date": "2026-06-25 05:04:57",
-        "price": 54.61
+        "date": "2026-06-25 05:34:01",
+        "price": 50.33
       }
     ]
   },
@@ -215,15 +125,6 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-25 05:04:57",
-        "price": 23.99
-      }
-    ]
-  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
@@ -239,32 +140,6 @@
       {
         "date": "2026-06-25 05:04:57",
         "price": 23.99
-      }
-    ]
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-06-24 14:06:38",
-        "price": 25.99
-      },
-      {
-        "date": "2026-06-24 23:58:42",
-        "price": 21.3
-      },
-      {
-        "date": "2026-06-25 00:08:33",
-        "price": 25.99
-      }
-    ]
-  },
-  "reggatta de blanc": {
-    "current": 36.7,
-    "history": [
-      {
-        "date": "2026-06-25 04:54:07",
-        "price": 36.7
       }
     ]
   },
@@ -295,39 +170,12 @@
       }
     ]
   },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-25 03:43:31",
-        "price": 25.9
-      }
-    ]
-  },
-  "the queen is dead": {
-    "current": 24.9,
-    "history": [
-      {
-        "date": "2026-06-25 05:04:57",
-        "price": 24.9
-      }
-    ]
-  },
   "ixnay on the hombre": {
     "current": 32.23,
     "history": [
       {
         "date": "2026-06-25 05:24:29",
         "price": 32.23
-      }
-    ]
-  },
-  "money for nothing": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-25 05:04:57",
-        "price": 32.67
       }
     ]
   },
@@ -340,12 +188,21 @@
       }
     ]
   },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 35.0,
+  "a crow left of the murder": {
+    "current": 47.79,
     "history": [
       {
-        "date": "2026-06-25 04:26:40",
-        "price": 35.0
+        "date": "2026-06-25 05:34:01",
+        "price": 47.79
+      }
+    ]
+  },
+  "light grenades": {
+    "current": 39.84,
+    "history": [
+      {
+        "date": "2026-06-25 05:34:01",
+        "price": 39.84
       }
     ]
   },
@@ -355,6 +212,15 @@
       {
         "date": "2026-06-25 05:04:57",
         "price": 33.21
+      }
+    ]
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-06-25 05:34:01",
+        "price": 28.42
       }
     ]
   },
@@ -394,12 +260,12 @@
       }
     ]
   },
-  "metallica": {
-    "current": 35.95,
+  "led zeppelin iv": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-06-25 05:04:57",
-        "price": 35.95
+        "date": "2026-06-25 05:34:01",
+        "price": 25.9
       }
     ]
   },
@@ -412,24 +278,6 @@
       }
     ]
   },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
-    "history": [
-      {
-        "date": "2026-06-25 05:24:29",
-        "price": 50.83
-      }
-    ]
-  },
-  "reload": {
-    "current": 54.64,
-    "history": [
-      {
-        "date": "2026-06-25 05:24:29",
-        "price": 54.64
-      }
-    ]
-  },
   "s m": {
     "current": 49.19,
     "history": [
@@ -439,21 +287,21 @@
       }
     ]
   },
+  "kill em all": {
+    "current": 34.12,
+    "history": [
+      {
+        "date": "2026-06-25 05:34:01",
+        "price": 34.12
+      }
+    ]
+  },
   "s m2 box": {
     "current": 95.9,
     "history": [
       {
         "date": "2026-06-25 05:24:29",
         "price": 95.9
-      }
-    ]
-  },
-  "load": {
-    "current": 45.02,
-    "history": [
-      {
-        "date": "2026-06-25 05:24:29",
-        "price": 45.02
       }
     ]
   },
@@ -475,30 +323,12 @@
       }
     ]
   },
-  "mezzanine": {
-    "current": 37.24,
+  "back in": {
+    "current": 23.85,
     "history": [
       {
-        "date": "2026-06-25 05:24:29",
-        "price": 37.24
-      }
-    ]
-  },
-  "appetite for destruction": {
-    "current": 25.42,
-    "history": [
-      {
-        "date": "2026-06-25 05:16:04",
-        "price": 25.42
-      }
-    ]
-  },
-  "ultinate": {
-    "current": 37.44,
-    "history": [
-      {
-        "date": "2026-06-25 05:04:57",
-        "price": 37.44
+        "date": "2026-06-25 05:34:01",
+        "price": 23.85
       }
     ]
   },
@@ -511,15 +341,6 @@
       }
     ]
   },
-  "fabrizio de andre": {
-    "current": 28.97,
-    "history": [
-      {
-        "date": "2026-06-25 05:16:04",
-        "price": 28.97
-      }
-    ]
-  },
   "the beatles": {
     "current": 52.95,
     "history": [
@@ -529,12 +350,30 @@
       }
     ]
   },
-  "1": {
-    "current": 46.51,
+  "abbey road": {
+    "current": 25.42,
     "history": [
       {
-        "date": "2026-06-25 04:26:40",
-        "price": 46.51
+        "date": "2026-06-25 05:34:01",
+        "price": 25.42
+      }
+    ]
+  },
+  "let love in": {
+    "current": 28.99,
+    "history": [
+      {
+        "date": "2026-06-25 05:34:01",
+        "price": 28.99
+      }
+    ]
+  },
+  "interpol": {
+    "current": 36.21,
+    "history": [
+      {
+        "date": "2026-06-25 05:34:01",
+        "price": 36.21
       }
     ]
   },
@@ -544,15 +383,6 @@
       {
         "date": "2026-06-25 05:16:04",
         "price": 33.21
-      }
-    ]
-  },
-  "soft parade": {
-    "current": 40.05,
-    "history": [
-      {
-        "date": "2026-06-25 05:24:29",
-        "price": 40.05
       }
     ]
   },
@@ -571,15 +401,6 @@
       {
         "date": "2026-06-25 03:57:41",
         "price": 36.8
-      }
-    ]
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-06-25 04:14:10",
-        "price": 31.99
       }
     ]
   },
