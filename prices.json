@@ -1,10 +1,10 @@
 {
-  "innerspeaker": {
-    "current": 26.9,
+  "vauxhall i definitive": {
+    "current": 33.8,
     "history": [
       {
-        "date": "2026-06-25 06:54:09",
-        "price": 26.9
+        "date": "2026-06-25 07:15:23",
+        "price": 33.8
       }
     ]
   },
@@ -17,30 +17,57 @@
       }
     ]
   },
-  "evergreen e altre canzoni": {
+  "entering heaven alive": {
+    "current": 37.2,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 37.2
+      }
+    ]
+  },
+  "cosa faremo da grandi": {
+    "current": 25.48,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 25.48
+      }
+    ]
+  },
+  "mainstream": {
     "current": 33.21,
     "history": [
       {
-        "date": "2026-06-25 07:04:39",
+        "date": "2026-06-25 07:15:23",
         "price": 33.21
       }
     ]
   },
-  "un du": {
-    "current": 53.97,
+  "relax": {
+    "current": 29.99,
     "history": [
       {
-        "date": "2026-06-25 07:04:39",
-        "price": 53.97
+        "date": "2026-06-25 07:15:23",
+        "price": 29.99
       }
     ]
   },
-  "disco x 180 gr": {
-    "current": 29.9,
+  "amputechture": {
+    "current": 48.88,
     "history": [
       {
-        "date": "2026-06-25 07:04:39",
-        "price": 29.9
+        "date": "2026-06-25 07:15:23",
+        "price": 48.88
+      }
+    ]
+  },
+  "hot fuzz": {
+    "current": 27.88,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 27.88
       }
     ]
   },
@@ -62,6 +89,15 @@
       }
     ]
   },
+  "naked": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 35.9
+      }
+    ]
+  },
   "remain in light": {
     "current": 25.9,
     "history": [
@@ -80,12 +116,12 @@
       }
     ]
   },
-  "new adventures in hi fi": {
-    "current": 45.9,
+  "up": {
+    "current": 44.99,
     "history": [
       {
-        "date": "2026-06-25 07:04:39",
-        "price": 45.9
+        "date": "2026-06-25 07:15:23",
+        "price": 44.99
       }
     ]
   },
@@ -116,6 +152,15 @@
       }
     ]
   },
+  "bleach ed": {
+    "current": 23.51,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 23.51
+      }
+    ]
+  },
   "greatest hits": {
     "current": 25.92,
     "history": [
@@ -125,12 +170,12 @@
       }
     ]
   },
-  "dynamite": {
-    "current": 32.67,
+  "octahedron": {
+    "current": 54.61,
     "history": [
       {
-        "date": "2026-06-25 07:04:39",
-        "price": 32.67
+        "date": "2026-06-25 07:15:23",
+        "price": 54.61
       }
     ]
   },
@@ -167,6 +212,15 @@
       {
         "date": "2026-06-25 07:04:39",
         "price": 23.99
+      }
+    ]
+  },
+  "playing the angel": {
+    "current": 25.99,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 25.99
       }
     ]
   },
@@ -224,12 +278,30 @@
       }
     ]
   },
+  "ixnay on the hombre": {
+    "current": 32.23,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 32.23
+      }
+    ]
+  },
   "money for nothing": {
     "current": 32.67,
     "history": [
       {
         "date": "2026-06-25 07:04:39",
         "price": 32.67
+      }
+    ]
+  },
+  "good bye lenin": {
+    "current": 30.86,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 30.86
       }
     ]
   },
@@ -269,12 +341,30 @@
       }
     ]
   },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 28.42
+      }
+    ]
+  },
   "vol 3 the subliminal verses violet": {
     "current": 48.97,
     "history": [
       {
         "date": "2026-06-25 06:54:09",
         "price": 48.97
+      }
+    ]
+  },
+  "star": {
+    "current": 246.63,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 246.63
       }
     ]
   },
@@ -296,15 +386,6 @@
       }
     ]
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-06-25 06:44:46",
-        "price": 24.5
-      }
-    ]
-  },
   "metallica": {
     "current": 35.95,
     "history": [
@@ -314,12 +395,12 @@
       }
     ]
   },
-  "led zeppelin iii": {
-    "current": 26.95,
+  "led zeppelin iv": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-06-25 06:54:09",
-        "price": 26.95
+        "date": "2026-06-25 07:15:23",
+        "price": 25.9
       }
     ]
   },
@@ -341,39 +422,21 @@
       }
     ]
   },
-  "load": {
-    "current": 45.02,
+  "kill em all": {
+    "current": 34.12,
     "history": [
       {
-        "date": "2026-06-25 06:54:09",
-        "price": 45.02
+        "date": "2026-06-25 07:15:23",
+        "price": 34.12
       }
     ]
   },
-  "and justice for all": {
-    "current": 49.19,
+  "appetite for destruction": {
+    "current": 25.42,
     "history": [
       {
-        "date": "2026-06-25 06:34:58",
-        "price": 49.19
-      }
-    ]
-  },
-  "master of puppets": {
-    "current": 30.51,
-    "history": [
-      {
-        "date": "2026-06-25 07:04:39",
-        "price": 30.51
-      }
-    ]
-  },
-  "mezzanine": {
-    "current": 37.24,
-    "history": [
-      {
-        "date": "2026-06-25 07:04:39",
-        "price": 37.24
+        "date": "2026-06-25 07:15:23",
+        "price": 25.42
       }
     ]
   },
@@ -401,6 +464,15 @@
       {
         "date": "2026-06-25 06:05:01",
         "price": 25.56
+      }
+    ]
+  },
+  "kiss me kiss me kiss me": {
+    "current": 37.65,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 37.65
       }
     ]
   },
@@ -458,6 +530,15 @@
       }
     ]
   },
+  "camera a sud": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 33.21
+      }
+    ]
+  },
   "soft parade": {
     "current": 40.05,
     "history": [
@@ -467,12 +548,21 @@
       }
     ]
   },
-  "heroes": {
-    "current": 31.99,
+  "morrison hotel": {
+    "current": 34.25,
     "history": [
       {
-        "date": "2026-06-25 06:54:09",
-        "price": 31.99
+        "date": "2026-06-25 07:15:23",
+        "price": 34.25
+      }
+    ]
+  },
+  "substance": {
+    "current": 36.8,
+    "history": [
+      {
+        "date": "2026-06-25 07:15:23",
+        "price": 36.8
       }
     ]
   },
