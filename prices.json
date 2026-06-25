@@ -107,6 +107,15 @@
       }
     ]
   },
+  "un du": {
+    "current": 56.04,
+    "history": [
+      {
+        "date": "2026-06-25 04:37:42",
+        "price": 56.04
+      }
+    ]
+  },
   "hot fuzz": {
     "current": 27.88,
     "history": [
@@ -122,6 +131,24 @@
       {
         "date": "2026-06-25 03:57:41",
         "price": 29.9
+      }
+    ]
+  },
+  "tracy chapman talkin about a revolution": {
+    "current": 62.25,
+    "history": [
+      {
+        "date": "2026-06-25 04:37:42",
+        "price": 62.25
+      }
+    ]
+  },
+  "fear of music": {
+    "current": 34.89,
+    "history": [
+      {
+        "date": "2026-06-25 04:37:42",
+        "price": 34.89
       }
     ]
   },
@@ -194,6 +221,33 @@
       {
         "date": "2026-06-25 03:57:41",
         "price": 34.1
+      }
+    ]
+  },
+  "bleach ed": {
+    "current": 23.51,
+    "history": [
+      {
+        "date": "2026-06-25 04:37:42",
+        "price": 23.51
+      }
+    ]
+  },
+  "greatest hits": {
+    "current": 25.92,
+    "history": [
+      {
+        "date": "2026-06-25 04:37:42",
+        "price": 25.92
+      }
+    ]
+  },
+  "octahedron": {
+    "current": 54.61,
+    "history": [
+      {
+        "date": "2026-06-25 04:37:42",
+        "price": 54.61
       }
     ]
   },
