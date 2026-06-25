@@ -8,6 +8,24 @@
       }
     ]
   },
+  "vauxhall i definitive": {
+    "current": 33.8,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 33.8
+      }
+    ]
+  },
+  "boarding house reach": {
+    "current": 35.97,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 35.97
+      }
+    ]
+  },
   "fear of the dawn": {
     "current": 37.72,
     "history": [
@@ -35,11 +53,20 @@
       }
     ]
   },
-  "mainstream": {
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 29.99
+      }
+    ]
+  },
+  "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
       {
-        "date": "2026-06-25 05:56:00",
+        "date": "2026-06-25 06:34:58",
         "price": 33.21
       }
     ]
@@ -53,30 +80,12 @@
       }
     ]
   },
-  "amputechture": {
-    "current": 48.88,
-    "history": [
-      {
-        "date": "2026-06-25 06:14:58",
-        "price": 48.88
-      }
-    ]
-  },
   "songs of a lost world": {
     "current": 27.11,
     "history": [
       {
         "date": "2026-06-25 06:24:26",
         "price": 27.11
-      }
-    ]
-  },
-  "un du": {
-    "current": 56.04,
-    "history": [
-      {
-        "date": "2026-06-25 05:56:00",
-        "price": 56.04
       }
     ]
   },
@@ -98,12 +107,12 @@
       }
     ]
   },
-  "naked": {
-    "current": 35.9,
+  "tracy chapman talkin about a revolution": {
+    "current": 62.25,
     "history": [
       {
-        "date": "2026-06-25 06:14:58",
-        "price": 35.9
+        "date": "2026-06-25 06:34:58",
+        "price": 62.25
       }
     ]
   },
@@ -116,12 +125,12 @@
       }
     ]
   },
-  "up": {
-    "current": 44.99,
+  "follow the leader": {
+    "current": 20.27,
     "history": [
       {
-        "date": "2026-06-25 05:44:20",
-        "price": 44.99
+        "date": "2026-06-25 06:34:58",
+        "price": 20.27
       }
     ]
   },
@@ -143,6 +152,15 @@
       }
     ]
   },
+  "riot on a empty street": {
+    "current": 50.33,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 50.33
+      }
+    ]
+  },
   "like clockwork": {
     "current": 34.1,
     "history": [
@@ -161,12 +179,12 @@
       }
     ]
   },
-  "dynamite": {
-    "current": 32.67,
+  "greatest hits": {
+    "current": 25.92,
     "history": [
       {
-        "date": "2026-06-25 05:04:57",
-        "price": 32.67
+        "date": "2026-06-25 06:34:58",
+        "price": 25.92
       }
     ]
   },
@@ -179,12 +197,12 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
+  "emergency on planet earth": {
+    "current": 40.99,
     "history": [
       {
-        "date": "2026-06-25 05:44:20",
-        "price": 23.99
+        "date": "2026-06-25 06:34:58",
+        "price": 40.99
       }
     ]
   },
@@ -251,6 +269,15 @@
       }
     ]
   },
+  "the queen is dead": {
+    "current": 24.9,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 24.9
+      }
+    ]
+  },
   "ixnay on the hombre": {
     "current": 32.23,
     "history": [
@@ -260,21 +287,39 @@
       }
     ]
   },
-  "money for nothing": {
-    "current": 32.67,
-    "history": [
-      {
-        "date": "2026-06-25 05:44:20",
-        "price": 32.67
-      }
-    ]
-  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
       {
         "date": "2026-06-25 06:14:58",
         "price": 30.86
+      }
+    ]
+  },
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 35.0,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 35.0
+      }
+    ]
+  },
+  "a crow left of the murder": {
+    "current": 47.79,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 47.79
+      }
+    ]
+  },
+  "light grenades": {
+    "current": 39.84,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 39.84
       }
     ]
   },
@@ -314,6 +359,15 @@
       }
     ]
   },
+  "out of time": {
+    "current": 21.56,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 21.56
+      }
+    ]
+  },
   "metallica": {
     "current": 35.95,
     "history": [
@@ -329,24 +383,6 @@
       {
         "date": "2026-06-25 05:56:00",
         "price": 25.9
-      }
-    ]
-  },
-  "led zeppelin iii": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-06-25 06:24:26",
-        "price": 26.95
-      }
-    ]
-  },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
-    "history": [
-      {
-        "date": "2026-06-25 05:44:20",
-        "price": 50.83
       }
     ]
   },
@@ -395,12 +431,30 @@
       }
     ]
   },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 49.19
+      }
+    ]
+  },
   "mezzanine": {
     "current": 37.24,
     "history": [
       {
         "date": "2026-06-25 06:14:58",
         "price": 37.24
+      }
+    ]
+  },
+  "appetite for destruction": {
+    "current": 25.42,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 25.42
       }
     ]
   },
@@ -419,6 +473,24 @@
       {
         "date": "2026-06-25 06:05:01",
         "price": 25.56
+      }
+    ]
+  },
+  "kiss me kiss me kiss me": {
+    "current": 37.65,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 37.65
+      }
+    ]
+  },
+  "anime salve": {
+    "current": 28.97,
+    "history": [
+      {
+        "date": "2026-06-25 06:34:58",
+        "price": 28.97
       }
     ]
   },
