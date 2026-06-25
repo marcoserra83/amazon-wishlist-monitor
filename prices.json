@@ -26,6 +26,15 @@
       }
     ]
   },
+  "fear of the dawn": {
+    "current": 37.72,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 37.72
+      }
+    ]
+  },
   "entering heaven alive": {
     "current": 37.2,
     "history": [
@@ -41,6 +50,15 @@
       {
         "date": "2026-06-25 05:44:20",
         "price": 25.48
+      }
+    ]
+  },
+  "mainstream": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 33.21
       }
     ]
   },
@@ -89,6 +107,24 @@
       }
     ]
   },
+  "un du": {
+    "current": 56.04,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 56.04
+      }
+    ]
+  },
+  "hot fuzz": {
+    "current": 27.88,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 27.88
+      }
+    ]
+  },
   "disco x 180 gr": {
     "current": 29.9,
     "history": [
@@ -113,6 +149,15 @@
       {
         "date": "2026-06-25 05:44:20",
         "price": 34.89
+      }
+    ]
+  },
+  "naked": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 35.9
       }
     ]
   },
@@ -143,12 +188,48 @@
       }
     ]
   },
+  "new adventures in hi fi": {
+    "current": 45.9,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 45.9
+      }
+    ]
+  },
   "blood sugar sex magik": {
     "current": 31.3,
     "history": [
       {
         "date": "2026-06-25 05:44:20",
         "price": 31.3
+      }
+    ]
+  },
+  "riot on a empty street": {
+    "current": 50.33,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 50.33
+      }
+    ]
+  },
+  "like clockwork": {
+    "current": 34.1,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 34.1
+      }
+    ]
+  },
+  "bleach ed": {
+    "current": 23.51,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 23.51
       }
     ]
   },
@@ -203,6 +284,15 @@
       {
         "date": "2026-06-25 05:04:57",
         "price": 40.99
+      }
+    ]
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 23.99
       }
     ]
   },
@@ -314,15 +404,6 @@
       }
     ]
   },
-  "light grenades": {
-    "current": 39.84,
-    "history": [
-      {
-        "date": "2026-06-25 05:34:01",
-        "price": 39.84
-      }
-    ]
-  },
   "morning view": {
     "current": 33.21,
     "history": [
@@ -338,24 +419,6 @@
       {
         "date": "2026-06-25 05:34:01",
         "price": 28.42
-      }
-    ]
-  },
-  "vol 3 the subliminal verses violet": {
-    "current": 48.97,
-    "history": [
-      {
-        "date": "2026-06-25 05:04:57",
-        "price": 48.97
-      }
-    ]
-  },
-  "star": {
-    "current": 246.63,
-    "history": [
-      {
-        "date": "2026-06-25 05:24:29",
-        "price": 246.63
       }
     ]
   },
@@ -377,21 +440,21 @@
       }
     ]
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-06-25 05:24:29",
-        "price": 24.5
-      }
-    ]
-  },
   "metallica": {
     "current": 35.95,
     "history": [
       {
         "date": "2026-06-25 05:44:20",
         "price": 35.95
+      }
+    ]
+  },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 25.9
       }
     ]
   },
@@ -410,6 +473,24 @@
       {
         "date": "2026-06-25 05:44:20",
         "price": 50.83
+      }
+    ]
+  },
+  "reload": {
+    "current": 54.64,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 54.64
+      }
+    ]
+  },
+  "s m": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 49.19
       }
     ]
   },
@@ -494,12 +575,12 @@
       }
     ]
   },
-  "guest star bill evans alone together": {
-    "current": 25.56,
+  "kiss me kiss me kiss me": {
+    "current": 37.65,
     "history": [
       {
-        "date": "2026-06-25 05:44:20",
-        "price": 25.56
+        "date": "2026-06-25 05:56:00",
+        "price": 37.65
       }
     ]
   },
@@ -512,21 +593,21 @@
       }
     ]
   },
-  "the beatles": {
-    "current": 52.95,
-    "history": [
-      {
-        "date": "2026-06-25 04:14:10",
-        "price": 52.95
-      }
-    ]
-  },
   "1": {
     "current": 46.51,
     "history": [
       {
         "date": "2026-06-25 05:44:20",
         "price": 46.51
+      }
+    ]
+  },
+  "abbey road": {
+    "current": 25.42,
+    "history": [
+      {
+        "date": "2026-06-25 05:56:00",
+        "price": 25.42
       }
     ]
   },
@@ -539,57 +620,12 @@
       }
     ]
   },
-  "interpol": {
-    "current": 36.21,
-    "history": [
-      {
-        "date": "2026-06-25 05:34:01",
-        "price": 36.21
-      }
-    ]
-  },
-  "camera a sud": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-25 05:16:04",
-        "price": 33.21
-      }
-    ]
-  },
   "soft parade": {
     "current": 40.05,
     "history": [
       {
         "date": "2026-06-25 05:44:20",
         "price": 40.05
-      }
-    ]
-  },
-  "morrison hotel": {
-    "current": 34.25,
-    "history": [
-      {
-        "date": "2026-06-25 05:24:29",
-        "price": 34.25
-      }
-    ]
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-06-25 05:44:20",
-        "price": 31.99
-      }
-    ]
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 26.01,
-    "history": [
-      {
-        "date": "2026-06-25 04:54:07",
-        "price": 26.01
       }
     ]
   }
