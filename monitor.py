@@ -18,6 +18,8 @@ GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
 THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 1))
 
+DEBUG_HTML = os.environ.get("DEBUG_HTML", "0") == "1"
+
 DATA_FILE = "prices.json"
 LOG_DIR = "logs"
 TIMEOUT_PAGE = 20000
@@ -51,6 +53,8 @@ def release_lock():
 # DEBUG HTML
 # ---------------------------------------------------------
 def save_debug_html(name: str, html: str):
+    if not DEBUG_HTML:
+        return
     os.makedirs("debug_html", exist_ok=True)
     safe = re.sub(r"[^a-zA-Z0-9_-]", "_", name)
     path = f"debug_html/{safe}.html"
@@ -250,7 +254,7 @@ def get_product_price(page: Page, url: str, name: str):
             price = parse_price_from_html(html)
             seller, shipped_by, shipping_cost = extract_shipping_and_seller(html)
 
-            if not seller or not shipped_by or not shipping_cost:
+            if DEBUG_HTML and (not seller or not shipped_by or not shipping_cost):
                 save_debug_html(name, html)
 
             if price and price > 0:
