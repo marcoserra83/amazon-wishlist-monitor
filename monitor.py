@@ -106,10 +106,22 @@ def extract_shipping_and_seller(html: str):
         seller = odf_seller.get_text(strip=True)
         shipped_by = seller
 
-    # --- SPEDIZIONE ODF ---
+    # --- SPEDIZIONE ODF (caso 1) ---
     odf_shipping = soup.select_one("#fulfillerInfoFeature_feature_div .offer-display-feature-text-message")
     if odf_shipping:
         shipping_cost = odf_shipping.get_text(strip=True)
+
+    # --- SPEDIZIONE ODF (caso 2: deliveryMessageMirId) ---
+    if not shipping_cost:
+        el = soup.select_one("#deliveryMessageMirId span")
+        if el:
+            shipping_cost = el.get_text(strip=True)
+
+    # --- FALLBACK AMAZON 2025–2026 ---
+    if not shipping_cost:
+        el = soup.select_one("#mir-layout-DELIVERY_BLOCK span.a-color-secondary")
+        if el:
+            shipping_cost = el.get_text(strip=True)
 
     # --- FALLBACK VECCHI LAYOUT ---
     if not seller:
@@ -126,11 +138,6 @@ def extract_shipping_and_seller(html: str):
         el = soup.select_one("div#buybox-see-all-buying-choices a")
         if el:
             seller = el.get_text(strip=True)
-
-    if not shipping_cost:
-        el = soup.select_one("#mir-layout-DELIVERY_BLOCK span.a-color-secondary")
-        if el:
-            shipping_cost = el.get_text(strip=True)
 
     if not shipping_cost:
         el = soup.select_one("span#ourprice_shippingmessage")
