@@ -1,6 +1,6 @@
 {
   "innerspeaker": {
-    "current": 30.9,
+    "current": 26.9,
     "history": [
       {
         "date": "2026-06-25 09:44:10",
@@ -338,7 +338,7 @@
     ]
   },
   "blood sugar sex magik": {
-    "current": 50.99,
+    "current": 37.99,
     "history": [
       {
         "date": "2026-06-25 09:57:15",
@@ -1096,7 +1096,7 @@
     ]
   },
   "anime salve": {
-    "current": 38.7,
+    "current": 34.5,
     "history": [
       {
         "date": "2026-06-25 12:27:51",
@@ -1109,6 +1109,10 @@
       {
         "date": "2026-06-25 18:08:02",
         "price": 38.7
+      },
+      {
+        "date": "2026-06-25 19:38:10",
+        "price": 34.5
       }
     ]
   },
