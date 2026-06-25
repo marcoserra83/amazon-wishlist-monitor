@@ -44,12 +44,30 @@
       }
     ]
   },
+  "cosa faremo da grandi": {
+    "current": 25.48,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 25.48
+      }
+    ]
+  },
   "mainstream": {
     "current": 33.21,
     "history": [
       {
         "date": "2026-06-25 03:57:41",
         "price": 33.21
+      }
+    ]
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 29.99
       }
     ]
   },
@@ -107,21 +125,21 @@
       }
     ]
   },
-  "fear of music": {
-    "current": 34.89,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 34.89
-      }
-    ]
-  },
   "naked": {
     "current": 35.9,
     "history": [
       {
         "date": "2026-06-25 03:57:41",
         "price": 35.9
+      }
+    ]
+  },
+  "remain in light": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 25.9
       }
     ]
   },
@@ -179,33 +197,6 @@
       }
     ]
   },
-  "bleach ed": {
-    "current": 23.51,
-    "history": [
-      {
-        "date": "2026-06-25 03:43:31",
-        "price": 23.51
-      }
-    ]
-  },
-  "greatest hits": {
-    "current": 25.92,
-    "history": [
-      {
-        "date": "2026-06-25 03:57:41",
-        "price": 25.92
-      }
-    ]
-  },
-  "octahedron": {
-    "current": 54.61,
-    "history": [
-      {
-        "date": "2026-06-25 03:04:29",
-        "price": 54.61
-      }
-    ]
-  },
   "dynamite": {
     "current": 32.67,
     "history": [
@@ -221,6 +212,24 @@
       {
         "date": "2026-06-25 03:57:41",
         "price": 32.29
+      }
+    ]
+  },
+  "synkronized": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 23.99
+      }
+    ]
+  },
+  "emergency on planet earth": {
+    "current": 40.99,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 40.99
       }
     ]
   },
@@ -303,12 +312,30 @@
       }
     ]
   },
+  "the queen is dead": {
+    "current": 24.9,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 24.9
+      }
+    ]
+  },
   "ixnay on the hombre": {
     "current": 32.23,
     "history": [
       {
         "date": "2026-06-25 03:04:29",
         "price": 32.23
+      }
+    ]
+  },
+  "money for nothing": {
+    "current": 32.67,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 32.67
       }
     ]
   },
@@ -321,12 +348,30 @@
       }
     ]
   },
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 35.0,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 35.0
+      }
+    ]
+  },
   "a crow left of the murder": {
     "current": 47.79,
     "history": [
       {
         "date": "2026-06-25 03:43:31",
         "price": 47.79
+      }
+    ]
+  },
+  "light grenades": {
+    "current": 39.84,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 39.84
       }
     ]
   },
@@ -348,6 +393,15 @@
       }
     ]
   },
+  "vol 3 the subliminal verses violet": {
+    "current": 48.97,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 48.97
+      }
+    ]
+  },
   "star": {
     "current": 246.63,
     "history": [
@@ -363,6 +417,15 @@
       {
         "date": "2026-06-25 04:14:10",
         "price": 21.56
+      }
+    ]
+  },
+  "noctourniquet": {
+    "current": 39.66,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 39.66
       }
     ]
   },
@@ -390,6 +453,15 @@
       {
         "date": "2026-06-25 03:57:41",
         "price": 25.9
+      }
+    ]
+  },
+  "led zeppelin iii": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 26.95
       }
     ]
   },
@@ -429,6 +501,24 @@
       }
     ]
   },
+  "s m2 box": {
+    "current": 95.9,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 95.9
+      }
+    ]
+  },
+  "load": {
+    "current": 45.02,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 45.02
+      }
+    ]
+  },
   "and justice for all": {
     "current": 49.19,
     "history": [
@@ -456,6 +546,15 @@
       }
     ]
   },
+  "appetite for destruction": {
+    "current": 25.42,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 25.42
+      }
+    ]
+  },
   "back in": {
     "current": 23.85,
     "history": [
@@ -474,6 +573,15 @@
       }
     ]
   },
+  "guest star bill evans alone together": {
+    "current": 25.56,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 25.56
+      }
+    ]
+  },
   "kiss me kiss me kiss me": {
     "current": 37.65,
     "history": [
@@ -483,12 +591,39 @@
       }
     ]
   },
+  "anime salve": {
+    "current": 28.97,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 28.97
+      }
+    ]
+  },
+  "fabrizio de andre": {
+    "current": 28.97,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 28.97
+      }
+    ]
+  },
   "the beatles": {
     "current": 52.95,
     "history": [
       {
         "date": "2026-06-25 04:14:10",
         "price": 52.95
+      }
+    ]
+  },
+  "1": {
+    "current": 46.51,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 46.51
       }
     ]
   },
@@ -507,6 +642,15 @@
       {
         "date": "2026-06-25 04:14:10",
         "price": 28.99
+      }
+    ]
+  },
+  "interpol": {
+    "current": 36.21,
+    "history": [
+      {
+        "date": "2026-06-25 04:26:40",
+        "price": 36.21
       }
     ]
   },
