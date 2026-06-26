@@ -8,12 +8,30 @@
       }
     ]
   },
+  "vauxhall i definitive": {
+    "current": 33.8,
+    "history": [
+      {
+        "date": "2026-06-26 13:55:14",
+        "price": 33.8
+      }
+    ]
+  },
   "boarding house reach": {
     "current": 35.97,
     "history": [
       {
         "date": "2026-06-26 05:08:34",
         "price": 35.97
+      }
+    ]
+  },
+  "fear of the dawn": {
+    "current": 37.72,
+    "history": [
+      {
+        "date": "2026-06-26 13:55:14",
+        "price": 37.72
       }
     ]
   },
@@ -32,6 +50,15 @@
       {
         "date": "2026-06-26 07:44:15",
         "price": 25.48
+      }
+    ]
+  },
+  "mainstream": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-26 13:55:14",
+        "price": 33.21
       }
     ]
   },
@@ -134,6 +161,15 @@
       }
     ]
   },
+  "naked": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-06-26 13:55:14",
+        "price": 35.9
+      }
+    ]
+  },
   "remain in light": {
     "current": 25.9,
     "history": [
@@ -219,15 +255,6 @@
       }
     ]
   },
-  "greatest hits": {
-    "current": 25.92,
-    "history": [
-      {
-        "date": "2026-06-26 10:47:58",
-        "price": 25.92
-      }
-    ]
-  },
   "octahedron": {
     "current": 54.61,
     "history": [
@@ -246,6 +273,15 @@
       }
     ]
   },
+  "a funk odyssey": {
+    "current": 32.29,
+    "history": [
+      {
+        "date": "2026-06-26 13:55:14",
+        "price": 32.29
+      }
+    ]
+  },
   "synkronized": {
     "current": 23.99,
     "history": [
@@ -261,6 +297,15 @@
       {
         "date": "2026-06-26 10:47:58",
         "price": 40.99
+      }
+    ]
+  },
+  "yield": {
+    "current": 22.79,
+    "history": [
+      {
+        "date": "2026-06-26 13:55:14",
+        "price": 22.79
       }
     ]
   },
@@ -309,30 +354,21 @@
       }
     ]
   },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-26 13:34:54",
-        "price": 25.9
-      }
-    ]
-  },
-  "the queen is dead": {
-    "current": 24.9,
-    "history": [
-      {
-        "date": "2026-06-26 09:47:47",
-        "price": 24.9
-      }
-    ]
-  },
   "ixnay on the hombre": {
     "current": 46.83,
     "history": [
       {
         "date": "2026-06-26 13:25:13",
         "price": 46.83
+      }
+    ]
+  },
+  "ignition": {
+    "current": 20.46,
+    "history": [
+      {
+        "date": "2026-06-26 13:55:14",
+        "price": 20.46
       }
     ]
   },
@@ -414,15 +450,6 @@
       {
         "date": "2026-06-26 10:47:58",
         "price": 246.63
-      }
-    ]
-  },
-  "out of time": {
-    "current": 21.56,
-    "history": [
-      {
-        "date": "2026-06-26 10:47:58",
-        "price": 21.56
       }
     ]
   },
@@ -520,24 +547,6 @@
       }
     ]
   },
-  "and justice for all": {
-    "current": 49.19,
-    "history": [
-      {
-        "date": "2026-06-26 09:08:12",
-        "price": 49.19
-      }
-    ]
-  },
-  "master of puppets": {
-    "current": 30.51,
-    "history": [
-      {
-        "date": "2026-06-26 09:47:47",
-        "price": 30.51
-      }
-    ]
-  },
   "mezzanine": {
     "current": 37.24,
     "history": [
@@ -601,12 +610,12 @@
       }
     ]
   },
-  "1": {
-    "current": 46.51,
+  "the beatles": {
+    "current": 52.95,
     "history": [
       {
-        "date": "2026-06-26 10:47:58",
-        "price": 46.51
+        "date": "2026-06-26 13:55:14",
+        "price": 52.95
       }
     ]
   },
@@ -670,6 +679,24 @@
       {
         "date": "2026-06-26 08:17:46",
         "price": 36.8
+      }
+    ]
+  },
+  "heroes": {
+    "current": 32.99,
+    "history": [
+      {
+        "date": "2026-06-26 13:55:14",
+        "price": 32.99
+      }
+    ]
+  },
+  "the rise and fall of ziggy stardust": {
+    "current": 26.01,
+    "history": [
+      {
+        "date": "2026-06-26 13:55:14",
+        "price": 26.01
       }
     ]
   }
