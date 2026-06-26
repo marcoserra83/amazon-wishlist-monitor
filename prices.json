@@ -122,6 +122,15 @@
       }
     ]
   },
+  "adore": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-06-26 02:08:09",
+        "price": 31.99
+      }
+    ]
+  },
   "songs of a lost world": {
     "current": 27.11,
     "history": [
