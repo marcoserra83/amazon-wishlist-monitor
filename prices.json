@@ -255,6 +255,15 @@
       }
     ]
   },
+  "greatest hits": {
+    "current": 25.92,
+    "history": [
+      {
+        "date": "2026-06-26 14:08:20",
+        "price": 25.92
+      }
+    ]
+  },
   "octahedron": {
     "current": 54.61,
     "history": [
@@ -351,6 +360,24 @@
       {
         "date": "2026-06-26 10:47:58",
         "price": 29.9
+      }
+    ]
+  },
+  "hatful of hollow": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-26 14:08:20",
+        "price": 25.9
+      }
+    ]
+  },
+  "the queen is dead": {
+    "current": 24.9,
+    "history": [
+      {
+        "date": "2026-06-26 14:08:20",
+        "price": 24.9
       }
     ]
   },
@@ -453,6 +480,15 @@
       }
     ]
   },
+  "out of time": {
+    "current": 21.56,
+    "history": [
+      {
+        "date": "2026-06-26 14:08:20",
+        "price": 21.56
+      }
+    ]
+  },
   "noctourniquet": {
     "current": 39.64,
     "history": [
@@ -547,6 +583,24 @@
       }
     ]
   },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-06-26 14:08:20",
+        "price": 49.19
+      }
+    ]
+  },
+  "master of puppets": {
+    "current": 30.51,
+    "history": [
+      {
+        "date": "2026-06-26 14:08:20",
+        "price": 30.51
+      }
+    ]
+  },
   "mezzanine": {
     "current": 37.24,
     "history": [
@@ -616,6 +670,15 @@
       {
         "date": "2026-06-26 13:55:14",
         "price": 52.95
+      }
+    ]
+  },
+  "1": {
+    "current": 46.51,
+    "history": [
+      {
+        "date": "2026-06-26 14:08:20",
+        "price": 46.51
       }
     ]
   },
