@@ -62,15 +62,6 @@
       }
     ]
   },
-  "relax": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-06-26 09:08:12",
-        "price": 29.99
-      }
-    ]
-  },
   "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
@@ -122,15 +113,6 @@
       {
         "date": "2026-06-26 10:47:58",
         "price": 54.4
-      }
-    ]
-  },
-  "hot fuzz": {
-    "current": 27.88,
-    "history": [
-      {
-        "date": "2026-06-26 08:17:46",
-        "price": 27.88
       }
     ]
   },
@@ -221,15 +203,6 @@
       {
         "date": "2026-06-26 08:17:46",
         "price": 50.33
-      }
-    ]
-  },
-  "like clockwork": {
-    "current": 34.1,
-    "history": [
-      {
-        "date": "2026-06-26 08:04:32",
-        "price": 34.1
       }
     ]
   },
@@ -377,15 +350,6 @@
       }
     ]
   },
-  "ixnay on the hombre": {
-    "current": 46.83,
-    "history": [
-      {
-        "date": "2026-06-26 09:47:47",
-        "price": 46.83
-      }
-    ]
-  },
   "ignition": {
     "current": 20.46,
     "history": [
@@ -401,15 +365,6 @@
       {
         "date": "2026-06-26 09:47:47",
         "price": 32.67
-      }
-    ]
-  },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-06-26 09:08:12",
-        "price": 30.86
       }
     ]
   },
@@ -437,15 +392,6 @@
       {
         "date": "2026-06-26 09:08:12",
         "price": 39.84
-      }
-    ]
-  },
-  "morning view": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-06-26 09:08:12",
-        "price": 33.21
       }
     ]
   },
@@ -513,15 +459,6 @@
       {
         "date": "2026-06-26 10:47:58",
         "price": 35.95
-      }
-    ]
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-26 09:08:12",
-        "price": 25.9
       }
     ]
   },
@@ -720,15 +657,6 @@
       {
         "date": "2026-06-26 09:08:12",
         "price": 40.05
-      }
-    ]
-  },
-  "morrison hotel": {
-    "current": 34.25,
-    "history": [
-      {
-        "date": "2026-06-26 09:24:09",
-        "price": 34.25
       }
     ]
   },
