@@ -25,6 +25,15 @@
       }
     ]
   },
+  "boarding house reach": {
+    "current": 35.97,
+    "history": [
+      {
+        "date": "2026-06-26 05:08:34",
+        "price": 35.97
+      }
+    ]
+  },
   "fear of the dawn": {
     "current": 37.72,
     "history": [
@@ -87,6 +96,15 @@
       }
     ]
   },
+  "resta vile maschio dove vai": {
+    "current": 38.0,
+    "history": [
+      {
+        "date": "2026-06-26 05:08:34",
+        "price": 38.0
+      }
+    ]
+  },
   "amputechture": {
     "current": 48.88,
     "history": [
@@ -113,12 +131,39 @@
       }
     ]
   },
+  "songs of a lost world": {
+    "current": 27.11,
+    "history": [
+      {
+        "date": "2026-06-26 05:08:34",
+        "price": 27.11
+      }
+    ]
+  },
+  "un du": {
+    "current": 54.12,
+    "history": [
+      {
+        "date": "2026-06-26 05:08:34",
+        "price": 54.12
+      }
+    ]
+  },
   "hot fuzz": {
     "current": 27.88,
     "history": [
       {
         "date": "2026-06-25 23:17:52",
         "price": 27.88
+      }
+    ]
+  },
+  "disco x 180 gr": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-06-26 05:08:34",
+        "price": 29.9
       }
     ]
   },
