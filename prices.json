@@ -62,6 +62,15 @@
       }
     ]
   },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-06-26 13:25:13",
+        "price": 29.99
+      }
+    ]
+  },
   "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
@@ -113,6 +122,15 @@
       {
         "date": "2026-06-26 10:47:58",
         "price": 54.4
+      }
+    ]
+  },
+  "hot fuzz": {
+    "current": 27.88,
+    "history": [
+      {
+        "date": "2026-06-26 13:25:13",
+        "price": 27.88
       }
     ]
   },
@@ -206,6 +224,15 @@
       }
     ]
   },
+  "like clockwork": {
+    "current": 34.1,
+    "history": [
+      {
+        "date": "2026-06-26 13:25:13",
+        "price": 34.1
+      }
+    ]
+  },
   "bleach ed": {
     "current": 23.51,
     "history": [
@@ -260,15 +287,6 @@
       }
     ]
   },
-  "synkronized": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-06-26 01:38:06",
-        "price": 23.99
-      }
-    ]
-  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
@@ -296,30 +314,12 @@
       }
     ]
   },
-  "reggatta de blanc": {
-    "current": 36.7,
-    "history": [
-      {
-        "date": "2026-06-26 01:38:06",
-        "price": 36.7
-      }
-    ]
-  },
   "la matematica dei rami": {
     "current": 33.31,
     "history": [
       {
         "date": "2026-06-26 10:47:58",
         "price": 33.31
-      }
-    ]
-  },
-  "tici canzoni urgenti": {
-    "current": 32.9,
-    "history": [
-      {
-        "date": "2026-06-26 01:38:06",
-        "price": 32.9
       }
     ]
   },
@@ -332,21 +332,21 @@
       }
     ]
   },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-06-26 10:47:58",
-        "price": 25.9
-      }
-    ]
-  },
   "the queen is dead": {
     "current": 24.9,
     "history": [
       {
         "date": "2026-06-26 09:47:47",
         "price": 24.9
+      }
+    ]
+  },
+  "ixnay on the hombre": {
+    "current": 46.83,
+    "history": [
+      {
+        "date": "2026-06-26 13:25:13",
+        "price": 46.83
       }
     ]
   },
@@ -365,6 +365,15 @@
       {
         "date": "2026-06-26 09:47:47",
         "price": 32.67
+      }
+    ]
+  },
+  "good bye lenin": {
+    "current": 30.86,
+    "history": [
+      {
+        "date": "2026-06-26 13:25:13",
+        "price": 30.86
       }
     ]
   },
@@ -392,6 +401,15 @@
       {
         "date": "2026-06-26 09:08:12",
         "price": 39.84
+      }
+    ]
+  },
+  "morning view": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-06-26 13:25:13",
+        "price": 33.21
       }
     ]
   },
@@ -459,6 +477,15 @@
       {
         "date": "2026-06-26 10:47:58",
         "price": 35.95
+      }
+    ]
+  },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-06-26 13:25:13",
+        "price": 25.9
       }
     ]
   },
@@ -531,15 +558,6 @@
       {
         "date": "2026-06-26 09:47:47",
         "price": 30.51
-      }
-    ]
-  },
-  "mezzanine": {
-    "current": 37.24,
-    "history": [
-      {
-        "date": "2026-06-26 01:38:06",
-        "price": 37.24
       }
     ]
   },
@@ -633,15 +651,6 @@
       }
     ]
   },
-  "interpol": {
-    "current": 36.21,
-    "history": [
-      {
-        "date": "2026-06-26 07:44:15",
-        "price": 36.21
-      }
-    ]
-  },
   "camera a sud": {
     "current": 32.81,
     "history": [
@@ -660,21 +669,21 @@
       }
     ]
   },
+  "morrison hotel": {
+    "current": 34.25,
+    "history": [
+      {
+        "date": "2026-06-26 13:25:13",
+        "price": 34.25
+      }
+    ]
+  },
   "substance": {
     "current": 36.8,
     "history": [
       {
         "date": "2026-06-26 08:17:46",
         "price": 36.8
-      }
-    ]
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-06-26 09:24:09",
-        "price": 31.99
       }
     ]
   },
