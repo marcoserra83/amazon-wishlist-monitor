@@ -148,11 +148,15 @@
     ]
   },
   "tracy chapman talkin about a revolution": {
-    "current": 60.75,
+    "current": 50.62,
     "history": [
       {
         "date": "2026-06-26 10:47:58",
         "price": 60.75
+      },
+      {
+        "date": "2026-06-26 23:57:36",
+        "price": 50.62
       }
     ]
   },
@@ -386,11 +390,15 @@
     ]
   },
   "ixnay on the hombre": {
-    "current": 47.29,
+    "current": 32.23,
     "history": [
       {
         "date": "2026-06-26 19:18:04",
         "price": 47.29
+      },
+      {
+        "date": "2026-06-26 23:57:36",
+        "price": 32.23
       }
     ]
   },
