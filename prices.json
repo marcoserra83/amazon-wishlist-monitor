@@ -32,8 +32,13 @@
   },
   "B09L51GGQW": {
     "name": "fear of the dawn",
-    "current": null,
-    "history": [],
+    "current": 28.39,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 28.39
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -51,8 +56,13 @@
   },
   "B0F1X4YQP8": {
     "name": "die",
-    "current": null,
-    "history": [],
+    "current": 14.67,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 14.67
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -70,8 +80,13 @@
   },
   "B0D23XSTL9": {
     "name": "mainstream",
-    "current": null,
-    "history": [],
+    "current": 27.22,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 27.22
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -89,8 +104,13 @@
   },
   "B0D24DP8GT": {
     "name": "evergreen e altre canzoni",
-    "current": null,
-    "history": [],
+    "current": 27.22,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 27.22
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -458,8 +478,13 @@
   },
   "B01FGRB14U": {
     "name": "yield",
-    "current": null,
-    "history": [],
+    "current": 19.66,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 19.66
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -604,8 +629,13 @@
   },
   "B0765S832L": {
     "name": "ixnay on the hombre",
-    "current": null,
-    "history": [],
+    "current": 39.61,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 39.61
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -630,8 +660,13 @@
   },
   "B09VK4JJ92": {
     "name": "money for nothing",
-    "current": null,
-    "history": [],
+    "current": 31.5,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 31.5
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -704,15 +739,25 @@
   },
   "B0BKWQN2V8": {
     "name": "verdena",
-    "current": null,
-    "history": [],
+    "current": 14.67,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 14.67
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
   "B07DL8GHJK": {
     "name": "marauder",
-    "current": null,
-    "history": [],
+    "current": 23.3,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 23.3
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -742,8 +787,13 @@
   },
   "B08DBVR65Y": {
     "name": "max gazze",
-    "current": null,
-    "history": [],
+    "current": 14.67,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 14.67
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -809,8 +859,13 @@
   },
   "B07JHJFJXC": {
     "name": "",
-    "current": null,
-    "history": [],
+    "current": 14.67,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 14.67
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -871,8 +926,13 @@
   },
   "B071RV3WJ4": {
     "name": "festival session 2 bonus tracks",
-    "current": null,
-    "history": [],
+    "current": 51.58,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 51.58
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -926,8 +986,13 @@
   },
   "B003NGXEZQ": {
     "name": "load",
-    "current": null,
-    "history": [],
+    "current": 14.67,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 14.67
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -1041,8 +1106,13 @@
   },
   "B00R2202PC": {
     "name": "let love in",
-    "current": null,
-    "history": [],
+    "current": 23.76,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 23.76
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
@@ -1170,8 +1240,13 @@
   },
   "B00XP8H26O": {
     "name": "substance",
-    "current": null,
-    "history": [],
+    "current": 30.16,
+    "history": [
+      {
+        "date": "2026-06-28 12:19:09",
+        "price": 30.16
+      }
+    ],
     "pending_drop": null,
     "missing_count": 0
   },
