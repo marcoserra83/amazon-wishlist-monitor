@@ -9,25 +9,6 @@ from zoneinfo import ZoneInfo
 import re
 import sys
 import time
-import random
-
-# ---------------------------------------------------------
-# ANTI-BOT USER AGENTS + VIEWPORTS
-# ---------------------------------------------------------
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/17.4 Safari/605.1.15",
-    "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148",
-    "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 Chrome/125.0 Mobile Safari/537.36"
-]
-
-VIEWPORTS = [
-    {"width": 1920, "height": 1080},
-    {"width": 1366, "height": 768},
-    {"width": 1280, "height": 800},
-    {"width": 414, "height": 896},   # mobile
-    {"width": 768, "height": 1024},  # tablet
-]
 
 # ---------------------------------------------------------
 # CONFIG
@@ -276,13 +257,14 @@ def parse_price_from_html(html: str) -> float | None:
     if price_block:
         try:
             return float(price_block.get_text(strip=True).replace("€","").replace(",","."))
+
         except:
             pass
 
     return None
 
 # ---------------------------------------------------------
-# STEALTH MODE
+# STEALTH MODE (solo webdriver undefined)
 # ---------------------------------------------------------
 STEALTH_JS = """
 Object.defineProperty(navigator,'webdriver',{get:()=>undefined});
@@ -293,16 +275,10 @@ Object.defineProperty(navigator,'webdriver',{get:()=>undefined});
 # ---------------------------------------------------------
 def get_product_price(page: Page, url: str, asin: str):
     for attempt in range(1, RETRY_COUNT+1):
-
-        time.sleep(random.uniform(0.5, 1.5))  # jitter anti-bot
-
         log(f"  Tentativo {attempt} per ASIN {asin}")
 
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
-
-            time.sleep(random.uniform(0.8, 2.2))  # anti-bot delay
-
             html = page.content()
 
             if "captcha" in html.lower():
@@ -337,22 +313,11 @@ def get_items():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
 
-        ua = random.choice(USER_AGENTS)
-        vp = random.choice(VIEWPORTS)
-
         context = browser.new_context(
-            user_agent=ua,
-            viewport=vp,
+            user_agent="Mozilla/5.0",
             locale="it-IT",
-            timezone_id="Europe/Rome",
-            device_scale_factor=1,
+            timezone_id="Europe/Rome"
         )
-
-        context.set_extra_http_headers({
-            "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
-            "Accept-Encoding": "gzip, deflate, br",
-            "DNT": "1"
-        })
 
         context.add_init_script(STEALTH_JS)
 
@@ -361,8 +326,7 @@ def get_items():
 
         log("Caricamento wishlist…")
         page.goto(WISHLIST_URL, wait_until="domcontentloaded")
-
-        time.sleep(random.uniform(1.0, 2.5))  # anti-bot delay
+        page.wait_for_timeout(1500)
 
         last_count = 0
         stable_rounds = 0
@@ -375,13 +339,15 @@ def get_items():
 
             html = page.content()
             soup = BeautifulSoup(html, "lxml")
-            rows = soup.select("div[data-asin], li[data-asin], div.wishlist-item")
+
+            rows = soup.select(
+                "div[data-asin], li[data-asin], div.wishlist-item"
+            )
 
             if not rows:
                 rows = soup.select("div.a-section.a-spacing-none[data-asin]")
 
             current_count = len(rows)
-
             log(f"→ Elementi visibili: {current_count}")
 
             if current_count == last_count:
@@ -440,22 +406,11 @@ def main():
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
 
-            ua = random.choice(USER_AGENTS)
-            vp = random.choice(VIEWPORTS)
-
             context = browser.new_context(
-                user_agent=ua,
-                viewport=vp,
+                user_agent="Mozilla/5.0",
                 locale="it-IT",
-                timezone_id="Europe/Rome",
-                device_scale_factor=1,
+                timezone_id="Europe/Rome"
             )
-
-            context.set_extra_http_headers({
-                "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
-                "Accept-Encoding": "gzip, deflate, br",
-                "DNT": "1"
-            })
 
             context.add_init_script(STEALTH_JS)
 
@@ -534,7 +489,6 @@ def main():
 
         for asin in list(new.keys()):
             if asin not in found_asins:
-
                 if "missing_count" not in new[asin]:
                     new[asin]["missing_count"] = 0
 
@@ -560,4 +514,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
