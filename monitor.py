@@ -375,7 +375,11 @@ def get_items():
 
             html = page.content()
             soup = BeautifulSoup(html, "lxml")
-            rows = soup.select("div.g-item-sortable, [data-itemid]")
+            rows = soup.select("div[data-asin], li[data-asin], div.wishlist-item")
+
+            if not rows:
+                rows = soup.select("div.a-section.a-spacing-none[data-asin]")
+
             current_count = len(rows)
 
             log(f"→ Elementi visibili: {current_count}")
