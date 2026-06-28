@@ -123,7 +123,7 @@ def extract_asin(url: str) -> str | None:
     return None
 
 # ---------------------------------------------------------
-# SHIPPING + SELLER (VERSIONE DEFINITIVA 2026)
+# SHIPPING + SELLER
 # ---------------------------------------------------------
 def extract_shipping_and_seller(html: str):
     soup = BeautifulSoup(html, "lxml")
@@ -132,13 +132,11 @@ def extract_shipping_and_seller(html: str):
     shipped_by = None
     shipping_cost = None
 
-    # --- VENDITORE / SPEDITORE (ODF) ---
     odf_seller = soup.select_one("#merchantInfoFeature_feature_div .offer-display-feature-text-message")
     if odf_seller:
         seller = odf_seller.get_text(strip=True)
         shipped_by = seller
 
-    # --- SPEDIZIONE: NUOVO LAYOUT 2026 (fonte ufficiale) ---
     el = soup.select_one("[data-csa-c-delivery-price]")
     if el:
         raw = el.get("data-csa-c-delivery-price", "").strip()
@@ -146,7 +144,6 @@ def extract_shipping_and_seller(html: str):
         if raw:
             shipping_cost = raw
 
-    # --- FALLBACK VECCHI LAYOUT ---
     if not shipping_cost:
         el = soup.select_one("#deliveryMessageMirId span")
         if el:
@@ -157,7 +154,6 @@ def extract_shipping_and_seller(html: str):
         if el:
             shipping_cost = el.get_text(strip=True)
 
-    # --- FALLBACK VENDITORE ---
     if not seller:
         el = soup.select_one("#merchant-info")
         if el:
@@ -192,6 +188,7 @@ def parse_price_from_html(html: str) -> float | None:
         if offscreen:
             try:
                 return float(offscreen.get_text(strip=True).replace("€","").replace(",","."))
+
             except:
                 pass
 
@@ -199,6 +196,7 @@ def parse_price_from_html(html: str) -> float | None:
     if fallback:
         try:
             return float(fallback.get_text(strip=True).replace("€","").replace(",","."))
+
         except:
             pass
 
@@ -396,39 +394,84 @@ def main():
             asin = extract_asin(url)
             camel = f"https://it.camelcamelcamel.com/product/{asin}" if asin else "#"
 
+            # --- Se nuovo prodotto ---
             if name not in old:
                 new[name] = {
                     "current":price,
-                    "history":[{"date":today,"price":price}]
+                    "history":[{"date":today,"price":price}],
+                    "pending_drop":None
                 }
                 continue
 
-            old_history = old[name].get("history",[])
-            history = list(old_history)
+            entry = old[name]
+            history = entry.get("history",[])
+            old_current = entry.get("current")
+            pending = entry.get("pending_drop")
 
-            last_price = history[-1]["price"] if history else None
-            old_current = old[name].get("current")
+            # --- BLOCCO PREZZI FANTASMA ---
+            if price is None or price == 0:
+                log(f"  Prezzo non valido per {name}, mantengo il precedente.")
+                new[name] = entry
+                continue
 
-            new[name] = {"current":price,"history":history}
+            # --- Se il prezzo non cambia ---
+            if price == old_current:
+                new[name] = entry
+                continue
 
-            if last_price != price:
-                new[name]["history"].append({"date":today,"price":price})
-                log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
-
+            # --- Calcolo ribasso ---
+            drop = None
             if old_current and old_current > 0:
                 drop = ((old_current - price) / old_current) * 100
-                if drop >= THRESHOLD:
-                    alerts.append(
-                        f"<b>{name}</b><br>"
-                        f"Vecchio: €{old_current:.2f}<br>"
-                        f"Nuovo: €{price:.2f}<br>"
-                        f"↓ {drop:.1f}%<br><br>"
-                        f"Venduto da: {seller or 'N/D'}<br>"
-                        f"Spedito da: {shipped_by or 'N/D'}<br>"
-                        f"Spedizione: {shipping_cost or 'N/D'}<br><br>"
-                        f"<a href='{camel}'>camelcamelcamel</a><br>"
-                        f"<a href='{url}'>amazon</a><br><br>"
-                    )
+
+            # --- Gestione ribassi fantasma ---
+            if drop and drop >= THRESHOLD:
+                if not pending:
+                    new[name] = {
+                        "current":price,
+                        "history":history,
+                        "pending_drop":{
+                            "first_seen":today,
+                            "old_price":old_current,
+                            "new_price":price
+                        }
+                    }
+                    log(f"  Ribasso rilevato per {name}, in attesa di conferma…")
+                else:
+                    if pending["new_price"] == price:
+                        alerts.append(
+                            f"<b>{name}</b><br>"
+                            f"Vecchio: €{old_current:.2f}<br>"
+                            f"Nuovo: €{price:.2f}<br>"
+                            f"↓ {drop:.1f}% (confermato)<br><br>"
+                            f"Venduto da: {seller or 'N/D'}<br>"
+                            f"Spedito da: {shipped_by or 'N/D'}<br>"
+                            f"Spedizione: {shipping_cost or 'N/D'}<br><br>"
+                            f"<a href='{camel}'>camelcamelcamel</a><br>"
+                            f"<a href='{url}'>amazon</a><br><br>"
+                        )
+                        log(f"  Ribasso confermato per {name}!")
+                        new[name] = {
+                            "current":price,
+                            "history":history,
+                            "pending_drop":None
+                        }
+                    else:
+                        log(f"  Ribasso fantasma per {name}, reset.")
+                        new[name] = {
+                            "current":price,
+                            "history":history,
+                            "pending_drop":None
+                        }
+            else:
+                # --- Prezzo cambiato ma non ribasso significativo ---
+                history.append({"date":today,"price":price})
+                new[name] = {
+                    "current":price,
+                    "history":history,
+                    "pending_drop":None
+                }
+                log(f"  Prezzo cambiato per {name}: {old_current} → {price}")
 
         with open(DATA_FILE,"w") as f:
             json.dump(new,f,indent=2)
