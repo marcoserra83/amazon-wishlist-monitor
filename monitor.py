@@ -30,6 +30,8 @@ RETRY_COUNT = 2
 LOCK_FILE = "monitor.lock"
 LOCK_TIMEOUT = 60 * 30  # 30 minuti
 
+REPORT_FILE = os.path.join("debug_output", "wishlist_report.html")
+
 # ---------------------------------------------------------
 # LOCK SYSTEM
 # ---------------------------------------------------------
@@ -102,17 +104,90 @@ def load_prices():
         return {}
 
 def save_prices(data):
-    # Backup
     with open(BACKUP_FILE, "w") as f:
         json.dump(data, f, indent=2)
 
-    # Scrittura sicura
     tmp = DATA_FILE + ".tmp"
     with open(tmp, "w") as f:
         json.dump(data, f, indent=2)
 
     os.replace(tmp, DATA_FILE)
     log("Prezzi salvati in modo sicuro.")
+
+# ---------------------------------------------------------
+# REPORT HTML
+# ---------------------------------------------------------
+def generate_html_report(data):
+    os.makedirs("debug_output", exist_ok=True)
+
+    rows = []
+    for asin, entry in sorted(data.items()):
+        name = entry.get("name", asin)
+        current = entry.get("current")
+        history = entry.get("history", [])
+        missing = entry.get("missing_count", 0)
+        pending = entry.get("pending_drop")
+
+        history_str = "<br>".join(
+            f"{h['date']}: €{h['price']:.2f}"
+            for h in history[-3:]
+        )
+
+        status = []
+        if missing > 0:
+            status.append(f"missing x{missing}")
+        if pending:
+            status.append("pending drop")
+        if not status:
+            status.append("ok")
+
+        rows.append(f"""
+        <tr>
+          <td>{asin}</td>
+          <td>{name}</td>
+          <td>{'€{:.2f}'.format(current) if current is not None else 'N/D'}</td>
+          <td>{'<br>'.join(status)}</td>
+          <td>{history_str}</td>
+        </tr>
+        """)
+
+    html = f"""<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Amazon Wishlist Report</title>
+  <style>
+    body {{ font-family: system-ui, -apple-system, sans-serif; background:#f5f5f5; }}
+    table {{ border-collapse: collapse; width: 100%; background:#fff; }}
+    th, td {{ border: 1px solid #ddd; padding: 8px; font-size: 14px; vertical-align: top; }}
+    th {{ background:#222; color:#fff; position: sticky; top:0; }}
+    tr:nth-child(even) {{ background:#fafafa; }}
+  </style>
+</head>
+<body>
+  <h1>Amazon Wishlist Report</h1>
+  <p>Generato il {datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d %H:%M:%S")}</p>
+  <table>
+    <thead>
+      <tr>
+        <th>ASIN</th>
+        <th>Nome</th>
+        <th>Prezzo attuale</th>
+        <th>Stato</th>
+        <th>Storico (ultimi 3)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {''.join(rows)}
+    </tbody>
+  </table>
+</body>
+</html>
+"""
+    with open(REPORT_FILE, "w", encoding="utf-8") as f:
+        f.write(html)
+
+    log(f"Report HTML generato: {REPORT_FILE}")
 
 # ---------------------------------------------------------
 # NORMALIZZA NOME
@@ -207,7 +282,7 @@ def get_product_price(page: Page, url: str, asin: str):
 
             if "captcha" in html.lower():
                 log(f"  CAPTCHA rilevato per {asin}")
-                return None,None,None,None
+                return None, None, None, None
 
             try:
                 page.wait_for_selector(".a-price, .a-offscreen", timeout=TIMEOUT_SELECTOR)
@@ -226,7 +301,7 @@ def get_product_price(page: Page, url: str, asin: str):
         except Exception as e:
             log(f"  Errore durante parsing {asin}: {e}")
 
-    return None,None,None,None
+    return None, None, None, None
 
 # ---------------------------------------------------------
 # SCRAPING WISHLIST
@@ -283,8 +358,8 @@ def get_items():
             if not title_el:
                 continue
 
-            name = title_el.get("title","").strip() or title_el.get_text(strip=True)
-            url = title_el.get("href","")
+            name = title_el.get("title", "").strip() or title_el.get_text(strip=True)
+            url = title_el.get("href", "")
             if not url.startswith("http"):
                 url = "https://www.amazon.it" + url
 
@@ -321,73 +396,83 @@ def main():
 
         found_asins = set()
 
-        for asin, raw_name, url in items:
-            found_asins.add(asin)
-            name = normalize(raw_name)
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            context = browser.new_context(
+                user_agent="Mozilla/5.0",
+                locale="it-IT",
+                timezone_id="Europe/Rome"
+            )
+            context.add_init_script(STEALTH_JS)
+            page = context.new_page()
+            page.set_default_timeout(TIMEOUT_PAGE)
 
-            log(f"Elaborazione {asin} ({name})")
+            processed = 0
 
-            price, seller, shipped_by, shipping_cost = get_product_price(page=None, url=url, asin=asin)
+            for asin, raw_name, url in items:
+                found_asins.add(asin)
+                name = normalize(raw_name)
 
-            if asin not in new:
-                new[asin] = {
-                    "name": name,
-                    "current": price,
-                    "history": [{"date": today, "price": price}] if price else [],
-                    "pending_drop": None,
-                    "missing_count": 0
-                }
-                continue
+                log(f"Elaborazione {asin} ({name})")
 
-            entry = new[asin]
+                price, seller, shipped_by, shipping_cost = get_product_price(page, url, asin)
+                processed += 1
 
-            # Reset missing count
-            entry["missing_count"] = 0
+                if asin not in new:
+                    new[asin] = {
+                        "name": name,
+                        "current": price,
+                        "history": [{"date": today, "price": price}] if price else [],
+                        "pending_drop": None,
+                        "missing_count": 0
+                    }
+                    continue
 
-            old_price = entry["current"]
+                entry = new[asin]
+                entry["missing_count"] = 0
+                old_price = entry["current"]
 
-            # Se Amazon non mostra il prezzo → non aggiornare
-            if price is None:
-                log(f"  Prezzo non disponibile per {asin}, mantengo il precedente.")
-                continue
+                if price is None:
+                    log(f"  Prezzo non disponibile per {asin}, mantengo il precedente.")
+                    continue
 
-            # Aggiorna storico se cambia
-            if old_price != price:
-                entry["history"].append({"date": today, "price": price})
-                log(f"  Prezzo cambiato: {old_price} → {price}")
+                if old_price != price:
+                    entry["history"].append({"date": today, "price": price})
+                    log(f"  Prezzo cambiato: {old_price} → {price}")
 
-            entry["current"] = price
+                entry["current"] = price
 
-            # --- LOGICA ANTI-RIBASSI FANTASMA ---
-            if old_price and old_price > 0:
-                drop = ((old_price - price) / old_price) * 100
+                if old_price and old_price > 0:
+                    drop = ((old_price - price) / old_price) * 100
 
-                if drop >= THRESHOLD:
-                    pd = entry.get("pending_drop")
+                    if drop >= THRESHOLD:
+                        pd = entry.get("pending_drop")
 
-                    if not pd:
-                        entry["pending_drop"] = {
-                            "first_seen": today,
-                            "old_price": old_price,
-                            "new_price": price
-                        }
-                        log(f"  Ribasso rilevato per {asin}, in attesa di conferma…")
-                    else:
-                        if pd["new_price"] == price:
-                            alerts.append(
-                                f"<b>{entry['name']}</b><br>"
-                                f"Vecchio: €{old_price:.2f}<br>"
-                                f"Nuovo: €{price:.2f}<br>"
-                                f"↓ {drop:.1f}% (confermato)<br><br>"
-                                f"<a href='{url}'>amazon</a><br><br>"
-                            )
-                            log(f"  Ribasso confermato per {asin}!")
-                            entry["pending_drop"] = None
+                        if not pd:
+                            entry["pending_drop"] = {
+                                "first_seen": today,
+                                "old_price": old_price,
+                                "new_price": price
+                            }
+                            log(f"  Ribasso rilevato per {asin}, in attesa di conferma…")
                         else:
-                            log(f"  Ribasso fantasma per {asin}, reset.")
-                            entry["pending_drop"] = None
+                            if pd["new_price"] == price:
+                                alerts.append(
+                                    f"<b>{entry['name']}</b><br>"
+                                    f"Vecchio: €{old_price:.2f}<br>"
+                                    f"Nuovo: €{price:.2f}<br>"
+                                    f"↓ {drop:.1f}% (confermato)<br><br>"
+                                    f"<a href='{url}'>amazon</a><br><br>"
+                                )
+                                log(f"  Ribasso confermato per {asin}!")
+                                entry["pending_drop"] = None
+                            else:
+                                log(f"  Ribasso fantasma per {asin}, reset.")
+                                entry["pending_drop"] = None
 
-        # Gestione prodotti mancanti
+            browser.close()
+            log(f"Prodotti processati: {processed}")
+
         for asin in list(new.keys()):
             if asin not in found_asins:
                 new[asin]["missing_count"] += 1
@@ -398,6 +483,7 @@ def main():
                     del new[asin]
 
         save_prices(new)
+        generate_html_report(new)
 
         if alerts:
             send_email("<br>".join(alerts))
