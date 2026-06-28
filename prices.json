@@ -30,18 +30,18 @@
     "pending_drop": null
   },
   "fear of the dawn": {
-    "current": 31.29,
+    "current": 37.72,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
         "price": 37.72
+      },
+      {
+        "date": "2026-06-28 13:48:03",
+        "price": 37.72
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-06-28 13:37:49",
-      "old_price": 37.72,
-      "new_price": 31.29
-    }
+    "pending_drop": null
   },
   "entering heaven alive": {
     "current": 37.43,
