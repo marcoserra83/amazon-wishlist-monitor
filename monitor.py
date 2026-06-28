@@ -138,13 +138,23 @@ def extract_shipping_and_seller(html: str):
         seller = odf_seller.get_text(strip=True)
         shipped_by = seller
 
-    # --- SPEDIZIONE: NUOVO LAYOUT 2026 (fonte ufficiale) ---
+    # --- SPEDIZIONE: NUOVO LAYOUT 2026 (attributo) ---
     el = soup.select_one("[data-csa-c-delivery-price]")
     if el:
         raw = el.get("data-csa-c-delivery-price", "").strip()
         raw = raw.replace("a ", "").replace("&nbsp;", " ").strip()
         if raw:
             shipping_cost = raw
+
+    # --- NUOVO LAYOUT 2026 (testo visibile: "Consegna a X €") ---
+    if not shipping_cost:
+        el = soup.select_one("#mir-layout-DELIVERY_BLOCK-slot-PRIMARY_DELIVERY_MESSAGE_LARGE span")
+        if el:
+            txt = el.get_text(strip=True)
+            if "€" in txt:
+                m = re.search(r"(\d+,\d+)\s*€", txt)
+                if m:
+                    shipping_cost = m.group(1) + " €"
 
     # --- FALLBACK VECCHI LAYOUT ---
     if not shipping_cost:
@@ -411,24 +421,49 @@ def main():
 
             new[name] = {"current":price,"history":history}
 
+            # Mantieni pending_drop se esiste
+            if "pending_drop" in old[name]:
+                new[name]["pending_drop"] = old[name]["pending_drop"]
+
+            # Aggiorna storico se cambia
             if last_price != price:
                 new[name]["history"].append({"date":today,"price":price})
                 log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
 
+            # --- LOGICA ANTI-RIBASSI FANTASMA ---
             if old_current and old_current > 0:
                 drop = ((old_current - price) / old_current) * 100
+
                 if drop >= THRESHOLD:
-                    alerts.append(
-                        f"<b>{name}</b><br>"
-                        f"Vecchio: €{old_current:.2f}<br>"
-                        f"Nuovo: €{price:.2f}<br>"
-                        f"↓ {drop:.1f}%<br><br>"
-                        f"Venduto da: {seller or 'N/D'}<br>"
-                        f"Spedito da: {shipped_by or 'N/D'}<br>"
-                        f"Spedizione: {shipping_cost or 'N/D'}<br><br>"
-                        f"<a href='{camel}'>camelcamelcamel</a><br>"
-                        f"<a href='{url}'>amazon</a><br><br>"
-                    )
+                    # Primo run del ribasso → non notificare
+                    if "pending_drop" not in old[name]:
+                        new[name]["pending_drop"] = {
+                            "first_seen": today,
+                            "old_price": old_current,
+                            "new_price": price
+                        }
+                        log(f"  Ribasso rilevato per {name}, in attesa di conferma...")
+                    else:
+                        # Ribasso già visto → confermato
+                        pd = old[name]["pending_drop"]
+                        if pd["new_price"] == price:
+                            alerts.append(
+                                f"<b>{name}</b><br>"
+                                f"Vecchio: €{old_current:.2f}<br>"
+                                f"Nuovo: €{price:.2f}<br>"
+                                f"↓ {drop:.1f}% (confermato)<br><br>"
+                                f"Venduto da: {seller or 'N/D'}<br>"
+                                f"Spedito da: {shipped_by or 'N/D'}<br>"
+                                f"Spedizione: {shipping_cost or 'N/D'}<br><br>"
+                                f"<a href='{camel}'>camelcamelcamel</a><br>"
+                                f"<a href='{url}'>amazon</a><br><br>"
+                            )
+                            log(f"  Ribasso confermato per {name}!")
+                            del new[name]["pending_drop"]
+                        else:
+                            # Ribasso fantasma → reset
+                            log(f"  Ribasso fantasma per {name}, reset.")
+                            del new[name]["pending_drop"]
 
         with open(DATA_FILE,"w") as f:
             json.dump(new,f,indent=2)
