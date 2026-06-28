@@ -21,7 +21,6 @@ THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 1))
 DEBUG_HTML = os.environ.get("DEBUG_HTML", "0") == "1"
 
 DATA_FILE = "prices.json"
-BACKUP_FILE = "prices.json.bak"
 LOG_DIR = "logs"
 TIMEOUT_PAGE = 20000
 TIMEOUT_SELECTOR = 2500
@@ -29,8 +28,6 @@ RETRY_COUNT = 2
 
 LOCK_FILE = "monitor.lock"
 LOCK_TIMEOUT = 60 * 30  # 30 minuti
-
-REPORT_FILE = os.path.join("debug_output", "wishlist_report.html")
 
 # ---------------------------------------------------------
 # LOCK SYSTEM
@@ -51,6 +48,19 @@ def acquire_lock():
 def release_lock():
     if os.path.exists(LOCK_FILE):
         os.remove(LOCK_FILE)
+
+# ---------------------------------------------------------
+# DEBUG HTML
+# ---------------------------------------------------------
+def save_debug_html(name: str, html: str):
+    if not DEBUG_HTML:
+        return
+    os.makedirs("debug_html", exist_ok=True)
+    safe = re.sub(r"[^a-zA-Z0-9_-]", "_", name)
+    path = f"debug_html/{safe}.html"
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"[DEBUG] HTML salvato: {path}")
 
 # ---------------------------------------------------------
 # LOGGING
@@ -80,123 +90,25 @@ def send_email(body: str):
     log("Email inviata.")
 
 # ---------------------------------------------------------
-# BACKUP SYSTEM
-# ---------------------------------------------------------
-def load_prices():
-    if not os.path.exists(DATA_FILE):
-        return {}
-
-    try:
-        with open(DATA_FILE, "r") as f:
-            data = json.load(f)
-            log("File prezzi caricato correttamente.")
-            return data
-    except Exception as e:
-        log(f"ERRORE: file prezzi corrotto ({e}). Recupero dal backup…")
-
-        if os.path.exists(BACKUP_FILE):
-            with open(BACKUP_FILE, "r") as f:
-                data = json.load(f)
-                log("Backup ripristinato.")
-                return data
-
-        log("Backup mancante. Storico perso.")
-        return {}
-
-def save_prices(data):
-    with open(BACKUP_FILE, "w") as f:
-        json.dump(data, f, indent=2)
-
-    tmp = DATA_FILE + ".tmp"
-    with open(tmp, "w") as f:
-        json.dump(data, f, indent=2)
-
-    os.replace(tmp, DATA_FILE)
-    log("Prezzi salvati in modo sicuro.")
-
-# ---------------------------------------------------------
-# REPORT HTML
-# ---------------------------------------------------------
-def generate_html_report(data):
-    os.makedirs("debug_output", exist_ok=True)
-
-    rows = []
-    for asin, entry in sorted(data.items()):
-        name = entry.get("name", asin)
-        current = entry.get("current")
-        history = entry.get("history", [])
-        missing = entry.get("missing_count", 0)
-        pending = entry.get("pending_drop")
-
-        history_str = "<br>".join(
-            f"{h['date']}: €{h['price']:.2f}"
-            for h in history[-3:]
-        )
-
-        status = []
-        if missing > 0:
-            status.append(f"missing x{missing}")
-        if pending:
-            status.append("pending drop")
-        if not status:
-            status.append("ok")
-
-        rows.append(f"""
-        <tr>
-          <td>{asin}</td>
-          <td>{name}</td>
-          <td>{'€{:.2f}'.format(current) if current is not None else 'N/D'}</td>
-          <td>{'<br>'.join(status)}</td>
-          <td>{history_str}</td>
-        </tr>
-        """)
-
-    html = f"""<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="utf-8">
-  <title>Amazon Wishlist Report</title>
-  <style>
-    body {{ font-family: system-ui, -apple-system, sans-serif; background:#f5f5f5; }}
-    table {{ border-collapse: collapse; width: 100%; background:#fff; }}
-    th, td {{ border: 1px solid #ddd; padding: 8px; font-size: 14px; vertical-align: top; }}
-    th {{ background:#222; color:#fff; position: sticky; top:0; }}
-    tr:nth-child(even) {{ background:#fafafa; }}
-  </style>
-</head>
-<body>
-  <h1>Amazon Wishlist Report</h1>
-  <p>Generato il {datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d %H:%M:%S")}</p>
-  <table>
-    <thead>
-      <tr>
-        <th>ASIN</th>
-        <th>Nome</th>
-        <th>Prezzo attuale</th>
-        <th>Stato</th>
-        <th>Storico (ultimi 3)</th>
-      </tr>
-    </thead>
-    <tbody>
-      {''.join(rows)}
-    </tbody>
-  </table>
-</body>
-</html>
-"""
-    with open(REPORT_FILE, "w", encoding="utf-8") as f:
-        f.write(html)
-
-    log(f"Report HTML generato: {REPORT_FILE}")
-
-# ---------------------------------------------------------
 # NORMALIZZA NOME
 # ---------------------------------------------------------
 def normalize(name: str) -> str:
     name = name.lower()
     name = re.sub(r"\(.*?\)|\[.*?\]|\{.*?\}", "", name)
+
+    blacklist = [
+        "vinile","lp","remaster","remastered","edition","edizione",
+        "anniversary","deluxe","expanded","version","2lp","3lp",
+        "limited","limitata","col","color","colored","transparent",
+        "black","white","yellow","blue","red","180gr","180g",
+        "20th","25th","30th","40th"
+    ]
+    for word in blacklist:
+        name = name.replace(word, "")
+
     name = re.sub(r"[^a-z0-9]+", " ", name)
-    return re.sub(r"\s+", " ", name).strip()
+    name = re.sub(r"\s+", " ", name).strip()
+    return name
 
 # ---------------------------------------------------------
 # EXTRACT ASIN
@@ -211,7 +123,7 @@ def extract_asin(url: str) -> str | None:
     return None
 
 # ---------------------------------------------------------
-# SHIPPING + SELLER
+# SHIPPING + SELLER (VERSIONE DEFINITIVA 2026)
 # ---------------------------------------------------------
 def extract_shipping_and_seller(html: str):
     soup = BeautifulSoup(html, "lxml")
@@ -220,11 +132,13 @@ def extract_shipping_and_seller(html: str):
     shipped_by = None
     shipping_cost = None
 
+    # --- VENDITORE / SPEDITORE (ODF) ---
     odf_seller = soup.select_one("#merchantInfoFeature_feature_div .offer-display-feature-text-message")
     if odf_seller:
         seller = odf_seller.get_text(strip=True)
         shipped_by = seller
 
+    # --- SPEDIZIONE: NUOVO LAYOUT 2026 (fonte ufficiale) ---
     el = soup.select_one("[data-csa-c-delivery-price]")
     if el:
         raw = el.get("data-csa-c-delivery-price", "").strip()
@@ -232,16 +146,30 @@ def extract_shipping_and_seller(html: str):
         if raw:
             shipping_cost = raw
 
+    # --- FALLBACK VECCHI LAYOUT ---
     if not shipping_cost:
-        el = soup.select_one("#mir-layout-DELIVERY_BLOCK-slot-PRIMARY_DELIVERY_MESSAGE_LARGE span")
+        el = soup.select_one("#deliveryMessageMirId span")
         if el:
-            txt = el.get_text(strip=True)
-            m = re.search(r"(\d+,\d+)\s*€", txt)
-            if m:
-                shipping_cost = m.group(1) + " €"
+            shipping_cost = el.get_text(strip=True)
 
+    if not shipping_cost:
+        el = soup.select_one("#mir-layout-DELIVERY_BLOCK span.a-color-secondary")
+        if el:
+            shipping_cost = el.get_text(strip=True)
+
+    # --- FALLBACK VENDITORE ---
     if not seller:
         el = soup.select_one("#merchant-info")
+        if el:
+            seller = el.get_text(strip=True)
+
+    if not seller:
+        el = soup.select_one("#sellerProfileTriggerId")
+        if el:
+            seller = el.get_text(strip=True)
+
+    if not seller:
+        el = soup.select_one("div#buybox-see-all-buying-choices a")
         if el:
             seller = el.get_text(strip=True)
 
@@ -253,56 +181,92 @@ def extract_shipping_and_seller(html: str):
 def parse_price_from_html(html: str) -> float | None:
     soup = BeautifulSoup(html, "lxml")
 
-    price_block = soup.select_one("span.a-price > span.a-offscreen")
-    if price_block:
-        try:
-            return float(price_block.get_text(strip=True).replace("€","").replace(",","."))
+    for bad in soup.select("#sims-consolidated-2, #sims-consolidated-3, #sp_detail, .a-carousel"):
+        bad.decompose()
 
+    price_block = soup.select_one(
+        "#corePrice_feature_div, #apex_desktop, #corePriceDisplay_desktop_feature_div"
+    )
+    if price_block:
+        offscreen = price_block.select_one("span.a-price > span.a-offscreen")
+        if offscreen:
+            try:
+                return float(offscreen.get_text(strip=True).replace("€","").replace(",","."))
+            except:
+                pass
+
+    fallback = soup.select_one("span.a-price > span.a-offscreen")
+    if fallback:
+        try:
+            return float(fallback.get_text(strip=True).replace("€","").replace(",","."))
+        except:
+            pass
+
+    whole = soup.select_one("span.a-price-whole")
+    frac = soup.select_one("span.a-price-fraction")
+    if whole and frac:
+        try:
+            return float(whole.get_text(strip=True).replace(".","") + "." + frac.get_text(strip=True))
         except:
             pass
 
     return None
 
 # ---------------------------------------------------------
-# STEALTH MODE (solo webdriver undefined)
+# STEALTH MODE
 # ---------------------------------------------------------
 STEALTH_JS = """
 Object.defineProperty(navigator,'webdriver',{get:()=>undefined});
+window.chrome={runtime:{}};
+Object.defineProperty(navigator,'plugins',{get:()=>[1,2,3]});
+Object.defineProperty(navigator,'languages',{get:()=>['it-IT','it']});
+Object.defineProperty(navigator,'platform',{get:()=> 'Win32'});
+Object.defineProperty(navigator,'hardwareConcurrency',{get:()=>8});
+Object.defineProperty(navigator,'deviceMemory',{get:()=>8});
+Object.defineProperty(navigator,'maxTouchPoints',{get:()=>0});
 """
 
 # ---------------------------------------------------------
 # SCRAPING PREZZO
 # ---------------------------------------------------------
-def get_product_price(page: Page, url: str, asin: str):
+def get_product_price(page: Page, url: str, name: str):
     for attempt in range(1, RETRY_COUNT+1):
-        log(f"  Tentativo {attempt} per ASIN {asin}")
+        log(f"  Tentativo {attempt} per {name}")
 
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_PAGE)
             html = page.content()
 
             if "captcha" in html.lower():
-                log(f"  CAPTCHA rilevato per {asin}")
-                return None, None, None, None
+                log(f"  CAPTCHA rilevato per {name}")
+                return None,None,None,None
 
             try:
-                page.wait_for_selector(".a-price, .a-offscreen", timeout=TIMEOUT_SELECTOR)
+                page.wait_for_selector(
+                    ".a-price, .a-offscreen, #corePrice_feature_div, #twister-plus-price-data-price",
+                    timeout=TIMEOUT_SELECTOR
+                )
             except:
-                log(f"  Nessun selettore prezzo trovato per {asin}")
+                log(f"  Nessun selettore prezzo trovato per {name}")
                 continue
 
             html = page.content()
             price = parse_price_from_html(html)
             seller, shipped_by, shipping_cost = extract_shipping_and_seller(html)
 
+            if DEBUG_HTML and (not seller or not shipped_by or not shipping_cost):
+                save_debug_html(name, html)
+
             if price and price > 0:
                 log(f"  Prezzo trovato: €{price:.2f}")
                 return price, seller, shipped_by, shipping_cost
 
-        except Exception as e:
-            log(f"  Errore durante parsing {asin}: {e}")
+            log(f"  Parsing fallito per {name}")
 
-    return None, None, None, None
+        except Exception as e:
+            log(f"  Errore durante parsing {name}: {e}")
+
+    return None,None,None,None
 
 # ---------------------------------------------------------
 # SCRAPING WISHLIST
@@ -311,15 +275,32 @@ def get_items():
     log("Apertura Playwright…")
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"]
+        )
 
         context = browser.new_context(
-            user_agent="Mozilla/5.0",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
             locale="it-IT",
-            timezone_id="Europe/Rome"
+            timezone_id="Europe/Rome",
+            viewport={"width":1920,"height":1080}
         )
 
         context.add_init_script(STEALTH_JS)
+
+        context.route("**/*", lambda route: route.abort()
+                      if route.request.resource_type in ["font"]
+                      else route.continue_())
+
+        cookies_json = os.environ.get("AMAZON_COOKIES")
+        if cookies_json:
+            try:
+                cookies = json.loads(cookies_json)
+                context.add_cookies(cookies)
+                log("Cookie Amazon caricati nel browser.")
+            except Exception as e:
+                log(f"Errore caricamento cookie Amazon: {e}")
 
         page = context.new_page()
         page.set_default_timeout(TIMEOUT_PAGE)
@@ -339,15 +320,9 @@ def get_items():
 
             html = page.content()
             soup = BeautifulSoup(html, "lxml")
-
-            rows = soup.select(
-                "div[data-asin], li[data-asin], div.wishlist-item"
-            )
-
-            if not rows:
-                rows = soup.select("div.a-section.a-spacing-none[data-asin]")
-
+            rows = soup.select("div.g-item-sortable, [data-itemid]")
             current_count = len(rows)
+
             log(f"→ Elementi visibili: {current_count}")
 
             if current_count == last_count:
@@ -359,25 +334,31 @@ def get_items():
             if stable_rounds >= 2:
                 break
 
+        if last_count == 0:
+            raise Exception("Nessun item trovato nella wishlist")
+
+        log(f"Trovati {last_count} prodotti totali")
+
         items = []
         for row in rows:
             title_el = row.select_one("a.a-link-normal, a.a-text-normal")
             if not title_el:
                 continue
-
-            name = title_el.get("title", "").strip() or title_el.get_text(strip=True)
-            url = title_el.get("href", "")
+            name = title_el.get("title","").strip() or title_el.get_text(strip=True)
+            url = title_el.get("href","")
             if not url.startswith("http"):
                 url = "https://www.amazon.it" + url
+            items.append((name,url))
 
-            asin = extract_asin(url)
-            if not asin:
-                continue
-
-            items.append((asin, name, url))
+        results = []
+        for name,url in items:
+            log(f"Elaborazione {name}")
+            price, seller, shipped_by, shipping_cost = get_product_price(page,url,name)
+            if price:
+                results.append((name,price,url,seller,shipped_by,shipping_cost))
 
         browser.close()
-        return items
+        return results
 
 # ---------------------------------------------------------
 # MAIN
@@ -388,7 +369,14 @@ def main():
         log("===== INIZIO MONITOR =====")
         log(f"THRESHOLD: {THRESHOLD}%")
 
-        old = load_prices()
+        old = {}
+        if os.path.exists(DATA_FILE):
+            with open(DATA_FILE,"r") as f:
+                try:
+                    old = json.load(f)
+                    log(f"Caricati {len(old)} prodotti dallo storico.")
+                except:
+                    old = {}
 
         try:
             items = get_items()
@@ -397,110 +385,54 @@ def main():
             log(str(e))
             return
 
-        new = old.copy()
+        new = {}
         alerts = []
         today = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d %H:%M:%S")
 
-        found_asins = set()
+        for raw_name,price,url,seller,shipped_by,shipping_cost in items:
+            name = normalize(raw_name)
+            log(f"Prezzo attuale {name}: €{price:.2f}")
 
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            asin = extract_asin(url)
+            camel = f"https://it.camelcamelcamel.com/product/{asin}" if asin else "#"
 
-            context = browser.new_context(
-                user_agent="Mozilla/5.0",
-                locale="it-IT",
-                timezone_id="Europe/Rome"
-            )
+            if name not in old:
+                new[name] = {
+                    "current":price,
+                    "history":[{"date":today,"price":price}]
+                }
+                continue
 
-            context.add_init_script(STEALTH_JS)
+            old_history = old[name].get("history",[])
+            history = list(old_history)
 
-            page = context.new_page()
-            page.set_default_timeout(TIMEOUT_PAGE)
+            last_price = history[-1]["price"] if history else None
+            old_current = old[name].get("current")
 
-            processed = 0
+            new[name] = {"current":price,"history":history}
 
-            for asin, raw_name, url in items:
-                found_asins.add(asin)
-                name = normalize(raw_name)
+            if last_price != price:
+                new[name]["history"].append({"date":today,"price":price})
+                log(f"  Prezzo cambiato per {name}: {last_price} → {price}")
 
-                log(f"Elaborazione {asin} ({name})")
+            if old_current and old_current > 0:
+                drop = ((old_current - price) / old_current) * 100
+                if drop >= THRESHOLD:
+                    alerts.append(
+                        f"<b>{name}</b><br>"
+                        f"Vecchio: €{old_current:.2f}<br>"
+                        f"Nuovo: €{price:.2f}<br>"
+                        f"↓ {drop:.1f}%<br><br>"
+                        f"Venduto da: {seller or 'N/D'}<br>"
+                        f"Spedito da: {shipped_by or 'N/D'}<br>"
+                        f"Spedizione: {shipping_cost or 'N/D'}<br><br>"
+                        f"<a href='{camel}'>camelcamelcamel</a><br>"
+                        f"<a href='{url}'>amazon</a><br><br>"
+                    )
 
-                price, seller, shipped_by, shipping_cost = get_product_price(page, url, asin)
-                processed += 1
-
-                if asin not in new:
-                    new[asin] = {
-                        "name": name,
-                        "current": price,
-                        "history": [{"date": today, "price": price}] if price else [],
-                        "pending_drop": None,
-                        "missing_count": 0
-                    }
-                    continue
-
-                entry = new[asin]
-
-                if "missing_count" not in entry:
-                    entry["missing_count"] = 0
-
-                entry["missing_count"] = 0
-                old_price = entry["current"]
-
-                if price is None:
-                    log(f"  Prezzo non disponibile per {asin}, mantengo il precedente.")
-                    continue
-
-                if old_price != price:
-                    entry["history"].append({"date": today, "price": price})
-                    log(f"  Prezzo cambiato: {old_price} → {price}")
-
-                entry["current"] = price
-
-                if old_price and old_price > 0:
-                    drop = ((old_price - price) / old_price) * 100
-
-                    if drop >= THRESHOLD:
-                        pd = entry.get("pending_drop")
-
-                        if not pd:
-                            entry["pending_drop"] = {
-                                "first_seen": today,
-                                "old_price": old_price,
-                                "new_price": price
-                            }
-                            log(f"  Ribasso rilevato per {asin}, in attesa di conferma…")
-                        else:
-                            if pd["new_price"] == price:
-                                alerts.append(
-                                    f"<b>{entry['name']}</b><br>"
-                                    f"Vecchio: €{old_price:.2f}<br>"
-                                    f"Nuovo: €{price:.2f}<br>"
-                                    f"↓ {drop:.1f}% (confermato)<br><br>"
-                                    f"<a href='{url}'>amazon</a><br><br>"
-                                )
-                                log(f"  Ribasso confermato per {asin}!")
-                                entry["pending_drop"] = None
-                            else:
-                                log(f"  Ribasso fantasma per {asin}, reset.")
-                                entry["pending_drop"] = None
-
-            browser.close()
-            log(f"Prodotti processati: {processed}")
-
-        for asin in list(new.keys()):
-            if asin not in found_asins:
-                if "missing_count" not in new[asin]:
-                    new[asin]["missing_count"] = 0
-
-                new[asin]["missing_count"] += 1
-                log(f"Prodotto {asin} non trovato (missing_count={new[asin]['missing_count']})")
-
-                if new[asin]["missing_count"] >= 3:
-                    log(f"Prodotto {asin} rimosso definitivamente dalla wishlist.")
-                    del new[asin]
-
-        save_prices(new)
-        generate_html_report(new)
+        with open(DATA_FILE,"w") as f:
+            json.dump(new,f,indent=2)
+            log("Prezzi aggiornati salvati.")
 
         if alerts:
             send_email("<br>".join(alerts))
