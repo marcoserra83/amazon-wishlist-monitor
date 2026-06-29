@@ -530,7 +530,7 @@
     "pending_drop": null
   },
   "up": {
-    "current": 36.51,
+    "current": 44.99,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -555,6 +555,10 @@
       {
         "date": "2026-06-29 21:17:36",
         "price": 36.51
+      },
+      {
+        "date": "2026-06-29 22:08:24",
+        "price": 44.99
       }
     ],
     "pending_drop": null
