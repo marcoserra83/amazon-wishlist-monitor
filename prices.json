@@ -262,7 +262,7 @@
     "pending_drop": null
   },
   "un du": {
-    "current": 54.87,
+    "current": 56.04,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -283,6 +283,10 @@
       {
         "date": "2026-06-29 13:38:00",
         "price": 54.87
+      },
+      {
+        "date": "2026-06-29 14:18:15",
+        "price": 56.04
       }
     ],
     "pending_drop": null
@@ -1138,11 +1142,15 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 36.21,
+    "current": 44.91,
     "history": [
       {
         "date": "2026-06-29 05:47:41",
         "price": 36.21
+      },
+      {
+        "date": "2026-06-29 14:18:15",
+        "price": 44.91
       }
     ],
     "pending_drop": null
