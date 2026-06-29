@@ -1136,14 +1136,18 @@
     "pending_drop": null
   },
   "fabrizio de andre": {
-    "current": 35.4,
+    "current": 31.39,
     "history": [
       {
         "date": "2026-06-29 05:47:41",
         "price": 35.4
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-06-29 17:47:55",
+      "old_price": 35.4,
+      "new_price": 31.39
+    }
   },
   "let love in": {
     "current": 28.99,
@@ -1190,11 +1194,15 @@
     "pending_drop": null
   },
   "morrison hotel": {
-    "current": 32.97,
+    "current": 34.25,
     "history": [
       {
         "date": "2026-06-29 05:47:41",
         "price": 32.97
+      },
+      {
+        "date": "2026-06-29 17:47:55",
+        "price": 34.25
       }
     ],
     "pending_drop": null
