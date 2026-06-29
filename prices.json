@@ -1160,7 +1160,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 44.91,
+    "current": 38.63,
     "history": [
       {
         "date": "2026-06-29 05:47:41",
@@ -1171,7 +1171,11 @@
         "price": 44.91
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-06-29 19:17:39",
+      "old_price": 44.91,
+      "new_price": 38.63
+    }
   },
   "camera a sud": {
     "current": 32.81,
