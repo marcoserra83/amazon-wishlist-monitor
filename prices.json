@@ -1312,18 +1312,18 @@
     "pending_drop": null
   },
   "star": {
-    "current": 109.99,
+    "current": 125.99,
     "history": [
       {
         "date": "2026-06-29 23:48:15",
         "price": 246.63
+      },
+      {
+        "date": "2026-06-30 13:18:02",
+        "price": 125.99
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-06-30 06:38:16",
-      "old_price": 246.63,
-      "new_price": 109.99
-    }
+    "pending_drop": null
   },
   "out of time": {
     "current": 25.36,
