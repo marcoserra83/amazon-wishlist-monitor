@@ -1054,7 +1054,7 @@
     "pending_drop": null
   },
   "reggatta de blanc": {
-    "current": 36.7,
+    "current": 33.99,
     "history": [
       {
         "date": "2026-06-29 03:51:51",
@@ -1067,6 +1067,10 @@
       {
         "date": "2026-06-29 23:48:15",
         "price": 36.7
+      },
+      {
+        "date": "2026-06-30 02:27:49",
+        "price": 33.99
       }
     ],
     "pending_drop": null
