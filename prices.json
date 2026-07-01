@@ -402,7 +402,7 @@
     "pending_drop": null
   },
   "un du": {
-    "current": 56.04,
+    "current": 41.5,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -461,7 +461,11 @@
         "price": 56.04
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-01 17:08:06",
+      "old_price": 56.04,
+      "new_price": 41.5
+    }
   },
   "hot fuzz": {
     "current": 32.8,
@@ -1020,7 +1024,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 48.98,
+    "current": 48.97,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
@@ -1029,6 +1033,10 @@
       {
         "date": "2026-07-01 14:08:26",
         "price": 48.98
+      },
+      {
+        "date": "2026-07-01 17:08:06",
+        "price": 48.97
       }
     ],
     "pending_drop": null
@@ -1280,7 +1288,7 @@
     "pending_drop": null
   },
   "soft parade": {
-    "current": 40.05,
+    "current": 31.33,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
@@ -1295,7 +1303,11 @@
         "price": 40.05
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-01 17:08:06",
+      "old_price": 40.05,
+      "new_price": 31.33
+    }
   },
   "morrison hotel": {
     "current": 33.09,
