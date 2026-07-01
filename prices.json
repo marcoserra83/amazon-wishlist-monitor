@@ -802,11 +802,15 @@
     "pending_drop": null
   },
   "dynamite": {
-    "current": 32.67,
+    "current": 38.66,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
         "price": 32.67
+      },
+      {
+        "date": "2026-07-01 12:47:31",
+        "price": 38.66
       }
     ],
     "pending_drop": null
