@@ -1020,11 +1020,15 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 48.99,
+    "current": 48.98,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
         "price": 48.99
+      },
+      {
+        "date": "2026-07-01 14:08:26",
+        "price": 48.98
       }
     ],
     "pending_drop": null
@@ -1276,7 +1280,7 @@
     "pending_drop": null
   },
   "soft parade": {
-    "current": 40.05,
+    "current": 31.33,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
@@ -1287,7 +1291,11 @@
         "price": 40.05
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-01 14:08:26",
+      "old_price": 40.05,
+      "new_price": 31.33
+    }
   },
   "morrison hotel": {
     "current": 33.09,
