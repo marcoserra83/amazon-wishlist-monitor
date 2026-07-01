@@ -1447,6 +1447,16 @@
     ],
     "pending_drop": null
   },
+  "a crow left of the murder": {
+    "current": 55.54,
+    "history": [
+      {
+        "date": "2026-07-01 02:57:59",
+        "price": 55.54
+      }
+    ],
+    "pending_drop": null
+  },
   "light grenades": {
     "current": 33.21,
     "history": [
@@ -1514,7 +1524,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 48.97,
+    "current": 48.99,
     "history": [
       {
         "date": "2026-06-29 23:17:46",
@@ -1527,6 +1537,10 @@
       {
         "date": "2026-06-30 21:28:41",
         "price": 48.97
+      },
+      {
+        "date": "2026-07-01 02:57:59",
+        "price": 48.99
       }
     ],
     "pending_drop": null
