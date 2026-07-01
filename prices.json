@@ -402,7 +402,7 @@
     "pending_drop": null
   },
   "un du": {
-    "current": 57.42,
+    "current": 56.04,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -455,6 +455,10 @@
       {
         "date": "2026-07-01 08:17:35",
         "price": 57.42
+      },
+      {
+        "date": "2026-07-01 08:38:05",
+        "price": 56.04
       }
     ],
     "pending_drop": null
