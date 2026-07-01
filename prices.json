@@ -1120,7 +1120,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 58.15,
+    "current": 49.15,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
@@ -1131,7 +1131,11 @@
         "price": 58.15
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-01 13:07:49",
+      "old_price": 58.15,
+      "new_price": 49.15
+    }
   },
   "kill em all": {
     "current": 36.99,
