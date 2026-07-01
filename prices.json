@@ -124,7 +124,7 @@
     "pending_drop": null
   },
   "entering heaven alive": {
-    "current": 37.41,
+    "current": 31.29,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -135,7 +135,11 @@
         "price": 37.41
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-01 18:57:56",
+      "old_price": 37.41,
+      "new_price": 31.29
+    }
   },
   "cosa faremo da grandi": {
     "current": 29.98,
@@ -938,7 +942,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 40.12,
+    "current": 48.19,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
@@ -947,13 +951,13 @@
       {
         "date": "2026-07-01 17:38:03",
         "price": 48.19
+      },
+      {
+        "date": "2026-07-01 18:57:56",
+        "price": 48.19
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-01 18:28:10",
-      "old_price": 48.19,
-      "new_price": 40.12
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 20.46,
