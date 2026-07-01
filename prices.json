@@ -934,11 +934,15 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 47.73,
+    "current": 48.19,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
         "price": 47.73
+      },
+      {
+        "date": "2026-07-01 17:38:03",
+        "price": 48.19
       }
     ],
     "pending_drop": null
@@ -1132,7 +1136,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 49.15,
+    "current": 49.05,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
@@ -1141,13 +1145,13 @@
       {
         "date": "2026-07-01 12:58:06",
         "price": 58.15
+      },
+      {
+        "date": "2026-07-01 17:38:03",
+        "price": 49.05
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-01 13:07:49",
-      "old_price": 58.15,
-      "new_price": 49.15
-    }
+    "pending_drop": null
   },
   "kill em all": {
     "current": 36.99,
