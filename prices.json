@@ -124,7 +124,7 @@
     "pending_drop": null
   },
   "entering heaven alive": {
-    "current": 33.33,
+    "current": 29.3,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -139,7 +139,11 @@
         "price": 33.33
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-01 19:17:55",
+      "old_price": 33.33,
+      "new_price": 29.3
+    }
   },
   "cosa faremo da grandi": {
     "current": 29.98,
