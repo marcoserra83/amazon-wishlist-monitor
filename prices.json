@@ -402,7 +402,7 @@
     "pending_drop": null
   },
   "un du": {
-    "current": 39.02,
+    "current": 56.04,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -447,13 +447,13 @@
       {
         "date": "2026-06-30 21:28:41",
         "price": 56.04
+      },
+      {
+        "date": "2026-07-01 08:08:22",
+        "price": 56.04
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-01 07:47:43",
-      "old_price": 56.04,
-      "new_price": 39.02
-    }
+    "pending_drop": null
   },
   "hot fuzz": {
     "current": 32.8,
