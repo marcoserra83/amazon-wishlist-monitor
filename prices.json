@@ -92,11 +92,15 @@
     "pending_drop": null
   },
   "boarding house reach": {
-    "current": 35.97,
+    "current": 39.78,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
         "price": 35.97
+      },
+      {
+        "date": "2026-07-02 00:38:28",
+        "price": 39.78
       }
     ],
     "pending_drop": null
@@ -764,7 +768,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 50.1,
+    "current": 55.64,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
@@ -773,6 +777,10 @@
       {
         "date": "2026-07-01 18:18:06",
         "price": 50.1
+      },
+      {
+        "date": "2026-07-02 00:38:28",
+        "price": 55.64
       }
     ],
     "pending_drop": null
