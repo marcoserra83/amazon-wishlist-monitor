@@ -1274,7 +1274,7 @@
     "pending_drop": null
   },
   "anime salve": {
-    "current": 38.36,
+    "current": 32.0,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
@@ -1285,7 +1285,11 @@
         "price": 38.36
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-02 03:27:53",
+      "old_price": 38.36,
+      "new_price": 32.0
+    }
   },
   "fabrizio de andre": {
     "current": 35.4,
