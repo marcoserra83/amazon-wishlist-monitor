@@ -1155,16 +1155,6 @@
       "new_price": 32.23
     }
   },
-  "ignition": {
-    "current": 20.46,
-    "history": [
-      {
-        "date": "2026-07-02 08:17:46",
-        "price": 20.46
-      }
-    ],
-    "pending_drop": null
-  },
   "money for nothing": {
     "current": 38.43,
     "history": [
@@ -1558,11 +1548,15 @@
     }
   },
   "anime salve": {
-    "current": 32.0,
+    "current": 38.36,
     "history": [
       {
         "date": "2026-07-02 08:17:46",
         "price": 32.0
+      },
+      {
+        "date": "2026-07-02 20:58:01",
+        "price": 38.36
       }
     ],
     "pending_drop": null
