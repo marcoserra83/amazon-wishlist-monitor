@@ -156,7 +156,7 @@
     "pending_drop": null
   },
   "entering heaven alive": {
-    "current": 31.29,
+    "current": 28.44,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -193,6 +193,10 @@
       {
         "date": "2026-07-03 04:37:46",
         "price": 31.29
+      },
+      {
+        "date": "2026-07-03 04:47:39",
+        "price": 28.44
       }
     ],
     "pending_drop": null
@@ -1432,7 +1436,7 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 33.21,
+    "current": 39.84,
     "history": [
       {
         "date": "2026-07-01 05:41:32",
@@ -1453,6 +1457,10 @@
       {
         "date": "2026-07-02 22:08:10",
         "price": 33.21
+      },
+      {
+        "date": "2026-07-03 04:47:39",
+        "price": 39.84
       }
     ],
     "pending_drop": null
