@@ -1220,14 +1220,18 @@
     "pending_drop": null
   },
   "s m2 box": {
-    "current": 95.88,
+    "current": 83.89,
     "history": [
       {
         "date": "2026-07-03 19:17:32",
         "price": 95.88
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-03 19:38:20",
+      "old_price": 95.88,
+      "new_price": 83.89
+    }
   },
   "load": {
     "current": 49.99,
@@ -1370,11 +1374,15 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 32.31,
+    "current": 31.99,
     "history": [
       {
         "date": "2026-07-03 19:17:32",
         "price": 32.31
+      },
+      {
+        "date": "2026-07-03 19:38:20",
+        "price": 31.99
       }
     ],
     "pending_drop": null
