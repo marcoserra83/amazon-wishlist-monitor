@@ -1312,7 +1312,7 @@
     "pending_drop": null
   },
   "the queen is dead": {
-    "current": 24.8,
+    "current": 28.9,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -1325,6 +1325,10 @@
       {
         "date": "2026-07-04 06:57:50",
         "price": 24.8
+      },
+      {
+        "date": "2026-07-04 15:47:48",
+        "price": 28.9
       }
     ],
     "pending_drop": null
