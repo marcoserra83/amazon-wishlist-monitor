@@ -646,7 +646,7 @@
     "pending_drop": null
   },
   "un du": {
-    "current": 41.5,
+    "current": 38.59,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -719,6 +719,10 @@
       {
         "date": "2026-07-03 22:22:28",
         "price": 41.5
+      },
+      {
+        "date": "2026-07-04 02:28:04",
+        "price": 38.59
       }
     ],
     "pending_drop": null
@@ -1406,14 +1410,18 @@
     "pending_drop": null
   },
   "anime salve": {
-    "current": 38.36,
+    "current": 34.29,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
         "price": 38.36
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-04 02:28:04",
+      "old_price": 38.36,
+      "new_price": 34.29
+    }
   },
   "fabrizio de andre": {
     "current": 35.4,
