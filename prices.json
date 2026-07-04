@@ -236,7 +236,7 @@
     "pending_drop": null
   },
   "entering heaven alive": {
-    "current": 31.29,
+    "current": 28.44,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -305,6 +305,10 @@
       {
         "date": "2026-07-04 16:47:40",
         "price": 31.29
+      },
+      {
+        "date": "2026-07-04 17:17:42",
+        "price": 28.44
       }
     ],
     "pending_drop": null
