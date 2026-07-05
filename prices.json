@@ -2504,7 +2504,7 @@
     "pending_drop": null
   },
   "s m2 box": {
-    "current": 91.76,
+    "current": 83.89,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -2545,6 +2545,10 @@
       {
         "date": "2026-07-05 20:57:41",
         "price": 91.76
+      },
+      {
+        "date": "2026-07-05 21:27:37",
+        "price": 83.89
       }
     ],
     "pending_drop": null
