@@ -1932,7 +1932,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 46.82,
+    "current": 32.23,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -1975,7 +1975,11 @@
         "price": 46.82
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-05 16:17:48",
+      "old_price": 46.82,
+      "new_price": 32.23
+    }
   },
   "ignition": {
     "current": 20.43,
@@ -2380,11 +2384,15 @@
     "pending_drop": null
   },
   "festival session 2 bonus tracks": {
-    "current": 39.57,
+    "current": 39.56,
     "history": [
       {
         "date": "2026-07-05 04:18:03",
         "price": 39.57
+      },
+      {
+        "date": "2026-07-05 16:17:48",
+        "price": 39.56
       }
     ],
     "pending_drop": null
