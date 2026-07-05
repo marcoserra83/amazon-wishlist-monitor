@@ -2104,7 +2104,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 33.21,
+    "current": 39.84,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -2125,13 +2125,13 @@
       {
         "date": "2026-07-05 04:08:29",
         "price": 42.63
+      },
+      {
+        "date": "2026-07-05 04:58:07",
+        "price": 39.84
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-05 04:18:03",
-      "old_price": 42.63,
-      "new_price": 33.21
-    }
+    "pending_drop": null
   },
   "marauder": {
     "current": 28.42,
