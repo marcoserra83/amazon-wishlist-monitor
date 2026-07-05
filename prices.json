@@ -296,7 +296,7 @@
     "pending_drop": null
   },
   "entering heaven alive": {
-    "current": 39.59,
+    "current": 31.29,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -399,7 +399,11 @@
         "price": 39.59
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-05 11:37:54",
+      "old_price": 39.59,
+      "new_price": 31.29
+    }
   },
   "cosa faremo da grandi": {
     "current": 29.98,
@@ -1868,7 +1872,7 @@
     "pending_drop": null
   },
   "the queen is dead": {
-    "current": 24.8,
+    "current": 25.31,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -1909,6 +1913,10 @@
       {
         "date": "2026-07-05 04:18:03",
         "price": 24.8
+      },
+      {
+        "date": "2026-07-05 11:37:54",
+        "price": 25.31
       }
     ],
     "pending_drop": null
