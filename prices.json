@@ -1964,7 +1964,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 46.83,
+    "current": 32.23,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -2019,7 +2019,11 @@
         "price": 46.83
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-06 14:18:58",
+      "old_price": 46.83,
+      "new_price": 32.23
+    }
   },
   "ignition": {
     "current": 20.43,
@@ -2342,7 +2346,7 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 35.0,
+    "current": 35.95,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -2383,6 +2387,10 @@
       {
         "date": "2026-07-05 18:08:21",
         "price": 35.0
+      },
+      {
+        "date": "2026-07-06 14:18:58",
+        "price": 35.95
       }
     ],
     "pending_drop": null
