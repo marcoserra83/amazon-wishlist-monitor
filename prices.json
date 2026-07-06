@@ -1566,7 +1566,7 @@
     "pending_drop": null
   },
   "dynamite": {
-    "current": 32.67,
+    "current": 40.98,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -1603,6 +1603,10 @@
       {
         "date": "2026-07-05 04:18:03",
         "price": 32.67
+      },
+      {
+        "date": "2026-07-06 09:57:44",
+        "price": 40.98
       }
     ],
     "pending_drop": null
