@@ -1376,7 +1376,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 49.29,
+    "current": 55.11,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -1413,13 +1413,13 @@
       {
         "date": "2026-07-06 04:17:40",
         "price": 55.11
+      },
+      {
+        "date": "2026-07-06 17:18:15",
+        "price": 55.11
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-06 17:08:21",
-      "old_price": 55.11,
-      "new_price": 49.29
-    }
+    "pending_drop": null
   },
   "like clockwork": {
     "current": 30.69,
@@ -2832,7 +2832,7 @@
     "pending_drop": null
   },
   "fabrizio de andre": {
-    "current": 31.39,
+    "current": 28.97,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -2853,6 +2853,10 @@
       {
         "date": "2026-07-05 04:18:03",
         "price": 31.39
+      },
+      {
+        "date": "2026-07-06 17:18:15",
+        "price": 28.97
       }
     ],
     "pending_drop": null
