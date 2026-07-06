@@ -1566,7 +1566,7 @@
     "pending_drop": null
   },
   "dynamite": {
-    "current": 40.98,
+    "current": 32.67,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -1609,7 +1609,11 @@
         "price": 40.98
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-06 10:09:11",
+      "old_price": 40.98,
+      "new_price": 32.67
+    }
   },
   "a funk odyssey": {
     "current": 33.99,
