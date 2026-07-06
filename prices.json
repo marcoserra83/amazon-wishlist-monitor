@@ -2112,7 +2112,7 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 33.21,
+    "current": 39.84,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -2149,6 +2149,10 @@
       {
         "date": "2026-07-05 04:18:03",
         "price": 33.21
+      },
+      {
+        "date": "2026-07-06 09:28:04",
+        "price": 39.84
       }
     ],
     "pending_drop": null
@@ -2854,7 +2858,7 @@
     "pending_drop": null
   },
   "soft parade": {
-    "current": 40.05,
+    "current": 31.33,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -2897,7 +2901,11 @@
         "price": 40.05
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-06 09:28:04",
+      "old_price": 40.05,
+      "new_price": 31.33
+    }
   },
   "substance": {
     "current": 36.8,
