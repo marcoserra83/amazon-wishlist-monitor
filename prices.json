@@ -1352,7 +1352,7 @@
     "pending_drop": null
   },
   "blood sugar sex magik": {
-    "current": 42.89,
+    "current": 42.9,
     "history": [
       {
         "date": "2026-07-03 19:17:32",
@@ -1381,6 +1381,10 @@
       {
         "date": "2026-07-06 12:18:10",
         "price": 42.89
+      },
+      {
+        "date": "2026-07-06 12:27:54",
+        "price": 42.9
       }
     ],
     "pending_drop": null
@@ -1960,7 +1964,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 46.82,
+    "current": 46.83,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -2009,6 +2013,10 @@
       {
         "date": "2026-07-06 07:08:19",
         "price": 46.82
+      },
+      {
+        "date": "2026-07-06 12:27:54",
+        "price": 46.83
       }
     ],
     "pending_drop": null
