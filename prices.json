@@ -1944,7 +1944,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 32.23,
+    "current": 46.82,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -1989,13 +1989,13 @@
       {
         "date": "2026-07-05 19:57:45",
         "price": 46.82
+      },
+      {
+        "date": "2026-07-06 07:08:19",
+        "price": 46.82
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-05 20:47:58",
-      "old_price": 46.82,
-      "new_price": 32.23
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 20.43,
@@ -2918,7 +2918,7 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 24.7,
+    "current": 32.31,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -2943,13 +2943,13 @@
       {
         "date": "2026-07-06 02:17:49",
         "price": 32.31
+      },
+      {
+        "date": "2026-07-06 07:08:19",
+        "price": 32.31
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-06 06:28:23",
-      "old_price": 32.31,
-      "new_price": 24.7
-    }
+    "pending_drop": null
   },
   "the rise and fall of ziggy stardust": {
     "current": 26.01,
