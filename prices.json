@@ -212,7 +212,7 @@
     "pending_drop": null
   },
   "fear of the dawn": {
-    "current": 31.29,
+    "current": 37.72,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -289,13 +289,13 @@
       {
         "date": "2026-07-06 10:18:04",
         "price": 37.72
+      },
+      {
+        "date": "2026-07-07 11:48:23",
+        "price": 37.72
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-07 11:38:22",
-      "old_price": 37.72,
-      "new_price": 31.29
-    }
+    "pending_drop": null
   },
   "cosa faremo da grandi": {
     "current": 29.98,
@@ -1880,7 +1880,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 32.23,
+    "current": 47.74,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -1985,13 +1985,13 @@
       {
         "date": "2026-07-07 10:18:23",
         "price": 51.9
+      },
+      {
+        "date": "2026-07-07 11:48:23",
+        "price": 47.74
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-07 11:38:22",
-      "old_price": 51.9,
-      "new_price": 32.23
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 20.43,
@@ -2098,7 +2098,7 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 53.75,
+    "current": 50.74,
     "history": [
       {
         "date": "2026-07-05 04:18:03",
@@ -2107,6 +2107,10 @@
       {
         "date": "2026-07-06 10:38:19",
         "price": 53.75
+      },
+      {
+        "date": "2026-07-07 11:48:23",
+        "price": 50.74
       }
     ],
     "pending_drop": null
