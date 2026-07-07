@@ -2300,7 +2300,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 24.5,
+    "current": 21.99,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -2327,7 +2327,11 @@
         "price": 24.5
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-07 16:28:00",
+      "old_price": 24.5,
+      "new_price": 21.99
+    }
   },
   "metallica": {
     "current": 35.95,
