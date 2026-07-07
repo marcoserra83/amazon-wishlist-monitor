@@ -1724,7 +1724,7 @@
     "pending_drop": null
   },
   "synkronized": {
-    "current": 26.5,
+    "current": 26.0,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -1749,6 +1749,10 @@
       {
         "date": "2026-07-07 17:28:18",
         "price": 26.5
+      },
+      {
+        "date": "2026-07-07 20:48:17",
+        "price": 26.0
       }
     ],
     "pending_drop": null
