@@ -212,7 +212,7 @@
     "pending_drop": null
   },
   "fear of the dawn": {
-    "current": 37.72,
+    "current": 31.29,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -291,7 +291,11 @@
         "price": 37.72
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-07 11:38:22",
+      "old_price": 37.72,
+      "new_price": 31.29
+    }
   },
   "cosa faremo da grandi": {
     "current": 29.98,
@@ -1876,7 +1880,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 51.9,
+    "current": 32.23,
     "history": [
       {
         "date": "2026-07-03 22:48:05",
@@ -1983,7 +1987,11 @@
         "price": 51.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-07 11:38:22",
+      "old_price": 51.9,
+      "new_price": 32.23
+    }
   },
   "ignition": {
     "current": 20.43,
