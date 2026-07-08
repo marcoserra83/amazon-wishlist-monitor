@@ -826,11 +826,15 @@
     "pending_drop": null
   },
   "a funk odyssey": {
-    "current": 33.99,
+    "current": 32.67,
     "history": [
       {
         "date": "2026-07-08 02:28:37",
         "price": 33.99
+      },
+      {
+        "date": "2026-07-08 06:48:13",
+        "price": 32.67
       }
     ],
     "pending_drop": null
@@ -1260,11 +1264,15 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 39.87,
+    "current": 38.67,
     "history": [
       {
         "date": "2026-07-08 02:28:37",
         "price": 39.87
+      },
+      {
+        "date": "2026-07-08 06:48:13",
+        "price": 38.67
       }
     ],
     "pending_drop": null
