@@ -726,11 +726,15 @@
     "pending_drop": null
   },
   "follow the leader": {
-    "current": 23.85,
+    "current": 23.99,
     "history": [
       {
         "date": "2026-07-08 02:28:37",
         "price": 23.85
+      },
+      {
+        "date": "2026-07-08 07:58:27",
+        "price": 23.99
       }
     ],
     "pending_drop": null
