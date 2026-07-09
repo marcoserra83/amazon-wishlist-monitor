@@ -1374,11 +1374,15 @@
     "pending_drop": null
   },
   "ignition": {
-    "current": 20.43,
+    "current": 20.08,
     "history": [
       {
         "date": "2026-07-08 14:09:04",
         "price": 20.43
+      },
+      {
+        "date": "2026-07-09 15:36:17",
+        "price": 20.08
       }
     ],
     "pending_drop": null
