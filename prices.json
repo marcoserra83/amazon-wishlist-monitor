@@ -1598,11 +1598,15 @@
     "pending_drop": null
   },
   "noctourniquet": {
-    "current": 39.56,
+    "current": 39.45,
     "history": [
       {
         "date": "2026-07-08 14:09:04",
         "price": 39.56
+      },
+      {
+        "date": "2026-07-09 19:47:56",
+        "price": 39.45
       }
     ],
     "pending_drop": null
