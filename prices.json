@@ -1304,7 +1304,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 47.8,
+    "current": 32.74,
     "history": [
       {
         "date": "2026-07-08 02:28:37",
@@ -1335,7 +1335,11 @@
         "price": 47.8
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-09 02:58:39",
+      "old_price": 47.8,
+      "new_price": 32.74
+    }
   },
   "ignition": {
     "current": 20.43,
@@ -1770,7 +1774,7 @@
     "pending_drop": null
   },
   "master of puppets": {
-    "current": 35.9,
+    "current": 38.97,
     "history": [
       {
         "date": "2026-07-08 02:28:37",
@@ -1791,6 +1795,10 @@
       {
         "date": "2026-07-08 14:09:04",
         "price": 35.9
+      },
+      {
+        "date": "2026-07-09 02:58:39",
+        "price": 38.97
       }
     ],
     "pending_drop": null
