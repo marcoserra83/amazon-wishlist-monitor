@@ -1372,11 +1372,15 @@
     "pending_drop": null
   },
   "camera a sud": {
-    "current": 32.81,
+    "current": 33.21,
     "history": [
       {
         "date": "2026-07-10 04:28:32",
         "price": 32.81
+      },
+      {
+        "date": "2026-07-10 05:58:14",
+        "price": 33.21
       }
     ],
     "pending_drop": null
