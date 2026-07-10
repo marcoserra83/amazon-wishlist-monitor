@@ -1,6 +1,6 @@
 {
   "innerspeaker": {
-    "current": 29.87,
+    "current": 29.89,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -81,6 +81,10 @@
       {
         "date": "2026-07-09 22:18:17",
         "price": 29.87
+      },
+      {
+        "date": "2026-07-10 10:58:12",
+        "price": 29.89
       }
     ],
     "pending_drop": null
