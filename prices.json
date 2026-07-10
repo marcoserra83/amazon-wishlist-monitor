@@ -1244,11 +1244,15 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 49.07,
+    "current": 58.07,
     "history": [
       {
         "date": "2026-07-10 04:28:32",
         "price": 49.07
+      },
+      {
+        "date": "2026-07-10 12:28:20",
+        "price": 58.07
       }
     ],
     "pending_drop": null
