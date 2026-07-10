@@ -1226,11 +1226,15 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 54.64,
+    "current": 54.66,
     "history": [
       {
         "date": "2026-07-10 04:28:32",
         "price": 54.64
+      },
+      {
+        "date": "2026-07-10 07:08:51",
+        "price": 54.66
       }
     ],
     "pending_drop": null
@@ -1420,11 +1424,15 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 24.7,
+    "current": 32.31,
     "history": [
       {
         "date": "2026-07-10 04:28:32",
         "price": 24.7
+      },
+      {
+        "date": "2026-07-10 07:08:51",
+        "price": 32.31
       }
     ],
     "pending_drop": null
