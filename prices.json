@@ -1124,11 +1124,15 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 33.21,
+    "current": 39.84,
     "history": [
       {
         "date": "2026-07-10 04:28:32",
         "price": 33.21
+      },
+      {
+        "date": "2026-07-10 14:58:04",
+        "price": 39.84
       }
     ],
     "pending_drop": null
