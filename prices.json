@@ -940,7 +940,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 32.21,
+    "current": 27.23,
     "history": [
       {
         "date": "2026-07-10 04:28:32",
@@ -983,7 +983,11 @@
         "price": 32.21
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-11 12:38:45",
+      "old_price": 32.21,
+      "new_price": 27.23
+    }
   },
   "disco x 180 gr": {
     "current": 29.9,
