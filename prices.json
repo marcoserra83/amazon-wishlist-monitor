@@ -1548,11 +1548,15 @@
     "pending_drop": null
   },
   "festival session 2 bonus tracks": {
-    "current": 39.75,
+    "current": 39.82,
     "history": [
       {
         "date": "2026-07-11 11:42:32",
         "price": 39.75
+      },
+      {
+        "date": "2026-07-11 16:47:49",
+        "price": 39.82
       }
     ],
     "pending_drop": null
