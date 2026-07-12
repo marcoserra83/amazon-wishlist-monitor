@@ -2064,7 +2064,7 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 32.31,
+    "current": 24.7,
     "history": [
       {
         "date": "2026-07-11 11:42:32",
@@ -2079,7 +2079,11 @@
         "price": 32.31
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-12 07:27:50",
+      "old_price": 32.31,
+      "new_price": 24.7
+    }
   },
   "the rise and fall of ziggy stardust": {
     "current": 26.01,
