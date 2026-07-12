@@ -5,7 +5,7 @@ on:
 
 concurrency:
   group: amazon-wishlist-monitor
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   run-monitor:
@@ -23,12 +23,21 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           playwright install chromium
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            playwright-${{ runner.os }}-
 
       - name: Run monitor
         env:
@@ -66,5 +75,8 @@ jobs:
           git add prices.json
           git commit -m "Update prices.json" || echo "No changes to commit"
 
-          git pull --no-rebase || echo "Pull failed, skipping push"
-          git push || echo "Push failed or skipped"
+          # Fetch and rebase to avoid conflicts
+          git fetch origin
+          git rebase origin/main || git rebase --abort
+
+          git push origin HEAD:main || echo "Push failed"
