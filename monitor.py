@@ -16,7 +16,7 @@ import time
 WISHLIST_URL = os.environ.get("WISHLIST_URL")
 GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
-THRESHOLD = float(os.environ.get("ALERT_THRESHOLD", 1))
+THRESHOLD = 5  # Price drop threshold in percentage
 
 DEBUG_HTML = os.environ.get("DEBUG_HTML", "0") == "1"
 
