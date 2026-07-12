@@ -66,5 +66,5 @@ jobs:
           git add prices.json
           git commit -m "Update prices.json" || echo "No changes to commit"
 
-          git pull --rebase
-          git push
+          git pull --no-rebase || echo "Pull failed, skipping push"
+          git push || echo "Push failed or skipped"
