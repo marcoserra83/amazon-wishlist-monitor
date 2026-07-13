@@ -1639,20 +1639,6 @@
     ],
     "pending_drop": null
   },
-  "ignition": {
-    "current": 19.7,
-    "history": [
-      {
-        "date": "2026-07-12 17:57:34",
-        "price": 20.08
-      },
-      {
-        "date": "2026-07-13 12:18:38",
-        "price": 19.7
-      }
-    ],
-    "pending_drop": null
-  },
   "money for nothing": {
     "current": 38.43,
     "history": [
