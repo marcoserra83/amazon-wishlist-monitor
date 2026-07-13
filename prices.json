@@ -1,6 +1,6 @@
 {
   "innerspeaker": {
-    "current": 29.87,
+    "current": 29.88,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -113,6 +113,10 @@
       {
         "date": "2026-07-13 11:58:50",
         "price": 29.87
+      },
+      {
+        "date": "2026-07-13 12:18:38",
+        "price": 29.88
       }
     ],
     "pending_drop": null
@@ -1632,11 +1636,15 @@
     "pending_drop": null
   },
   "ignition": {
-    "current": 20.08,
+    "current": 19.7,
     "history": [
       {
         "date": "2026-07-12 17:57:34",
         "price": 20.08
+      },
+      {
+        "date": "2026-07-13 12:18:38",
+        "price": 19.7
       }
     ],
     "pending_drop": null
