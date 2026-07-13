@@ -1848,7 +1848,7 @@
     "pending_drop": null
   },
   "mezzanine": {
-    "current": 41.34,
+    "current": 40.8,
     "history": [
       {
         "date": "2026-07-12 17:57:34",
@@ -1857,6 +1857,10 @@
       {
         "date": "2026-07-12 18:08:31",
         "price": 41.34
+      },
+      {
+        "date": "2026-07-13 10:17:54",
+        "price": 40.8
       }
     ],
     "pending_drop": null
