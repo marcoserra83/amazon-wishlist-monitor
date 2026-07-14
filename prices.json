@@ -1908,7 +1908,7 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 35.0,
+    "current": 39.9,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1921,13 +1921,13 @@
       {
         "date": "2026-07-14 10:18:12",
         "price": 44.0
+      },
+      {
+        "date": "2026-07-14 21:09:20",
+        "price": 39.9
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-14 10:27:39",
-      "old_price": 44.0,
-      "new_price": 35.0
-    }
+    "pending_drop": null
   },
   "led zeppelin iv": {
     "current": 25.9,
