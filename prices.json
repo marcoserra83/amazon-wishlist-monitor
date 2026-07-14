@@ -1282,7 +1282,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 59.07,
+    "current": 46.56,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1305,7 +1305,11 @@
         "price": 59.07
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-14 12:08:40",
+      "old_price": 59.07,
+      "new_price": 46.56
+    }
   },
   "like clockwork": {
     "current": 33.95,
@@ -1402,7 +1406,7 @@
     "pending_drop": null
   },
   "dynamite": {
-    "current": 35.31,
+    "current": 32.67,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1421,7 +1425,11 @@
         "price": 35.31
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-14 12:08:40",
+      "old_price": 35.31,
+      "new_price": 32.67
+    }
   },
   "a funk odyssey": {
     "current": 32.67,
