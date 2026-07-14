@@ -1183,20 +1183,6 @@
     ],
     "pending_drop": null
   },
-  "up": {
-    "current": 39.95,
-    "history": [
-      {
-        "date": "2026-07-13 19:59:01",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-13 21:08:45",
-        "price": 39.95
-      }
-    ],
-    "pending_drop": null
-  },
   "blood sugar sex magik": {
     "current": 37.9,
     "history": [
@@ -1706,7 +1692,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 54.66,
+    "current": 52.47,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1715,6 +1701,10 @@
       {
         "date": "2026-07-13 21:08:45",
         "price": 54.66
+      },
+      {
+        "date": "2026-07-14 06:18:21",
+        "price": 52.47
       }
     ],
     "pending_drop": null
