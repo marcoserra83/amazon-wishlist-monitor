@@ -142,7 +142,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 30.99,
+    "current": 33.89,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -435,6 +435,10 @@
       {
         "date": "2026-07-14 23:08:39",
         "price": 30.99
+      },
+      {
+        "date": "2026-07-15 01:38:15",
+        "price": 33.89
       }
     ],
     "pending_drop": null
