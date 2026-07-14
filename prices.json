@@ -1170,7 +1170,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 61.7,
+    "current": 62.7,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1183,13 +1183,13 @@
       {
         "date": "2026-07-14 10:18:12",
         "price": 66.58
+      },
+      {
+        "date": "2026-07-14 11:38:16",
+        "price": 62.7
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-14 10:27:39",
-      "old_price": 66.58,
-      "new_price": 61.7
-    }
+    "pending_drop": null
   },
   "fear of music": {
     "current": 29.95,
@@ -1624,7 +1624,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 32.74,
+    "current": 48.71,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1637,13 +1637,13 @@
       {
         "date": "2026-07-14 10:18:12",
         "price": 40.63
+      },
+      {
+        "date": "2026-07-14 11:38:16",
+        "price": 48.71
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-14 10:27:39",
-      "old_price": 40.63,
-      "new_price": 32.74
-    }
+    "pending_drop": null
   },
   "money for nothing": {
     "current": 38.43,
