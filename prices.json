@@ -2222,7 +2222,7 @@
     "pending_drop": null
   },
   "let love in": {
-    "current": 29.99,
+    "current": 26.98,
     "history": [
       {
         "date": "2026-07-14 10:27:39",
@@ -2233,7 +2233,11 @@
         "price": 29.99
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-14 21:48:32",
+      "old_price": 29.99,
+      "new_price": 26.98
+    }
   },
   "interpol": {
     "current": 39.87,
