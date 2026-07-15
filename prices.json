@@ -1597,6 +1597,16 @@
     ],
     "pending_drop": null
   },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-07-16 00:28:17",
+        "price": 23.99
+      }
+    ],
+    "pending_drop": null
+  },
   "playing the angel": {
     "current": 25.99,
     "history": [
@@ -2076,7 +2086,7 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 39.9,
+    "current": 35.95,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -2131,7 +2141,11 @@
         "price": 39.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-16 00:28:17",
+      "old_price": 39.9,
+      "new_price": 35.95
+    }
   },
   "led zeppelin iv": {
     "current": 25.9,
