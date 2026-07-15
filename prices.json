@@ -1202,7 +1202,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 27.23,
+    "current": 32.47,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1223,13 +1223,13 @@
       {
         "date": "2026-07-15 11:39:01",
         "price": 32.47
+      },
+      {
+        "date": "2026-07-15 20:39:16",
+        "price": 32.47
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-15 11:48:41",
-      "old_price": 32.47,
-      "new_price": 27.23
-    }
+    "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
     "current": 65.28,
