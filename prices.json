@@ -1756,7 +1756,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 32.74,
+    "current": 49.17,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1789,13 +1789,13 @@
       {
         "date": "2026-07-15 07:28:34",
         "price": 49.17
+      },
+      {
+        "date": "2026-07-15 09:59:06",
+        "price": 49.17
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-15 08:09:27",
-      "old_price": 49.17,
-      "new_price": 32.74
-    }
+    "pending_drop": null
   },
   "money for nothing": {
     "current": 38.43,
@@ -2040,7 +2040,7 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 39.9,
+    "current": 41.8,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -2061,13 +2061,13 @@
       {
         "date": "2026-07-14 22:58:50",
         "price": 44.0
+      },
+      {
+        "date": "2026-07-15 09:59:06",
+        "price": 41.8
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-14 23:08:39",
-      "old_price": 44.0,
-      "new_price": 39.9
-    }
+    "pending_drop": null
   },
   "led zeppelin iv": {
     "current": 25.9,
