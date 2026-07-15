@@ -1223,28 +1223,6 @@
       "new_price": 27.23
     }
   },
-  "disco x 180 gr": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-07-13 19:59:01",
-        "price": 29.9
-      },
-      {
-        "date": "2026-07-13 21:08:45",
-        "price": 29.9
-      },
-      {
-        "date": "2026-07-14 10:27:39",
-        "price": 29.9
-      },
-      {
-        "date": "2026-07-14 23:08:39",
-        "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
   "tracy chapman talkin about a revolution": {
     "current": 62.7,
     "history": [
