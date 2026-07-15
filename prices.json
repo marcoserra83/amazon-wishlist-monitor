@@ -1202,7 +1202,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 27.23,
+    "current": 32.47,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1219,13 +1219,13 @@
       {
         "date": "2026-07-14 22:58:50",
         "price": 29.21
+      },
+      {
+        "date": "2026-07-15 11:39:01",
+        "price": 32.47
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-14 23:08:39",
-      "old_price": 29.21,
-      "new_price": 27.23
-    }
+    "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
     "current": 65.28,
@@ -1756,7 +1756,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 49.17,
+    "current": 32.74,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1795,7 +1795,11 @@
         "price": 49.17
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-15 11:39:01",
+      "old_price": 49.17,
+      "new_price": 32.74
+    }
   },
   "money for nothing": {
     "current": 38.43,
@@ -2044,7 +2048,7 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 41.8,
+    "current": 39.9,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -2069,6 +2073,10 @@
       {
         "date": "2026-07-15 09:59:06",
         "price": 41.8
+      },
+      {
+        "date": "2026-07-15 11:39:01",
+        "price": 39.9
       }
     ],
     "pending_drop": null
