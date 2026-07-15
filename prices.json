@@ -1468,7 +1468,7 @@
     "pending_drop": null
   },
   "greatest hits": {
-    "current": 32.25,
+    "current": 38.84,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1489,6 +1489,10 @@
       {
         "date": "2026-07-15 04:48:49",
         "price": 32.25
+      },
+      {
+        "date": "2026-07-15 23:58:27",
+        "price": 38.84
       }
     ],
     "pending_drop": null
@@ -1553,6 +1557,16 @@
       {
         "date": "2026-07-15 22:58:53",
         "price": 35.31
+      }
+    ],
+    "pending_drop": null
+  },
+  "a funk odyssey": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-07-15 23:58:27",
+        "price": 33.99
       }
     ],
     "pending_drop": null
