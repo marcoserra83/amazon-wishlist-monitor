@@ -1872,7 +1872,7 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 54.7,
+    "current": 47.8,
     "history": [
       {
         "date": "2026-07-14 23:08:39",
@@ -1883,7 +1883,11 @@
         "price": 54.7
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-15 13:28:25",
+      "old_price": 54.7,
+      "new_price": 47.8
+    }
   },
   "light grenades": {
     "current": 33.21,
