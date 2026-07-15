@@ -1709,6 +1709,16 @@
     ],
     "pending_drop": null
   },
+  "emergency on planet earth": {
+    "current": 40.99,
+    "history": [
+      {
+        "date": "2026-07-16 01:28:06",
+        "price": 40.99
+      }
+    ],
+    "pending_drop": null
+  },
   "yield": {
     "current": 23.99,
     "history": [
