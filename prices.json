@@ -142,7 +142,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 33.89,
+    "current": 30.99,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -445,7 +445,11 @@
         "price": 33.89
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-15 08:09:27",
+      "old_price": 33.89,
+      "new_price": 30.99
+    }
   },
   "fear of the dawn": {
     "current": 30.33,
@@ -1752,7 +1756,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 49.17,
+    "current": 32.74,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1787,7 +1791,11 @@
         "price": 49.17
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-15 08:09:27",
+      "old_price": 49.17,
+      "new_price": 32.74
+    }
   },
   "money for nothing": {
     "current": 38.43,
