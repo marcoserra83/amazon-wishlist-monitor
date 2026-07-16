@@ -1356,7 +1356,7 @@
     "pending_drop": null
   },
   "naked": {
-    "current": 35.9,
+    "current": 34.01,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1379,7 +1379,11 @@
         "price": 35.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-16 21:58:49",
+      "old_price": 35.9,
+      "new_price": 34.01
+    }
   },
   "remain in light": {
     "current": 24.56,
@@ -1640,7 +1644,7 @@
     }
   },
   "synkronized": {
-    "current": 27.36,
+    "current": 26.5,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1669,6 +1673,20 @@
       {
         "date": "2026-07-16 02:48:45",
         "price": 27.36
+      },
+      {
+        "date": "2026-07-16 21:58:49",
+        "price": 26.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "emergency on planet earth": {
+    "current": 43.71,
+    "history": [
+      {
+        "date": "2026-07-16 21:58:49",
+        "price": 43.71
       }
     ],
     "pending_drop": null
