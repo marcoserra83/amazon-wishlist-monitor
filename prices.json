@@ -1683,20 +1683,6 @@
       "new_price": 32.67
     }
   },
-  "a funk odyssey": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-07-15 23:58:27",
-        "price": 33.99
-      },
-      {
-        "date": "2026-07-16 00:58:56",
-        "price": 33.99
-      }
-    ],
-    "pending_drop": null
-  },
   "synkronized": {
     "current": 27.36,
     "history": [
