@@ -2139,32 +2139,6 @@
       "new_price": 33.21
     }
   },
-  "marauder": {
-    "current": 28.42,
-    "history": [
-      {
-        "date": "2026-07-13 19:59:01",
-        "price": 28.42
-      },
-      {
-        "date": "2026-07-13 21:08:45",
-        "price": 28.42
-      },
-      {
-        "date": "2026-07-14 10:27:39",
-        "price": 28.42
-      },
-      {
-        "date": "2026-07-14 23:08:39",
-        "price": 28.42
-      },
-      {
-        "date": "2026-07-16 00:58:56",
-        "price": 28.42
-      }
-    ],
-    "pending_drop": null
-  },
   "vol 3 the subliminal verses violet": {
     "current": 48.97,
     "history": [
