@@ -2676,7 +2676,7 @@
     "pending_drop": null
   },
   "fabrizio de andre": {
-    "current": 31.39,
+    "current": 35.29,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -2701,13 +2701,13 @@
       {
         "date": "2026-07-16 00:50:06",
         "price": 35.69
+      },
+      {
+        "date": "2026-07-17 00:28:24",
+        "price": 35.29
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-16 00:58:56",
-      "old_price": 35.69,
-      "new_price": 31.39
-    }
+    "pending_drop": null
   },
   "let love in": {
     "current": 26.98,
