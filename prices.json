@@ -1731,20 +1731,6 @@
     ],
     "pending_drop": null
   },
-  "yield": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-07-16 00:28:17",
-        "price": 23.99
-      },
-      {
-        "date": "2026-07-16 00:58:56",
-        "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
   "playing the angel": {
     "current": 25.99,
     "history": [
@@ -2665,20 +2651,6 @@
       {
         "date": "2026-07-16 00:58:56",
         "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "back in": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-07-15 23:18:18",
-        "price": 27.99
-      },
-      {
-        "date": "2026-07-16 00:58:56",
-        "price": 27.99
       }
     ],
     "pending_drop": null
