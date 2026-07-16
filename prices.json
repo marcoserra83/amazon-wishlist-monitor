@@ -1570,7 +1570,7 @@
     "pending_drop": null
   },
   "greatest hits": {
-    "current": 38.84,
+    "current": 32.25,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1601,7 +1601,11 @@
         "price": 38.84
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-16 02:48:45",
+      "old_price": 38.84,
+      "new_price": 32.25
+    }
   },
   "octahedron": {
     "current": 54.61,
@@ -1690,7 +1694,7 @@
     "pending_drop": null
   },
   "synkronized": {
-    "current": 26.5,
+    "current": 27.36,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1715,16 +1719,10 @@
       {
         "date": "2026-07-16 00:58:56",
         "price": 26.5
-      }
-    ],
-    "pending_drop": null
-  },
-  "emergency on planet earth": {
-    "current": 40.99,
-    "history": [
+      },
       {
-        "date": "2026-07-16 01:28:06",
-        "price": 40.99
+        "date": "2026-07-16 02:48:45",
+        "price": 27.36
       }
     ],
     "pending_drop": null
@@ -1954,7 +1952,7 @@
     }
   },
   "ixnay on the hombre": {
-    "current": 32.74,
+    "current": 47.34,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1999,13 +1997,13 @@
       {
         "date": "2026-07-16 00:58:56",
         "price": 48.71
+      },
+      {
+        "date": "2026-07-16 02:48:45",
+        "price": 47.34
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-16 01:18:28",
-      "old_price": 48.71,
-      "new_price": 32.74
-    }
+    "pending_drop": null
   },
   "money for nothing": {
     "current": 38.43,
