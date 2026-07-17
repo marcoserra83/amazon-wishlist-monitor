@@ -1604,7 +1604,7 @@
     "pending_drop": null
   },
   "top": {
-    "current": 29.9,
+    "current": 31.65,
     "history": [
       {
         "date": "2026-07-17 05:18:14",
@@ -1613,6 +1613,10 @@
       {
         "date": "2026-07-17 09:27:35",
         "price": 29.9
+      },
+      {
+        "date": "2026-07-17 14:48:49",
+        "price": 31.65
       }
     ],
     "pending_drop": null
