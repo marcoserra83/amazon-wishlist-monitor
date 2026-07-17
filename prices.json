@@ -150,7 +150,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 33.89,
+    "current": 30.99,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -481,7 +481,11 @@
         "price": 33.89
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-17 11:28:55",
+      "old_price": 33.89,
+      "new_price": 30.99
+    }
   },
   "fear of the dawn": {
     "current": 30.33,
@@ -2106,7 +2110,7 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 31.99,
+    "current": 24.7,
     "history": [
       {
         "date": "2026-07-17 05:18:14",
@@ -2125,7 +2129,11 @@
         "price": 31.99
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-17 11:28:55",
+      "old_price": 31.99,
+      "new_price": 24.7
+    }
   },
   "the rise and fall of ziggy stardust": {
     "current": 26.01,
