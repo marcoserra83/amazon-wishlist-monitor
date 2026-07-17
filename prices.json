@@ -1421,16 +1421,6 @@
     ],
     "pending_drop": null
   },
-  "follow the leader": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-07-17 01:27:56",
-        "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
   "up": {
     "current": 39.95,
     "history": [
@@ -1677,16 +1667,6 @@
       "new_price": 32.67
     }
   },
-  "a funk odyssey": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-07-17 00:58:05",
-        "price": 33.99
-      }
-    ],
-    "pending_drop": null
-  },
   "synkronized": {
     "current": 26.5,
     "history": [
@@ -1731,16 +1711,6 @@
       {
         "date": "2026-07-16 21:58:49",
         "price": 43.71
-      }
-    ],
-    "pending_drop": null
-  },
-  "yield": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-07-17 00:08:40",
-        "price": 23.99
       }
     ],
     "pending_drop": null
