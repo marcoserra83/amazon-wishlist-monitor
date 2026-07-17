@@ -1624,7 +1624,7 @@
     "pending_drop": null
   },
   "dynamite": {
-    "current": 35.31,
+    "current": 32.67,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1671,7 +1671,11 @@
         "price": 35.31
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-17 04:08:17",
+      "old_price": 35.31,
+      "new_price": 32.67
+    }
   },
   "a funk odyssey": {
     "current": 33.99,
@@ -2655,16 +2659,6 @@
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-07-17 00:18:20",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
   "guest star bill evans alone together": {
     "current": 25.3,
     "history": [
@@ -2706,7 +2700,7 @@
     "pending_drop": null
   },
   "fabrizio de andre": {
-    "current": 35.29,
+    "current": 31.39,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -2737,7 +2731,11 @@
         "price": 35.29
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-17 04:08:17",
+      "old_price": 35.29,
+      "new_price": 31.39
+    }
   },
   "let love in": {
     "current": 26.98,
