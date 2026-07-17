@@ -1604,7 +1604,7 @@
     "pending_drop": null
   },
   "top": {
-    "current": 31.65,
+    "current": 29.9,
     "history": [
       {
         "date": "2026-07-17 05:18:14",
@@ -1619,7 +1619,11 @@
         "price": 31.65
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-17 14:58:35",
+      "old_price": 31.65,
+      "new_price": 29.9
+    }
   },
   "hatful of hollow": {
     "current": 25.9,
