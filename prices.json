@@ -146,7 +146,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 30.99,
+    "current": 33.89,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -459,13 +459,13 @@
       {
         "date": "2026-07-16 07:09:22",
         "price": 33.89
+      },
+      {
+        "date": "2026-07-17 07:18:23",
+        "price": 33.89
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-16 07:18:34",
-      "old_price": 33.89,
-      "new_price": 30.99
-    }
+    "pending_drop": null
   },
   "fear of the dawn": {
     "current": 30.33,
@@ -1856,11 +1856,15 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 24.7,
+    "current": 31.99,
     "history": [
       {
         "date": "2026-07-17 05:18:14",
         "price": 24.7
+      },
+      {
+        "date": "2026-07-17 07:18:23",
+        "price": 31.99
       }
     ],
     "pending_drop": null
