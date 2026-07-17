@@ -1449,6 +1449,16 @@
     ],
     "pending_drop": null
   },
+  "greatest hits": {
+    "current": 32.99,
+    "history": [
+      {
+        "date": "2026-07-18 01:07:12",
+        "price": 32.99
+      }
+    ],
+    "pending_drop": null
+  },
   "octahedron": {
     "current": 54.61,
     "history": [
@@ -1961,180 +1971,6 @@
       {
         "date": "2026-07-17 22:48:15",
         "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "back in": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-07-17 22:18:13",
-        "price": 27.99
-      },
-      {
-        "date": "2026-07-17 22:48:15",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "guest star bill evans alone together": {
-    "current": 25.26,
-    "history": [
-      {
-        "date": "2026-07-17 20:17:32",
-        "price": 25.26
-      },
-      {
-        "date": "2026-07-17 22:39:05",
-        "price": 30.15
-      }
-    ],
-    "pending_drop": {
-      "first_seen": "2026-07-17 22:48:15",
-      "old_price": 30.15,
-      "new_price": 25.26
-    }
-  },
-  "anime salve": {
-    "current": 34.29,
-    "history": [
-      {
-        "date": "2026-07-17 22:48:15",
-        "price": 34.29
-      }
-    ],
-    "pending_drop": null
-  },
-  "fabrizio de andre": {
-    "current": 35.29,
-    "history": [
-      {
-        "date": "2026-07-17 20:17:32",
-        "price": 31.39
-      },
-      {
-        "date": "2026-07-17 22:39:05",
-        "price": 35.69
-      },
-      {
-        "date": "2026-07-17 23:57:57",
-        "price": 35.29
-      }
-    ],
-    "pending_drop": null
-  },
-  "let love in": {
-    "current": 26.98,
-    "history": [
-      {
-        "date": "2026-07-17 20:17:32",
-        "price": 26.98
-      },
-      {
-        "date": "2026-07-17 22:48:15",
-        "price": 26.98
-      }
-    ],
-    "pending_drop": null
-  },
-  "interpol": {
-    "current": 39.87,
-    "history": [
-      {
-        "date": "2026-07-17 20:17:32",
-        "price": 39.87
-      }
-    ],
-    "pending_drop": null
-  },
-  "camera a sud": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-07-17 22:48:15",
-        "price": 33.21
-      }
-    ],
-    "pending_drop": null
-  },
-  "soft parade": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-07-17 20:17:32",
-        "price": 26.95
-      },
-      {
-        "date": "2026-07-17 22:48:15",
-        "price": 26.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "morrison hotel": {
-    "current": 37.91,
-    "history": [
-      {
-        "date": "2026-07-17 20:17:32",
-        "price": 37.91
-      }
-    ],
-    "pending_drop": null
-  },
-  "ghosteen": {
-    "current": 34.9,
-    "history": [
-      {
-        "date": "2026-07-17 20:17:32",
-        "price": 34.9
-      },
-      {
-        "date": "2026-07-17 22:48:15",
-        "price": 34.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "substance": {
-    "current": 36.8,
-    "history": [
-      {
-        "date": "2026-07-17 20:17:32",
-        "price": 36.8
-      },
-      {
-        "date": "2026-07-17 22:48:15",
-        "price": 36.8
-      }
-    ],
-    "pending_drop": null
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-07-17 20:17:32",
-        "price": 31.99
-      },
-      {
-        "date": "2026-07-17 22:48:15",
-        "price": 31.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 26.01,
-    "history": [
-      {
-        "date": "2026-07-17 20:17:32",
-        "price": 26.01
-      },
-      {
-        "date": "2026-07-17 22:48:15",
-        "price": 26.01
       }
     ],
     "pending_drop": null
