@@ -1314,7 +1314,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 27.23,
+    "current": 32.2,
     "history": [
       {
         "date": "2026-07-13 19:59:01",
@@ -1347,13 +1347,13 @@
       {
         "date": "2026-07-17 09:17:42",
         "price": 29.2
+      },
+      {
+        "date": "2026-07-17 11:18:38",
+        "price": 32.2
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-17 09:27:35",
-      "old_price": 29.2,
-      "new_price": 27.23
-    }
+    "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
     "current": 65.28,
@@ -1787,20 +1787,6 @@
       {
         "date": "2026-07-17 09:27:35",
         "price": 39.22
-      }
-    ],
-    "pending_drop": null
-  },
-  "sleeping with ghosts": {
-    "current": 21.99,
-    "history": [
-      {
-        "date": "2026-07-17 05:18:14",
-        "price": 21.99
-      },
-      {
-        "date": "2026-07-17 09:27:35",
-        "price": 21.99
       }
     ],
     "pending_drop": null
