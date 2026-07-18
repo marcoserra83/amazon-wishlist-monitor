@@ -1564,11 +1564,15 @@
     "pending_drop": null
   },
   "dynamite": {
-    "current": 32.67,
+    "current": 35.31,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
         "price": 32.67
+      },
+      {
+        "date": "2026-07-19 01:08:17",
+        "price": 35.31
       }
     ],
     "pending_drop": null
@@ -1698,11 +1702,15 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 32.74,
+    "current": 47.34,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
         "price": 32.74
+      },
+      {
+        "date": "2026-07-19 01:08:17",
+        "price": 47.34
       }
     ],
     "pending_drop": null
