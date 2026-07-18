@@ -1471,16 +1471,6 @@
       "new_price": 32.67
     }
   },
-  "a funk odyssey": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-07-18 00:28:08",
-        "price": 33.99
-      }
-    ],
-    "pending_drop": null
-  },
   "synkronized": {
     "current": 27.36,
     "history": [
@@ -1495,16 +1485,6 @@
       {
         "date": "2026-07-18 05:48:17",
         "price": 27.36
-      }
-    ],
-    "pending_drop": null
-  },
-  "emergency on planet earth": {
-    "current": 43.71,
-    "history": [
-      {
-        "date": "2026-07-18 00:28:08",
-        "price": 43.71
       }
     ],
     "pending_drop": null
