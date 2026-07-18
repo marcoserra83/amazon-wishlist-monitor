@@ -1459,16 +1459,6 @@
     ],
     "pending_drop": null
   },
-  "greatest hits": {
-    "current": 32.99,
-    "history": [
-      {
-        "date": "2026-07-18 01:07:12",
-        "price": 32.99
-      }
-    ],
-    "pending_drop": null
-  },
   "octahedron": {
     "current": 54.61,
     "history": [
@@ -1484,7 +1474,7 @@
     "pending_drop": null
   },
   "dynamite": {
-    "current": 35.31,
+    "current": 32.67,
     "history": [
       {
         "date": "2026-07-17 22:48:15",
@@ -1495,7 +1485,11 @@
         "price": 35.31
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-18 02:58:15",
+      "old_price": 35.31,
+      "new_price": 32.67
+    }
   },
   "a funk odyssey": {
     "current": 33.99,
