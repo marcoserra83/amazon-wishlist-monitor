@@ -1972,11 +1972,15 @@
     }
   },
   "let love in": {
-    "current": 26.98,
+    "current": 29.99,
     "history": [
       {
         "date": "2026-07-18 01:17:46",
         "price": 26.98
+      },
+      {
+        "date": "2026-07-18 08:28:51",
+        "price": 29.99
       }
     ],
     "pending_drop": null
