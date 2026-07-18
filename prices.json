@@ -1883,6 +1883,16 @@
     ],
     "pending_drop": null
   },
+  "star": {
+    "current": 252.23,
+    "history": [
+      {
+        "date": "2026-07-18 16:28:25",
+        "price": 252.23
+      }
+    ],
+    "pending_drop": null
+  },
   "out of time": {
     "current": 25.36,
     "history": [
