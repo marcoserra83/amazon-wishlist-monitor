@@ -1708,7 +1708,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 39.84,
+    "current": 33.21,
     "history": [
       {
         "date": "2026-07-17 20:17:32",
@@ -1719,7 +1719,11 @@
         "price": 39.84
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-18 14:38:23",
+      "old_price": 39.84,
+      "new_price": 33.21
+    }
   },
   "vol 3 the subliminal verses violet": {
     "current": 48.97,
@@ -1914,7 +1918,7 @@
     "pending_drop": null
   },
   "mezzanine": {
-    "current": 42.65,
+    "current": 39.45,
     "history": [
       {
         "date": "2026-07-17 20:17:32",
@@ -1937,7 +1941,11 @@
         "price": 42.65
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-18 14:38:23",
+      "old_price": 42.65,
+      "new_price": 39.45
+    }
   },
   "appetite for destruction": {
     "current": 29.9,
