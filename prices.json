@@ -1657,6 +1657,16 @@
     ],
     "pending_drop": null
   },
+  "follow the leader": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-07-19 22:58:00",
+        "price": 23.99
+      }
+    ],
+    "pending_drop": null
+  },
   "up": {
     "current": 39.95,
     "history": [
@@ -1817,6 +1827,16 @@
       {
         "date": "2026-07-19 21:28:21",
         "price": 32.67
+      }
+    ],
+    "pending_drop": null
+  },
+  "a funk odyssey": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-07-19 22:58:00",
+        "price": 33.99
       }
     ],
     "pending_drop": null
