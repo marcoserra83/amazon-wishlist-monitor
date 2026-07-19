@@ -1835,6 +1835,16 @@
     ],
     "pending_drop": null
   },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-07-19 22:28:39",
+        "price": 23.99
+      }
+    ],
+    "pending_drop": null
+  },
   "playing the angel": {
     "current": 25.99,
     "history": [
