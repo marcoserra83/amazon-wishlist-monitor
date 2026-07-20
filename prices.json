@@ -2484,7 +2484,7 @@
     "pending_drop": null
   },
   "the queen is dead": {
-    "current": 24.9,
+    "current": 23.09,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -2519,7 +2519,11 @@
         "price": 24.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-20 13:08:45",
+      "old_price": 24.9,
+      "new_price": 23.09
+    }
   },
   "janis joplin s greatest hits": {
     "current": 25.06,
