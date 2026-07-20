@@ -2192,7 +2192,7 @@
     "pending_drop": null
   },
   "synkronized": {
-    "current": 26.5,
+    "current": 27.36,
     "history": [
       {
         "date": "2026-07-19 21:28:21",
@@ -2213,6 +2213,10 @@
       {
         "date": "2026-07-20 01:38:05",
         "price": 26.5
+      },
+      {
+        "date": "2026-07-20 03:48:07",
+        "price": 27.36
       }
     ],
     "pending_drop": null
@@ -3340,7 +3344,7 @@
     "pending_drop": null
   },
   "fabrizio de andre": {
-    "current": 35.29,
+    "current": 31.39,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3379,7 +3383,11 @@
         "price": 35.29
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-20 03:48:07",
+      "old_price": 35.29,
+      "new_price": 31.39
+    }
   },
   "let love in": {
     "current": 29.99,
