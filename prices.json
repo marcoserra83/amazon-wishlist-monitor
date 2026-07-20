@@ -2277,6 +2277,16 @@
     ],
     "pending_drop": null
   },
+  "greatest hits": {
+    "current": 32.99,
+    "history": [
+      {
+        "date": "2026-07-20 21:58:08",
+        "price": 32.99
+      }
+    ],
+    "pending_drop": null
+  },
   "octahedron": {
     "current": 54.61,
     "history": [
@@ -2335,6 +2345,16 @@
       {
         "date": "2026-07-20 13:58:38",
         "price": 27.36
+      }
+    ],
+    "pending_drop": null
+  },
+  "emergency on planet earth": {
+    "current": 43.71,
+    "history": [
+      {
+        "date": "2026-07-20 21:58:08",
+        "price": 43.71
       }
     ],
     "pending_drop": null
