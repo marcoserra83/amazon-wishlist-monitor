@@ -2696,7 +2696,7 @@
     }
   },
   "ixnay on the hombre": {
-    "current": 47.34,
+    "current": 47.35,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -2741,13 +2741,13 @@
       {
         "date": "2026-07-20 13:49:34",
         "price": 52.23
+      },
+      {
+        "date": "2026-07-20 17:09:13",
+        "price": 47.35
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-20 13:58:38",
-      "old_price": 52.23,
-      "new_price": 47.34
-    }
+    "pending_drop": null
   },
   "money for nothing": {
     "current": 38.43,
@@ -3552,7 +3552,7 @@
     "pending_drop": null
   },
   "mezzanine": {
-    "current": 42.33,
+    "current": 42.65,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3593,6 +3593,10 @@
       {
         "date": "2026-07-20 14:48:39",
         "price": 42.33
+      },
+      {
+        "date": "2026-07-20 17:09:13",
+        "price": 42.65
       }
     ],
     "pending_drop": null
