@@ -2886,7 +2886,7 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 39.84,
+    "current": 33.21,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -2961,7 +2961,11 @@
         "price": 39.84
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-20 14:48:39",
+      "old_price": 39.84,
+      "new_price": 33.21
+    }
   },
   "morning view": {
     "current": 33.21,
@@ -3548,7 +3552,7 @@
     "pending_drop": null
   },
   "mezzanine": {
-    "current": 39.45,
+    "current": 42.33,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3585,6 +3589,10 @@
       {
         "date": "2026-07-20 13:58:38",
         "price": 39.45
+      },
+      {
+        "date": "2026-07-20 14:48:39",
+        "price": 42.33
       }
     ],
     "pending_drop": null
