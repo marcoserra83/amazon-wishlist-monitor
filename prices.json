@@ -3224,7 +3224,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 25.26,
+    "current": 27.78,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3253,6 +3253,10 @@
       {
         "date": "2026-07-20 01:38:05",
         "price": 25.26
+      },
+      {
+        "date": "2026-07-20 06:38:37",
+        "price": 27.78
       }
     ],
     "pending_drop": null
