@@ -1862,7 +1862,7 @@
     "pending_drop": null
   },
   "naked": {
-    "current": 34.01,
+    "current": 35.9,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -1899,6 +1899,10 @@
       {
         "date": "2026-07-20 09:58:06",
         "price": 34.01
+      },
+      {
+        "date": "2026-07-20 11:58:02",
+        "price": 35.9
       }
     ],
     "pending_drop": null
