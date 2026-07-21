@@ -2013,6 +2013,16 @@
     ],
     "pending_drop": null
   },
+  "disco x 180 gr": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-07-22 01:18:26",
+        "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
   "tracy chapman talkin about a revolution": {
     "current": 65.28,
     "history": [
@@ -2652,11 +2662,15 @@
     "pending_drop": null
   },
   "dynamite": {
-    "current": 32.67,
+    "current": 35.31,
     "history": [
       {
         "date": "2026-07-21 20:28:34",
         "price": 32.67
+      },
+      {
+        "date": "2026-07-22 01:18:26",
+        "price": 35.31
       }
     ],
     "pending_drop": null
@@ -2703,6 +2717,16 @@
       {
         "date": "2026-07-21 21:49:07",
         "price": 43.71
+      }
+    ],
+    "pending_drop": null
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-07-22 01:18:26",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -3468,7 +3492,7 @@
     }
   },
   "vol 3 the subliminal verses violet": {
-    "current": 48.97,
+    "current": 48.99,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3517,6 +3541,10 @@
       {
         "date": "2026-07-21 20:28:34",
         "price": 48.97
+      },
+      {
+        "date": "2026-07-22 01:18:26",
+        "price": 48.99
       }
     ],
     "pending_drop": null
