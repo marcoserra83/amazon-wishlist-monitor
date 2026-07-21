@@ -2095,16 +2095,6 @@
     ],
     "pending_drop": null
   },
-  "follow the leader": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-07-21 00:57:59",
-        "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
   "up": {
     "current": 39.95,
     "history": [
@@ -2385,20 +2375,6 @@
       {
         "date": "2026-07-21 00:08:21",
         "price": 25.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "greatest hits": {
-    "current": 32.99,
-    "history": [
-      {
-        "date": "2026-07-20 21:58:08",
-        "price": 32.99
-      },
-      {
-        "date": "2026-07-21 00:08:21",
-        "price": 32.99
       }
     ],
     "pending_drop": null
