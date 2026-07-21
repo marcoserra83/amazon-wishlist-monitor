@@ -2652,7 +2652,7 @@
     "pending_drop": null
   },
   "emergency on planet earth": {
-    "current": 43.05,
+    "current": 43.71,
     "history": [
       {
         "date": "2026-07-21 13:18:15",
@@ -2665,13 +2665,13 @@
       {
         "date": "2026-07-21 20:18:47",
         "price": 46.94
+      },
+      {
+        "date": "2026-07-21 21:49:07",
+        "price": 43.71
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-21 20:28:34",
-      "old_price": 46.94,
-      "new_price": 43.05
-    }
+    "pending_drop": null
   },
   "playing the angel": {
     "current": 25.99,
