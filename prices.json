@@ -2468,7 +2468,7 @@
     "pending_drop": null
   },
   "synkronized": {
-    "current": 26.5,
+    "current": 27.36,
     "history": [
       {
         "date": "2026-07-20 13:58:38",
@@ -2481,6 +2481,10 @@
       {
         "date": "2026-07-21 00:08:21",
         "price": 26.5
+      },
+      {
+        "date": "2026-07-21 03:18:00",
+        "price": 27.36
       }
     ],
     "pending_drop": null
@@ -3899,20 +3903,6 @@
       {
         "date": "2026-07-21 00:08:21",
         "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "back in": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-07-20 23:58:38",
-        "price": 22.94
-      },
-      {
-        "date": "2026-07-21 00:08:21",
-        "price": 27.99
       }
     ],
     "pending_drop": null
