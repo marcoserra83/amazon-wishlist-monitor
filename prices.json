@@ -2186,7 +2186,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 46.56,
+    "current": 51.21,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -2239,6 +2239,10 @@
       {
         "date": "2026-07-21 04:58:32",
         "price": 46.56
+      },
+      {
+        "date": "2026-07-21 07:08:35",
+        "price": 51.21
       }
     ],
     "pending_drop": null
@@ -3776,7 +3780,7 @@
     "pending_drop": null
   },
   "mezzanine": {
-    "current": 39.45,
+    "current": 42.65,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3829,13 +3833,13 @@
       {
         "date": "2026-07-21 05:58:15",
         "price": 42.65
+      },
+      {
+        "date": "2026-07-21 07:08:35",
+        "price": 42.65
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-21 06:08:38",
-      "old_price": 42.65,
-      "new_price": 39.45
-    }
+    "pending_drop": null
   },
   "appetite for destruction": {
     "current": 29.9,
