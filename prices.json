@@ -1222,7 +1222,7 @@
     "pending_drop": null
   },
   "mainstream": {
-    "current": 33.21,
+    "current": 33.99,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -1423,6 +1423,10 @@
       {
         "date": "2026-07-22 01:47:54",
         "price": 33.21
+      },
+      {
+        "date": "2026-07-22 09:09:04",
+        "price": 33.99
       }
     ],
     "pending_drop": null
@@ -3697,6 +3701,16 @@
       {
         "date": "2026-07-22 01:47:54",
         "price": 39.22
+      }
+    ],
+    "pending_drop": null
+  },
+  "sleeping with ghosts": {
+    "current": 21.99,
+    "history": [
+      {
+        "date": "2026-07-22 09:09:04",
+        "price": 21.99
       }
     ],
     "pending_drop": null
