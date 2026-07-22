@@ -2741,24 +2741,6 @@
     ],
     "pending_drop": null
   },
-  "dynamite": {
-    "current": 35.31,
-    "history": [
-      {
-        "date": "2026-07-21 20:28:34",
-        "price": 32.67
-      },
-      {
-        "date": "2026-07-22 01:18:26",
-        "price": 35.31
-      },
-      {
-        "date": "2026-07-22 01:47:54",
-        "price": 35.31
-      }
-    ],
-    "pending_drop": null
-  },
   "synkronized": {
     "current": 27.36,
     "history": [
