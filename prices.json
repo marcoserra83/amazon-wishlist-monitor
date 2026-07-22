@@ -2305,20 +2305,6 @@
     ],
     "pending_drop": null
   },
-  "follow the leader": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-07-21 23:57:25",
-        "price": 23.99
-      },
-      {
-        "date": "2026-07-22 01:47:54",
-        "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
   "up": {
     "current": 39.95,
     "history": [
@@ -2789,20 +2775,6 @@
       {
         "date": "2026-07-22 03:48:26",
         "price": 43.05
-      }
-    ],
-    "pending_drop": null
-  },
-  "yield": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-07-22 01:18:26",
-        "price": 23.99
-      },
-      {
-        "date": "2026-07-22 01:47:54",
-        "price": 23.99
       }
     ],
     "pending_drop": null
