@@ -218,7 +218,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 30.99,
+    "current": 33.89,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -687,6 +687,10 @@
       {
         "date": "2026-07-22 01:47:54",
         "price": 30.99
+      },
+      {
+        "date": "2026-07-22 07:08:23",
+        "price": 33.89
       }
     ],
     "pending_drop": null
@@ -2305,64 +2309,6 @@
     ],
     "pending_drop": null
   },
-  "up": {
-    "current": 39.95,
-    "history": [
-      {
-        "date": "2026-07-18 22:18:12",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-19 11:28:19",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-19 16:08:55",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-19 21:28:21",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-19 23:38:24",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-20 01:17:54",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-20 01:38:05",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-20 09:58:06",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-20 13:58:38",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-21 00:08:21",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-21 16:58:07",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-21 20:28:34",
-        "price": 39.95
-      },
-      {
-        "date": "2026-07-22 01:47:54",
-        "price": 39.95
-      }
-    ],
-    "pending_drop": null
-  },
   "blood sugar sex magik": {
     "current": 37.9,
     "history": [
@@ -2422,7 +2368,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 51.21,
+    "current": 46.56,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -2493,7 +2439,11 @@
         "price": 51.21
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-22 07:08:23",
+      "old_price": 51.21,
+      "new_price": 46.56
+    }
   },
   "like clockwork": {
     "current": 30.69,
