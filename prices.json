@@ -2690,11 +2690,15 @@
     "pending_drop": null
   },
   "a funk odyssey": {
-    "current": 33.99,
+    "current": 33.97,
     "history": [
       {
         "date": "2026-07-22 22:28:00",
         "price": 33.99
+      },
+      {
+        "date": "2026-07-22 23:18:52",
+        "price": 33.97
       }
     ],
     "pending_drop": null
