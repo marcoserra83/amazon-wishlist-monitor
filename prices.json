@@ -218,7 +218,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 31.33,
+    "current": 32.8,
     "history": [
       {
         "date": "2026-06-28 13:09:20",
@@ -691,13 +691,13 @@
       {
         "date": "2026-07-22 07:08:23",
         "price": 33.89
+      },
+      {
+        "date": "2026-07-22 22:08:43",
+        "price": 32.8
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-22 08:58:18",
-      "old_price": 33.89,
-      "new_price": 31.33
-    }
+    "pending_drop": null
   },
   "fear of the dawn": {
     "current": 30.33,
