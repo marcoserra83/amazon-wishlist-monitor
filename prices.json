@@ -2327,6 +2327,16 @@
     ],
     "pending_drop": null
   },
+  "follow the leader": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-07-23 00:28:40",
+        "price": 23.99
+      }
+    ],
+    "pending_drop": null
+  },
   "blood sugar sex magik": {
     "current": 37.9,
     "history": [
@@ -2779,6 +2789,16 @@
       {
         "date": "2026-07-22 22:57:45",
         "price": 43.71
+      }
+    ],
+    "pending_drop": null
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-07-23 00:28:40",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -4606,7 +4626,7 @@
     "pending_drop": null
   },
   "fabrizio de andre": {
-    "current": 31.39,
+    "current": 35.29,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -4683,13 +4703,13 @@
       {
         "date": "2026-07-22 01:47:54",
         "price": 35.29
+      },
+      {
+        "date": "2026-07-23 00:28:40",
+        "price": 35.29
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-22 04:48:21",
-      "old_price": 35.29,
-      "new_price": 31.39
-    }
+    "pending_drop": null
   },
   "let love in": {
     "current": 26.98,
