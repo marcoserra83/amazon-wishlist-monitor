@@ -2631,16 +2631,6 @@
     ],
     "pending_drop": null
   },
-  "greatest hits": {
-    "current": 34.05,
-    "history": [
-      {
-        "date": "2026-07-22 06:18:19",
-        "price": 34.05
-      }
-    ],
-    "pending_drop": null
-  },
   "octahedron": {
     "current": 54.61,
     "history": [
@@ -4286,7 +4276,7 @@
     "pending_drop": null
   },
   "master of puppets": {
-    "current": 38.97,
+    "current": 35.9,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -4341,7 +4331,11 @@
         "price": 38.97
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-22 16:18:48",
+      "old_price": 38.97,
+      "new_price": 35.9
+    }
   },
   "mezzanine": {
     "current": 40.8,
