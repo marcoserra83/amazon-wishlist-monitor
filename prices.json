@@ -2065,20 +2065,6 @@
     ],
     "pending_drop": null
   },
-  "disco x 180 gr": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-07-22 01:18:26",
-        "price": 29.9
-      },
-      {
-        "date": "2026-07-22 01:47:54",
-        "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
   "tracy chapman talkin about a revolution": {
     "current": 65.28,
     "history": [
@@ -4650,7 +4636,7 @@
     "pending_drop": null
   },
   "fabrizio de andre": {
-    "current": 35.29,
+    "current": 31.39,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -4729,7 +4715,11 @@
         "price": 35.29
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-22 04:48:21",
+      "old_price": 35.29,
+      "new_price": 31.39
+    }
   },
   "let love in": {
     "current": 26.98,
