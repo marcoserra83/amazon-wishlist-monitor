@@ -2444,7 +2444,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 46.56,
+    "current": 49.58,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -2521,6 +2521,10 @@
       {
         "date": "2026-07-23 04:48:33",
         "price": 46.56
+      },
+      {
+        "date": "2026-07-23 07:58:32",
+        "price": 49.58
       }
     ],
     "pending_drop": null
@@ -3546,7 +3550,7 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 33.21,
+    "current": 39.84,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3667,6 +3671,10 @@
       {
         "date": "2026-07-23 04:48:33",
         "price": 33.21
+      },
+      {
+        "date": "2026-07-23 07:58:32",
+        "price": 39.84
       }
     ],
     "pending_drop": null
@@ -4662,7 +4670,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 27.78,
+    "current": 25.26,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -4733,7 +4741,11 @@
         "price": 27.78
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-23 07:58:32",
+      "old_price": 27.78,
+      "new_price": 25.26
+    }
   },
   "anime salve": {
     "current": 33.07,
