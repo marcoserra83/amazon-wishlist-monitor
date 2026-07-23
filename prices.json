@@ -2819,6 +2819,16 @@
     ],
     "pending_drop": null
   },
+  "emergency on planet earth": {
+    "current": 50.19,
+    "history": [
+      {
+        "date": "2026-07-23 14:48:03",
+        "price": 50.19
+      }
+    ],
+    "pending_drop": null
+  },
   "playing the angel": {
     "current": 25.99,
     "history": [
@@ -3264,7 +3274,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 32.74,
+    "current": 47.35,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3349,13 +3359,13 @@
       {
         "date": "2026-07-23 07:08:54",
         "price": 47.35
+      },
+      {
+        "date": "2026-07-23 14:48:03",
+        "price": 47.35
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-23 10:28:40",
-      "old_price": 47.35,
-      "new_price": 32.74
-    }
+    "pending_drop": null
   },
   "money for nothing": {
     "current": 38.43,
@@ -4774,11 +4784,15 @@
     "pending_drop": null
   },
   "fabrizio de andre": {
-    "current": 31.39,
+    "current": 31.9,
     "history": [
       {
         "date": "2026-07-23 04:48:33",
         "price": 31.39
+      },
+      {
+        "date": "2026-07-23 14:48:03",
+        "price": 31.9
       }
     ],
     "pending_drop": null
