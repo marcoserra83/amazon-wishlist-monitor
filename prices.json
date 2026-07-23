@@ -2801,16 +2801,6 @@
     ],
     "pending_drop": null
   },
-  "yield": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-07-23 00:28:40",
-        "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
   "playing the angel": {
     "current": 25.99,
     "history": [
@@ -3228,7 +3218,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 32.74,
+    "current": 47.35,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3301,13 +3291,13 @@
       {
         "date": "2026-07-23 02:48:05",
         "price": 46.89
+      },
+      {
+        "date": "2026-07-23 04:28:29",
+        "price": 47.35
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-07-23 02:58:10",
-      "old_price": 46.89,
-      "new_price": 32.74
-    }
+    "pending_drop": null
   },
   "money for nothing": {
     "current": 38.43,
