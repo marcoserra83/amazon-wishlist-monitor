@@ -3256,7 +3256,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 32.74,
+    "current": 47.35,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3337,12 +3337,16 @@
       {
         "date": "2026-07-23 04:38:59",
         "price": 52.24
+      },
+      {
+        "date": "2026-07-23 07:08:54",
+        "price": 47.35
       }
     ],
     "pending_drop": null
   },
   "money for nothing": {
-    "current": 38.43,
+    "current": 0.01,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -3401,7 +3405,11 @@
         "price": 38.43
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-23 07:08:54",
+      "old_price": 38.43,
+      "new_price": 0.01
+    }
   },
   "good bye lenin": {
     "current": 30.86,
