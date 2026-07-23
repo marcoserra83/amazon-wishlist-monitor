@@ -2911,6 +2911,16 @@
       "new_price": 43.71
     }
   },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-07-23 23:28:24",
+        "price": 23.99
+      }
+    ],
+    "pending_drop": null
+  },
   "playing the angel": {
     "current": 25.99,
     "history": [
@@ -4014,7 +4024,7 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 35.95,
+    "current": 34.9,
     "history": [
       {
         "date": "2026-07-18 22:18:12",
@@ -4079,6 +4089,10 @@
       {
         "date": "2026-07-23 20:48:53",
         "price": 35.95
+      },
+      {
+        "date": "2026-07-23 23:28:24",
+        "price": 34.9
       }
     ],
     "pending_drop": null
@@ -4988,7 +5002,7 @@
     "pending_drop": null
   },
   "fabrizio de andre": {
-    "current": 31.39,
+    "current": 29.9,
     "history": [
       {
         "date": "2026-07-23 15:58:41",
@@ -4997,6 +5011,10 @@
       {
         "date": "2026-07-23 16:18:32",
         "price": 31.39
+      },
+      {
+        "date": "2026-07-23 23:28:24",
+        "price": 29.9
       }
     ],
     "pending_drop": null
