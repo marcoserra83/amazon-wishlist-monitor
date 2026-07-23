@@ -2884,14 +2884,18 @@
     "pending_drop": null
   },
   "greatest hits": {
-    "current": 30.5,
+    "current": 27.45,
     "history": [
       {
         "date": "2026-07-24 00:28:50",
         "price": 30.5
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-07-24 00:47:59",
+      "old_price": 30.5,
+      "new_price": 27.45
+    }
   },
   "octahedron": {
     "current": 54.61,
