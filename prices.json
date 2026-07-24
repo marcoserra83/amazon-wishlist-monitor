@@ -625,20 +625,6 @@
       "new_price": 40.99
     }
   },
-  "yield": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-07-23 23:28:24",
-        "price": 23.99
-      },
-      {
-        "date": "2026-07-24 00:08:38",
-        "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
   "playing the angel": {
     "current": 25.99,
     "history": [
