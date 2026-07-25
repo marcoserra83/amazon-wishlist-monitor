@@ -1028,11 +1028,15 @@
     "pending_drop": null
   },
   "fabrizio de andre": {
-    "current": 29.9,
+    "current": 28.97,
     "history": [
       {
         "date": "2026-07-25 04:57:16",
         "price": 29.9
+      },
+      {
+        "date": "2026-07-25 05:18:42",
+        "price": 28.97
       }
     ],
     "pending_drop": null
