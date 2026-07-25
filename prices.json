@@ -1680,11 +1680,15 @@
     "pending_drop": null
   },
   "anime salve": {
-    "current": 32.68,
+    "current": 32.62,
     "history": [
       {
         "date": "2026-07-25 12:18:21",
         "price": 32.68
+      },
+      {
+        "date": "2026-07-25 14:58:41",
+        "price": 32.62
       }
     ],
     "pending_drop": null
