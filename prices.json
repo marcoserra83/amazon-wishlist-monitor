@@ -1566,7 +1566,7 @@
     "pending_drop": null
   },
   "substance": {
-    "current": 36.8,
+    "current": 44.95,
     "history": [
       {
         "date": "2026-07-25 04:57:16",
@@ -1579,6 +1579,10 @@
       {
         "date": "2026-07-25 09:48:50",
         "price": 36.8
+      },
+      {
+        "date": "2026-07-25 11:57:33",
+        "price": 44.95
       }
     ],
     "pending_drop": null
