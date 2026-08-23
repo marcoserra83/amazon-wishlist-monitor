@@ -1588,7 +1588,7 @@
     }
   },
   "light grenades": {
-    "current": 33.21,
+    "current": 39.84,
     "history": [
       {
         "date": "2026-07-25 04:57:16",
@@ -1613,6 +1613,10 @@
       {
         "date": "2026-08-22 19:18:44",
         "price": 33.21
+      },
+      {
+        "date": "2026-08-23 07:27:49",
+        "price": 39.84
       }
     ],
     "pending_drop": null
@@ -1640,7 +1644,7 @@
     }
   },
   "vol 3 the subliminal verses violet": {
-    "current": 46.73,
+    "current": 53.42,
     "history": [
       {
         "date": "2026-07-25 04:57:16",
@@ -1665,13 +1669,13 @@
       {
         "date": "2026-08-22 19:18:44",
         "price": 54.23
+      },
+      {
+        "date": "2026-08-23 07:27:49",
+        "price": 53.42
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-08-22 22:48:38",
-      "old_price": 54.23,
-      "new_price": 46.73
-    }
+    "pending_drop": null
   },
   "out of time": {
     "current": 25.99,
