@@ -29,6 +29,16 @@
     ],
     "pending_drop": null
   },
+  "die": {
+    "current": 69.99,
+    "history": [
+      {
+        "date": "2026-08-25 00:34:57",
+        "price": 69.99
+      }
+    ],
+    "pending_drop": null
+  },
   "cosa faremo da grandi": {
     "current": 30.99,
     "history": [
@@ -39,12 +49,12 @@
     ],
     "pending_drop": null
   },
-  "relax": {
-    "current": 29.99,
+  "mainstream": {
+    "current": 33.99,
     "history": [
       {
-        "date": "2026-08-24 23:05:08",
-        "price": 29.99
+        "date": "2026-08-25 00:34:57",
+        "price": 33.99
       }
     ],
     "pending_drop": null
@@ -85,16 +95,6 @@
       {
         "date": "2026-08-25 00:14:25",
         "price": 36.5
-      }
-    ],
-    "pending_drop": null
-  },
-  "adore": {
-    "current": 43.95,
-    "history": [
-      {
-        "date": "2026-08-24 23:38:58",
-        "price": 43.95
       }
     ],
     "pending_drop": null
@@ -169,16 +169,6 @@
     ],
     "pending_drop": null
   },
-  "remain in light": {
-    "current": 24.56,
-    "history": [
-      {
-        "date": "2026-08-25 00:14:25",
-        "price": 24.56
-      }
-    ],
-    "pending_drop": null
-  },
   "follow the leader": {
     "current": 23.99,
     "history": [
@@ -219,6 +209,26 @@
     ],
     "pending_drop": null
   },
+  "bleach ed": {
+    "current": 24.75,
+    "history": [
+      {
+        "date": "2026-08-25 00:34:57",
+        "price": 24.75
+      }
+    ],
+    "pending_drop": null
+  },
+  "the ballad of darren": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-08-25 00:34:57",
+        "price": 25.9
+      }
+    ],
+    "pending_drop": null
+  },
   "greatest hits": {
     "current": 27.99,
     "history": [
@@ -229,12 +239,32 @@
     ],
     "pending_drop": null
   },
-  "synkronized": {
-    "current": 30.0,
+  "dynamite": {
+    "current": 35.31,
     "history": [
       {
-        "date": "2026-08-25 00:14:25",
-        "price": 30.0
+        "date": "2026-08-25 00:34:57",
+        "price": 35.31
+      }
+    ],
+    "pending_drop": null
+  },
+  "a funk odyssey": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-08-25 00:34:57",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "emergency on planet earth": {
+    "current": 40.99,
+    "history": [
+      {
+        "date": "2026-08-25 00:34:57",
+        "price": 40.99
       }
     ],
     "pending_drop": null
@@ -279,6 +309,16 @@
     ],
     "pending_drop": null
   },
+  "tici canzoni urgenti": {
+    "current": 32.9,
+    "history": [
+      {
+        "date": "2026-08-25 00:34:57",
+        "price": 32.9
+      }
+    ],
+    "pending_drop": null
+  },
   "top": {
     "current": 29.9,
     "history": [
@@ -305,16 +345,6 @@
       {
         "date": "2026-08-24 23:23:47",
         "price": 24.8
-      }
-    ],
-    "pending_drop": null
-  },
-  "ixnay on the hombre": {
-    "current": 32.74,
-    "history": [
-      {
-        "date": "2026-08-25 00:14:25",
-        "price": 32.74
       }
     ],
     "pending_drop": null
@@ -379,6 +409,16 @@
     ],
     "pending_drop": null
   },
+  "morning view": {
+    "current": 39.99,
+    "history": [
+      {
+        "date": "2026-08-25 00:34:57",
+        "price": 39.99
+      }
+    ],
+    "pending_drop": null
+  },
   "vol 3 the subliminal verses violet": {
     "current": 52.88,
     "history": [
@@ -389,22 +429,22 @@
     ],
     "pending_drop": null
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
+  "our love to admire": {
+    "current": 34.1,
     "history": [
       {
-        "date": "2026-08-24 23:38:58",
-        "price": 24.5
+        "date": "2026-08-25 00:34:57",
+        "price": 34.1
       }
     ],
     "pending_drop": null
   },
-  "led zeppelin iii": {
-    "current": 26.95,
+  "festival session 2 bonus tracks": {
+    "current": 50.83,
     "history": [
       {
-        "date": "2026-08-24 23:58:59",
-        "price": 26.95
+        "date": "2026-08-25 00:34:57",
+        "price": 50.83
       }
     ],
     "pending_drop": null
@@ -439,22 +479,22 @@
     ],
     "pending_drop": null
   },
+  "s m2 box": {
+    "current": 95.88,
+    "history": [
+      {
+        "date": "2026-08-25 00:34:57",
+        "price": 95.88
+      }
+    ],
+    "pending_drop": null
+  },
   "load": {
     "current": 43.95,
     "history": [
       {
         "date": "2026-08-25 00:14:25",
         "price": 43.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "and justice for all": {
-    "current": 34.95,
-    "history": [
-      {
-        "date": "2026-08-25 00:14:25",
-        "price": 34.95
       }
     ],
     "pending_drop": null
@@ -489,26 +529,6 @@
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 23.85,
-    "history": [
-      {
-        "date": "2026-08-24 22:54:08",
-        "price": 23.85
-      }
-    ],
-    "pending_drop": null
-  },
-  "guest star bill evans alone together": {
-    "current": 27.19,
-    "history": [
-      {
-        "date": "2026-08-24 22:24:33",
-        "price": 27.19
-      }
-    ],
-    "pending_drop": null
-  },
   "fabrizio de andre": {
     "current": 27.99,
     "history": [
@@ -535,36 +555,6 @@
       {
         "date": "2026-08-25 00:14:25",
         "price": 41.5
-      }
-    ],
-    "pending_drop": null
-  },
-  "camera a sud": {
-    "current": 32.81,
-    "history": [
-      {
-        "date": "2026-08-24 23:58:59",
-        "price": 32.81
-      }
-    ],
-    "pending_drop": null
-  },
-  "soft parade": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-08-24 23:58:59",
-        "price": 26.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "morrison hotel": {
-    "current": 38.99,
-    "history": [
-      {
-        "date": "2026-08-25 00:14:25",
-        "price": 38.99
       }
     ],
     "pending_drop": null
