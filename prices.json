@@ -9,16 +9,6 @@
     ],
     "pending_drop": null
   },
-  "vauxhall i definitive": {
-    "current": 32.5,
-    "history": [
-      {
-        "date": "2026-08-24 21:05:26",
-        "price": 32.5
-      }
-    ],
-    "pending_drop": null
-  },
   "fear of the dawn": {
     "current": 30.33,
     "history": [
@@ -49,42 +39,12 @@
     ],
     "pending_drop": null
   },
-  "mainstream": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-08-24 20:24:38",
-        "price": 33.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "relax": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-08-24 20:34:41",
-        "price": 29.99
-      }
-    ],
-    "pending_drop": null
-  },
   "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
       {
         "date": "2026-08-24 19:54:23",
         "price": 33.21
-      }
-    ],
-    "pending_drop": null
-  },
-  "amputechture": {
-    "current": 41.99,
-    "history": [
-      {
-        "date": "2026-08-24 21:05:26",
-        "price": 41.99
       }
     ],
     "pending_drop": null
@@ -99,22 +59,36 @@
     ],
     "pending_drop": null
   },
+  "un du": {
+    "current": 36.48,
+    "history": [
+      {
+        "date": "2026-08-24 21:14:41",
+        "price": 36.48
+      }
+    ],
+    "pending_drop": null
+  },
   "hot fuzz": {
-    "current": 32.8,
+    "current": 27.23,
     "history": [
       {
         "date": "2026-08-24 20:14:00",
         "price": 32.8
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-08-24 21:14:41",
+      "old_price": 32.8,
+      "new_price": 27.23
+    }
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 50.71,
+  "disco x 180 gr": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-08-24 21:05:26",
-        "price": 50.71
+        "date": "2026-08-24 21:14:41",
+        "price": 29.9
       }
     ],
     "pending_drop": null
@@ -169,22 +143,22 @@
     ],
     "pending_drop": null
   },
-  "blood sugar sex magik": {
-    "current": 37.9,
+  "riot on a empty street": {
+    "current": 46.8,
     "history": [
       {
-        "date": "2026-08-24 21:05:26",
-        "price": 37.9
+        "date": "2026-08-24 21:14:41",
+        "price": 46.8
       }
     ],
     "pending_drop": null
   },
-  "like clockwork": {
-    "current": 33.95,
+  "bleach ed": {
+    "current": 24.75,
     "history": [
       {
-        "date": "2026-08-24 20:44:33",
-        "price": 33.95
+        "date": "2026-08-24 21:14:41",
+        "price": 24.75
       }
     ],
     "pending_drop": null
@@ -215,16 +189,6 @@
       {
         "date": "2026-08-24 18:44:10",
         "price": 35.31
-      }
-    ],
-    "pending_drop": null
-  },
-  "a funk odyssey": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-08-24 21:05:26",
-        "price": 33.99
       }
     ],
     "pending_drop": null
@@ -269,6 +233,16 @@
     ],
     "pending_drop": null
   },
+  "reggatta de blanc": {
+    "current": 33.05,
+    "history": [
+      {
+        "date": "2026-08-24 21:14:41",
+        "price": 33.05
+      }
+    ],
+    "pending_drop": null
+  },
   "la matematica dei rami": {
     "current": 33.31,
     "history": [
@@ -279,12 +253,12 @@
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 32.9,
+  "swing in the films of woody allen": {
+    "current": 32.5,
     "history": [
       {
-        "date": "2026-08-24 20:34:41",
-        "price": 32.9
+        "date": "2026-08-24 21:14:41",
+        "price": 32.5
       }
     ],
     "pending_drop": null
@@ -379,12 +353,32 @@
     ],
     "pending_drop": null
   },
+  "vol 3 the subliminal verses violet": {
+    "current": 52.88,
+    "history": [
+      {
+        "date": "2026-08-24 21:14:41",
+        "price": 52.88
+      }
+    ],
+    "pending_drop": null
+  },
   "out of time": {
     "current": 25.99,
     "history": [
       {
         "date": "2026-08-24 20:24:38",
         "price": 25.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "noctourniquet": {
+    "current": 39.27,
+    "history": [
+      {
+        "date": "2026-08-24 21:14:41",
+        "price": 39.27
       }
     ],
     "pending_drop": null
@@ -479,12 +473,22 @@
     ],
     "pending_drop": null
   },
-  "master of puppets": {
-    "current": 35.9,
+  "load": {
+    "current": 43.95,
     "history": [
       {
-        "date": "2026-08-24 20:24:38",
-        "price": 35.9
+        "date": "2026-08-24 21:14:41",
+        "price": 43.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "and justice for all": {
+    "current": 34.95,
+    "history": [
+      {
+        "date": "2026-08-24 21:14:41",
+        "price": 34.95
       }
     ],
     "pending_drop": null
@@ -539,22 +543,12 @@
     ],
     "pending_drop": null
   },
-  "fabrizio de andre": {
-    "current": 27.99,
+  "interpol": {
+    "current": 41.5,
     "history": [
       {
-        "date": "2026-08-24 21:05:26",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "let love in": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-08-24 20:44:33",
-        "price": 29.99
+        "date": "2026-08-24 21:14:41",
+        "price": 41.5
       }
     ],
     "pending_drop": null
@@ -569,12 +563,12 @@
     ],
     "pending_drop": null
   },
-  "soft parade": {
-    "current": 26.95,
+  "morrison hotel": {
+    "current": 38.99,
     "history": [
       {
-        "date": "2026-08-24 20:44:33",
-        "price": 26.95
+        "date": "2026-08-24 21:14:41",
+        "price": 38.99
       }
     ],
     "pending_drop": null
@@ -585,16 +579,6 @@
       {
         "date": "2026-08-24 20:44:33",
         "price": 34.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-08-24 21:05:26",
-        "price": 31.99
       }
     ],
     "pending_drop": null
