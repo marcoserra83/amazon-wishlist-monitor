@@ -1862,7 +1862,7 @@
     "pending_drop": null
   },
   "good bye lenin": {
-    "current": 35.77,
+    "current": 30.86,
     "history": [
       {
         "date": "2026-07-25 04:57:16",
@@ -1897,7 +1897,11 @@
         "price": 35.77
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-08-24 02:09:30",
+      "old_price": 35.77,
+      "new_price": 30.86
+    }
   },
   "the beautiful people toronto broadcast 1998 more double vinyl": {
     "current": 33.5,
