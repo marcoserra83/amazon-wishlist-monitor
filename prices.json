@@ -9,6 +9,16 @@
     ],
     "pending_drop": null
   },
+  "vauxhall i definitive": {
+    "current": 32.5,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 32.5
+      }
+    ],
+    "pending_drop": null
+  },
   "fear of the dawn": {
     "current": 30.33,
     "history": [
@@ -29,6 +39,16 @@
     ],
     "pending_drop": null
   },
+  "cosa faremo da grandi": {
+    "current": 30.99,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 30.99
+      }
+    ],
+    "pending_drop": null
+  },
   "mainstream": {
     "current": 33.99,
     "history": [
@@ -45,6 +65,16 @@
       {
         "date": "2026-08-24 21:24:06",
         "price": 29.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "evergreen e altre canzoni": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 33.21
       }
     ],
     "pending_drop": null
@@ -123,6 +153,26 @@
       "new_price": 27.23
     }
   },
+  "disco x 180 gr": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "tracy chapman talkin about a revolution": {
+    "current": 50.71,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 50.71
+      }
+    ],
+    "pending_drop": null
+  },
   "fear of music": {
     "current": 28.95,
     "history": [
@@ -153,12 +203,62 @@
     ],
     "pending_drop": null
   },
+  "follow the leader": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 23.99
+      }
+    ],
+    "pending_drop": null
+  },
   "up": {
     "current": 39.95,
     "history": [
       {
         "date": "2026-08-24 21:05:26",
         "price": 39.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "blood sugar sex magik": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 37.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "riot on a empty street": {
+    "current": 46.8,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 46.8
+      }
+    ],
+    "pending_drop": null
+  },
+  "like clockwork": {
+    "current": 33.95,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 33.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "bleach ed": {
+    "current": 24.75,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 24.75
       }
     ],
     "pending_drop": null
@@ -193,12 +293,52 @@
     ],
     "pending_drop": null
   },
+  "dynamite": {
+    "current": 35.31,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 35.31
+      }
+    ],
+    "pending_drop": null
+  },
+  "a funk odyssey": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "synkronized": {
+    "current": 30.0,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 30.0
+      }
+    ],
+    "pending_drop": null
+  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
       {
         "date": "2026-08-24 20:34:41",
         "price": 40.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -223,12 +363,52 @@
     ],
     "pending_drop": null
   },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 33.31
+      }
+    ],
+    "pending_drop": null
+  },
+  "swing in the films of woody allen": {
+    "current": 32.5,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 32.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "tici canzoni urgenti": {
+    "current": 32.9,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 32.9
+      }
+    ],
+    "pending_drop": null
+  },
   "top": {
     "current": 29.9,
     "history": [
       {
         "date": "2026-08-24 21:24:06",
         "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "hatful of hollow": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -253,6 +433,16 @@
     ],
     "pending_drop": null
   },
+  "ignition": {
+    "current": 24.36,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 24.36
+      }
+    ],
+    "pending_drop": null
+  },
   "money for nothing": {
     "current": 42.7,
     "history": [
@@ -269,6 +459,26 @@
       {
         "date": "2026-08-24 21:05:26",
         "price": 30.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 33.5,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 33.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "a crow left of the murder": {
+    "current": 47.79,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 47.79
       }
     ],
     "pending_drop": null
@@ -323,6 +533,26 @@
     ],
     "pending_drop": null
   },
+  "sleeping with ghosts": {
+    "current": 24.5,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 24.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "our love to admire": {
+    "current": 34.1,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 34.1
+      }
+    ],
+    "pending_drop": null
+  },
   "metallica": {
     "current": 34.95,
     "history": [
@@ -353,6 +583,16 @@
     ],
     "pending_drop": null
   },
+  "festival session 2 bonus tracks": {
+    "current": 50.83,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 50.83
+      }
+    ],
+    "pending_drop": null
+  },
   "reload": {
     "current": 49.87,
     "history": [
@@ -369,6 +609,16 @@
       {
         "date": "2026-08-24 21:05:26",
         "price": 55.67
+      }
+    ],
+    "pending_drop": null
+  },
+  "kill em all": {
+    "current": 30.95,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 30.95
       }
     ],
     "pending_drop": null
@@ -413,6 +663,16 @@
     ],
     "pending_drop": null
   },
+  "mezzanine": {
+    "current": 40.8,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 40.8
+      }
+    ],
+    "pending_drop": null
+  },
   "appetite for destruction": {
     "current": 29.9,
     "history": [
@@ -439,6 +699,16 @@
       {
         "date": "2026-08-24 21:05:26",
         "price": 27.19
+      }
+    ],
+    "pending_drop": null
+  },
+  "anime salve": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 27.99
       }
     ],
     "pending_drop": null
@@ -509,6 +779,26 @@
       {
         "date": "2026-08-24 20:44:33",
         "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "heroes": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 31.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "the rise and fall of ziggy stardust": {
+    "current": 26.01,
+    "history": [
+      {
+        "date": "2026-08-24 21:39:16",
+        "price": 26.01
       }
     ],
     "pending_drop": null
