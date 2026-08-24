@@ -1,4 +1,14 @@
 {
+  "innerspeaker": {
+    "current": 29.89,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 29.89
+      }
+    ],
+    "pending_drop": null
+  },
   "vauxhall i definitive": {
     "current": 32.5,
     "history": [
@@ -39,6 +49,26 @@
     ],
     "pending_drop": null
   },
+  "mainstream": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 29.99
+      }
+    ],
+    "pending_drop": null
+  },
   "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
@@ -59,12 +89,12 @@
     ],
     "pending_drop": null
   },
-  "amputechture": {
-    "current": 41.99,
+  "songs of a lost world": {
+    "current": 31.9,
     "history": [
       {
-        "date": "2026-08-24 12:43:49",
-        "price": 41.99
+        "date": "2026-08-24 12:54:32",
+        "price": 31.9
       }
     ],
     "pending_drop": null
@@ -79,12 +109,52 @@
     ],
     "pending_drop": null
   },
+  "hot fuzz": {
+    "current": 32.8,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 32.8
+      }
+    ],
+    "pending_drop": null
+  },
+  "disco x 180 gr": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
   "fear of music": {
     "current": 28.95,
     "history": [
       {
         "date": "2026-08-24 12:13:46",
         "price": 28.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "naked": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 35.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "remain in light": {
+    "current": 24.56,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 24.56
       }
     ],
     "pending_drop": null
@@ -109,6 +179,16 @@
     ],
     "pending_drop": null
   },
+  "riot on a empty street": {
+    "current": 46.8,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 46.8
+      }
+    ],
+    "pending_drop": null
+  },
   "like clockwork": {
     "current": 33.95,
     "history": [
@@ -125,6 +205,16 @@
       {
         "date": "2026-08-24 12:43:49",
         "price": 24.75
+      }
+    ],
+    "pending_drop": null
+  },
+  "the ballad of darren": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -149,6 +239,26 @@
     ],
     "pending_drop": null
   },
+  "dynamite": {
+    "current": 35.31,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 35.31
+      }
+    ],
+    "pending_drop": null
+  },
+  "a funk odyssey": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
   "synkronized": {
     "current": 30.0,
     "history": [
@@ -165,6 +275,36 @@
       {
         "date": "2026-08-24 12:34:16",
         "price": 40.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 23.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "playing the angel": {
+    "current": 25.99,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 25.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "reggatta de blanc": {
+    "current": 33.05,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 33.05
       }
     ],
     "pending_drop": null
@@ -189,12 +329,12 @@
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 32.9,
+  "hatful of hollow": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-08-24 12:03:44",
-        "price": 32.9
+        "date": "2026-08-24 12:54:32",
+        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -229,42 +369,42 @@
     ],
     "pending_drop": null
   },
-  "good bye lenin": {
-    "current": 30.86,
+  "light grenades": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-08-24 12:43:49",
-        "price": 30.86
+        "date": "2026-08-24 12:54:32",
+        "price": 33.21
       }
     ],
     "pending_drop": null
   },
-  "a crow left of the murder": {
-    "current": 47.79,
+  "out of time": {
+    "current": 25.99,
     "history": [
       {
-        "date": "2026-08-24 12:03:44",
-        "price": 47.79
+        "date": "2026-08-24 12:54:32",
+        "price": 25.99
       }
     ],
     "pending_drop": null
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
+  "noctourniquet": {
+    "current": 39.27,
     "history": [
       {
-        "date": "2026-08-24 12:43:49",
-        "price": 24.5
+        "date": "2026-08-24 12:54:32",
+        "price": 39.27
       }
     ],
     "pending_drop": null
   },
-  "metallica": {
-    "current": 34.95,
+  "led zeppelin iv": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-08-24 12:23:33",
-        "price": 34.95
+        "date": "2026-08-24 12:54:32",
+        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -319,16 +459,6 @@
     ],
     "pending_drop": null
   },
-  "s m2 box": {
-    "current": 95.88,
-    "history": [
-      {
-        "date": "2026-08-24 12:34:16",
-        "price": 95.88
-      }
-    ],
-    "pending_drop": null
-  },
   "load": {
     "current": 43.95,
     "history": [
@@ -349,16 +479,6 @@
     ],
     "pending_drop": null
   },
-  "master of puppets": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-08-24 12:43:49",
-        "price": 35.9
-      }
-    ],
-    "pending_drop": null
-  },
   "appetite for destruction": {
     "current": 29.9,
     "history": [
@@ -369,12 +489,42 @@
     ],
     "pending_drop": null
   },
-  "guest star bill evans alone together": {
-    "current": 27.19,
+  "back in": {
+    "current": 23.85,
     "history": [
       {
-        "date": "2026-08-24 12:43:49",
-        "price": 27.19
+        "date": "2026-08-24 12:54:32",
+        "price": 23.85
+      }
+    ],
+    "pending_drop": null
+  },
+  "anime salve": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 27.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "interpol": {
+    "current": 41.5,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 41.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "soft parade": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 26.95
       }
     ],
     "pending_drop": null
@@ -395,6 +545,16 @@
       {
         "date": "2026-08-24 12:34:16",
         "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "heroes": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-08-24 12:54:32",
+        "price": 31.99
       }
     ],
     "pending_drop": null
