@@ -1,4 +1,14 @@
 {
+  "innerspeaker": {
+    "current": 29.89,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 29.89
+      }
+    ],
+    "pending_drop": null
+  },
   "vauxhall i definitive": {
     "current": 32.5,
     "history": [
@@ -35,16 +45,6 @@
       {
         "date": "2026-08-24 17:44:18",
         "price": 30.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "mainstream": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-08-24 17:34:10",
-        "price": 33.99
       }
     ],
     "pending_drop": null
@@ -89,6 +89,16 @@
     ],
     "pending_drop": null
   },
+  "spira": {
+    "current": 36.5,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 36.5
+      }
+    ],
+    "pending_drop": null
+  },
   "adore": {
     "current": 43.95,
     "history": [
@@ -119,6 +129,16 @@
     ],
     "pending_drop": null
   },
+  "hot fuzz": {
+    "current": 32.8,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 32.8
+      }
+    ],
+    "pending_drop": null
+  },
   "disco x 180 gr": {
     "current": 29.9,
     "history": [
@@ -139,12 +159,12 @@
     ],
     "pending_drop": null
   },
-  "fear of music": {
-    "current": 28.95,
+  "naked": {
+    "current": 35.9,
     "history": [
       {
-        "date": "2026-08-24 17:34:10",
-        "price": 28.95
+        "date": "2026-08-24 17:54:48",
+        "price": 35.9
       }
     ],
     "pending_drop": null
@@ -155,26 +175,6 @@
       {
         "date": "2026-08-24 17:04:26",
         "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "up": {
-    "current": 39.95,
-    "history": [
-      {
-        "date": "2026-08-24 17:44:18",
-        "price": 39.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "blood sugar sex magik": {
-    "current": 37.9,
-    "history": [
-      {
-        "date": "2026-08-24 16:55:11",
-        "price": 37.9
       }
     ],
     "pending_drop": null
@@ -209,16 +209,6 @@
     ],
     "pending_drop": null
   },
-  "the ballad of darren": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-08-24 17:34:10",
-        "price": 25.9
-      }
-    ],
-    "pending_drop": null
-  },
   "greatest hits": {
     "current": 27.99,
     "history": [
@@ -239,22 +229,22 @@
     ],
     "pending_drop": null
   },
-  "a funk odyssey": {
-    "current": 33.99,
+  "dynamite": {
+    "current": 35.31,
     "history": [
       {
-        "date": "2026-08-24 16:34:18",
-        "price": 33.99
+        "date": "2026-08-24 17:54:48",
+        "price": 35.31
       }
     ],
     "pending_drop": null
   },
-  "yield": {
-    "current": 23.99,
+  "synkronized": {
+    "current": 30.0,
     "history": [
       {
-        "date": "2026-08-24 17:44:18",
-        "price": 23.99
+        "date": "2026-08-24 17:54:48",
+        "price": 30.0
       }
     ],
     "pending_drop": null
@@ -269,22 +259,22 @@
     ],
     "pending_drop": null
   },
+  "reggatta de blanc": {
+    "current": 33.05,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 33.05
+      }
+    ],
+    "pending_drop": null
+  },
   "la matematica dei rami": {
     "current": 33.31,
     "history": [
       {
         "date": "2026-08-24 17:44:18",
         "price": 33.31
-      }
-    ],
-    "pending_drop": null
-  },
-  "swing in the films of woody allen": {
-    "current": 32.5,
-    "history": [
-      {
-        "date": "2026-08-24 17:44:18",
-        "price": 32.5
       }
     ],
     "pending_drop": null
@@ -309,12 +299,12 @@
     ],
     "pending_drop": null
   },
-  "hatful of hollow": {
-    "current": 25.9,
+  "the queen is dead": {
+    "current": 24.8,
     "history": [
       {
-        "date": "2026-08-24 17:24:40",
-        "price": 25.9
+        "date": "2026-08-24 17:54:48",
+        "price": 24.8
       }
     ],
     "pending_drop": null
@@ -325,6 +315,16 @@
       {
         "date": "2026-08-24 17:24:40",
         "price": 32.74
+      }
+    ],
+    "pending_drop": null
+  },
+  "ignition": {
+    "current": 24.36,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 24.36
       }
     ],
     "pending_drop": null
@@ -359,12 +359,72 @@
     ],
     "pending_drop": null
   },
+  "light grenades": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "morning view": {
+    "current": 39.99,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 39.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "vol 3 the subliminal verses violet": {
+    "current": 52.88,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 52.88
+      }
+    ],
+    "pending_drop": null
+  },
   "out of time": {
     "current": 25.99,
     "history": [
       {
         "date": "2026-08-24 17:24:40",
         "price": 25.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "noctourniquet": {
+    "current": 39.27,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 39.27
+      }
+    ],
+    "pending_drop": null
+  },
+  "sleeping with ghosts": {
+    "current": 24.5,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 24.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "our love to admire": {
+    "current": 34.1,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 34.1
       }
     ],
     "pending_drop": null
@@ -399,22 +459,32 @@
     ],
     "pending_drop": null
   },
+  "reload": {
+    "current": 49.87,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 49.87
+      }
+    ],
+    "pending_drop": null
+  },
+  "s m": {
+    "current": 55.67,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 55.67
+      }
+    ],
+    "pending_drop": null
+  },
   "kill em all": {
     "current": 30.95,
     "history": [
       {
         "date": "2026-08-24 17:34:10",
         "price": 30.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "s m2 box": {
-    "current": 95.88,
-    "history": [
-      {
-        "date": "2026-08-24 17:24:40",
-        "price": 95.88
       }
     ],
     "pending_drop": null
@@ -469,16 +539,6 @@
     ],
     "pending_drop": null
   },
-  "anime salve": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-08-24 17:44:18",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
   "fabrizio de andre": {
     "current": 27.99,
     "history": [
@@ -499,6 +559,16 @@
     ],
     "pending_drop": null
   },
+  "interpol": {
+    "current": 41.5,
+    "history": [
+      {
+        "date": "2026-08-24 17:54:48",
+        "price": 41.5
+      }
+    ],
+    "pending_drop": null
+  },
   "camera a sud": {
     "current": 32.81,
     "history": [
@@ -509,32 +579,12 @@
     ],
     "pending_drop": null
   },
-  "soft parade": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-08-24 17:34:10",
-        "price": 26.95
-      }
-    ],
-    "pending_drop": null
-  },
   "morrison hotel": {
     "current": 38.99,
     "history": [
       {
         "date": "2026-08-24 17:44:18",
         "price": 38.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "ghosteen": {
-    "current": 34.9,
-    "history": [
-      {
-        "date": "2026-08-24 17:24:40",
-        "price": 34.9
       }
     ],
     "pending_drop": null
