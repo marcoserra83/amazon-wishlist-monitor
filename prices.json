@@ -19,26 +19,6 @@
     ],
     "pending_drop": null
   },
-  "fear of the dawn": {
-    "current": 30.33,
-    "history": [
-      {
-        "date": "2026-08-25 05:23:28",
-        "price": 30.33
-      }
-    ],
-    "pending_drop": null
-  },
-  "die": {
-    "current": 69.99,
-    "history": [
-      {
-        "date": "2026-08-25 05:14:14",
-        "price": 69.99
-      }
-    ],
-    "pending_drop": null
-  },
   "cosa faremo da grandi": {
     "current": 30.99,
     "history": [
@@ -89,16 +69,6 @@
     ],
     "pending_drop": null
   },
-  "adore": {
-    "current": 43.95,
-    "history": [
-      {
-        "date": "2026-08-25 04:54:32",
-        "price": 43.95
-      }
-    ],
-    "pending_drop": null
-  },
   "songs of a lost world": {
     "current": 31.9,
     "history": [
@@ -109,12 +79,12 @@
     ],
     "pending_drop": null
   },
-  "disco x 180 gr": {
-    "current": 29.9,
+  "tracy chapman talkin about a revolution": {
+    "current": 50.71,
     "history": [
       {
-        "date": "2026-08-25 03:42:52",
-        "price": 29.9
+        "date": "2026-08-25 05:34:09",
+        "price": 50.71
       }
     ],
     "pending_drop": null
@@ -129,6 +99,16 @@
     ],
     "pending_drop": null
   },
+  "naked": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-08-25 05:34:09",
+        "price": 35.9
+      }
+    ],
+    "pending_drop": null
+  },
   "remain in light": {
     "current": 24.56,
     "history": [
@@ -139,22 +119,12 @@
     ],
     "pending_drop": null
   },
-  "up": {
-    "current": 39.95,
+  "bleach ed": {
+    "current": 24.75,
     "history": [
       {
-        "date": "2026-08-25 05:14:14",
-        "price": 39.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "riot on a empty street": {
-    "current": 46.8,
-    "history": [
-      {
-        "date": "2026-08-25 04:54:32",
-        "price": 46.8
+        "date": "2026-08-25 05:34:09",
+        "price": 24.75
       }
     ],
     "pending_drop": null
@@ -169,12 +139,12 @@
     ],
     "pending_drop": null
   },
-  "greatest hits": {
-    "current": 27.99,
+  "octahedron": {
+    "current": 54.61,
     "history": [
       {
-        "date": "2026-08-25 05:04:23",
-        "price": 27.99
+        "date": "2026-08-25 05:34:09",
+        "price": 54.61
       }
     ],
     "pending_drop": null
@@ -199,16 +169,6 @@
     ],
     "pending_drop": null
   },
-  "reggatta de blanc": {
-    "current": 33.05,
-    "history": [
-      {
-        "date": "2026-08-25 05:23:28",
-        "price": 33.05
-      }
-    ],
-    "pending_drop": null
-  },
   "la matematica dei rami": {
     "current": 33.31,
     "history": [
@@ -219,12 +179,12 @@
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 32.9,
+  "swing in the films of woody allen": {
+    "current": 32.5,
     "history": [
       {
-        "date": "2026-08-25 05:23:28",
-        "price": 32.9
+        "date": "2026-08-25 05:34:09",
+        "price": 32.5
       }
     ],
     "pending_drop": null
@@ -235,6 +195,36 @@
       {
         "date": "2026-08-25 04:43:34",
         "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "hatful of hollow": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-08-25 05:34:09",
+        "price": 25.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "the queen is dead": {
+    "current": 24.8,
+    "history": [
+      {
+        "date": "2026-08-25 05:34:09",
+        "price": 24.8
+      }
+    ],
+    "pending_drop": null
+  },
+  "ixnay on the hombre": {
+    "current": 32.74,
+    "history": [
+      {
+        "date": "2026-08-25 05:34:09",
+        "price": 32.74
       }
     ],
     "pending_drop": null
@@ -259,22 +249,12 @@
     ],
     "pending_drop": null
   },
-  "a crow left of the murder": {
-    "current": 47.79,
+  "out of time": {
+    "current": 25.99,
     "history": [
       {
-        "date": "2026-08-25 05:04:23",
-        "price": 47.79
-      }
-    ],
-    "pending_drop": null
-  },
-  "vol 3 the subliminal verses violet": {
-    "current": 52.88,
-    "history": [
-      {
-        "date": "2026-08-25 05:14:14",
-        "price": 52.88
+        "date": "2026-08-25 05:34:09",
+        "price": 25.99
       }
     ],
     "pending_drop": null
@@ -285,6 +265,16 @@
       {
         "date": "2026-08-25 05:23:28",
         "price": 24.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "our love to admire": {
+    "current": 34.1,
+    "history": [
+      {
+        "date": "2026-08-25 05:34:09",
+        "price": 34.1
       }
     ],
     "pending_drop": null
@@ -309,26 +299,6 @@
     ],
     "pending_drop": null
   },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
-    "history": [
-      {
-        "date": "2026-08-25 05:14:14",
-        "price": 50.83
-      }
-    ],
-    "pending_drop": null
-  },
-  "reload": {
-    "current": 49.87,
-    "history": [
-      {
-        "date": "2026-08-25 05:23:28",
-        "price": 49.87
-      }
-    ],
-    "pending_drop": null
-  },
   "s m": {
     "current": 55.67,
     "history": [
@@ -339,22 +309,12 @@
     ],
     "pending_drop": null
   },
-  "kill em all": {
-    "current": 30.95,
+  "load": {
+    "current": 43.95,
     "history": [
       {
-        "date": "2026-08-25 05:04:23",
-        "price": 30.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "s m2 box": {
-    "current": 95.88,
-    "history": [
-      {
-        "date": "2026-08-25 04:14:21",
-        "price": 95.88
+        "date": "2026-08-25 05:34:09",
+        "price": 43.95
       }
     ],
     "pending_drop": null
@@ -369,11 +329,31 @@
     ],
     "pending_drop": null
   },
-  "fabrizio de andre": {
+  "mezzanine": {
+    "current": 40.8,
+    "history": [
+      {
+        "date": "2026-08-25 05:34:09",
+        "price": 40.8
+      }
+    ],
+    "pending_drop": null
+  },
+  "guest star bill evans alone together": {
+    "current": 27.19,
+    "history": [
+      {
+        "date": "2026-08-25 05:34:09",
+        "price": 27.19
+      }
+    ],
+    "pending_drop": null
+  },
+  "anime salve": {
     "current": 27.99,
     "history": [
       {
-        "date": "2026-08-25 05:14:14",
+        "date": "2026-08-25 05:34:09",
         "price": 27.99
       }
     ],
@@ -389,12 +369,12 @@
     ],
     "pending_drop": null
   },
-  "camera a sud": {
-    "current": 32.81,
+  "soft parade": {
+    "current": 26.95,
     "history": [
       {
-        "date": "2026-08-25 04:54:32",
-        "price": 32.81
+        "date": "2026-08-25 05:34:09",
+        "price": 26.95
       }
     ],
     "pending_drop": null
@@ -415,16 +395,6 @@
       {
         "date": "2026-08-25 05:23:28",
         "price": 34.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-08-25 05:23:28",
-        "price": 31.99
       }
     ],
     "pending_drop": null
