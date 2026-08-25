@@ -1,4 +1,14 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-08-25 07:24:21",
+        "price": 26.9
+      }
+    ],
+    "pending_drop": null
+  },
   "vauxhall i definitive": {
     "current": 32.5,
     "history": [
@@ -9,12 +19,12 @@
     ],
     "pending_drop": null
   },
-  "cosa faremo da grandi": {
-    "current": 30.99,
+  "mainstream": {
+    "current": 33.99,
     "history": [
       {
-        "date": "2026-08-25 06:53:28",
-        "price": 30.99
+        "date": "2026-08-25 07:24:21",
+        "price": 33.99
       }
     ],
     "pending_drop": null
@@ -25,16 +35,6 @@
       {
         "date": "2026-08-25 06:53:28",
         "price": 29.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "evergreen e altre canzoni": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-08-25 06:42:51",
-        "price": 33.21
       }
     ],
     "pending_drop": null
@@ -59,6 +59,36 @@
     ],
     "pending_drop": null
   },
+  "adore": {
+    "current": 43.95,
+    "history": [
+      {
+        "date": "2026-08-25 07:24:21",
+        "price": 43.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "songs of a lost world": {
+    "current": 31.9,
+    "history": [
+      {
+        "date": "2026-08-25 07:24:21",
+        "price": 31.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "un du": {
+    "current": 36.48,
+    "history": [
+      {
+        "date": "2026-08-25 07:24:21",
+        "price": 36.48
+      }
+    ],
+    "pending_drop": null
+  },
   "hot fuzz": {
     "current": 27.23,
     "history": [
@@ -69,42 +99,12 @@
     ],
     "pending_drop": null
   },
-  "disco x 180 gr": {
-    "current": 29.9,
+  "follow the leader": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-08-25 07:13:43",
-        "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "fear of music": {
-    "current": 28.95,
-    "history": [
-      {
-        "date": "2026-08-25 07:13:43",
-        "price": 28.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "remain in light": {
-    "current": 24.56,
-    "history": [
-      {
-        "date": "2026-08-25 06:34:06",
-        "price": 24.56
-      }
-    ],
-    "pending_drop": null
-  },
-  "up": {
-    "current": 39.95,
-    "history": [
-      {
-        "date": "2026-08-25 07:13:43",
-        "price": 39.95
+        "date": "2026-08-25 07:24:21",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -139,12 +139,12 @@
     ],
     "pending_drop": null
   },
-  "octahedron": {
-    "current": 54.61,
+  "dynamite": {
+    "current": 35.31,
     "history": [
       {
-        "date": "2026-08-25 07:13:43",
-        "price": 54.61
+        "date": "2026-08-25 07:24:21",
+        "price": 35.31
       }
     ],
     "pending_drop": null
@@ -219,12 +219,22 @@
     ],
     "pending_drop": null
   },
-  "ixnay on the hombre": {
-    "current": 32.74,
+  "top": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-08-25 07:13:43",
-        "price": 32.74
+        "date": "2026-08-25 07:24:21",
+        "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "hatful of hollow": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-08-25 07:24:21",
+        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -239,16 +249,6 @@
     ],
     "pending_drop": null
   },
-  "money for nothing": {
-    "current": 38.43,
-    "history": [
-      {
-        "date": "2026-08-25 06:34:06",
-        "price": 38.43
-      }
-    ],
-    "pending_drop": null
-  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
@@ -259,12 +259,12 @@
     ],
     "pending_drop": null
   },
-  "a crow left of the murder": {
-    "current": 47.79,
+  "light grenades": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-08-25 06:34:06",
-        "price": 47.79
+        "date": "2026-08-25 07:24:21",
+        "price": 33.21
       }
     ],
     "pending_drop": null
@@ -289,12 +289,32 @@
     ],
     "pending_drop": null
   },
-  "our love to admire": {
-    "current": 34.1,
+  "out of time": {
+    "current": 25.99,
     "history": [
       {
-        "date": "2026-08-25 07:13:43",
-        "price": 34.1
+        "date": "2026-08-25 07:24:21",
+        "price": 25.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "noctourniquet": {
+    "current": 39.27,
+    "history": [
+      {
+        "date": "2026-08-25 07:24:21",
+        "price": 39.27
+      }
+    ],
+    "pending_drop": null
+  },
+  "sleeping with ghosts": {
+    "current": 24.5,
+    "history": [
+      {
+        "date": "2026-08-25 07:24:21",
+        "price": 24.5
       }
     ],
     "pending_drop": null
@@ -319,22 +339,22 @@
     ],
     "pending_drop": null
   },
-  "s m2 box": {
-    "current": 95.88,
+  "festival session 2 bonus tracks": {
+    "current": 50.83,
     "history": [
       {
-        "date": "2026-08-25 06:42:51",
-        "price": 95.88
+        "date": "2026-08-25 07:24:21",
+        "price": 50.83
       }
     ],
     "pending_drop": null
   },
-  "load": {
-    "current": 43.95,
+  "kill em all": {
+    "current": 30.95,
     "history": [
       {
-        "date": "2026-08-25 07:13:43",
-        "price": 43.95
+        "date": "2026-08-25 07:24:21",
+        "price": 30.95
       }
     ],
     "pending_drop": null
@@ -349,6 +369,26 @@
     ],
     "pending_drop": null
   },
+  "master of puppets": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-08-25 07:24:21",
+        "price": 35.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "guest star bill evans alone together": {
+    "current": 27.19,
+    "history": [
+      {
+        "date": "2026-08-25 07:24:21",
+        "price": 27.19
+      }
+    ],
+    "pending_drop": null
+  },
   "anime salve": {
     "current": 27.99,
     "history": [
@@ -359,22 +399,22 @@
     ],
     "pending_drop": null
   },
-  "let love in": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-08-25 06:53:28",
-        "price": 29.99
-      }
-    ],
-    "pending_drop": null
-  },
   "camera a sud": {
     "current": 32.81,
     "history": [
       {
         "date": "2026-08-25 06:34:06",
         "price": 32.81
+      }
+    ],
+    "pending_drop": null
+  },
+  "morrison hotel": {
+    "current": 38.99,
+    "history": [
+      {
+        "date": "2026-08-25 07:24:21",
+        "price": 38.99
       }
     ],
     "pending_drop": null
