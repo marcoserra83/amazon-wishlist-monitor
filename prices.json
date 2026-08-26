@@ -29,32 +29,12 @@
     ],
     "pending_drop": null
   },
-  "die": {
-    "current": 69.99,
-    "history": [
-      {
-        "date": "2026-08-26 21:24:06",
-        "price": 69.99
-      }
-    ],
-    "pending_drop": null
-  },
   "cosa faremo da grandi": {
     "current": 30.99,
     "history": [
       {
         "date": "2026-08-26 21:34:31",
         "price": 30.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "mainstream": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-08-26 21:34:31",
-        "price": 33.99
       }
     ],
     "pending_drop": null
@@ -69,22 +49,12 @@
     ],
     "pending_drop": null
   },
-  "resta vile maschio dove vai": {
-    "current": 38.0,
+  "adore": {
+    "current": 43.95,
     "history": [
       {
-        "date": "2026-08-26 21:34:31",
-        "price": 38.0
-      }
-    ],
-    "pending_drop": null
-  },
-  "amputechture": {
-    "current": 41.99,
-    "history": [
-      {
-        "date": "2026-08-26 21:14:35",
-        "price": 41.99
+        "date": "2026-08-26 21:44:41",
+        "price": 43.95
       }
     ],
     "pending_drop": null
@@ -109,42 +79,22 @@
     ],
     "pending_drop": null
   },
-  "hot fuzz": {
-    "current": 27.23,
+  "disco x 180 gr": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-08-26 21:34:31",
-        "price": 27.23
+        "date": "2026-08-26 21:44:41",
+        "price": 29.9
       }
     ],
     "pending_drop": null
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 50.71,
+  "follow the leader": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-08-26 21:34:31",
-        "price": 50.71
-      }
-    ],
-    "pending_drop": null
-  },
-  "fear of music": {
-    "current": 28.95,
-    "history": [
-      {
-        "date": "2026-08-26 20:14:43",
-        "price": 28.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "remain in light": {
-    "current": 24.56,
-    "history": [
-      {
-        "date": "2026-08-26 21:24:06",
-        "price": 24.56
+        "date": "2026-08-26 21:44:41",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -169,22 +119,22 @@
     ],
     "pending_drop": null
   },
-  "the ballad of darren": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-08-26 21:34:31",
-        "price": 25.9
-      }
-    ],
-    "pending_drop": null
-  },
   "greatest hits": {
     "current": 27.99,
     "history": [
       {
         "date": "2026-08-26 20:34:51",
         "price": 27.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "octahedron": {
+    "current": 54.61,
+    "history": [
+      {
+        "date": "2026-08-26 21:44:41",
+        "price": 54.61
       }
     ],
     "pending_drop": null
@@ -209,6 +159,16 @@
     ],
     "pending_drop": null
   },
+  "synkronized": {
+    "current": 30.0,
+    "history": [
+      {
+        "date": "2026-08-26 21:44:41",
+        "price": 30.0
+      }
+    ],
+    "pending_drop": null
+  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
@@ -225,16 +185,6 @@
       {
         "date": "2026-08-26 20:34:51",
         "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-08-26 21:24:06",
-        "price": 25.99
       }
     ],
     "pending_drop": null
@@ -275,16 +225,6 @@
       {
         "date": "2026-08-26 21:24:06",
         "price": 32.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "top": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-08-26 21:34:31",
-        "price": 29.9
       }
     ],
     "pending_drop": null
@@ -339,12 +279,22 @@
     ],
     "pending_drop": null
   },
-  "a crow left of the murder": {
-    "current": 47.79,
+  "good bye lenin": {
+    "current": 30.86,
     "history": [
       {
-        "date": "2026-08-26 21:14:35",
-        "price": 47.79
+        "date": "2026-08-26 21:44:41",
+        "price": 30.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 33.5,
+    "history": [
+      {
+        "date": "2026-08-26 21:44:41",
+        "price": 33.5
       }
     ],
     "pending_drop": null
@@ -355,6 +305,16 @@
       {
         "date": "2026-08-26 21:34:31",
         "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "morning view": {
+    "current": 39.99,
+    "history": [
+      {
+        "date": "2026-08-26 21:44:41",
+        "price": 39.99
       }
     ],
     "pending_drop": null
@@ -389,12 +349,12 @@
     ],
     "pending_drop": null
   },
-  "our love to admire": {
-    "current": 34.1,
+  "sleeping with ghosts": {
+    "current": 24.5,
     "history": [
       {
-        "date": "2026-08-26 21:24:06",
-        "price": 34.1
+        "date": "2026-08-26 21:44:41",
+        "price": 24.5
       }
     ],
     "pending_drop": null
@@ -405,16 +365,6 @@
       {
         "date": "2026-08-26 21:34:31",
         "price": 34.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-08-26 21:14:35",
-        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -439,12 +389,12 @@
     ],
     "pending_drop": null
   },
-  "s m2 box": {
-    "current": 95.88,
+  "s m": {
+    "current": 55.92,
     "history": [
       {
-        "date": "2026-08-26 21:34:31",
-        "price": 95.88
+        "date": "2026-08-26 21:44:41",
+        "price": 55.92
       }
     ],
     "pending_drop": null
@@ -529,12 +479,12 @@
     ],
     "pending_drop": null
   },
-  "let love in": {
-    "current": 29.99,
+  "fabrizio de andre": {
+    "current": 27.99,
     "history": [
       {
-        "date": "2026-08-26 21:24:06",
-        "price": 29.99
+        "date": "2026-08-26 21:44:41",
+        "price": 27.99
       }
     ],
     "pending_drop": null
@@ -565,16 +515,6 @@
       {
         "date": "2026-08-26 21:24:06",
         "price": 38.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-08-26 21:24:06",
-        "price": 31.99
       }
     ],
     "pending_drop": null
