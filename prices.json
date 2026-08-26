@@ -1,10 +1,10 @@
 {
-  "innerspeaker": {
-    "current": 26.9,
+  "vauxhall i definitive": {
+    "current": 32.5,
     "history": [
       {
-        "date": "2026-08-26 20:23:58",
-        "price": 26.9
+        "date": "2026-08-26 20:34:51",
+        "price": 32.5
       }
     ],
     "pending_drop": null
@@ -19,32 +19,22 @@
     ],
     "pending_drop": null
   },
-  "cosa faremo da grandi": {
-    "current": 30.99,
+  "evergreen e altre canzoni": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-08-26 20:23:58",
-        "price": 30.99
+        "date": "2026-08-26 20:34:51",
+        "price": 33.21
       }
     ],
     "pending_drop": null
   },
-  "mainstream": {
-    "current": 33.99,
+  "resta vile maschio dove vai": {
+    "current": 38.0,
     "history": [
       {
-        "date": "2026-08-26 20:23:58",
-        "price": 33.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "relax": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-08-26 20:23:58",
-        "price": 29.99
+        "date": "2026-08-26 20:34:51",
+        "price": 38.0
       }
     ],
     "pending_drop": null
@@ -55,6 +45,26 @@
       {
         "date": "2026-08-26 20:04:17",
         "price": 43.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "songs of a lost world": {
+    "current": 31.9,
+    "history": [
+      {
+        "date": "2026-08-26 20:34:51",
+        "price": 31.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "hot fuzz": {
+    "current": 27.23,
+    "history": [
+      {
+        "date": "2026-08-26 20:34:51",
+        "price": 27.23
       }
     ],
     "pending_drop": null
@@ -99,32 +109,32 @@
     ],
     "pending_drop": null
   },
-  "follow the leader": {
-    "current": 23.99,
+  "remain in light": {
+    "current": 24.56,
     "history": [
       {
-        "date": "2026-08-26 20:04:17",
-        "price": 23.99
+        "date": "2026-08-26 20:34:51",
+        "price": 24.56
       }
     ],
     "pending_drop": null
   },
-  "riot on a empty street": {
-    "current": 46.8,
+  "up": {
+    "current": 39.95,
     "history": [
       {
-        "date": "2026-08-26 20:14:43",
-        "price": 46.8
+        "date": "2026-08-26 20:34:51",
+        "price": 39.95
       }
     ],
     "pending_drop": null
   },
-  "like clockwork": {
-    "current": 30.69,
+  "blood sugar sex magik": {
+    "current": 37.9,
     "history": [
       {
-        "date": "2026-08-26 20:04:17",
-        "price": 30.69
+        "date": "2026-08-26 20:34:51",
+        "price": 37.9
       }
     ],
     "pending_drop": null
@@ -149,12 +159,12 @@
     ],
     "pending_drop": null
   },
-  "octahedron": {
-    "current": 54.61,
+  "greatest hits": {
+    "current": 27.99,
     "history": [
       {
-        "date": "2026-08-26 20:23:58",
-        "price": 54.61
+        "date": "2026-08-26 20:34:51",
+        "price": 27.99
       }
     ],
     "pending_drop": null
@@ -165,6 +175,16 @@
       {
         "date": "2026-08-26 20:04:17",
         "price": 32.67
+      }
+    ],
+    "pending_drop": null
+  },
+  "a funk odyssey": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-08-26 20:34:51",
+        "price": 33.99
       }
     ],
     "pending_drop": null
@@ -189,22 +209,32 @@
     ],
     "pending_drop": null
   },
-  "playing the angel": {
-    "current": 25.99,
+  "yield": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-08-26 20:14:43",
-        "price": 25.99
+        "date": "2026-08-26 20:34:51",
+        "price": 23.99
       }
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 32.9,
+  "la matematica dei rami": {
+    "current": 33.31,
     "history": [
       {
-        "date": "2026-08-26 20:23:58",
-        "price": 32.9
+        "date": "2026-08-26 20:34:51",
+        "price": 33.31
+      }
+    ],
+    "pending_drop": null
+  },
+  "swing in the films of woody allen": {
+    "current": 33.77,
+    "history": [
+      {
+        "date": "2026-08-26 20:34:51",
+        "price": 33.77
       }
     ],
     "pending_drop": null
@@ -215,6 +245,26 @@
       {
         "date": "2026-08-26 19:13:39",
         "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "ixnay on the hombre": {
+    "current": 32.74,
+    "history": [
+      {
+        "date": "2026-08-26 20:34:51",
+        "price": 32.74
+      }
+    ],
+    "pending_drop": null
+  },
+  "ignition": {
+    "current": 24.36,
+    "history": [
+      {
+        "date": "2026-08-26 20:34:51",
+        "price": 24.36
       }
     ],
     "pending_drop": null
@@ -245,36 +295,6 @@
       {
         "date": "2026-08-26 19:54:07",
         "price": 47.79
-      }
-    ],
-    "pending_drop": null
-  },
-  "morning view": {
-    "current": 39.99,
-    "history": [
-      {
-        "date": "2026-08-26 19:34:18",
-        "price": 39.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "vol 3 the subliminal verses violet": {
-    "current": 52.88,
-    "history": [
-      {
-        "date": "2026-08-26 20:14:43",
-        "price": 52.88
-      }
-    ],
-    "pending_drop": null
-  },
-  "out of time": {
-    "current": 25.36,
-    "history": [
-      {
-        "date": "2026-08-26 20:14:43",
-        "price": 25.36
       }
     ],
     "pending_drop": null
@@ -349,16 +369,6 @@
     ],
     "pending_drop": null
   },
-  "kill em all": {
-    "current": 30.95,
-    "history": [
-      {
-        "date": "2026-08-26 20:04:17",
-        "price": 30.95
-      }
-    ],
-    "pending_drop": null
-  },
   "s m2 box": {
     "current": 95.88,
     "history": [
@@ -389,12 +399,32 @@
     ],
     "pending_drop": null
   },
+  "master of puppets": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-08-26 20:34:51",
+        "price": 35.9
+      }
+    ],
+    "pending_drop": null
+  },
   "mezzanine": {
     "current": 40.8,
     "history": [
       {
         "date": "2026-08-26 20:14:43",
         "price": 40.8
+      }
+    ],
+    "pending_drop": null
+  },
+  "appetite for destruction": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-08-26 20:34:51",
+        "price": 29.9
       }
     ],
     "pending_drop": null
@@ -409,12 +439,12 @@
     ],
     "pending_drop": null
   },
-  "anime salve": {
-    "current": 27.99,
+  "guest star bill evans alone together": {
+    "current": 27.19,
     "history": [
       {
-        "date": "2026-08-26 20:23:58",
-        "price": 27.99
+        "date": "2026-08-26 20:34:51",
+        "price": 27.19
       }
     ],
     "pending_drop": null
@@ -429,12 +459,12 @@
     ],
     "pending_drop": null
   },
-  "camera a sud": {
-    "current": 32.81,
+  "interpol": {
+    "current": 41.52,
     "history": [
       {
-        "date": "2026-08-26 19:54:07",
-        "price": 32.81
+        "date": "2026-08-26 20:34:51",
+        "price": 41.52
       }
     ],
     "pending_drop": null
@@ -455,6 +485,26 @@
       {
         "date": "2026-08-26 20:04:17",
         "price": 38.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "heroes": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-08-26 20:34:51",
+        "price": 31.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "the rise and fall of ziggy stardust": {
+    "current": 26.01,
+    "history": [
+      {
+        "date": "2026-08-26 20:34:51",
+        "price": 26.01
       }
     ],
     "pending_drop": null
