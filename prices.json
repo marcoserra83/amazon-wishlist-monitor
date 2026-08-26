@@ -1,30 +1,20 @@
 {
-  "fear of the dawn": {
-    "current": 30.33,
+  "cosa faremo da grandi": {
+    "current": 30.99,
     "history": [
       {
-        "date": "2026-08-27 00:24:41",
-        "price": 30.33
+        "date": "2026-08-27 00:53:11",
+        "price": 30.99
       }
     ],
     "pending_drop": null
   },
-  "die": {
-    "current": 69.99,
+  "adore": {
+    "current": 43.95,
     "history": [
       {
-        "date": "2026-08-27 00:43:23",
-        "price": 69.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "amputechture": {
-    "current": 41.99,
-    "history": [
-      {
-        "date": "2026-08-27 00:24:41",
-        "price": 41.99
+        "date": "2026-08-27 00:53:11",
+        "price": 43.95
       }
     ],
     "pending_drop": null
@@ -49,12 +39,22 @@
     ],
     "pending_drop": null
   },
-  "follow the leader": {
-    "current": 23.99,
+  "fear of music": {
+    "current": 28.95,
     "history": [
       {
-        "date": "2026-08-26 23:34:59",
-        "price": 23.99
+        "date": "2026-08-27 00:53:11",
+        "price": 28.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "remain in light": {
+    "current": 24.56,
+    "history": [
+      {
+        "date": "2026-08-27 00:53:11",
+        "price": 24.56
       }
     ],
     "pending_drop": null
@@ -69,22 +69,22 @@
     ],
     "pending_drop": null
   },
-  "like clockwork": {
-    "current": 30.69,
+  "blood sugar sex magik": {
+    "current": 37.9,
     "history": [
       {
-        "date": "2026-08-26 23:34:59",
-        "price": 30.69
+        "date": "2026-08-27 00:53:11",
+        "price": 37.9
       }
     ],
     "pending_drop": null
   },
-  "bleach ed": {
-    "current": 24.75,
+  "octahedron": {
+    "current": 54.61,
     "history": [
       {
-        "date": "2026-08-27 00:24:41",
-        "price": 24.75
+        "date": "2026-08-27 00:53:11",
+        "price": 54.61
       }
     ],
     "pending_drop": null
@@ -99,12 +99,12 @@
     ],
     "pending_drop": null
   },
-  "a funk odyssey": {
-    "current": 33.99,
+  "emergency on planet earth": {
+    "current": 40.99,
     "history": [
       {
-        "date": "2026-08-27 00:43:23",
-        "price": 33.99
+        "date": "2026-08-27 00:53:11",
+        "price": 40.99
       }
     ],
     "pending_drop": null
@@ -119,26 +119,6 @@
     ],
     "pending_drop": null
   },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-08-27 00:43:23",
-        "price": 25.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "reggatta de blanc": {
-    "current": 33.05,
-    "history": [
-      {
-        "date": "2026-08-27 00:24:41",
-        "price": 33.05
-      }
-    ],
-    "pending_drop": null
-  },
   "hatful of hollow": {
     "current": 25.9,
     "history": [
@@ -149,12 +129,22 @@
     ],
     "pending_drop": null
   },
-  "light grenades": {
-    "current": 33.21,
+  "money for nothing": {
+    "current": 38.43,
     "history": [
       {
-        "date": "2026-08-26 23:34:59",
-        "price": 33.21
+        "date": "2026-08-27 00:53:11",
+        "price": 38.43
+      }
+    ],
+    "pending_drop": null
+  },
+  "a crow left of the murder": {
+    "current": 47.79,
+    "history": [
+      {
+        "date": "2026-08-27 00:53:11",
+        "price": 47.79
       }
     ],
     "pending_drop": null
@@ -179,6 +169,26 @@
     ],
     "pending_drop": null
   },
+  "out of time": {
+    "current": 25.36,
+    "history": [
+      {
+        "date": "2026-08-27 00:53:11",
+        "price": 25.36
+      }
+    ],
+    "pending_drop": null
+  },
+  "noctourniquet": {
+    "current": 39.27,
+    "history": [
+      {
+        "date": "2026-08-27 00:53:11",
+        "price": 39.27
+      }
+    ],
+    "pending_drop": null
+  },
   "sleeping with ghosts": {
     "current": 24.5,
     "history": [
@@ -199,22 +209,22 @@
     ],
     "pending_drop": null
   },
-  "led zeppelin iv": {
-    "current": 25.9,
+  "festival session 2 bonus tracks": {
+    "current": 50.83,
     "history": [
       {
-        "date": "2026-08-27 00:04:47",
-        "price": 25.9
+        "date": "2026-08-27 00:53:11",
+        "price": 50.83
       }
     ],
     "pending_drop": null
   },
-  "led zeppelin iii": {
-    "current": 26.95,
+  "reload": {
+    "current": 49.87,
     "history": [
       {
-        "date": "2026-08-27 00:24:41",
-        "price": 26.95
+        "date": "2026-08-27 00:53:11",
+        "price": 49.87
       }
     ],
     "pending_drop": null
@@ -239,42 +249,32 @@
     ],
     "pending_drop": null
   },
-  "load": {
-    "current": 43.95,
+  "s m2 box": {
+    "current": 95.88,
     "history": [
       {
-        "date": "2026-08-26 23:45:04",
-        "price": 43.95
+        "date": "2026-08-27 00:53:11",
+        "price": 95.88
       }
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 23.85,
+  "and justice for all": {
+    "current": 34.91,
     "history": [
       {
-        "date": "2026-08-27 00:43:23",
-        "price": 23.85
+        "date": "2026-08-27 00:53:11",
+        "price": 34.91
       }
     ],
     "pending_drop": null
   },
-  "guest star bill evans alone together": {
-    "current": 27.19,
+  "mezzanine": {
+    "current": 40.8,
     "history": [
       {
-        "date": "2026-08-26 23:45:04",
-        "price": 27.19
-      }
-    ],
-    "pending_drop": null
-  },
-  "anime salve": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-08-27 00:14:13",
-        "price": 27.99
+        "date": "2026-08-27 00:53:11",
+        "price": 40.8
       }
     ],
     "pending_drop": null
@@ -309,12 +309,22 @@
     ],
     "pending_drop": null
   },
-  "morrison hotel": {
-    "current": 38.99,
+  "ghosteen": {
+    "current": 34.9,
     "history": [
       {
-        "date": "2026-08-27 00:14:13",
-        "price": 38.99
+        "date": "2026-08-27 00:53:11",
+        "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "the rise and fall of ziggy stardust": {
+    "current": 26.01,
+    "history": [
+      {
+        "date": "2026-08-27 00:53:11",
+        "price": 26.01
       }
     ],
     "pending_drop": null
