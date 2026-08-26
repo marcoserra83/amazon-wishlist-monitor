@@ -342,14 +342,18 @@
     "pending_drop": null
   },
   "like clockwork": {
-    "current": 33.95,
+    "current": 30.69,
     "history": [
       {
         "date": "2026-08-26 04:38:57",
         "price": 33.95
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-08-26 07:48:50",
+      "old_price": 33.95,
+      "new_price": 30.69
+    }
   },
   "bleach ed": {
     "current": 24.75,
