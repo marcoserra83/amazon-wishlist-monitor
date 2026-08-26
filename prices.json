@@ -1,20 +1,20 @@
 {
-  "vauxhall i definitive": {
-    "current": 32.5,
+  "innerspeaker": {
+    "current": 26.9,
     "history": [
       {
-        "date": "2026-08-26 09:44:15",
-        "price": 32.5
+        "date": "2026-08-26 10:13:05",
+        "price": 26.9
       }
     ],
     "pending_drop": null
   },
-  "fear of the dawn": {
-    "current": 30.33,
+  "die": {
+    "current": 69.99,
     "history": [
       {
-        "date": "2026-08-26 10:03:39",
-        "price": 30.33
+        "date": "2026-08-26 10:13:05",
+        "price": 69.99
       }
     ],
     "pending_drop": null
@@ -39,12 +39,12 @@
     ],
     "pending_drop": null
   },
-  "resta vile maschio dove vai": {
-    "current": 38.0,
+  "amputechture": {
+    "current": 41.99,
     "history": [
       {
-        "date": "2026-08-26 10:03:39",
-        "price": 38.0
+        "date": "2026-08-26 10:13:05",
+        "price": 41.99
       }
     ],
     "pending_drop": null
@@ -59,16 +59,6 @@
     ],
     "pending_drop": null
   },
-  "un du": {
-    "current": 36.48,
-    "history": [
-      {
-        "date": "2026-08-26 10:03:39",
-        "price": 36.48
-      }
-    ],
-    "pending_drop": null
-  },
   "hot fuzz": {
     "current": 27.23,
     "history": [
@@ -79,42 +69,32 @@
     ],
     "pending_drop": null
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 50.71,
+  "disco x 180 gr": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-08-26 10:03:39",
-        "price": 50.71
+        "date": "2026-08-26 10:13:05",
+        "price": 29.9
       }
     ],
     "pending_drop": null
   },
-  "remain in light": {
-    "current": 24.56,
+  "naked": {
+    "current": 35.9,
     "history": [
       {
-        "date": "2026-08-26 09:44:15",
-        "price": 24.56
+        "date": "2026-08-26 10:13:05",
+        "price": 35.9
       }
     ],
     "pending_drop": null
   },
-  "up": {
-    "current": 39.95,
+  "follow the leader": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-08-26 10:03:39",
-        "price": 39.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "blood sugar sex magik": {
-    "current": 37.9,
-    "history": [
-      {
-        "date": "2026-08-26 10:03:39",
-        "price": 37.9
+        "date": "2026-08-26 10:13:05",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -129,52 +109,72 @@
     ],
     "pending_drop": null
   },
-  "like clockwork": {
-    "current": 30.69,
+  "a funk odyssey": {
+    "current": 33.99,
     "history": [
       {
-        "date": "2026-08-26 10:03:39",
-        "price": 30.69
+        "date": "2026-08-26 10:13:05",
+        "price": 33.99
       }
     ],
     "pending_drop": null
   },
-  "the ballad of darren": {
-    "current": 25.9,
+  "playing the angel": {
+    "current": 25.99,
     "history": [
       {
-        "date": "2026-08-26 10:03:39",
-        "price": 25.9
+        "date": "2026-08-26 10:13:05",
+        "price": 25.99
       }
     ],
     "pending_drop": null
   },
-  "yield": {
-    "current": 23.99,
+  "reggatta de blanc": {
+    "current": 33.05,
     "history": [
       {
-        "date": "2026-08-26 10:03:39",
-        "price": 23.99
+        "date": "2026-08-26 10:13:05",
+        "price": 33.05
       }
     ],
     "pending_drop": null
   },
-  "la matematica dei rami": {
-    "current": 33.31,
+  "the queen is dead": {
+    "current": 24.8,
     "history": [
       {
-        "date": "2026-08-26 09:53:06",
-        "price": 33.31
+        "date": "2026-08-26 10:13:05",
+        "price": 24.8
       }
     ],
     "pending_drop": null
   },
-  "top": {
-    "current": 29.9,
+  "ixnay on the hombre": {
+    "current": 48.84,
     "history": [
       {
-        "date": "2026-08-26 10:03:39",
-        "price": 29.9
+        "date": "2026-08-26 10:13:05",
+        "price": 48.84
+      }
+    ],
+    "pending_drop": null
+  },
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 33.5,
+    "history": [
+      {
+        "date": "2026-08-26 10:13:05",
+        "price": 33.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "morning view": {
+    "current": 39.99,
+    "history": [
+      {
+        "date": "2026-08-26 10:13:05",
+        "price": 39.99
       }
     ],
     "pending_drop": null
@@ -199,26 +199,6 @@
     ],
     "pending_drop": null
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
-    "history": [
-      {
-        "date": "2026-08-26 04:38:57",
-        "price": 24.5
-      }
-    ],
-    "pending_drop": null
-  },
-  "our love to admire": {
-    "current": 34.1,
-    "history": [
-      {
-        "date": "2026-08-26 10:03:39",
-        "price": 34.1
-      }
-    ],
-    "pending_drop": null
-  },
   "metallica": {
     "current": 34.95,
     "history": [
@@ -239,42 +219,32 @@
     ],
     "pending_drop": null
   },
-  "led zeppelin iii": {
-    "current": 26.95,
+  "s m2 box": {
+    "current": 95.88,
     "history": [
       {
-        "date": "2026-08-26 09:44:15",
-        "price": 26.95
+        "date": "2026-08-26 10:13:05",
+        "price": 95.88
       }
     ],
     "pending_drop": null
   },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
+  "load": {
+    "current": 43.95,
     "history": [
       {
-        "date": "2026-08-26 10:03:39",
-        "price": 50.83
+        "date": "2026-08-26 10:13:05",
+        "price": 43.95
       }
     ],
     "pending_drop": null
   },
-  "reload": {
-    "current": 49.87,
+  "and justice for all": {
+    "current": 34.95,
     "history": [
       {
-        "date": "2026-08-26 04:38:57",
-        "price": 49.87
-      }
-    ],
-    "pending_drop": null
-  },
-  "s m": {
-    "current": 55.9,
-    "history": [
-      {
-        "date": "2026-08-26 09:44:15",
-        "price": 55.9
+        "date": "2026-08-26 10:13:05",
+        "price": 34.95
       }
     ],
     "pending_drop": null
@@ -289,62 +259,22 @@
     ],
     "pending_drop": null
   },
+  "mezzanine": {
+    "current": 40.8,
+    "history": [
+      {
+        "date": "2026-08-26 10:13:05",
+        "price": 40.8
+      }
+    ],
+    "pending_drop": null
+  },
   "appetite for destruction": {
     "current": 29.9,
     "history": [
       {
         "date": "2026-08-26 09:44:15",
         "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "back in": {
-    "current": 23.85,
-    "history": [
-      {
-        "date": "2026-08-26 10:03:39",
-        "price": 23.85
-      }
-    ],
-    "pending_drop": null
-  },
-  "guest star bill evans alone together": {
-    "current": 27.19,
-    "history": [
-      {
-        "date": "2026-08-26 10:03:39",
-        "price": 27.19
-      }
-    ],
-    "pending_drop": null
-  },
-  "anime salve": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-08-26 09:33:17",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "fabrizio de andre": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-08-26 10:03:39",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "let love in": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-08-26 10:03:39",
-        "price": 29.99
       }
     ],
     "pending_drop": null
@@ -365,6 +295,26 @@
       {
         "date": "2026-08-26 10:03:39",
         "price": 32.81
+      }
+    ],
+    "pending_drop": null
+  },
+  "soft parade": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-08-26 10:13:05",
+        "price": 26.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "ghosteen": {
+    "current": 34.9,
+    "history": [
+      {
+        "date": "2026-08-26 10:13:05",
+        "price": 34.9
       }
     ],
     "pending_drop": null
