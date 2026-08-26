@@ -75,8 +75,14 @@ jobs:
           git add prices.json
           git commit -m "Update prices.json" || echo "No changes to commit"
 
-          # Fetch and rebase to avoid conflicts
+          # Fetch latest changes from origin
           git fetch origin
-          git rebase origin/main || git rebase --abort
 
-          git push origin HEAD:main || echo "Push failed"
+          # Try to rebase, skip push if rebase fails
+          if git rebase origin/main; then
+            git push origin HEAD:main
+          else
+            echo "Rebase conflict detected - skipping push"
+            git rebase --abort
+            exit 0
+          fi
