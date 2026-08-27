@@ -9,12 +9,22 @@
     ],
     "pending_drop": null
   },
-  "cosa faremo da grandi": {
-    "current": 30.99,
+  "fear of the dawn": {
+    "current": 30.33,
     "history": [
       {
-        "date": "2026-08-27 05:13:53",
-        "price": 30.99
+        "date": "2026-08-27 05:23:12",
+        "price": 30.33
+      }
+    ],
+    "pending_drop": null
+  },
+  "mainstream": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-08-27 05:23:12",
+        "price": 33.99
       }
     ],
     "pending_drop": null
@@ -25,6 +35,16 @@
       {
         "date": "2026-08-27 05:13:53",
         "price": 29.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "resta vile maschio dove vai": {
+    "current": 38.0,
+    "history": [
+      {
+        "date": "2026-08-27 05:23:12",
+        "price": 38.0
       }
     ],
     "pending_drop": null
@@ -49,12 +69,22 @@
     ],
     "pending_drop": null
   },
-  "disco x 180 gr": {
-    "current": 29.9,
+  "songs of a lost world": {
+    "current": 31.9,
     "history": [
       {
-        "date": "2026-08-27 05:13:53",
-        "price": 29.9
+        "date": "2026-08-27 05:23:12",
+        "price": 31.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "un du": {
+    "current": 36.48,
+    "history": [
+      {
+        "date": "2026-08-27 05:23:12",
+        "price": 36.48
       }
     ],
     "pending_drop": null
@@ -69,26 +99,6 @@
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 35.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "remain in light": {
-    "current": 24.56,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 24.56
-      }
-    ],
-    "pending_drop": null
-  },
   "up": {
     "current": 39.95,
     "history": [
@@ -99,32 +109,22 @@
     ],
     "pending_drop": null
   },
-  "bleach ed": {
-    "current": 24.75,
+  "blood sugar sex magik": {
+    "current": 37.9,
     "history": [
       {
-        "date": "2026-08-27 05:13:53",
-        "price": 24.75
+        "date": "2026-08-27 05:23:12",
+        "price": 37.9
       }
     ],
     "pending_drop": null
   },
-  "the ballad of darren": {
-    "current": 25.9,
+  "riot on a empty street": {
+    "current": 46.8,
     "history": [
       {
-        "date": "2026-08-27 05:13:53",
-        "price": 25.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "greatest hits": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 27.99
+        "date": "2026-08-27 05:23:12",
+        "price": 46.8
       }
     ],
     "pending_drop": null
@@ -149,12 +149,12 @@
     ],
     "pending_drop": null
   },
-  "yield": {
-    "current": 23.99,
+  "playing the angel": {
+    "current": 25.99,
     "history": [
       {
-        "date": "2026-08-27 05:13:53",
-        "price": 23.99
+        "date": "2026-08-27 05:23:12",
+        "price": 25.99
       }
     ],
     "pending_drop": null
@@ -165,6 +165,16 @@
       {
         "date": "2026-08-27 05:13:53",
         "price": 33.05
+      }
+    ],
+    "pending_drop": null
+  },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-08-27 05:23:12",
+        "price": 33.31
       }
     ],
     "pending_drop": null
@@ -185,36 +195,6 @@
       {
         "date": "2026-08-27 05:13:53",
         "price": 32.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "top": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 25.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "the queen is dead": {
-    "current": 24.8,
-    "history": [
-      {
-        "date": "2026-08-27 04:52:40",
-        "price": 24.8
       }
     ],
     "pending_drop": null
@@ -259,16 +239,6 @@
     ],
     "pending_drop": null
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 52.88,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 52.88
-      }
-    ],
-    "pending_drop": null
-  },
   "out of time": {
     "current": 25.36,
     "history": [
@@ -279,42 +249,32 @@
     ],
     "pending_drop": null
   },
-  "noctourniquet": {
-    "current": 39.27,
+  "metallica": {
+    "current": 34.95,
     "history": [
       {
-        "date": "2026-08-27 04:52:40",
-        "price": 39.27
+        "date": "2026-08-27 05:23:12",
+        "price": 34.95
       }
     ],
     "pending_drop": null
   },
-  "sleeping with ghosts": {
-    "current": 24.5,
+  "festival session 2 bonus tracks": {
+    "current": 50.83,
     "history": [
       {
-        "date": "2026-08-27 04:33:25",
-        "price": 24.5
+        "date": "2026-08-27 05:23:12",
+        "price": 50.83
       }
     ],
     "pending_drop": null
   },
-  "our love to admire": {
-    "current": 34.1,
+  "s m": {
+    "current": 55.92,
     "history": [
       {
-        "date": "2026-08-27 05:13:53",
-        "price": 34.1
-      }
-    ],
-    "pending_drop": null
-  },
-  "reload": {
-    "current": 49.87,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 49.87
+        "date": "2026-08-27 05:23:12",
+        "price": 55.92
       }
     ],
     "pending_drop": null
@@ -325,16 +285,6 @@
       {
         "date": "2026-08-27 05:13:53",
         "price": 30.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "s m2 box": {
-    "current": 95.88,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 95.88
       }
     ],
     "pending_drop": null
@@ -359,26 +309,6 @@
     ],
     "pending_drop": null
   },
-  "master of puppets": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 35.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "mezzanine": {
-    "current": 40.8,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 40.8
-      }
-    ],
-    "pending_drop": null
-  },
   "appetite for destruction": {
     "current": 29.9,
     "history": [
@@ -389,12 +319,12 @@
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 23.85,
+  "interpol": {
+    "current": 41.52,
     "history": [
       {
-        "date": "2026-08-27 05:13:53",
-        "price": 23.85
+        "date": "2026-08-27 05:23:12",
+        "price": 41.52
       }
     ],
     "pending_drop": null
@@ -435,16 +365,6 @@
       {
         "date": "2026-08-27 04:33:25",
         "price": 31.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 26.01,
-    "history": [
-      {
-        "date": "2026-08-27 05:13:53",
-        "price": 26.01
       }
     ],
     "pending_drop": null
