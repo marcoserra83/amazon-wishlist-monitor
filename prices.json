@@ -834,7 +834,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 55.92,
+    "current": 55.98,
     "history": [
       {
         "date": "2026-08-27 10:04:29",
@@ -843,6 +843,10 @@
       {
         "date": "2026-08-27 10:49:07",
         "price": 55.92
+      },
+      {
+        "date": "2026-08-27 16:18:49",
+        "price": 55.98
       }
     ],
     "pending_drop": null
