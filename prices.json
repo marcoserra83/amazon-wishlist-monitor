@@ -1,14 +1,4 @@
 {
-  "innerspeaker": {
-    "current": 26.9,
-    "history": [
-      {
-        "date": "2026-08-27 04:33:25",
-        "price": 26.9
-      }
-    ],
-    "pending_drop": null
-  },
   "vauxhall i definitive": {
     "current": 32.5,
     "history": [
@@ -19,22 +9,12 @@
     ],
     "pending_drop": null
   },
-  "fear of the dawn": {
-    "current": 30.33,
+  "amputechture": {
+    "current": 41.99,
     "history": [
       {
-        "date": "2026-08-27 04:09:36",
-        "price": 30.33
-      }
-    ],
-    "pending_drop": null
-  },
-  "relax": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-08-27 04:33:25",
-        "price": 29.99
+        "date": "2026-08-27 04:52:40",
+        "price": 41.99
       }
     ],
     "pending_drop": null
@@ -49,42 +29,12 @@
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 35.9,
+  "follow the leader": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-08-27 03:53:32",
-        "price": 35.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "remain in light": {
-    "current": 24.56,
-    "history": [
-      {
-        "date": "2026-08-27 03:43:11",
-        "price": 24.56
-      }
-    ],
-    "pending_drop": null
-  },
-  "blood sugar sex magik": {
-    "current": 37.9,
-    "history": [
-      {
-        "date": "2026-08-27 04:33:25",
-        "price": 37.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "bleach ed": {
-    "current": 24.75,
-    "history": [
-      {
-        "date": "2026-08-27 04:33:25",
-        "price": 24.75
+        "date": "2026-08-27 04:52:40",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -99,42 +49,42 @@
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 32.9,
+  "the queen is dead": {
+    "current": 24.8,
     "history": [
       {
-        "date": "2026-08-27 04:33:25",
-        "price": 32.9
+        "date": "2026-08-27 04:52:40",
+        "price": 24.8
       }
     ],
     "pending_drop": null
   },
-  "ixnay on the hombre": {
-    "current": 32.74,
+  "money for nothing": {
+    "current": 38.43,
     "history": [
       {
-        "date": "2026-08-27 04:33:25",
-        "price": 32.74
+        "date": "2026-08-27 04:52:40",
+        "price": 38.43
       }
     ],
     "pending_drop": null
   },
-  "ignition": {
-    "current": 24.36,
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 33.5,
     "history": [
       {
-        "date": "2026-08-27 04:09:36",
-        "price": 24.36
+        "date": "2026-08-27 04:52:40",
+        "price": 33.5
       }
     ],
     "pending_drop": null
   },
-  "light grenades": {
-    "current": 33.21,
+  "noctourniquet": {
+    "current": 39.27,
     "history": [
       {
-        "date": "2026-08-27 04:33:25",
-        "price": 33.21
+        "date": "2026-08-27 04:52:40",
+        "price": 39.27
       }
     ],
     "pending_drop": null
@@ -159,22 +109,12 @@
     ],
     "pending_drop": null
   },
-  "kill em all": {
-    "current": 30.95,
+  "and justice for all": {
+    "current": 34.91,
     "history": [
       {
-        "date": "2026-08-27 04:09:36",
-        "price": 30.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "master of puppets": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-08-27 04:33:25",
-        "price": 35.9
+        "date": "2026-08-27 04:52:40",
+        "price": 34.91
       }
     ],
     "pending_drop": null
@@ -189,22 +129,12 @@
     ],
     "pending_drop": null
   },
-  "interpol": {
-    "current": 41.52,
+  "anime salve": {
+    "current": 27.99,
     "history": [
       {
-        "date": "2026-08-27 04:33:25",
-        "price": 41.52
-      }
-    ],
-    "pending_drop": null
-  },
-  "soft parade": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-08-27 04:33:25",
-        "price": 26.95
+        "date": "2026-08-27 04:52:40",
+        "price": 27.99
       }
     ],
     "pending_drop": null
