@@ -344,7 +344,7 @@
     "pending_drop": null
   },
   "fear of music": {
-    "current": 28.95,
+    "current": 37.9,
     "history": [
       {
         "date": "2026-08-27 09:34:15",
@@ -361,6 +361,10 @@
       {
         "date": "2026-08-27 17:29:03",
         "price": 28.95
+      },
+      {
+        "date": "2026-08-27 20:08:37",
+        "price": 37.9
       }
     ],
     "pending_drop": null
@@ -792,18 +796,18 @@
     "pending_drop": null
   },
   "swing in the films of woody allen": {
-    "current": 29.49,
+    "current": 33.77,
     "history": [
       {
         "date": "2026-08-27 10:04:29",
         "price": 33.77
+      },
+      {
+        "date": "2026-08-27 20:08:37",
+        "price": 33.77
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-08-27 19:59:04",
-      "old_price": 33.77,
-      "new_price": 29.49
-    }
+    "pending_drop": null
   },
   "tici canzoni urgenti": {
     "current": 32.9,
