@@ -76,7 +76,7 @@
     "pending_drop": null
   },
   "fear of the dawn": {
-    "current": 31.29,
+    "current": 30.33,
     "history": [
       {
         "date": "2026-08-27 10:18:45",
@@ -109,13 +109,13 @@
       {
         "date": "2026-08-28 16:40:15",
         "price": 37.72
+      },
+      {
+        "date": "2026-08-28 16:59:13",
+        "price": 30.33
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-08-28 16:49:06",
-      "old_price": 37.72,
-      "new_price": 31.29
-    }
+    "pending_drop": null
   },
   "die": {
     "current": 69.99,
@@ -290,7 +290,7 @@
     "pending_drop": null
   },
   "amputechture": {
-    "current": 48.14,
+    "current": 42.14,
     "history": [
       {
         "date": "2026-08-27 09:34:15",
@@ -329,7 +329,11 @@
         "price": 48.14
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-08-28 16:59:13",
+      "old_price": 48.14,
+      "new_price": 42.14
+    }
   },
   "adore": {
     "current": 43.95,
@@ -842,7 +846,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 42.84,
+    "current": 46.8,
     "history": [
       {
         "date": "2026-08-27 10:18:45",
@@ -871,13 +875,13 @@
       {
         "date": "2026-08-28 12:28:50",
         "price": 46.8
+      },
+      {
+        "date": "2026-08-28 16:59:13",
+        "price": 46.8
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-08-28 16:40:15",
-      "old_price": 46.8,
-      "new_price": 42.84
-    }
+    "pending_drop": null
   },
   "like clockwork": {
     "current": 30.69,
@@ -1130,7 +1134,7 @@
     "pending_drop": null
   },
   "synkronized": {
-    "current": 38.34,
+    "current": 38.51,
     "history": [
       {
         "date": "2026-08-27 09:34:15",
@@ -1191,6 +1195,10 @@
       {
         "date": "2026-08-28 16:49:06",
         "price": 38.34
+      },
+      {
+        "date": "2026-08-28 16:59:13",
+        "price": 38.51
       }
     ],
     "pending_drop": null
@@ -1778,7 +1786,7 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 53.78,
+    "current": 47.79,
     "history": [
       {
         "date": "2026-08-27 09:23:20",
@@ -1813,7 +1821,11 @@
         "price": 53.78
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-08-28 16:59:13",
+      "old_price": 53.78,
+      "new_price": 47.79
+    }
   },
   "light grenades": {
     "current": 33.21,
