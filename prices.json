@@ -1,10 +1,20 @@
 {
-  "innerspeaker": {
-    "current": 26.9,
+  "vauxhall i definitive": {
+    "current": 32.5,
     "history": [
       {
-        "date": "2026-08-28 22:34:17",
-        "price": 26.9
+        "date": "2026-08-28 23:34:57",
+        "price": 32.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "fear of the dawn": {
+    "current": 30.33,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 30.33
       }
     ],
     "pending_drop": null
@@ -29,6 +39,16 @@
     ],
     "pending_drop": null
   },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 29.99
+      }
+    ],
+    "pending_drop": null
+  },
   "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
@@ -49,22 +69,22 @@
     ],
     "pending_drop": null
   },
-  "amputechture": {
-    "current": 42.14,
-    "history": [
-      {
-        "date": "2026-08-28 23:14:04",
-        "price": 42.14
-      }
-    ],
-    "pending_drop": null
-  },
   "adore": {
     "current": 43.95,
     "history": [
       {
         "date": "2026-08-28 22:49:30",
         "price": 43.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "songs of a lost world": {
+    "current": 31.9,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 31.9
       }
     ],
     "pending_drop": null
@@ -79,22 +99,12 @@
     ],
     "pending_drop": null
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 51.35,
+  "disco x 180 gr": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-08-28 22:49:30",
-        "price": 51.35
-      }
-    ],
-    "pending_drop": null
-  },
-  "fear of music": {
-    "current": 37.9,
-    "history": [
-      {
-        "date": "2026-08-28 22:34:17",
-        "price": 37.9
+        "date": "2026-08-28 23:34:57",
+        "price": 29.9
       }
     ],
     "pending_drop": null
@@ -129,6 +139,26 @@
     ],
     "pending_drop": null
   },
+  "up": {
+    "current": 39.95,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 39.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "blood sugar sex magik": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 37.9
+      }
+    ],
+    "pending_drop": null
+  },
   "riot on a empty street": {
     "current": 46.8,
     "history": [
@@ -139,12 +169,12 @@
     ],
     "pending_drop": null
   },
-  "the ballad of darren": {
-    "current": 25.9,
+  "bleach ed": {
+    "current": 24.75,
     "history": [
       {
-        "date": "2026-08-28 22:49:30",
-        "price": 25.9
+        "date": "2026-08-28 23:34:57",
+        "price": 24.75
       }
     ],
     "pending_drop": null
@@ -159,16 +189,6 @@
     ],
     "pending_drop": null
   },
-  "octahedron": {
-    "current": 54.61,
-    "history": [
-      {
-        "date": "2026-08-28 22:23:57",
-        "price": 54.61
-      }
-    ],
-    "pending_drop": null
-  },
   "dynamite": {
     "current": 35.31,
     "history": [
@@ -179,12 +199,52 @@
     ],
     "pending_drop": null
   },
+  "a funk odyssey": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
   "synkronized": {
     "current": 38.51,
     "history": [
       {
         "date": "2026-08-28 22:49:30",
         "price": 38.51
+      }
+    ],
+    "pending_drop": null
+  },
+  "emergency on planet earth": {
+    "current": 40.99,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 40.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "yield": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 23.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "reggatta de blanc": {
+    "current": 33.05,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 33.05
       }
     ],
     "pending_drop": null
@@ -209,12 +269,12 @@
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 32.9,
+  "top": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-08-28 22:14:42",
-        "price": 32.9
+        "date": "2026-08-28 23:34:57",
+        "price": 29.9
       }
     ],
     "pending_drop": null
@@ -229,16 +289,6 @@
     ],
     "pending_drop": null
   },
-  "the queen is dead": {
-    "current": 24.8,
-    "history": [
-      {
-        "date": "2026-08-28 22:23:57",
-        "price": 24.8
-      }
-    ],
-    "pending_drop": null
-  },
   "ixnay on the hombre": {
     "current": 32.74,
     "history": [
@@ -249,22 +299,12 @@
     ],
     "pending_drop": null
   },
-  "ignition": {
-    "current": 24.36,
+  "money for nothing": {
+    "current": 38.43,
     "history": [
       {
-        "date": "2026-08-28 23:14:04",
-        "price": 24.36
-      }
-    ],
-    "pending_drop": null
-  },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-08-28 23:14:04",
-        "price": 30.86
+        "date": "2026-08-28 23:34:57",
+        "price": 38.43
       }
     ],
     "pending_drop": null
@@ -349,16 +389,6 @@
     ],
     "pending_drop": null
   },
-  "metallica": {
-    "current": 34.95,
-    "history": [
-      {
-        "date": "2026-08-28 22:49:30",
-        "price": 34.95
-      }
-    ],
-    "pending_drop": null
-  },
   "led zeppelin iv": {
     "current": 25.9,
     "history": [
@@ -369,12 +399,32 @@
     ],
     "pending_drop": null
   },
+  "reload": {
+    "current": 49.87,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 49.87
+      }
+    ],
+    "pending_drop": null
+  },
   "s m": {
     "current": 55.98,
     "history": [
       {
         "date": "2026-08-28 22:49:30",
         "price": 55.98
+      }
+    ],
+    "pending_drop": null
+  },
+  "kill em all": {
+    "current": 30.95,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 30.95
       }
     ],
     "pending_drop": null
@@ -399,12 +449,12 @@
     ],
     "pending_drop": null
   },
-  "mezzanine": {
-    "current": 40.8,
+  "master of puppets": {
+    "current": 35.9,
     "history": [
       {
-        "date": "2026-08-28 21:55:06",
-        "price": 40.8
+        "date": "2026-08-28 23:34:57",
+        "price": 35.9
       }
     ],
     "pending_drop": null
@@ -419,6 +469,56 @@
     ],
     "pending_drop": null
   },
+  "guest star bill evans alone together": {
+    "current": 27.14,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 27.14
+      }
+    ],
+    "pending_drop": null
+  },
+  "anime salve": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 27.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "fabrizio de andre": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 27.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "let love in": {
+    "current": 22.95,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 22.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "interpol": {
+    "current": 41.46,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 41.46
+      }
+    ],
+    "pending_drop": null
+  },
   "camera a sud": {
     "current": 39.65,
     "history": [
@@ -429,22 +529,22 @@
     ],
     "pending_drop": null
   },
-  "soft parade": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-08-28 22:49:30",
-        "price": 26.95
-      }
-    ],
-    "pending_drop": null
-  },
   "morrison hotel": {
     "current": 38.99,
     "history": [
       {
         "date": "2026-08-28 22:23:57",
         "price": 38.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "ghosteen": {
+    "current": 34.9,
+    "history": [
+      {
+        "date": "2026-08-28 23:34:57",
+        "price": 34.9
       }
     ],
     "pending_drop": null
