@@ -206,7 +206,7 @@
     "pending_drop": null
   },
   "amputechture": {
-    "current": 41.99,
+    "current": 42.14,
     "history": [
       {
         "date": "2026-08-27 09:34:15",
@@ -227,6 +227,10 @@
       {
         "date": "2026-08-27 22:39:28",
         "price": 41.99
+      },
+      {
+        "date": "2026-08-28 03:39:18",
+        "price": 42.14
       }
     ],
     "pending_drop": null
@@ -378,7 +382,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.32,
+    "current": 51.3,
     "history": [
       {
         "date": "2026-08-27 09:34:15",
@@ -443,6 +447,10 @@
       {
         "date": "2026-08-28 03:18:45",
         "price": 51.32
+      },
+      {
+        "date": "2026-08-28 03:39:18",
+        "price": 51.3
       }
     ],
     "pending_drop": null
