@@ -854,11 +854,15 @@
     "pending_drop": null
   },
   "swing in the films of woody allen": {
-    "current": 33.77,
+    "current": 32.5,
     "history": [
       {
         "date": "2026-08-28 17:28:55",
         "price": 33.77
+      },
+      {
+        "date": "2026-08-28 20:37:32",
+        "price": 32.5
       }
     ],
     "pending_drop": null
@@ -1131,34 +1135,6 @@
     ],
     "pending_drop": null
   },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-08-28 17:28:55",
-        "price": 25.9
-      },
-      {
-        "date": "2026-08-28 19:39:39",
-        "price": 25.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "led zeppelin iii": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-08-28 17:28:55",
-        "price": 26.95
-      },
-      {
-        "date": "2026-08-28 19:39:39",
-        "price": 26.95
-      }
-    ],
-    "pending_drop": null
-  },
   "reload": {
     "current": 49.87,
     "history": [
@@ -1169,34 +1145,6 @@
       {
         "date": "2026-08-28 19:39:39",
         "price": 49.87
-      }
-    ],
-    "pending_drop": null
-  },
-  "s m": {
-    "current": 55.98,
-    "history": [
-      {
-        "date": "2026-08-28 17:28:55",
-        "price": 55.98
-      },
-      {
-        "date": "2026-08-28 19:39:39",
-        "price": 55.98
-      }
-    ],
-    "pending_drop": null
-  },
-  "kill em all": {
-    "current": 30.95,
-    "history": [
-      {
-        "date": "2026-08-28 17:28:55",
-        "price": 30.95
-      },
-      {
-        "date": "2026-08-28 19:39:39",
-        "price": 30.95
       }
     ],
     "pending_drop": null
@@ -1297,20 +1245,6 @@
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 23.85,
-    "history": [
-      {
-        "date": "2026-08-28 17:28:55",
-        "price": 23.85
-      },
-      {
-        "date": "2026-08-28 19:39:39",
-        "price": 23.85
-      }
-    ],
-    "pending_drop": null
-  },
   "guest star bill evans alone together": {
     "current": 27.14,
     "history": [
@@ -1328,20 +1262,6 @@
   "anime salve": {
     "current": 27.99,
     "history": [
-      {
-        "date": "2026-08-28 19:39:39",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "fabrizio de andre": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-08-28 17:28:55",
-        "price": 27.99
-      },
       {
         "date": "2026-08-28 19:39:39",
         "price": 27.99
@@ -1434,23 +1354,5 @@
       }
     ],
     "pending_drop": null
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 26.01,
-    "history": [
-      {
-        "date": "2026-08-28 17:28:55",
-        "price": 31.8
-      },
-      {
-        "date": "2026-08-28 19:39:39",
-        "price": 31.8
-      }
-    ],
-    "pending_drop": {
-      "first_seen": "2026-08-28 20:29:19",
-      "old_price": 31.8,
-      "new_price": 26.01
-    }
   }
 }
