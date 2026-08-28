@@ -2304,7 +2304,7 @@
     "pending_drop": null
   },
   "the rise and fall of ziggy stardust": {
-    "current": 26.01,
+    "current": 31.8,
     "history": [
       {
         "date": "2026-08-27 10:04:29",
@@ -2329,6 +2329,10 @@
       {
         "date": "2026-08-28 07:49:10",
         "price": 26.01
+      },
+      {
+        "date": "2026-08-28 10:28:48",
+        "price": 31.8
       }
     ],
     "pending_drop": null
