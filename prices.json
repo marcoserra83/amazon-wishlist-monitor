@@ -9,16 +9,6 @@
     ],
     "pending_drop": null
   },
-  "vauxhall i definitive": {
-    "current": 32.5,
-    "history": [
-      {
-        "date": "2026-08-29 22:49:19",
-        "price": 32.5
-      }
-    ],
-    "pending_drop": null
-  },
   "fear of the dawn": {
     "current": 30.33,
     "history": [
@@ -165,26 +155,6 @@
       {
         "date": "2026-08-29 22:25:04",
         "price": 35.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "remain in light": {
-    "current": 23.58,
-    "history": [
-      {
-        "date": "2026-08-29 22:49:19",
-        "price": 23.58
-      }
-    ],
-    "pending_drop": null
-  },
-  "follow the leader": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-08-29 22:49:19",
-        "price": 23.99
       }
     ],
     "pending_drop": null
