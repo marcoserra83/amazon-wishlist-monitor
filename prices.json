@@ -1,10 +1,40 @@
 {
+  "innerspeaker": {
+    "current": 26.9,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 26.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "vauxhall i definitive": {
+    "current": 32.5,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 32.5
+      }
+    ],
+    "pending_drop": null
+  },
   "fear of the dawn": {
     "current": 30.33,
     "history": [
       {
         "date": "2026-08-29 22:35:51",
         "price": 30.33
+      }
+    ],
+    "pending_drop": null
+  },
+  "die": {
+    "current": 69.99,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 69.99
       }
     ],
     "pending_drop": null
@@ -25,6 +55,16 @@
       {
         "date": "2026-08-29 20:54:51",
         "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 29.99
       }
     ],
     "pending_drop": null
@@ -109,12 +149,42 @@
     ],
     "pending_drop": null
   },
+  "fear of music": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 37.9
+      }
+    ],
+    "pending_drop": null
+  },
   "naked": {
     "current": 35.9,
     "history": [
       {
         "date": "2026-08-29 22:25:04",
         "price": 35.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "remain in light": {
+    "current": 23.58,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 23.58
+      }
+    ],
+    "pending_drop": null
+  },
+  "follow the leader": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -209,6 +279,16 @@
     ],
     "pending_drop": null
   },
+  "a funk odyssey": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
   "synkronized": {
     "current": 38.51,
     "history": [
@@ -245,6 +325,26 @@
       {
         "date": "2026-08-29 21:09:42",
         "price": 25.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "reggatta de blanc": {
+    "current": 33.05,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 33.05
+      }
+    ],
+    "pending_drop": null
+  },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 33.31
       }
     ],
     "pending_drop": null
@@ -329,6 +429,16 @@
     ],
     "pending_drop": null
   },
+  "good bye lenin": {
+    "current": 30.86,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 30.86
+      }
+    ],
+    "pending_drop": null
+  },
   "the beautiful people toronto broadcast 1998 more double vinyl": {
     "current": 30.99,
     "history": [
@@ -365,6 +475,16 @@
       {
         "date": "2026-08-29 22:35:51",
         "price": 39.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "vol 3 the subliminal verses violet": {
+    "current": 52.88,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 52.88
       }
     ],
     "pending_drop": null
@@ -429,12 +549,32 @@
     ],
     "pending_drop": null
   },
+  "led zeppelin iii": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 26.95
+      }
+    ],
+    "pending_drop": null
+  },
   "reload": {
     "current": 49.87,
     "history": [
       {
         "date": "2026-08-29 22:05:22",
         "price": 49.87
+      }
+    ],
+    "pending_drop": null
+  },
+  "s m": {
+    "current": 55.98,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 55.98
       }
     ],
     "pending_drop": null
@@ -549,6 +689,16 @@
     ],
     "pending_drop": null
   },
+  "let love in": {
+    "current": 20.83,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 20.83
+      }
+    ],
+    "pending_drop": null
+  },
   "interpol": {
     "current": 41.46,
     "history": [
@@ -565,6 +715,26 @@
       {
         "date": "2026-08-29 22:35:51",
         "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "soft parade": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 26.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "morrison hotel": {
+    "current": 38.99,
+    "history": [
+      {
+        "date": "2026-08-29 22:49:19",
+        "price": 38.99
       }
     ],
     "pending_drop": null
