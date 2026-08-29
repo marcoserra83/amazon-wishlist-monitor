@@ -1,10 +1,20 @@
 {
-  "fear of the dawn": {
-    "current": 30.33,
+  "innerspeaker": {
+    "current": 26.9,
     "history": [
       {
-        "date": "2026-08-29 01:23:23",
-        "price": 30.33
+        "date": "2026-08-29 02:03:19",
+        "price": 26.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "vauxhall i definitive": {
+    "current": 32.5,
+    "history": [
+      {
+        "date": "2026-08-29 02:03:19",
+        "price": 32.5
       }
     ],
     "pending_drop": null
@@ -19,52 +29,52 @@
     ],
     "pending_drop": null
   },
-  "cosa faremo da grandi": {
-    "current": 30.99,
+  "relax": {
+    "current": 29.99,
     "history": [
       {
-        "date": "2026-08-29 01:44:59",
-        "price": 30.99
+        "date": "2026-08-29 02:03:19",
+        "price": 29.99
       }
     ],
     "pending_drop": null
   },
-  "adore": {
-    "current": 43.95,
+  "evergreen e altre canzoni": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-08-29 01:34:15",
-        "price": 43.95
+        "date": "2026-08-29 02:03:19",
+        "price": 33.21
       }
     ],
     "pending_drop": null
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 51.15,
+  "songs of a lost world": {
+    "current": 31.9,
     "history": [
       {
-        "date": "2026-08-29 01:52:38",
-        "price": 51.15
+        "date": "2026-08-29 02:03:19",
+        "price": 31.9
       }
     ],
     "pending_drop": null
   },
-  "fear of music": {
+  "blood sugar sex magik": {
     "current": 37.9,
     "history": [
       {
-        "date": "2026-08-29 01:05:22",
+        "date": "2026-08-29 02:03:19",
         "price": 37.9
       }
     ],
     "pending_drop": null
   },
-  "bleach ed": {
-    "current": 24.75,
+  "riot on a empty street": {
+    "current": 46.8,
     "history": [
       {
-        "date": "2026-08-29 01:52:38",
-        "price": 24.75
+        "date": "2026-08-29 02:03:19",
+        "price": 46.8
       }
     ],
     "pending_drop": null
@@ -79,26 +89,6 @@
     ],
     "pending_drop": null
   },
-  "octahedron": {
-    "current": 54.61,
-    "history": [
-      {
-        "date": "2026-08-29 01:44:59",
-        "price": 54.61
-      }
-    ],
-    "pending_drop": null
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-08-29 01:52:38",
-        "price": 25.99
-      }
-    ],
-    "pending_drop": null
-  },
   "la matematica dei rami": {
     "current": 33.31,
     "history": [
@@ -109,22 +99,42 @@
     ],
     "pending_drop": null
   },
-  "the queen is dead": {
-    "current": 24.8,
+  "ignition": {
+    "current": 24.36,
     "history": [
       {
-        "date": "2026-08-29 00:44:58",
-        "price": 24.8
+        "date": "2026-08-29 02:03:19",
+        "price": 24.36
       }
     ],
     "pending_drop": null
   },
-  "ixnay on the hombre": {
-    "current": 32.74,
+  "good bye lenin": {
+    "current": 30.86,
     "history": [
       {
-        "date": "2026-08-29 01:52:38",
-        "price": 32.74
+        "date": "2026-08-29 02:03:19",
+        "price": 30.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "light grenades": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-08-29 02:03:19",
+        "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "noctourniquet": {
+    "current": 39.47,
+    "history": [
+      {
+        "date": "2026-08-29 02:03:19",
+        "price": 39.47
       }
     ],
     "pending_drop": null
@@ -139,6 +149,16 @@
     ],
     "pending_drop": null
   },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-08-29 02:03:19",
+        "price": 25.9
+      }
+    ],
+    "pending_drop": null
+  },
   "s m": {
     "current": 55.98,
     "history": [
@@ -149,32 +169,72 @@
     ],
     "pending_drop": null
   },
-  "interpol": {
-    "current": 41.46,
+  "load": {
+    "current": 43.95,
     "history": [
       {
-        "date": "2026-08-29 01:52:38",
-        "price": 41.46
+        "date": "2026-08-29 02:03:19",
+        "price": 43.95
       }
     ],
     "pending_drop": null
   },
-  "soft parade": {
-    "current": 26.95,
+  "master of puppets": {
+    "current": 35.9,
     "history": [
       {
-        "date": "2026-08-29 01:44:59",
-        "price": 26.95
+        "date": "2026-08-29 02:03:19",
+        "price": 35.9
       }
     ],
     "pending_drop": null
   },
-  "the rise and fall of ziggy stardust": {
-    "current": 26.01,
+  "back in": {
+    "current": 23.85,
     "history": [
       {
-        "date": "2026-08-29 01:34:15",
-        "price": 26.01
+        "date": "2026-08-29 02:03:19",
+        "price": 23.85
+      }
+    ],
+    "pending_drop": null
+  },
+  "fabrizio de andre": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-08-29 02:03:19",
+        "price": 27.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "morrison hotel": {
+    "current": 38.99,
+    "history": [
+      {
+        "date": "2026-08-29 02:03:19",
+        "price": 38.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "ghosteen": {
+    "current": 34.9,
+    "history": [
+      {
+        "date": "2026-08-29 02:03:19",
+        "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "heroes": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-08-29 02:03:19",
+        "price": 31.99
       }
     ],
     "pending_drop": null
