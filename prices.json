@@ -1,10 +1,30 @@
 {
-  "evergreen e altre canzoni": {
-    "current": 33.21,
+  "cosa faremo da grandi": {
+    "current": 30.99,
     "history": [
       {
-        "date": "2026-08-29 06:32:50",
-        "price": 33.21
+        "date": "2026-08-29 06:42:53",
+        "price": 30.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "mainstream": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-08-29 06:42:53",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "adore": {
+    "current": 43.95,
+    "history": [
+      {
+        "date": "2026-08-29 06:42:53",
+        "price": 43.95
       }
     ],
     "pending_drop": null
@@ -19,6 +39,26 @@
     ],
     "pending_drop": null
   },
+  "disco x 180 gr": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-08-29 06:42:53",
+        "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "fear of music": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-08-29 06:42:53",
+        "price": 37.9
+      }
+    ],
+    "pending_drop": null
+  },
   "blood sugar sex magik": {
     "current": 37.9,
     "history": [
@@ -29,42 +69,52 @@
     ],
     "pending_drop": null
   },
-  "bleach ed": {
-    "current": 24.75,
+  "like clockwork": {
+    "current": 30.69,
     "history": [
       {
-        "date": "2026-08-29 06:22:51",
-        "price": 24.75
+        "date": "2026-08-29 06:42:53",
+        "price": 30.69
       }
     ],
     "pending_drop": null
   },
-  "a funk odyssey": {
-    "current": 33.99,
+  "greatest hits": {
+    "current": 27.99,
     "history": [
       {
-        "date": "2026-08-29 06:12:41",
-        "price": 33.99
+        "date": "2026-08-29 06:42:53",
+        "price": 27.99
       }
     ],
     "pending_drop": null
   },
-  "emergency on planet earth": {
-    "current": 40.99,
+  "reggatta de blanc": {
+    "current": 33.05,
     "history": [
       {
-        "date": "2026-08-29 06:32:50",
-        "price": 40.99
+        "date": "2026-08-29 06:42:53",
+        "price": 33.05
       }
     ],
     "pending_drop": null
   },
-  "top": {
-    "current": 29.9,
+  "la matematica dei rami": {
+    "current": 33.31,
     "history": [
       {
-        "date": "2026-08-29 06:32:50",
-        "price": 29.9
+        "date": "2026-08-29 06:42:53",
+        "price": 33.31
+      }
+    ],
+    "pending_drop": null
+  },
+  "swing in the films of woody allen": {
+    "current": 33.77,
+    "history": [
+      {
+        "date": "2026-08-29 06:42:53",
+        "price": 33.77
       }
     ],
     "pending_drop": null
@@ -99,26 +149,6 @@
     ],
     "pending_drop": null
   },
-  "money for nothing": {
-    "current": 38.43,
-    "history": [
-      {
-        "date": "2026-08-29 06:32:50",
-        "price": 38.43
-      }
-    ],
-    "pending_drop": null
-  },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 33.5,
-    "history": [
-      {
-        "date": "2026-08-29 06:32:50",
-        "price": 33.5
-      }
-    ],
-    "pending_drop": null
-  },
   "morning view": {
     "current": 39.99,
     "history": [
@@ -129,12 +159,22 @@
     ],
     "pending_drop": null
   },
-  "our love to admire": {
-    "current": 34.1,
+  "out of time": {
+    "current": 25.36,
     "history": [
       {
-        "date": "2026-08-29 06:32:50",
-        "price": 34.1
+        "date": "2026-08-29 06:42:53",
+        "price": 25.36
+      }
+    ],
+    "pending_drop": null
+  },
+  "reload": {
+    "current": 49.87,
+    "history": [
+      {
+        "date": "2026-08-29 06:42:53",
+        "price": 49.87
       }
     ],
     "pending_drop": null
@@ -149,22 +189,22 @@
     ],
     "pending_drop": null
   },
-  "master of puppets": {
-    "current": 35.9,
+  "let love in": {
+    "current": 22.95,
     "history": [
       {
-        "date": "2026-08-29 06:32:50",
-        "price": 35.9
+        "date": "2026-08-29 06:42:53",
+        "price": 22.95
       }
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 23.85,
+  "heroes": {
+    "current": 31.99,
     "history": [
       {
-        "date": "2026-08-29 06:32:50",
-        "price": 23.85
+        "date": "2026-08-29 06:42:53",
+        "price": 31.99
       }
     ],
     "pending_drop": null
