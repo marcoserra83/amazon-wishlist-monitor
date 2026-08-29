@@ -1,14 +1,4 @@
 {
-  "innerspeaker": {
-    "current": 26.9,
-    "history": [
-      {
-        "date": "2026-08-29 08:03:31",
-        "price": 26.9
-      }
-    ],
-    "pending_drop": null
-  },
   "fear of the dawn": {
     "current": 30.33,
     "history": [
@@ -19,12 +9,22 @@
     ],
     "pending_drop": null
   },
-  "mainstream": {
-    "current": 33.99,
+  "die": {
+    "current": 69.99,
     "history": [
       {
-        "date": "2026-08-29 07:53:44",
-        "price": 33.99
+        "date": "2026-08-29 08:12:58",
+        "price": 69.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-08-29 08:12:58",
+        "price": 29.99
       }
     ],
     "pending_drop": null
@@ -49,22 +49,12 @@
     ],
     "pending_drop": null
   },
-  "songs of a lost world": {
-    "current": 31.9,
+  "tracy chapman talkin about a revolution": {
+    "current": 51.35,
     "history": [
       {
-        "date": "2026-08-29 07:53:44",
-        "price": 31.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "hot fuzz": {
-    "current": 27.23,
-    "history": [
-      {
-        "date": "2026-08-29 08:03:31",
-        "price": 27.23
+        "date": "2026-08-29 08:12:58",
+        "price": 51.35
       }
     ],
     "pending_drop": null
@@ -79,12 +69,32 @@
     ],
     "pending_drop": null
   },
+  "naked": {
+    "current": 35.9,
+    "history": [
+      {
+        "date": "2026-08-29 08:12:58",
+        "price": 35.9
+      }
+    ],
+    "pending_drop": null
+  },
   "remain in light": {
     "current": 24.56,
     "history": [
       {
         "date": "2026-08-29 08:03:31",
         "price": 24.56
+      }
+    ],
+    "pending_drop": null
+  },
+  "follow the leader": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-08-29 08:12:58",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -99,62 +109,12 @@
     ],
     "pending_drop": null
   },
-  "blood sugar sex magik": {
-    "current": 37.9,
+  "emergency on planet earth": {
+    "current": 40.99,
     "history": [
       {
-        "date": "2026-08-29 07:23:44",
-        "price": 37.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "bleach ed": {
-    "current": 24.75,
-    "history": [
-      {
-        "date": "2026-08-29 08:03:31",
-        "price": 24.75
-      }
-    ],
-    "pending_drop": null
-  },
-  "greatest hits": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-08-29 08:03:31",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "synkronized": {
-    "current": 38.51,
-    "history": [
-      {
-        "date": "2026-08-29 07:53:44",
-        "price": 38.51
-      }
-    ],
-    "pending_drop": null
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-08-29 07:14:28",
-        "price": 25.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "la matematica dei rami": {
-    "current": 33.31,
-    "history": [
-      {
-        "date": "2026-08-29 06:42:53",
-        "price": 33.31
+        "date": "2026-08-29 08:12:58",
+        "price": 40.99
       }
     ],
     "pending_drop": null
@@ -165,6 +125,26 @@
       {
         "date": "2026-08-29 08:03:31",
         "price": 33.77
+      }
+    ],
+    "pending_drop": null
+  },
+  "tici canzoni urgenti": {
+    "current": 32.9,
+    "history": [
+      {
+        "date": "2026-08-29 08:12:58",
+        "price": 32.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "top": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-08-29 08:12:58",
+        "price": 29.9
       }
     ],
     "pending_drop": null
@@ -199,102 +179,112 @@
     ],
     "pending_drop": null
   },
-  "a crow left of the murder": {
-    "current": 47.79,
+  "out of time": {
+    "current": 25.36,
     "history": [
       {
-        "date": "2026-08-29 07:53:44",
-        "price": 47.79
+        "date": "2026-08-29 08:12:58",
+        "price": 25.36
       }
     ],
     "pending_drop": null
   },
-  "morning view": {
-    "current": 39.99,
+  "noctourniquet": {
+    "current": 39.47,
     "history": [
       {
-        "date": "2026-08-29 08:03:31",
-        "price": 39.99
+        "date": "2026-08-29 08:12:58",
+        "price": 39.47
       }
     ],
     "pending_drop": null
   },
-  "led zeppelin iv": {
-    "current": 25.9,
+  "sleeping with ghosts": {
+    "current": 24.5,
     "history": [
       {
-        "date": "2026-08-29 08:03:31",
-        "price": 25.9
+        "date": "2026-08-29 08:12:58",
+        "price": 24.5
       }
     ],
     "pending_drop": null
   },
-  "reload": {
-    "current": 49.87,
+  "our love to admire": {
+    "current": 34.1,
     "history": [
       {
-        "date": "2026-08-29 07:53:44",
-        "price": 49.87
+        "date": "2026-08-29 08:12:58",
+        "price": 34.1
       }
     ],
     "pending_drop": null
   },
-  "s m2 box": {
-    "current": 95.88,
+  "metallica": {
+    "current": 35.95,
     "history": [
       {
-        "date": "2026-08-29 08:03:31",
-        "price": 95.88
+        "date": "2026-08-29 08:12:58",
+        "price": 35.95
       }
     ],
     "pending_drop": null
   },
-  "load": {
-    "current": 43.95,
+  "s m": {
+    "current": 55.98,
     "history": [
       {
-        "date": "2026-08-29 07:53:44",
-        "price": 43.95
+        "date": "2026-08-29 08:12:58",
+        "price": 55.98
       }
     ],
     "pending_drop": null
   },
-  "master of puppets": {
-    "current": 35.9,
+  "kill em all": {
+    "current": 30.95,
     "history": [
       {
-        "date": "2026-08-29 08:03:31",
-        "price": 35.9
+        "date": "2026-08-29 08:12:58",
+        "price": 30.95
       }
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 23.85,
+  "and justice for all": {
+    "current": 49.19,
     "history": [
       {
-        "date": "2026-08-29 07:53:44",
-        "price": 23.85
+        "date": "2026-08-29 08:12:58",
+        "price": 49.19
       }
     ],
     "pending_drop": null
   },
-  "camera a sud": {
-    "current": 33.21,
+  "mezzanine": {
+    "current": 40.8,
     "history": [
       {
-        "date": "2026-08-29 07:53:44",
-        "price": 33.21
+        "date": "2026-08-29 08:12:58",
+        "price": 40.8
       }
     ],
     "pending_drop": null
   },
-  "morrison hotel": {
-    "current": 38.99,
+  "anime salve": {
+    "current": 27.99,
     "history": [
       {
-        "date": "2026-08-29 07:42:36",
-        "price": 38.99
+        "date": "2026-08-29 08:12:58",
+        "price": 27.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "ghosteen": {
+    "current": 34.9,
+    "history": [
+      {
+        "date": "2026-08-29 08:12:58",
+        "price": 34.9
       }
     ],
     "pending_drop": null
