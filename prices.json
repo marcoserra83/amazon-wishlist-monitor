@@ -1,4 +1,14 @@
 {
+  "vauxhall i definitive": {
+    "current": 32.5,
+    "history": [
+      {
+        "date": "2026-08-29 04:12:18",
+        "price": 32.5
+      }
+    ],
+    "pending_drop": null
+  },
   "fear of the dawn": {
     "current": 30.33,
     "history": [
@@ -9,72 +19,72 @@
     ],
     "pending_drop": null
   },
-  "die": {
-    "current": 69.99,
+  "resta vile maschio dove vai": {
+    "current": 38.0,
     "history": [
       {
-        "date": "2026-08-29 03:23:43",
-        "price": 69.99
+        "date": "2026-08-29 04:12:18",
+        "price": 38.0
       }
     ],
     "pending_drop": null
   },
-  "evergreen e altre canzoni": {
-    "current": 33.21,
+  "adore": {
+    "current": 43.95,
     "history": [
       {
-        "date": "2026-08-29 04:03:15",
-        "price": 33.21
+        "date": "2026-08-29 04:12:18",
+        "price": 43.95
       }
     ],
     "pending_drop": null
   },
-  "hot fuzz": {
-    "current": 27.23,
+  "riot on a empty street": {
+    "current": 46.8,
     "history": [
       {
-        "date": "2026-08-29 03:42:50",
-        "price": 27.23
+        "date": "2026-08-29 04:12:18",
+        "price": 46.8
       }
     ],
     "pending_drop": null
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 51.15,
+  "bleach ed": {
+    "current": 24.75,
     "history": [
       {
-        "date": "2026-08-29 04:03:15",
-        "price": 51.15
+        "date": "2026-08-29 04:12:18",
+        "price": 24.75
       }
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 35.9,
+  "a funk odyssey": {
+    "current": 33.99,
     "history": [
       {
-        "date": "2026-08-29 04:03:15",
-        "price": 35.9
+        "date": "2026-08-29 04:12:18",
+        "price": 33.99
       }
     ],
     "pending_drop": null
   },
-  "the ballad of darren": {
-    "current": 25.9,
+  "yield": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-08-29 03:52:44",
-        "price": 25.9
+        "date": "2026-08-29 04:12:18",
+        "price": 23.99
       }
     ],
     "pending_drop": null
   },
-  "playing the angel": {
-    "current": 25.99,
+  "reggatta de blanc": {
+    "current": 33.05,
     "history": [
       {
-        "date": "2026-08-29 04:03:15",
-        "price": 25.99
+        "date": "2026-08-29 04:12:18",
+        "price": 33.05
       }
     ],
     "pending_drop": null
@@ -89,56 +99,6 @@
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 32.9,
-    "history": [
-      {
-        "date": "2026-08-29 03:33:09",
-        "price": 32.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "top": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-08-29 04:03:15",
-        "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "the queen is dead": {
-    "current": 24.8,
-    "history": [
-      {
-        "date": "2026-08-29 04:03:15",
-        "price": 24.8
-      }
-    ],
-    "pending_drop": null
-  },
-  "ixnay on the hombre": {
-    "current": 32.74,
-    "history": [
-      {
-        "date": "2026-08-29 04:03:15",
-        "price": 32.74
-      }
-    ],
-    "pending_drop": null
-  },
-  "ignition": {
-    "current": 24.36,
-    "history": [
-      {
-        "date": "2026-08-29 04:03:15",
-        "price": 24.36
-      }
-    ],
-    "pending_drop": null
-  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
@@ -149,42 +109,52 @@
     ],
     "pending_drop": null
   },
-  "light grenades": {
-    "current": 33.21,
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 33.5,
     "history": [
       {
-        "date": "2026-08-29 04:03:15",
-        "price": 33.21
+        "date": "2026-08-29 04:12:18",
+        "price": 33.5
       }
     ],
     "pending_drop": null
   },
-  "metallica": {
-    "current": 34.95,
+  "reload": {
+    "current": 49.87,
     "history": [
       {
-        "date": "2026-08-29 04:03:15",
-        "price": 34.95
+        "date": "2026-08-29 04:12:18",
+        "price": 49.87
       }
     ],
     "pending_drop": null
   },
-  "led zeppelin iii": {
-    "current": 26.95,
+  "kill em all": {
+    "current": 30.95,
     "history": [
       {
-        "date": "2026-08-29 03:52:44",
-        "price": 26.95
+        "date": "2026-08-29 04:12:18",
+        "price": 30.95
       }
     ],
     "pending_drop": null
   },
-  "anime salve": {
-    "current": 27.99,
+  "load": {
+    "current": 43.95,
     "history": [
       {
-        "date": "2026-08-29 03:52:44",
-        "price": 27.99
+        "date": "2026-08-29 04:12:18",
+        "price": 43.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-08-29 04:12:18",
+        "price": 49.19
       }
     ],
     "pending_drop": null
