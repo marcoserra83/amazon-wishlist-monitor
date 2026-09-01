@@ -1250,7 +1250,7 @@
     }
   },
   "light grenades": {
-    "current": 33.21,
+    "current": 39.84,
     "history": [
       {
         "date": "2026-08-29 22:35:51",
@@ -1283,13 +1283,13 @@
       {
         "date": "2026-09-01 04:49:00",
         "price": 39.84
+      },
+      {
+        "date": "2026-09-01 17:19:04",
+        "price": 39.84
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-01 04:58:29",
-      "old_price": 39.84,
-      "new_price": 33.21
-    }
+    "pending_drop": null
   },
   "morning view": {
     "current": 39.99,
@@ -1900,11 +1900,15 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 41.46,
+    "current": 41.58,
     "history": [
       {
         "date": "2026-08-29 22:35:51",
         "price": 41.46
+      },
+      {
+        "date": "2026-09-01 17:19:04",
+        "price": 41.58
       }
     ],
     "pending_drop": null
