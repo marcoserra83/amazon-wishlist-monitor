@@ -1138,7 +1138,7 @@
     }
   },
   "vol 3 the subliminal verses violet": {
-    "current": 52.45,
+    "current": 52.88,
     "history": [
       {
         "date": "2026-08-29 22:49:19",
@@ -1159,6 +1159,10 @@
       {
         "date": "2026-08-31 20:28:27",
         "price": 52.45
+      },
+      {
+        "date": "2026-09-01 11:28:48",
+        "price": 52.88
       }
     ],
     "pending_drop": null
@@ -1629,6 +1633,16 @@
       {
         "date": "2026-08-29 22:35:51",
         "price": 41.46
+      }
+    ],
+    "pending_drop": null
+  },
+  "rebetiko gymnastas": {
+    "current": 99.99,
+    "history": [
+      {
+        "date": "2026-09-01 11:28:48",
+        "price": 99.99
       }
     ],
     "pending_drop": null
