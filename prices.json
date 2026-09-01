@@ -516,7 +516,7 @@
     "pending_drop": null
   },
   "remain in light": {
-    "current": 23.58,
+    "current": 23.82,
     "history": [
       {
         "date": "2026-08-29 23:09:49",
@@ -541,6 +541,10 @@
       {
         "date": "2026-09-01 19:09:22",
         "price": 23.58
+      },
+      {
+        "date": "2026-09-01 21:08:36",
+        "price": 23.82
       }
     ],
     "pending_drop": null
