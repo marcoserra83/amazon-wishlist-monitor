@@ -574,7 +574,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.04,
+    "current": 51.02,
     "history": [
       {
         "date": "2026-08-29 22:35:51",
@@ -699,6 +699,10 @@
       {
         "date": "2026-09-02 16:38:24",
         "price": 51.04
+      },
+      {
+        "date": "2026-09-02 17:18:49",
+        "price": 51.02
       }
     ],
     "pending_drop": null
@@ -1776,11 +1780,15 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 35.95,
+    "current": 34.9,
     "history": [
       {
         "date": "2026-09-02 16:59:04",
         "price": 35.95
+      },
+      {
+        "date": "2026-09-02 17:18:49",
+        "price": 34.9
       }
     ],
     "pending_drop": null
