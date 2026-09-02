@@ -1116,7 +1116,7 @@
     "pending_drop": null
   },
   "synkronized": {
-    "current": 33.9,
+    "current": 26.5,
     "history": [
       {
         "date": "2026-08-29 22:05:22",
@@ -1155,7 +1155,11 @@
         "price": 33.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-02 09:48:54",
+      "old_price": 33.9,
+      "new_price": 26.5
+    }
   },
   "emergency on planet earth": {
     "current": 40.99,
