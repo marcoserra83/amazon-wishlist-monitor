@@ -2016,7 +2016,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 39.91,
+    "current": 39.92,
     "history": [
       {
         "date": "2026-09-02 16:59:04",
@@ -2029,13 +2029,13 @@
       {
         "date": "2026-09-03 10:39:01",
         "price": 55.39
+      },
+      {
+        "date": "2026-09-03 13:38:55",
+        "price": 39.92
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-03 10:49:18",
-      "old_price": 55.39,
-      "new_price": 39.91
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 24.36,
@@ -2508,7 +2508,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 27.14,
+    "current": 27.12,
     "history": [
       {
         "date": "2026-09-02 16:59:04",
@@ -2521,6 +2521,10 @@
       {
         "date": "2026-09-03 10:49:18",
         "price": 27.14
+      },
+      {
+        "date": "2026-09-03 13:38:55",
+        "price": 27.12
       }
     ],
     "pending_drop": null
