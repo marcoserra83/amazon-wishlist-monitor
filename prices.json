@@ -345,16 +345,6 @@
     ],
     "pending_drop": null
   },
-  "resta vile maschio dove vai": {
-    "current": 38.0,
-    "history": [
-      {
-        "date": "2026-09-02 10:39:27",
-        "price": 38.0
-      }
-    ],
-    "pending_drop": null
-  },
   "amputechture": {
     "current": 42.14,
     "history": [
@@ -996,7 +986,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 46.5,
+    "current": 46.65,
     "history": [
       {
         "date": "2026-08-29 22:25:04",
@@ -1037,6 +1027,10 @@
       {
         "date": "2026-09-02 10:39:27",
         "price": 46.5
+      },
+      {
+        "date": "2026-09-03 04:48:52",
+        "price": 46.65
       }
     ],
     "pending_drop": null
