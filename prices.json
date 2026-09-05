@@ -3094,7 +3094,7 @@
     "pending_drop": null
   },
   "our love to admire": {
-    "current": 34.1,
+    "current": 30.69,
     "history": [
       {
         "date": "2026-09-02 16:59:04",
@@ -3125,7 +3125,11 @@
         "price": 34.1
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-05 17:47:35",
+      "old_price": 34.1,
+      "new_price": 30.69
+    }
   },
   "metallica": {
     "current": 34.95,
