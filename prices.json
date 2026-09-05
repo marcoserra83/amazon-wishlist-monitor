@@ -2454,7 +2454,7 @@
     "pending_drop": null
   },
   "swing in the films of woody allen": {
-    "current": 33.77,
+    "current": 28.79,
     "history": [
       {
         "date": "2026-08-29 22:14:32",
@@ -2529,7 +2529,11 @@
         "price": 33.77
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-05 23:28:16",
+      "old_price": 33.77,
+      "new_price": 28.79
+    }
   },
   "tici canzoni urgenti": {
     "current": 32.9,
