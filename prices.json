@@ -1842,7 +1842,7 @@
     "pending_drop": null
   },
   "greatest hits": {
-    "current": 27.99,
+    "current": 30.5,
     "history": [
       {
         "date": "2026-08-29 20:44:52",
@@ -1903,6 +1903,10 @@
       {
         "date": "2026-09-05 14:39:29",
         "price": 27.99
+      },
+      {
+        "date": "2026-09-06 00:39:23",
+        "price": 30.5
       }
     ],
     "pending_drop": null
