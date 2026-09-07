@@ -1210,7 +1210,7 @@
     }
   },
   "ixnay on the hombre": {
-    "current": 41.1,
+    "current": 41.11,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1219,6 +1219,10 @@
       {
         "date": "2026-09-07 11:10:07",
         "price": 41.1
+      },
+      {
+        "date": "2026-09-07 13:59:06",
+        "price": 41.11
       }
     ],
     "pending_drop": null
@@ -1544,7 +1548,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 37.32,
+    "current": 42.13,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1553,13 +1557,13 @@
       {
         "date": "2026-09-06 15:58:50",
         "price": 42.13
+      },
+      {
+        "date": "2026-09-07 13:59:06",
+        "price": 42.13
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-07 13:48:43",
-      "old_price": 42.13,
-      "new_price": 37.32
-    }
+    "pending_drop": null
   },
   "rebetiko gymnastas": {
     "current": 99.99,
