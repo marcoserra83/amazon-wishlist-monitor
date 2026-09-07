@@ -1080,7 +1080,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 42.71,
+    "current": 50.87,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1089,13 +1089,13 @@
       {
         "date": "2026-09-07 18:09:20",
         "price": 50.87
+      },
+      {
+        "date": "2026-09-07 18:48:38",
+        "price": 50.87
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-07 18:39:26",
-      "old_price": 50.87,
-      "new_price": 42.71
-    }
+    "pending_drop": null
   },
   "like clockwork": {
     "current": 33.95,
@@ -1581,6 +1581,16 @@
       {
         "date": "2026-09-07 18:09:20",
         "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "le dimensioni del mio caos": {
+    "current": 34.68,
+    "history": [
+      {
+        "date": "2026-09-07 18:48:38",
+        "price": 34.68
       }
     ],
     "pending_drop": null
