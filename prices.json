@@ -1568,7 +1568,7 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 34.9,
+    "current": 34.95,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1581,6 +1581,10 @@
       {
         "date": "2026-09-07 18:09:20",
         "price": 34.9
+      },
+      {
+        "date": "2026-09-07 21:18:52",
+        "price": 34.95
       }
     ],
     "pending_drop": null
