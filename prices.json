@@ -1894,14 +1894,18 @@
     "pending_drop": null
   },
   "morrison hotel": {
-    "current": 37.91,
+    "current": 32.97,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
         "price": 37.91
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-07 21:08:55",
+      "old_price": 37.91,
+      "new_price": 32.97
+    }
   },
   "ghosteen": {
     "current": 34.9,
