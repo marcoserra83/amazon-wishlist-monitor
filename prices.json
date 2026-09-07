@@ -1,6 +1,6 @@
 {
   "l ornamento delle cose secondarie nero": {
-    "current": 30.15,
+    "current": 33.5,
     "history": [
       {
         "date": "2026-08-31 22:59:01",
@@ -49,6 +49,10 @@
       {
         "date": "2026-09-05 14:39:29",
         "price": 30.15
+      },
+      {
+        "date": "2026-09-07 05:47:55",
+        "price": 33.5
       }
     ],
     "pending_drop": null
