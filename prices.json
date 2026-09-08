@@ -1106,7 +1106,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 59.5,
+    "current": 65.42,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1147,13 +1147,13 @@
       {
         "date": "2026-09-08 20:18:18",
         "price": 65.95
+      },
+      {
+        "date": "2026-09-08 20:48:54",
+        "price": 65.42
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-08 20:28:57",
-      "old_price": 65.95,
-      "new_price": 59.5
-    }
+    "pending_drop": null
   },
   "fear of music": {
     "current": 37.9,
@@ -1552,7 +1552,7 @@
     "pending_drop": null
   },
   "reggatta de blanc": {
-    "current": 33.05,
+    "current": 33.99,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1569,6 +1569,10 @@
       {
         "date": "2026-09-08 13:48:52",
         "price": 33.05
+      },
+      {
+        "date": "2026-09-08 20:48:54",
+        "price": 33.99
       }
     ],
     "pending_drop": null
