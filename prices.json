@@ -2082,7 +2082,7 @@
     "pending_drop": null
   },
   "sings 4 bonus tracks": {
-    "current": 64.86,
+    "current": 37.39,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -2097,11 +2097,7 @@
         "price": 70.77
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-08 01:47:55",
-      "old_price": 70.77,
-      "new_price": 64.86
-    }
+    "pending_drop": null
   },
   "led zeppelin iv": {
     "current": 25.9,
