@@ -576,7 +576,7 @@
     "pending_drop": null
   },
   "evergreen e altre canzoni": {
-    "current": 33.99,
+    "current": 33.21,
     "history": [
       {
         "date": "2026-08-29 22:35:51",
@@ -661,6 +661,10 @@
       {
         "date": "2026-09-08 13:48:52",
         "price": 33.99
+      },
+      {
+        "date": "2026-09-09 01:08:50",
+        "price": 33.21
       }
     ],
     "pending_drop": null
