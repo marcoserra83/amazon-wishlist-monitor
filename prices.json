@@ -1558,7 +1558,7 @@
     "pending_drop": null
   },
   "bleach ed": {
-    "current": 24.75,
+    "current": 25.99,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1583,6 +1583,10 @@
       {
         "date": "2026-09-09 20:39:19",
         "price": 24.75
+      },
+      {
+        "date": "2026-09-09 22:28:44",
+        "price": 25.99
       }
     ],
     "pending_drop": null
