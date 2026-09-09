@@ -1238,7 +1238,7 @@
     "pending_drop": null
   },
   "follow the leader": {
-    "current": 23.99,
+    "current": 22.27,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1257,7 +1257,11 @@
         "price": 23.99
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-09 11:38:07",
+      "old_price": 23.99,
+      "new_price": 22.27
+    }
   },
   "up": {
     "current": 39.95,
