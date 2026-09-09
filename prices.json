@@ -1114,7 +1114,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 65.95,
+    "current": 59.5,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1165,7 +1165,11 @@
         "price": 65.95
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-09 07:09:29",
+      "old_price": 65.95,
+      "new_price": 59.5
+    }
   },
   "fear of music": {
     "current": 37.9,
@@ -1620,7 +1624,7 @@
     "pending_drop": null
   },
   "swing in the films of woody allen": {
-    "current": 32.5,
+    "current": 33.77,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1653,6 +1657,10 @@
       {
         "date": "2026-09-08 19:38:20",
         "price": 32.5
+      },
+      {
+        "date": "2026-09-09 07:09:29",
+        "price": 33.77
       }
     ],
     "pending_drop": null
