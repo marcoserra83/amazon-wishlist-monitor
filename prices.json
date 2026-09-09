@@ -2138,7 +2138,7 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 34.95,
+    "current": 34.9,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -2179,6 +2179,10 @@
       {
         "date": "2026-09-08 22:18:53",
         "price": 34.95
+      },
+      {
+        "date": "2026-09-09 16:28:25",
+        "price": 34.9
       }
     ],
     "pending_drop": null
@@ -2410,7 +2414,7 @@
     "pending_drop": null
   },
   "master of puppets": {
-    "current": 35.9,
+    "current": 33.4,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -2429,7 +2433,11 @@
         "price": 35.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-09 16:28:25",
+      "old_price": 35.9,
+      "new_price": 33.4
+    }
   },
   "mezzanine": {
     "current": 40.8,
