@@ -1934,7 +1934,7 @@
     "pending_drop": null
   },
   "swing in the films of woody allen": {
-    "current": 33.77,
+    "current": 29.49,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1973,7 +1973,11 @@
         "price": 33.77
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-10 06:09:14",
+      "old_price": 33.77,
+      "new_price": 29.49
+    }
   },
   "tici canzoni urgenti": {
     "current": 32.9,
@@ -2360,7 +2364,7 @@
     }
   },
   "light grenades": {
-    "current": 39.84,
+    "current": 33.21,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -2375,7 +2379,11 @@
         "price": 39.84
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-10 06:09:14",
+      "old_price": 39.84,
+      "new_price": 33.21
+    }
   },
   "morning view": {
     "current": 39.99,
