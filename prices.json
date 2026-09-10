@@ -1580,7 +1580,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 49.76,
+    "current": 42.6,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -1627,7 +1627,11 @@
         "price": 49.76
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-10 16:39:07",
+      "old_price": 49.76,
+      "new_price": 42.6
+    }
   },
   "like clockwork": {
     "current": 33.95,
@@ -2756,7 +2760,7 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 34.95,
+    "current": 34.9,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -2817,6 +2821,10 @@
       {
         "date": "2026-09-10 09:39:20",
         "price": 34.95
+      },
+      {
+        "date": "2026-09-10 16:39:07",
+        "price": 34.9
       }
     ],
     "pending_drop": null
