@@ -3148,7 +3148,7 @@
     }
   },
   "morning view": {
-    "current": 45.37,
+    "current": 39.99,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -3215,7 +3215,11 @@
         "price": 45.37
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-12 18:09:18",
+      "old_price": 45.37,
+      "new_price": 39.99
+    }
   },
   "mina il cielo in una stanza": {
     "current": 21.99,
