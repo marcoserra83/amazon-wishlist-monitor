@@ -3010,7 +3010,7 @@
     }
   },
   "ignition": {
-    "current": 24.36,
+    "current": 22.27,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -3057,7 +3057,11 @@
         "price": 24.36
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-13 20:29:03",
+      "old_price": 24.36,
+      "new_price": 22.27
+    }
   },
   "money for nothing": {
     "current": 33.4,
