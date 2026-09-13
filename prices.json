@@ -2129,6 +2129,16 @@
     ],
     "pending_drop": null
   },
+  "greatest hits": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-09-13 06:09:12",
+        "price": 27.99
+      }
+    ],
+    "pending_drop": null
+  },
   "octahedron": {
     "current": 54.61,
     "history": [
