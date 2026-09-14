@@ -1076,7 +1076,7 @@
     }
   },
   "adore": {
-    "current": 43.95,
+    "current": 44.95,
     "history": [
       {
         "date": "2026-08-29 22:14:32",
@@ -1177,6 +1177,10 @@
       {
         "date": "2026-09-12 21:58:03",
         "price": 43.95
+      },
+      {
+        "date": "2026-09-14 17:58:09",
+        "price": 44.95
       }
     ],
     "pending_drop": null
@@ -3894,7 +3898,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 48.98,
+    "current": 36.96,
     "history": [
       {
         "date": "2026-09-06 14:09:30",
@@ -3953,7 +3957,11 @@
         "price": 48.98
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-14 17:58:09",
+      "old_price": 48.98,
+      "new_price": 36.96
+    }
   },
   "s m": {
     "current": 55.61,
