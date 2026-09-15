@@ -1700,14 +1700,18 @@
     "pending_drop": null
   },
   "like clockwork": {
-    "current": 33.95,
+    "current": 30.69,
     "history": [
       {
         "date": "2026-09-15 16:48:06",
         "price": 33.95
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-15 20:28:14",
+      "old_price": 33.95,
+      "new_price": 30.69
+    }
   },
   "bleach ed": {
     "current": 25.99,
@@ -2018,11 +2022,15 @@
     "pending_drop": null
   },
   "sings 4 bonus tracks": {
-    "current": 37.5,
+    "current": 56.83,
     "history": [
       {
         "date": "2026-09-15 16:48:06",
         "price": 37.5
+      },
+      {
+        "date": "2026-09-15 20:28:14",
+        "price": 56.83
       }
     ],
     "pending_drop": null
