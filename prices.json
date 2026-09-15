@@ -1620,11 +1620,15 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 64.02,
+    "current": 63.65,
     "history": [
       {
         "date": "2026-09-15 16:48:06",
         "price": 64.02
+      },
+      {
+        "date": "2026-09-15 21:17:46",
+        "price": 63.65
       }
     ],
     "pending_drop": null
@@ -1878,11 +1882,15 @@
     "pending_drop": null
   },
   "the queen is dead": {
-    "current": 24.8,
+    "current": 28.35,
     "history": [
       {
         "date": "2026-09-15 16:48:06",
         "price": 24.8
+      },
+      {
+        "date": "2026-09-15 21:17:46",
+        "price": 28.35
       }
     ],
     "pending_drop": null
