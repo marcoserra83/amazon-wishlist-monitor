@@ -2204,7 +2204,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 50.47,
+    "current": 41.01,
     "history": [
       {
         "date": "2026-09-15 05:09:07",
@@ -2215,7 +2215,11 @@
         "price": 50.47
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-15 13:58:57",
+      "old_price": 50.47,
+      "new_price": 41.01
+    }
   },
   "ignition": {
     "current": 22.27,
@@ -2338,7 +2342,7 @@
     "pending_drop": null
   },
   "sings 4 bonus tracks": {
-    "current": 31.74,
+    "current": 37.5,
     "history": [
       {
         "date": "2026-09-15 05:09:07",
@@ -2347,6 +2351,10 @@
       {
         "date": "2026-09-15 13:28:38",
         "price": 31.74
+      },
+      {
+        "date": "2026-09-15 13:58:57",
+        "price": 37.5
       }
     ],
     "pending_drop": null
@@ -2372,11 +2380,15 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 37.98,
+    "current": 37.94,
     "history": [
       {
         "date": "2026-09-15 05:09:07",
         "price": 37.98
+      },
+      {
+        "date": "2026-09-15 13:58:57",
+        "price": 37.94
       }
     ],
     "pending_drop": null
