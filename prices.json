@@ -2384,11 +2384,15 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 55.61,
+    "current": 55.67,
     "history": [
       {
         "date": "2026-09-15 05:09:07",
         "price": 55.61
+      },
+      {
+        "date": "2026-09-15 11:09:25",
+        "price": 55.67
       }
     ],
     "pending_drop": null
