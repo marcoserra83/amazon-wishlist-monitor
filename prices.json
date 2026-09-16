@@ -491,24 +491,6 @@
       "new_price": 30.33
     }
   },
-  "entering heaven alive": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-09-12 19:38:43",
-        "price": 26.95
-      },
-      {
-        "date": "2026-09-12 21:58:03",
-        "price": 26.95
-      },
-      {
-        "date": "2026-09-14 21:18:52",
-        "price": 26.95
-      }
-    ],
-    "pending_drop": null
-  },
   "die": {
     "current": 69.99,
     "history": [
