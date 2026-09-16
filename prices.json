@@ -2128,7 +2128,7 @@
     "pending_drop": null
   },
   "s m2 box": {
-    "current": 92.87,
+    "current": 92.86,
     "history": [
       {
         "date": "2026-09-15 16:48:06",
@@ -2137,6 +2137,10 @@
       {
         "date": "2026-09-16 09:08:44",
         "price": 92.87
+      },
+      {
+        "date": "2026-09-16 09:38:23",
+        "price": 92.86
       }
     ],
     "pending_drop": null
@@ -2172,11 +2176,15 @@
     "pending_drop": null
   },
   "mezzanine": {
-    "current": 39.72,
+    "current": 41.75,
     "history": [
       {
         "date": "2026-09-15 16:48:06",
         "price": 39.72
+      },
+      {
+        "date": "2026-09-16 09:38:23",
+        "price": 41.75
       }
     ],
     "pending_drop": null
