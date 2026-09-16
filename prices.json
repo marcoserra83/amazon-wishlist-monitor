@@ -1680,11 +1680,15 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 42.6,
+    "current": 52.19,
     "history": [
       {
         "date": "2026-09-15 16:48:06",
         "price": 42.6
+      },
+      {
+        "date": "2026-09-16 06:47:18",
+        "price": 52.19
       }
     ],
     "pending_drop": null
@@ -1974,11 +1978,15 @@
     }
   },
   "morning view": {
-    "current": 39.99,
+    "current": 40.99,
     "history": [
       {
         "date": "2026-09-15 16:48:06",
         "price": 39.99
+      },
+      {
+        "date": "2026-09-16 06:47:18",
+        "price": 40.99
       }
     ],
     "pending_drop": null
