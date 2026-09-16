@@ -1650,11 +1650,15 @@
     "pending_drop": null
   },
   "follow the leader": {
-    "current": 22.27,
+    "current": 23.99,
     "history": [
       {
         "date": "2026-09-15 16:48:06",
         "price": 22.27
+      },
+      {
+        "date": "2026-09-16 09:58:36",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -1898,7 +1902,7 @@
     }
   },
   "ixnay on the hombre": {
-    "current": 50.46,
+    "current": 41.01,
     "history": [
       {
         "date": "2026-09-15 16:48:06",
@@ -1909,7 +1913,11 @@
         "price": 50.46
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-16 09:58:36",
+      "old_price": 50.46,
+      "new_price": 41.01
+    }
   },
   "ignition": {
     "current": 22.27,
