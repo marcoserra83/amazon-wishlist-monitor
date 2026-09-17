@@ -814,7 +814,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 57.14,
+    "current": 57.12,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -827,6 +827,10 @@
       {
         "date": "2026-09-17 08:28:39",
         "price": 57.14
+      },
+      {
+        "date": "2026-09-17 08:58:36",
+        "price": 57.12
       }
     ],
     "pending_drop": null
@@ -1158,11 +1162,15 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 39.99,
+    "current": 43.57,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
         "price": 39.99
+      },
+      {
+        "date": "2026-09-17 08:58:36",
+        "price": 43.57
       }
     ],
     "pending_drop": null
