@@ -1078,11 +1078,15 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 41.01,
+    "current": 50.44,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
         "price": 41.01
+      },
+      {
+        "date": "2026-09-17 02:27:51",
+        "price": 50.44
       }
     ],
     "pending_drop": null
@@ -1118,11 +1122,15 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 48.49,
+    "current": 48.5,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
         "price": 48.49
+      },
+      {
+        "date": "2026-09-17 02:27:51",
+        "price": 48.5
       }
     ],
     "pending_drop": null
