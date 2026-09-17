@@ -834,7 +834,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 57.1,
+    "current": 57.06,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -855,6 +855,10 @@
       {
         "date": "2026-09-17 09:18:05",
         "price": 57.1
+      },
+      {
+        "date": "2026-09-17 23:47:49",
+        "price": 57.06
       }
     ],
     "pending_drop": null
@@ -909,6 +913,16 @@
     ],
     "pending_drop": null
   },
+  "new adventures in hi fi": {
+    "current": 25.01,
+    "history": [
+      {
+        "date": "2026-09-17 23:47:49",
+        "price": 25.01
+      }
+    ],
+    "pending_drop": null
+  },
   "blood sugar sex magik": {
     "current": 37.9,
     "history": [
@@ -940,11 +954,15 @@
     "pending_drop": null
   },
   "bleach ed": {
-    "current": 25.99,
+    "current": 27.5,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
         "price": 25.99
+      },
+      {
+        "date": "2026-09-17 23:47:49",
+        "price": 27.5
       }
     ],
     "pending_drop": null
@@ -1298,7 +1316,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 49.88,
+    "current": 50.18,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1311,6 +1329,10 @@
       {
         "date": "2026-09-17 08:38:59",
         "price": 49.88
+      },
+      {
+        "date": "2026-09-17 23:47:49",
+        "price": 50.18
       }
     ],
     "pending_drop": null
