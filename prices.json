@@ -1451,6 +1451,16 @@
     ],
     "pending_drop": null
   },
+  "and justice for all": {
+    "current": 49.19,
+    "history": [
+      {
+        "date": "2026-09-18 17:17:48",
+        "price": 49.19
+      }
+    ],
+    "pending_drop": null
+  },
   "master of puppets": {
     "current": 35.9,
     "history": [
@@ -1592,7 +1602,7 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 31.99,
+    "current": 32.99,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1605,6 +1615,10 @@
       {
         "date": "2026-09-18 14:58:52",
         "price": 31.99
+      },
+      {
+        "date": "2026-09-18 17:17:48",
+        "price": 32.99
       }
     ],
     "pending_drop": null
