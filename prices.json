@@ -860,7 +860,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 57.04,
+    "current": 57.02,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -893,13 +893,13 @@
       {
         "date": "2026-09-18 12:38:55",
         "price": 63.69
+      },
+      {
+        "date": "2026-09-18 20:38:50",
+        "price": 57.02
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-18 20:28:03",
-      "old_price": 63.69,
-      "new_price": 57.04
-    }
+    "pending_drop": null
   },
   "fear of music": {
     "current": 37.9,
