@@ -776,11 +776,15 @@
     "pending_drop": null
   },
   "amputechture": {
-    "current": 41.84,
+    "current": 41.52,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
         "price": 41.84
+      },
+      {
+        "date": "2026-09-18 10:58:47",
+        "price": 41.52
       }
     ],
     "pending_drop": null
@@ -1350,7 +1354,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 50.18,
+    "current": 51.41,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1367,6 +1371,10 @@
       {
         "date": "2026-09-17 23:47:49",
         "price": 50.18
+      },
+      {
+        "date": "2026-09-18 10:58:47",
+        "price": 51.41
       }
     ],
     "pending_drop": null
@@ -1566,11 +1574,15 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 31.99,
+    "current": 32.99,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
         "price": 31.99
+      },
+      {
+        "date": "2026-09-18 10:58:47",
+        "price": 32.99
       }
     ],
     "pending_drop": null
