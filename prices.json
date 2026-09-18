@@ -1146,7 +1146,7 @@
     "pending_drop": null
   },
   "the queen is dead": {
-    "current": 28.35,
+    "current": 24.8,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1157,7 +1157,11 @@
         "price": 28.35
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-18 12:17:34",
+      "old_price": 28.35,
+      "new_price": 24.8
+    }
   },
   "ixnay on the hombre": {
     "current": 41.03,
