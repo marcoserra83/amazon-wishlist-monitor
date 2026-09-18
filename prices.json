@@ -860,7 +860,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 63.69,
+    "current": 57.04,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -895,7 +895,11 @@
         "price": 63.69
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-18 20:28:03",
+      "old_price": 63.69,
+      "new_price": 57.04
+    }
   },
   "fear of music": {
     "current": 37.9,
@@ -1630,17 +1634,17 @@
     "pending_drop": null
   },
   "the rise and fall of ziggy stardust": {
-    "current": 21.12,
+    "current": 26.01,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
         "price": 26.01
+      },
+      {
+        "date": "2026-09-18 20:28:03",
+        "price": 26.01
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-18 04:08:37",
-      "old_price": 26.01,
-      "new_price": 21.12
-    }
+    "pending_drop": null
   }
 }
