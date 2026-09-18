@@ -785,6 +785,16 @@
     ],
     "pending_drop": null
   },
+  "spira": {
+    "current": 36.5,
+    "history": [
+      {
+        "date": "2026-09-18 07:18:20",
+        "price": 36.5
+      }
+    ],
+    "pending_drop": null
+  },
   "adore": {
     "current": 44.95,
     "history": [
