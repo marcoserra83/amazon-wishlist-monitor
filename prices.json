@@ -876,7 +876,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 63.69,
+    "current": 63.51,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -921,6 +921,10 @@
       {
         "date": "2026-09-19 12:18:28",
         "price": 63.69
+      },
+      {
+        "date": "2026-09-19 14:58:32",
+        "price": 63.51
       }
     ],
     "pending_drop": null
@@ -1590,7 +1594,7 @@
     "pending_drop": null
   },
   "mezzanine": {
-    "current": 35.31,
+    "current": 40.04,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1599,13 +1603,13 @@
       {
         "date": "2026-09-19 12:18:28",
         "price": 41.75
+      },
+      {
+        "date": "2026-09-19 14:58:32",
+        "price": 40.04
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-19 14:38:52",
-      "old_price": 41.75,
-      "new_price": 35.31
-    }
+    "pending_drop": null
   },
   "appetite for destruction": {
     "current": 29.9,
