@@ -1391,8 +1391,18 @@
     ],
     "pending_drop": null
   },
+  "janis joplin s greatest hits": {
+    "current": 16.59,
+    "history": [
+      {
+        "date": "2026-09-21 10:58:36",
+        "price": 16.59
+      }
+    ],
+    "pending_drop": null
+  },
   "ixnay on the hombre": {
-    "current": 41.01,
+    "current": 55.27,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1425,13 +1435,13 @@
       {
         "date": "2026-09-21 02:38:57",
         "price": 50.37
+      },
+      {
+        "date": "2026-09-21 10:58:36",
+        "price": 55.27
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-21 08:28:21",
-      "old_price": 50.37,
-      "new_price": 41.01
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 22.27,
