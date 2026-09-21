@@ -1558,7 +1558,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 65.3,
+    "current": 65.69,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1619,6 +1619,10 @@
       {
         "date": "2026-09-21 17:28:31",
         "price": 65.3
+      },
+      {
+        "date": "2026-09-21 19:18:31",
+        "price": 65.69
       }
     ],
     "pending_drop": null
