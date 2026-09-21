@@ -886,11 +886,15 @@
     "pending_drop": null
   },
   "spira": {
-    "current": 36.5,
+    "current": 36.98,
     "history": [
       {
         "date": "2026-09-21 16:48:29",
         "price": 36.5
+      },
+      {
+        "date": "2026-09-21 20:17:47",
+        "price": 36.98
       }
     ],
     "pending_drop": null
