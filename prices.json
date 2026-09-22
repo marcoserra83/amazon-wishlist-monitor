@@ -884,7 +884,7 @@
     "pending_drop": null
   },
   "amputechture": {
-    "current": 48.25,
+    "current": 41.52,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -927,7 +927,11 @@
         "price": 48.25
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-22 08:08:31",
+      "old_price": 48.25,
+      "new_price": 41.52
+    }
   },
   "spira": {
     "current": 36.5,
