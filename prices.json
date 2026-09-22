@@ -2594,7 +2594,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 43.95,
+    "current": 44.95,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -2615,6 +2615,10 @@
       {
         "date": "2026-09-22 14:27:38",
         "price": 43.95
+      },
+      {
+        "date": "2026-09-22 18:57:24",
+        "price": 44.95
       }
     ],
     "pending_drop": null
