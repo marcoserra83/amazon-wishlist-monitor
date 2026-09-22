@@ -1718,7 +1718,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 56.23,
+    "current": 65.3,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1799,13 +1799,13 @@
       {
         "date": "2026-09-22 06:27:25",
         "price": 65.3
+      },
+      {
+        "date": "2026-09-22 10:47:37",
+        "price": 65.3
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-22 10:38:59",
-      "old_price": 65.3,
-      "new_price": 56.23
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 22.27,
@@ -2284,7 +2284,7 @@
     "pending_drop": null
   },
   "s m2 box": {
-    "current": 95.88,
+    "current": 92.23,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -2317,6 +2317,10 @@
       {
         "date": "2026-09-22 06:27:25",
         "price": 95.88
+      },
+      {
+        "date": "2026-09-22 10:47:37",
+        "price": 92.23
       }
     ],
     "pending_drop": null
