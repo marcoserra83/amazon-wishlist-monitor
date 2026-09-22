@@ -970,7 +970,7 @@
     "pending_drop": null
   },
   "spira": {
-    "current": 41.9,
+    "current": 36.5,
     "history": [
       {
         "date": "2026-09-22 14:27:38",
@@ -981,7 +981,11 @@
         "price": 41.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-22 16:48:33",
+      "old_price": 41.9,
+      "new_price": 36.5
+    }
   },
   "adore": {
     "current": 44.95,
@@ -1710,7 +1714,7 @@
     "pending_drop": null
   },
   "swing in the films of woody allen": {
-    "current": 24.6,
+    "current": 22.07,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1749,11 +1753,7 @@
         "price": 26.58
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-22 14:27:38",
-      "old_price": 26.58,
-      "new_price": 24.6
-    }
+    "pending_drop": null
   },
   "tici canzoni urgenti": {
     "current": 32.9,
@@ -1878,7 +1878,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 48.99,
+    "current": 52.92,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1975,6 +1975,10 @@
       {
         "date": "2026-09-22 16:08:33",
         "price": 48.99
+      },
+      {
+        "date": "2026-09-22 16:48:33",
+        "price": 52.92
       }
     ],
     "pending_drop": null
