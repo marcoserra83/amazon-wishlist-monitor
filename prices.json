@@ -970,11 +970,15 @@
     "pending_drop": null
   },
   "spira": {
-    "current": 36.5,
+    "current": 41.9,
     "history": [
       {
         "date": "2026-09-22 14:27:38",
         "price": 36.5
+      },
+      {
+        "date": "2026-09-22 16:27:55",
+        "price": 41.9
       }
     ],
     "pending_drop": null
@@ -1338,7 +1342,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 52.19,
+    "current": 42.49,
     "history": [
       {
         "date": "2026-09-16 23:47:58",
@@ -1353,7 +1357,11 @@
         "price": 52.19
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-22 16:27:55",
+      "old_price": 52.19,
+      "new_price": 42.49
+    }
   },
   "like clockwork": {
     "current": 30.69,
