@@ -1238,14 +1238,18 @@
     "pending_drop": null
   },
   "emergency on planet earth": {
-    "current": 45.9,
+    "current": 40.99,
     "history": [
       {
         "date": "2026-09-23 23:38:49",
         "price": 45.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-23 23:58:44",
+      "old_price": 45.9,
+      "new_price": 40.99
+    }
   },
   "yield": {
     "current": 25.22,
