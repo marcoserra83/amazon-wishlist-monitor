@@ -180,7 +180,7 @@
     }
   },
   "vauxhall i definitive": {
-    "current": 26.89,
+    "current": 33.31,
     "history": [
       {
         "date": "2026-08-29 23:09:49",
@@ -317,13 +317,13 @@
       {
         "date": "2026-09-23 07:09:00",
         "price": 32.8
+      },
+      {
+        "date": "2026-09-23 14:39:31",
+        "price": 33.31
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-23 11:39:20",
-      "old_price": 32.8,
-      "new_price": 26.89
-    }
+    "pending_drop": null
   },
   "fear of the dawn": {
     "current": 37.72,
@@ -1002,11 +1002,15 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.05,
+    "current": 53.95,
     "history": [
       {
         "date": "2026-09-23 13:39:15",
         "price": 51.05
+      },
+      {
+        "date": "2026-09-23 14:39:31",
+        "price": 53.95
       }
     ],
     "pending_drop": null
@@ -1022,11 +1026,15 @@
     "pending_drop": null
   },
   "naked": {
-    "current": 29.43,
+    "current": 32.89,
     "history": [
       {
         "date": "2026-09-23 13:39:15",
         "price": 29.43
+      },
+      {
+        "date": "2026-09-23 14:39:31",
+        "price": 32.89
       }
     ],
     "pending_drop": null
@@ -1072,11 +1080,15 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 42.38,
+    "current": 52.19,
     "history": [
       {
         "date": "2026-09-23 13:39:15",
         "price": 42.38
+      },
+      {
+        "date": "2026-09-23 14:39:31",
+        "price": 52.19
       }
     ],
     "pending_drop": null
@@ -1271,6 +1283,16 @@
     ],
     "pending_drop": null
   },
+  "money for nothing": {
+    "current": 25.61,
+    "history": [
+      {
+        "date": "2026-09-23 14:39:31",
+        "price": 25.61
+      }
+    ],
+    "pending_drop": null
+  },
   "good bye lenin": {
     "current": 27.85,
     "history": [
@@ -1382,11 +1404,15 @@
     "pending_drop": null
   },
   "sings 4 bonus tracks": {
-    "current": 58.8,
+    "current": 64.71,
     "history": [
       {
         "date": "2026-09-23 13:39:15",
         "price": 58.8
+      },
+      {
+        "date": "2026-09-23 14:39:31",
+        "price": 64.71
       }
     ],
     "pending_drop": null
