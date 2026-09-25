@@ -1209,6 +1209,16 @@
       "new_price": 25.16
     }
   },
+  "bleach ed": {
+    "current": 21.3,
+    "history": [
+      {
+        "date": "2026-09-25 03:18:43",
+        "price": 21.3
+      }
+    ],
+    "pending_drop": null
+  },
   "the ballad of darren": {
     "current": 21.23,
     "history": [
@@ -1442,18 +1452,18 @@
     }
   },
   "good bye lenin": {
-    "current": 25.3,
+    "current": 27.85,
     "history": [
       {
         "date": "2026-09-24 10:18:25",
         "price": 30.86
+      },
+      {
+        "date": "2026-09-25 03:18:43",
+        "price": 27.85
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-25 03:09:44",
-      "old_price": 30.86,
-      "new_price": 25.3
-    }
+    "pending_drop": null
   },
   "the beautiful people toronto broadcast 1998 more double vinyl": {
     "current": 23.93,
