@@ -1118,7 +1118,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 27.88,
+    "current": 27.23,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -1127,6 +1127,10 @@
       {
         "date": "2026-09-26 13:57:33",
         "price": 27.88
+      },
+      {
+        "date": "2026-09-26 14:08:36",
+        "price": 27.23
       }
     ],
     "pending_drop": null
@@ -1146,7 +1150,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 52.7,
+    "current": 52.68,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -1219,6 +1223,10 @@
       {
         "date": "2026-09-26 13:57:33",
         "price": 52.7
+      },
+      {
+        "date": "2026-09-26 14:08:36",
+        "price": 52.68
       }
     ],
     "pending_drop": null
