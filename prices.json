@@ -1123,16 +1123,6 @@
     ],
     "pending_drop": null
   },
-  "spira": {
-    "current": 36.5,
-    "history": [
-      {
-        "date": "2026-09-26 17:39:19",
-        "price": 36.5
-      }
-    ],
-    "pending_drop": null
-  },
   "adore": {
     "current": 44.95,
     "history": [
@@ -2108,7 +2098,7 @@
     "pending_drop": null
   },
   "metallica": {
-    "current": 34.9,
+    "current": 35.95,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -2125,6 +2115,10 @@
       {
         "date": "2026-09-26 18:08:21",
         "price": 34.9
+      },
+      {
+        "date": "2026-09-26 19:09:11",
+        "price": 35.95
       }
     ],
     "pending_drop": null
