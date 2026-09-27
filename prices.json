@@ -1252,7 +1252,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.9,
+    "current": 51.88,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -1481,6 +1481,10 @@
       {
         "date": "2026-09-27 11:57:52",
         "price": 51.9
+      },
+      {
+        "date": "2026-09-27 13:09:19",
+        "price": 51.88
       }
     ],
     "pending_drop": null
@@ -1618,7 +1622,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 47.2,
+    "current": 47.18,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -1803,6 +1807,10 @@
       {
         "date": "2026-09-27 12:08:40",
         "price": 47.2
+      },
+      {
+        "date": "2026-09-27 13:09:19",
+        "price": 47.18
       }
     ],
     "pending_drop": null
