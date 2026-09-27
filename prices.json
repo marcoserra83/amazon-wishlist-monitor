@@ -1189,28 +1189,6 @@
     ],
     "pending_drop": null
   },
-  "songs of a lost world": {
-    "current": 27.11,
-    "history": [
-      {
-        "date": "2026-09-25 15:59:00",
-        "price": 27.11
-      },
-      {
-        "date": "2026-09-26 13:57:33",
-        "price": 27.11
-      },
-      {
-        "date": "2026-09-26 17:39:19",
-        "price": 27.11
-      },
-      {
-        "date": "2026-09-27 04:08:54",
-        "price": 27.11
-      }
-    ],
-    "pending_drop": null
-  },
   "hot fuzz": {
     "current": 27.88,
     "history": [
@@ -1264,7 +1242,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 52.14,
+    "current": 52.12,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -1449,6 +1427,10 @@
       {
         "date": "2026-09-27 05:28:09",
         "price": 52.14
+      },
+      {
+        "date": "2026-09-27 05:59:03",
+        "price": 52.12
       }
     ],
     "pending_drop": null
