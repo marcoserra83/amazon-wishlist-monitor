@@ -1200,7 +1200,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 27.88,
+    "current": 27.23,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -1225,6 +1225,10 @@
       {
         "date": "2026-09-27 04:08:54",
         "price": 27.88
+      },
+      {
+        "date": "2026-09-27 17:09:15",
+        "price": 27.23
       }
     ],
     "pending_drop": null
@@ -1646,7 +1650,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 47.12,
+    "current": 47.1,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -1847,6 +1851,10 @@
       {
         "date": "2026-09-27 15:47:52",
         "price": 47.12
+      },
+      {
+        "date": "2026-09-27 17:09:15",
+        "price": 47.1
       }
     ],
     "pending_drop": null
