@@ -1,24 +1,4 @@
 {
-  "innerspeaker": {
-    "current": 29.89,
-    "history": [
-      {
-        "date": "2026-09-28 13:43:43",
-        "price": 29.89
-      }
-    ],
-    "pending_drop": null
-  },
-  "vauxhall i definitive": {
-    "current": 32.8,
-    "history": [
-      {
-        "date": "2026-09-28 13:22:48",
-        "price": 32.8
-      }
-    ],
-    "pending_drop": null
-  },
   "fear of the dawn": {
     "current": 30.33,
     "history": [
@@ -29,12 +9,62 @@
     ],
     "pending_drop": null
   },
-  "die": {
-    "current": 69.99,
+  "cosa faremo da grandi": {
+    "current": 26.34,
     "history": [
       {
-        "date": "2026-09-28 13:33:51",
-        "price": 69.99
+        "date": "2026-09-28 14:04:10",
+        "price": 26.34
+      }
+    ],
+    "pending_drop": null
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 29.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "evergreen e altre canzoni": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "resta vile maschio dove vai": {
+    "current": 36.0,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 36.0
+      }
+    ],
+    "pending_drop": null
+  },
+  "amputechture": {
+    "current": 41.22,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 41.22
+      }
+    ],
+    "pending_drop": null
+  },
+  "adore": {
+    "current": 44.95,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 44.95
       }
     ],
     "pending_drop": null
@@ -49,22 +79,22 @@
     ],
     "pending_drop": null
   },
-  "hot fuzz": {
-    "current": 27.88,
-    "history": [
-      {
-        "date": "2026-09-28 13:33:51",
-        "price": 27.88
-      }
-    ],
-    "pending_drop": null
-  },
   "disco x 180 gr": {
     "current": 29.9,
     "history": [
       {
         "date": "2026-09-28 13:43:43",
         "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "tracy chapman talkin about a revolution": {
+    "current": 51.32,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 51.32
       }
     ],
     "pending_drop": null
@@ -89,6 +119,16 @@
     ],
     "pending_drop": null
   },
+  "remain in light": {
+    "current": 24.56,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 24.56
+      }
+    ],
+    "pending_drop": null
+  },
   "up": {
     "current": 39.95,
     "history": [
@@ -99,12 +139,32 @@
     ],
     "pending_drop": null
   },
-  "blood sugar sex magik": {
-    "current": 37.9,
+  "riot on a empty street": {
+    "current": 45.64,
     "history": [
       {
-        "date": "2026-09-28 13:43:43",
-        "price": 37.9
+        "date": "2026-09-28 14:04:10",
+        "price": 45.64
+      }
+    ],
+    "pending_drop": null
+  },
+  "like clockwork": {
+    "current": 30.69,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 30.69
+      }
+    ],
+    "pending_drop": null
+  },
+  "the ballad of darren": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -115,6 +175,16 @@
       {
         "date": "2026-09-28 13:22:48",
         "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "a funk odyssey": {
+    "current": 28.89,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 28.89
       }
     ],
     "pending_drop": null
@@ -139,12 +209,42 @@
     ],
     "pending_drop": null
   },
+  "yield": {
+    "current": 20.39,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 20.39
+      }
+    ],
+    "pending_drop": null
+  },
+  "playing the angel": {
+    "current": 25.99,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 25.99
+      }
+    ],
+    "pending_drop": null
+  },
   "swing in the films of woody allen": {
     "current": 22.07,
     "history": [
       {
         "date": "2026-09-28 13:33:51",
         "price": 22.07
+      }
+    ],
+    "pending_drop": null
+  },
+  "top": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-09-28 14:04:10",
+        "price": 29.9
       }
     ],
     "pending_drop": null
@@ -159,62 +259,22 @@
     ],
     "pending_drop": null
   },
-  "money for nothing": {
-    "current": 24.97,
+  "the queen is dead": {
+    "current": 24.79,
     "history": [
       {
-        "date": "2026-09-28 13:43:43",
-        "price": 24.97
+        "date": "2026-09-28 14:04:10",
+        "price": 24.79
       }
     ],
     "pending_drop": null
   },
-  "good bye lenin": {
-    "current": 30.86,
+  "ignition": {
+    "current": 20.04,
     "history": [
       {
-        "date": "2026-09-28 13:33:51",
-        "price": 30.86
-      }
-    ],
-    "pending_drop": null
-  },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 30.99,
-    "history": [
-      {
-        "date": "2026-09-28 13:43:43",
-        "price": 30.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "a crow left of the murder": {
-    "current": 48.49,
-    "history": [
-      {
-        "date": "2026-09-28 13:43:43",
-        "price": 48.49
-      }
-    ],
-    "pending_drop": null
-  },
-  "light grenades": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-09-28 13:22:48",
-        "price": 33.21
-      }
-    ],
-    "pending_drop": null
-  },
-  "vol 3 the subliminal verses violet": {
-    "current": 52.88,
-    "history": [
-      {
-        "date": "2026-09-28 13:03:57",
-        "price": 52.88
+        "date": "2026-09-28 14:04:10",
+        "price": 20.04
       }
     ],
     "pending_drop": null
@@ -259,42 +319,12 @@
     ],
     "pending_drop": null
   },
-  "led zeppelin iv": {
-    "current": 25.9,
+  "sings 4 bonus tracks": {
+    "current": 61.97,
     "history": [
       {
-        "date": "2026-09-28 13:43:43",
-        "price": 25.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "led zeppelin iii": {
-    "current": 34.5,
-    "history": [
-      {
-        "date": "2026-09-28 13:43:43",
-        "price": 34.5
-      }
-    ],
-    "pending_drop": null
-  },
-  "s m": {
-    "current": 57.85,
-    "history": [
-      {
-        "date": "2026-09-28 13:43:43",
-        "price": 57.85
-      }
-    ],
-    "pending_drop": null
-  },
-  "kill em all": {
-    "current": 27.16,
-    "history": [
-      {
-        "date": "2026-09-28 13:43:43",
-        "price": 27.16
+        "date": "2026-09-28 14:04:10",
+        "price": 61.97
       }
     ],
     "pending_drop": null
@@ -309,12 +339,12 @@
     ],
     "pending_drop": null
   },
-  "and justice for all": {
-    "current": 42.49,
+  "load": {
+    "current": 44.95,
     "history": [
       {
-        "date": "2026-09-28 13:33:51",
-        "price": 42.49
+        "date": "2026-09-28 14:04:10",
+        "price": 44.95
       }
     ],
     "pending_drop": null
@@ -329,12 +359,12 @@
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 20.04,
+  "mezzanine": {
+    "current": 35.99,
     "history": [
       {
-        "date": "2026-09-28 13:43:43",
-        "price": 20.04
+        "date": "2026-09-28 14:04:10",
+        "price": 35.99
       }
     ],
     "pending_drop": null
@@ -359,22 +389,22 @@
     ],
     "pending_drop": null
   },
-  "ghosteen": {
-    "current": 34.9,
+  "camera a sud": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-09-28 13:43:43",
-        "price": 34.9
+        "date": "2026-09-28 14:04:10",
+        "price": 33.21
       }
     ],
     "pending_drop": null
   },
-  "heroes": {
-    "current": 32.35,
+  "morrison hotel": {
+    "current": 37.91,
     "history": [
       {
-        "date": "2026-09-28 13:33:51",
-        "price": 32.35
+        "date": "2026-09-28 14:04:10",
+        "price": 37.91
       }
     ],
     "pending_drop": null
