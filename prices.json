@@ -1,20 +1,30 @@
 {
-  "l ornamento delle cose secondarie nero": {
-    "current": 30.15,
+  "innerspeaker": {
+    "current": 29.89,
     "history": [
       {
-        "date": "2026-09-28 16:53:50",
-        "price": 30.15
+        "date": "2026-09-28 17:04:28",
+        "price": 29.89
       }
     ],
     "pending_drop": null
   },
-  "vauxhall i definitive": {
-    "current": 32.8,
+  "fear of the dawn": {
+    "current": 30.33,
     "history": [
       {
-        "date": "2026-09-28 16:33:58",
-        "price": 32.8
+        "date": "2026-09-28 17:04:28",
+        "price": 30.33
+      }
+    ],
+    "pending_drop": null
+  },
+  "entering heaven alive": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-09-28 17:04:28",
+        "price": 26.95
       }
     ],
     "pending_drop": null
@@ -49,12 +59,12 @@
     ],
     "pending_drop": null
   },
-  "amputechture": {
-    "current": 41.22,
+  "resta vile maschio dove vai": {
+    "current": 36.0,
     "history": [
       {
-        "date": "2026-09-28 16:53:50",
-        "price": 41.22
+        "date": "2026-09-28 17:04:28",
+        "price": 36.0
       }
     ],
     "pending_drop": null
@@ -69,12 +79,12 @@
     ],
     "pending_drop": null
   },
-  "songs of a lost world": {
-    "current": 27.11,
+  "hot fuzz": {
+    "current": 27.88,
     "history": [
       {
-        "date": "2026-09-28 16:53:50",
-        "price": 27.11
+        "date": "2026-09-28 17:04:28",
+        "price": 27.88
       }
     ],
     "pending_drop": null
@@ -89,12 +99,22 @@
     ],
     "pending_drop": null
   },
-  "like clockwork": {
-    "current": 30.69,
+  "remain in light": {
+    "current": 24.56,
     "history": [
       {
-        "date": "2026-09-28 16:53:50",
-        "price": 30.69
+        "date": "2026-09-28 17:04:28",
+        "price": 24.56
+      }
+    ],
+    "pending_drop": null
+  },
+  "blood sugar sex magik": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-09-28 17:04:28",
+        "price": 37.9
       }
     ],
     "pending_drop": null
@@ -109,22 +129,22 @@
     ],
     "pending_drop": null
   },
+  "octahedron": {
+    "current": 54.61,
+    "history": [
+      {
+        "date": "2026-09-28 17:04:28",
+        "price": 54.61
+      }
+    ],
+    "pending_drop": null
+  },
   "dynamite": {
     "current": 33.99,
     "history": [
       {
         "date": "2026-09-28 16:53:50",
         "price": 33.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "synkronized": {
-    "current": 22.27,
-    "history": [
-      {
-        "date": "2026-09-28 16:53:50",
-        "price": 22.27
       }
     ],
     "pending_drop": null
@@ -139,12 +159,12 @@
     ],
     "pending_drop": null
   },
-  "yield": {
-    "current": 20.39,
+  "playing the angel": {
+    "current": 25.99,
     "history": [
       {
-        "date": "2026-09-28 16:44:11",
-        "price": 20.39
+        "date": "2026-09-28 17:04:28",
+        "price": 25.99
       }
     ],
     "pending_drop": null
@@ -189,16 +209,6 @@
     ],
     "pending_drop": null
   },
-  "the queen is dead": {
-    "current": 24.79,
-    "history": [
-      {
-        "date": "2026-09-28 16:53:50",
-        "price": 24.79
-      }
-    ],
-    "pending_drop": null
-  },
   "ignition": {
     "current": 20.04,
     "history": [
@@ -219,22 +229,22 @@
     ],
     "pending_drop": null
   },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-09-28 16:53:50",
-        "price": 30.86
-      }
-    ],
-    "pending_drop": null
-  },
   "the beautiful people toronto broadcast 1998 more double vinyl": {
     "current": 30.99,
     "history": [
       {
         "date": "2026-09-28 16:33:58",
         "price": 30.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "light grenades": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-09-28 17:04:28",
+        "price": 33.21
       }
     ],
     "pending_drop": null
@@ -249,12 +259,22 @@
     ],
     "pending_drop": null
   },
-  "our love to admire": {
-    "current": 34.1,
+  "marauder": {
+    "current": 28.42,
     "history": [
       {
-        "date": "2026-09-28 16:44:11",
-        "price": 34.1
+        "date": "2026-09-28 17:04:28",
+        "price": 28.42
+      }
+    ],
+    "pending_drop": null
+  },
+  "vol 3 the subliminal verses violet": {
+    "current": 52.88,
+    "history": [
+      {
+        "date": "2026-09-28 17:04:28",
+        "price": 52.88
       }
     ],
     "pending_drop": null
@@ -265,6 +285,16 @@
       {
         "date": "2026-09-28 16:53:50",
         "price": 25.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "led zeppelin iii": {
+    "current": 34.5,
+    "history": [
+      {
+        "date": "2026-09-28 17:04:28",
+        "price": 34.5
       }
     ],
     "pending_drop": null
@@ -289,12 +319,12 @@
     ],
     "pending_drop": null
   },
-  "load": {
-    "current": 44.95,
+  "and justice for all": {
+    "current": 42.49,
     "history": [
       {
-        "date": "2026-09-28 16:44:11",
-        "price": 44.95
+        "date": "2026-09-28 17:04:28",
+        "price": 42.49
       }
     ],
     "pending_drop": null
@@ -319,42 +349,22 @@
     ],
     "pending_drop": null
   },
+  "appetite for destruction": {
+    "current": 25.42,
+    "history": [
+      {
+        "date": "2026-09-28 17:04:28",
+        "price": 25.42
+      }
+    ],
+    "pending_drop": null
+  },
   "back in": {
     "current": 20.04,
     "history": [
       {
         "date": "2026-09-28 16:44:11",
         "price": 20.04
-      }
-    ],
-    "pending_drop": null
-  },
-  "guest star bill evans alone together": {
-    "current": 27.23,
-    "history": [
-      {
-        "date": "2026-09-28 16:44:11",
-        "price": 27.23
-      }
-    ],
-    "pending_drop": null
-  },
-  "anime salve": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-09-28 16:33:58",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "fabrizio de andre": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-09-28 16:53:50",
-        "price": 27.99
       }
     ],
     "pending_drop": null
@@ -379,22 +389,22 @@
     ],
     "pending_drop": null
   },
-  "soft parade": {
-    "current": 26.95,
+  "rebetiko gymnastas": {
+    "current": 99.99,
     "history": [
       {
-        "date": "2026-09-28 16:53:50",
-        "price": 26.95
+        "date": "2026-09-28 17:04:28",
+        "price": 99.99
       }
     ],
     "pending_drop": null
   },
-  "morrison hotel": {
-    "current": 37.91,
+  "ghosteen": {
+    "current": 34.9,
     "history": [
       {
-        "date": "2026-09-28 16:53:50",
-        "price": 37.91
+        "date": "2026-09-28 17:04:28",
+        "price": 34.9
       }
     ],
     "pending_drop": null
