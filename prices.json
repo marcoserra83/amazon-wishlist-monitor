@@ -1664,7 +1664,7 @@
     }
   },
   "naked": {
-    "current": 32.89,
+    "current": 29.43,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -1683,11 +1683,7 @@
         "price": 35.9
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-28 02:38:12",
-      "old_price": 35.9,
-      "new_price": 32.89
-    }
+    "pending_drop": null
   },
   "remain in light": {
     "current": 20.13,
