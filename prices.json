@@ -1668,7 +1668,7 @@
     }
   },
   "naked": {
-    "current": 29.43,
+    "current": 32.89,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -1689,13 +1689,13 @@
       {
         "date": "2026-09-28 04:09:11",
         "price": 32.89
+      },
+      {
+        "date": "2026-09-28 04:39:09",
+        "price": 32.89
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-28 04:18:50",
-      "old_price": 32.89,
-      "new_price": 29.43
-    }
+    "pending_drop": null
   },
   "remain in light": {
     "current": 20.13,
@@ -2062,7 +2062,7 @@
     }
   },
   "bleach ed": {
-    "current": 21.3,
+    "current": 22.54,
     "history": [
       {
         "date": "2026-09-25 15:59:00",
@@ -2079,13 +2079,13 @@
       {
         "date": "2026-09-27 04:08:54",
         "price": 25.99
+      },
+      {
+        "date": "2026-09-28 04:39:09",
+        "price": 22.54
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-28 02:38:12",
-      "old_price": 25.99,
-      "new_price": 21.3
-    }
+    "pending_drop": null
   },
   "the ballad of darren": {
     "current": 21.23,
