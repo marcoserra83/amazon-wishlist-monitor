@@ -1,4 +1,24 @@
 {
+  "l ornamento delle cose secondarie nero": {
+    "current": 30.15,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 30.15
+      }
+    ],
+    "pending_drop": null
+  },
+  "innerspeaker": {
+    "current": 29.89,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 29.89
+      }
+    ],
+    "pending_drop": null
+  },
   "fear of the dawn": {
     "current": 30.33,
     "history": [
@@ -9,12 +29,22 @@
     ],
     "pending_drop": null
   },
-  "cosa faremo da grandi": {
-    "current": 26.34,
+  "die": {
+    "current": 69.99,
     "history": [
       {
-        "date": "2026-09-28 14:04:10",
-        "price": 26.34
+        "date": "2026-09-28 14:13:17",
+        "price": 69.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "mainstream": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 33.99
       }
     ],
     "pending_drop": null
@@ -29,16 +59,6 @@
     ],
     "pending_drop": null
   },
-  "evergreen e altre canzoni": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-09-28 14:04:10",
-        "price": 33.21
-      }
-    ],
-    "pending_drop": null
-  },
   "resta vile maschio dove vai": {
     "current": 36.0,
     "history": [
@@ -49,42 +69,12 @@
     ],
     "pending_drop": null
   },
-  "amputechture": {
-    "current": 41.22,
+  "hot fuzz": {
+    "current": 27.88,
     "history": [
       {
-        "date": "2026-09-28 14:04:10",
-        "price": 41.22
-      }
-    ],
-    "pending_drop": null
-  },
-  "adore": {
-    "current": 44.95,
-    "history": [
-      {
-        "date": "2026-09-28 14:04:10",
-        "price": 44.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "songs of a lost world": {
-    "current": 27.11,
-    "history": [
-      {
-        "date": "2026-09-28 13:22:48",
-        "price": 27.11
-      }
-    ],
-    "pending_drop": null
-  },
-  "disco x 180 gr": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-09-28 13:43:43",
-        "price": 29.9
+        "date": "2026-09-28 14:13:17",
+        "price": 27.88
       }
     ],
     "pending_drop": null
@@ -109,16 +99,6 @@
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 35.9,
-    "history": [
-      {
-        "date": "2026-09-28 13:03:57",
-        "price": 35.9
-      }
-    ],
-    "pending_drop": null
-  },
   "remain in light": {
     "current": 24.56,
     "history": [
@@ -129,12 +109,12 @@
     ],
     "pending_drop": null
   },
-  "up": {
-    "current": 39.95,
+  "follow the leader": {
+    "current": 20.39,
     "history": [
       {
-        "date": "2026-09-28 13:43:43",
-        "price": 39.95
+        "date": "2026-09-28 14:13:17",
+        "price": 20.39
       }
     ],
     "pending_drop": null
@@ -159,22 +139,22 @@
     ],
     "pending_drop": null
   },
-  "the ballad of darren": {
-    "current": 25.9,
+  "bleach ed": {
+    "current": 27.5,
     "history": [
       {
-        "date": "2026-09-28 14:04:10",
-        "price": 25.9
+        "date": "2026-09-28 14:13:17",
+        "price": 27.5
       }
     ],
     "pending_drop": null
   },
-  "dynamite": {
-    "current": 33.99,
+  "octahedron": {
+    "current": 54.61,
     "history": [
       {
-        "date": "2026-09-28 13:22:48",
-        "price": 33.99
+        "date": "2026-09-28 14:13:17",
+        "price": 54.61
       }
     ],
     "pending_drop": null
@@ -189,16 +169,6 @@
     ],
     "pending_drop": null
   },
-  "synkronized": {
-    "current": 22.27,
-    "history": [
-      {
-        "date": "2026-09-28 13:43:43",
-        "price": 22.27
-      }
-    ],
-    "pending_drop": null
-  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
@@ -209,22 +179,12 @@
     ],
     "pending_drop": null
   },
-  "yield": {
-    "current": 20.39,
+  "la matematica dei rami": {
+    "current": 33.31,
     "history": [
       {
-        "date": "2026-09-28 14:04:10",
-        "price": 20.39
-      }
-    ],
-    "pending_drop": null
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-09-28 14:04:10",
-        "price": 25.99
+        "date": "2026-09-28 14:13:17",
+        "price": 33.31
       }
     ],
     "pending_drop": null
@@ -259,22 +219,62 @@
     ],
     "pending_drop": null
   },
-  "the queen is dead": {
-    "current": 24.79,
+  "money for nothing": {
+    "current": 24.97,
     "history": [
       {
-        "date": "2026-09-28 14:04:10",
-        "price": 24.79
+        "date": "2026-09-28 14:13:17",
+        "price": 24.97
       }
     ],
     "pending_drop": null
   },
-  "ignition": {
-    "current": 20.04,
+  "good bye lenin": {
+    "current": 30.86,
     "history": [
       {
-        "date": "2026-09-28 14:04:10",
-        "price": 20.04
+        "date": "2026-09-28 14:13:17",
+        "price": 30.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 30.99,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 30.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "light grenades": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 28.42
+      }
+    ],
+    "pending_drop": null
+  },
+  "vol 3 the subliminal verses violet": {
+    "current": 52.88,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 52.88
       }
     ],
     "pending_drop": null
@@ -289,16 +289,6 @@
     ],
     "pending_drop": null
   },
-  "noctourniquet": {
-    "current": 38.65,
-    "history": [
-      {
-        "date": "2026-09-28 13:22:48",
-        "price": 38.65
-      }
-    ],
-    "pending_drop": null
-  },
   "sleeping with ghosts": {
     "current": 24.5,
     "history": [
@@ -309,42 +299,52 @@
     ],
     "pending_drop": null
   },
-  "metallica": {
-    "current": 35.95,
+  "our love to admire": {
+    "current": 34.1,
     "history": [
       {
-        "date": "2026-09-28 13:43:43",
-        "price": 35.95
+        "date": "2026-09-28 14:13:17",
+        "price": 34.1
       }
     ],
     "pending_drop": null
   },
-  "sings 4 bonus tracks": {
-    "current": 61.97,
+  "led zeppelin iii": {
+    "current": 34.5,
     "history": [
       {
-        "date": "2026-09-28 14:04:10",
-        "price": 61.97
+        "date": "2026-09-28 14:13:17",
+        "price": 34.5
       }
     ],
     "pending_drop": null
   },
-  "s m2 box": {
-    "current": 92.21,
+  "reload": {
+    "current": 37.88,
     "history": [
       {
-        "date": "2026-09-28 13:33:51",
-        "price": 92.21
+        "date": "2026-09-28 14:13:17",
+        "price": 37.88
       }
     ],
     "pending_drop": null
   },
-  "load": {
-    "current": 44.95,
+  "s m": {
+    "current": 57.85,
     "history": [
       {
-        "date": "2026-09-28 14:04:10",
-        "price": 44.95
+        "date": "2026-09-28 14:13:17",
+        "price": 57.85
+      }
+    ],
+    "pending_drop": null
+  },
+  "kill em all": {
+    "current": 27.16,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 27.16
       }
     ],
     "pending_drop": null
@@ -369,32 +369,42 @@
     ],
     "pending_drop": null
   },
-  "guest star bill evans alone together": {
-    "current": 27.23,
+  "appetite for destruction": {
+    "current": 25.42,
     "history": [
       {
-        "date": "2026-09-28 13:43:43",
-        "price": 27.23
+        "date": "2026-09-28 14:13:17",
+        "price": 25.42
       }
     ],
     "pending_drop": null
   },
-  "anime salve": {
+  "fabrizio de andre": {
     "current": 27.99,
     "history": [
       {
-        "date": "2026-09-28 13:43:43",
+        "date": "2026-09-28 14:13:17",
         "price": 27.99
       }
     ],
     "pending_drop": null
   },
-  "camera a sud": {
-    "current": 33.21,
+  "interpol": {
+    "current": 43.62,
     "history": [
       {
-        "date": "2026-09-28 14:04:10",
-        "price": 33.21
+        "date": "2026-09-28 14:13:17",
+        "price": 43.62
+      }
+    ],
+    "pending_drop": null
+  },
+  "rebetiko gymnastas": {
+    "current": 99.99,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 99.99
       }
     ],
     "pending_drop": null
@@ -405,6 +415,26 @@
       {
         "date": "2026-09-28 14:04:10",
         "price": 37.91
+      }
+    ],
+    "pending_drop": null
+  },
+  "ghosteen": {
+    "current": 34.9,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "heroes": {
+    "current": 32.35,
+    "history": [
+      {
+        "date": "2026-09-28 14:13:17",
+        "price": 32.35
       }
     ],
     "pending_drop": null
