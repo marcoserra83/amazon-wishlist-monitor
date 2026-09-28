@@ -9,32 +9,12 @@
     ],
     "pending_drop": null
   },
-  "mainstream": {
-    "current": 27.86,
-    "history": [
-      {
-        "date": "2026-09-28 05:33:36",
-        "price": 27.86
-      }
-    ],
-    "pending_drop": null
-  },
   "amputechture": {
     "current": 39.83,
     "history": [
       {
         "date": "2026-09-28 05:42:53",
         "price": 39.83
-      }
-    ],
-    "pending_drop": null
-  },
-  "adore": {
-    "current": 36.84,
-    "history": [
-      {
-        "date": "2026-09-28 05:42:53",
-        "price": 36.84
       }
     ],
     "pending_drop": null
@@ -53,16 +33,6 @@
       "new_price": 22.22
     }
   },
-  "hot fuzz": {
-    "current": 22.85,
-    "history": [
-      {
-        "date": "2026-09-28 05:42:53",
-        "price": 22.85
-      }
-    ],
-    "pending_drop": null
-  },
   "tracy chapman talkin about a revolution": {
     "current": 51.8,
     "history": [
@@ -73,12 +43,22 @@
     ],
     "pending_drop": null
   },
-  "riot on a empty street": {
-    "current": 45.64,
+  "remain in light": {
+    "current": 20.13,
     "history": [
       {
-        "date": "2026-09-28 05:33:36",
-        "price": 45.64
+        "date": "2026-09-28 05:52:40",
+        "price": 20.13
+      }
+    ],
+    "pending_drop": null
+  },
+  "follow the leader": {
+    "current": 16.71,
+    "history": [
+      {
+        "date": "2026-09-28 05:52:40",
+        "price": 16.71
       }
     ],
     "pending_drop": null
@@ -93,16 +73,6 @@
     ],
     "pending_drop": null
   },
-  "the ballad of darren": {
-    "current": 21.23,
-    "history": [
-      {
-        "date": "2026-09-28 05:42:53",
-        "price": 21.23
-      }
-    ],
-    "pending_drop": null
-  },
   "dynamite": {
     "current": 27.86,
     "history": [
@@ -113,22 +83,12 @@
     ],
     "pending_drop": null
   },
-  "a funk odyssey": {
-    "current": 23.68,
+  "synkronized": {
+    "current": 18.25,
     "history": [
       {
-        "date": "2026-09-28 05:33:36",
-        "price": 23.68
-      }
-    ],
-    "pending_drop": null
-  },
-  "emergency on planet earth": {
-    "current": 33.6,
-    "history": [
-      {
-        "date": "2026-09-28 05:33:36",
-        "price": 33.6
+        "date": "2026-09-28 05:52:40",
+        "price": 18.25
       }
     ],
     "pending_drop": null
@@ -143,32 +103,6 @@
     ],
     "pending_drop": null
   },
-  "swing in the films of woody allen": {
-    "current": 25.96,
-    "history": [
-      {
-        "date": "2026-09-25 15:59:00",
-        "price": 22.07
-      },
-      {
-        "date": "2026-09-26 13:39:21",
-        "price": 25.96
-      },
-      {
-        "date": "2026-09-26 17:28:48",
-        "price": 25.96
-      },
-      {
-        "date": "2026-09-27 03:58:33",
-        "price": 25.96
-      },
-      {
-        "date": "2026-09-28 02:38:12",
-        "price": 25.96
-      }
-    ],
-    "pending_drop": null
-  },
   "top": {
     "current": 24.51,
     "history": [
@@ -179,108 +113,32 @@
     ],
     "pending_drop": null
   },
-  "hatful of hollow": {
-    "current": 21.23,
+  "good bye lenin": {
+    "current": 25.3,
     "history": [
       {
-        "date": "2026-09-25 15:59:00",
-        "price": 25.9
-      },
-      {
-        "date": "2026-09-26 13:57:33",
-        "price": 25.9
-      },
-      {
-        "date": "2026-09-26 17:39:19",
-        "price": 25.9
-      },
-      {
-        "date": "2026-09-27 04:08:54",
-        "price": 25.9
-      }
-    ],
-    "pending_drop": {
-      "first_seen": "2026-09-28 02:38:12",
-      "old_price": 25.9,
-      "new_price": 21.23
-    }
-  },
-  "the queen is dead": {
-    "current": 20.32,
-    "history": [
-      {
-        "date": "2026-09-28 05:22:46",
-        "price": 20.32
+        "date": "2026-09-28 05:52:40",
+        "price": 25.3
       }
     ],
     "pending_drop": null
   },
-  "light grenades": {
-    "current": 31.31,
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 25.4,
     "history": [
       {
-        "date": "2026-09-28 05:33:36",
-        "price": 31.31
+        "date": "2026-09-28 05:52:40",
+        "price": 25.4
       }
     ],
     "pending_drop": null
   },
-  "morning view": {
-    "current": 45.45,
+  "marauder": {
+    "current": 23.3,
     "history": [
       {
-        "date": "2026-09-28 05:33:36",
-        "price": 45.45
-      }
-    ],
-    "pending_drop": null
-  },
-  "out of time": {
-    "current": 17.67,
-    "history": [
-      {
-        "date": "2026-09-28 05:42:53",
-        "price": 17.67
-      }
-    ],
-    "pending_drop": null
-  },
-  "sleeping with ghosts": {
-    "current": 20.08,
-    "history": [
-      {
-        "date": "2026-09-28 05:33:36",
-        "price": 20.08
-      }
-    ],
-    "pending_drop": null
-  },
-  "our love to admire": {
-    "current": 27.95,
-    "history": [
-      {
-        "date": "2026-09-28 05:33:36",
-        "price": 27.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "metallica": {
-    "current": 29.47,
-    "history": [
-      {
-        "date": "2026-09-28 05:33:36",
-        "price": 29.47
-      }
-    ],
-    "pending_drop": null
-  },
-  "sings 4 bonus tracks": {
-    "current": 61.97,
-    "history": [
-      {
-        "date": "2026-09-28 05:33:36",
-        "price": 61.97
+        "date": "2026-09-28 05:52:40",
+        "price": 23.3
       }
     ],
     "pending_drop": null
@@ -295,12 +153,22 @@
     ],
     "pending_drop": null
   },
-  "s m": {
-    "current": 54.66,
+  "appetite for destruction": {
+    "current": 20.84,
     "history": [
       {
-        "date": "2026-09-28 05:42:53",
-        "price": 54.66
+        "date": "2026-09-28 05:52:40",
+        "price": 20.84
+      }
+    ],
+    "pending_drop": null
+  },
+  "back in": {
+    "current": 16.43,
+    "history": [
+      {
+        "date": "2026-09-28 05:52:40",
+        "price": 16.43
       }
     ],
     "pending_drop": null
@@ -315,12 +183,12 @@
     ],
     "pending_drop": null
   },
-  "the rise and fall of ziggy stardust": {
-    "current": 21.32,
+  "heroes": {
+    "current": 27.04,
     "history": [
       {
-        "date": "2026-09-28 05:42:53",
-        "price": 21.32
+        "date": "2026-09-28 05:52:40",
+        "price": 27.04
       }
     ],
     "pending_drop": null
