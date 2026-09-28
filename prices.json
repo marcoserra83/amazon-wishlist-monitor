@@ -1,30 +1,10 @@
 {
-  "l ornamento delle cose secondarie nero": {
-    "current": 30.15,
+  "innerspeaker": {
+    "current": 29.89,
     "history": [
       {
-        "date": "2026-09-28 21:04:13",
-        "price": 30.15
-      }
-    ],
-    "pending_drop": null
-  },
-  "vauxhall i definitive": {
-    "current": 32.8,
-    "history": [
-      {
-        "date": "2026-09-28 20:34:03",
-        "price": 32.8
-      }
-    ],
-    "pending_drop": null
-  },
-  "die": {
-    "current": 69.99,
-    "history": [
-      {
-        "date": "2026-09-28 20:34:03",
-        "price": 69.99
+        "date": "2026-09-28 21:13:20",
+        "price": 29.89
       }
     ],
     "pending_drop": null
@@ -35,6 +15,56 @@
       {
         "date": "2026-09-28 20:34:03",
         "price": 26.34
+      }
+    ],
+    "pending_drop": null
+  },
+  "mainstream": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-09-28 21:13:20",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-09-28 21:13:20",
+        "price": 29.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "evergreen e altre canzoni": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-09-28 21:13:20",
+        "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "amputechture": {
+    "current": 41.22,
+    "history": [
+      {
+        "date": "2026-09-28 21:13:20",
+        "price": 41.22
+      }
+    ],
+    "pending_drop": null
+  },
+  "adore": {
+    "current": 44.95,
+    "history": [
+      {
+        "date": "2026-09-28 21:13:20",
+        "price": 44.95
       }
     ],
     "pending_drop": null
@@ -59,6 +89,26 @@
     ],
     "pending_drop": null
   },
+  "disco x 180 gr": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-09-28 21:13:20",
+        "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "fear of music": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-09-28 21:13:20",
+        "price": 37.9
+      }
+    ],
+    "pending_drop": null
+  },
   "naked": {
     "current": 35.9,
     "history": [
@@ -79,12 +129,12 @@
     ],
     "pending_drop": null
   },
-  "up": {
-    "current": 39.95,
+  "follow the leader": {
+    "current": 20.39,
     "history": [
       {
-        "date": "2026-09-28 21:04:13",
-        "price": 39.95
+        "date": "2026-09-28 21:13:20",
+        "price": 20.39
       }
     ],
     "pending_drop": null
@@ -109,16 +159,6 @@
     ],
     "pending_drop": null
   },
-  "a funk odyssey": {
-    "current": 28.89,
-    "history": [
-      {
-        "date": "2026-09-28 20:34:03",
-        "price": 28.89
-      }
-    ],
-    "pending_drop": null
-  },
   "yield": {
     "current": 20.39,
     "history": [
@@ -139,32 +179,12 @@
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 32.9,
+  "the queen is dead": {
+    "current": 24.79,
     "history": [
       {
-        "date": "2026-09-28 20:23:42",
-        "price": 32.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "top": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-09-28 21:04:13",
-        "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-09-28 20:34:03",
-        "price": 25.9
+        "date": "2026-09-28 21:13:20",
+        "price": 24.79
       }
     ],
     "pending_drop": null
@@ -179,6 +199,16 @@
     ],
     "pending_drop": null
   },
+  "money for nothing": {
+    "current": 24.97,
+    "history": [
+      {
+        "date": "2026-09-28 21:13:20",
+        "price": 24.97
+      }
+    ],
+    "pending_drop": null
+  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
@@ -189,42 +219,12 @@
     ],
     "pending_drop": null
   },
-  "a crow left of the murder": {
-    "current": 48.49,
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 30.99,
     "history": [
       {
-        "date": "2026-09-28 21:04:13",
-        "price": 48.49
-      }
-    ],
-    "pending_drop": null
-  },
-  "light grenades": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-09-28 21:04:13",
-        "price": 33.21
-      }
-    ],
-    "pending_drop": null
-  },
-  "morning view": {
-    "current": 39.99,
-    "history": [
-      {
-        "date": "2026-09-28 20:03:59",
-        "price": 39.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "marauder": {
-    "current": 28.42,
-    "history": [
-      {
-        "date": "2026-09-28 21:04:13",
-        "price": 28.42
+        "date": "2026-09-28 21:13:20",
+        "price": 30.99
       }
     ],
     "pending_drop": null
@@ -249,6 +249,16 @@
     ],
     "pending_drop": null
   },
+  "our love to admire": {
+    "current": 34.1,
+    "history": [
+      {
+        "date": "2026-09-28 21:13:20",
+        "price": 34.1
+      }
+    ],
+    "pending_drop": null
+  },
   "led zeppelin iv": {
     "current": 25.9,
     "history": [
@@ -269,42 +279,12 @@
     ],
     "pending_drop": null
   },
-  "kill em all": {
-    "current": 27.16,
+  "master of puppets": {
+    "current": 30.51,
     "history": [
       {
-        "date": "2026-09-28 20:34:03",
-        "price": 27.16
-      }
-    ],
-    "pending_drop": null
-  },
-  "s m2 box": {
-    "current": 92.21,
-    "history": [
-      {
-        "date": "2026-09-28 21:04:13",
-        "price": 92.21
-      }
-    ],
-    "pending_drop": null
-  },
-  "load": {
-    "current": 44.95,
-    "history": [
-      {
-        "date": "2026-09-28 21:04:13",
-        "price": 44.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "mezzanine": {
-    "current": 35.99,
-    "history": [
-      {
-        "date": "2026-09-28 20:34:03",
-        "price": 35.99
+        "date": "2026-09-28 21:13:20",
+        "price": 30.51
       }
     ],
     "pending_drop": null
@@ -319,42 +299,12 @@
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 20.04,
+  "rebetiko gymnastas": {
+    "current": 99.99,
     "history": [
       {
-        "date": "2026-09-28 20:23:42",
-        "price": 20.04
-      }
-    ],
-    "pending_drop": null
-  },
-  "anime salve": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-09-28 21:04:13",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "fabrizio de andre": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-09-28 20:34:03",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "interpol": {
-    "current": 43.62,
-    "history": [
-      {
-        "date": "2026-09-28 20:34:03",
-        "price": 43.62
+        "date": "2026-09-28 21:13:20",
+        "price": 99.99
       }
     ],
     "pending_drop": null
@@ -395,26 +345,6 @@
       {
         "date": "2026-09-28 21:04:13",
         "price": 44.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "heroes": {
-    "current": 32.35,
-    "history": [
-      {
-        "date": "2026-09-28 21:04:13",
-        "price": 32.35
-      }
-    ],
-    "pending_drop": null
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 26.01,
-    "history": [
-      {
-        "date": "2026-09-28 20:13:25",
-        "price": 26.01
       }
     ],
     "pending_drop": null
