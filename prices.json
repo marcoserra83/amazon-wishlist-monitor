@@ -1,10 +1,10 @@
 {
-  "innerspeaker": {
-    "current": 24.5,
+  "vauxhall i definitive": {
+    "current": 26.89,
     "history": [
       {
-        "date": "2026-09-29 05:33:36",
-        "price": 24.5
+        "date": "2026-09-29 06:03:51",
+        "price": 26.89
       }
     ],
     "pending_drop": null
@@ -29,22 +29,22 @@
     ],
     "pending_drop": null
   },
-  "mainstream": {
-    "current": 27.86,
+  "relax": {
+    "current": 24.58,
     "history": [
       {
-        "date": "2026-09-29 05:53:17",
-        "price": 27.86
+        "date": "2026-09-29 06:03:51",
+        "price": 24.58
       }
     ],
     "pending_drop": null
   },
-  "evergreen e altre canzoni": {
-    "current": 27.22,
+  "adore": {
+    "current": 36.84,
     "history": [
       {
-        "date": "2026-09-29 05:53:17",
-        "price": 27.22
+        "date": "2026-09-29 06:03:51",
+        "price": 36.84
       }
     ],
     "pending_drop": null
@@ -79,12 +79,12 @@
     ],
     "pending_drop": null
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 51.8,
+  "naked": {
+    "current": 39.99,
     "history": [
       {
-        "date": "2026-09-29 05:53:17",
-        "price": 51.8
+        "date": "2026-09-29 06:03:51",
+        "price": 39.99
       }
     ],
     "pending_drop": null
@@ -109,12 +109,22 @@
     ],
     "pending_drop": null
   },
-  "bleach ed": {
-    "current": 22.54,
+  "up": {
+    "current": 32.75,
     "history": [
       {
-        "date": "2026-09-29 05:53:17",
-        "price": 22.54
+        "date": "2026-09-29 06:03:51",
+        "price": 32.75
+      }
+    ],
+    "pending_drop": null
+  },
+  "riot on a empty street": {
+    "current": 45.64,
+    "history": [
+      {
+        "date": "2026-09-29 06:03:51",
+        "price": 45.64
       }
     ],
     "pending_drop": null
@@ -129,12 +139,12 @@
     ],
     "pending_drop": null
   },
-  "synkronized": {
-    "current": 18.25,
+  "yield": {
+    "current": 16.71,
     "history": [
       {
-        "date": "2026-09-29 05:43:32",
-        "price": 18.25
+        "date": "2026-09-29 06:03:51",
+        "price": 16.71
       }
     ],
     "pending_drop": null
@@ -179,32 +189,32 @@
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 26.97,
+  "top": {
+    "current": 24.51,
     "history": [
       {
-        "date": "2026-09-29 05:53:17",
-        "price": 26.97
+        "date": "2026-09-29 06:03:51",
+        "price": 24.51
       }
     ],
     "pending_drop": null
   },
-  "marauder": {
-    "current": 23.3,
+  "ixnay on the hombre": {
+    "current": 59.74,
     "history": [
       {
-        "date": "2026-09-29 05:33:36",
-        "price": 23.3
+        "date": "2026-09-29 06:03:51",
+        "price": 59.74
       }
     ],
     "pending_drop": null
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 43.34,
+  "ignition": {
+    "current": 16.43,
     "history": [
       {
-        "date": "2026-09-29 05:43:32",
-        "price": 43.34
+        "date": "2026-09-29 06:03:51",
+        "price": 16.43
       }
     ],
     "pending_drop": null
@@ -219,62 +229,22 @@
     ],
     "pending_drop": null
   },
-  "our love to admire": {
-    "current": 27.95,
+  "sleeping with ghosts": {
+    "current": 20.08,
     "history": [
       {
-        "date": "2026-09-29 05:53:17",
-        "price": 27.95
+        "date": "2026-09-29 06:03:51",
+        "price": 20.08
       }
     ],
     "pending_drop": null
   },
-  "metallica": {
-    "current": 29.47,
+  "led zeppelin iv": {
+    "current": 21.23,
     "history": [
       {
-        "date": "2026-09-29 05:43:32",
-        "price": 29.47
-      }
-    ],
-    "pending_drop": null
-  },
-  "sings 4 bonus tracks": {
-    "current": 61.97,
-    "history": [
-      {
-        "date": "2026-09-29 05:53:17",
-        "price": 61.97
-      }
-    ],
-    "pending_drop": null
-  },
-  "led zeppelin iii": {
-    "current": 28.28,
-    "history": [
-      {
-        "date": "2026-09-29 05:43:32",
-        "price": 28.28
-      }
-    ],
-    "pending_drop": null
-  },
-  "reload": {
-    "current": 41.18,
-    "history": [
-      {
-        "date": "2026-09-29 05:53:17",
-        "price": 41.18
-      }
-    ],
-    "pending_drop": null
-  },
-  "kill em all": {
-    "current": 22.26,
-    "history": [
-      {
-        "date": "2026-09-29 05:43:32",
-        "price": 22.26
+        "date": "2026-09-29 06:03:51",
+        "price": 21.23
       }
     ],
     "pending_drop": null
@@ -285,16 +255,6 @@
       {
         "date": "2026-09-29 05:53:17",
         "price": 75.58
-      }
-    ],
-    "pending_drop": null
-  },
-  "load": {
-    "current": 36.84,
-    "history": [
-      {
-        "date": "2026-09-29 05:33:36",
-        "price": 36.84
       }
     ],
     "pending_drop": null
@@ -319,32 +279,32 @@
     ],
     "pending_drop": null
   },
-  "guest star bill evans alone together": {
-    "current": 22.32,
+  "fabrizio de andre": {
+    "current": 22.94,
     "history": [
       {
-        "date": "2026-09-29 05:53:17",
-        "price": 22.32
+        "date": "2026-09-29 06:03:51",
+        "price": 22.94
       }
     ],
     "pending_drop": null
   },
-  "anime salve": {
-    "current": 37.69,
+  "let love in": {
+    "current": 22.12,
     "history": [
       {
-        "date": "2026-09-29 05:53:17",
-        "price": 37.69
+        "date": "2026-09-29 06:03:51",
+        "price": 22.12
       }
     ],
     "pending_drop": null
   },
-  "soft parade": {
-    "current": 22.09,
+  "interpol": {
+    "current": 43.62,
     "history": [
       {
-        "date": "2026-09-29 05:53:17",
-        "price": 22.09
+        "date": "2026-09-29 06:03:51",
+        "price": 43.62
       }
     ],
     "pending_drop": null
