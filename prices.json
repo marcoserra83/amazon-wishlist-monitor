@@ -1,10 +1,10 @@
 {
-  "innerspeaker": {
-    "current": 24.5,
+  "l ornamento delle cose secondarie nero": {
+    "current": 24.71,
     "history": [
       {
-        "date": "2026-09-29 06:23:50",
-        "price": 24.5
+        "date": "2026-09-29 06:43:26",
+        "price": 24.71
       }
     ],
     "pending_drop": null
@@ -19,6 +19,26 @@
     ],
     "pending_drop": null
   },
+  "cosa faremo da grandi": {
+    "current": 21.59,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 21.59
+      }
+    ],
+    "pending_drop": null
+  },
+  "mainstream": {
+    "current": 27.86,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 27.86
+      }
+    ],
+    "pending_drop": null
+  },
   "relax": {
     "current": 24.58,
     "history": [
@@ -29,62 +49,82 @@
     ],
     "pending_drop": null
   },
-  "amputechture": {
-    "current": 39.83,
+  "adore": {
+    "current": 36.84,
     "history": [
       {
-        "date": "2026-09-29 06:13:19",
-        "price": 39.83
+        "date": "2026-09-29 06:43:26",
+        "price": 36.84
       }
     ],
     "pending_drop": null
   },
-  "disco x 180 gr": {
-    "current": 24.51,
+  "hot fuzz": {
+    "current": 22.85,
     "history": [
       {
-        "date": "2026-09-29 06:33:00",
-        "price": 24.51
+        "date": "2026-09-29 06:43:26",
+        "price": 22.85
       }
     ],
     "pending_drop": null
   },
-  "riot on a empty street": {
-    "current": 45.64,
+  "remain in light": {
+    "current": 20.13,
     "history": [
       {
-        "date": "2026-09-29 06:33:00",
-        "price": 45.64
+        "date": "2026-09-29 06:43:26",
+        "price": 20.13
       }
     ],
     "pending_drop": null
   },
-  "yield": {
-    "current": 16.71,
+  "up": {
+    "current": 32.75,
     "history": [
       {
-        "date": "2026-09-29 06:03:51",
-        "price": 16.71
+        "date": "2026-09-29 06:43:26",
+        "price": 32.75
       }
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 26.97,
+  "blood sugar sex magik": {
+    "current": 31.07,
     "history": [
       {
-        "date": "2026-09-29 06:23:50",
-        "price": 26.97
+        "date": "2026-09-29 06:43:26",
+        "price": 31.07
       }
     ],
     "pending_drop": null
   },
-  "the queen is dead": {
-    "current": 20.32,
+  "the ballad of darren": {
+    "current": 21.23,
     "history": [
       {
-        "date": "2026-09-29 06:23:50",
-        "price": 20.32
+        "date": "2026-09-29 06:43:26",
+        "price": 21.23
+      }
+    ],
+    "pending_drop": null
+  },
+  "swing in the films of woody allen": {
+    "current": 25.96,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 25.96
+      }
+    ],
+    "pending_drop": null
+  },
+  "ixnay on the hombre": {
+    "current": 59.74,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 59.74
       }
     ],
     "pending_drop": null
@@ -99,42 +139,82 @@
     ],
     "pending_drop": null
   },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 25.4,
+  "marauder": {
+    "current": 23.3,
     "history": [
       {
-        "date": "2026-09-29 06:33:00",
-        "price": 25.4
+        "date": "2026-09-29 06:43:26",
+        "price": 23.3
       }
     ],
     "pending_drop": null
   },
-  "metallica": {
-    "current": 29.47,
+  "vol 3 the subliminal verses violet": {
+    "current": 43.34,
     "history": [
       {
-        "date": "2026-09-29 06:33:00",
-        "price": 29.47
+        "date": "2026-09-29 06:43:26",
+        "price": 43.34
       }
     ],
     "pending_drop": null
   },
-  "reload": {
-    "current": 41.18,
+  "out of time": {
+    "current": 17.67,
     "history": [
       {
-        "date": "2026-09-29 06:33:00",
-        "price": 41.18
+        "date": "2026-09-29 06:43:26",
+        "price": 17.67
       }
     ],
     "pending_drop": null
   },
-  "s m": {
-    "current": 54.66,
+  "sings 4 bonus tracks": {
+    "current": 61.97,
     "history": [
       {
-        "date": "2026-09-29 06:33:00",
-        "price": 54.66
+        "date": "2026-09-29 06:43:26",
+        "price": 61.97
+      }
+    ],
+    "pending_drop": null
+  },
+  "led zeppelin iii": {
+    "current": 28.28,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 28.28
+      }
+    ],
+    "pending_drop": null
+  },
+  "kill em all": {
+    "current": 22.26,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 22.26
+      }
+    ],
+    "pending_drop": null
+  },
+  "s m2 box": {
+    "current": 75.58,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 75.58
+      }
+    ],
+    "pending_drop": null
+  },
+  "load": {
+    "current": 36.84,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 36.84
       }
     ],
     "pending_drop": null
@@ -149,6 +229,26 @@
     ],
     "pending_drop": null
   },
+  "mezzanine": {
+    "current": 29.5,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 29.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "anime salve": {
+    "current": 37.69,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 37.69
+      }
+    ],
+    "pending_drop": null
+  },
   "fabrizio de andre": {
     "current": 22.94,
     "history": [
@@ -159,12 +259,52 @@
     ],
     "pending_drop": null
   },
-  "let love in": {
-    "current": 22.12,
+  "interpol": {
+    "current": 43.62,
     "history": [
       {
-        "date": "2026-09-29 06:03:51",
-        "price": 22.12
+        "date": "2026-09-29 06:43:26",
+        "price": 43.62
+      }
+    ],
+    "pending_drop": null
+  },
+  "soft parade": {
+    "current": 22.09,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 22.09
+      }
+    ],
+    "pending_drop": null
+  },
+  "morrison hotel": {
+    "current": 37.91,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 37.91
+      }
+    ],
+    "pending_drop": null
+  },
+  "heroes": {
+    "current": 26.52,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 26.52
+      }
+    ],
+    "pending_drop": null
+  },
+  "the rise and fall of ziggy stardust": {
+    "current": 21.32,
+    "history": [
+      {
+        "date": "2026-09-29 06:43:26",
+        "price": 21.32
       }
     ],
     "pending_drop": null
