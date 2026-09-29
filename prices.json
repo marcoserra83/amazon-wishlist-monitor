@@ -902,11 +902,15 @@
     "pending_drop": null
   },
   "substance": {
-    "current": 44.95,
+    "current": 42.9,
     "history": [
       {
         "date": "2026-09-29 20:08:33",
         "price": 44.95
+      },
+      {
+        "date": "2026-09-29 21:48:08",
+        "price": 42.9
       }
     ],
     "pending_drop": null
