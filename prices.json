@@ -1,24 +1,4 @@
 {
-  "fear of the dawn": {
-    "current": 37.72,
-    "history": [
-      {
-        "date": "2026-09-29 04:33:21",
-        "price": 37.72
-      }
-    ],
-    "pending_drop": null
-  },
-  "mainstream": {
-    "current": 27.86,
-    "history": [
-      {
-        "date": "2026-09-29 04:33:21",
-        "price": 27.86
-      }
-    ],
-    "pending_drop": null
-  },
   "adore": {
     "current": 36.84,
     "history": [
@@ -29,12 +9,12 @@
     ],
     "pending_drop": null
   },
-  "songs of a lost world": {
-    "current": 22.22,
+  "fear of music": {
+    "current": 31.07,
     "history": [
       {
-        "date": "2026-09-29 04:33:21",
-        "price": 22.22
+        "date": "2026-09-29 04:42:58",
+        "price": 31.07
       }
     ],
     "pending_drop": null
@@ -49,6 +29,16 @@
     ],
     "pending_drop": null
   },
+  "remain in light": {
+    "current": 20.13,
+    "history": [
+      {
+        "date": "2026-09-29 04:42:58",
+        "price": 20.13
+      }
+    ],
+    "pending_drop": null
+  },
   "blood sugar sex magik": {
     "current": 31.07,
     "history": [
@@ -59,32 +49,12 @@
     ],
     "pending_drop": null
   },
-  "dynamite": {
-    "current": 27.86,
+  "playing the angel": {
+    "current": 21.3,
     "history": [
       {
-        "date": "2026-09-29 04:33:21",
-        "price": 27.86
-      }
-    ],
-    "pending_drop": null
-  },
-  "emergency on planet earth": {
-    "current": 33.6,
-    "history": [
-      {
-        "date": "2026-09-29 04:33:21",
-        "price": 33.6
-      }
-    ],
-    "pending_drop": null
-  },
-  "yield": {
-    "current": 16.71,
-    "history": [
-      {
-        "date": "2026-09-29 04:33:21",
-        "price": 16.71
+        "date": "2026-09-29 04:42:58",
+        "price": 21.3
       }
     ],
     "pending_drop": null
@@ -109,12 +79,32 @@
     ],
     "pending_drop": null
   },
-  "top": {
-    "current": 24.51,
+  "hatful of hollow": {
+    "current": 21.23,
     "history": [
       {
-        "date": "2026-09-29 04:33:21",
-        "price": 24.51
+        "date": "2026-09-29 04:42:58",
+        "price": 21.23
+      }
+    ],
+    "pending_drop": null
+  },
+  "ixnay on the hombre": {
+    "current": 59.74,
+    "history": [
+      {
+        "date": "2026-09-29 04:42:58",
+        "price": 59.74
+      }
+    ],
+    "pending_drop": null
+  },
+  "good bye lenin": {
+    "current": 25.3,
+    "history": [
+      {
+        "date": "2026-09-29 04:42:58",
+        "price": 25.3
       }
     ],
     "pending_drop": null
@@ -149,32 +139,52 @@
     ],
     "pending_drop": null
   },
-  "reload": {
-    "current": 41.18,
+  "led zeppelin iv": {
+    "current": 21.23,
     "history": [
       {
-        "date": "2026-09-29 04:22:57",
-        "price": 41.18
+        "date": "2026-09-29 04:42:58",
+        "price": 21.23
       }
     ],
     "pending_drop": null
   },
-  "s m2 box": {
-    "current": 75.58,
+  "mezzanine": {
+    "current": 29.5,
     "history": [
       {
-        "date": "2026-09-29 04:33:21",
-        "price": 75.58
+        "date": "2026-09-29 04:42:58",
+        "price": 29.5
       }
     ],
     "pending_drop": null
   },
-  "anime salve": {
-    "current": 37.69,
+  "back in": {
+    "current": 16.43,
     "history": [
       {
-        "date": "2026-09-29 04:33:21",
-        "price": 37.69
+        "date": "2026-09-29 04:42:58",
+        "price": 16.43
+      }
+    ],
+    "pending_drop": null
+  },
+  "guest star bill evans alone together": {
+    "current": 22.32,
+    "history": [
+      {
+        "date": "2026-09-29 04:42:58",
+        "price": 22.32
+      }
+    ],
+    "pending_drop": null
+  },
+  "let love in": {
+    "current": 22.12,
+    "history": [
+      {
+        "date": "2026-09-29 04:42:58",
+        "price": 22.12
       }
     ],
     "pending_drop": null
@@ -199,12 +209,12 @@
     ],
     "pending_drop": null
   },
-  "the rise and fall of ziggy stardust": {
-    "current": 21.32,
+  "heroes": {
+    "current": 26.52,
     "history": [
       {
-        "date": "2026-09-29 04:33:21",
-        "price": 21.32
+        "date": "2026-09-29 04:42:58",
+        "price": 26.52
       }
     ],
     "pending_drop": null
