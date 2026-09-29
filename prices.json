@@ -1,40 +1,70 @@
 {
-  "adore": {
-    "current": 36.84,
+  "l ornamento delle cose secondarie nero": {
+    "current": 24.71,
     "history": [
       {
-        "date": "2026-09-29 04:22:57",
-        "price": 36.84
+        "date": "2026-09-29 04:52:48",
+        "price": 24.71
       }
     ],
     "pending_drop": null
   },
-  "fear of music": {
-    "current": 31.07,
+  "fear of the dawn": {
+    "current": 37.72,
     "history": [
       {
-        "date": "2026-09-29 04:42:58",
-        "price": 31.07
+        "date": "2026-09-29 04:52:48",
+        "price": 37.72
       }
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 39.99,
+  "relax": {
+    "current": 24.58,
     "history": [
       {
-        "date": "2026-09-29 04:33:21",
-        "price": 39.99
+        "date": "2026-09-29 04:52:48",
+        "price": 24.58
       }
     ],
     "pending_drop": null
   },
-  "remain in light": {
-    "current": 20.13,
+  "evergreen e altre canzoni": {
+    "current": 27.22,
     "history": [
       {
-        "date": "2026-09-29 04:42:58",
-        "price": 20.13
+        "date": "2026-09-29 04:52:48",
+        "price": 27.22
+      }
+    ],
+    "pending_drop": null
+  },
+  "amputechture": {
+    "current": 39.83,
+    "history": [
+      {
+        "date": "2026-09-29 04:52:48",
+        "price": 39.83
+      }
+    ],
+    "pending_drop": null
+  },
+  "songs of a lost world": {
+    "current": 22.22,
+    "history": [
+      {
+        "date": "2026-09-29 04:52:48",
+        "price": 22.22
+      }
+    ],
+    "pending_drop": null
+  },
+  "follow the leader": {
+    "current": 16.71,
+    "history": [
+      {
+        "date": "2026-09-29 04:52:48",
+        "price": 16.71
       }
     ],
     "pending_drop": null
@@ -49,52 +79,42 @@
     ],
     "pending_drop": null
   },
-  "playing the angel": {
-    "current": 21.3,
+  "dynamite": {
+    "current": 27.86,
     "history": [
       {
-        "date": "2026-09-29 04:42:58",
-        "price": 21.3
+        "date": "2026-09-29 04:52:48",
+        "price": 27.86
       }
     ],
     "pending_drop": null
   },
-  "la matematica dei rami": {
-    "current": 27.3,
+  "reggatta de blanc": {
+    "current": 23.02,
     "history": [
       {
-        "date": "2026-09-29 04:33:21",
-        "price": 27.3
+        "date": "2026-09-29 04:52:48",
+        "price": 23.02
       }
     ],
     "pending_drop": null
   },
-  "tici canzoni urgenti": {
-    "current": 26.97,
+  "top": {
+    "current": 24.51,
     "history": [
       {
-        "date": "2026-09-29 04:33:21",
-        "price": 26.97
+        "date": "2026-09-29 04:52:48",
+        "price": 24.51
       }
     ],
     "pending_drop": null
   },
-  "hatful of hollow": {
-    "current": 21.23,
+  "ignition": {
+    "current": 16.43,
     "history": [
       {
-        "date": "2026-09-29 04:42:58",
-        "price": 21.23
-      }
-    ],
-    "pending_drop": null
-  },
-  "ixnay on the hombre": {
-    "current": 59.74,
-    "history": [
-      {
-        "date": "2026-09-29 04:42:58",
-        "price": 59.74
+        "date": "2026-09-29 04:52:48",
+        "price": 16.43
       }
     ],
     "pending_drop": null
@@ -109,32 +129,12 @@
     ],
     "pending_drop": null
   },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 25.4,
+  "sings 4 bonus tracks": {
+    "current": 61.97,
     "history": [
       {
-        "date": "2026-09-29 04:33:21",
-        "price": 25.4
-      }
-    ],
-    "pending_drop": null
-  },
-  "vol 3 the subliminal verses violet": {
-    "current": 43.34,
-    "history": [
-      {
-        "date": "2026-09-29 04:33:21",
-        "price": 43.34
-      }
-    ],
-    "pending_drop": null
-  },
-  "our love to admire": {
-    "current": 27.95,
-    "history": [
-      {
-        "date": "2026-09-29 04:22:57",
-        "price": 27.95
+        "date": "2026-09-29 04:52:48",
+        "price": 61.97
       }
     ],
     "pending_drop": null
@@ -149,6 +149,36 @@
     ],
     "pending_drop": null
   },
+  "kill em all": {
+    "current": 22.26,
+    "history": [
+      {
+        "date": "2026-09-29 04:52:48",
+        "price": 22.26
+      }
+    ],
+    "pending_drop": null
+  },
+  "s m2 box": {
+    "current": 75.58,
+    "history": [
+      {
+        "date": "2026-09-29 04:52:48",
+        "price": 75.58
+      }
+    ],
+    "pending_drop": null
+  },
+  "load": {
+    "current": 36.84,
+    "history": [
+      {
+        "date": "2026-09-29 04:52:48",
+        "price": 36.84
+      }
+    ],
+    "pending_drop": null
+  },
   "mezzanine": {
     "current": 29.5,
     "history": [
@@ -159,62 +189,22 @@
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 16.43,
+  "ghosteen": {
+    "current": 28.61,
     "history": [
       {
-        "date": "2026-09-29 04:42:58",
-        "price": 16.43
+        "date": "2026-09-29 04:52:48",
+        "price": 28.61
       }
     ],
     "pending_drop": null
   },
-  "guest star bill evans alone together": {
-    "current": 22.32,
+  "the rise and fall of ziggy stardust": {
+    "current": 21.32,
     "history": [
       {
-        "date": "2026-09-29 04:42:58",
-        "price": 22.32
-      }
-    ],
-    "pending_drop": null
-  },
-  "let love in": {
-    "current": 22.12,
-    "history": [
-      {
-        "date": "2026-09-29 04:42:58",
-        "price": 22.12
-      }
-    ],
-    "pending_drop": null
-  },
-  "interpol": {
-    "current": 43.62,
-    "history": [
-      {
-        "date": "2026-09-29 04:22:57",
-        "price": 43.62
-      }
-    ],
-    "pending_drop": null
-  },
-  "morrison hotel": {
-    "current": 37.91,
-    "history": [
-      {
-        "date": "2026-09-29 04:22:57",
-        "price": 37.91
-      }
-    ],
-    "pending_drop": null
-  },
-  "heroes": {
-    "current": 26.52,
-    "history": [
-      {
-        "date": "2026-09-29 04:42:58",
-        "price": 26.52
+        "date": "2026-09-29 04:52:48",
+        "price": 21.32
       }
     ],
     "pending_drop": null
