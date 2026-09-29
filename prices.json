@@ -1,14 +1,4 @@
 {
-  "l ornamento delle cose secondarie nero": {
-    "current": 24.71,
-    "history": [
-      {
-        "date": "2026-09-29 04:52:48",
-        "price": 24.71
-      }
-    ],
-    "pending_drop": null
-  },
   "fear of the dawn": {
     "current": 37.72,
     "history": [
@@ -19,22 +9,12 @@
     ],
     "pending_drop": null
   },
-  "relax": {
-    "current": 24.58,
+  "mainstream": {
+    "current": 27.86,
     "history": [
       {
-        "date": "2026-09-29 04:52:48",
-        "price": 24.58
-      }
-    ],
-    "pending_drop": null
-  },
-  "evergreen e altre canzoni": {
-    "current": 27.22,
-    "history": [
-      {
-        "date": "2026-09-29 04:52:48",
-        "price": 27.22
+        "date": "2026-09-29 05:03:26",
+        "price": 27.86
       }
     ],
     "pending_drop": null
@@ -49,16 +29,6 @@
     ],
     "pending_drop": null
   },
-  "songs of a lost world": {
-    "current": 22.22,
-    "history": [
-      {
-        "date": "2026-09-29 04:52:48",
-        "price": 22.22
-      }
-    ],
-    "pending_drop": null
-  },
   "follow the leader": {
     "current": 16.71,
     "history": [
@@ -69,12 +39,12 @@
     ],
     "pending_drop": null
   },
-  "blood sugar sex magik": {
-    "current": 31.07,
+  "bleach ed": {
+    "current": 22.54,
     "history": [
       {
-        "date": "2026-09-29 03:42:52",
-        "price": 31.07
+        "date": "2026-09-29 05:03:26",
+        "price": 22.54
       }
     ],
     "pending_drop": null
@@ -89,72 +59,42 @@
     ],
     "pending_drop": null
   },
-  "reggatta de blanc": {
-    "current": 23.02,
+  "emergency on planet earth": {
+    "current": 33.6,
     "history": [
       {
-        "date": "2026-09-29 04:52:48",
-        "price": 23.02
+        "date": "2026-09-29 05:03:26",
+        "price": 33.6
       }
     ],
     "pending_drop": null
   },
-  "top": {
-    "current": 24.51,
+  "tici canzoni urgenti": {
+    "current": 26.97,
     "history": [
       {
-        "date": "2026-09-29 04:52:48",
-        "price": 24.51
+        "date": "2026-09-29 05:03:26",
+        "price": 26.97
       }
     ],
     "pending_drop": null
   },
-  "ignition": {
-    "current": 16.43,
+  "morning view": {
+    "current": 45.45,
     "history": [
       {
-        "date": "2026-09-29 04:52:48",
-        "price": 16.43
+        "date": "2026-09-29 05:03:26",
+        "price": 45.45
       }
     ],
     "pending_drop": null
   },
-  "good bye lenin": {
-    "current": 25.3,
+  "metallica": {
+    "current": 29.47,
     "history": [
       {
-        "date": "2026-09-29 04:42:58",
-        "price": 25.3
-      }
-    ],
-    "pending_drop": null
-  },
-  "sings 4 bonus tracks": {
-    "current": 61.97,
-    "history": [
-      {
-        "date": "2026-09-29 04:52:48",
-        "price": 61.97
-      }
-    ],
-    "pending_drop": null
-  },
-  "led zeppelin iv": {
-    "current": 21.23,
-    "history": [
-      {
-        "date": "2026-09-29 04:42:58",
-        "price": 21.23
-      }
-    ],
-    "pending_drop": null
-  },
-  "kill em all": {
-    "current": 22.26,
-    "history": [
-      {
-        "date": "2026-09-29 04:52:48",
-        "price": 22.26
+        "date": "2026-09-29 05:03:26",
+        "price": 29.47
       }
     ],
     "pending_drop": null
@@ -169,16 +109,6 @@
     ],
     "pending_drop": null
   },
-  "load": {
-    "current": 36.84,
-    "history": [
-      {
-        "date": "2026-09-29 04:52:48",
-        "price": 36.84
-      }
-    ],
-    "pending_drop": null
-  },
   "mezzanine": {
     "current": 29.5,
     "history": [
@@ -189,22 +119,52 @@
     ],
     "pending_drop": null
   },
-  "ghosteen": {
-    "current": 28.61,
+  "appetite for destruction": {
+    "current": 20.84,
     "history": [
       {
-        "date": "2026-09-29 04:52:48",
-        "price": 28.61
+        "date": "2026-09-29 05:03:26",
+        "price": 20.84
       }
     ],
     "pending_drop": null
   },
-  "the rise and fall of ziggy stardust": {
-    "current": 21.32,
+  "guest star bill evans alone together": {
+    "current": 22.32,
     "history": [
       {
-        "date": "2026-09-29 04:52:48",
-        "price": 21.32
+        "date": "2026-09-29 05:03:26",
+        "price": 22.32
+      }
+    ],
+    "pending_drop": null
+  },
+  "interpol": {
+    "current": 43.62,
+    "history": [
+      {
+        "date": "2026-09-29 05:03:26",
+        "price": 43.62
+      }
+    ],
+    "pending_drop": null
+  },
+  "soft parade": {
+    "current": 22.09,
+    "history": [
+      {
+        "date": "2026-09-29 05:03:26",
+        "price": 22.09
+      }
+    ],
+    "pending_drop": null
+  },
+  "morrison hotel": {
+    "current": 37.91,
+    "history": [
+      {
+        "date": "2026-09-29 05:03:26",
+        "price": 37.91
       }
     ],
     "pending_drop": null
