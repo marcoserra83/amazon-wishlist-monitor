@@ -232,7 +232,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.14,
+    "current": 50.12,
     "history": [
       {
         "date": "2026-09-30 03:48:27",
@@ -293,6 +293,10 @@
       {
         "date": "2026-09-30 17:39:19",
         "price": 50.14
+      },
+      {
+        "date": "2026-09-30 18:28:10",
+        "price": 50.12
       }
     ],
     "pending_drop": null
@@ -718,7 +722,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 39.99,
+    "current": 45.29,
     "history": [
       {
         "date": "2026-09-30 03:48:27",
@@ -735,13 +739,13 @@
       {
         "date": "2026-09-30 15:18:00",
         "price": 45.29
+      },
+      {
+        "date": "2026-09-30 18:28:10",
+        "price": 45.29
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-09-30 15:29:01",
-      "old_price": 45.29,
-      "new_price": 39.99
-    }
+    "pending_drop": null
   },
   "marauder": {
     "current": 28.42,
@@ -948,7 +952,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 44.95,
+    "current": 36.8,
     "history": [
       {
         "date": "2026-09-30 03:48:27",
@@ -959,7 +963,11 @@
         "price": 44.95
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-09-30 18:28:10",
+      "old_price": 44.95,
+      "new_price": 36.8
+    }
   },
   "and justice for all": {
     "current": 42.49,
@@ -1170,7 +1178,7 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 32.35,
+    "current": 32.36,
     "history": [
       {
         "date": "2026-09-29 20:08:33",
@@ -1179,6 +1187,10 @@
       {
         "date": "2026-09-30 07:58:42",
         "price": 32.35
+      },
+      {
+        "date": "2026-09-30 18:28:10",
+        "price": 32.36
       }
     ],
     "pending_drop": null
