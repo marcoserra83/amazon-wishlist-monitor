@@ -196,11 +196,15 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.04,
+    "current": 50.02,
     "history": [
       {
         "date": "2026-09-30 20:28:39",
         "price": 50.04
+      },
+      {
+        "date": "2026-09-30 21:08:25",
+        "price": 50.02
       }
     ],
     "pending_drop": null
@@ -281,16 +285,6 @@
       {
         "date": "2026-09-30 20:28:39",
         "price": 30.69
-      }
-    ],
-    "pending_drop": null
-  },
-  "bleach ed": {
-    "current": 27.5,
-    "history": [
-      {
-        "date": "2026-09-30 20:28:39",
-        "price": 27.5
       }
     ],
     "pending_drop": null
