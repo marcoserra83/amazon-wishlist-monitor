@@ -962,14 +962,18 @@
     "pending_drop": null
   },
   "anime salve": {
-    "current": 29.99,
+    "current": 24.99,
     "history": [
       {
         "date": "2026-10-01 20:38:37",
         "price": 29.99
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-01 22:58:24",
+      "old_price": 29.99,
+      "new_price": 24.99
+    }
   },
   "fabrizio de andre": {
     "current": 27.99,
