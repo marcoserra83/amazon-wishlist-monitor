@@ -584,18 +584,18 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 48.99,
+    "current": 52.0,
     "history": [
       {
         "date": "2026-10-01 04:29:02",
         "price": 60.19
+      },
+      {
+        "date": "2026-10-01 07:47:50",
+        "price": 52.0
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-01 05:38:44",
-      "old_price": 60.19,
-      "new_price": 48.99
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 20.04,
@@ -880,7 +880,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 44.95,
+    "current": 36.8,
     "history": [
       {
         "date": "2026-10-01 04:29:02",
@@ -895,7 +895,11 @@
         "price": 44.95
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-01 07:47:50",
+      "old_price": 44.95,
+      "new_price": 36.8
+    }
   },
   "and justice for all": {
     "current": 42.49,
