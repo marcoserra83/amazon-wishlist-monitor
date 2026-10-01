@@ -1042,14 +1042,18 @@
     "pending_drop": null
   },
   "soft parade": {
-    "current": 23.8,
+    "current": 21.42,
     "history": [
       {
         "date": "2026-10-01 20:38:37",
         "price": 23.8
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-02 01:48:07",
+      "old_price": 23.8,
+      "new_price": 21.42
+    }
   },
   "morrison hotel": {
     "current": 37.91,
