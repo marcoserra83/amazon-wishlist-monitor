@@ -718,7 +718,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 48.77,
+    "current": 52.75,
     "history": [
       {
         "date": "2026-10-01 04:29:02",
@@ -727,13 +727,13 @@
       {
         "date": "2026-10-01 05:38:44",
         "price": 52.88
+      },
+      {
+        "date": "2026-10-01 13:38:16",
+        "price": 52.75
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-01 12:48:29",
-      "old_price": 52.88,
-      "new_price": 48.77
-    }
+    "pending_drop": null
   },
   "out of time": {
     "current": 21.56,
@@ -844,18 +844,18 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 37.83,
+    "current": 37.84,
     "history": [
       {
         "date": "2026-10-01 04:29:02",
         "price": 39.93
+      },
+      {
+        "date": "2026-10-01 13:38:16",
+        "price": 37.84
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-01 05:38:44",
-      "old_price": 39.93,
-      "new_price": 37.83
-    }
+    "pending_drop": null
   },
   "s m": {
     "current": 57.57,
@@ -900,7 +900,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 36.8,
+    "current": 36.82,
     "history": [
       {
         "date": "2026-10-01 04:29:02",
@@ -917,13 +917,13 @@
       {
         "date": "2026-10-01 12:09:22",
         "price": 44.95
+      },
+      {
+        "date": "2026-10-01 13:38:16",
+        "price": 36.82
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-01 12:18:45",
-      "old_price": 44.95,
-      "new_price": 36.8
-    }
+    "pending_drop": null
   },
   "and justice for all": {
     "current": 42.49,
