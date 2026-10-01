@@ -418,7 +418,7 @@
     "pending_drop": null
   },
   "up": {
-    "current": 39.95,
+    "current": 40.95,
     "history": [
       {
         "date": "2026-10-01 04:29:02",
@@ -431,6 +431,10 @@
       {
         "date": "2026-10-01 15:38:54",
         "price": 39.95
+      },
+      {
+        "date": "2026-10-02 00:38:22",
+        "price": 40.95
       }
     ],
     "pending_drop": null
