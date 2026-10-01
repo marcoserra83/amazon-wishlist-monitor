@@ -726,14 +726,18 @@
     "pending_drop": null
   },
   "mezzanine": {
-    "current": 35.99,
+    "current": 34.19,
     "history": [
       {
         "date": "2026-09-30 20:28:39",
         "price": 35.99
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-01 02:27:56",
+      "old_price": 35.99,
+      "new_price": 34.19
+    }
   },
   "appetite for destruction": {
     "current": 25.42,
