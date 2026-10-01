@@ -612,7 +612,7 @@
     "pending_drop": null
   },
   "money for nothing": {
-    "current": 33.4,
+    "current": 31.73,
     "history": [
       {
         "date": "2026-10-01 04:29:02",
@@ -621,6 +621,10 @@
       {
         "date": "2026-10-01 05:38:44",
         "price": 33.4
+      },
+      {
+        "date": "2026-10-01 10:17:47",
+        "price": 31.73
       }
     ],
     "pending_drop": null
@@ -738,11 +742,15 @@
     "pending_drop": null
   },
   "noctourniquet": {
-    "current": 38.65,
+    "current": 38.77,
     "history": [
       {
         "date": "2026-10-01 05:38:44",
         "price": 38.65
+      },
+      {
+        "date": "2026-10-01 10:17:47",
+        "price": 38.77
       }
     ],
     "pending_drop": null
