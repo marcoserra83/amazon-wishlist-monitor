@@ -880,7 +880,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 36.8,
+    "current": 44.95,
     "history": [
       {
         "date": "2026-10-01 04:29:02",
@@ -889,6 +889,10 @@
       {
         "date": "2026-10-01 05:38:44",
         "price": 36.8
+      },
+      {
+        "date": "2026-10-01 07:39:33",
+        "price": 44.95
       }
     ],
     "pending_drop": null
