@@ -1112,7 +1112,7 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 31.99,
+    "current": 32.36,
     "history": [
       {
         "date": "2026-10-01 20:38:37",
@@ -1121,6 +1121,10 @@
       {
         "date": "2026-10-02 10:58:42",
         "price": 31.99
+      },
+      {
+        "date": "2026-10-02 11:09:04",
+        "price": 32.36
       }
     ],
     "pending_drop": null
