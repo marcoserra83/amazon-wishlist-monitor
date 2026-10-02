@@ -248,7 +248,7 @@
     "pending_drop": null
   },
   "adore": {
-    "current": 44.95,
+    "current": 45.95,
     "history": [
       {
         "date": "2026-10-01 04:29:02",
@@ -261,6 +261,10 @@
       {
         "date": "2026-10-01 15:38:54",
         "price": 44.95
+      },
+      {
+        "date": "2026-10-02 19:09:01",
+        "price": 45.95
       }
     ],
     "pending_drop": null
