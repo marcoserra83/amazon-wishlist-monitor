@@ -1,37 +1,43 @@
 {
-  "innerspeaker": {
-    "current": 29.89,
+  "cosa faremo da grandi": {
+    "current": 26.34,
     "history": [
       {
-        "date": "2026-10-04 18:32:41",
-        "price": 29.89
+        "date": "2026-10-04 19:04:35",
+        "price": 26.34
       }
     ],
     "pending_drop": null
   },
-  "die": {
-    "current": 69.99,
+  "mainstream": {
+    "current": 33.99,
     "history": [
       {
-        "date": "2026-10-04 17:42:48",
-        "price": 69.99
+        "date": "2026-10-04 19:04:35",
+        "price": 33.99
       }
     ],
     "pending_drop": null
   },
-  "amputechture": {
-    "current": 41.42,
+  "relax": {
+    "current": 29.99,
     "history": [
       {
-        "date": "2026-10-04 18:12:24",
-        "price": 48.57
+        "date": "2026-10-04 19:04:35",
+        "price": 29.99
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-04 18:32:41",
-      "old_price": 48.57,
-      "new_price": 41.42
-    }
+    "pending_drop": null
+  },
+  "hot fuzz": {
+    "current": 27.88,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 27.88
+      }
+    ],
+    "pending_drop": null
   },
   "disco x 180 gr": {
     "current": 29.9,
@@ -44,31 +50,305 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 49.86,
+    "current": 50.84,
     "history": [
       {
         "date": "2026-10-04 18:32:41",
         "price": 49.86
+      },
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 50.84
       }
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 35.9,
+  "up": {
+    "current": 40.95,
     "history": [
       {
-        "date": "2026-10-04 18:41:50",
-        "price": 35.9
+        "date": "2026-10-04 19:04:35",
+        "price": 40.95
       }
     ],
     "pending_drop": null
   },
-  "remain in light": {
-    "current": 24.56,
+  "riot on a empty street": {
+    "current": 46.14,
     "history": [
       {
-        "date": "2026-10-04 18:32:41",
-        "price": 24.56
+        "date": "2026-10-04 19:04:35",
+        "price": 46.14
+      }
+    ],
+    "pending_drop": null
+  },
+  "like clockwork": {
+    "current": 30.69,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 30.69
+      }
+    ],
+    "pending_drop": null
+  },
+  "bleach ed": {
+    "current": 24.75,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 24.75
+      }
+    ],
+    "pending_drop": null
+  },
+  "the ballad of darren": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 25.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "a funk odyssey": {
+    "current": 28.89,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 28.89
+      }
+    ],
+    "pending_drop": null
+  },
+  "synkronized": {
+    "current": 19.03,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 19.03
+      }
+    ],
+    "pending_drop": null
+  },
+  "yield": {
+    "current": 20.39,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 20.39
+      }
+    ],
+    "pending_drop": null
+  },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 33.31
+      }
+    ],
+    "pending_drop": null
+  },
+  "swing in the films of woody allen": {
+    "current": 25.96,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 25.96
+      }
+    ],
+    "pending_drop": null
+  },
+  "tici canzoni urgenti": {
+    "current": 32.9,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 32.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "top": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "hatful of hollow": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 25.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "ixnay on the hombre": {
+    "current": 52.46,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 52.46
+      }
+    ],
+    "pending_drop": null
+  },
+  "money for nothing": {
+    "current": 31.73,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 31.73
+      }
+    ],
+    "pending_drop": null
+  },
+  "the beautiful people toronto broadcast 1998 more double vinyl": {
+    "current": 30.99,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 30.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "a crow left of the murder": {
+    "current": 48.49,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 48.49
+      }
+    ],
+    "pending_drop": null
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 28.42
+      }
+    ],
+    "pending_drop": null
+  },
+  "out of time": {
+    "current": 21.56,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 21.56
+      }
+    ],
+    "pending_drop": null
+  },
+  "sleeping with ghosts": {
+    "current": 22.05,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 22.05
+      }
+    ],
+    "pending_drop": null
+  },
+  "metallica": {
+    "current": 34.9,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "led zeppelin iii": {
+    "current": 34.5,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 34.5
+      }
+    ],
+    "pending_drop": null
+  },
+  "kill em all": {
+    "current": 26.97,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 26.97
+      }
+    ],
+    "pending_drop": null
+  },
+  "master of puppets": {
+    "current": 30.51,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 30.51
+      }
+    ],
+    "pending_drop": null
+  },
+  "mezzanine": {
+    "current": 34.19,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 34.19
+      }
+    ],
+    "pending_drop": null
+  },
+  "appetite for destruction": {
+    "current": 25.42,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 25.42
+      }
+    ],
+    "pending_drop": null
+  },
+  "back in": {
+    "current": 19.03,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 19.03
+      }
+    ],
+    "pending_drop": null
+  },
+  "guest star bill evans alone together": {
+    "current": 27.23,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 27.23
+      }
+    ],
+    "pending_drop": null
+  },
+  "the rise and fall of ziggy stardust": {
+    "current": 26.01,
+    "history": [
+      {
+        "date": "2026-10-04 19:04:35",
+        "price": 26.01
       }
     ],
     "pending_drop": null
