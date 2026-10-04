@@ -1,10 +1,20 @@
 {
-  "vauxhall i definitive": {
-    "current": 32.8,
+  "innerspeaker": {
+    "current": 29.89,
     "history": [
       {
-        "date": "2026-10-04 18:03:05",
-        "price": 32.8
+        "date": "2026-10-04 18:32:41",
+        "price": 29.89
+      }
+    ],
+    "pending_drop": null
+  },
+  "fear of the dawn": {
+    "current": 30.33,
+    "history": [
+      {
+        "date": "2026-10-04 18:32:41",
+        "price": 30.33
       }
     ],
     "pending_drop": null
@@ -29,35 +39,29 @@
     ],
     "pending_drop": null
   },
-  "cosa faremo da grandi": {
-    "current": 26.34,
+  "mainstream": {
+    "current": 33.99,
     "history": [
       {
-        "date": "2026-10-04 18:12:24",
-        "price": 26.34
-      }
-    ],
-    "pending_drop": null
-  },
-  "resta vile maschio dove vai": {
-    "current": 36.0,
-    "history": [
-      {
-        "date": "2026-10-04 18:12:24",
-        "price": 36.0
+        "date": "2026-10-04 18:32:41",
+        "price": 33.99
       }
     ],
     "pending_drop": null
   },
   "amputechture": {
-    "current": 48.57,
+    "current": 41.42,
     "history": [
       {
         "date": "2026-10-04 18:12:24",
         "price": 48.57
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-04 18:32:41",
+      "old_price": 48.57,
+      "new_price": 41.42
+    }
   },
   "adore": {
     "current": 45.95,
@@ -69,32 +73,62 @@
     ],
     "pending_drop": null
   },
-  "songs of a lost world": {
-    "current": 27.11,
-    "history": [
-      {
-        "date": "2026-10-04 17:51:49",
-        "price": 27.11
-      }
-    ],
-    "pending_drop": null
-  },
-  "hot fuzz": {
-    "current": 27.88,
-    "history": [
-      {
-        "date": "2026-10-04 18:03:05",
-        "price": 27.88
-      }
-    ],
-    "pending_drop": null
-  },
   "disco x 180 gr": {
     "current": 29.9,
     "history": [
       {
         "date": "2026-10-04 18:12:24",
         "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "tracy chapman talkin about a revolution": {
+    "current": 49.86,
+    "history": [
+      {
+        "date": "2026-10-04 18:32:41",
+        "price": 49.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "fear of music": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-10-04 18:32:41",
+        "price": 37.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "remain in light": {
+    "current": 24.56,
+    "history": [
+      {
+        "date": "2026-10-04 18:32:41",
+        "price": 24.56
+      }
+    ],
+    "pending_drop": null
+  },
+  "follow the leader": {
+    "current": 20.39,
+    "history": [
+      {
+        "date": "2026-10-04 18:32:41",
+        "price": 20.39
+      }
+    ],
+    "pending_drop": null
+  },
+  "up": {
+    "current": 40.95,
+    "history": [
+      {
+        "date": "2026-10-04 18:32:41",
+        "price": 40.95
       }
     ],
     "pending_drop": null
