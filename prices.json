@@ -1,14 +1,4 @@
 {
-  "l ornamento delle cose secondarie nero": {
-    "current": 33.5,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 33.5
-      }
-    ],
-    "pending_drop": null
-  },
   "innerspeaker": {
     "current": 29.89,
     "history": [
@@ -20,21 +10,15 @@
     "pending_drop": null
   },
   "fear of the dawn": {
-    "current": 30.33,
+    "current": 31.13,
     "history": [
       {
         "date": "2026-10-04 17:42:48",
         "price": 30.33
-      }
-    ],
-    "pending_drop": null
-  },
-  "entering heaven alive": {
-    "current": 26.95,
-    "history": [
+      },
       {
-        "date": "2026-10-04 17:13:30",
-        "price": 26.95
+        "date": "2026-10-04 17:51:49",
+        "price": 31.13
       }
     ],
     "pending_drop": null
@@ -49,22 +33,22 @@
     ],
     "pending_drop": null
   },
-  "amputechture": {
-    "current": 41.42,
+  "mainstream": {
+    "current": 33.99,
     "history": [
       {
-        "date": "2026-10-04 17:42:48",
-        "price": 41.42
+        "date": "2026-10-04 17:51:49",
+        "price": 33.99
       }
     ],
     "pending_drop": null
   },
-  "adore": {
-    "current": 45.95,
+  "songs of a lost world": {
+    "current": 27.11,
     "history": [
       {
-        "date": "2026-10-04 17:33:50",
-        "price": 45.95
+        "date": "2026-10-04 17:51:49",
+        "price": 27.11
       }
     ],
     "pending_drop": null
@@ -79,182 +63,12 @@
     ],
     "pending_drop": null
   },
-  "remain in light": {
-    "current": 24.56,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 24.56
-      }
-    ],
-    "pending_drop": null
-  },
   "follow the leader": {
     "current": 20.39,
     "history": [
       {
         "date": "2026-10-04 17:42:48",
         "price": 20.39
-      }
-    ],
-    "pending_drop": null
-  },
-  "like clockwork": {
-    "current": 30.69,
-    "history": [
-      {
-        "date": "2026-10-04 17:33:50",
-        "price": 30.69
-      }
-    ],
-    "pending_drop": null
-  },
-  "bleach ed": {
-    "current": 24.75,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 24.75
-      }
-    ],
-    "pending_drop": null
-  },
-  "dynamite": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 33.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "emergency on planet earth": {
-    "current": 40.99,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 40.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "yield": {
-    "current": 20.39,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 20.39
-      }
-    ],
-    "pending_drop": null
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-10-04 16:54:25",
-        "price": 25.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "tici canzoni urgenti": {
-    "current": 32.9,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 32.9
-      }
-    ],
-    "pending_drop": null
-  },
-  "ixnay on the hombre": {
-    "current": 52.46,
-    "history": [
-      {
-        "date": "2026-10-04 17:33:50",
-        "price": 52.46
-      }
-    ],
-    "pending_drop": null
-  },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-10-04 17:23:39",
-        "price": 30.86
-      }
-    ],
-    "pending_drop": null
-  },
-  "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 30.99,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 30.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "morning view": {
-    "current": 39.99,
-    "history": [
-      {
-        "date": "2026-10-04 17:23:39",
-        "price": 39.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "s m": {
-    "current": 57.57,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 57.57
-      }
-    ],
-    "pending_drop": null
-  },
-  "s m2 box": {
-    "current": 92.21,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 92.21
-      }
-    ],
-    "pending_drop": null
-  },
-  "guest star bill evans alone together": {
-    "current": 27.23,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 27.23
-      }
-    ],
-    "pending_drop": null
-  },
-  "anime salve": {
-    "current": 24.99,
-    "history": [
-      {
-        "date": "2026-10-04 17:42:48",
-        "price": 24.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "rebetiko gymnastas": {
-    "current": 99.99,
-    "history": [
-      {
-        "date": "2026-10-04 17:13:30",
-        "price": 99.99
       }
     ],
     "pending_drop": null
