@@ -1,10 +1,20 @@
 {
-  "fear of the dawn": {
-    "current": 30.33,
+  "innerspeaker": {
+    "current": 29.89,
     "history": [
       {
-        "date": "2026-10-04 17:13:30",
-        "price": 30.33
+        "date": "2026-10-04 17:33:50",
+        "price": 29.89
+      }
+    ],
+    "pending_drop": null
+  },
+  "vauxhall i definitive": {
+    "current": 32.8,
+    "history": [
+      {
+        "date": "2026-10-04 17:33:50",
+        "price": 32.8
       }
     ],
     "pending_drop": null
@@ -19,62 +29,62 @@
     ],
     "pending_drop": null
   },
-  "die": {
-    "current": 69.99,
+  "mainstream": {
+    "current": 33.99,
     "history": [
       {
-        "date": "2026-10-04 17:04:55",
-        "price": 69.99
+        "date": "2026-10-04 17:33:50",
+        "price": 33.99
       }
     ],
     "pending_drop": null
   },
-  "amputechture": {
-    "current": 41.42,
+  "relax": {
+    "current": 29.99,
     "history": [
       {
-        "date": "2026-10-04 17:13:30",
-        "price": 41.42
+        "date": "2026-10-04 17:33:50",
+        "price": 29.99
       }
     ],
     "pending_drop": null
   },
-  "songs of a lost world": {
-    "current": 27.11,
+  "resta vile maschio dove vai": {
+    "current": 36.0,
     "history": [
       {
-        "date": "2026-10-04 17:13:30",
-        "price": 27.11
+        "date": "2026-10-04 17:33:50",
+        "price": 36.0
       }
     ],
     "pending_drop": null
   },
-  "hot fuzz": {
-    "current": 27.88,
+  "adore": {
+    "current": 45.95,
     "history": [
       {
-        "date": "2026-10-04 15:17:50",
-        "price": 27.88
+        "date": "2026-10-04 17:33:50",
+        "price": 45.95
       }
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 35.9,
+  "disco x 180 gr": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-10-04 17:13:30",
-        "price": 35.9
+        "date": "2026-10-04 17:33:50",
+        "price": 29.9
       }
     ],
     "pending_drop": null
   },
-  "follow the leader": {
-    "current": 20.39,
+  "tracy chapman talkin about a revolution": {
+    "current": 49.86,
     "history": [
       {
-        "date": "2026-10-04 17:13:30",
-        "price": 20.39
+        "date": "2026-10-04 17:33:50",
+        "price": 49.86
       }
     ],
     "pending_drop": null
@@ -99,32 +109,22 @@
     ],
     "pending_drop": null
   },
-  "dynamite": {
-    "current": 33.99,
+  "like clockwork": {
+    "current": 30.69,
     "history": [
       {
-        "date": "2026-10-04 17:23:39",
-        "price": 33.99
+        "date": "2026-10-04 17:33:50",
+        "price": 30.69
       }
     ],
     "pending_drop": null
   },
-  "synkronized": {
-    "current": 19.03,
+  "the ballad of darren": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-10-04 17:13:30",
-        "price": 19.03
-      }
-    ],
-    "pending_drop": null
-  },
-  "emergency on planet earth": {
-    "current": 40.99,
-    "history": [
-      {
-        "date": "2026-10-04 17:23:39",
-        "price": 40.99
+        "date": "2026-10-04 17:33:50",
+        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -139,22 +139,12 @@
     ],
     "pending_drop": null
   },
-  "la matematica dei rami": {
-    "current": 33.31,
+  "ixnay on the hombre": {
+    "current": 52.46,
     "history": [
       {
-        "date": "2026-10-04 17:23:39",
-        "price": 33.31
-      }
-    ],
-    "pending_drop": null
-  },
-  "tici canzoni urgenti": {
-    "current": 32.9,
-    "history": [
-      {
-        "date": "2026-10-04 16:54:25",
-        "price": 32.9
+        "date": "2026-10-04 17:33:50",
+        "price": 52.46
       }
     ],
     "pending_drop": null
@@ -179,6 +169,16 @@
     ],
     "pending_drop": null
   },
+  "a crow left of the murder": {
+    "current": 48.49,
+    "history": [
+      {
+        "date": "2026-10-04 17:33:50",
+        "price": 48.49
+      }
+    ],
+    "pending_drop": null
+  },
   "morning view": {
     "current": 39.99,
     "history": [
@@ -199,52 +199,32 @@
     ],
     "pending_drop": null
   },
-  "noctourniquet": {
-    "current": 38.77,
+  "our love to admire": {
+    "current": 34.1,
     "history": [
       {
-        "date": "2026-10-04 17:04:55",
-        "price": 38.77
+        "date": "2026-10-04 17:33:50",
+        "price": 34.1
       }
     ],
     "pending_drop": null
   },
-  "sings 4 bonus tracks": {
-    "current": 34.83,
+  "metallica": {
+    "current": 34.9,
     "history": [
       {
-        "date": "2026-10-04 15:17:50",
-        "price": 34.83
+        "date": "2026-10-04 17:33:50",
+        "price": 34.9
       }
     ],
     "pending_drop": null
   },
-  "s m": {
-    "current": 57.57,
+  "led zeppelin iv": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-10-04 17:13:30",
-        "price": 57.57
-      }
-    ],
-    "pending_drop": null
-  },
-  "kill em all": {
-    "current": 26.97,
-    "history": [
-      {
-        "date": "2026-10-04 17:04:55",
-        "price": 26.97
-      }
-    ],
-    "pending_drop": null
-  },
-  "load": {
-    "current": 36.35,
-    "history": [
-      {
-        "date": "2026-10-04 17:13:30",
-        "price": 36.35
+        "date": "2026-10-04 17:33:50",
+        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -259,22 +239,22 @@
     ],
     "pending_drop": null
   },
-  "master of puppets": {
-    "current": 30.51,
-    "history": [
-      {
-        "date": "2026-10-04 17:04:55",
-        "price": 30.51
-      }
-    ],
-    "pending_drop": null
-  },
   "mezzanine": {
     "current": 34.19,
     "history": [
       {
         "date": "2026-10-04 17:13:30",
         "price": 34.19
+      }
+    ],
+    "pending_drop": null
+  },
+  "appetite for destruction": {
+    "current": 25.42,
+    "history": [
+      {
+        "date": "2026-10-04 17:33:50",
+        "price": 25.42
       }
     ],
     "pending_drop": null
@@ -289,12 +269,12 @@
     ],
     "pending_drop": null
   },
-  "interpol": {
-    "current": 43.99,
+  "let love in": {
+    "current": 26.99,
     "history": [
       {
-        "date": "2026-10-04 17:04:55",
-        "price": 43.99
+        "date": "2026-10-04 17:33:50",
+        "price": 26.99
       }
     ],
     "pending_drop": null
@@ -309,12 +289,32 @@
     ],
     "pending_drop": null
   },
+  "soft parade": {
+    "current": 19.28,
+    "history": [
+      {
+        "date": "2026-10-04 17:33:50",
+        "price": 19.28
+      }
+    ],
+    "pending_drop": null
+  },
   "morrison hotel": {
     "current": 37.91,
     "history": [
       {
         "date": "2026-10-04 17:13:30",
         "price": 37.91
+      }
+    ],
+    "pending_drop": null
+  },
+  "ghosteen": {
+    "current": 34.9,
+    "history": [
+      {
+        "date": "2026-10-04 17:33:50",
+        "price": 34.9
       }
     ],
     "pending_drop": null
