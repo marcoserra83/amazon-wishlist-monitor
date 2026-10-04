@@ -1,24 +1,4 @@
 {
-  "l ornamento delle cose secondarie nero": {
-    "current": 33.5,
-    "history": [
-      {
-        "date": "2026-10-04 18:03:05",
-        "price": 33.5
-      }
-    ],
-    "pending_drop": null
-  },
-  "innerspeaker": {
-    "current": 29.89,
-    "history": [
-      {
-        "date": "2026-10-04 17:33:50",
-        "price": 29.89
-      }
-    ],
-    "pending_drop": null
-  },
   "vauxhall i definitive": {
     "current": 32.8,
     "history": [
@@ -29,16 +9,12 @@
     ],
     "pending_drop": null
   },
-  "fear of the dawn": {
-    "current": 31.13,
+  "entering heaven alive": {
+    "current": 26.95,
     "history": [
       {
-        "date": "2026-10-04 17:42:48",
-        "price": 30.33
-      },
-      {
-        "date": "2026-10-04 17:51:49",
-        "price": 31.13
+        "date": "2026-10-04 18:12:24",
+        "price": 26.95
       }
     ],
     "pending_drop": null
@@ -53,12 +29,42 @@
     ],
     "pending_drop": null
   },
-  "relax": {
-    "current": 29.99,
+  "cosa faremo da grandi": {
+    "current": 26.34,
     "history": [
       {
-        "date": "2026-10-04 18:03:05",
-        "price": 29.99
+        "date": "2026-10-04 18:12:24",
+        "price": 26.34
+      }
+    ],
+    "pending_drop": null
+  },
+  "resta vile maschio dove vai": {
+    "current": 36.0,
+    "history": [
+      {
+        "date": "2026-10-04 18:12:24",
+        "price": 36.0
+      }
+    ],
+    "pending_drop": null
+  },
+  "amputechture": {
+    "current": 48.57,
+    "history": [
+      {
+        "date": "2026-10-04 18:12:24",
+        "price": 48.57
+      }
+    ],
+    "pending_drop": null
+  },
+  "adore": {
+    "current": 45.95,
+    "history": [
+      {
+        "date": "2026-10-04 18:12:24",
+        "price": 45.95
       }
     ],
     "pending_drop": null
@@ -83,52 +89,12 @@
     ],
     "pending_drop": null
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 50.84,
+  "disco x 180 gr": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-10-04 18:03:05",
-        "price": 50.84
-      }
-    ],
-    "pending_drop": null
-  },
-  "remain in light": {
-    "current": 24.56,
-    "history": [
-      {
-        "date": "2026-10-04 18:03:05",
-        "price": 24.56
-      }
-    ],
-    "pending_drop": null
-  },
-  "up": {
-    "current": 40.95,
-    "history": [
-      {
-        "date": "2026-10-04 18:03:05",
-        "price": 40.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "dynamite": {
-    "current": 33.99,
-    "history": [
-      {
-        "date": "2026-10-04 18:03:05",
-        "price": 33.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "a funk odyssey": {
-    "current": 28.89,
-    "history": [
-      {
-        "date": "2026-10-04 18:03:05",
-        "price": 28.89
+        "date": "2026-10-04 18:12:24",
+        "price": 29.9
       }
     ],
     "pending_drop": null
