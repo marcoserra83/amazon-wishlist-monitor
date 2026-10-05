@@ -1,10 +1,20 @@
 {
-  "l ornamento delle cose secondarie nero": {
-    "current": 33.5,
+  "innerspeaker": {
+    "current": 29.89,
     "history": [
       {
-        "date": "2026-10-05 04:22:27",
-        "price": 33.5
+        "date": "2026-10-05 04:52:34",
+        "price": 29.89
+      }
+    ],
+    "pending_drop": null
+  },
+  "fear of the dawn": {
+    "current": 30.33,
+    "history": [
+      {
+        "date": "2026-10-05 04:52:34",
+        "price": 30.33
       }
     ],
     "pending_drop": null
@@ -19,12 +29,22 @@
     ],
     "pending_drop": null
   },
-  "adore": {
-    "current": 45.95,
+  "amputechture": {
+    "current": 41.42,
     "history": [
       {
-        "date": "2026-10-05 04:38:38",
-        "price": 45.95
+        "date": "2026-10-05 04:52:34",
+        "price": 41.42
+      }
+    ],
+    "pending_drop": null
+  },
+  "songs of a lost world": {
+    "current": 27.11,
+    "history": [
+      {
+        "date": "2026-10-05 04:52:34",
+        "price": 27.11
       }
     ],
     "pending_drop": null
@@ -39,42 +59,32 @@
     ],
     "pending_drop": null
   },
-  "dynamite": {
-    "current": 33.99,
+  "remain in light": {
+    "current": 24.56,
     "history": [
       {
-        "date": "2026-10-05 04:38:38",
-        "price": 33.99
+        "date": "2026-10-05 04:52:34",
+        "price": 24.56
       }
     ],
     "pending_drop": null
   },
-  "synkronized": {
-    "current": 19.03,
+  "up": {
+    "current": 40.95,
     "history": [
       {
-        "date": "2026-10-05 04:38:38",
-        "price": 19.03
+        "date": "2026-10-05 04:52:34",
+        "price": 40.95
       }
     ],
     "pending_drop": null
   },
-  "playing the angel": {
-    "current": 25.99,
+  "la matematica dei rami": {
+    "current": 33.31,
     "history": [
       {
-        "date": "2026-10-05 04:38:38",
-        "price": 25.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "reggatta de blanc": {
-    "current": 28.09,
-    "history": [
-      {
-        "date": "2026-10-05 04:38:38",
-        "price": 28.09
+        "date": "2026-10-05 04:52:34",
+        "price": 33.31
       }
     ],
     "pending_drop": null
@@ -99,12 +109,22 @@
     ],
     "pending_drop": null
   },
-  "ixnay on the hombre": {
-    "current": 52.46,
+  "ignition": {
+    "current": 22.27,
     "history": [
       {
-        "date": "2026-10-05 04:22:27",
-        "price": 52.46
+        "date": "2026-10-05 04:52:34",
+        "price": 22.27
+      }
+    ],
+    "pending_drop": null
+  },
+  "light grenades": {
+    "current": 33.21,
+    "history": [
+      {
+        "date": "2026-10-05 04:52:34",
+        "price": 33.21
       }
     ],
     "pending_drop": null
@@ -119,62 +139,32 @@
     ],
     "pending_drop": null
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 52.88,
+  "metallica": {
+    "current": 34.9,
     "history": [
       {
-        "date": "2026-10-05 04:38:38",
-        "price": 52.88
+        "date": "2026-10-05 04:52:34",
+        "price": 34.9
       }
     ],
     "pending_drop": null
   },
-  "let love in": {
-    "current": 26.99,
+  "led zeppelin iii": {
+    "current": 34.5,
     "history": [
       {
-        "date": "2026-10-05 04:38:38",
-        "price": 26.99
+        "date": "2026-10-05 04:52:34",
+        "price": 34.5
       }
     ],
     "pending_drop": null
   },
-  "interpol": {
-    "current": 43.99,
+  "anime salve": {
+    "current": 24.99,
     "history": [
       {
-        "date": "2026-10-05 04:38:38",
-        "price": 43.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "rebetiko gymnastas": {
-    "current": 99.99,
-    "history": [
-      {
-        "date": "2026-10-05 04:38:38",
-        "price": 99.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "soft parade": {
-    "current": 19.28,
-    "history": [
-      {
-        "date": "2026-10-05 04:38:38",
-        "price": 19.28
-      }
-    ],
-    "pending_drop": null
-  },
-  "heroes": {
-    "current": 32.36,
-    "history": [
-      {
-        "date": "2026-10-05 04:38:38",
-        "price": 32.36
+        "date": "2026-10-05 04:52:34",
+        "price": 24.99
       }
     ],
     "pending_drop": null
