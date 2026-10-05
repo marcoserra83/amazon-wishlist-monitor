@@ -1,30 +1,10 @@
 {
-  "innerspeaker": {
-    "current": 29.89,
-    "history": [
-      {
-        "date": "2026-10-05 02:04:27",
-        "price": 29.89
-      }
-    ],
-    "pending_drop": null
-  },
   "mainstream": {
     "current": 33.99,
     "history": [
       {
         "date": "2026-10-05 02:04:27",
         "price": 33.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "relax": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-10-05 02:13:13",
-        "price": 29.99
       }
     ],
     "pending_drop": null
@@ -39,22 +19,22 @@
     ],
     "pending_drop": null
   },
-  "adore": {
-    "current": 45.95,
+  "resta vile maschio dove vai": {
+    "current": 36.0,
     "history": [
       {
-        "date": "2026-10-05 02:13:13",
-        "price": 45.95
+        "date": "2026-10-05 02:23:27",
+        "price": 36.0
       }
     ],
     "pending_drop": null
   },
-  "hot fuzz": {
-    "current": 27.88,
+  "amputechture": {
+    "current": 41.42,
     "history": [
       {
-        "date": "2026-10-05 01:13:36",
-        "price": 27.88
+        "date": "2026-10-05 02:23:27",
+        "price": 41.42
       }
     ],
     "pending_drop": null
@@ -69,12 +49,12 @@
     ],
     "pending_drop": null
   },
-  "remain in light": {
-    "current": 24.56,
+  "follow the leader": {
+    "current": 20.39,
     "history": [
       {
-        "date": "2026-10-05 02:13:13",
-        "price": 24.56
+        "date": "2026-10-05 02:23:27",
+        "price": 20.39
       }
     ],
     "pending_drop": null
@@ -85,6 +65,16 @@
       {
         "date": "2026-10-05 02:04:27",
         "price": 40.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "blood sugar sex magik": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 37.9
       }
     ],
     "pending_drop": null
@@ -119,6 +109,26 @@
     ],
     "pending_drop": null
   },
+  "octahedron": {
+    "current": 52.76,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 52.76
+      }
+    ],
+    "pending_drop": null
+  },
+  "dynamite": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
   "a funk odyssey": {
     "current": 28.89,
     "history": [
@@ -139,6 +149,36 @@
     ],
     "pending_drop": null
   },
+  "reggatta de blanc": {
+    "current": 28.09,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 28.09
+      }
+    ],
+    "pending_drop": null
+  },
+  "la matematica dei rami": {
+    "current": 33.31,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 33.31
+      }
+    ],
+    "pending_drop": null
+  },
+  "tici canzoni urgenti": {
+    "current": 32.9,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 32.9
+      }
+    ],
+    "pending_drop": null
+  },
   "top": {
     "current": 29.9,
     "history": [
@@ -149,12 +189,42 @@
     ],
     "pending_drop": null
   },
-  "ignition": {
-    "current": 22.27,
+  "money for nothing": {
+    "current": 31.73,
     "history": [
       {
-        "date": "2026-10-05 02:13:13",
-        "price": 22.27
+        "date": "2026-10-05 02:23:27",
+        "price": 31.73
+      }
+    ],
+    "pending_drop": null
+  },
+  "good bye lenin": {
+    "current": 30.86,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 30.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "a crow left of the murder": {
+    "current": 48.49,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 48.49
+      }
+    ],
+    "pending_drop": null
+  },
+  "morning view": {
+    "current": 39.99,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 39.99
       }
     ],
     "pending_drop": null
@@ -179,22 +249,22 @@
     ],
     "pending_drop": null
   },
-  "sings 4 bonus tracks": {
-    "current": 34.83,
+  "metallica": {
+    "current": 34.9,
     "history": [
       {
-        "date": "2026-10-05 02:04:27",
-        "price": 34.83
+        "date": "2026-10-05 02:23:27",
+        "price": 34.9
       }
     ],
     "pending_drop": null
   },
-  "led zeppelin iv": {
-    "current": 25.9,
+  "reload": {
+    "current": 37.37,
     "history": [
       {
-        "date": "2026-10-05 02:13:13",
-        "price": 25.9
+        "date": "2026-10-05 02:23:27",
+        "price": 37.37
       }
     ],
     "pending_drop": null
@@ -209,12 +279,22 @@
     ],
     "pending_drop": null
   },
-  "appetite for destruction": {
-    "current": 25.42,
+  "kill em all": {
+    "current": 26.97,
     "history": [
       {
-        "date": "2026-10-05 01:43:36",
-        "price": 25.42
+        "date": "2026-10-05 02:23:27",
+        "price": 26.97
+      }
+    ],
+    "pending_drop": null
+  },
+  "master of puppets": {
+    "current": 30.51,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 30.51
       }
     ],
     "pending_drop": null
@@ -229,52 +309,12 @@
     ],
     "pending_drop": null
   },
-  "guest star bill evans alone together": {
-    "current": 27.23,
-    "history": [
-      {
-        "date": "2026-10-05 02:13:13",
-        "price": 27.23
-      }
-    ],
-    "pending_drop": null
-  },
-  "anime salve": {
-    "current": 24.99,
-    "history": [
-      {
-        "date": "2026-10-05 02:04:27",
-        "price": 24.99
-      }
-    ],
-    "pending_drop": null
-  },
   "fabrizio de andre": {
     "current": 27.99,
     "history": [
       {
         "date": "2026-10-05 01:13:36",
         "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "let love in": {
-    "current": 26.99,
-    "history": [
-      {
-        "date": "2026-10-05 02:13:13",
-        "price": 26.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "interpol": {
-    "current": 43.99,
-    "history": [
-      {
-        "date": "2026-10-05 01:13:36",
-        "price": 43.99
       }
     ],
     "pending_drop": null
@@ -295,6 +335,26 @@
       {
         "date": "2026-10-05 02:13:13",
         "price": 19.28
+      }
+    ],
+    "pending_drop": null
+  },
+  "ghosteen": {
+    "current": 34.9,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "heroes": {
+    "current": 32.36,
+    "history": [
+      {
+        "date": "2026-10-05 02:23:27",
+        "price": 32.36
       }
     ],
     "pending_drop": null
