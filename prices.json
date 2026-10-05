@@ -610,11 +610,15 @@
     "pending_drop": null
   },
   "kill em all": {
-    "current": 26.97,
+    "current": 26.94,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
         "price": 26.97
+      },
+      {
+        "date": "2026-10-05 11:19:03",
+        "price": 26.94
       }
     ],
     "pending_drop": null
