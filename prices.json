@@ -412,7 +412,7 @@
     "pending_drop": null
   },
   "follow the leader": {
-    "current": 20.39,
+    "current": 23.99,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -425,6 +425,10 @@
       {
         "date": "2026-10-06 09:48:55",
         "price": 20.39
+      },
+      {
+        "date": "2026-10-06 14:38:13",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -574,7 +578,7 @@
     "pending_drop": null
   },
   "a funk odyssey": {
-    "current": 28.89,
+    "current": 33.99,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -587,12 +591,16 @@
       {
         "date": "2026-10-06 09:48:55",
         "price": 28.89
+      },
+      {
+        "date": "2026-10-06 14:38:13",
+        "price": 33.99
       }
     ],
     "pending_drop": null
   },
   "synkronized": {
-    "current": 19.03,
+    "current": 20.04,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -605,6 +613,10 @@
       {
         "date": "2026-10-06 09:48:55",
         "price": 19.03
+      },
+      {
+        "date": "2026-10-06 14:38:13",
+        "price": 20.04
       }
     ],
     "pending_drop": null
@@ -628,7 +640,7 @@
     "pending_drop": null
   },
   "yield": {
-    "current": 20.39,
+    "current": 23.99,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -641,6 +653,10 @@
       {
         "date": "2026-10-06 09:48:55",
         "price": 20.39
+      },
+      {
+        "date": "2026-10-06 14:38:13",
+        "price": 23.99
       }
     ],
     "pending_drop": null
