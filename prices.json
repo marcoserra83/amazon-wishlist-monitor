@@ -993,6 +993,16 @@
     ],
     "pending_drop": null
   },
+  "star": {
+    "current": 116.99,
+    "history": [
+      {
+        "date": "2026-10-06 12:47:41",
+        "price": 116.99
+      }
+    ],
+    "pending_drop": null
+  },
   "out of time": {
     "current": 21.56,
     "history": [
@@ -1022,7 +1032,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 22.05,
+    "current": 24.5,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -1035,6 +1045,10 @@
       {
         "date": "2026-10-06 09:48:55",
         "price": 22.05
+      },
+      {
+        "date": "2026-10-06 12:47:41",
+        "price": 24.5
       }
     ],
     "pending_drop": null
