@@ -288,7 +288,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.42,
+    "current": 50.4,
     "history": [
       {
         "date": "2026-10-05 06:43:10",
@@ -361,6 +361,10 @@
       {
         "date": "2026-10-06 16:08:54",
         "price": 50.42
+      },
+      {
+        "date": "2026-10-06 16:38:32",
+        "price": 50.4
       }
     ],
     "pending_drop": null
@@ -550,7 +554,7 @@
     "pending_drop": null
   },
   "octahedron": {
-    "current": 52.76,
+    "current": 51.87,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -563,13 +567,13 @@
       {
         "date": "2026-10-06 04:28:29",
         "price": 59.65
+      },
+      {
+        "date": "2026-10-06 16:38:32",
+        "price": 51.87
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-06 07:09:07",
-      "old_price": 59.65,
-      "new_price": 52.76
-    }
+    "pending_drop": null
   },
   "dynamite": {
     "current": 33.99,
