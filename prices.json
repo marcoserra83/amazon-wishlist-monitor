@@ -402,7 +402,7 @@
     "pending_drop": null
   },
   "octahedron": {
-    "current": 59.65,
+    "current": 52.76,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -417,7 +417,11 @@
         "price": 59.65
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-06 07:09:07",
+      "old_price": 59.65,
+      "new_price": 52.76
+    }
   },
   "dynamite": {
     "current": 33.99,
