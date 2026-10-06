@@ -870,7 +870,7 @@
     "pending_drop": null
   },
   "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 30.99,
+    "current": 33.5,
     "history": [
       {
         "date": "2026-10-05 06:43:10",
@@ -883,6 +883,10 @@
       {
         "date": "2026-10-06 09:48:55",
         "price": 30.99
+      },
+      {
+        "date": "2026-10-06 10:47:52",
+        "price": 33.5
       }
     ],
     "pending_drop": null
