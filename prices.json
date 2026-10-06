@@ -1122,7 +1122,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 47.45,
+    "current": 37.46,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -1145,7 +1145,11 @@
         "price": 47.45
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-06 11:58:56",
+      "old_price": 47.45,
+      "new_price": 37.46
+    }
   },
   "s m": {
     "current": 57.46,
@@ -1502,7 +1506,7 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 31.99,
+    "current": 32.36,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -1519,6 +1523,10 @@
       {
         "date": "2026-10-06 11:48:39",
         "price": 31.99
+      },
+      {
+        "date": "2026-10-06 11:58:56",
+        "price": 32.36
       }
     ],
     "pending_drop": null
