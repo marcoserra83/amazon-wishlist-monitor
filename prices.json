@@ -22,7 +22,7 @@
     }
   },
   "innerspeaker": {
-    "current": 24.5,
+    "current": 22.05,
     "history": [
       {
         "date": "2026-10-05 06:33:06",
@@ -37,11 +37,7 @@
         "price": 29.89
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-07 03:59:01",
-      "old_price": 29.89,
-      "new_price": 24.5
-    }
+    "pending_drop": null
   },
   "vauxhall i definitive": {
     "current": 26.89,
@@ -1228,7 +1224,7 @@
     }
   },
   "vol 3 the subliminal verses violet": {
-    "current": 49.56,
+    "current": 49.54,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -1253,6 +1249,10 @@
       {
         "date": "2026-10-07 05:39:06",
         "price": 49.56
+      },
+      {
+        "date": "2026-10-07 06:18:22",
+        "price": 49.54
       }
     ],
     "pending_drop": null
