@@ -356,7 +356,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.77,
+    "current": 50.75,
     "history": [
       {
         "date": "2026-10-05 06:43:10",
@@ -517,6 +517,10 @@
       {
         "date": "2026-10-07 08:39:17",
         "price": 50.77
+      },
+      {
+        "date": "2026-10-07 09:18:37",
+        "price": 50.75
       }
     ],
     "pending_drop": null
@@ -1074,7 +1078,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 53.71,
+    "current": 48.99,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -1101,11 +1105,7 @@
         "price": 58.6
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-07 07:18:24",
-      "old_price": 58.6,
-      "new_price": 53.71
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 22.27,
@@ -1236,7 +1236,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 47.88,
+    "current": 45.29,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -1263,7 +1263,11 @@
         "price": 47.88
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-07 09:18:37",
+      "old_price": 47.88,
+      "new_price": 45.29
+    }
   },
   "marauder": {
     "current": 28.42,
