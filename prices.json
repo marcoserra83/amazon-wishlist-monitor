@@ -356,7 +356,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.65,
+    "current": 50.61,
     "history": [
       {
         "date": "2026-10-05 06:43:10",
@@ -541,6 +541,10 @@
       {
         "date": "2026-10-07 11:48:21",
         "price": 50.65
+      },
+      {
+        "date": "2026-10-07 13:09:20",
+        "price": 50.61
       }
     ],
     "pending_drop": null
@@ -1098,7 +1102,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 48.99,
+    "current": 54.62,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -1123,6 +1127,10 @@
       {
         "date": "2026-10-07 03:59:01",
         "price": 58.6
+      },
+      {
+        "date": "2026-10-07 13:09:20",
+        "price": 54.62
       }
     ],
     "pending_drop": null
@@ -1660,7 +1668,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 44.95,
+    "current": 36.3,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -1699,7 +1707,11 @@
         "price": 44.95
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-07 13:09:20",
+      "old_price": 44.95,
+      "new_price": 36.3
+    }
   },
   "and justice for all": {
     "current": 42.49,
@@ -1896,7 +1908,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 43.99,
+    "current": 46.04,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -1925,6 +1937,10 @@
       {
         "date": "2026-10-07 07:18:24",
         "price": 43.99
+      },
+      {
+        "date": "2026-10-07 13:09:20",
+        "price": 46.04
       }
     ],
     "pending_drop": null
