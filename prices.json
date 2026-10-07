@@ -91,28 +91,6 @@
       "new_price": 30.33
     }
   },
-  "entering heaven alive": {
-    "current": 26.95,
-    "history": [
-      {
-        "date": "2026-10-05 07:08:06",
-        "price": 26.95
-      },
-      {
-        "date": "2026-10-05 19:27:52",
-        "price": 26.95
-      },
-      {
-        "date": "2026-10-06 09:48:55",
-        "price": 26.95
-      },
-      {
-        "date": "2026-10-07 07:18:24",
-        "price": 26.95
-      }
-    ],
-    "pending_drop": null
-  },
   "die": {
     "current": 69.99,
     "history": [
@@ -1692,7 +1670,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 44.95,
+    "current": 36.33,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -1739,7 +1717,11 @@
         "price": 44.95
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-07 19:18:53",
+      "old_price": 44.95,
+      "new_price": 36.33
+    }
   },
   "and justice for all": {
     "current": 42.49,
