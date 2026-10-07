@@ -334,11 +334,15 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.39,
+    "current": 50.37,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
         "price": 50.39
+      },
+      {
+        "date": "2026-10-07 23:09:14",
+        "price": 50.37
       }
     ],
     "pending_drop": null
@@ -584,18 +588,18 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 48.99,
+    "current": 54.62,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
         "price": 54.62
+      },
+      {
+        "date": "2026-10-07 23:09:14",
+        "price": 54.62
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-07 22:30:39",
-      "old_price": 54.62,
-      "new_price": 48.99
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 22.27,
