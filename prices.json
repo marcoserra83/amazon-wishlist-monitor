@@ -1216,7 +1216,7 @@
     }
   },
   "vol 3 the subliminal verses violet": {
-    "current": 49.85,
+    "current": 49.6,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -1229,13 +1229,13 @@
       {
         "date": "2026-10-06 09:48:55",
         "price": 52.88
+      },
+      {
+        "date": "2026-10-07 04:18:15",
+        "price": 49.6
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-07 03:59:01",
-      "old_price": 52.88,
-      "new_price": 49.85
-    }
+    "pending_drop": null
   },
   "star": {
     "current": 116.99,
