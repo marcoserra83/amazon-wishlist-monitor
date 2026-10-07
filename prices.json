@@ -356,7 +356,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.67,
+    "current": 50.65,
     "history": [
       {
         "date": "2026-10-05 06:43:10",
@@ -537,6 +537,10 @@
       {
         "date": "2026-10-07 11:09:39",
         "price": 50.67
+      },
+      {
+        "date": "2026-10-07 11:48:21",
+        "price": 50.65
       }
     ],
     "pending_drop": null
@@ -1656,7 +1660,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 36.3,
+    "current": 44.95,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -1689,13 +1693,13 @@
       {
         "date": "2026-10-07 07:18:24",
         "price": 44.95
+      },
+      {
+        "date": "2026-10-07 11:48:21",
+        "price": 44.95
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-07 10:39:10",
-      "old_price": 44.95,
-      "new_price": 36.3
-    }
+    "pending_drop": null
   },
   "and justice for all": {
     "current": 42.49,
@@ -1866,7 +1870,7 @@
     "pending_drop": null
   },
   "let love in": {
-    "current": 26.99,
+    "current": 29.99,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -1883,6 +1887,10 @@
       {
         "date": "2026-10-07 07:18:24",
         "price": 26.99
+      },
+      {
+        "date": "2026-10-07 11:48:21",
+        "price": 29.99
       }
     ],
     "pending_drop": null
