@@ -470,7 +470,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.62,
+    "current": 50.6,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -563,6 +563,10 @@
       {
         "date": "2026-10-08 15:38:01",
         "price": 50.62
+      },
+      {
+        "date": "2026-10-08 16:08:50",
+        "price": 50.6
       }
     ],
     "pending_drop": null
@@ -1138,7 +1142,7 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 48.49,
+    "current": 53.24,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -1159,6 +1163,10 @@
       {
         "date": "2026-10-08 11:08:25",
         "price": 48.49
+      },
+      {
+        "date": "2026-10-08 16:08:50",
+        "price": 53.24
       }
     ],
     "pending_drop": null
