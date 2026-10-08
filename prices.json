@@ -470,7 +470,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.64,
+    "current": 50.62,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -559,6 +559,10 @@
       {
         "date": "2026-10-08 13:47:38",
         "price": 50.64
+      },
+      {
+        "date": "2026-10-08 15:38:01",
+        "price": 50.62
       }
     ],
     "pending_drop": null
@@ -1246,11 +1250,15 @@
     "pending_drop": null
   },
   "noctourniquet": {
-    "current": 38.77,
+    "current": 38.67,
     "history": [
       {
         "date": "2026-10-08 05:38:47",
         "price": 38.77
+      },
+      {
+        "date": "2026-10-08 15:38:01",
+        "price": 38.67
       }
     ],
     "pending_drop": null
