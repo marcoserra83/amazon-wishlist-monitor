@@ -722,7 +722,7 @@
     "pending_drop": null
   },
   "octahedron": {
-    "current": 51.87,
+    "current": 54.61,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -743,6 +743,10 @@
       {
         "date": "2026-10-08 05:38:47",
         "price": 51.87
+      },
+      {
+        "date": "2026-10-08 07:28:24",
+        "price": 54.61
       }
     ],
     "pending_drop": null
@@ -766,7 +770,7 @@
     "pending_drop": null
   },
   "a funk odyssey": {
-    "current": 33.99,
+    "current": 36.9,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -779,6 +783,10 @@
       {
         "date": "2026-10-08 05:38:47",
         "price": 33.99
+      },
+      {
+        "date": "2026-10-08 07:28:24",
+        "price": 36.9
       }
     ],
     "pending_drop": null
