@@ -228,7 +228,7 @@
     "pending_drop": null
   },
   "evergreen e altre canzoni": {
-    "current": 33.99,
+    "current": 33.21,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -257,6 +257,10 @@
       {
         "date": "2026-10-08 05:38:47",
         "price": 33.99
+      },
+      {
+        "date": "2026-10-08 14:09:06",
+        "price": 33.21
       }
     ],
     "pending_drop": null
@@ -1356,7 +1360,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 37.33,
+    "current": 47.34,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -1373,13 +1377,13 @@
       {
         "date": "2026-10-08 04:48:25",
         "price": 39.53
+      },
+      {
+        "date": "2026-10-08 14:09:06",
+        "price": 47.34
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-08 05:38:47",
-      "old_price": 39.53,
-      "new_price": 37.33
-    }
+    "pending_drop": null
   },
   "s m": {
     "current": 57.46,
@@ -1448,7 +1452,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 36.33,
+    "current": 36.34,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -1469,6 +1473,10 @@
       {
         "date": "2026-10-08 05:38:47",
         "price": 36.33
+      },
+      {
+        "date": "2026-10-08 14:09:06",
+        "price": 36.34
       }
     ],
     "pending_drop": null
