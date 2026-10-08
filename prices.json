@@ -346,7 +346,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.29,
+    "current": 50.27,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -367,6 +367,10 @@
       {
         "date": "2026-10-08 02:18:32",
         "price": 50.29
+      },
+      {
+        "date": "2026-10-08 03:08:31",
+        "price": 50.27
       }
     ],
     "pending_drop": null
@@ -620,7 +624,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 48.99,
+    "current": 54.62,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -629,13 +633,13 @@
       {
         "date": "2026-10-07 23:09:14",
         "price": 54.62
+      },
+      {
+        "date": "2026-10-08 03:08:31",
+        "price": 54.62
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-07 23:29:17",
-      "old_price": 54.62,
-      "new_price": 48.99
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 22.27,
@@ -826,7 +830,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 47.32,
+    "current": 37.33,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -837,7 +841,11 @@
         "price": 47.32
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-08 03:08:31",
+      "old_price": 47.32,
+      "new_price": 37.33
+    }
   },
   "s m": {
     "current": 57.46,
@@ -1019,6 +1027,16 @@
       {
         "date": "2026-10-07 22:09:28",
         "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "soft parade": {
+    "current": 31.33,
+    "history": [
+      {
+        "date": "2026-10-08 03:08:31",
+        "price": 31.33
       }
     ],
     "pending_drop": null
