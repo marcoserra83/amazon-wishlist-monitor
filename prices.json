@@ -746,7 +746,7 @@
     "pending_drop": null
   },
   "octahedron": {
-    "current": 51.87,
+    "current": 54.61,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -771,13 +771,13 @@
       {
         "date": "2026-10-08 07:28:24",
         "price": 54.61
+      },
+      {
+        "date": "2026-10-08 13:09:03",
+        "price": 54.61
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-08 07:48:02",
-      "old_price": 54.61,
-      "new_price": 51.87
-    }
+    "pending_drop": null
   },
   "dynamite": {
     "current": 33.99,
@@ -1636,7 +1636,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 43.99,
+    "current": 46.04,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -1661,6 +1661,10 @@
       {
         "date": "2026-10-08 05:38:47",
         "price": 43.99
+      },
+      {
+        "date": "2026-10-08 13:09:03",
+        "price": 46.04
       }
     ],
     "pending_drop": null
