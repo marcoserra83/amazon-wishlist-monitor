@@ -466,7 +466,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.68,
+    "current": 50.66,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -547,6 +547,10 @@
       {
         "date": "2026-10-08 11:48:23",
         "price": 50.68
+      },
+      {
+        "date": "2026-10-08 12:48:35",
+        "price": 50.66
       }
     ],
     "pending_drop": null
@@ -1704,7 +1708,7 @@
     }
   },
   "morrison hotel": {
-    "current": 34.01,
+    "current": 37.91,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -1721,6 +1725,10 @@
       {
         "date": "2026-10-08 07:18:59",
         "price": 34.01
+      },
+      {
+        "date": "2026-10-08 12:48:35",
+        "price": 37.91
       }
     ],
     "pending_drop": null
