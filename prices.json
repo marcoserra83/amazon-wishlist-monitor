@@ -90,7 +90,7 @@
     "pending_drop": null
   },
   "fear of the dawn": {
-    "current": 30.33,
+    "current": 25.0,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -117,11 +117,7 @@
         "price": 37.72
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-08 05:38:47",
-      "old_price": 37.72,
-      "new_price": 30.33
-    }
+    "pending_drop": null
   },
   "die": {
     "current": 69.99,
@@ -928,18 +924,18 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 37.35,
+    "current": 47.34,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
         "price": 47.34
+      },
+      {
+        "date": "2026-10-09 00:18:10",
+        "price": 47.34
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-08 18:08:48",
-      "old_price": 47.34,
-      "new_price": 37.35
-    }
+    "pending_drop": null
   },
   "s m": {
     "current": 57.46,
