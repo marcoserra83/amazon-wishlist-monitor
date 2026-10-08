@@ -466,7 +466,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.8,
+    "current": 50.78,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -523,6 +523,10 @@
       {
         "date": "2026-10-08 06:08:48",
         "price": 50.8
+      },
+      {
+        "date": "2026-10-08 07:18:59",
+        "price": 50.78
       }
     ],
     "pending_drop": null
@@ -972,7 +976,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 54.17,
+    "current": 48.99,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -999,11 +1003,7 @@
         "price": 59.05
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-08 05:38:47",
-      "old_price": 59.05,
-      "new_price": 54.17
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 22.27,
@@ -1654,7 +1654,7 @@
     }
   },
   "morrison hotel": {
-    "current": 32.97,
+    "current": 34.01,
     "history": [
       {
         "date": "2026-10-07 22:09:28",
@@ -1667,13 +1667,13 @@
       {
         "date": "2026-10-08 04:48:25",
         "price": 37.91
+      },
+      {
+        "date": "2026-10-08 07:18:59",
+        "price": 34.01
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-08 05:38:47",
-      "old_price": 37.91,
-      "new_price": 32.97
-    }
+    "pending_drop": null
   },
   "ghosteen": {
     "current": 34.9,
