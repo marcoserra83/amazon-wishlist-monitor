@@ -672,11 +672,15 @@
     "pending_drop": null
   },
   "octahedron": {
-    "current": 51.87,
+    "current": 54.61,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
         "price": 51.87
+      },
+      {
+        "date": "2026-10-09 08:57:35",
+        "price": 54.61
       }
     ],
     "pending_drop": null
@@ -866,7 +870,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 47.57,
+    "current": 45.29,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -875,6 +879,10 @@
       {
         "date": "2026-10-09 07:38:36",
         "price": 47.57
+      },
+      {
+        "date": "2026-10-09 08:57:35",
+        "price": 45.29
       }
     ],
     "pending_drop": null
@@ -1140,7 +1148,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 44.02,
+    "current": 43.99,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -1153,6 +1161,10 @@
       {
         "date": "2026-10-09 08:48:39",
         "price": 44.02
+      },
+      {
+        "date": "2026-10-09 08:57:35",
+        "price": 43.99
       }
     ],
     "pending_drop": null
