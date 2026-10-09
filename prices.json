@@ -1312,7 +1312,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 37.39,
+    "current": 47.38,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -1333,6 +1333,10 @@
       {
         "date": "2026-10-09 15:58:34",
         "price": 37.39
+      },
+      {
+        "date": "2026-10-09 17:18:13",
+        "price": 47.38
       }
     ],
     "pending_drop": null
