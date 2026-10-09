@@ -470,7 +470,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.43,
+    "current": 50.39,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -503,6 +503,10 @@
       {
         "date": "2026-10-09 01:28:09",
         "price": 50.43
+      },
+      {
+        "date": "2026-10-09 02:49:02",
+        "price": 50.39
       }
     ],
     "pending_drop": null
@@ -748,11 +752,15 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 48.99,
+    "current": 52.0,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
         "price": 48.99
+      },
+      {
+        "date": "2026-10-09 02:49:02",
+        "price": 52.0
       }
     ],
     "pending_drop": null
@@ -838,7 +846,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 52.47,
+    "current": 51.78,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -851,6 +859,10 @@
       {
         "date": "2026-10-08 19:28:35",
         "price": 52.47
+      },
+      {
+        "date": "2026-10-09 02:49:02",
+        "price": 51.78
       }
     ],
     "pending_drop": null
