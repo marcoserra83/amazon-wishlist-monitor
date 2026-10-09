@@ -564,7 +564,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.52,
+    "current": 50.5,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -701,6 +701,10 @@
       {
         "date": "2026-10-09 18:28:33",
         "price": 50.52
+      },
+      {
+        "date": "2026-10-09 19:08:58",
+        "price": 50.5
       }
     ],
     "pending_drop": null
