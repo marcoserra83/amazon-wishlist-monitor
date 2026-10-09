@@ -496,7 +496,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.66,
+    "current": 50.64,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -601,6 +601,10 @@
       {
         "date": "2026-10-09 14:28:34",
         "price": 50.66
+      },
+      {
+        "date": "2026-10-09 15:08:32",
+        "price": 50.64
       }
     ],
     "pending_drop": null
@@ -962,7 +966,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 52.03,
+    "current": 51.82,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -987,6 +991,10 @@
       {
         "date": "2026-10-09 11:58:25",
         "price": 52.03
+      },
+      {
+        "date": "2026-10-09 15:08:32",
+        "price": 51.82
       }
     ],
     "pending_drop": null
