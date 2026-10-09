@@ -496,7 +496,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.72,
+    "current": 50.7,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -589,6 +589,10 @@
       {
         "date": "2026-10-09 12:38:47",
         "price": 50.72
+      },
+      {
+        "date": "2026-10-09 13:09:15",
+        "price": 50.7
       }
     ],
     "pending_drop": null
@@ -654,11 +658,15 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 45.59,
+    "current": 45.84,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
         "price": 45.59
+      },
+      {
+        "date": "2026-10-09 13:09:15",
+        "price": 45.84
       }
     ],
     "pending_drop": null
@@ -886,7 +894,7 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 56.03,
+    "current": 48.49,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -897,7 +905,11 @@
         "price": 56.03
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-09 13:09:15",
+      "old_price": 56.03,
+      "new_price": 48.49
+    }
   },
   "light grenades": {
     "current": 33.21,
@@ -1204,7 +1216,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 43.99,
+    "current": 45.93,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -1221,6 +1233,10 @@
       {
         "date": "2026-10-09 08:57:35",
         "price": 43.99
+      },
+      {
+        "date": "2026-10-09 13:09:15",
+        "price": 45.93
       }
     ],
     "pending_drop": null
