@@ -119,6 +119,16 @@
     ],
     "pending_drop": null
   },
+  "entering heaven alive": {
+    "current": 26.95,
+    "history": [
+      {
+        "date": "2026-10-09 05:57:39",
+        "price": 26.95
+      }
+    ],
+    "pending_drop": null
+  },
   "die": {
     "current": 69.99,
     "history": [
