@@ -1136,7 +1136,7 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 48.49,
+    "current": 52.8,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -1149,13 +1149,13 @@
       {
         "date": "2026-10-09 15:28:28",
         "price": 53.02
+      },
+      {
+        "date": "2026-10-09 20:09:19",
+        "price": 52.8
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-09 15:58:34",
-      "old_price": 53.02,
-      "new_price": 48.49
-    }
+    "pending_drop": null
   },
   "light grenades": {
     "current": 33.21,
@@ -1296,11 +1296,15 @@
     "pending_drop": null
   },
   "sings 4 bonus tracks": {
-    "current": 34.83,
+    "current": 38.3,
     "history": [
       {
         "date": "2026-10-09 18:17:59",
         "price": 34.83
+      },
+      {
+        "date": "2026-10-09 20:09:19",
+        "price": 38.3
       }
     ],
     "pending_drop": null
