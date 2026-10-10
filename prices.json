@@ -1462,11 +1462,15 @@
     "pending_drop": null
   },
   "soft parade": {
-    "current": 31.33,
+    "current": 38.56,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
         "price": 31.33
+      },
+      {
+        "date": "2026-10-11 01:28:16",
+        "price": 38.56
       }
     ],
     "pending_drop": null
