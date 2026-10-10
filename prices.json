@@ -1412,7 +1412,7 @@
     "pending_drop": null
   },
   "kill em all": {
-    "current": 31.2,
+    "current": 26.97,
     "history": [
       {
         "date": "2026-10-09 18:17:59",
@@ -1423,7 +1423,11 @@
         "price": 31.2
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-10 09:48:19",
+      "old_price": 31.2,
+      "new_price": 26.97
+    }
   },
   "s m2 box": {
     "current": 92.23,
