@@ -1500,11 +1500,15 @@
     }
   },
   "morrison hotel": {
-    "current": 37.91,
+    "current": 38.99,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
         "price": 37.91
+      },
+      {
+        "date": "2026-10-11 09:27:41",
+        "price": 38.99
       }
     ],
     "pending_drop": null
