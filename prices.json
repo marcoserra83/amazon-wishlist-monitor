@@ -1126,7 +1126,7 @@
     "pending_drop": null
   },
   "dynamite": {
-    "current": 33.99,
+    "current": 35.31,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1135,6 +1135,10 @@
       {
         "date": "2026-10-11 13:18:11",
         "price": 33.99
+      },
+      {
+        "date": "2026-10-11 13:57:25",
+        "price": 35.31
       }
     ],
     "pending_drop": null
@@ -1192,7 +1196,7 @@
     "pending_drop": null
   },
   "playing the angel": {
-    "current": 25.99,
+    "current": 27.74,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1201,6 +1205,10 @@
       {
         "date": "2026-10-11 13:18:11",
         "price": 25.99
+      },
+      {
+        "date": "2026-10-11 13:57:25",
+        "price": 27.74
       }
     ],
     "pending_drop": null
