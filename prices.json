@@ -42,7 +42,7 @@
     "pending_drop": null
   },
   "innerspeaker": {
-    "current": 29.89,
+    "current": 26.9,
     "history": [
       {
         "date": "2026-10-05 06:33:06",
@@ -85,7 +85,11 @@
         "price": 29.89
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-11 16:09:07",
+      "old_price": 29.89,
+      "new_price": 26.9
+    }
   },
   "vauxhall i definitive": {
     "current": 29.5,
@@ -1374,7 +1378,7 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 48.49,
+    "current": 50.41,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1387,6 +1391,10 @@
       {
         "date": "2026-10-11 13:18:11",
         "price": 48.49
+      },
+      {
+        "date": "2026-10-11 16:09:07",
+        "price": 50.41
       }
     ],
     "pending_drop": null
@@ -1634,7 +1642,7 @@
     "pending_drop": null
   },
   "and justice for all": {
-    "current": 43.12,
+    "current": 42.49,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1643,6 +1651,10 @@
       {
         "date": "2026-10-11 13:18:11",
         "price": 43.12
+      },
+      {
+        "date": "2026-10-11 16:09:07",
+        "price": 42.49
       }
     ],
     "pending_drop": null
