@@ -188,7 +188,7 @@
     "pending_drop": null
   },
   "cosa faremo da grandi": {
-    "current": 30.99,
+    "current": 29.98,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -225,6 +225,10 @@
       {
         "date": "2026-10-10 16:37:55",
         "price": 30.99
+      },
+      {
+        "date": "2026-10-11 03:37:47",
+        "price": 29.98
       }
     ],
     "pending_drop": null
