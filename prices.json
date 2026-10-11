@@ -1590,7 +1590,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 63.78,
+    "current": 64.0,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1603,6 +1603,10 @@
       {
         "date": "2026-10-11 21:58:43",
         "price": 63.78
+      },
+      {
+        "date": "2026-10-12 00:08:56",
+        "price": 64.0
       }
     ],
     "pending_drop": null
@@ -1640,7 +1644,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 36.38,
+    "current": 44.95,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1653,6 +1657,10 @@
       {
         "date": "2026-10-11 13:18:11",
         "price": 36.38
+      },
+      {
+        "date": "2026-10-12 00:08:56",
+        "price": 44.95
       }
     ],
     "pending_drop": null
