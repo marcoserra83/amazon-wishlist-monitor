@@ -1006,7 +1006,7 @@
     "pending_drop": null
   },
   "new adventures in hi fi": {
-    "current": 47.25,
+    "current": 44.99,
     "history": [
       {
         "date": "2026-10-09 18:47:20",
@@ -1019,13 +1019,13 @@
       {
         "date": "2026-10-11 13:08:47",
         "price": 54.88
+      },
+      {
+        "date": "2026-10-11 15:18:47",
+        "price": 44.99
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-11 13:18:11",
-      "old_price": 54.88,
-      "new_price": 47.25
-    }
+    "pending_drop": null
   },
   "blood sugar sex magik": {
     "current": 37.9,
