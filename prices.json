@@ -1076,7 +1076,7 @@
     "pending_drop": null
   },
   "new adventures in hi fi": {
-    "current": 44.99,
+    "current": 50.39,
     "history": [
       {
         "date": "2026-10-09 18:47:20",
@@ -1105,13 +1105,13 @@
       {
         "date": "2026-10-12 15:28:27",
         "price": 50.39
+      },
+      {
+        "date": "2026-10-12 18:09:15",
+        "price": 50.39
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-12 15:48:37",
-      "old_price": 50.39,
-      "new_price": 44.99
-    }
+    "pending_drop": null
   },
   "blood sugar sex magik": {
     "current": 37.9,
@@ -1850,7 +1850,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 64.0,
+    "current": 63.78,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1871,6 +1871,10 @@
       {
         "date": "2026-10-12 06:08:51",
         "price": 64.0
+      },
+      {
+        "date": "2026-10-12 18:09:15",
+        "price": 63.78
       }
     ],
     "pending_drop": null
@@ -1958,7 +1962,7 @@
     "pending_drop": null
   },
   "and justice for all": {
-    "current": 42.66,
+    "current": 43.12,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1987,6 +1991,10 @@
       {
         "date": "2026-10-12 12:27:24",
         "price": 42.66
+      },
+      {
+        "date": "2026-10-12 18:09:15",
+        "price": 43.12
       }
     ],
     "pending_drop": null
