@@ -964,7 +964,7 @@
     "pending_drop": null
   },
   "naked": {
-    "current": 35.9,
+    "current": 28.76,
     "history": [
       {
         "date": "2026-10-08 17:09:18",
@@ -991,7 +991,11 @@
         "price": 35.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-12 16:18:20",
+      "old_price": 35.9,
+      "new_price": 28.76
+    }
   },
   "remain in light": {
     "current": 24.56,
@@ -1556,7 +1560,7 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 48.49,
+    "current": 50.41,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1585,6 +1589,10 @@
       {
         "date": "2026-10-12 06:08:51",
         "price": 48.49
+      },
+      {
+        "date": "2026-10-12 16:18:20",
+        "price": 50.41
       }
     ],
     "pending_drop": null
