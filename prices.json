@@ -1528,7 +1528,7 @@
     "pending_drop": null
   },
   "money for nothing": {
-    "current": 33.4,
+    "current": 37.11,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1541,6 +1541,10 @@
       {
         "date": "2026-10-12 06:08:51",
         "price": 33.4
+      },
+      {
+        "date": "2026-10-12 23:18:23",
+        "price": 37.11
       }
     ],
     "pending_drop": null
