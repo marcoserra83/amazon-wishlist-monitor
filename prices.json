@@ -628,7 +628,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 27.23,
+    "current": 32.8,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -705,6 +705,10 @@
       {
         "date": "2026-10-12 23:38:59",
         "price": 27.23
+      },
+      {
+        "date": "2026-10-13 00:28:23",
+        "price": 32.8
       }
     ],
     "pending_drop": null
