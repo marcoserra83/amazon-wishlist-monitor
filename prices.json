@@ -1814,7 +1814,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 37.39,
+    "current": 37.43,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1835,6 +1835,10 @@
       {
         "date": "2026-10-12 06:08:51",
         "price": 37.39
+      },
+      {
+        "date": "2026-10-12 13:48:19",
+        "price": 37.43
       }
     ],
     "pending_drop": null
@@ -1910,7 +1914,7 @@
     "pending_drop": null
   },
   "load": {
-    "current": 36.38,
+    "current": 36.4,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1939,13 +1943,13 @@
       {
         "date": "2026-10-12 12:17:33",
         "price": 44.95
+      },
+      {
+        "date": "2026-10-12 13:48:19",
+        "price": 36.4
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-12 12:27:24",
-      "old_price": 44.95,
-      "new_price": 36.38
-    }
+    "pending_drop": null
   },
   "and justice for all": {
     "current": 42.66,
