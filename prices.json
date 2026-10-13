@@ -150,7 +150,7 @@
     }
   },
   "fear of the dawn": {
-    "current": 25.0,
+    "current": 29.3,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -195,13 +195,13 @@
       {
         "date": "2026-10-12 04:28:53",
         "price": 37.72
+      },
+      {
+        "date": "2026-10-13 11:47:47",
+        "price": 29.3
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-12 06:08:51",
-      "old_price": 37.72,
-      "new_price": 25.0
-    }
+    "pending_drop": null
   },
   "die": {
     "current": 69.99,
@@ -1200,11 +1200,15 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 37.43,
+    "current": 47.42,
     "history": [
       {
         "date": "2026-10-13 09:09:02",
         "price": 37.43
+      },
+      {
+        "date": "2026-10-13 11:47:47",
+        "price": 47.42
       }
     ],
     "pending_drop": null
@@ -1240,11 +1244,15 @@
     "pending_drop": null
   },
   "load": {
-    "current": 36.4,
+    "current": 44.95,
     "history": [
       {
         "date": "2026-10-13 09:09:02",
         "price": 36.4
+      },
+      {
+        "date": "2026-10-13 11:47:47",
+        "price": 44.95
       }
     ],
     "pending_drop": null
