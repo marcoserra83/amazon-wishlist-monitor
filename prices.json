@@ -1878,7 +1878,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 64.0,
+    "current": 63.88,
     "history": [
       {
         "date": "2026-10-10 21:48:45",
@@ -1907,6 +1907,10 @@
       {
         "date": "2026-10-12 18:28:26",
         "price": 64.0
+      },
+      {
+        "date": "2026-10-13 07:17:46",
+        "price": 63.88
       }
     ],
     "pending_drop": null
