@@ -1266,7 +1266,7 @@
     "pending_drop": null
   },
   "and justice for all": {
-    "current": 42.49,
+    "current": 43.92,
     "history": [
       {
         "date": "2026-10-13 09:09:02",
@@ -1275,6 +1275,10 @@
       {
         "date": "2026-10-13 11:28:00",
         "price": 42.49
+      },
+      {
+        "date": "2026-10-13 13:08:31",
+        "price": 43.92
       }
     ],
     "pending_drop": null
@@ -1360,11 +1364,15 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 43.99,
+    "current": 45.93,
     "history": [
       {
         "date": "2026-10-13 09:09:02",
         "price": 43.99
+      },
+      {
+        "date": "2026-10-13 13:08:31",
+        "price": 45.93
       }
     ],
     "pending_drop": null
