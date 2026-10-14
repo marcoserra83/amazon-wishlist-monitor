@@ -1190,11 +1190,15 @@
     "pending_drop": null
   },
   "sings 4 bonus tracks": {
-    "current": 34.83,
+    "current": 37.95,
     "history": [
       {
         "date": "2026-10-14 05:38:39",
         "price": 34.83
+      },
+      {
+        "date": "2026-10-14 09:28:36",
+        "price": 37.95
       }
     ],
     "pending_drop": null
