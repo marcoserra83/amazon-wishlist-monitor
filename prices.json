@@ -1196,11 +1196,15 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 56.14,
+    "current": 56.07,
     "history": [
       {
         "date": "2026-10-14 16:17:33",
         "price": 56.14
+      },
+      {
+        "date": "2026-10-14 20:17:22",
+        "price": 56.07
       }
     ],
     "pending_drop": null
