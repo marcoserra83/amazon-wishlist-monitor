@@ -232,11 +232,15 @@
     }
   },
   "entering heaven alive": {
-    "current": 30.62,
+    "current": 30.63,
     "history": [
       {
         "date": "2026-10-14 04:57:18",
         "price": 30.62
+      },
+      {
+        "date": "2026-10-14 22:27:53",
+        "price": 30.63
       }
     ],
     "pending_drop": null
@@ -856,7 +860,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.46,
+    "current": 51.49,
     "history": [
       {
         "date": "2026-10-14 05:38:39",
@@ -869,6 +873,10 @@
       {
         "date": "2026-10-14 11:48:26",
         "price": 51.46
+      },
+      {
+        "date": "2026-10-14 22:27:53",
+        "price": 51.49
       }
     ],
     "pending_drop": null
