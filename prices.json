@@ -1408,11 +1408,15 @@
     "pending_drop": null
   },
   "master of puppets": {
-    "current": 33.4,
+    "current": 31.8,
     "history": [
       {
         "date": "2026-10-14 16:17:33",
         "price": 33.4
+      },
+      {
+        "date": "2026-10-14 22:48:34",
+        "price": 31.8
       }
     ],
     "pending_drop": null
