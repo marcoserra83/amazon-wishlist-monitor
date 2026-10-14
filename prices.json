@@ -1268,7 +1268,7 @@
     "pending_drop": null
   },
   "money for nothing": {
-    "current": 37.11,
+    "current": 33.4,
     "history": [
       {
         "date": "2026-10-14 05:38:39",
@@ -1279,7 +1279,11 @@
         "price": 37.11
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-14 15:08:42",
+      "old_price": 37.11,
+      "new_price": 33.4
+    }
   },
   "good bye lenin": {
     "current": 30.86,
