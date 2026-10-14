@@ -912,11 +912,15 @@
     "pending_drop": null
   },
   "octahedron": {
-    "current": 51.87,
+    "current": 54.61,
     "history": [
       {
         "date": "2026-10-14 05:38:39",
         "price": 51.87
+      },
+      {
+        "date": "2026-10-14 06:37:29",
+        "price": 54.61
       }
     ],
     "pending_drop": null
