@@ -722,7 +722,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 34.15,
+    "current": 27.23,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -821,7 +821,11 @@
         "price": 34.15
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-15 18:18:31",
+      "old_price": 34.15,
+      "new_price": 27.23
+    }
   },
   "love over gold": {
     "current": 34.9,
