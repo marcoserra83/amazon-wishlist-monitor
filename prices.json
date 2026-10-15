@@ -1481,6 +1481,16 @@
     ],
     "pending_drop": null
   },
+  "let love in": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-10-15 05:08:49",
+        "price": 29.99
+      }
+    ],
+    "pending_drop": null
+  },
   "interpol": {
     "current": 45.92,
     "history": [
