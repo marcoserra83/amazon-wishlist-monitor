@@ -1106,11 +1106,15 @@
     "pending_drop": null
   },
   "emergency on planet earth": {
-    "current": 40.99,
+    "current": 45.9,
     "history": [
       {
         "date": "2026-10-15 06:17:28",
         "price": 40.99
+      },
+      {
+        "date": "2026-10-15 17:48:01",
+        "price": 45.9
       }
     ],
     "pending_drop": null
@@ -1438,11 +1442,15 @@
     "pending_drop": null
   },
   "and justice for all": {
-    "current": 42.66,
+    "current": 43.57,
     "history": [
       {
         "date": "2026-10-15 06:17:28",
         "price": 42.66
+      },
+      {
+        "date": "2026-10-15 17:48:01",
+        "price": 43.57
       }
     ],
     "pending_drop": null
