@@ -124,7 +124,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 29.5,
+    "current": 32.8,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -177,13 +177,13 @@
       {
         "date": "2026-10-14 13:58:10",
         "price": 32.8
+      },
+      {
+        "date": "2026-10-15 09:08:42",
+        "price": 32.8
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-14 14:18:47",
-      "old_price": 32.8,
-      "new_price": 29.5
-    }
+    "pending_drop": null
   },
   "fear of the dawn": {
     "current": 25.0,
@@ -722,7 +722,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 27.23,
+    "current": 34.15,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -815,6 +815,10 @@
       {
         "date": "2026-10-14 11:48:26",
         "price": 27.23
+      },
+      {
+        "date": "2026-10-15 09:08:42",
+        "price": 34.15
       }
     ],
     "pending_drop": null
