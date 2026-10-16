@@ -1186,14 +1186,18 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 53.39,
+    "current": 48.99,
     "history": [
       {
         "date": "2026-10-16 23:38:41",
         "price": 53.39
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-17 01:08:54",
+      "old_price": 53.39,
+      "new_price": 48.99
+    }
   },
   "ignition": {
     "current": 22.27,
@@ -1266,14 +1270,18 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 52.88,
+    "current": 46.79,
     "history": [
       {
         "date": "2026-10-16 23:38:41",
         "price": 52.88
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-17 01:08:54",
+      "old_price": 52.88,
+      "new_price": 46.79
+    }
   },
   "out of time": {
     "current": 25.36,
