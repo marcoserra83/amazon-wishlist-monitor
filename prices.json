@@ -1022,11 +1022,15 @@
     "pending_drop": null
   },
   "bleach ed": {
-    "current": 24.75,
+    "current": 27.5,
     "history": [
       {
         "date": "2026-10-16 15:58:32",
         "price": 24.75
+      },
+      {
+        "date": "2026-10-16 20:18:43",
+        "price": 27.5
       }
     ],
     "pending_drop": null
@@ -1342,11 +1346,15 @@
     "pending_drop": null
   },
   "led zeppelin iii": {
-    "current": 34.5,
+    "current": 33.57,
     "history": [
       {
         "date": "2026-10-16 15:58:32",
         "price": 34.5
+      },
+      {
+        "date": "2026-10-16 20:18:43",
+        "price": 33.57
       }
     ],
     "pending_drop": null
