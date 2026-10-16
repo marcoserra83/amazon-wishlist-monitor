@@ -992,11 +992,15 @@
     "pending_drop": null
   },
   "blood sugar sex magik": {
-    "current": 37.9,
+    "current": 37.5,
     "history": [
       {
         "date": "2026-10-16 15:58:32",
         "price": 37.9
+      },
+      {
+        "date": "2026-10-16 22:47:48",
+        "price": 37.5
       }
     ],
     "pending_drop": null
