@@ -14,7 +14,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 35.19,
+    "current": 34.9,
     "history": [
       {
         "date": "2026-10-15 08:08:39",
@@ -23,6 +23,10 @@
       {
         "date": "2026-10-16 06:12:10",
         "price": 35.19
+      },
+      {
+        "date": "2026-10-16 15:28:45",
+        "price": 34.9
       }
     ],
     "pending_drop": null
@@ -1034,11 +1038,15 @@
     "pending_drop": null
   },
   "greatest hits": {
-    "current": 27.99,
+    "current": 30.5,
     "history": [
       {
         "date": "2026-10-16 14:18:26",
         "price": 27.99
+      },
+      {
+        "date": "2026-10-16 15:28:45",
+        "price": 30.5
       }
     ],
     "pending_drop": null
@@ -1174,18 +1182,18 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 48.99,
+    "current": 53.39,
     "history": [
       {
         "date": "2026-10-16 14:18:26",
         "price": 53.84
+      },
+      {
+        "date": "2026-10-16 15:28:45",
+        "price": 53.39
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-16 14:58:22",
-      "old_price": 53.84,
-      "new_price": 48.99
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 22.27,
