@@ -1456,7 +1456,7 @@
     "pending_drop": null
   },
   "yield": {
-    "current": 25.22,
+    "current": 23.99,
     "history": [
       {
         "date": "2026-10-17 06:28:21",
@@ -1469,6 +1469,10 @@
       {
         "date": "2026-10-17 15:08:58",
         "price": 25.22
+      },
+      {
+        "date": "2026-10-18 00:09:09",
+        "price": 23.99
       }
     ],
     "pending_drop": null
