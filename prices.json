@@ -1196,7 +1196,7 @@
     "pending_drop": null
   },
   "swing in the films of woody allen": {
-    "current": 27.58,
+    "current": 19.69,
     "history": [
       {
         "date": "2026-10-17 06:28:21",
@@ -1207,7 +1207,11 @@
         "price": 27.58
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-17 09:28:51",
+      "old_price": 27.58,
+      "new_price": 19.69
+    }
   },
   "top": {
     "current": 29.9,
@@ -1240,11 +1244,15 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 53.03,
+    "current": 53.02,
     "history": [
       {
         "date": "2026-10-17 06:28:21",
         "price": 53.03
+      },
+      {
+        "date": "2026-10-17 09:28:51",
+        "price": 53.02
       }
     ],
     "pending_drop": null
