@@ -302,7 +302,7 @@
     "pending_drop": null
   },
   "fear of the dawn": {
-    "current": 29.3,
+    "current": 25.0,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -385,7 +385,11 @@
         "price": 29.3
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-18 07:28:42",
+      "old_price": 29.3,
+      "new_price": 25.0
+    }
   },
   "die": {
     "current": 69.99,
@@ -2034,7 +2038,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 24.5,
+    "current": 22.05,
     "history": [
       {
         "date": "2026-10-17 06:28:21",
@@ -2053,7 +2057,11 @@
         "price": 24.5
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-18 07:28:42",
+      "old_price": 24.5,
+      "new_price": 22.05
+    }
   },
   "our love to admire": {
     "current": 34.1,
