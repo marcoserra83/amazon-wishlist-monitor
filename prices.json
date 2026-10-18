@@ -2302,7 +2302,7 @@
     "pending_drop": null
   },
   "and justice for all": {
-    "current": 44.03,
+    "current": 49.19,
     "history": [
       {
         "date": "2026-10-17 06:28:21",
@@ -2335,6 +2335,10 @@
       {
         "date": "2026-10-18 12:57:46",
         "price": 44.03
+      },
+      {
+        "date": "2026-10-18 13:28:53",
+        "price": 49.19
       }
     ],
     "pending_drop": null
