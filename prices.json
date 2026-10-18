@@ -378,7 +378,7 @@
     "pending_drop": null
   },
   "cosa faremo da grandi": {
-    "current": 29.98,
+    "current": 33.31,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -447,6 +447,10 @@
       {
         "date": "2026-10-17 15:08:58",
         "price": 29.98
+      },
+      {
+        "date": "2026-10-18 02:08:02",
+        "price": 33.31
       }
     ],
     "pending_drop": null
@@ -2176,11 +2180,15 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 46.07,
+    "current": 43.99,
     "history": [
       {
         "date": "2026-10-17 06:28:21",
         "price": 46.07
+      },
+      {
+        "date": "2026-10-18 02:08:02",
+        "price": 43.99
       }
     ],
     "pending_drop": null
