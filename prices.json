@@ -1444,11 +1444,15 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 52.93,
+    "current": 53.38,
     "history": [
       {
         "date": "2026-10-18 21:28:30",
         "price": 52.93
+      },
+      {
+        "date": "2026-10-19 14:09:04",
+        "price": 53.38
       }
     ],
     "pending_drop": null
@@ -1646,7 +1650,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 65.54,
+    "current": 66.97,
     "history": [
       {
         "date": "2026-10-18 21:28:30",
@@ -1655,6 +1659,10 @@
       {
         "date": "2026-10-19 11:27:52",
         "price": 65.54
+      },
+      {
+        "date": "2026-10-19 14:09:04",
+        "price": 66.97
       }
     ],
     "pending_drop": null
@@ -1827,6 +1835,16 @@
       {
         "date": "2026-10-18 21:28:30",
         "price": 35.11
+      }
+    ],
+    "pending_drop": null
+  },
+  "morrison hotel": {
+    "current": 38.99,
+    "history": [
+      {
+        "date": "2026-10-19 14:09:04",
+        "price": 38.99
       }
     ],
     "pending_drop": null
