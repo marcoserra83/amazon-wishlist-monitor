@@ -1752,7 +1752,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 46.1,
+    "current": 37.86,
     "history": [
       {
         "date": "2026-10-18 21:28:30",
@@ -1763,7 +1763,11 @@
         "price": 46.1
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-19 04:08:33",
+      "old_price": 46.1,
+      "new_price": 37.86
+    }
   },
   "rebetiko gymnastas": {
     "current": 99.99,
@@ -1806,11 +1810,15 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 32.36,
+    "current": 31.99,
     "history": [
       {
         "date": "2026-10-18 21:28:30",
         "price": 32.36
+      },
+      {
+        "date": "2026-10-19 04:08:33",
+        "price": 31.99
       }
     ],
     "pending_drop": null
