@@ -1228,11 +1228,15 @@
     "pending_drop": null
   },
   "new adventures in hi fi": {
-    "current": 44.99,
+    "current": 50.39,
     "history": [
       {
         "date": "2026-10-18 21:28:30",
         "price": 44.99
+      },
+      {
+        "date": "2026-10-19 07:08:45",
+        "price": 50.39
       }
     ],
     "pending_drop": null
@@ -1508,11 +1512,15 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 46.82,
+    "current": 52.34,
     "history": [
       {
         "date": "2026-10-18 21:28:30",
         "price": 46.82
+      },
+      {
+        "date": "2026-10-19 07:08:45",
+        "price": 52.34
       }
     ],
     "pending_drop": null
