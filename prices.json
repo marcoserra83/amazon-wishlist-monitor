@@ -1334,11 +1334,15 @@
     "pending_drop": null
   },
   "like clockwork": {
-    "current": 34.1,
+    "current": 33.99,
     "history": [
       {
         "date": "2026-10-19 16:48:39",
         "price": 34.1
+      },
+      {
+        "date": "2026-10-20 02:08:52",
+        "price": 33.99
       }
     ],
     "pending_drop": null
@@ -1592,7 +1596,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 51.65,
+    "current": 47.59,
     "history": [
       {
         "date": "2026-10-19 16:48:39",
@@ -1603,7 +1607,11 @@
         "price": 51.65
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-20 02:08:52",
+      "old_price": 51.65,
+      "new_price": 47.59
+    }
   },
   "out of time": {
     "current": 25.36,
