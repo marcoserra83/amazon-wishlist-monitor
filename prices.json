@@ -1308,7 +1308,7 @@
     "pending_drop": null
   },
   "new adventures in hi fi": {
-    "current": 53.25,
+    "current": 50.39,
     "history": [
       {
         "date": "2026-10-19 16:48:39",
@@ -1319,7 +1319,11 @@
         "price": 53.25
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-20 13:18:40",
+      "old_price": 53.25,
+      "new_price": 50.39
+    }
   },
   "blood sugar sex magik": {
     "current": 37.5,
@@ -1538,11 +1542,15 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 53.38,
+    "current": 54.3,
     "history": [
       {
         "date": "2026-10-19 16:48:39",
         "price": 53.38
+      },
+      {
+        "date": "2026-10-20 13:18:40",
+        "price": 54.3
       }
     ],
     "pending_drop": null
