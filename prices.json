@@ -1,4 +1,14 @@
 {
+  "star nero": {
+    "current": 40.95,
+    "history": [
+      {
+        "date": "2026-10-20 19:48:17",
+        "price": 40.95
+      }
+    ],
+    "pending_drop": null
+  },
   "honky chateau gold": {
     "current": 36.72,
     "history": [
