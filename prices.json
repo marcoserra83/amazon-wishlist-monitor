@@ -1442,7 +1442,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.48,
+    "current": 51.75,
     "history": [
       {
         "date": "2026-10-20 16:09:22",
@@ -1451,6 +1451,10 @@
       {
         "date": "2026-10-20 18:28:46",
         "price": 48.48
+      },
+      {
+        "date": "2026-10-20 22:58:32",
+        "price": 51.75
       }
     ],
     "pending_drop": null
@@ -1840,7 +1844,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 47.01,
+    "current": 52.88,
     "history": [
       {
         "date": "2026-10-20 16:09:22",
@@ -1849,13 +1853,13 @@
       {
         "date": "2026-10-20 18:28:46",
         "price": 52.88
+      },
+      {
+        "date": "2026-10-20 22:58:32",
+        "price": 52.88
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-20 22:28:30",
-      "old_price": 52.88,
-      "new_price": 47.01
-    }
+    "pending_drop": null
   },
   "out of time": {
     "current": 25.36,
