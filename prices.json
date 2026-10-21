@@ -1280,11 +1280,15 @@
     "pending_drop": null
   },
   "like clockwork": {
-    "current": 33.99,
+    "current": 34.1,
     "history": [
       {
         "date": "2026-10-21 03:19:09",
         "price": 33.99
+      },
+      {
+        "date": "2026-10-21 14:18:01",
+        "price": 34.1
       }
     ],
     "pending_drop": null
@@ -1656,11 +1660,15 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 65.54,
+    "current": 66.97,
     "history": [
       {
         "date": "2026-10-21 03:19:09",
         "price": 65.54
+      },
+      {
+        "date": "2026-10-21 14:18:01",
+        "price": 66.97
       }
     ],
     "pending_drop": null
