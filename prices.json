@@ -1766,14 +1766,18 @@
     "pending_drop": null
   },
   "master of puppets": {
-    "current": 35.9,
+    "current": 31.8,
     "history": [
       {
         "date": "2026-10-21 03:19:09",
         "price": 35.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-22 02:08:11",
+      "old_price": 35.9,
+      "new_price": 31.8
+    }
   },
   "mezzanine": {
     "current": 35.99,
