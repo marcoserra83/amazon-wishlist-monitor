@@ -48,7 +48,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 34.9,
+    "current": 34.05,
     "history": [
       {
         "date": "2026-10-15 08:08:39",
@@ -85,6 +85,10 @@
       {
         "date": "2026-10-20 18:28:46",
         "price": 34.9
+      },
+      {
+        "date": "2026-10-22 15:28:17",
+        "price": 34.05
       }
     ],
     "pending_drop": null
