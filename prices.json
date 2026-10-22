@@ -250,7 +250,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 29.5,
+    "current": 32.8,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -375,13 +375,13 @@
       {
         "date": "2026-10-22 07:18:00",
         "price": 32.8
+      },
+      {
+        "date": "2026-10-22 12:19:20",
+        "price": 32.8
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-22 11:38:33",
-      "old_price": 32.8,
-      "new_price": 29.5
-    }
+    "pending_drop": null
   },
   "fear of the dawn": {
     "current": 25.0,
@@ -1600,11 +1600,15 @@
     "pending_drop": null
   },
   "noctourniquet": {
-    "current": 38.77,
+    "current": 40.41,
     "history": [
       {
         "date": "2026-10-22 05:27:58",
         "price": 38.77
+      },
+      {
+        "date": "2026-10-22 12:19:20",
+        "price": 40.41
       }
     ],
     "pending_drop": null
