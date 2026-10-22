@@ -250,7 +250,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 29.5,
+    "current": 32.8,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -371,13 +371,13 @@
       {
         "date": "2026-10-21 17:48:48",
         "price": 32.8
+      },
+      {
+        "date": "2026-10-22 07:18:00",
+        "price": 32.8
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-21 18:18:53",
-      "old_price": 32.8,
-      "new_price": 29.5
-    }
+    "pending_drop": null
   },
   "fear of the dawn": {
     "current": 25.0,
@@ -1282,11 +1282,15 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.52,
+    "current": 48.45,
     "history": [
       {
         "date": "2026-10-22 05:27:58",
         "price": 48.52
+      },
+      {
+        "date": "2026-10-22 07:18:00",
+        "price": 48.45
       }
     ],
     "pending_drop": null
