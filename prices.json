@@ -416,7 +416,7 @@
     "pending_drop": null
   },
   "fear of the dawn": {
-    "current": 25.0,
+    "current": 29.3,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -509,13 +509,13 @@
       {
         "date": "2026-10-22 20:10:05",
         "price": 30.33
+      },
+      {
+        "date": "2026-10-23 07:18:46",
+        "price": 29.3
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-22 20:18:39",
-      "old_price": 30.33,
-      "new_price": 25.0
-    }
+    "pending_drop": null
   },
   "die": {
     "current": 69.99,
@@ -1422,7 +1422,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.07,
+    "current": 48.05,
     "history": [
       {
         "date": "2026-10-22 16:18:54",
@@ -1503,6 +1503,10 @@
       {
         "date": "2026-10-23 06:18:52",
         "price": 48.07
+      },
+      {
+        "date": "2026-10-23 07:18:46",
+        "price": 48.05
       }
     ],
     "pending_drop": null
