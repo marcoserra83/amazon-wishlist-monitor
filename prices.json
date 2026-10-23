@@ -2026,7 +2026,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 54.64,
+    "current": 54.66,
     "history": [
       {
         "date": "2026-10-22 16:18:54",
@@ -2035,6 +2035,10 @@
       {
         "date": "2026-10-22 20:18:39",
         "price": 54.64
+      },
+      {
+        "date": "2026-10-23 14:58:48",
+        "price": 54.66
       }
     ],
     "pending_drop": null
@@ -2222,11 +2226,15 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 46.1,
+    "current": 46.15,
     "history": [
       {
         "date": "2026-10-22 16:18:54",
         "price": 46.1
+      },
+      {
+        "date": "2026-10-23 14:58:48",
+        "price": 46.15
       }
     ],
     "pending_drop": null
