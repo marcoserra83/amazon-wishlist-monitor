@@ -1390,7 +1390,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.51,
+    "current": 48.49,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
@@ -1407,6 +1407,10 @@
       {
         "date": "2026-10-24 00:08:30",
         "price": 48.51
+      },
+      {
+        "date": "2026-10-24 01:19:13",
+        "price": 48.49
       }
     ],
     "pending_drop": null
@@ -1860,11 +1864,15 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 27.23,
+    "current": 27.57,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
         "price": 27.23
+      },
+      {
+        "date": "2026-10-24 01:19:13",
+        "price": 27.57
       }
     ],
     "pending_drop": null
