@@ -1722,7 +1722,7 @@
     "pending_drop": null
   },
   "swing in the films of woody allen": {
-    "current": 19.69,
+    "current": 27.58,
     "history": [
       {
         "date": "2026-10-22 16:18:54",
@@ -1731,13 +1731,13 @@
       {
         "date": "2026-10-22 20:10:05",
         "price": 27.58
+      },
+      {
+        "date": "2026-10-23 15:09:49",
+        "price": 27.58
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-22 20:18:39",
-      "old_price": 27.58,
-      "new_price": 19.69
-    }
+    "pending_drop": null
   },
   "travelling without moving": {
     "current": 207.99,
