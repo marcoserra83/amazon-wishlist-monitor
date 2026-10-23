@@ -106,7 +106,7 @@
     "pending_drop": null
   },
   "l ornamento delle cose secondarie nero": {
-    "current": 30.15,
+    "current": 36.41,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -183,6 +183,10 @@
       {
         "date": "2026-10-22 20:18:39",
         "price": 30.15
+      },
+      {
+        "date": "2026-10-23 18:40:00",
+        "price": 36.41
       }
     ],
     "pending_drop": null
@@ -274,7 +278,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 32.8,
+    "current": 27.07,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -413,7 +417,11 @@
         "price": 32.8
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-23 18:40:00",
+      "old_price": 32.8,
+      "new_price": 27.07
+    }
   },
   "fear of the dawn": {
     "current": 25.0,
@@ -1282,14 +1290,18 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 67.82,
+    "current": 59.12,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
         "price": 67.82
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-23 18:40:00",
+      "old_price": 67.82,
+      "new_price": 59.12
+    }
   },
   "fear of music": {
     "current": 37.9,
@@ -1882,11 +1894,15 @@
     "pending_drop": null
   },
   "soft parade": {
-    "current": 31.33,
+    "current": 31.44,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
         "price": 31.33
+      },
+      {
+        "date": "2026-10-23 18:40:00",
+        "price": 31.44
       }
     ],
     "pending_drop": null
@@ -1912,11 +1928,15 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 32.35,
+    "current": 31.99,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
         "price": 32.35
+      },
+      {
+        "date": "2026-10-23 18:40:00",
+        "price": 31.99
       }
     ],
     "pending_drop": null
