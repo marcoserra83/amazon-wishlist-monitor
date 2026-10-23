@@ -1426,7 +1426,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.15,
+    "current": 48.13,
     "history": [
       {
         "date": "2026-10-22 16:18:54",
@@ -1491,6 +1491,10 @@
       {
         "date": "2026-10-23 03:48:41",
         "price": 48.15
+      },
+      {
+        "date": "2026-10-23 04:18:57",
+        "price": 48.13
       }
     ],
     "pending_drop": null
@@ -2192,11 +2196,15 @@
     "pending_drop": null
   },
   "soft parade": {
-    "current": 35.11,
+    "current": 35.03,
     "history": [
       {
         "date": "2026-10-22 16:18:54",
         "price": 35.11
+      },
+      {
+        "date": "2026-10-23 04:18:57",
+        "price": 35.03
       }
     ],
     "pending_drop": null
