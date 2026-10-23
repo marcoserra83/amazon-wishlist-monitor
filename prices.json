@@ -1304,14 +1304,18 @@
     }
   },
   "fear of music": {
-    "current": 37.9,
+    "current": 31.44,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
         "price": 37.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-23 19:47:54",
+      "old_price": 37.9,
+      "new_price": 31.44
+    }
   },
   "naked": {
     "current": 28.76,
@@ -1834,11 +1838,15 @@
     "pending_drop": null
   },
   "anime salve": {
-    "current": 24.13,
+    "current": 24.99,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
         "price": 24.13
+      },
+      {
+        "date": "2026-10-23 19:47:54",
+        "price": 24.99
       }
     ],
     "pending_drop": null
