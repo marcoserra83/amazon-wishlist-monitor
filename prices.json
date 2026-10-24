@@ -2901,16 +2901,6 @@
     ],
     "pending_drop": null
   },
-  "substance": {
-    "current": 35.04,
-    "history": [
-      {
-        "date": "2026-10-24 11:28:50",
-        "price": 35.04
-      }
-    ],
-    "pending_drop": null
-  },
   "heroes": {
     "current": 32.35,
     "history": [
