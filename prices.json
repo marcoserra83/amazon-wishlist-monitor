@@ -1444,7 +1444,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 31.8,
+    "current": 27.23,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
@@ -1463,7 +1463,11 @@
         "price": 31.8
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-24 18:18:58",
+      "old_price": 31.8,
+      "new_price": 27.23
+    }
   },
   "love over gold": {
     "current": 34.9,
@@ -1540,7 +1544,7 @@
     }
   },
   "fear of music": {
-    "current": 37.9,
+    "current": 30.89,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
@@ -1579,7 +1583,11 @@
         "price": 37.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-24 18:18:58",
+      "old_price": 37.9,
+      "new_price": 30.89
+    }
   },
   "naked": {
     "current": 28.76,
