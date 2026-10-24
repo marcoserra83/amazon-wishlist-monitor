@@ -2081,6 +2081,16 @@
     ],
     "pending_drop": null
   },
+  "synkronized": {
+    "current": 20.04,
+    "history": [
+      {
+        "date": "2026-10-24 20:09:27",
+        "price": 20.04
+      }
+    ],
+    "pending_drop": null
+  },
   "emergency on planet earth": {
     "current": 40.99,
     "history": [
