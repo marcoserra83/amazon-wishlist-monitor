@@ -1486,7 +1486,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.45,
+    "current": 48.43,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
@@ -1519,6 +1519,10 @@
       {
         "date": "2026-10-24 02:48:47",
         "price": 48.45
+      },
+      {
+        "date": "2026-10-24 03:19:00",
+        "price": 48.43
       }
     ],
     "pending_drop": null
@@ -2080,7 +2084,7 @@
     "pending_drop": null
   },
   "master of puppets": {
-    "current": 31.8,
+    "current": 35.9,
     "history": [
       {
         "date": "2026-10-23 16:48:42",
@@ -2089,6 +2093,10 @@
       {
         "date": "2026-10-24 02:08:59",
         "price": 31.8
+      },
+      {
+        "date": "2026-10-24 03:19:00",
+        "price": 35.9
       }
     ],
     "pending_drop": null
