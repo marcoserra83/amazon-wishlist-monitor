@@ -1,6 +1,6 @@
 {
   "star nero": {
-    "current": 40.95,
+    "current": 45.5,
     "history": [
       {
         "date": "2026-10-20 19:48:17",
@@ -21,6 +21,10 @@
       {
         "date": "2026-10-24 11:28:50",
         "price": 40.95
+      },
+      {
+        "date": "2026-10-24 13:59:00",
+        "price": 45.5
       }
     ],
     "pending_drop": null
@@ -142,7 +146,7 @@
     "pending_drop": null
   },
   "l ornamento delle cose secondarie nero": {
-    "current": 36.41,
+    "current": 35.0,
     "history": [
       {
         "date": "2026-10-05 07:08:06",
@@ -235,6 +239,10 @@
       {
         "date": "2026-10-24 11:28:50",
         "price": 36.41
+      },
+      {
+        "date": "2026-10-24 13:59:00",
+        "price": 35.0
       }
     ],
     "pending_drop": null
