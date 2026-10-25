@@ -1546,18 +1546,18 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 53.25,
+    "current": 73.03,
     "history": [
       {
         "date": "2026-10-25 13:08:45",
         "price": 77.48
+      },
+      {
+        "date": "2026-10-25 14:49:18",
+        "price": 73.03
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-25 14:19:01",
-      "old_price": 77.48,
-      "new_price": 53.25
-    }
+    "pending_drop": null
   },
   "fear of music": {
     "current": 30.89,
@@ -1760,11 +1760,15 @@
     "pending_drop": null
   },
   "la matematica dei rami": {
-    "current": 18.56,
+    "current": 21.9,
     "history": [
       {
         "date": "2026-10-25 13:08:45",
         "price": 18.56
+      },
+      {
+        "date": "2026-10-25 14:49:18",
+        "price": 21.9
       }
     ],
     "pending_drop": null
