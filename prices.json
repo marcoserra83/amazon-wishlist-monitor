@@ -2144,7 +2144,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 46.15,
+    "current": 46.18,
     "history": [
       {
         "date": "2026-10-25 13:08:45",
@@ -2153,6 +2153,10 @@
       {
         "date": "2026-10-25 17:39:07",
         "price": 46.15
+      },
+      {
+        "date": "2026-10-25 20:28:13",
+        "price": 46.18
       }
     ],
     "pending_drop": null
@@ -2168,11 +2172,15 @@
     "pending_drop": null
   },
   "soft parade": {
-    "current": 31.44,
+    "current": 30.89,
     "history": [
       {
         "date": "2026-10-25 13:08:45",
         "price": 31.44
+      },
+      {
+        "date": "2026-10-25 20:28:13",
+        "price": 30.89
       }
     ],
     "pending_drop": null
