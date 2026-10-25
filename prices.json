@@ -370,7 +370,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 26.74,
+    "current": 27.07,
     "history": [
       {
         "date": "2026-10-05 06:53:36",
@@ -527,13 +527,13 @@
       {
         "date": "2026-10-24 18:59:44",
         "price": 32.39
+      },
+      {
+        "date": "2026-10-25 07:48:28",
+        "price": 27.07
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-24 19:09:17",
-      "old_price": 32.39,
-      "new_price": 26.74
-    }
+    "pending_drop": null
   },
   "fear of the dawn": {
     "current": 25.0,
@@ -1548,11 +1548,15 @@
     "pending_drop": null
   },
   "fear of music": {
-    "current": 30.89,
+    "current": 37.9,
     "history": [
       {
         "date": "2026-10-25 04:58:57",
         "price": 30.89
+      },
+      {
+        "date": "2026-10-25 07:48:28",
+        "price": 37.9
       }
     ],
     "pending_drop": null
@@ -1756,11 +1760,15 @@
     "pending_drop": null
   },
   "la matematica dei rami": {
-    "current": 18.56,
+    "current": 30.99,
     "history": [
       {
         "date": "2026-10-25 04:58:57",
         "price": 18.56
+      },
+      {
+        "date": "2026-10-25 07:48:28",
+        "price": 30.99
       }
     ],
     "pending_drop": null
