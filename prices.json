@@ -1556,7 +1556,7 @@
     "pending_drop": null
   },
   "fear of music": {
-    "current": 37.9,
+    "current": 30.89,
     "history": [
       {
         "date": "2026-10-25 04:58:57",
@@ -1567,7 +1567,11 @@
         "price": 37.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-25 10:49:18",
+      "old_price": 37.9,
+      "new_price": 30.89
+    }
   },
   "naked": {
     "current": 28.76,
@@ -1768,7 +1772,7 @@
     "pending_drop": null
   },
   "la matematica dei rami": {
-    "current": 30.99,
+    "current": 18.56,
     "history": [
       {
         "date": "2026-10-25 04:58:57",
@@ -1779,7 +1783,11 @@
         "price": 30.99
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-25 10:49:18",
+      "old_price": 30.99,
+      "new_price": 18.56
+    }
   },
   "swing in the films of woody allen": {
     "current": 19.69,
