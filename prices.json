@@ -1588,7 +1588,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 27.23,
+    "current": 31.8,
     "history": [
       {
         "date": "2026-10-26 10:59:04",
@@ -1597,13 +1597,13 @@
       {
         "date": "2026-10-26 12:10:07",
         "price": 28.79
+      },
+      {
+        "date": "2026-10-27 00:18:36",
+        "price": 31.8
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-26 12:18:20",
-      "old_price": 28.79,
-      "new_price": 27.23
-    }
+    "pending_drop": null
   },
   "disco x 180 gr": {
     "current": 29.9,
@@ -1740,7 +1740,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.22,
+    "current": 48.2,
     "history": [
       {
         "date": "2026-10-26 10:59:04",
@@ -1817,6 +1817,10 @@
       {
         "date": "2026-10-26 23:59:10",
         "price": 48.22
+      },
+      {
+        "date": "2026-10-27 00:18:36",
+        "price": 48.2
       }
     ],
     "pending_drop": null
@@ -2072,7 +2076,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 49.68,
+    "current": 55.51,
     "history": [
       {
         "date": "2026-10-26 10:59:04",
@@ -2085,13 +2089,13 @@
       {
         "date": "2026-10-26 13:09:29",
         "price": 55.85
+      },
+      {
+        "date": "2026-10-27 00:18:36",
+        "price": 55.51
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-26 14:49:14",
-      "old_price": 55.85,
-      "new_price": 49.68
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 22.27,
