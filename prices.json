@@ -1742,7 +1742,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.5,
+    "current": 48.48,
     "history": [
       {
         "date": "2026-10-26 10:59:04",
@@ -1763,6 +1763,10 @@
       {
         "date": "2026-10-26 12:18:20",
         "price": 48.5
+      },
+      {
+        "date": "2026-10-26 13:09:29",
+        "price": 48.48
       }
     ],
     "pending_drop": null
@@ -2010,7 +2014,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 49.68,
+    "current": 55.85,
     "history": [
       {
         "date": "2026-10-26 10:59:04",
@@ -2019,6 +2023,10 @@
       {
         "date": "2026-10-26 12:18:20",
         "price": 49.68
+      },
+      {
+        "date": "2026-10-26 13:09:29",
+        "price": 55.85
       }
     ],
     "pending_drop": null
