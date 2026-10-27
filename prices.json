@@ -2618,14 +2618,18 @@
     "pending_drop": null
   },
   "ghosteen": {
-    "current": 34.9,
+    "current": 31.41,
     "history": [
       {
         "date": "2026-10-27 13:09:30",
         "price": 34.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-27 15:59:07",
+      "old_price": 34.9,
+      "new_price": 31.41
+    }
   },
   "heroes": {
     "current": 31.99,
