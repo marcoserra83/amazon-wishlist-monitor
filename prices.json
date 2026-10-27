@@ -2256,7 +2256,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 49.68,
+    "current": 55.06,
     "history": [
       {
         "date": "2026-10-27 13:09:30",
@@ -2265,13 +2265,13 @@
       {
         "date": "2026-10-27 14:19:04",
         "price": 55.51
+      },
+      {
+        "date": "2026-10-27 17:58:18",
+        "price": 55.06
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-27 14:49:49",
-      "old_price": 55.51,
-      "new_price": 49.68
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 22.27,
