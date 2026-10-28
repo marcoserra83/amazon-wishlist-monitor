@@ -1796,7 +1796,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.28,
+    "current": 48.26,
     "history": [
       {
         "date": "2026-10-27 19:49:12",
@@ -1869,6 +1869,10 @@
       {
         "date": "2026-10-28 05:48:54",
         "price": 48.28
+      },
+      {
+        "date": "2026-10-28 06:58:05",
+        "price": 48.26
       }
     ],
     "pending_drop": null
