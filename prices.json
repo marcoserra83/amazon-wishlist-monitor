@@ -1796,7 +1796,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.4,
+    "current": 48.38,
     "history": [
       {
         "date": "2026-10-27 19:49:12",
@@ -1845,6 +1845,10 @@
       {
         "date": "2026-10-28 02:09:42",
         "price": 48.4
+      },
+      {
+        "date": "2026-10-28 02:47:59",
+        "price": 48.38
       }
     ],
     "pending_drop": null
@@ -2298,7 +2302,7 @@
     "pending_drop": null
   },
   "led zeppelin iii": {
-    "current": 33.68,
+    "current": 32.0,
     "history": [
       {
         "date": "2026-10-27 19:49:12",
@@ -2307,6 +2311,10 @@
       {
         "date": "2026-10-28 00:39:34",
         "price": 33.68
+      },
+      {
+        "date": "2026-10-28 02:47:59",
+        "price": 32.0
       }
     ],
     "pending_drop": null
