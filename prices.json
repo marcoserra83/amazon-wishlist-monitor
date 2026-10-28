@@ -1796,7 +1796,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.2,
+    "current": 48.18,
     "history": [
       {
         "date": "2026-10-27 19:49:12",
@@ -1885,6 +1885,10 @@
       {
         "date": "2026-10-28 08:28:48",
         "price": 48.2
+      },
+      {
+        "date": "2026-10-28 09:08:48",
+        "price": 48.18
       }
     ],
     "pending_drop": null
@@ -1946,7 +1950,7 @@
     "pending_drop": null
   },
   "octahedron": {
-    "current": 54.61,
+    "current": 51.87,
     "history": [
       {
         "date": "2026-10-28 00:39:34",
@@ -1957,7 +1961,11 @@
         "price": 54.61
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-28 09:08:48",
+      "old_price": 54.61,
+      "new_price": 51.87
+    }
   },
   "dynamite": {
     "current": 33.99,
