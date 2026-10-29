@@ -1920,7 +1920,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.6,
+    "current": 48.58,
     "history": [
       {
         "date": "2026-10-27 19:49:12",
@@ -2057,6 +2057,10 @@
       {
         "date": "2026-10-29 02:09:27",
         "price": 48.6
+      },
+      {
+        "date": "2026-10-29 02:58:32",
+        "price": 48.58
       }
     ],
     "pending_drop": null
@@ -2764,11 +2768,15 @@
     "pending_drop": null
   },
   "anime salve": {
-    "current": 24.99,
+    "current": 24.13,
     "history": [
       {
         "date": "2026-10-28 22:09:41",
         "price": 24.99
+      },
+      {
+        "date": "2026-10-29 02:58:32",
+        "price": 24.13
       }
     ],
     "pending_drop": null
