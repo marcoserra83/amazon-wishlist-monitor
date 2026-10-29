@@ -3099,6 +3099,16 @@
     ],
     "pending_drop": null
   },
+  "let love in": {
+    "current": 26.99,
+    "history": [
+      {
+        "date": "2026-10-29 13:48:52",
+        "price": 26.99
+      }
+    ],
+    "pending_drop": null
+  },
   "interpol": {
     "current": 46.64,
     "history": [
@@ -3154,14 +3164,18 @@
     }
   },
   "morrison hotel": {
-    "current": 37.91,
+    "current": 32.66,
     "history": [
       {
         "date": "2026-10-28 13:28:07",
         "price": 37.91
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-29 13:48:52",
+      "old_price": 37.91,
+      "new_price": 32.66
+    }
   },
   "ghosteen": {
     "current": 31.41,
