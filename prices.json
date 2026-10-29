@@ -2212,7 +2212,7 @@
     "pending_drop": null
   },
   "bleach ed": {
-    "current": 25.99,
+    "current": 24.75,
     "history": [
       {
         "date": "2026-10-27 19:49:12",
@@ -2229,6 +2229,10 @@
       {
         "date": "2026-10-29 10:08:55",
         "price": 25.99
+      },
+      {
+        "date": "2026-10-29 11:19:12",
+        "price": 24.75
       }
     ],
     "pending_drop": null
@@ -3126,7 +3130,7 @@
     "pending_drop": null
   },
   "soft parade": {
-    "current": 36.43,
+    "current": 30.89,
     "history": [
       {
         "date": "2026-10-28 13:28:07",
@@ -3145,7 +3149,11 @@
         "price": 36.43
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-29 11:19:12",
+      "old_price": 36.43,
+      "new_price": 30.89
+    }
   },
   "morrison hotel": {
     "current": 37.91,
