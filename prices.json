@@ -1756,7 +1756,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 74.96,
+    "current": 73.58,
     "history": [
       {
         "date": "2026-10-27 19:49:12",
@@ -1777,6 +1777,10 @@
       {
         "date": "2026-10-29 02:09:27",
         "price": 74.96
+      },
+      {
+        "date": "2026-10-29 03:38:22",
+        "price": 73.58
       }
     ],
     "pending_drop": null
@@ -1920,7 +1924,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.58,
+    "current": 48.56,
     "history": [
       {
         "date": "2026-10-27 19:49:12",
@@ -2061,6 +2065,10 @@
       {
         "date": "2026-10-29 02:58:32",
         "price": 48.58
+      },
+      {
+        "date": "2026-10-29 03:38:22",
+        "price": 48.56
       }
     ],
     "pending_drop": null
@@ -2448,11 +2456,15 @@
     "pending_drop": null
   },
   "a crow left of the murder": {
-    "current": 47.33,
+    "current": 47.57,
     "history": [
       {
         "date": "2026-10-28 22:09:41",
         "price": 47.33
+      },
+      {
+        "date": "2026-10-29 03:38:22",
+        "price": 47.57
       }
     ],
     "pending_drop": null
