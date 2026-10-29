@@ -1,60 +1,120 @@
 {
-  "honky chateau": {
-    "current": 34.9,
+  "l ornamento delle cose secondarie nero": {
+    "current": 30.15,
     "history": [
       {
-        "date": "2026-10-29 23:13:09",
-        "price": 34.9
+        "date": "2026-10-30 00:13:27",
+        "price": 30.15
       }
     ],
     "pending_drop": null
   },
-  "innerspeaker": {
-    "current": 29.89,
+  "die": {
+    "current": 69.99,
     "history": [
       {
-        "date": "2026-10-29 23:43:11",
-        "price": 29.89
+        "date": "2026-10-30 00:13:27",
+        "price": 69.99
       }
     ],
     "pending_drop": null
   },
-  "vauxhall i definitive": {
-    "current": 26.74,
+  "relax": {
+    "current": 29.99,
     "history": [
       {
-        "date": "2026-10-29 23:13:09",
-        "price": 26.74
+        "date": "2026-10-30 00:13:27",
+        "price": 29.99
       }
     ],
     "pending_drop": null
   },
-  "songs of a lost world": {
-    "current": 31.9,
+  "amputechture": {
+    "current": 42.58,
     "history": [
       {
-        "date": "2026-10-29 23:43:11",
-        "price": 31.9
+        "date": "2026-10-30 00:13:27",
+        "price": 42.58
       }
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 28.76,
+  "adore": {
+    "current": 45.95,
     "history": [
       {
-        "date": "2026-10-29 23:43:11",
-        "price": 28.76
+        "date": "2026-10-30 00:13:27",
+        "price": 45.95
       }
     ],
     "pending_drop": null
   },
-  "like clockwork": {
-    "current": 34.1,
+  "hot fuzz": {
+    "current": 23.58,
     "history": [
       {
-        "date": "2026-10-29 23:43:11",
-        "price": 34.1
+        "date": "2026-10-30 00:13:27",
+        "price": 23.58
+      }
+    ],
+    "pending_drop": null
+  },
+  "tracy chapman talkin about a revolution": {
+    "current": 68.57,
+    "history": [
+      {
+        "date": "2026-10-30 00:13:27",
+        "price": 68.57
+      }
+    ],
+    "pending_drop": null
+  },
+  "follow the leader": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-10-30 00:13:27",
+        "price": 23.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "up": {
+    "current": 40.95,
+    "history": [
+      {
+        "date": "2026-10-30 00:13:27",
+        "price": 40.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "new adventures in hi fi": {
+    "current": 46.88,
+    "history": [
+      {
+        "date": "2026-10-30 00:13:27",
+        "price": 46.88
+      }
+    ],
+    "pending_drop": null
+  },
+  "blood sugar sex magik": {
+    "current": 37.9,
+    "history": [
+      {
+        "date": "2026-10-30 00:13:27",
+        "price": 37.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "riot on a empty street": {
+    "current": 48.77,
+    "history": [
+      {
+        "date": "2026-10-30 00:13:27",
+        "price": 48.77
       }
     ],
     "pending_drop": null
@@ -69,16 +129,6 @@
     ],
     "pending_drop": null
   },
-  "greatest hits": {
-    "current": 27.99,
-    "history": [
-      {
-        "date": "2026-10-29 23:43:11",
-        "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
   "octahedron": {
     "current": 51.87,
     "history": [
@@ -89,52 +139,22 @@
     ],
     "pending_drop": null
   },
-  "a funk odyssey": {
-    "current": 33.99,
+  "la matematica dei rami": {
+    "current": 17.06,
     "history": [
       {
-        "date": "2026-10-29 23:43:11",
-        "price": 33.99
+        "date": "2026-10-30 00:13:27",
+        "price": 17.06
       }
     ],
     "pending_drop": null
   },
-  "emergency on planet earth": {
-    "current": 40.99,
+  "swing in the films of woody allen": {
+    "current": 19.69,
     "history": [
       {
-        "date": "2026-10-29 23:43:11",
-        "price": 40.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "yield": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-10-29 23:43:11",
-        "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-10-29 23:43:11",
-        "price": 25.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "reggatta de blanc": {
-    "current": 33.05,
-    "history": [
-      {
-        "date": "2026-10-29 20:52:57",
-        "price": 33.05
+        "date": "2026-10-30 00:13:27",
+        "price": 19.69
       }
     ],
     "pending_drop": null
@@ -149,12 +169,22 @@
     ],
     "pending_drop": null
   },
-  "out of time": {
-    "current": 25.36,
+  "ixnay on the hombre": {
+    "current": 54.34,
     "history": [
       {
-        "date": "2026-10-29 23:13:09",
-        "price": 25.36
+        "date": "2026-10-30 00:13:27",
+        "price": 54.34
+      }
+    ],
+    "pending_drop": null
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-10-30 00:13:27",
+        "price": 28.42
       }
     ],
     "pending_drop": null
@@ -165,16 +195,6 @@
       {
         "date": "2026-10-29 23:43:11",
         "price": 40.01
-      }
-    ],
-    "pending_drop": null
-  },
-  "led zeppelin iv": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-10-29 23:43:11",
-        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -195,6 +215,16 @@
       {
         "date": "2026-10-29 23:43:11",
         "price": 65.62
+      }
+    ],
+    "pending_drop": null
+  },
+  "s m2 box": {
+    "current": 95.88,
+    "history": [
+      {
+        "date": "2026-10-30 00:13:27",
+        "price": 95.88
       }
     ],
     "pending_drop": null
@@ -229,26 +259,6 @@
     ],
     "pending_drop": null
   },
-  "mezzanine": {
-    "current": 35.99,
-    "history": [
-      {
-        "date": "2026-10-29 23:43:11",
-        "price": 35.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "appetite for destruction": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-10-29 23:13:09",
-        "price": 29.9
-      }
-    ],
-    "pending_drop": null
-  },
   "back in": {
     "current": 20.04,
     "history": [
@@ -259,22 +269,22 @@
     ],
     "pending_drop": null
   },
-  "anime salve": {
-    "current": 24.13,
+  "guest star bill evans alone together": {
+    "current": 27.57,
     "history": [
       {
-        "date": "2026-10-29 23:03:13",
-        "price": 24.13
+        "date": "2026-10-30 00:13:27",
+        "price": 27.57
       }
     ],
     "pending_drop": null
   },
-  "let love in": {
-    "current": 26.99,
+  "interpol": {
+    "current": 46.64,
     "history": [
       {
-        "date": "2026-10-29 23:13:09",
-        "price": 26.99
+        "date": "2026-10-30 00:13:27",
+        "price": 46.64
       }
     ],
     "pending_drop": null
