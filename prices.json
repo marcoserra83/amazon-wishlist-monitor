@@ -9,22 +9,22 @@
     ],
     "pending_drop": null
   },
-  "l ornamento delle cose secondarie nero": {
-    "current": 30.15,
-    "history": [
-      {
-        "date": "2026-10-29 20:42:54",
-        "price": 30.15
-      }
-    ],
-    "pending_drop": null
-  },
   "innerspeaker": {
     "current": 29.89,
     "history": [
       {
         "date": "2026-10-29 19:53:17",
         "price": 29.89
+      }
+    ],
+    "pending_drop": null
+  },
+  "vauxhall i definitive": {
+    "current": 26.74,
+    "history": [
+      {
+        "date": "2026-10-29 20:52:57",
+        "price": 26.74
       }
     ],
     "pending_drop": null
@@ -39,12 +39,22 @@
     ],
     "pending_drop": null
   },
-  "resta vile maschio dove vai": {
-    "current": 46.0,
+  "mainstream": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-10-29 20:42:54",
-        "price": 46.0
+        "date": "2026-10-29 20:52:57",
+        "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-10-29 20:52:57",
+        "price": 29.99
       }
     ],
     "pending_drop": null
@@ -59,6 +69,16 @@
     ],
     "pending_drop": null
   },
+  "tracy chapman talkin about a revolution": {
+    "current": 69.08,
+    "history": [
+      {
+        "date": "2026-10-29 20:52:57",
+        "price": 69.08
+      }
+    ],
+    "pending_drop": null
+  },
   "fear of music": {
     "current": 30.89,
     "history": [
@@ -69,12 +89,22 @@
     ],
     "pending_drop": null
   },
-  "new adventures in hi fi": {
-    "current": 46.88,
+  "remain in light": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-10-29 20:42:54",
-        "price": 46.88
+        "date": "2026-10-29 20:52:57",
+        "price": 25.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "riot on a empty street": {
+    "current": 48.77,
+    "history": [
+      {
+        "date": "2026-10-29 20:52:57",
+        "price": 48.77
       }
     ],
     "pending_drop": null
@@ -89,16 +119,6 @@
     ],
     "pending_drop": null
   },
-  "the ballad of darren": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-10-29 20:42:54",
-        "price": 25.9
-      }
-    ],
-    "pending_drop": null
-  },
   "greatest hits": {
     "current": 27.99,
     "history": [
@@ -109,32 +129,32 @@
     ],
     "pending_drop": null
   },
-  "a funk odyssey": {
-    "current": 33.99,
+  "octahedron": {
+    "current": 51.87,
     "history": [
       {
-        "date": "2026-10-29 20:23:44",
-        "price": 33.99
+        "date": "2026-10-29 20:52:57",
+        "price": 51.87
       }
     ],
     "pending_drop": null
   },
-  "emergency on planet earth": {
-    "current": 40.99,
+  "yield": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-10-29 20:23:44",
-        "price": 40.99
+        "date": "2026-10-29 20:52:57",
+        "price": 23.99
       }
     ],
     "pending_drop": null
   },
-  "la matematica dei rami": {
-    "current": 17.06,
+  "reggatta de blanc": {
+    "current": 33.05,
     "history": [
       {
-        "date": "2026-10-29 20:23:44",
-        "price": 17.06
+        "date": "2026-10-29 20:52:57",
+        "price": 33.05
       }
     ],
     "pending_drop": null
@@ -159,32 +179,42 @@
     ],
     "pending_drop": null
   },
-  "good bye lenin": {
-    "current": 30.86,
-    "history": [
-      {
-        "date": "2026-10-29 19:53:17",
-        "price": 30.86
-      }
-    ],
-    "pending_drop": null
-  },
-  "morning view": {
+  "light grenades": {
     "current": 31.86,
     "history": [
       {
-        "date": "2026-10-29 20:42:54",
+        "date": "2026-10-29 20:52:57",
         "price": 31.86
       }
     ],
     "pending_drop": null
   },
-  "sleeping with ghosts": {
-    "current": 22.05,
+  "marauder": {
+    "current": 28.42,
     "history": [
       {
-        "date": "2026-10-29 20:42:54",
-        "price": 22.05
+        "date": "2026-10-29 20:52:57",
+        "price": 28.42
+      }
+    ],
+    "pending_drop": null
+  },
+  "out of time": {
+    "current": 25.36,
+    "history": [
+      {
+        "date": "2026-10-29 20:52:57",
+        "price": 25.36
+      }
+    ],
+    "pending_drop": null
+  },
+  "noctourniquet": {
+    "current": 40.01,
+    "history": [
+      {
+        "date": "2026-10-29 20:52:57",
+        "price": 40.01
       }
     ],
     "pending_drop": null
@@ -199,32 +229,22 @@
     ],
     "pending_drop": null
   },
-  "led zeppelin iv": {
-    "current": 25.9,
+  "s m": {
+    "current": 65.62,
     "history": [
       {
-        "date": "2026-10-29 20:42:54",
-        "price": 25.9
+        "date": "2026-10-29 20:52:57",
+        "price": 65.62
       }
     ],
     "pending_drop": null
   },
-  "s m2 box": {
-    "current": 95.88,
+  "master of puppets": {
+    "current": 33.4,
     "history": [
       {
-        "date": "2026-10-29 20:23:44",
-        "price": 95.88
-      }
-    ],
-    "pending_drop": null
-  },
-  "load": {
-    "current": 45.95,
-    "history": [
-      {
-        "date": "2026-10-29 20:23:44",
-        "price": 45.95
+        "date": "2026-10-29 20:52:57",
+        "price": 33.4
       }
     ],
     "pending_drop": null
@@ -239,22 +259,22 @@
     ],
     "pending_drop": null
   },
-  "let love in": {
-    "current": 26.99,
+  "guest star bill evans alone together": {
+    "current": 27.57,
     "history": [
       {
-        "date": "2026-10-29 20:23:44",
-        "price": 26.99
+        "date": "2026-10-29 20:52:57",
+        "price": 27.57
       }
     ],
     "pending_drop": null
   },
-  "morrison hotel": {
-    "current": 32.66,
+  "interpol": {
+    "current": 46.64,
     "history": [
       {
-        "date": "2026-10-29 20:23:44",
-        "price": 32.66
+        "date": "2026-10-29 20:52:57",
+        "price": 46.64
       }
     ],
     "pending_drop": null
