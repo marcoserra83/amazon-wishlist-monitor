@@ -1,14 +1,4 @@
 {
-  "honky chateau gold": {
-    "current": 36.72,
-    "history": [
-      {
-        "date": "2026-10-29 17:33:12",
-        "price": 36.72
-      }
-    ],
-    "pending_drop": null
-  },
   "honky chateau": {
     "current": 34.9,
     "history": [
@@ -19,12 +9,32 @@
     ],
     "pending_drop": null
   },
-  "die": {
-    "current": 69.99,
+  "innerspeaker": {
+    "current": 29.89,
     "history": [
       {
-        "date": "2026-10-29 18:03:44",
-        "price": 69.99
+        "date": "2026-10-29 18:12:55",
+        "price": 29.89
+      }
+    ],
+    "pending_drop": null
+  },
+  "fear of the dawn": {
+    "current": 25.0,
+    "history": [
+      {
+        "date": "2026-10-29 18:12:55",
+        "price": 25.0
+      }
+    ],
+    "pending_drop": null
+  },
+  "cosa faremo da grandi": {
+    "current": 30.99,
+    "history": [
+      {
+        "date": "2026-10-29 18:12:55",
+        "price": 30.99
       }
     ],
     "pending_drop": null
@@ -39,6 +49,16 @@
     ],
     "pending_drop": null
   },
+  "relax": {
+    "current": 29.99,
+    "history": [
+      {
+        "date": "2026-10-29 18:12:55",
+        "price": 29.99
+      }
+    ],
+    "pending_drop": null
+  },
   "evergreen e altre canzoni": {
     "current": 33.21,
     "history": [
@@ -49,22 +69,12 @@
     ],
     "pending_drop": null
   },
-  "amputechture": {
-    "current": 43.09,
+  "resta vile maschio dove vai": {
+    "current": 46.0,
     "history": [
       {
-        "date": "2026-10-29 18:03:44",
-        "price": 43.09
-      }
-    ],
-    "pending_drop": null
-  },
-  "disco x 180 gr": {
-    "current": 29.9,
-    "history": [
-      {
-        "date": "2026-10-29 18:03:44",
-        "price": 29.9
+        "date": "2026-10-29 18:12:55",
+        "price": 46.0
       }
     ],
     "pending_drop": null
@@ -89,42 +99,12 @@
     ],
     "pending_drop": null
   },
-  "follow the leader": {
-    "current": 23.99,
-    "history": [
-      {
-        "date": "2026-10-29 17:13:48",
-        "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
   "new adventures in hi fi": {
     "current": 46.88,
     "history": [
       {
         "date": "2026-10-29 18:03:44",
         "price": 46.88
-      }
-    ],
-    "pending_drop": null
-  },
-  "bleach ed": {
-    "current": 24.75,
-    "history": [
-      {
-        "date": "2026-10-29 18:03:44",
-        "price": 24.75
-      }
-    ],
-    "pending_drop": null
-  },
-  "the ballad of darren": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-10-29 17:22:56",
-        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -139,6 +119,26 @@
     ],
     "pending_drop": null
   },
+  "dynamite": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-10-29 18:12:55",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "a funk odyssey": {
+    "current": 33.99,
+    "history": [
+      {
+        "date": "2026-10-29 18:12:55",
+        "price": 33.99
+      }
+    ],
+    "pending_drop": null
+  },
   "synkronized": {
     "current": 20.04,
     "history": [
@@ -149,42 +149,22 @@
     ],
     "pending_drop": null
   },
-  "emergency on planet earth": {
-    "current": 40.99,
+  "top": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-10-29 18:03:44",
-        "price": 40.99
+        "date": "2026-10-29 18:12:55",
+        "price": 29.9
       }
     ],
     "pending_drop": null
   },
-  "yield": {
-    "current": 23.99,
+  "money for nothing": {
+    "current": 33.4,
     "history": [
       {
-        "date": "2026-10-29 17:33:12",
-        "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "la matematica dei rami": {
-    "current": 17.06,
-    "history": [
-      {
-        "date": "2026-10-29 18:03:44",
-        "price": 17.06
-      }
-    ],
-    "pending_drop": null
-  },
-  "ixnay on the hombre": {
-    "current": 49.86,
-    "history": [
-      {
-        "date": "2026-10-29 18:03:44",
-        "price": 49.86
+        "date": "2026-10-29 18:12:55",
+        "price": 33.4
       }
     ],
     "pending_drop": null
@@ -199,52 +179,62 @@
     ],
     "pending_drop": null
   },
-  "a crow left of the murder": {
-    "current": 47.57,
+  "out of time": {
+    "current": 25.36,
     "history": [
       {
-        "date": "2026-10-29 18:03:44",
-        "price": 47.57
+        "date": "2026-10-29 18:12:55",
+        "price": 25.36
       }
     ],
     "pending_drop": null
   },
-  "vol 3 the subliminal verses violet": {
-    "current": 52.88,
+  "sleeping with ghosts": {
+    "current": 22.05,
     "history": [
       {
-        "date": "2026-10-29 17:33:12",
-        "price": 52.88
+        "date": "2026-10-29 18:12:55",
+        "price": 22.05
       }
     ],
     "pending_drop": null
   },
-  "festival session 2 bonus tracks": {
-    "current": 50.83,
+  "our love to admire": {
+    "current": 34.1,
     "history": [
       {
-        "date": "2026-10-29 17:33:12",
-        "price": 50.83
+        "date": "2026-10-29 18:12:55",
+        "price": 34.1
       }
     ],
     "pending_drop": null
   },
-  "s m2 box": {
-    "current": 95.88,
+  "led zeppelin iii": {
+    "current": 32.0,
     "history": [
       {
-        "date": "2026-10-29 18:03:44",
-        "price": 95.88
+        "date": "2026-10-29 18:12:55",
+        "price": 32.0
       }
     ],
     "pending_drop": null
   },
-  "load": {
-    "current": 45.95,
+  "master of puppets": {
+    "current": 33.4,
     "history": [
       {
-        "date": "2026-10-29 18:03:44",
-        "price": 45.95
+        "date": "2026-10-29 18:12:55",
+        "price": 33.4
+      }
+    ],
+    "pending_drop": null
+  },
+  "mezzanine": {
+    "current": 35.99,
+    "history": [
+      {
+        "date": "2026-10-29 18:12:55",
+        "price": 35.99
       }
     ],
     "pending_drop": null
@@ -259,12 +249,12 @@
     ],
     "pending_drop": null
   },
-  "back in": {
-    "current": 20.04,
+  "camera a sud": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-10-29 18:03:44",
-        "price": 20.04
+        "date": "2026-10-29 18:12:55",
+        "price": 33.21
       }
     ],
     "pending_drop": null
