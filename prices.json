@@ -1820,7 +1820,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 57.85,
+    "current": 70.21,
     "history": [
       {
         "date": "2026-10-27 19:49:12",
@@ -1857,13 +1857,13 @@
       {
         "date": "2026-10-29 10:08:55",
         "price": 71.24
+      },
+      {
+        "date": "2026-10-29 13:39:50",
+        "price": 70.21
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-29 13:10:02",
-      "old_price": 71.24,
-      "new_price": 57.85
-    }
+    "pending_drop": null
   },
   "fear of music": {
     "current": 30.89,
@@ -2760,11 +2760,15 @@
     "pending_drop": null
   },
   "noctourniquet": {
-    "current": 40.41,
+    "current": 40.01,
     "history": [
       {
         "date": "2026-10-29 10:08:55",
         "price": 40.41
+      },
+      {
+        "date": "2026-10-29 13:39:50",
+        "price": 40.01
       }
     ],
     "pending_drop": null
@@ -3091,24 +3095,6 @@
       {
         "date": "2026-10-29 10:08:55",
         "price": 27.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "let love in": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-10-28 13:28:07",
-        "price": 29.99
-      },
-      {
-        "date": "2026-10-28 22:09:41",
-        "price": 29.99
-      },
-      {
-        "date": "2026-10-29 10:08:55",
-        "price": 29.99
       }
     ],
     "pending_drop": null
