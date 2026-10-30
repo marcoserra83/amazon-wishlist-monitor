@@ -1,4 +1,14 @@
 {
+  "star nero": {
+    "current": 40.95,
+    "history": [
+      {
+        "date": "2026-10-30 05:53:08",
+        "price": 40.95
+      }
+    ],
+    "pending_drop": null
+  },
   "innerspeaker": {
     "current": 29.89,
     "history": [
@@ -9,22 +19,12 @@
     ],
     "pending_drop": null
   },
-  "mainstream": {
-    "current": 33.21,
+  "fear of the dawn": {
+    "current": 28.98,
     "history": [
       {
-        "date": "2026-10-30 05:34:11",
-        "price": 33.21
-      }
-    ],
-    "pending_drop": null
-  },
-  "relax": {
-    "current": 29.99,
-    "history": [
-      {
-        "date": "2026-10-30 05:42:53",
-        "price": 29.99
+        "date": "2026-10-30 05:53:08",
+        "price": 28.98
       }
     ],
     "pending_drop": null
@@ -39,12 +39,12 @@
     ],
     "pending_drop": null
   },
-  "amputechture": {
-    "current": 42.58,
+  "resta vile maschio dove vai": {
+    "current": 46.0,
     "history": [
       {
-        "date": "2026-10-30 05:34:11",
-        "price": 42.58
+        "date": "2026-10-30 05:53:08",
+        "price": 46.0
       }
     ],
     "pending_drop": null
@@ -59,62 +59,42 @@
     ],
     "pending_drop": null
   },
-  "blood sugar sex magik": {
-    "current": 37.9,
+  "tracy chapman talkin about a revolution": {
+    "current": 73.07,
     "history": [
       {
-        "date": "2026-10-30 04:49:31",
-        "price": 37.9
+        "date": "2026-10-30 05:53:08",
+        "price": 73.07
       }
     ],
     "pending_drop": null
   },
-  "like clockwork": {
-    "current": 34.1,
+  "naked": {
+    "current": 28.76,
     "history": [
       {
-        "date": "2026-10-30 05:42:53",
-        "price": 34.1
+        "date": "2026-10-30 05:53:08",
+        "price": 28.76
       }
     ],
     "pending_drop": null
   },
-  "the ballad of darren": {
-    "current": 25.9,
+  "follow the leader": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-10-30 05:42:53",
-        "price": 25.9
+        "date": "2026-10-30 05:53:08",
+        "price": 23.99
       }
     ],
     "pending_drop": null
   },
-  "a funk odyssey": {
-    "current": 33.99,
+  "top": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-10-30 05:42:53",
-        "price": 33.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "playing the angel": {
-    "current": 25.99,
-    "history": [
-      {
-        "date": "2026-10-30 05:42:53",
-        "price": 25.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "hatful of hollow": {
-    "current": 25.9,
-    "history": [
-      {
-        "date": "2026-10-30 05:34:11",
-        "price": 25.9
+        "date": "2026-10-30 05:53:08",
+        "price": 29.9
       }
     ],
     "pending_drop": null
@@ -129,12 +109,72 @@
     ],
     "pending_drop": null
   },
+  "money for nothing": {
+    "current": 33.4,
+    "history": [
+      {
+        "date": "2026-10-30 05:53:08",
+        "price": 33.4
+      }
+    ],
+    "pending_drop": null
+  },
+  "light grenades": {
+    "current": 31.86,
+    "history": [
+      {
+        "date": "2026-10-30 05:53:08",
+        "price": 31.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "morning view": {
+    "current": 31.86,
+    "history": [
+      {
+        "date": "2026-10-30 05:53:08",
+        "price": 31.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "sleeping with ghosts": {
+    "current": 22.05,
+    "history": [
+      {
+        "date": "2026-10-30 05:53:08",
+        "price": 22.05
+      }
+    ],
+    "pending_drop": null
+  },
   "our love to admire": {
     "current": 34.1,
     "history": [
       {
         "date": "2026-10-30 05:42:53",
         "price": 34.1
+      }
+    ],
+    "pending_drop": null
+  },
+  "metallica": {
+    "current": 34.9,
+    "history": [
+      {
+        "date": "2026-10-30 05:53:08",
+        "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "led zeppelin iv": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-10-30 05:53:08",
+        "price": 25.9
       }
     ],
     "pending_drop": null
@@ -149,16 +189,6 @@
     ],
     "pending_drop": null
   },
-  "kill em all": {
-    "current": 31.95,
-    "history": [
-      {
-        "date": "2026-10-30 05:34:11",
-        "price": 31.95
-      }
-    ],
-    "pending_drop": null
-  },
   "load": {
     "current": 45.95,
     "history": [
@@ -169,12 +199,32 @@
     ],
     "pending_drop": null
   },
-  "fabrizio de andre": {
-    "current": 27.99,
+  "interpol": {
+    "current": 46.64,
     "history": [
       {
-        "date": "2026-10-30 05:42:53",
-        "price": 27.99
+        "date": "2026-10-30 05:53:08",
+        "price": 46.64
+      }
+    ],
+    "pending_drop": null
+  },
+  "soft parade": {
+    "current": 30.89,
+    "history": [
+      {
+        "date": "2026-10-30 05:53:08",
+        "price": 30.89
+      }
+    ],
+    "pending_drop": null
+  },
+  "heroes": {
+    "current": 31.99,
+    "history": [
+      {
+        "date": "2026-10-30 05:53:08",
+        "price": 31.99
       }
     ],
     "pending_drop": null
