@@ -1,4 +1,14 @@
 {
+  "honky chateau gold": {
+    "current": 36.72,
+    "history": [
+      {
+        "date": "2026-10-30 06:13:17",
+        "price": 36.72
+      }
+    ],
+    "pending_drop": null
+  },
   "innerspeaker": {
     "current": 29.89,
     "history": [
@@ -9,22 +19,12 @@
     ],
     "pending_drop": null
   },
-  "vauxhall i definitive": {
-    "current": 26.74,
+  "die": {
+    "current": 69.99,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 26.74
-      }
-    ],
-    "pending_drop": null
-  },
-  "fear of the dawn": {
-    "current": 28.98,
-    "history": [
-      {
-        "date": "2026-10-30 05:53:08",
-        "price": 28.98
+        "date": "2026-10-30 06:13:17",
+        "price": 69.99
       }
     ],
     "pending_drop": null
@@ -39,22 +39,22 @@
     ],
     "pending_drop": null
   },
-  "songs of a lost world": {
-    "current": 31.9,
+  "amputechture": {
+    "current": 42.58,
     "history": [
       {
-        "date": "2026-10-30 05:34:11",
-        "price": 31.9
+        "date": "2026-10-30 06:13:17",
+        "price": 42.58
       }
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 28.76,
+  "adore": {
+    "current": 45.95,
     "history": [
       {
-        "date": "2026-10-30 05:53:08",
-        "price": 28.76
+        "date": "2026-10-30 06:13:17",
+        "price": 45.95
       }
     ],
     "pending_drop": null
@@ -69,22 +69,12 @@
     ],
     "pending_drop": null
   },
-  "follow the leader": {
-    "current": 23.99,
+  "up": {
+    "current": 40.95,
     "history": [
       {
-        "date": "2026-10-30 05:53:08",
-        "price": 23.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "new adventures in hi fi": {
-    "current": 46.88,
-    "history": [
-      {
-        "date": "2026-10-30 06:03:12",
-        "price": 46.88
+        "date": "2026-10-30 06:13:17",
+        "price": 40.95
       }
     ],
     "pending_drop": null
@@ -99,6 +89,16 @@
     ],
     "pending_drop": null
   },
+  "like clockwork": {
+    "current": 34.1,
+    "history": [
+      {
+        "date": "2026-10-30 06:13:17",
+        "price": 34.1
+      }
+    ],
+    "pending_drop": null
+  },
   "dynamite": {
     "current": 33.99,
     "history": [
@@ -109,22 +109,22 @@
     ],
     "pending_drop": null
   },
-  "a funk odyssey": {
-    "current": 33.99,
+  "synkronized": {
+    "current": 20.04,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 33.99
+        "date": "2026-10-30 06:13:17",
+        "price": 20.04
       }
     ],
     "pending_drop": null
   },
-  "playing the angel": {
-    "current": 25.99,
+  "emergency on planet earth": {
+    "current": 40.99,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 25.99
+        "date": "2026-10-30 06:13:17",
+        "price": 40.99
       }
     ],
     "pending_drop": null
@@ -139,32 +139,32 @@
     ],
     "pending_drop": null
   },
-  "top": {
-    "current": 29.9,
+  "swing in the films of woody allen": {
+    "current": 19.69,
     "history": [
       {
-        "date": "2026-10-30 05:53:08",
-        "price": 29.9
+        "date": "2026-10-30 06:13:17",
+        "price": 19.69
       }
     ],
     "pending_drop": null
   },
-  "hatful of hollow": {
-    "current": 25.9,
+  "light grenades": {
+    "current": 31.86,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 25.9
+        "date": "2026-10-30 06:13:17",
+        "price": 31.86
       }
     ],
     "pending_drop": null
   },
-  "good bye lenin": {
-    "current": 30.86,
+  "vol 3 the subliminal verses violet": {
+    "current": 52.88,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 30.86
+        "date": "2026-10-30 06:13:17",
+        "price": 52.88
       }
     ],
     "pending_drop": null
@@ -199,12 +199,42 @@
     ],
     "pending_drop": null
   },
-  "and justice for all": {
-    "current": 44.76,
+  "festival session 2 bonus tracks": {
+    "current": 50.83,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 44.76
+        "date": "2026-10-30 06:13:17",
+        "price": 50.83
+      }
+    ],
+    "pending_drop": null
+  },
+  "kill em all": {
+    "current": 31.95,
+    "history": [
+      {
+        "date": "2026-10-30 06:13:17",
+        "price": 31.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "s m2 box": {
+    "current": 95.88,
+    "history": [
+      {
+        "date": "2026-10-30 06:13:17",
+        "price": 95.88
+      }
+    ],
+    "pending_drop": null
+  },
+  "master of puppets": {
+    "current": 33.38,
+    "history": [
+      {
+        "date": "2026-10-30 06:13:17",
+        "price": 33.38
       }
     ],
     "pending_drop": null
@@ -229,12 +259,22 @@
     ],
     "pending_drop": null
   },
-  "fabrizio de andre": {
-    "current": 27.99,
+  "back in": {
+    "current": 20.04,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 27.99
+        "date": "2026-10-30 06:13:17",
+        "price": 20.04
+      }
+    ],
+    "pending_drop": null
+  },
+  "anime salve": {
+    "current": 24.13,
+    "history": [
+      {
+        "date": "2026-10-30 06:13:17",
+        "price": 24.13
       }
     ],
     "pending_drop": null
@@ -259,32 +299,12 @@
     ],
     "pending_drop": null
   },
-  "soft parade": {
-    "current": 30.89,
+  "ghosteen": {
+    "current": 31.41,
     "history": [
       {
-        "date": "2026-10-30 05:53:08",
-        "price": 30.89
-      }
-    ],
-    "pending_drop": null
-  },
-  "morrison hotel": {
-    "current": 32.66,
-    "history": [
-      {
-        "date": "2026-10-30 06:03:12",
-        "price": 32.66
-      }
-    ],
-    "pending_drop": null
-  },
-  "heroes": {
-    "current": 31.99,
-    "history": [
-      {
-        "date": "2026-10-30 05:53:08",
-        "price": 31.99
+        "date": "2026-10-30 06:13:17",
+        "price": 31.41
       }
     ],
     "pending_drop": null
