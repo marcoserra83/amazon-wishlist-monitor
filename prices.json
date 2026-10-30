@@ -248,11 +248,15 @@
     "pending_drop": null
   },
   "new adventures in hi fi": {
-    "current": 50.3,
+    "current": 51.31,
     "history": [
       {
         "date": "2026-10-30 21:49:08",
         "price": 50.3
+      },
+      {
+        "date": "2026-10-30 23:39:27",
+        "price": 51.31
       }
     ],
     "pending_drop": null
@@ -718,11 +722,15 @@
     "pending_drop": null
   },
   "anime salve": {
-    "current": 24.13,
+    "current": 24.99,
     "history": [
       {
         "date": "2026-10-30 21:49:08",
         "price": 24.13
+      },
+      {
+        "date": "2026-10-30 23:39:27",
+        "price": 24.99
       }
     ],
     "pending_drop": null
