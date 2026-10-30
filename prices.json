@@ -344,11 +344,15 @@
     "pending_drop": null
   },
   "synkronized": {
-    "current": 20.04,
+    "current": 22.27,
     "history": [
       {
         "date": "2026-10-30 16:18:56",
         "price": 20.04
+      },
+      {
+        "date": "2026-10-30 17:59:09",
+        "price": 22.27
       }
     ],
     "pending_drop": null
