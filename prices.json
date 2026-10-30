@@ -1,20 +1,20 @@
 {
+  "honky chateau": {
+    "current": 34.9,
+    "history": [
+      {
+        "date": "2026-10-30 07:23:01",
+        "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
   "fear of the dawn": {
     "current": 28.98,
     "history": [
       {
         "date": "2026-10-30 07:12:54",
         "price": 28.98
-      }
-    ],
-    "pending_drop": null
-  },
-  "die": {
-    "current": 69.99,
-    "history": [
-      {
-        "date": "2026-10-30 06:32:48",
-        "price": 69.99
       }
     ],
     "pending_drop": null
@@ -39,22 +39,22 @@
     ],
     "pending_drop": null
   },
-  "adore": {
-    "current": 45.95,
+  "hot fuzz": {
+    "current": 30.17,
     "history": [
       {
-        "date": "2026-10-30 07:12:54",
-        "price": 45.95
+        "date": "2026-10-30 07:23:01",
+        "price": 30.17
       }
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 28.76,
+  "tracy chapman talkin about a revolution": {
+    "current": 73.07,
     "history": [
       {
-        "date": "2026-10-30 07:12:54",
-        "price": 28.76
+        "date": "2026-10-30 07:23:01",
+        "price": 73.07
       }
     ],
     "pending_drop": null
@@ -69,76 +69,52 @@
     ],
     "pending_drop": null
   },
-  "new adventures in hi fi": {
-    "current": 46.88,
+  "up": {
+    "current": 40.95,
     "history": [
       {
-        "date": "2026-10-30 07:12:54",
-        "price": 46.88
+        "date": "2026-10-30 07:23:01",
+        "price": 40.95
       }
     ],
     "pending_drop": null
   },
-  "bleach ed": {
-    "current": 24.75,
+  "blood sugar sex magik": {
+    "current": 37.9,
     "history": [
       {
-        "date": "2026-10-30 07:12:54",
-        "price": 24.75
+        "date": "2026-10-30 07:23:01",
+        "price": 37.9
       }
     ],
     "pending_drop": null
   },
-  "greatest hits": {
-    "current": 27.99,
+  "yield": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-10-30 07:12:54",
-        "price": 27.99
+        "date": "2026-10-30 07:23:01",
+        "price": 23.99
       }
     ],
     "pending_drop": null
   },
-  "emergency on planet earth": {
-    "current": 40.99,
+  "hatful of hollow": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-10-30 07:12:54",
-        "price": 40.99
+        "date": "2026-10-30 07:23:01",
+        "price": 25.9
       }
     ],
     "pending_drop": null
   },
-  "reggatta de blanc": {
-    "current": 33.05,
+  "the queen is dead": {
+    "current": 24.79,
     "history": [
       {
-        "date": "2026-10-30 07:12:54",
-        "price": 33.05
-      }
-    ],
-    "pending_drop": null
-  },
-  "la matematica dei rami": {
-    "current": 17.06,
-    "history": [
-      {
-        "date": "2026-10-30 07:12:54",
-        "price": 17.06
-      }
-    ],
-    "pending_drop": null
-  },
-  "swing in the films of woody allen": {
-    "current": 27.8,
-    "history": [
-      {
-        "date": "2026-10-30 06:42:53",
-        "price": 19.69
-      },
-      {
-        "date": "2026-10-30 07:12:54",
-        "price": 27.8
+        "date": "2026-10-30 07:23:01",
+        "price": 24.79
       }
     ],
     "pending_drop": null
@@ -153,12 +129,42 @@
     ],
     "pending_drop": null
   },
+  "ignition": {
+    "current": 22.27,
+    "history": [
+      {
+        "date": "2026-10-30 07:23:01",
+        "price": 22.27
+      }
+    ],
+    "pending_drop": null
+  },
+  "money for nothing": {
+    "current": 33.4,
+    "history": [
+      {
+        "date": "2026-10-30 07:23:01",
+        "price": 33.4
+      }
+    ],
+    "pending_drop": null
+  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
       {
         "date": "2026-10-30 06:42:53",
         "price": 30.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-10-30 07:23:01",
+        "price": 28.42
       }
     ],
     "pending_drop": null
@@ -173,42 +179,12 @@
     ],
     "pending_drop": null
   },
-  "out of time": {
-    "current": 25.36,
-    "history": [
-      {
-        "date": "2026-10-30 07:12:54",
-        "price": 25.36
-      }
-    ],
-    "pending_drop": null
-  },
   "noctourniquet": {
     "current": 40.01,
     "history": [
       {
         "date": "2026-10-30 06:42:53",
         "price": 40.01
-      }
-    ],
-    "pending_drop": null
-  },
-  "our love to admire": {
-    "current": 34.1,
-    "history": [
-      {
-        "date": "2026-10-30 06:22:44",
-        "price": 34.1
-      }
-    ],
-    "pending_drop": null
-  },
-  "led zeppelin iii": {
-    "current": 32.0,
-    "history": [
-      {
-        "date": "2026-10-30 07:12:54",
-        "price": 32.0
       }
     ],
     "pending_drop": null
@@ -223,32 +199,32 @@
     ],
     "pending_drop": null
   },
-  "s m2 box": {
-    "current": 95.88,
-    "history": [
-      {
-        "date": "2026-10-30 06:42:53",
-        "price": 95.88
-      }
-    ],
-    "pending_drop": null
-  },
-  "load": {
-    "current": 45.95,
-    "history": [
-      {
-        "date": "2026-10-30 06:22:44",
-        "price": 45.95
-      }
-    ],
-    "pending_drop": null
-  },
   "and justice for all": {
     "current": 44.76,
     "history": [
       {
         "date": "2026-10-30 07:12:54",
         "price": 44.76
+      }
+    ],
+    "pending_drop": null
+  },
+  "master of puppets": {
+    "current": 33.38,
+    "history": [
+      {
+        "date": "2026-10-30 07:23:01",
+        "price": 33.38
+      }
+    ],
+    "pending_drop": null
+  },
+  "mezzanine": {
+    "current": 35.99,
+    "history": [
+      {
+        "date": "2026-10-30 07:23:01",
+        "price": 35.99
       }
     ],
     "pending_drop": null
@@ -263,22 +239,22 @@
     ],
     "pending_drop": null
   },
-  "fabrizio de andre": {
-    "current": 27.99,
+  "interpol": {
+    "current": 46.64,
     "history": [
       {
-        "date": "2026-10-30 07:12:54",
-        "price": 27.99
+        "date": "2026-10-30 07:23:01",
+        "price": 46.64
       }
     ],
     "pending_drop": null
   },
-  "soft parade": {
-    "current": 30.89,
+  "ghosteen": {
+    "current": 31.41,
     "history": [
       {
-        "date": "2026-10-30 07:12:54",
-        "price": 30.89
+        "date": "2026-10-30 07:23:01",
+        "price": 31.41
       }
     ],
     "pending_drop": null
