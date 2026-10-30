@@ -1,60 +1,130 @@
 {
-  "cosa faremo da grandi": {
-    "current": 30.99,
+  "honky chateau gold": {
+    "current": 36.72,
     "history": [
       {
-        "date": "2026-10-30 06:22:44",
-        "price": 30.99
+        "date": "2026-10-30 06:32:48",
+        "price": 36.72
       }
     ],
     "pending_drop": null
   },
-  "relax": {
-    "current": 29.99,
+  "l ornamento delle cose secondarie nero": {
+    "current": 30.15,
     "history": [
       {
-        "date": "2026-10-30 06:22:44",
-        "price": 29.99
+        "date": "2026-10-30 06:32:48",
+        "price": 30.15
       }
     ],
     "pending_drop": null
   },
-  "tracy chapman talkin about a revolution": {
-    "current": 73.07,
+  "innerspeaker": {
+    "current": 29.89,
     "history": [
       {
-        "date": "2026-10-30 06:22:44",
-        "price": 73.07
+        "date": "2026-10-30 06:32:48",
+        "price": 29.89
       }
     ],
     "pending_drop": null
   },
-  "remain in light": {
-    "current": 25.9,
+  "fear of the dawn": {
+    "current": 28.98,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 25.9
+        "date": "2026-10-30 06:32:48",
+        "price": 28.98
       }
     ],
     "pending_drop": null
   },
-  "riot on a empty street": {
-    "current": 48.77,
+  "die": {
+    "current": 69.99,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 48.77
+        "date": "2026-10-30 06:32:48",
+        "price": 69.99
       }
     ],
     "pending_drop": null
   },
-  "synkronized": {
-    "current": 20.04,
+  "evergreen e altre canzoni": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-10-30 06:13:17",
-        "price": 20.04
+        "date": "2026-10-30 06:32:48",
+        "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "disco x 180 gr": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-10-30 06:32:48",
+        "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "naked": {
+    "current": 28.76,
+    "history": [
+      {
+        "date": "2026-10-30 06:32:48",
+        "price": 28.76
+      }
+    ],
+    "pending_drop": null
+  },
+  "follow the leader": {
+    "current": 23.99,
+    "history": [
+      {
+        "date": "2026-10-30 06:32:48",
+        "price": 23.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "up": {
+    "current": 40.95,
+    "history": [
+      {
+        "date": "2026-10-30 06:32:48",
+        "price": 40.95
+      }
+    ],
+    "pending_drop": null
+  },
+  "bleach ed": {
+    "current": 24.75,
+    "history": [
+      {
+        "date": "2026-10-30 06:32:48",
+        "price": 24.75
+      }
+    ],
+    "pending_drop": null
+  },
+  "greatest hits": {
+    "current": 27.99,
+    "history": [
+      {
+        "date": "2026-10-30 06:32:48",
+        "price": 27.99
+      }
+    ],
+    "pending_drop": null
+  },
+  "octahedron": {
+    "current": 51.87,
+    "history": [
+      {
+        "date": "2026-10-30 06:32:48",
+        "price": 51.87
       }
     ],
     "pending_drop": null
@@ -69,22 +139,22 @@
     ],
     "pending_drop": null
   },
-  "swing in the films of woody allen": {
-    "current": 19.69,
+  "top": {
+    "current": 29.9,
     "history": [
       {
-        "date": "2026-10-30 06:13:17",
-        "price": 19.69
+        "date": "2026-10-30 06:32:48",
+        "price": 29.9
       }
     ],
     "pending_drop": null
   },
-  "money for nothing": {
-    "current": 33.4,
+  "ignition": {
+    "current": 22.27,
     "history": [
       {
-        "date": "2026-10-30 06:22:44",
-        "price": 33.4
+        "date": "2026-10-30 06:32:48",
+        "price": 22.27
       }
     ],
     "pending_drop": null
@@ -99,12 +169,12 @@
     ],
     "pending_drop": null
   },
-  "out of time": {
-    "current": 25.36,
+  "marauder": {
+    "current": 28.42,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 25.36
+        "date": "2026-10-30 06:32:48",
+        "price": 28.42
       }
     ],
     "pending_drop": null
@@ -115,16 +185,6 @@
       {
         "date": "2026-10-30 06:22:44",
         "price": 34.1
-      }
-    ],
-    "pending_drop": null
-  },
-  "metallica": {
-    "current": 34.9,
-    "history": [
-      {
-        "date": "2026-10-30 05:53:08",
-        "price": 34.9
       }
     ],
     "pending_drop": null
@@ -149,22 +209,22 @@
     ],
     "pending_drop": null
   },
+  "kill em all": {
+    "current": 31.95,
+    "history": [
+      {
+        "date": "2026-10-30 06:32:48",
+        "price": 31.95
+      }
+    ],
+    "pending_drop": null
+  },
   "load": {
     "current": 45.95,
     "history": [
       {
         "date": "2026-10-30 06:22:44",
         "price": 45.95
-      }
-    ],
-    "pending_drop": null
-  },
-  "master of puppets": {
-    "current": 33.38,
-    "history": [
-      {
-        "date": "2026-10-30 06:13:17",
-        "price": 33.38
       }
     ],
     "pending_drop": null
@@ -179,52 +239,22 @@
     ],
     "pending_drop": null
   },
-  "appetite for destruction": {
-    "current": 29.9,
+  "interpol": {
+    "current": 46.64,
     "history": [
       {
-        "date": "2026-10-30 06:03:12",
-        "price": 29.9
+        "date": "2026-10-30 06:32:48",
+        "price": 46.64
       }
     ],
     "pending_drop": null
   },
-  "anime salve": {
-    "current": 24.13,
+  "soft parade": {
+    "current": 30.89,
     "history": [
       {
-        "date": "2026-10-30 06:13:17",
-        "price": 24.13
-      }
-    ],
-    "pending_drop": null
-  },
-  "let love in": {
-    "current": 26.99,
-    "history": [
-      {
-        "date": "2026-10-30 06:03:12",
-        "price": 26.99
-      }
-    ],
-    "pending_drop": null
-  },
-  "camera a sud": {
-    "current": 33.21,
-    "history": [
-      {
-        "date": "2026-10-30 06:22:44",
-        "price": 33.21
-      }
-    ],
-    "pending_drop": null
-  },
-  "the rise and fall of ziggy stardust": {
-    "current": 26.01,
-    "history": [
-      {
-        "date": "2026-10-30 06:22:44",
-        "price": 26.01
+        "date": "2026-10-30 06:32:48",
+        "price": 30.89
       }
     ],
     "pending_drop": null
