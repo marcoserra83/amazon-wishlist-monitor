@@ -9,12 +9,22 @@
     ],
     "pending_drop": null
   },
-  "cosa faremo da grandi": {
-    "current": 30.99,
+  "honky chateau": {
+    "current": 34.9,
     "history": [
       {
-        "date": "2026-10-30 12:22:58",
-        "price": 30.99
+        "date": "2026-10-30 12:53:12",
+        "price": 34.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "die": {
+    "current": 69.99,
+    "history": [
+      {
+        "date": "2026-10-30 12:53:12",
+        "price": 69.99
       }
     ],
     "pending_drop": null
@@ -29,32 +39,22 @@
     ],
     "pending_drop": null
   },
-  "adore": {
-    "current": 45.95,
+  "fear of music": {
+    "current": 30.89,
     "history": [
       {
-        "date": "2026-10-30 12:42:57",
-        "price": 45.95
+        "date": "2026-10-30 12:53:12",
+        "price": 30.89
       }
     ],
     "pending_drop": null
   },
-  "naked": {
-    "current": 28.76,
+  "follow the leader": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-10-30 12:42:57",
-        "price": 28.76
-      }
-    ],
-    "pending_drop": null
-  },
-  "up": {
-    "current": 40.95,
-    "history": [
-      {
-        "date": "2026-10-30 12:22:58",
-        "price": 40.95
+        "date": "2026-10-30 12:53:12",
+        "price": 23.99
       }
     ],
     "pending_drop": null
@@ -79,22 +79,42 @@
     ],
     "pending_drop": null
   },
-  "dynamite": {
-    "current": 33.99,
+  "yield": {
+    "current": 23.99,
     "history": [
       {
-        "date": "2026-10-30 12:22:58",
-        "price": 33.99
+        "date": "2026-10-30 12:53:12",
+        "price": 23.99
       }
     ],
     "pending_drop": null
   },
-  "a funk odyssey": {
-    "current": 33.99,
+  "reggatta de blanc": {
+    "current": 33.05,
     "history": [
       {
-        "date": "2026-10-30 12:22:58",
-        "price": 33.99
+        "date": "2026-10-30 12:53:12",
+        "price": 33.05
+      }
+    ],
+    "pending_drop": null
+  },
+  "la matematica dei rami": {
+    "current": 17.06,
+    "history": [
+      {
+        "date": "2026-10-30 12:53:12",
+        "price": 17.06
+      }
+    ],
+    "pending_drop": null
+  },
+  "swing in the films of woody allen": {
+    "current": 19.69,
+    "history": [
+      {
+        "date": "2026-10-30 12:53:12",
+        "price": 19.69
       }
     ],
     "pending_drop": null
@@ -109,22 +129,32 @@
     ],
     "pending_drop": null
   },
-  "money for nothing": {
-    "current": 33.4,
-    "history": [
-      {
-        "date": "2026-10-30 12:22:58",
-        "price": 33.4
-      }
-    ],
-    "pending_drop": null
-  },
   "good bye lenin": {
     "current": 30.86,
     "history": [
       {
         "date": "2026-10-30 12:42:57",
         "price": 30.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "light grenades": {
+    "current": 31.86,
+    "history": [
+      {
+        "date": "2026-10-30 12:53:12",
+        "price": 31.86
+      }
+    ],
+    "pending_drop": null
+  },
+  "marauder": {
+    "current": 28.42,
+    "history": [
+      {
+        "date": "2026-10-30 12:53:12",
+        "price": 28.42
       }
     ],
     "pending_drop": null
@@ -139,62 +169,82 @@
     ],
     "pending_drop": null
   },
-  "kill em all": {
-    "current": 31.95,
+  "our love to admire": {
+    "current": 34.1,
     "history": [
       {
-        "date": "2026-10-30 12:42:57",
-        "price": 31.95
+        "date": "2026-10-30 12:53:12",
+        "price": 34.1
       }
     ],
     "pending_drop": null
   },
-  "and justice for all": {
-    "current": 44.76,
+  "led zeppelin iv": {
+    "current": 25.9,
     "history": [
       {
-        "date": "2026-10-30 12:42:57",
-        "price": 44.76
+        "date": "2026-10-30 12:53:12",
+        "price": 25.9
       }
     ],
     "pending_drop": null
   },
-  "appetite for destruction": {
-    "current": 29.9,
+  "s m2 box": {
+    "current": 95.88,
     "history": [
       {
-        "date": "2026-10-30 12:13:24",
-        "price": 29.9
+        "date": "2026-10-30 12:53:12",
+        "price": 95.88
       }
     ],
     "pending_drop": null
   },
-  "guest star bill evans alone together": {
-    "current": 27.57,
+  "load": {
+    "current": 45.95,
     "history": [
       {
-        "date": "2026-10-30 12:42:57",
-        "price": 27.57
+        "date": "2026-10-30 12:53:12",
+        "price": 45.95
       }
     ],
     "pending_drop": null
   },
-  "fabrizio de andre": {
-    "current": 27.99,
+  "mezzanine": {
+    "current": 35.99,
     "history": [
       {
-        "date": "2026-10-30 12:13:24",
-        "price": 27.99
+        "date": "2026-10-30 12:53:12",
+        "price": 35.99
       }
     ],
     "pending_drop": null
   },
-  "heroes": {
-    "current": 32.35,
+  "camera a sud": {
+    "current": 33.21,
     "history": [
       {
-        "date": "2026-10-30 11:43:02",
-        "price": 32.35
+        "date": "2026-10-30 12:53:12",
+        "price": 33.21
+      }
+    ],
+    "pending_drop": null
+  },
+  "morrison hotel": {
+    "current": 32.66,
+    "history": [
+      {
+        "date": "2026-10-30 12:53:12",
+        "price": 32.66
+      }
+    ],
+    "pending_drop": null
+  },
+  "ghosteen": {
+    "current": 31.41,
+    "history": [
+      {
+        "date": "2026-10-30 12:53:12",
+        "price": 31.41
       }
     ],
     "pending_drop": null
