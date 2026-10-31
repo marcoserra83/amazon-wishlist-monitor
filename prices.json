@@ -280,14 +280,18 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.77,
+    "current": 40.87,
     "history": [
       {
         "date": "2026-10-30 21:49:08",
         "price": 48.77
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-31 07:18:54",
+      "old_price": 48.77,
+      "new_price": 40.87
+    }
   },
   "like clockwork": {
     "current": 34.1,
@@ -560,11 +564,15 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 22.05,
+    "current": 24.5,
     "history": [
       {
         "date": "2026-10-31 02:19:06",
         "price": 22.05
+      },
+      {
+        "date": "2026-10-31 07:18:54",
+        "price": 24.5
       }
     ],
     "pending_drop": null
