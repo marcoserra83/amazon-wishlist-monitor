@@ -174,7 +174,7 @@
     "pending_drop": null
   },
   "amputechture": {
-    "current": 42.58,
+    "current": 48.58,
     "history": [
       {
         "date": "2026-10-30 15:42:47",
@@ -187,6 +187,10 @@
       {
         "date": "2026-10-31 09:59:08",
         "price": 42.58
+      },
+      {
+        "date": "2026-10-31 15:19:05",
+        "price": 48.58
       }
     ],
     "pending_drop": null
