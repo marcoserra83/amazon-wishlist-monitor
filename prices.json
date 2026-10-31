@@ -174,7 +174,7 @@
     "pending_drop": null
   },
   "amputechture": {
-    "current": 48.58,
+    "current": 42.58,
     "history": [
       {
         "date": "2026-10-30 15:42:47",
@@ -193,7 +193,11 @@
         "price": 48.58
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-31 15:28:09",
+      "old_price": 48.58,
+      "new_price": 42.58
+    }
   },
   "adore": {
     "current": 45.95,
@@ -546,11 +550,15 @@
     "pending_drop": null
   },
   "money for nothing": {
-    "current": 33.4,
+    "current": 37.11,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
         "price": 33.4
+      },
+      {
+        "date": "2026-10-31 15:28:09",
+        "price": 37.11
       }
     ],
     "pending_drop": null
