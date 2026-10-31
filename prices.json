@@ -488,11 +488,15 @@
     "pending_drop": null
   },
   "la matematica dei rami": {
-    "current": 17.06,
+    "current": 23.96,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
         "price": 17.06
+      },
+      {
+        "date": "2026-10-31 17:38:03",
+        "price": 23.96
       }
     ],
     "pending_drop": null
@@ -538,14 +542,18 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 55.71,
+    "current": 49.74,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
         "price": 55.71
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-10-31 17:38:03",
+      "old_price": 55.71,
+      "new_price": 49.74
+    }
   },
   "ignition": {
     "current": 22.27,
@@ -712,11 +720,15 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 65.62,
+    "current": 68.91,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
         "price": 65.62
+      },
+      {
+        "date": "2026-10-31 17:38:03",
+        "price": 68.91
       }
     ],
     "pending_drop": null
