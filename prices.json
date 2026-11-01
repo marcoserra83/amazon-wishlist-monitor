@@ -434,7 +434,7 @@
     "pending_drop": null
   },
   "new adventures in hi fi": {
-    "current": 50.3,
+    "current": 48.39,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -447,6 +447,10 @@
       {
         "date": "2026-10-31 23:39:38",
         "price": 50.3
+      },
+      {
+        "date": "2026-11-01 16:29:06",
+        "price": 48.39
       }
     ],
     "pending_drop": null
