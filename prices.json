@@ -578,7 +578,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 38.89,
+    "current": 38.87,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -647,6 +647,10 @@
       {
         "date": "2026-11-01 17:38:57",
         "price": 38.89
+      },
+      {
+        "date": "2026-11-01 18:19:14",
+        "price": 38.87
       }
     ],
     "pending_drop": null
@@ -1272,7 +1276,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 69.25,
+    "current": 65.54,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -1295,7 +1299,11 @@
         "price": 69.25
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-01 18:19:14",
+      "old_price": 69.25,
+      "new_price": 65.54
+    }
   },
   "kill em all": {
     "current": 31.95,
