@@ -470,7 +470,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 39.42,
+    "current": 39.35,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -503,6 +503,10 @@
       {
         "date": "2026-11-01 03:09:21",
         "price": 39.42
+      },
+      {
+        "date": "2026-11-01 05:09:07",
+        "price": 39.35
       }
     ],
     "pending_drop": null
@@ -1178,7 +1182,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 37.15,
+    "current": 37.43,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -1187,13 +1191,13 @@
       {
         "date": "2026-10-31 23:28:31",
         "price": 46.53
+      },
+      {
+        "date": "2026-11-01 05:09:07",
+        "price": 37.43
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-10-31 23:39:38",
-      "old_price": 46.53,
-      "new_price": 37.15
-    }
+    "pending_drop": null
   },
   "camera a sud": {
     "current": 33.21,
