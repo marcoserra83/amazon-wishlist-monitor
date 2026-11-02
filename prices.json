@@ -524,7 +524,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.97,
+    "current": 50.95,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -593,6 +593,10 @@
       {
         "date": "2026-11-02 23:48:20",
         "price": 50.97
+      },
+      {
+        "date": "2026-11-03 00:18:23",
+        "price": 50.95
       }
     ],
     "pending_drop": null
@@ -2136,7 +2140,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 38.56,
+    "current": 44.3,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -2177,13 +2181,13 @@
       {
         "date": "2026-11-02 18:58:49",
         "price": 48.97
+      },
+      {
+        "date": "2026-11-03 00:18:23",
+        "price": 44.3
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-02 19:09:39",
-      "old_price": 48.97,
-      "new_price": 38.56
-    }
+    "pending_drop": null
   },
   "camera a sud": {
     "current": 33.21,
