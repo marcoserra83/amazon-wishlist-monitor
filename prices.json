@@ -266,7 +266,7 @@
     "pending_drop": null
   },
   "amputechture": {
-    "current": 48.58,
+    "current": 42.58,
     "history": [
       {
         "date": "2026-10-30 15:42:47",
@@ -297,7 +297,11 @@
         "price": 48.58
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-02 09:28:45",
+      "old_price": 48.58,
+      "new_price": 42.58
+    }
   },
   "adore": {
     "current": 45.95,
@@ -932,7 +936,7 @@
     }
   },
   "swing in the films of woody allen": {
-    "current": 19.69,
+    "current": 26.58,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -949,13 +953,13 @@
       {
         "date": "2026-11-01 17:19:25",
         "price": 27.58
+      },
+      {
+        "date": "2026-11-02 09:28:45",
+        "price": 26.58
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-01 17:29:03",
-      "old_price": 27.58,
-      "new_price": 19.69
-    }
+    "pending_drop": null
   },
   "top": {
     "current": 29.9,
