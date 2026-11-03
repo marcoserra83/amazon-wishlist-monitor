@@ -606,7 +606,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.79,
+    "current": 50.77,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -783,6 +783,10 @@
       {
         "date": "2026-11-03 21:19:11",
         "price": 50.79
+      },
+      {
+        "date": "2026-11-03 21:49:02",
+        "price": 50.77
       }
     ],
     "pending_drop": null
@@ -1062,7 +1066,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.52,
+    "current": 43.96,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -1165,7 +1169,11 @@
         "price": 48.52
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-03 21:49:02",
+      "old_price": 48.52,
+      "new_price": 43.96
+    }
   },
   "like clockwork": {
     "current": 34.1,
@@ -1978,7 +1986,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 28.89,
+    "current": 30.63,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -2007,6 +2015,10 @@
       {
         "date": "2026-11-03 20:59:01",
         "price": 28.89
+      },
+      {
+        "date": "2026-11-03 21:49:02",
+        "price": 30.63
       }
     ],
     "pending_drop": null
@@ -2308,7 +2320,7 @@
     "pending_drop": null
   },
   "and justice for all": {
-    "current": 46.94,
+    "current": 45.53,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -2333,6 +2345,10 @@
       {
         "date": "2026-11-03 20:59:01",
         "price": 46.94
+      },
+      {
+        "date": "2026-11-03 21:49:02",
+        "price": 45.53
       }
     ],
     "pending_drop": null
