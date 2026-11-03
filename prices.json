@@ -501,6 +501,16 @@
       "new_price": 23.58
     }
   },
+  "love over gold": {
+    "current": 33.05,
+    "history": [
+      {
+        "date": "2026-11-03 04:29:05",
+        "price": 33.05
+      }
+    ],
+    "pending_drop": null
+  },
   "disco x 180 gr": {
     "current": 29.9,
     "history": [
