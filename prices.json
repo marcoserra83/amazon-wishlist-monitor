@@ -1714,7 +1714,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 24.5,
+    "current": 28.89,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -1735,6 +1735,10 @@
       {
         "date": "2026-11-02 19:09:39",
         "price": 24.5
+      },
+      {
+        "date": "2026-11-03 11:48:54",
+        "price": 28.89
       }
     ],
     "pending_drop": null
@@ -1880,7 +1884,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 65.54,
+    "current": 69.48,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -1913,13 +1917,13 @@
       {
         "date": "2026-11-03 08:39:10",
         "price": 69.93
+      },
+      {
+        "date": "2026-11-03 11:48:54",
+        "price": 69.48
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-03 08:49:05",
-      "old_price": 69.93,
-      "new_price": 65.54
-    }
+    "pending_drop": null
   },
   "kill em all": {
     "current": 31.95,
