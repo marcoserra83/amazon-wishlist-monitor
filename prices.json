@@ -524,7 +524,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.95,
+    "current": 50.93,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -597,6 +597,10 @@
       {
         "date": "2026-11-03 00:18:23",
         "price": 50.95
+      },
+      {
+        "date": "2026-11-03 01:48:01",
+        "price": 50.93
       }
     ],
     "pending_drop": null
@@ -784,7 +788,7 @@
     "pending_drop": null
   },
   "new adventures in hi fi": {
-    "current": 46.9,
+    "current": 44.17,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -807,7 +811,11 @@
         "price": 46.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-03 01:48:01",
+      "old_price": 46.9,
+      "new_price": 44.17
+    }
   },
   "blood sugar sex magik": {
     "current": 37.9,
