@@ -606,7 +606,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.81,
+    "current": 50.79,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -779,6 +779,10 @@
       {
         "date": "2026-11-03 20:59:01",
         "price": 50.81
+      },
+      {
+        "date": "2026-11-03 21:19:11",
+        "price": 50.79
       }
     ],
     "pending_drop": null
@@ -2484,11 +2488,15 @@
     "pending_drop": null
   },
   "anime salve": {
-    "current": 24.99,
+    "current": 24.13,
     "history": [
       {
         "date": "2026-11-03 20:59:01",
         "price": 24.99
+      },
+      {
+        "date": "2026-11-03 21:19:11",
+        "price": 24.13
       }
     ],
     "pending_drop": null
