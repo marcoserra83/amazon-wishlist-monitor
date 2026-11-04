@@ -1,4 +1,14 @@
 {
+  "mio fratello e figlio unico 50 anniversario": {
+    "current": 30.13,
+    "history": [
+      {
+        "date": "2026-11-04 19:28:33",
+        "price": 30.13
+      }
+    ],
+    "pending_drop": null
+  },
   "star nero": {
     "current": 40.95,
     "history": [
@@ -578,7 +588,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.03,
+    "current": 51.44,
     "history": [
       {
         "date": "2026-11-04 10:39:24",
@@ -615,6 +625,10 @@
       {
         "date": "2026-11-04 17:28:50",
         "price": 51.03
+      },
+      {
+        "date": "2026-11-04 19:28:33",
+        "price": 51.44
       }
     ],
     "pending_drop": null
