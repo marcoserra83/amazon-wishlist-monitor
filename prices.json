@@ -502,7 +502,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.11,
+    "current": 51.09,
     "history": [
       {
         "date": "2026-11-04 10:39:24",
@@ -515,6 +515,10 @@
       {
         "date": "2026-11-04 11:59:04",
         "price": 51.11
+      },
+      {
+        "date": "2026-11-04 12:38:43",
+        "price": 51.09
       }
     ],
     "pending_drop": null
@@ -742,7 +746,7 @@
     "pending_drop": null
   },
   "swing in the films of woody allen": {
-    "current": 27.84,
+    "current": 19.69,
     "history": [
       {
         "date": "2026-11-04 10:39:24",
@@ -753,7 +757,11 @@
         "price": 27.84
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-04 12:38:43",
+      "old_price": 27.84,
+      "new_price": 19.69
+    }
   },
   "top": {
     "current": 29.9,
@@ -906,11 +914,15 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 30.63,
+    "current": 30.67,
     "history": [
       {
         "date": "2026-11-04 10:39:24",
         "price": 30.63
+      },
+      {
+        "date": "2026-11-04 12:38:43",
+        "price": 30.67
       }
     ],
     "pending_drop": null
