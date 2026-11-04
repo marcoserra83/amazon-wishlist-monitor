@@ -3843,6 +3843,16 @@
       "new_price": 38.85
     }
   },
+  "rebetiko gymnastas": {
+    "current": 99.99,
+    "history": [
+      {
+        "date": "2026-11-04 06:08:55",
+        "price": 99.99
+      }
+    ],
+    "pending_drop": null
+  },
   "camera a sud": {
     "current": 33.21,
     "history": [
