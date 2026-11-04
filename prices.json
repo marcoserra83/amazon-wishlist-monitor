@@ -344,7 +344,7 @@
     }
   },
   "fear of the dawn": {
-    "current": 28.98,
+    "current": 25.0,
     "history": [
       {
         "date": "2026-10-30 15:42:47",
@@ -379,11 +379,7 @@
         "price": 31.72
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-04 04:38:29",
-      "old_price": 31.72,
-      "new_price": 28.98
-    }
+    "pending_drop": null
   },
   "die": {
     "current": 69.99,
@@ -606,7 +602,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 43.66,
+    "current": 43.64,
     "history": [
       {
         "date": "2026-11-04 10:39:24",
@@ -627,6 +623,10 @@
       {
         "date": "2026-11-04 13:58:02",
         "price": 43.66
+      },
+      {
+        "date": "2026-11-04 14:48:46",
+        "price": 43.64
       }
     ],
     "pending_drop": null
@@ -1173,16 +1173,6 @@
       {
         "date": "2026-11-04 10:39:24",
         "price": 30.89
-      }
-    ],
-    "pending_drop": null
-  },
-  "morrison hotel": {
-    "current": 32.66,
-    "history": [
-      {
-        "date": "2026-11-04 10:39:24",
-        "price": 32.66
       }
     ],
     "pending_drop": null
