@@ -606,7 +606,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 43.64,
+    "current": 43.62,
     "history": [
       {
         "date": "2026-11-04 10:39:24",
@@ -631,6 +631,10 @@
       {
         "date": "2026-11-04 14:48:46",
         "price": 43.64
+      },
+      {
+        "date": "2026-11-04 15:47:45",
+        "price": 43.62
       }
     ],
     "pending_drop": null
@@ -787,6 +791,16 @@
       "new_price": 19.69
     }
   },
+  "tici canzoni urgenti": {
+    "current": 32.9,
+    "history": [
+      {
+        "date": "2026-11-04 15:47:45",
+        "price": 32.9
+      }
+    ],
+    "pending_drop": null
+  },
   "top": {
     "current": 29.9,
     "history": [
@@ -818,11 +832,15 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 54.99,
+    "current": 55.44,
     "history": [
       {
         "date": "2026-11-04 10:39:24",
         "price": 54.99
+      },
+      {
+        "date": "2026-11-04 15:47:45",
+        "price": 55.44
       }
     ],
     "pending_drop": null
@@ -1177,6 +1195,16 @@
       {
         "date": "2026-11-04 10:39:24",
         "price": 30.89
+      }
+    ],
+    "pending_drop": null
+  },
+  "morrison hotel": {
+    "current": 32.66,
+    "history": [
+      {
+        "date": "2026-11-04 15:47:45",
+        "price": 32.66
       }
     ],
     "pending_drop": null
