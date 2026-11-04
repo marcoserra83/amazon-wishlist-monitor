@@ -590,7 +590,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 43.72,
+    "current": 43.7,
     "history": [
       {
         "date": "2026-11-04 10:39:24",
@@ -599,6 +599,10 @@
       {
         "date": "2026-11-04 11:59:04",
         "price": 43.72
+      },
+      {
+        "date": "2026-11-04 12:29:12",
+        "price": 43.7
       }
     ],
     "pending_drop": null
@@ -738,11 +742,15 @@
     "pending_drop": null
   },
   "swing in the films of woody allen": {
-    "current": 19.69,
+    "current": 27.84,
     "history": [
       {
         "date": "2026-11-04 10:39:24",
         "price": 19.69
+      },
+      {
+        "date": "2026-11-04 12:29:12",
+        "price": 27.84
       }
     ],
     "pending_drop": null
