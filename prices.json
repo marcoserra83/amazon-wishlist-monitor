@@ -2387,6 +2387,16 @@
     ],
     "pending_drop": null
   },
+  "star": {
+    "current": 144.99,
+    "history": [
+      {
+        "date": "2026-11-04 03:38:30",
+        "price": 144.99
+      }
+    ],
+    "pending_drop": null
+  },
   "out of time": {
     "current": 25.36,
     "history": [
@@ -3168,7 +3178,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 38.56,
+    "current": 38.85,
     "history": [
       {
         "date": "2026-10-31 11:28:35",
@@ -3225,13 +3235,13 @@
       {
         "date": "2026-11-04 01:18:52",
         "price": 48.97
+      },
+      {
+        "date": "2026-11-04 03:38:30",
+        "price": 38.85
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-04 01:39:01",
-      "old_price": 48.97,
-      "new_price": 38.56
-    }
+    "pending_drop": null
   },
   "camera a sud": {
     "current": 33.21,
