@@ -168,5 +168,65 @@
       }
     ],
     "pending_drop": null
+  },
+  "hot fuzz": {
+    "current": 25.89,
+    "history": [
+      {
+        "date": "2026-11-05 18:03:54",
+        "price": 25.89
+      }
+    ],
+    "pending_drop": null
+  },
+  "disco x 180 gr": {
+    "current": 29.9,
+    "history": [
+      {
+        "date": "2026-11-05 18:03:54",
+        "price": 29.9
+      }
+    ],
+    "pending_drop": null
+  },
+  "tracy chapman talkin about a revolution": {
+    "current": 51.41,
+    "history": [
+      {
+        "date": "2026-11-05 18:03:54",
+        "price": 51.41
+      }
+    ],
+    "pending_drop": null
+  },
+  "fear of music": {
+    "current": 30.89,
+    "history": [
+      {
+        "date": "2026-11-05 18:03:54",
+        "price": 30.89
+      }
+    ],
+    "pending_drop": null
+  },
+  "naked": {
+    "current": 28.76,
+    "history": [
+      {
+        "date": "2026-11-05 18:03:54",
+        "price": 28.76
+      }
+    ],
+    "pending_drop": null
+  },
+  "remain in light": {
+    "current": 25.9,
+    "history": [
+      {
+        "date": "2026-11-05 18:03:54",
+        "price": 25.9
+      }
+    ],
+    "pending_drop": null
   }
 }
