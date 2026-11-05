@@ -871,16 +871,6 @@
     ],
     "pending_drop": null
   },
-  "love over gold": {
-    "current": 33.05,
-    "history": [
-      {
-        "date": "2026-11-05 06:09:07",
-        "price": 33.05
-      }
-    ],
-    "pending_drop": null
-  },
   "disco x 180 gr": {
     "current": 29.9,
     "history": [
@@ -892,7 +882,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.63,
+    "current": 51.61,
     "history": [
       {
         "date": "2026-11-05 06:09:07",
@@ -921,6 +911,10 @@
       {
         "date": "2026-11-05 12:18:21",
         "price": 51.63
+      },
+      {
+        "date": "2026-11-05 12:58:17",
+        "price": 51.61
       }
     ],
     "pending_drop": null
