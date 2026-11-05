@@ -42,7 +42,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 28.31,
+    "current": 28.3,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -51,13 +51,13 @@
       {
         "date": "2026-11-05 19:09:22",
         "price": 34.94
+      },
+      {
+        "date": "2026-11-05 21:18:57",
+        "price": 28.3
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-05 19:28:43",
-      "old_price": 34.94,
-      "new_price": 28.31
-    }
+    "pending_drop": null
   },
   "l ornamento delle cose secondarie nero": {
     "current": 30.15,
@@ -274,7 +274,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.35,
+    "current": 51.29,
     "history": [
       {
         "date": "2026-11-05 18:03:54",
@@ -295,6 +295,10 @@
       {
         "date": "2026-11-05 19:47:52",
         "price": 51.35
+      },
+      {
+        "date": "2026-11-05 21:18:57",
+        "price": 51.29
       }
     ],
     "pending_drop": null
@@ -676,7 +680,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 49.7,
+    "current": 54.75,
     "history": [
       {
         "date": "2026-11-05 18:59:17",
@@ -685,6 +689,10 @@
       {
         "date": "2026-11-05 19:28:43",
         "price": 49.7
+      },
+      {
+        "date": "2026-11-05 21:18:57",
+        "price": 54.75
       }
     ],
     "pending_drop": null
@@ -852,11 +860,15 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 25.84,
+    "current": 26.87,
     "history": [
       {
         "date": "2026-11-05 18:59:17",
         "price": 25.84
+      },
+      {
+        "date": "2026-11-05 21:18:57",
+        "price": 26.87
       }
     ],
     "pending_drop": null
