@@ -226,7 +226,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 28.28,
+    "current": 28.31,
     "history": [
       {
         "date": "2026-11-04 22:58:45",
@@ -247,13 +247,13 @@
       {
         "date": "2026-11-05 05:48:31",
         "price": 34.94
+      },
+      {
+        "date": "2026-11-05 13:58:57",
+        "price": 28.31
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-05 05:51:59",
-      "old_price": 34.94,
-      "new_price": 28.28
-    }
+    "pending_drop": null
   },
   "l ornamento delle cose secondarie nero": {
     "current": 30.15,
@@ -882,7 +882,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.57,
+    "current": 51.55,
     "history": [
       {
         "date": "2026-11-05 06:09:07",
@@ -919,6 +919,10 @@
       {
         "date": "2026-11-05 13:48:04",
         "price": 51.57
+      },
+      {
+        "date": "2026-11-05 13:58:57",
+        "price": 51.55
       }
     ],
     "pending_drop": null
