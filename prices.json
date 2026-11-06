@@ -266,7 +266,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.55,
+    "current": 51.51,
     "history": [
       {
         "date": "2026-11-05 22:57:38",
@@ -319,6 +319,10 @@
       {
         "date": "2026-11-06 06:28:24",
         "price": 51.55
+      },
+      {
+        "date": "2026-11-06 08:58:51",
+        "price": 51.51
       }
     ],
     "pending_drop": null
@@ -840,11 +844,15 @@
     "pending_drop": null
   },
   "master of puppets": {
-    "current": 33.4,
+    "current": 33.38,
     "history": [
       {
         "date": "2026-11-05 22:57:38",
         "price": 33.4
+      },
+      {
+        "date": "2026-11-06 08:58:51",
+        "price": 33.38
       }
     ],
     "pending_drop": null
