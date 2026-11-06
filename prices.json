@@ -46,7 +46,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 28.3,
+    "current": 34.94,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -67,6 +67,10 @@
       {
         "date": "2026-11-06 18:57:55",
         "price": 28.3
+      },
+      {
+        "date": "2026-11-07 00:09:17",
+        "price": 34.94
       }
     ],
     "pending_drop": null
@@ -122,7 +126,7 @@
     "pending_drop": null
   },
   "fear of the dawn": {
-    "current": 25.0,
+    "current": 28.98,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -131,13 +135,13 @@
       {
         "date": "2026-11-05 19:09:22",
         "price": 37.72
+      },
+      {
+        "date": "2026-11-07 00:09:17",
+        "price": 28.98
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-05 19:28:43",
-      "old_price": 37.72,
-      "new_price": 25.0
-    }
+    "pending_drop": null
   },
   "die": {
     "current": 69.99,
