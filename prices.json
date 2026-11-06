@@ -548,11 +548,15 @@
     "pending_drop": null
   },
   "la matematica dei rami": {
-    "current": 17.06,
+    "current": 23.96,
     "history": [
       {
         "date": "2026-11-05 22:57:38",
         "price": 17.06
+      },
+      {
+        "date": "2026-11-06 11:48:00",
+        "price": 23.96
       }
     ],
     "pending_drop": null
