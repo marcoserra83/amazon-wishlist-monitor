@@ -266,7 +266,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.49,
+    "current": 51.47,
     "history": [
       {
         "date": "2026-11-05 22:57:38",
@@ -327,6 +327,10 @@
       {
         "date": "2026-11-06 09:18:52",
         "price": 51.49
+      },
+      {
+        "date": "2026-11-06 10:28:28",
+        "price": 51.47
       }
     ],
     "pending_drop": null
@@ -604,11 +608,15 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 54.75,
+    "current": 56.11,
     "history": [
       {
         "date": "2026-11-05 22:57:38",
         "price": 54.75
+      },
+      {
+        "date": "2026-11-06 10:28:28",
+        "price": 56.11
       }
     ],
     "pending_drop": null
@@ -774,11 +782,15 @@
     "pending_drop": null
   },
   "festival session 2 bonus tracks": {
-    "current": 50.83,
+    "current": 52.42,
     "history": [
       {
         "date": "2026-11-05 22:57:38",
         "price": 50.83
+      },
+      {
+        "date": "2026-11-06 10:28:28",
+        "price": 52.42
       }
     ],
     "pending_drop": null
