@@ -46,7 +46,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 28.28,
+    "current": 28.3,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -63,6 +63,10 @@
       {
         "date": "2026-11-06 14:08:57",
         "price": 28.28
+      },
+      {
+        "date": "2026-11-06 18:57:55",
+        "price": 28.3
       }
     ],
     "pending_drop": null
@@ -676,14 +680,18 @@
     "pending_drop": null
   },
   "the beautiful people toronto broadcast 1998 more double vinyl": {
-    "current": 37.34,
+    "current": 33.5,
     "history": [
       {
         "date": "2026-11-05 22:57:38",
         "price": 37.34
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-06 18:57:55",
+      "old_price": 37.34,
+      "new_price": 33.5
+    }
   },
   "light grenades": {
     "current": 31.86,
@@ -760,7 +768,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 26.87,
+    "current": 30.68,
     "history": [
       {
         "date": "2026-11-05 22:57:38",
@@ -773,6 +781,10 @@
       {
         "date": "2026-11-06 17:08:59",
         "price": 26.87
+      },
+      {
+        "date": "2026-11-06 18:57:55",
+        "price": 30.68
       }
     ],
     "pending_drop": null
@@ -813,20 +825,6 @@
       {
         "date": "2026-11-05 22:57:38",
         "price": 32.0
-      }
-    ],
-    "pending_drop": null
-  },
-  "festival session 2 bonus tracks": {
-    "current": 52.42,
-    "history": [
-      {
-        "date": "2026-11-05 22:57:38",
-        "price": 50.83
-      },
-      {
-        "date": "2026-11-06 10:28:28",
-        "price": 52.42
       }
     ],
     "pending_drop": null
