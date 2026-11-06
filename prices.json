@@ -164,7 +164,7 @@
     "pending_drop": null
   },
   "mainstream": {
-    "current": 33.99,
+    "current": 33.21,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -177,6 +177,10 @@
       {
         "date": "2026-11-06 07:28:50",
         "price": 33.99
+      },
+      {
+        "date": "2026-11-06 19:08:22",
+        "price": 33.21
       }
     ],
     "pending_drop": null
