@@ -316,7 +316,7 @@
     "pending_drop": null
   },
   "fear of music": {
-    "current": 31.44,
+    "current": 30.89,
     "history": [
       {
         "date": "2026-11-05 22:57:38",
@@ -325,6 +325,10 @@
       {
         "date": "2026-11-06 05:58:22",
         "price": 31.44
+      },
+      {
+        "date": "2026-11-06 06:08:40",
+        "price": 30.89
       }
     ],
     "pending_drop": null
