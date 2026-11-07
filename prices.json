@@ -58,7 +58,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 34.94,
+    "current": 28.3,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -85,7 +85,11 @@
         "price": 34.94
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-07 05:28:07",
+      "old_price": 34.94,
+      "new_price": 28.3
+    }
   },
   "l ornamento delle cose secondarie nero": {
     "current": 30.15,
@@ -1078,7 +1082,7 @@
     "pending_drop": null
   },
   "master of puppets": {
-    "current": 33.38,
+    "current": 33.4,
     "history": [
       {
         "date": "2026-11-07 02:18:41",
@@ -1087,6 +1091,10 @@
       {
         "date": "2026-11-07 03:37:55",
         "price": 33.38
+      },
+      {
+        "date": "2026-11-07 05:28:07",
+        "price": 33.4
       }
     ],
     "pending_drop": null
