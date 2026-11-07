@@ -466,11 +466,15 @@
     "pending_drop": null
   },
   "new adventures in hi fi": {
-    "current": 45.95,
+    "current": 49.0,
     "history": [
       {
         "date": "2026-11-07 02:18:41",
         "price": 45.95
+      },
+      {
+        "date": "2026-11-07 10:38:46",
+        "price": 49.0
       }
     ],
     "pending_drop": null
@@ -936,7 +940,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 30.68,
+    "current": 30.91,
     "history": [
       {
         "date": "2026-11-07 02:18:41",
@@ -945,6 +949,10 @@
       {
         "date": "2026-11-07 03:37:55",
         "price": 30.68
+      },
+      {
+        "date": "2026-11-07 10:38:46",
+        "price": 30.91
       }
     ],
     "pending_drop": null
