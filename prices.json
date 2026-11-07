@@ -22,7 +22,7 @@
     "pending_drop": null
   },
   "star nero": {
-    "current": 41.99,
+    "current": 40.95,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -43,6 +43,10 @@
       {
         "date": "2026-11-07 16:28:13",
         "price": 41.99
+      },
+      {
+        "date": "2026-11-07 17:58:29",
+        "price": 40.95
       }
     ],
     "pending_drop": null
