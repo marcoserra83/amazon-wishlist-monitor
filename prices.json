@@ -976,7 +976,7 @@
     "pending_drop": null
   },
   "out of time": {
-    "current": 25.36,
+    "current": 25.99,
     "history": [
       {
         "date": "2026-11-07 11:48:41",
@@ -985,6 +985,10 @@
       {
         "date": "2026-11-07 16:28:13",
         "price": 25.36
+      },
+      {
+        "date": "2026-11-07 17:17:56",
+        "price": 25.99
       }
     ],
     "pending_drop": null
