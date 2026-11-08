@@ -1098,7 +1098,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 35.92,
+    "current": 43.13,
     "history": [
       {
         "date": "2026-11-08 07:18:03",
@@ -1107,6 +1107,10 @@
       {
         "date": "2026-11-08 23:08:04",
         "price": 35.92
+      },
+      {
+        "date": "2026-11-09 00:08:58",
+        "price": 43.13
       }
     ],
     "pending_drop": null
@@ -1162,11 +1166,15 @@
     "pending_drop": null
   },
   "substance": {
-    "current": 38.01,
+    "current": 39.5,
     "history": [
       {
         "date": "2026-11-08 07:18:03",
         "price": 38.01
+      },
+      {
+        "date": "2026-11-09 00:08:58",
+        "price": 39.5
       }
     ],
     "pending_drop": null
