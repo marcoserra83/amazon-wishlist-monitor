@@ -888,11 +888,15 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 30.91,
+    "current": 30.37,
     "history": [
       {
         "date": "2026-11-08 07:18:03",
         "price": 30.91
+      },
+      {
+        "date": "2026-11-08 11:38:17",
+        "price": 30.37
       }
     ],
     "pending_drop": null
