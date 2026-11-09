@@ -218,7 +218,7 @@
     }
   },
   "fear of the dawn": {
-    "current": 25.0,
+    "current": 28.98,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -239,13 +239,13 @@
       {
         "date": "2026-11-08 12:37:53",
         "price": 28.98
+      },
+      {
+        "date": "2026-11-09 10:17:45",
+        "price": 28.98
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-08 12:47:49",
-      "old_price": 28.98,
-      "new_price": 25.0
-    }
+    "pending_drop": null
   },
   "die": {
     "current": 69.99,
