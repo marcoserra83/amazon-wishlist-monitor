@@ -534,7 +534,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 25.89,
+    "current": 31.8,
     "history": [
       {
         "date": "2026-11-08 00:58:59",
@@ -547,13 +547,13 @@
       {
         "date": "2026-11-10 11:48:25",
         "price": 31.8
+      },
+      {
+        "date": "2026-11-11 00:38:01",
+        "price": 31.8
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-10 18:08:29",
-      "old_price": 31.8,
-      "new_price": 25.89
-    }
+    "pending_drop": null
   },
   "disco x 180 gr": {
     "current": 29.9,
@@ -570,7 +570,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 58.78,
+    "current": 58.76,
     "history": [
       {
         "date": "2026-11-08 00:58:59",
@@ -595,6 +595,10 @@
       {
         "date": "2026-11-10 23:48:13",
         "price": 58.78
+      },
+      {
+        "date": "2026-11-11 00:38:01",
+        "price": 58.76
       }
     ],
     "pending_drop": null
@@ -1194,7 +1198,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 31.06,
+    "current": 26.05,
     "history": [
       {
         "date": "2026-11-08 07:18:03",
@@ -1221,7 +1225,11 @@
         "price": 31.06
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-11 00:38:01",
+      "old_price": 31.06,
+      "new_price": 26.05
+    }
   },
   "our love to admire": {
     "current": 34.1,
