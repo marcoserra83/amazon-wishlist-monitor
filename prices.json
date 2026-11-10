@@ -534,7 +534,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 31.8,
+    "current": 25.89,
     "history": [
       {
         "date": "2026-11-08 00:58:59",
@@ -549,7 +549,11 @@
         "price": 31.8
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-10 18:08:29",
+      "old_price": 31.8,
+      "new_price": 25.89
+    }
   },
   "disco x 180 gr": {
     "current": 29.9,
@@ -1124,7 +1128,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 47.7,
+    "current": 45.08,
     "history": [
       {
         "date": "2026-11-08 07:18:03",
@@ -1139,11 +1143,7 @@
         "price": 55.02
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-10 10:08:51",
-      "old_price": 55.02,
-      "new_price": 47.7
-    }
+    "pending_drop": null
   },
   "out of time": {
     "current": 25.99,
@@ -1482,7 +1482,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 35.82,
+    "current": 43.13,
     "history": [
       {
         "date": "2026-11-08 07:18:03",
@@ -1503,13 +1503,13 @@
       {
         "date": "2026-11-10 09:49:03",
         "price": 43.13
+      },
+      {
+        "date": "2026-11-10 18:08:29",
+        "price": 43.13
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-10 10:08:51",
-      "old_price": 43.13,
-      "new_price": 35.82
-    }
+    "pending_drop": null
   },
   "rebetiko gymnastas": {
     "current": 99.99,
