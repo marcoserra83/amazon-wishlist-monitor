@@ -110,7 +110,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 28.27,
+    "current": 34.94,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -155,13 +155,13 @@
       {
         "date": "2026-11-11 01:10:28",
         "price": 34.94
+      },
+      {
+        "date": "2026-11-11 01:38:41",
+        "price": 34.94
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-11 01:28:31",
-      "old_price": 34.94,
-      "new_price": 28.27
-    }
+    "pending_drop": null
   },
   "l ornamento delle cose secondarie nero": {
     "current": 33.5,
@@ -282,7 +282,7 @@
     }
   },
   "fear of the dawn": {
-    "current": 25.0,
+    "current": 28.98,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -315,13 +315,13 @@
       {
         "date": "2026-11-11 01:10:28",
         "price": 28.98
+      },
+      {
+        "date": "2026-11-11 01:38:41",
+        "price": 28.98
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-11 01:28:31",
-      "old_price": 28.98,
-      "new_price": 25.0
-    }
+    "pending_drop": null
   },
   "die": {
     "current": 69.99,
@@ -1064,7 +1064,7 @@
     "pending_drop": null
   },
   "la matematica dei rami": {
-    "current": 17.06,
+    "current": 23.96,
     "history": [
       {
         "date": "2026-11-08 00:58:59",
@@ -1077,13 +1077,13 @@
       {
         "date": "2026-11-11 01:10:28",
         "price": 19.64
+      },
+      {
+        "date": "2026-11-11 01:38:41",
+        "price": 23.96
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-11 01:28:31",
-      "old_price": 19.64,
-      "new_price": 17.06
-    }
+    "pending_drop": null
   },
   "swing in the films of woody allen": {
     "current": 20.21,
@@ -1364,7 +1364,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 45.08,
+    "current": 47.7,
     "history": [
       {
         "date": "2026-11-08 07:18:03",
@@ -1389,13 +1389,13 @@
       {
         "date": "2026-11-11 01:10:28",
         "price": 55.02
+      },
+      {
+        "date": "2026-11-11 01:38:41",
+        "price": 47.7
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-11 01:28:31",
-      "old_price": 55.02,
-      "new_price": 45.08
-    }
+    "pending_drop": null
   },
   "out of time": {
     "current": 25.99,
@@ -1560,7 +1560,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 67.42,
+    "current": 65.54,
     "history": [
       {
         "date": "2026-11-08 07:18:03",
@@ -1601,6 +1601,10 @@
       {
         "date": "2026-11-11 01:28:31",
         "price": 67.42
+      },
+      {
+        "date": "2026-11-11 01:38:41",
+        "price": 65.54
       }
     ],
     "pending_drop": null
@@ -1894,7 +1898,7 @@
     }
   },
   "morrison hotel": {
-    "current": 37.91,
+    "current": 32.66,
     "history": [
       {
         "date": "2026-11-08 07:18:03",
@@ -1909,7 +1913,11 @@
         "price": 37.91
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-11 01:38:41",
+      "old_price": 37.91,
+      "new_price": 32.66
+    }
   },
   "ghosteen": {
     "current": 34.9,
