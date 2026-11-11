@@ -722,7 +722,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 25.89,
+    "current": 31.8,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
@@ -735,6 +735,10 @@
       {
         "date": "2026-11-11 22:38:32",
         "price": 25.89
+      },
+      {
+        "date": "2026-11-12 00:18:19",
+        "price": 31.8
       }
     ],
     "pending_drop": null
@@ -1622,7 +1626,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 34.09,
+    "current": 43.13,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
@@ -1631,13 +1635,13 @@
       {
         "date": "2026-11-11 22:18:56",
         "price": 43.13
+      },
+      {
+        "date": "2026-11-12 00:18:19",
+        "price": 43.13
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-11 22:38:32",
-      "old_price": 43.13,
-      "new_price": 34.09
-    }
+    "pending_drop": null
   },
   "rebetiko gymnastas": {
     "current": 99.99,
@@ -1708,24 +1712,6 @@
       }
     ],
     "pending_drop": null
-  },
-  "substance": {
-    "current": 39.5,
-    "history": [
-      {
-        "date": "2026-11-11 02:38:57",
-        "price": 39.5
-      },
-      {
-        "date": "2026-11-11 22:18:56",
-        "price": 43.19
-      }
-    ],
-    "pending_drop": {
-      "first_seen": "2026-11-11 22:38:32",
-      "old_price": 43.19,
-      "new_price": 39.5
-    }
   },
   "heroes": {
     "current": 32.99,
