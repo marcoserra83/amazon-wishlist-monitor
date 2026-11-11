@@ -848,11 +848,15 @@
     "pending_drop": null
   },
   "emergency on planet earth": {
-    "current": 40.99,
+    "current": 44.8,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
         "price": 40.99
+      },
+      {
+        "date": "2026-11-11 09:28:07",
+        "price": 44.8
       }
     ],
     "pending_drop": null
