@@ -798,11 +798,15 @@
     "pending_drop": null
   },
   "greatest hits": {
-    "current": 27.99,
+    "current": 27.45,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
         "price": 27.99
+      },
+      {
+        "date": "2026-11-11 11:28:33",
+        "price": 27.45
       }
     ],
     "pending_drop": null
@@ -1118,11 +1122,15 @@
     "pending_drop": null
   },
   "led zeppelin iii": {
-    "current": 32.0,
+    "current": 30.88,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
         "price": 32.0
+      },
+      {
+        "date": "2026-11-11 11:28:33",
+        "price": 30.88
       }
     ],
     "pending_drop": null
