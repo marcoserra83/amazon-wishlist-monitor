@@ -1168,7 +1168,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 49.87,
+    "current": 55.51,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
@@ -1177,6 +1177,10 @@
       {
         "date": "2026-11-11 22:38:32",
         "price": 49.87
+      },
+      {
+        "date": "2026-11-12 05:28:07",
+        "price": 55.51
       }
     ],
     "pending_drop": null
@@ -1342,7 +1346,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 30.52,
+    "current": 30.65,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
@@ -1355,6 +1359,10 @@
       {
         "date": "2026-11-11 22:38:32",
         "price": 30.52
+      },
+      {
+        "date": "2026-11-12 05:28:07",
+        "price": 30.65
       }
     ],
     "pending_drop": null
