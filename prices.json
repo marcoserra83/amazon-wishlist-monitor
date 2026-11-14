@@ -2466,7 +2466,7 @@
     "pending_drop": null
   },
   "reggatta de blanc": {
-    "current": 36.7,
+    "current": 33.99,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -2505,7 +2505,11 @@
         "price": 36.7
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-15 00:48:36",
+      "old_price": 36.7,
+      "new_price": 33.99
+    }
   },
   "la matematica dei rami": {
     "current": 17.06,
