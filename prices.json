@@ -3306,7 +3306,7 @@
     "pending_drop": null
   },
   "kill em all": {
-    "current": 31.95,
+    "current": 32.95,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -3339,6 +3339,10 @@
       {
         "date": "2026-11-14 10:28:28",
         "price": 31.95
+      },
+      {
+        "date": "2026-11-14 15:28:25",
+        "price": 32.95
       }
     ],
     "pending_drop": null
@@ -3822,14 +3826,18 @@
     }
   },
   "morrison hotel": {
-    "current": 37.91,
+    "current": 32.97,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
         "price": 37.91
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-14 15:28:25",
+      "old_price": 37.91,
+      "new_price": 32.97
+    }
   },
   "ghosteen": {
     "current": 34.9,
