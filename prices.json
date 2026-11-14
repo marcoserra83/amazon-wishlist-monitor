@@ -1974,7 +1974,7 @@
     "pending_drop": null
   },
   "bleach ed": {
-    "current": 27.5,
+    "current": 25.99,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -2009,7 +2009,11 @@
         "price": 27.5
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-14 21:27:40",
+      "old_price": 27.5,
+      "new_price": 25.99
+    }
   },
   "the ballad of darren": {
     "current": 25.9,
