@@ -3506,7 +3506,7 @@
     "pending_drop": null
   },
   "reggatta de blanc": {
-    "current": 33.99,
+    "current": 33.97,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -3571,6 +3571,10 @@
       {
         "date": "2026-11-15 08:48:13",
         "price": 33.99
+      },
+      {
+        "date": "2026-11-15 11:17:51",
+        "price": 33.97
       }
     ],
     "pending_drop": null
@@ -4004,7 +4008,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 50.44,
+    "current": 56.43,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -4077,6 +4081,10 @@
       {
         "date": "2026-11-15 08:48:13",
         "price": 50.44
+      },
+      {
+        "date": "2026-11-15 11:17:51",
+        "price": 56.43
       }
     ],
     "pending_drop": null
