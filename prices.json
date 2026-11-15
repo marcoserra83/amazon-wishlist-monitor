@@ -906,11 +906,15 @@
     }
   },
   "boarding house reach": {
-    "current": 35.0,
+    "current": 39.23,
     "history": [
       {
         "date": "2026-11-15 17:09:11",
         "price": 35.0
+      },
+      {
+        "date": "2026-11-15 17:17:24",
+        "price": 39.23
       }
     ],
     "pending_drop": null
@@ -6696,7 +6700,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 43.13,
+    "current": 34.49,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -6711,7 +6715,11 @@
         "price": 43.13
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-15 17:17:24",
+      "old_price": 43.13,
+      "new_price": 34.49
+    }
   },
   "rebetiko gymnastas": {
     "current": 99.99,
