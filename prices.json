@@ -410,7 +410,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 28.24,
+    "current": 34.94,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -559,13 +559,13 @@
       {
         "date": "2026-11-15 22:08:54",
         "price": 34.94
+      },
+      {
+        "date": "2026-11-16 00:57:16",
+        "price": 34.94
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-15 22:39:06",
-      "old_price": 34.94,
-      "new_price": 28.24
-    }
+    "pending_drop": null
   },
   "l ornamento delle cose secondarie nero": {
     "current": 33.5,
