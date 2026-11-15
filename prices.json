@@ -905,6 +905,16 @@
       "new_price": 26.74
     }
   },
+  "boarding house reach": {
+    "current": 35.0,
+    "history": [
+      {
+        "date": "2026-11-15 17:09:11",
+        "price": 35.0
+      }
+    ],
+    "pending_drop": null
+  },
   "fear of the dawn": {
     "current": 25.0,
     "history": [
