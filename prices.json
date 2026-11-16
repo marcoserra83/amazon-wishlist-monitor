@@ -1698,7 +1698,7 @@
     "pending_drop": null
   },
   "evergreen e altre canzoni": {
-    "current": 33.21,
+    "current": 29.52,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -1841,7 +1841,11 @@
         "price": 33.21
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-16 12:59:18",
+      "old_price": 33.21,
+      "new_price": 29.52
+    }
   },
   "resta vile maschio dove vai": {
     "current": 46.0,
