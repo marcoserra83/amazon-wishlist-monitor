@@ -3756,7 +3756,7 @@
     "pending_drop": null
   },
   "greatest hits": {
-    "current": 27.45,
+    "current": 24.4,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -3847,7 +3847,11 @@
         "price": 27.45
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-16 03:37:58",
+      "old_price": 27.45,
+      "new_price": 24.4
+    }
   },
   "octahedron": {
     "current": 51.87,
@@ -7466,7 +7470,7 @@
     "pending_drop": null
   },
   "back in": {
-    "current": 20.04,
+    "current": 17.82,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -7557,7 +7561,11 @@
         "price": 20.04
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-16 03:37:58",
+      "old_price": 20.04,
+      "new_price": 17.82
+    }
   },
   "guest star bill evans alone together": {
     "current": 27.57,
