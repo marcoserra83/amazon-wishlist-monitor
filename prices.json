@@ -4082,7 +4082,7 @@
     "pending_drop": null
   },
   "blood sugar sex magik": {
-    "current": 37.9,
+    "current": 34.32,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -4205,7 +4205,11 @@
         "price": 37.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-16 23:17:26",
+      "old_price": 37.9,
+      "new_price": 34.32
+    }
   },
   "riot on a empty street": {
     "current": 48.39,
