@@ -522,7 +522,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 28.24,
+    "current": 34.94,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -707,13 +707,13 @@
       {
         "date": "2026-11-16 21:18:25",
         "price": 34.94
+      },
+      {
+        "date": "2026-11-17 00:27:55",
+        "price": 34.94
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-16 21:48:23",
-      "old_price": 34.94,
-      "new_price": 28.24
-    }
+    "pending_drop": null
   },
   "l ornamento delle cose secondarie nero": {
     "current": 33.5,
@@ -10216,7 +10216,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 34.55,
+    "current": 43.13,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -10277,13 +10277,13 @@
       {
         "date": "2026-11-16 21:18:25",
         "price": 43.13
+      },
+      {
+        "date": "2026-11-17 00:27:55",
+        "price": 43.13
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-16 21:48:23",
-      "old_price": 43.13,
-      "new_price": 34.55
-    }
+    "pending_drop": null
   },
   "rebetiko gymnastas": {
     "current": 99.99,
