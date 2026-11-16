@@ -4988,7 +4988,7 @@
     "pending_drop": null
   },
   "synkronized": {
-    "current": 40.01,
+    "current": 30.0,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -5099,7 +5099,11 @@
         "price": 40.01
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-16 20:48:29",
+      "old_price": 40.01,
+      "new_price": 30.0
+    }
   },
   "emergency on planet earth": {
     "current": 36.72,
@@ -5968,7 +5972,7 @@
     "pending_drop": null
   },
   "top": {
-    "current": 29.9,
+    "current": 29.38,
     "history": [
       {
         "date": "2026-11-13 09:08:43",
@@ -6085,6 +6089,10 @@
       {
         "date": "2026-11-16 20:27:52",
         "price": 29.9
+      },
+      {
+        "date": "2026-11-16 20:48:29",
+        "price": 29.38
       }
     ],
     "pending_drop": null
