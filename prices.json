@@ -3268,7 +3268,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 51.8,
+    "current": 59.58,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
@@ -3489,6 +3489,10 @@
       {
         "date": "2026-11-17 06:17:45",
         "price": 51.8
+      },
+      {
+        "date": "2026-11-17 07:17:58",
+        "price": 59.58
       }
     ],
     "pending_drop": null
@@ -4462,7 +4466,7 @@
     "pending_drop": null
   },
   "money for nothing": {
-    "current": 37.11,
+    "current": 34.32,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -4473,7 +4477,11 @@
         "price": 37.11
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-17 07:17:58",
+      "old_price": 37.11,
+      "new_price": 34.32
+    }
   },
   "good bye lenin": {
     "current": 30.86,
@@ -4684,7 +4692,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 65.54,
+    "current": 66.99,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -4693,6 +4701,10 @@
       {
         "date": "2026-11-17 06:17:45",
         "price": 65.54
+      },
+      {
+        "date": "2026-11-17 07:17:58",
+        "price": 66.99
       }
     ],
     "pending_drop": null
