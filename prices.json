@@ -4018,11 +4018,15 @@
     "pending_drop": null
   },
   "up": {
-    "current": 40.95,
+    "current": 41.95,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
         "price": 40.95
+      },
+      {
+        "date": "2026-11-17 05:17:48",
+        "price": 41.95
       }
     ],
     "pending_drop": null
