@@ -6252,7 +6252,7 @@
     "pending_drop": null
   },
   "led zeppelin iv": {
-    "current": 25.9,
+    "current": 23.12,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -6291,7 +6291,11 @@
         "price": 25.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-17 20:08:43",
+      "old_price": 25.9,
+      "new_price": 23.12
+    }
   },
   "led zeppelin iii": {
     "current": 31.95,
