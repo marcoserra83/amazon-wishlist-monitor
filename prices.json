@@ -666,7 +666,7 @@
     "pending_drop": null
   },
   "honky chateau": {
-    "current": 28.26,
+    "current": 34.94,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -907,13 +907,13 @@
       {
         "date": "2026-11-17 23:08:49",
         "price": 34.94
+      },
+      {
+        "date": "2026-11-18 00:28:39",
+        "price": 34.94
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-17 23:38:40",
-      "old_price": 34.94,
-      "new_price": 28.26
-    }
+    "pending_drop": null
   },
   "l ornamento delle cose secondarie nero": {
     "current": 30.15,
@@ -6774,7 +6774,7 @@
     "pending_drop": null
   },
   "led zeppelin iii": {
-    "current": 31.95,
+    "current": 32.13,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -6831,6 +6831,10 @@
       {
         "date": "2026-11-17 23:38:40",
         "price": 31.95
+      },
+      {
+        "date": "2026-11-18 00:28:39",
+        "price": 32.13
       }
     ],
     "pending_drop": null
@@ -7706,7 +7710,7 @@
     "pending_drop": null
   },
   "heroes": {
-    "current": 32.48,
+    "current": 32.62,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -7751,6 +7755,10 @@
       {
         "date": "2026-11-17 23:38:40",
         "price": 32.48
+      },
+      {
+        "date": "2026-11-18 00:28:39",
+        "price": 32.62
       }
     ],
     "pending_drop": null
