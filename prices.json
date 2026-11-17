@@ -1418,11 +1418,15 @@
     }
   },
   "boarding house reach": {
-    "current": 35.29,
+    "current": 35.55,
     "history": [
       {
         "date": "2026-11-17 10:38:35",
         "price": 35.29
+      },
+      {
+        "date": "2026-11-17 10:58:26",
+        "price": 35.55
       }
     ],
     "pending_drop": null
