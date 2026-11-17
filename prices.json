@@ -4628,7 +4628,7 @@
     "pending_drop": null
   },
   "reggatta de blanc": {
-    "current": 33.97,
+    "current": 28.09,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -4647,7 +4647,11 @@
         "price": 33.97
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-17 09:38:04",
+      "old_price": 33.97,
+      "new_price": 28.09
+    }
   },
   "la matematica dei rami": {
     "current": 17.06,
@@ -5114,7 +5118,7 @@
     "pending_drop": null
   },
   "led zeppelin iii": {
-    "current": 33.68,
+    "current": 38.99,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -5131,6 +5135,10 @@
       {
         "date": "2026-11-17 08:48:27",
         "price": 33.68
+      },
+      {
+        "date": "2026-11-17 09:38:04",
+        "price": 38.99
       }
     ],
     "pending_drop": null
@@ -5486,14 +5494,18 @@
     "pending_drop": null
   },
   "camera a sud": {
-    "current": 33.21,
+    "current": 26.57,
     "history": [
       {
         "date": "2026-11-17 08:48:27",
         "price": 33.21
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-17 09:38:04",
+      "old_price": 33.21,
+      "new_price": 26.57
+    }
   },
   "soft parade": {
     "current": 33.61,
