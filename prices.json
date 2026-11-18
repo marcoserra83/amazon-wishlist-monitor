@@ -3584,7 +3584,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 33.03,
+    "current": 25.89,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
@@ -3943,7 +3943,11 @@
         "price": 33.03
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-18 06:17:25",
+      "old_price": 33.03,
+      "new_price": 25.89
+    }
   },
   "disco x 180 gr": {
     "current": 29.9,
@@ -6900,7 +6904,7 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 37.99,
+    "current": 31.86,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -6963,7 +6967,11 @@
         "price": 37.99
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-18 06:17:25",
+      "old_price": 37.99,
+      "new_price": 31.86
+    }
   },
   "morning view": {
     "current": 39.99,
