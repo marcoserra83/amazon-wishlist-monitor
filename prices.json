@@ -8230,7 +8230,7 @@
     "pending_drop": null
   },
   "led zeppelin iii": {
-    "current": 32.13,
+    "current": 31.95,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -8315,6 +8315,10 @@
       {
         "date": "2026-11-18 10:28:22",
         "price": 32.13
+      },
+      {
+        "date": "2026-11-18 12:48:19",
+        "price": 31.95
       }
     ],
     "pending_drop": null
