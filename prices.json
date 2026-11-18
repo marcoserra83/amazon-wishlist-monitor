@@ -1678,11 +1678,15 @@
     }
   },
   "boarding house reach": {
-    "current": 35.82,
+    "current": 39.78,
     "history": [
       {
         "date": "2026-11-18 02:57:56",
         "price": 35.82
+      },
+      {
+        "date": "2026-11-18 03:57:43",
+        "price": 39.78
       }
     ],
     "pending_drop": null
@@ -7776,7 +7780,7 @@
     "pending_drop": null
   },
   "s m2 box": {
-    "current": 95.88,
+    "current": 83.9,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -7835,7 +7839,11 @@
         "price": 95.88
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-18 03:57:43",
+      "old_price": 95.88,
+      "new_price": 83.9
+    }
   },
   "load": {
     "current": 46.95,
