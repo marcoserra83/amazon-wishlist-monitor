@@ -3584,7 +3584,7 @@
     "pending_drop": null
   },
   "hot fuzz": {
-    "current": 25.89,
+    "current": 33.03,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
@@ -3937,6 +3937,10 @@
       {
         "date": "2026-11-18 02:57:56",
         "price": 25.89
+      },
+      {
+        "date": "2026-11-18 05:58:12",
+        "price": 33.03
       }
     ],
     "pending_drop": null
@@ -6896,7 +6900,7 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 31.86,
+    "current": 37.99,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -6953,16 +6957,16 @@
       {
         "date": "2026-11-18 02:48:13",
         "price": 34.01
+      },
+      {
+        "date": "2026-11-18 05:58:12",
+        "price": 37.99
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-18 02:57:56",
-      "old_price": 34.01,
-      "new_price": 31.86
-    }
+    "pending_drop": null
   },
   "morning view": {
-    "current": 31.86,
+    "current": 39.99,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -7023,13 +7027,13 @@
       {
         "date": "2026-11-18 02:48:13",
         "price": 38.63
+      },
+      {
+        "date": "2026-11-18 05:58:12",
+        "price": 39.99
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-18 02:57:56",
-      "old_price": 38.63,
-      "new_price": 31.86
-    }
+    "pending_drop": null
   },
   "marauder": {
     "current": 28.42,
