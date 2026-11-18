@@ -4106,11 +4106,15 @@
     "pending_drop": null
   },
   "love over gold": {
-    "current": 31.41,
+    "current": 31.15,
     "history": [
       {
         "date": "2026-11-18 20:28:08",
         "price": 31.41
+      },
+      {
+        "date": "2026-11-18 21:08:05",
+        "price": 31.15
       }
     ],
     "pending_drop": null
