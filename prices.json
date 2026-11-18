@@ -5779,6 +5779,16 @@
       "new_price": 20.39
     }
   },
+  "monster": {
+    "current": 28.18,
+    "history": [
+      {
+        "date": "2026-11-19 00:38:24",
+        "price": 28.18
+      }
+    ],
+    "pending_drop": null
+  },
   "up": {
     "current": 41.95,
     "history": [
@@ -10336,7 +10346,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 33.02,
+    "current": 33.27,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -10433,13 +10443,13 @@
       {
         "date": "2026-11-18 21:28:14",
         "price": 43.55
+      },
+      {
+        "date": "2026-11-19 00:38:24",
+        "price": 33.27
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-18 21:57:38",
-      "old_price": 43.55,
-      "new_price": 33.02
-    }
+    "pending_drop": null
   },
   "rebetiko gymnastas": {
     "current": 99.99,
