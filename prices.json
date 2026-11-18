@@ -5944,7 +5944,7 @@
     "pending_drop": null
   },
   "greatest hits": {
-    "current": 24.4,
+    "current": 27.99,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -6009,6 +6009,10 @@
       {
         "date": "2026-11-18 08:58:32",
         "price": 24.4
+      },
+      {
+        "date": "2026-11-18 09:48:26",
+        "price": 27.99
       }
     ],
     "pending_drop": null
