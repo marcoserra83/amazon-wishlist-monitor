@@ -9571,6 +9571,16 @@
     ],
     "pending_drop": null
   },
+  "noctourniquet": {
+    "current": 40.72,
+    "history": [
+      {
+        "date": "2026-11-19 11:28:29",
+        "price": 40.72
+      }
+    ],
+    "pending_drop": null
+  },
   "sleeping with ghosts": {
     "current": 26.89,
     "history": [
