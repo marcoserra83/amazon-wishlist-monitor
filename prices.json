@@ -11908,7 +11908,7 @@
     "pending_drop": null
   },
   "let love in": {
-    "current": 26.99,
+    "current": 29.99,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -12017,12 +12017,16 @@
       {
         "date": "2026-11-19 13:17:34",
         "price": 26.99
+      },
+      {
+        "date": "2026-11-19 14:17:17",
+        "price": 29.99
       }
     ],
     "pending_drop": null
   },
   "interpol": {
-    "current": 33.27,
+    "current": 33.52,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -12147,13 +12151,13 @@
       {
         "date": "2026-11-19 13:09:21",
         "price": 43.55
+      },
+      {
+        "date": "2026-11-19 14:17:17",
+        "price": 33.52
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-19 13:17:34",
-      "old_price": 43.55,
-      "new_price": 33.27
-    }
+    "pending_drop": null
   },
   "rebetiko gymnastas": {
     "current": 99.99,
@@ -12176,7 +12180,7 @@
     "pending_drop": null
   },
   "soft parade": {
-    "current": 33.73,
+    "current": 33.98,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -12253,6 +12257,10 @@
       {
         "date": "2026-11-19 13:17:34",
         "price": 33.73
+      },
+      {
+        "date": "2026-11-19 14:17:17",
+        "price": 33.98
       }
     ],
     "pending_drop": null
