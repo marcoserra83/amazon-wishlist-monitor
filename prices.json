@@ -5851,16 +5851,6 @@
     ],
     "pending_drop": null
   },
-  "monster": {
-    "current": 28.18,
-    "history": [
-      {
-        "date": "2026-11-19 01:17:53",
-        "price": 28.18
-      }
-    ],
-    "pending_drop": null
-  },
   "up": {
     "current": 41.95,
     "history": [
