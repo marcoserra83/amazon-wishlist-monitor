@@ -14286,7 +14286,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 27.57,
+    "current": 25.04,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -14453,7 +14453,11 @@
         "price": 27.57
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-20 08:08:31",
+      "old_price": 27.57,
+      "new_price": 25.04
+    }
   },
   "anime salve": {
     "current": 25.99,
