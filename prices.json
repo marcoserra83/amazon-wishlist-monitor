@@ -1924,7 +1924,7 @@
     "pending_drop": null
   },
   "vauxhall i definitive": {
-    "current": 26.74,
+    "current": 27.07,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -2253,13 +2253,13 @@
       {
         "date": "2026-11-20 04:48:16",
         "price": 42.93
+      },
+      {
+        "date": "2026-11-20 09:27:39",
+        "price": 27.07
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-20 05:07:57",
-      "old_price": 42.93,
-      "new_price": 26.74
-    }
+    "pending_drop": null
   },
   "boarding house reach": {
     "current": 39.78,
@@ -5840,7 +5840,7 @@
     }
   },
   "fear of music": {
-    "current": 30.89,
+    "current": 31.44,
     "history": [
       {
         "date": "2026-11-11 02:38:57",
@@ -6413,6 +6413,10 @@
       {
         "date": "2026-11-20 05:07:57",
         "price": 30.89
+      },
+      {
+        "date": "2026-11-20 09:27:39",
+        "price": 31.44
       }
     ],
     "pending_drop": null
@@ -11556,7 +11560,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 45.08,
+    "current": 53.42,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -11705,13 +11709,13 @@
       {
         "date": "2026-11-20 04:48:16",
         "price": 60.74
+      },
+      {
+        "date": "2026-11-20 09:27:39",
+        "price": 53.42
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-20 05:07:57",
-      "old_price": 60.74,
-      "new_price": 45.08
-    }
+    "pending_drop": null
   },
   "out of time": {
     "current": 21.56,
@@ -12478,7 +12482,7 @@
     "pending_drop": null
   },
   "led zeppelin iii": {
-    "current": 31.95,
+    "current": 38.61,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -12727,6 +12731,10 @@
       {
         "date": "2026-11-20 05:07:57",
         "price": 31.95
+      },
+      {
+        "date": "2026-11-20 09:27:39",
+        "price": 38.61
       }
     ],
     "pending_drop": null
