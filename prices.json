@@ -7950,11 +7950,15 @@
     "pending_drop": null
   },
   "new adventures in hi fi": {
-    "current": 45.95,
+    "current": 49.5,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
         "price": 45.95
+      },
+      {
+        "date": "2026-11-20 21:28:26",
+        "price": 49.5
       }
     ],
     "pending_drop": null
@@ -16770,7 +16774,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 43.55,
+    "current": 34.67,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -16933,7 +16937,11 @@
         "price": 43.55
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-20 21:28:26",
+      "old_price": 43.55,
+      "new_price": 34.67
+    }
   },
   "rebetiko gymnastas": {
     "current": 99.99,
