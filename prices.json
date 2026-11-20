@@ -10238,7 +10238,7 @@
     }
   },
   "swing in the films of woody allen": {
-    "current": 20.21,
+    "current": 29.25,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -10407,13 +10407,13 @@
       {
         "date": "2026-11-20 16:18:20",
         "price": 29.25
+      },
+      {
+        "date": "2026-11-20 17:38:15",
+        "price": 29.25
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-20 16:38:04",
-      "old_price": 29.25,
-      "new_price": 20.21
-    }
+    "pending_drop": null
   },
   "tici canzoni urgenti": {
     "current": 32.9,
@@ -11634,7 +11634,7 @@
     "pending_drop": null
   },
   "good bye lenin": {
-    "current": 32.94,
+    "current": 34.01,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -11807,6 +11807,10 @@
       {
         "date": "2026-11-20 16:38:04",
         "price": 32.94
+      },
+      {
+        "date": "2026-11-20 17:38:15",
+        "price": 34.01
       }
     ],
     "pending_drop": null
