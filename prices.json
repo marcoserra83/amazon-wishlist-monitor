@@ -1,6 +1,6 @@
 {
   "mio fratello e figlio unico 50 anniversario": {
-    "current": 30.15,
+    "current": 26.8,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -355,7 +355,11 @@
         "price": 30.15
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-21 02:47:36",
+      "old_price": 30.15,
+      "new_price": 26.8
+    }
   },
   "star nero": {
     "current": 43.99,
@@ -16744,7 +16748,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 25.04,
+    "current": 25.08,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -16945,6 +16949,10 @@
       {
         "date": "2026-11-21 00:18:11",
         "price": 25.04
+      },
+      {
+        "date": "2026-11-21 02:47:36",
+        "price": 25.08
       }
     ],
     "pending_drop": null
