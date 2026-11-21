@@ -3364,7 +3364,7 @@
     "pending_drop": null
   },
   "relax": {
-    "current": 29.99,
+    "current": 30.9,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -3729,6 +3729,10 @@
       {
         "date": "2026-11-21 06:07:55",
         "price": 29.99
+      },
+      {
+        "date": "2026-11-21 06:57:45",
+        "price": 30.9
       }
     ],
     "pending_drop": null
@@ -13312,7 +13316,7 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 31.86,
+    "current": 41.49,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -13521,12 +13525,16 @@
       {
         "date": "2026-11-21 04:57:50",
         "price": 41.49
+      },
+      {
+        "date": "2026-11-21 06:57:45",
+        "price": 41.49
       }
     ],
     "pending_drop": null
   },
   "morning view": {
-    "current": 39.84,
+    "current": 31.86,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -13749,7 +13757,11 @@
         "price": 39.84
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-21 06:57:45",
+      "old_price": 39.84,
+      "new_price": 31.86
+    }
   },
   "marauder": {
     "current": 28.42,
@@ -17568,7 +17580,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 25.08,
+    "current": 27.57,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -17785,19 +17797,27 @@
       {
         "date": "2026-11-21 06:07:55",
         "price": 25.08
+      },
+      {
+        "date": "2026-11-21 06:57:45",
+        "price": 27.57
       }
     ],
     "pending_drop": null
   },
   "anime salve": {
-    "current": 25.99,
+    "current": 24.4,
     "history": [
       {
         "date": "2026-11-21 06:07:55",
         "price": 25.99
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-21 06:57:45",
+      "old_price": 25.99,
+      "new_price": 24.4
+    }
   },
   "fabrizio de andre": {
     "current": 28.99,
