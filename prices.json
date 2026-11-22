@@ -6394,14 +6394,18 @@
     "pending_drop": null
   },
   "love over gold": {
-    "current": 31.14,
+    "current": 29.38,
     "history": [
       {
         "date": "2026-11-22 17:18:06",
         "price": 31.14
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-22 19:08:45",
+      "old_price": 31.14,
+      "new_price": 29.38
+    }
   },
   "disco x 180 gr": {
     "current": 29.9,
