@@ -10332,7 +10332,7 @@
     "pending_drop": null
   },
   "like clockwork": {
-    "current": 34.1,
+    "current": 27.28,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -10619,7 +10619,11 @@
         "price": 34.1
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-22 18:48:14",
+      "old_price": 34.1,
+      "new_price": 27.28
+    }
   },
   "bleach ed": {
     "current": 24.75,
@@ -14940,7 +14944,7 @@
     "pending_drop": null
   },
   "ixnay on the hombre": {
-    "current": 50.62,
+    "current": 50.6,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -15221,13 +15225,13 @@
       {
         "date": "2026-11-22 17:18:06",
         "price": 56.43
+      },
+      {
+        "date": "2026-11-22 18:48:14",
+        "price": 50.6
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-22 18:08:35",
-      "old_price": 56.43,
-      "new_price": 50.62
-    }
+    "pending_drop": null
   },
   "ignition": {
     "current": 22.27,
