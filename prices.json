@@ -15712,7 +15712,7 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 41.49,
+    "current": 31.86,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -15987,10 +15987,14 @@
         "price": 41.49
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-22 06:17:54",
+      "old_price": 41.49,
+      "new_price": 31.86
+    }
   },
   "morning view": {
-    "current": 31.86,
+    "current": 39.99,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -16271,13 +16275,13 @@
       {
         "date": "2026-11-22 05:09:30",
         "price": 38.63
+      },
+      {
+        "date": "2026-11-22 06:17:54",
+        "price": 39.99
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-22 05:17:12",
-      "old_price": 38.63,
-      "new_price": 31.86
-    }
+    "pending_drop": null
   },
   "marauder": {
     "current": 28.42,
