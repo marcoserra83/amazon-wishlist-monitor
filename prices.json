@@ -3635,6 +3635,16 @@
     ],
     "pending_drop": null
   },
+  "mainstream": {
+    "current": 29.52,
+    "history": [
+      {
+        "date": "2026-11-22 03:27:22",
+        "price": 29.52
+      }
+    ],
+    "pending_drop": null
+  },
   "relax": {
     "current": 30.9,
     "history": [
