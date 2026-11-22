@@ -13332,11 +13332,15 @@
     }
   },
   "swing in the films of woody allen": {
-    "current": 28.07,
+    "current": 28.28,
     "history": [
       {
         "date": "2026-11-22 05:17:12",
         "price": 28.07
+      },
+      {
+        "date": "2026-11-22 08:08:25",
+        "price": 28.28
       }
     ],
     "pending_drop": null
@@ -15712,7 +15716,7 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 31.86,
+    "current": 41.49,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -15985,16 +15989,16 @@
       {
         "date": "2026-11-22 05:17:12",
         "price": 41.49
+      },
+      {
+        "date": "2026-11-22 08:08:25",
+        "price": 41.49
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-22 06:17:54",
-      "old_price": 41.49,
-      "new_price": 31.86
-    }
+    "pending_drop": null
   },
   "morning view": {
-    "current": 39.99,
+    "current": 31.86,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -16281,7 +16285,11 @@
         "price": 39.99
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-22 08:08:25",
+      "old_price": 39.99,
+      "new_price": 31.86
+    }
   },
   "marauder": {
     "current": 28.42,
@@ -21216,7 +21224,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 27.57,
+    "current": 25.08,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -21503,7 +21511,11 @@
         "price": 27.57
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-22 08:08:25",
+      "old_price": 27.57,
+      "new_price": 25.08
+    }
   },
   "anime salve": {
     "current": 24.4,
