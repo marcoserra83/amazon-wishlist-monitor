@@ -16856,7 +16856,7 @@
     "pending_drop": null
   },
   "good bye lenin": {
-    "current": 32.94,
+    "current": 34.01,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -17177,6 +17177,10 @@
       {
         "date": "2026-11-23 07:08:16",
         "price": 32.94
+      },
+      {
+        "date": "2026-11-23 08:47:08",
+        "price": 34.01
       }
     ],
     "pending_drop": null
