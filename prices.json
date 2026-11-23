@@ -21222,7 +21222,7 @@
     "pending_drop": null
   },
   "led zeppelin iii": {
-    "current": 35.09,
+    "current": 31.58,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -21657,7 +21657,11 @@
         "price": 35.09
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-23 18:28:12",
+      "old_price": 35.09,
+      "new_price": 31.58
+    }
   },
   "festival session 2 bonus tracks": {
     "current": 52.42,
