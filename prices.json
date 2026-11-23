@@ -14366,7 +14366,7 @@
     "pending_drop": null
   },
   "playing the angel": {
-    "current": 25.99,
+    "current": 27.99,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -14699,6 +14699,10 @@
       {
         "date": "2026-11-23 21:27:42",
         "price": 25.99
+      },
+      {
+        "date": "2026-11-23 23:08:52",
+        "price": 27.99
       }
     ],
     "pending_drop": null
@@ -17768,7 +17772,7 @@
     "pending_drop": null
   },
   "good bye lenin": {
-    "current": 34.01,
+    "current": 32.94,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -18125,6 +18129,10 @@
       {
         "date": "2026-11-23 21:27:42",
         "price": 34.01
+      },
+      {
+        "date": "2026-11-23 23:08:52",
+        "price": 32.94
       }
     ],
     "pending_drop": null
