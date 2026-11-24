@@ -7046,11 +7046,15 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 54.48,
+    "current": 54.09,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
         "price": 54.48
+      },
+      {
+        "date": "2026-11-24 09:47:58",
+        "price": 54.09
       }
     ],
     "pending_drop": null
@@ -7086,7 +7090,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 27.95,
+    "current": 23.94,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -7097,7 +7101,11 @@
         "price": 27.95
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-24 09:47:58",
+      "old_price": 27.95,
+      "new_price": 23.94
+    }
   },
   "our love to admire": {
     "current": 30.69,
@@ -7290,11 +7298,15 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 34.58,
+    "current": 34.84,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
         "price": 34.58
+      },
+      {
+        "date": "2026-11-24 09:47:58",
+        "price": 34.84
       }
     ],
     "pending_drop": null
