@@ -6760,7 +6760,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 50.08,
+    "current": 61.71,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -6769,13 +6769,13 @@
       {
         "date": "2026-11-24 10:37:55",
         "price": 60.8
+      },
+      {
+        "date": "2026-11-24 12:08:51",
+        "price": 61.71
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-24 11:47:48",
-      "old_price": 60.8,
-      "new_price": 50.08
-    }
+    "pending_drop": null
   },
   "fear of music": {
     "current": 30.89,
@@ -6880,7 +6880,7 @@
     "pending_drop": null
   },
   "riot on a empty street": {
-    "current": 48.09,
+    "current": 47.79,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -6889,6 +6889,10 @@
       {
         "date": "2026-11-24 10:37:55",
         "price": 48.09
+      },
+      {
+        "date": "2026-11-24 12:08:51",
+        "price": 47.79
       }
     ],
     "pending_drop": null
@@ -7076,11 +7080,15 @@
     }
   },
   "swing in the films of woody allen": {
-    "current": 29.75,
+    "current": 29.97,
     "history": [
       {
         "date": "2026-11-24 10:37:55",
         "price": 29.75
+      },
+      {
+        "date": "2026-11-24 12:08:51",
+        "price": 29.97
       }
     ],
     "pending_drop": null
@@ -7420,7 +7428,7 @@
     "pending_drop": null
   },
   "s m": {
-    "current": 68.12,
+    "current": 65.54,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -7429,6 +7437,10 @@
       {
         "date": "2026-11-24 10:37:55",
         "price": 68.12
+      },
+      {
+        "date": "2026-11-24 12:08:51",
+        "price": 65.54
       }
     ],
     "pending_drop": null
