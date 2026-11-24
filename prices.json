@@ -20666,7 +20666,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 23.94,
+    "current": 27.95,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -21199,13 +21199,13 @@
       {
         "date": "2026-11-24 01:38:44",
         "price": 26.88
+      },
+      {
+        "date": "2026-11-24 06:37:41",
+        "price": 27.95
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-24 02:08:47",
-      "old_price": 26.88,
-      "new_price": 23.94
-    }
+    "pending_drop": null
   },
   "our love to admire": {
     "current": 30.69,
@@ -26046,7 +26046,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 25.08,
+    "current": 27.57,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -26415,6 +26415,10 @@
       {
         "date": "2026-11-24 02:08:47",
         "price": 25.08
+      },
+      {
+        "date": "2026-11-24 06:37:41",
+        "price": 27.57
       }
     ],
     "pending_drop": null
