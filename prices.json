@@ -7034,7 +7034,7 @@
     "pending_drop": null
   },
   "playing the angel": {
-    "current": 27.99,
+    "current": 23.6,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -7045,7 +7045,11 @@
         "price": 27.99
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-24 12:48:20",
+      "old_price": 27.99,
+      "new_price": 23.6
+    }
   },
   "reggatta de blanc": {
     "current": 28.09,
