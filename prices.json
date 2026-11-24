@@ -19028,7 +19028,7 @@
     "pending_drop": null
   },
   "light grenades": {
-    "current": 31.86,
+    "current": 41.49,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -19401,13 +19401,13 @@
       {
         "date": "2026-11-24 06:58:14",
         "price": 34.01
+      },
+      {
+        "date": "2026-11-24 07:28:37",
+        "price": 41.49
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-24 07:08:46",
-      "old_price": 34.01,
-      "new_price": 31.86
-    }
+    "pending_drop": null
   },
   "morning view": {
     "current": 31.86,
