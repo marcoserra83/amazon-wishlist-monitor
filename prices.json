@@ -15318,7 +15318,7 @@
     "pending_drop": null
   },
   "la matematica dei rami": {
-    "current": 17.06,
+    "current": 18.56,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -15659,13 +15659,13 @@
       {
         "date": "2026-11-24 01:38:44",
         "price": 19.64
+      },
+      {
+        "date": "2026-11-24 04:57:38",
+        "price": 18.56
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-24 02:08:47",
-      "old_price": 19.64,
-      "new_price": 17.06
-    }
+    "pending_drop": null
   },
   "swing in the films of woody allen": {
     "current": 29.75,
