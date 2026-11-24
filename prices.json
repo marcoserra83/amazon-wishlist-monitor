@@ -4004,7 +4004,7 @@
     "pending_drop": null
   },
   "relax": {
-    "current": 30.9,
+    "current": 21.63,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -4523,7 +4523,11 @@
         "price": 30.9
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-24 08:17:36",
+      "old_price": 30.9,
+      "new_price": 21.63
+    }
   },
   "evergreen e altre canzoni": {
     "current": 29.52,
@@ -20890,7 +20894,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 23.94,
+    "current": 27.95,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -21431,13 +21435,13 @@
       {
         "date": "2026-11-24 06:58:14",
         "price": 26.88
+      },
+      {
+        "date": "2026-11-24 08:17:36",
+        "price": 27.95
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-24 07:08:46",
-      "old_price": 26.88,
-      "new_price": 23.94
-    }
+    "pending_drop": null
   },
   "our love to admire": {
     "current": 30.69,
@@ -26334,7 +26338,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 27.57,
+    "current": 25.08,
     "history": [
       {
         "date": "2026-11-17 04:58:16",
@@ -26713,7 +26717,11 @@
         "price": 27.57
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-24 08:17:36",
+      "old_price": 27.57,
+      "new_price": 25.08
+    }
   },
   "anime salve": {
     "current": 24.4,
