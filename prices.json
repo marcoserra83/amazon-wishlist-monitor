@@ -6760,7 +6760,7 @@
     "pending_drop": null
   },
   "tracy chapman talkin about a revolution": {
-    "current": 60.8,
+    "current": 50.08,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -6771,7 +6771,11 @@
         "price": 60.8
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-24 11:47:48",
+      "old_price": 60.8,
+      "new_price": 50.08
+    }
   },
   "fear of music": {
     "current": 30.89,
@@ -7310,7 +7314,7 @@
     "pending_drop": null
   },
   "sleeping with ghosts": {
-    "current": 27.95,
+    "current": 23.94,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -7329,7 +7333,11 @@
         "price": 27.95
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-24 11:47:48",
+      "old_price": 27.95,
+      "new_price": 23.94
+    }
   },
   "our love to admire": {
     "current": 30.69,
