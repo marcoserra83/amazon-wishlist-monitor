@@ -8470,7 +8470,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 55.27,
+    "current": 48.31,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -8545,7 +8545,11 @@
         "price": 55.27
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-25 06:37:58",
+      "old_price": 55.27,
+      "new_price": 48.31
+    }
   },
   "star": {
     "current": 236.48,
@@ -9192,7 +9196,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 25.08,
+    "current": 27.57,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -9225,6 +9229,10 @@
       {
         "date": "2026-11-25 04:38:19",
         "price": 25.08
+      },
+      {
+        "date": "2026-11-25 06:37:58",
+        "price": 27.57
       }
     ],
     "pending_drop": null
