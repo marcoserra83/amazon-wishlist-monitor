@@ -11848,7 +11848,7 @@
     "pending_drop": null
   },
   "guest star bill evans alone together": {
-    "current": 27.57,
+    "current": 25.08,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -11931,7 +11931,11 @@
         "price": 27.57
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-26 08:48:21",
+      "old_price": 27.57,
+      "new_price": 25.08
+    }
   },
   "anime salve": {
     "current": 24.4,
@@ -12022,7 +12026,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 35.63,
+    "current": 35.9,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -12107,13 +12111,13 @@
       {
         "date": "2026-11-26 05:58:21",
         "price": 49.72
+      },
+      {
+        "date": "2026-11-26 08:48:21",
+        "price": 35.9
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-26 06:17:47",
-      "old_price": 49.72,
-      "new_price": 35.63
-    }
+    "pending_drop": null
   },
   "rebetiko gymnastas": {
     "current": 99.99,
