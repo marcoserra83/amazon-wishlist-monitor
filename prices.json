@@ -13470,7 +13470,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 42.77,
+    "current": 33.55,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -13657,7 +13657,11 @@
         "price": 42.77
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-27 18:17:50",
+      "old_price": 42.77,
+      "new_price": 33.55
+    }
   },
   "marauder": {
     "current": 28.42,
@@ -13806,7 +13810,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 57.27,
+    "current": 48.31,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -14045,7 +14049,11 @@
         "price": 57.27
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-27 18:17:50",
+      "old_price": 57.27,
+      "new_price": 48.31
+    }
   },
   "star": {
     "current": 235.47,
@@ -16806,7 +16814,7 @@
     "pending_drop": null
   },
   "interpol": {
-    "current": 36.44,
+    "current": 36.71,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -16967,13 +16975,13 @@
       {
         "date": "2026-11-27 16:38:49",
         "price": 49.72
+      },
+      {
+        "date": "2026-11-27 18:17:50",
+        "price": 36.71
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-27 16:48:47",
-      "old_price": 49.72,
-      "new_price": 36.44
-    }
+    "pending_drop": null
   },
   "rebetiko gymnastas": {
     "current": 99.99,
