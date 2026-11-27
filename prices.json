@@ -3776,7 +3776,7 @@
     }
   },
   "fear of the dawn": {
-    "current": 25.0,
+    "current": 28.98,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -4157,13 +4157,13 @@
       {
         "date": "2026-11-27 12:48:24",
         "price": 28.98
+      },
+      {
+        "date": "2026-11-27 14:18:38",
+        "price": 28.98
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-27 12:58:24",
-      "old_price": 28.98,
-      "new_price": 25.0
-    }
+    "pending_drop": null
   },
   "die": {
     "current": 69.99,
@@ -12908,7 +12908,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 43.69,
+    "current": 33.55,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -13067,7 +13067,11 @@
         "price": 43.69
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-27 14:18:38",
+      "old_price": 43.69,
+      "new_price": 33.55
+    }
   },
   "marauder": {
     "current": 28.42,
