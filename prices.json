@@ -4225,6 +4225,16 @@
     ],
     "pending_drop": null
   },
+  "entering heaven alive": {
+    "current": 28.43,
+    "history": [
+      {
+        "date": "2026-11-27 17:28:57",
+        "price": 28.43
+      }
+    ],
+    "pending_drop": null
+  },
   "die": {
     "current": 69.99,
     "history": [
@@ -13460,7 +13470,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 40.48,
+    "current": 41.93,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -13637,6 +13647,10 @@
       {
         "date": "2026-11-27 16:48:47",
         "price": 40.48
+      },
+      {
+        "date": "2026-11-27 17:28:57",
+        "price": 41.93
       }
     ],
     "pending_drop": null
