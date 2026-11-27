@@ -11830,11 +11830,15 @@
     }
   },
   "swing in the films of woody allen": {
-    "current": 30.1,
+    "current": 29.57,
     "history": [
       {
         "date": "2026-11-27 15:38:17",
         "price": 30.1
+      },
+      {
+        "date": "2026-11-27 16:17:40",
+        "price": 29.57
       }
     ],
     "pending_drop": null
@@ -13276,7 +13280,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 43.69,
+    "current": 39.85,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -13447,7 +13451,11 @@
         "price": 43.69
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-27 16:17:40",
+      "old_price": 43.69,
+      "new_price": 39.85
+    }
   },
   "marauder": {
     "current": 28.42,
