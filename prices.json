@@ -13470,7 +13470,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 33.55,
+    "current": 39.85,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -13655,13 +13655,13 @@
       {
         "date": "2026-11-27 17:38:47",
         "price": 42.77
+      },
+      {
+        "date": "2026-11-27 19:08:25",
+        "price": 39.85
       }
     ],
-    "pending_drop": {
-      "first_seen": "2026-11-27 18:17:50",
-      "old_price": 42.77,
-      "new_price": 33.55
-    }
+    "pending_drop": null
   },
   "marauder": {
     "current": 28.42,
@@ -14953,16 +14953,6 @@
       {
         "date": "2026-11-27 16:48:47",
         "price": 31.58
-      }
-    ],
-    "pending_drop": null
-  },
-  "festival session 2 bonus tracks": {
-    "current": 52.42,
-    "history": [
-      {
-        "date": "2026-11-27 16:48:47",
-        "price": 52.42
       }
     ],
     "pending_drop": null
