@@ -14558,7 +14558,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 46.92,
+    "current": 46.93,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -14859,6 +14859,10 @@
       {
         "date": "2026-11-28 07:18:20",
         "price": 46.92
+      },
+      {
+        "date": "2026-11-28 07:48:26",
+        "price": 46.93
       }
     ],
     "pending_drop": null
@@ -16362,7 +16366,7 @@
     "pending_drop": null
   },
   "reload": {
-    "current": 47.55,
+    "current": 54.57,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -16535,6 +16539,10 @@
       {
         "date": "2026-11-28 05:48:05",
         "price": 47.55
+      },
+      {
+        "date": "2026-11-28 07:48:26",
+        "price": 54.57
       }
     ],
     "pending_drop": null
