@@ -2572,7 +2572,7 @@
     "pending_drop": null
   },
   "innerspeaker": {
-    "current": 29.89,
+    "current": 23.91,
     "history": [
       {
         "date": "2026-11-05 17:32:35",
@@ -3251,7 +3251,11 @@
         "price": 29.89
       }
     ],
-    "pending_drop": null
+    "pending_drop": {
+      "first_seen": "2026-11-28 09:57:49",
+      "old_price": 29.89,
+      "new_price": 23.91
+    }
   },
   "vauxhall i definitive": {
     "current": 26.74,
