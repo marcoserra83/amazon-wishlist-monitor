@@ -14014,7 +14014,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 42.09,
+    "current": 43.31,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -14251,6 +14251,10 @@
       {
         "date": "2026-11-28 01:58:30",
         "price": 42.09
+      },
+      {
+        "date": "2026-11-28 02:18:19",
+        "price": 43.31
       }
     ],
     "pending_drop": null
@@ -14414,7 +14418,7 @@
     "pending_drop": null
   },
   "vol 3 the subliminal verses violet": {
-    "current": 48.31,
+    "current": 56.13,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -14675,6 +14679,10 @@
       {
         "date": "2026-11-28 01:58:30",
         "price": 48.31
+      },
+      {
+        "date": "2026-11-28 02:18:19",
+        "price": 56.13
       }
     ],
     "pending_drop": null
