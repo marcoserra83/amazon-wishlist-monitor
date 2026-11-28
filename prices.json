@@ -14194,7 +14194,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 45.42,
+    "current": 45.81,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -14447,6 +14447,10 @@
       {
         "date": "2026-11-28 03:27:51",
         "price": 45.42
+      },
+      {
+        "date": "2026-11-28 03:38:26",
+        "price": 45.81
       }
     ],
     "pending_drop": null
@@ -16926,7 +16930,7 @@
     "pending_drop": null
   },
   "master of puppets": {
-    "current": 29.69,
+    "current": 29.31,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -17087,6 +17091,10 @@
       {
         "date": "2026-11-28 03:27:51",
         "price": 29.69
+      },
+      {
+        "date": "2026-11-28 03:38:26",
+        "price": 29.31
       }
     ],
     "pending_drop": null
