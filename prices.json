@@ -14014,7 +14014,7 @@
     "pending_drop": null
   },
   "morning view": {
-    "current": 44.22,
+    "current": 44.91,
     "history": [
       {
         "date": "2026-11-24 09:28:11",
@@ -14259,6 +14259,10 @@
       {
         "date": "2026-11-28 02:38:23",
         "price": 44.22
+      },
+      {
+        "date": "2026-11-28 02:58:15",
+        "price": 44.91
       }
     ],
     "pending_drop": null
